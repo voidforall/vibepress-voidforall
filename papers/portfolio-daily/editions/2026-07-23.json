@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-23",
+  "date": "2026-07-23",
+  "generatedAt": "2026-07-23T22:24:52Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Across the watchlist today: Alphabet's earnings beat is overshadowed by a raised capex plan; Rocket Lab lands a $266M Space Force contract; China's approval of Apple Intelligence puts Alibaba's Qwen on Apple devices; Duolingo falls on soft guidance; and Barrick trades with gold near $4,000 after a rebrand and an analyst target cut. This is news, not investment advice.",
+  "stories": [
+    {
+      "headline": "Alphabet beats on Q2 revenue but lifts 2026 capex to $195–205B; shares slip",
+      "summary": "Alphabet reported Q2 2026 revenue up 24% to $119.8 billion with Google Cloud up 82% to $24.8 billion, per its 8-K and CNBC. It raised full-year capex guidance to $195–205 billion (from $180–190 billion); shares fell about 3.65% after hours to around $329.43.",
+      "whyItMatters": "Higher capex guidance alongside strong cloud growth is what moved GOOGL after hours — the disclosed trade-off between AI infrastructure spend and near-term margins.",
+      "category": "Earnings",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Alphabet Q2 2026 8-K exhibit (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000066/googexhibit991q22026.htm"
+        },
+        {
+          "title": "Alphabet Q2 earnings: revenue beats, stock sinks on capex hike (CNBC)",
+          "url": "https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab wins $266M Space Force suborbital launch contract",
+      "summary": "Rocket Lab was awarded a $266 million firm-fixed-price contract from the U.S. Space Force's Space Systems Command for 12 suborbital launches (six optional), with work at the Pacific Spaceport Complex in Alaska through 2028. Shares rose roughly 5.9% after hours to about $73.19.",
+      "whyItMatters": "A competitively awarded government contract adds disclosed backlog and was the catalyst for RKLB's move, against a stock still well off its 2026 highs.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab wins $266M Space Force contract (Benzinga)",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60605248/rocket-lab-wins-266-million-space-force-contract-for-suborbital-launches-stock-rises"
+        }
+      ]
+    },
+    {
+      "headline": "China clears Apple Intelligence, putting Alibaba's Qwen inside Apple's on-device AI",
+      "summary": "China's cyberspace regulator approved Apple Intelligence, with Alibaba's Qwen powering Apple's on-device generative AI for Chinese users, per coverage aggregated from Yahoo Finance and others; BABA's U.S. shares rose about 4%. Alibaba also previewed a new Qwen3.8-Max model, though it has not released a full model card or independent benchmarks.",
+      "whyItMatters": "The approval extends Alibaba's AI reach onto Apple's China iPhone base — a distribution channel beyond its own apps and cloud.",
+      "category": "Regulatory",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Alibaba joins Apple Intelligence in China (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alibaba-group-holding-baba-joins-001630752.html"
+        }
+      ]
+    },
+    {
+      "headline": "Duolingo drops as CEO flags slower growth and lower near-term profitability",
+      "summary": "Duolingo shares fell sharply after management guided to slower bookings growth and softer near-term margins, with CEO Luis von Ahn saying the company will prioritize user growth and AI investment, per Yahoo Finance. Full-year 2026 bookings were framed around the low-teens percent growth range.",
+      "whyItMatters": "The stock reaction reflects the guidance, not the reported quarter — the company chose growth and AI spend over near-term profitability.",
+      "category": "Company",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Duolingo shares drop despite earnings beat as outlook disappoints (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-shares-drop-despite-earnings-102356431.html"
+        }
+      ]
+    },
+    {
+      "headline": "Barrick (now 'Barrick Mining') tracks gold near $4,000 as Scotiabank trims target",
+      "summary": "With gold around $4,022/oz, Barrick — rebranded this year to Barrick Mining — rose in recent sessions, per Investing.com and 24/7 Wall St. Scotiabank cut its price target to $57 from $63 while keeping an Outperform rating; the company disclosed a $14.83M, 9.9% stake in Kingfisher Metals and set Q2 results for August 10.",
+      "whyItMatters": "The name/ticker change and an analyst target cut are the concrete items for holders to note; the share move is tied to the gold price rather than company-specific results.",
+      "category": "Markets",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Why is Barrick Mining stock rallying today (Investing.com)",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-barrick-mining-stock-rallying-today-93CH-4773177"
+        },
+        {
+          "title": "Gold is soaring, so why has Barrick fallen since its rebrand? (24/7 Wall St)",
+          "url": "https://247wallst.com/investing/2026/07/02/gold-is-soaring-so-why-has-barrick-fallen-since-its-rebrand/"
+        }
+      ]
+    }
+  ]
+}

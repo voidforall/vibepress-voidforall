@@ -1,0 +1,81 @@
+{
+  "slug": "portfolio-daily",
+  "name": "Portfolio Daily",
+  "tagline": "Your holdings, yesterday's news",
+  "storyCount": 8,
+  "categories": [
+    "Earnings",
+    "Company",
+    "Markets",
+    "Regulatory",
+    "Macro"
+  ],
+  "editorialVoice": "Factual and market-aware. Report what happened and disclosed facts only; never give buy/sell or personalized investment advice, and never state predictions as fact.",
+  "schedule": {
+    "cron": "0 7 * * *",
+    "timezone": "local"
+  },
+  "watchlist": [
+    {
+      "symbol": "BABA",
+      "name": "Alibaba"
+    },
+    {
+      "symbol": "DUOL",
+      "name": "Duolingo"
+    },
+    {
+      "symbol": "RKLB",
+      "name": "Rocket Lab"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet (Google)"
+    },
+    {
+      "symbol": "GOLD",
+      "name": "Barrick Gold"
+    }
+  ],
+  "sources": [
+    {
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=%22Alibaba%22%20%28BABA%20OR%20stock%20OR%20shares%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+      "limit": 6
+    },
+    {
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=%22Duolingo%22%20%28DUOL%20OR%20stock%20OR%20shares%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+      "limit": 6
+    },
+    {
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=%22Rocket%20Lab%22%20%28RKLB%20OR%20stock%20OR%20shares%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+      "limit": 6
+    },
+    {
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=%28%22Alphabet%22%20OR%20%22Google%22%29%20%28GOOGL%20OR%20stock%20OR%20shares%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+      "limit": 6
+    },
+    {
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=%22Barrick%20Gold%22%20%28GOLD%20OR%20stock%20OR%20shares%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+      "limit": 6
+    },
+    {
+      "type": "websearch",
+      "query": "BABA OR Duolingo OR \"Rocket Lab\" OR Alphabet OR \"Barrick Gold\" earnings OR rating OR filing OR guidance",
+      "recencyDays": 1,
+      "sites": [
+        "reuters.com",
+        "bloomberg.com",
+        "wsj.com",
+        "ft.com",
+        "cnbc.com",
+        "sec.gov"
+      ],
+      "limit": 8
+    }
+  ]
+}

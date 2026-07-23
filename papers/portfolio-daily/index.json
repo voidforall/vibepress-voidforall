@@ -1,0 +1,13 @@
+{
+  "slug": "portfolio-daily",
+  "name": "Portfolio Daily",
+  "tagline": "Your holdings, yesterday's news",
+  "editions": [
+    {
+      "id": "2026-07-23",
+      "date": "2026-07-23",
+      "headline": "Alphabet beats on Q2 revenue but lifts 2026 capex to $195–205B; shares slip",
+      "storyCount": 5
+    }
+  ]
+}
