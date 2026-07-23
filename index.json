@@ -2,5 +2,12 @@
   "editionTitle": "The Vibe Signal",
   "tagline": "AI & tech, distilled daily",
   "repoUrl": "https://github.com/voidforall/vibepress-voidforall",
-  "editions": []
+  "editions": [
+    {
+      "id": "2026-07-23",
+      "date": "2026-07-23",
+      "headline": "Report: five tech giants carry $1.65T in off-balance-sheet debt",
+      "storyCount": 5
+    }
+  ]
 }

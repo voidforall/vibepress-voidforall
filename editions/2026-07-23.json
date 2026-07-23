@@ -1,0 +1,74 @@
+{
+  "id": "2026-07-23",
+  "date": "2026-07-23",
+  "generatedAt": "2026-07-23T21:28:17Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today's edition tracks the money, hardware, and politics of the AI buildout: a report on debt the largest firms keep off their books, a price war among fresh frontier models, autonomy flown on a standard fighter jet, Meta opening a paid API, and a case for why open weights can't be bottled up.",
+  "stories": [
+    {
+      "headline": "Report: five tech giants carry $1.65T in off-balance-sheet debt",
+      "summary": "Futurism reports that Alphabet, Microsoft, Amazon, Meta, and Oracle hold roughly $1.65 trillion in debt through special purpose vehicles and separate subsidiaries, more than their ~$1.35 trillion in reported debt, with Meta alone accounting for about $420 billion. A consultant quoted in the piece likens the accounting to methods Enron used before its 2001 collapse.",
+      "whyItMatters": "Debt kept off the balance sheet understates how much of the AI buildout is financed by borrowing, which matters to anyone pricing these companies' risk.",
+      "category": "Business",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt (Futurism)",
+          "url": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet"
+        }
+      ]
+    },
+    {
+      "headline": "A frontier price war breaks out as GPT-5.6 and Grok 4.5 land",
+      "summary": "Per a release tracker, OpenAI's GPT-5.6 shipped as a three-tier family (Sol at $5/$30 per million tokens, Terra at $2/$15, and a faster Luna tier), while SpaceX AI's Grok 4.5, a 1.5-trillion-parameter mixture-of-experts model, arrived at $2/$6 with lower token use per task. The overlapping launches pushed prices down across tiers.",
+      "whyItMatters": "When comparable capability is available at a fraction of last generation's price, cost and fit start to matter as much as raw benchmark scores.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "July 2026 model releases (ThursdAI)",
+          "url": "https://thursdai.news/releases/2026-07"
+        }
+      ]
+    },
+    {
+      "headline": "DARPA and the Air Force fly an AI-piloted F-16",
+      "summary": "DARPA says it flew an AI-controlled F-16 on July 16, 2026 at Eglin Air Force Base under the VENOM program, with an AI agent autonomously piloting the jet while a human pilot monitored from the cockpit. A retrofit 'VENOM Autonomy Kit' lets pilots switch between human and AI control.",
+      "whyItMatters": "Running autonomy on a standard fighter, rather than a bespoke drone, is a step toward AI flight control on aircraft that already exist in the fleet.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "DARPA, U.S. Air Force fly AI-controlled F-16 (DARPA)",
+          "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16"
+        }
+      ]
+    },
+    {
+      "headline": "Meta opens its first paid developer API with Muse Spark 1.1",
+      "summary": "Meta introduced Muse Spark 1.1, a 1M-token-context agentic model, alongside its first paid developer API, offering $20 in free credits to US developers at launch and pricing the model at $1.25/$4.25 per million tokens. The tracker positions it against frontier models on agent benchmarks.",
+      "whyItMatters": "A paid API turns Meta's models from an in-house asset into a platform others can build on, putting it in direct competition for developer spend.",
+      "category": "Business",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "July 2026 model releases (ThursdAI)",
+          "url": "https://thursdai.news/releases/2026-07"
+        }
+      ]
+    },
+    {
+      "headline": "Essay: the arguments against open-source AI are weak",
+      "summary": "A widely-shared essay argues that suppressing open-source models is futile, citing 1990s encryption export controls—on PGP and SSL—that failed and were eventually protected as speech. It adds that many actors beyond China, from chipmakers who gain from token demand to startups building on top, have incentives to keep open models coming.",
+      "whyItMatters": "The open-weight debate is shaping coming U.S. policy, so how strong the case against openness really is has practical stakes.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "The arguments against open source AI are very bad (tombedor.dev)",
+          "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/"
+        }
+      ]
+    }
+  ]
+}
