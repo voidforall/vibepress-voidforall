@@ -1,0 +1,25 @@
+{
+  "editionTitle": "The Vibe Signal",
+  "tagline": "AI & tech, distilled daily",
+  "repoUrl": "https://github.com/voidforall/vibepress-voidforall",
+  "storyCount": 6,
+  "categories": [
+    "Technology",
+    "Business",
+    "Ideas"
+  ],
+  "editorialVoice": "Concise, factual, wry. No hype, no predictions stated as fact.",
+  "sources": {
+    "searchTopics": [
+      "artificial intelligence",
+      "large language models",
+      "developer tools"
+    ],
+    "rss": [],
+    "hackerNews": true
+  },
+  "schedule": {
+    "cron": "0 7 * * *",
+    "timezone": "local"
+  }
+}
