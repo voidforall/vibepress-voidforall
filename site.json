@@ -1,0 +1,15 @@
+{
+  "publisher": "voidforall's Newsstand",
+  "tagline": "Self-publishing dailies, made with vibepress",
+  "repoUrl": "https://github.com/voidforall/vibepress-voidforall",
+  "papers": [
+    {
+      "slug": "the-vibe-signal",
+      "name": "The Vibe Signal",
+      "tagline": "AI & tech, distilled daily",
+      "latestDate": "2026-07-23",
+      "latestHeadline": "Report: five tech giants carry $1.65T in off-balance-sheet debt",
+      "editionCount": 1
+    }
+  ]
+}

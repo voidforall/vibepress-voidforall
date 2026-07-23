@@ -1,26 +1,26 @@
-/* vibepress reader — loads the manifest + one edition, renders client-side.
- * Data is untrusted-at-render only in the sense that we always escape it. */
+/* vibepress reader — a newsstand of papers, each with its own dated editions.
+ * Routes off the URL hash:
+ *   #/                    → newsstand (all papers)
+ *   #/<slug>              → a paper's latest edition
+ *   #/<slug>/<date>       → a specific edition
+ * All rendered content is escaped; the data files are the only source of truth. */
 
 (function () {
   "use strict";
 
-  var els = {
-    title: document.getElementById("edition-title"),
-    tagline: document.getElementById("tagline"),
-    date: document.getElementById("edition-date"),
-    timeline: document.getElementById("timeline"),
-    edition: document.getElementById("edition"),
-    status: document.getElementById("status"),
-    repoLink: document.getElementById("repo-link"),
-  };
+  var masthead = document.getElementById("masthead");
+  var timeline = document.getElementById("timeline");
+  var main = document.getElementById("main");
+  var repoLink = document.getElementById("repo-link");
+
+  var site = null; // cached site.json
+
+  // --- helpers ---------------------------------------------------------------
 
   function escapeHtml(value) {
     return String(value == null ? "" : value)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#39;");
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
   }
 
   function safeUrl(value) {
@@ -31,9 +31,7 @@
   function formatDate(iso) {
     var d = new Date((iso || "") + "T00:00:00");
     if (isNaN(d.getTime())) return escapeHtml(iso || "");
-    return d.toLocaleDateString(undefined, {
-      weekday: "long", year: "numeric", month: "long", day: "numeric",
-    });
+    return d.toLocaleDateString(undefined, { weekday: "long", year: "numeric", month: "long", day: "numeric" });
   }
 
   function getJson(path) {
@@ -43,21 +41,71 @@
     });
   }
 
-  function showStatus(message) {
-    els.edition.innerHTML = '<p class="status">' + escapeHtml(message) + "</p>";
+  function setStatus(message) {
+    timeline.hidden = true;
+    main.innerHTML = '<p class="status">' + escapeHtml(message) + "</p>";
   }
 
+  function parseHash() {
+    var raw = location.hash.replace(/^#\/?/, "");
+    var parts = raw.split("/").filter(Boolean).map(decodeURIComponent);
+    return { slug: parts[0] || null, date: parts[1] || null };
+  }
+
+  function paperEntry(slug) {
+    var papers = (site && site.papers) || [];
+    for (var i = 0; i < papers.length; i++) if (papers[i].slug === slug) return papers[i];
+    return null;
+  }
+
+  // --- newsstand -------------------------------------------------------------
+
+  function renderNewsstand() {
+    document.title = (site.publisher || "The Newsstand");
+    timeline.hidden = true;
+    masthead.innerHTML =
+      '<p class="masthead-kicker">Newsstand</p>' +
+      '<h1 class="masthead-title">' + escapeHtml(site.publisher || "The Newsstand") + "</h1>" +
+      (site.tagline ? '<p class="masthead-sub">' + escapeHtml(site.tagline) + "</p>" : "");
+
+    var papers = (site.papers || []).slice().sort(function (a, b) {
+      return (b.latestDate || "").localeCompare(a.latestDate || "");
+    });
+
+    if (!papers.length) {
+      setStatus("No papers yet. The next scheduled run will publish one.");
+      return;
+    }
+
+    main.innerHTML =
+      '<div class="newsstand">' +
+      papers.map(function (p) {
+        var href = "#/" + encodeURIComponent(p.slug);
+        return (
+          '<a class="paper-card" href="' + href + '">' +
+          '<h2 class="paper-card-title">' + escapeHtml(p.name || p.slug) + "</h2>" +
+          (p.tagline ? '<p class="paper-card-tagline">' + escapeHtml(p.tagline) + "</p>" : "") +
+          (p.latestHeadline ? '<p class="paper-card-lead">' + escapeHtml(p.latestHeadline) + "</p>" : "") +
+          '<p class="paper-card-meta">' +
+          (p.latestDate ? escapeHtml(p.latestDate) : "no editions yet") +
+          (p.editionCount ? " · " + p.editionCount + " edition" + (p.editionCount === 1 ? "" : "s") : "") +
+          "</p>" +
+          "</a>"
+        );
+      }).join("") +
+      "</div>";
+  }
+
+  // --- one paper -------------------------------------------------------------
+
   function renderStory(story) {
-    var links = Array.isArray(story.sourceLinks) ? story.sourceLinks : [];
-    var sources = links
+    var links = (Array.isArray(story.sourceLinks) ? story.sourceLinks : [])
       .map(function (link) {
         var url = safeUrl(link && link.url);
         if (!url) return "";
-        var label = escapeHtml((link && link.title) || url);
-        return '<li><a href="' + escapeHtml(url) + '" rel="noopener noreferrer" target="_blank">' + label + "</a></li>";
-      })
-      .filter(Boolean)
-      .join("");
+        return '<li><a href="' + escapeHtml(url) + '" rel="noopener noreferrer" target="_blank">' +
+          escapeHtml((link && link.title) || url) + "</a></li>";
+      }).filter(Boolean).join("");
 
     return [
       '<article class="story">',
@@ -65,95 +113,83 @@
       '<h2 class="story-headline">' + escapeHtml(story.headline) + "</h2>",
       story.summary ? '<p class="story-summary">' + escapeHtml(story.summary) + "</p>" : "",
       story.whyItMatters ? '<p class="story-why"><b>Why it matters</b> — ' + escapeHtml(story.whyItMatters) + "</p>" : "",
-      sources ? '<ul class="story-sources">' + sources + "</ul>" : "",
+      links ? '<ul class="story-sources">' + links + "</ul>" : "",
       "</article>",
     ].join("");
   }
 
-  function renderEdition(edition) {
-    document.title = (edition.editionTitle || "The Vibe Signal") + " · " + (edition.date || "");
-    els.date.textContent = formatDate(edition.date);
+  function renderEdition(paper, edition) {
+    document.title = (paper.name || paper.slug) + " · " + (edition.date || "");
+    masthead.innerHTML =
+      '<p class="masthead-kicker"><a href="#/" class="back-link">← Newsstand</a></p>' +
+      '<h1 class="masthead-title">' + escapeHtml(paper.name || paper.slug) + "</h1>" +
+      '<p class="masthead-date">' + formatDate(edition.date) + "</p>";
 
     var stories = Array.isArray(edition.stories) ? edition.stories : [];
-    if (!stories.length) {
-      showStatus("This edition has no stories yet.");
-      return;
-    }
-
     var html = "";
-    if (edition.editorNote) {
-      html += '<p class="editor-note">' + escapeHtml(edition.editorNote) + "</p>";
-    }
-    html += stories.map(renderStory).join("");
-    els.edition.innerHTML = html;
+    if (edition.editorNote) html += '<p class="editor-note">' + escapeHtml(edition.editorNote) + "</p>";
+    html += stories.length ? stories.map(renderStory).join("") : '<p class="status">This edition has no stories.</p>';
+    main.innerHTML = '<div class="edition">' + html + "</div>";
+    main.focus();
   }
 
-  function renderTimeline(editions, activeId, onSelect) {
-    els.timeline.innerHTML = "";
+  function renderTimeline(paper, editions, activeId) {
+    timeline.hidden = false;
+    timeline.innerHTML = "";
     editions.forEach(function (entry) {
       var btn = document.createElement("button");
       btn.type = "button";
       btn.textContent = entry.date || entry.id;
       if (entry.id === activeId) btn.setAttribute("aria-current", "true");
       btn.addEventListener("click", function () {
-        if (location.hash !== "#" + entry.id) location.hash = entry.id;
-        onSelect(entry.id);
+        location.hash = "#/" + encodeURIComponent(paper.slug) + "/" + encodeURIComponent(entry.id);
       });
-      els.timeline.appendChild(btn);
+      timeline.appendChild(btn);
     });
   }
 
-  function editionPath(id) {
-    return "editions/" + encodeURIComponent(id) + ".json";
-  }
-
-  function loadEdition(id, editions) {
-    showStatus("Loading edition " + id + "…");
-    getJson(editionPath(id))
-      .then(function (edition) {
-        renderEdition(edition);
-        renderTimeline(editions, id, function (nextId) {
-          loadEdition(nextId, editions);
+  function renderPaper(slug, wantedDate) {
+    setStatus("Loading " + slug + "…");
+    getJson("papers/" + encodeURIComponent(slug) + "/index.json")
+      .then(function (paper) {
+        paper.slug = paper.slug || slug;
+        var editions = (Array.isArray(paper.editions) ? paper.editions : []).slice().sort(function (a, b) {
+          return (b.date || b.id || "").localeCompare(a.date || a.id || "");
         });
-        els.edition.focus();
+        if (!editions.length) {
+          renderEdition(paper, { date: "", stories: [], editorNote: "" });
+          timeline.hidden = true;
+          return;
+        }
+        var id = editions.some(function (e) { return e.id === wantedDate; }) ? wantedDate : editions[0].id;
+        return getJson("papers/" + encodeURIComponent(slug) + "/editions/" + encodeURIComponent(id) + ".json")
+          .then(function (edition) {
+            renderEdition(paper, edition);
+            renderTimeline(paper, editions, id);
+          });
       })
-      .catch(function (err) {
-        showStatus("Could not load edition " + id + ". " + err.message);
-      });
+      .catch(function (err) { setStatus("Could not load " + slug + ". " + err.message); });
   }
 
-  function start(manifest) {
-    var editions = Array.isArray(manifest.editions) ? manifest.editions.slice() : [];
-    // Newest first by date/id.
-    editions.sort(function (a, b) {
-      return (b.date || b.id || "").localeCompare(a.date || a.id || "");
-    });
+  // --- routing ---------------------------------------------------------------
 
-    if (manifest.editionTitle) els.title.textContent = manifest.editionTitle;
-    if (manifest.tagline) els.tagline.textContent = manifest.tagline;
-    if (safeUrl(manifest.repoUrl)) els.repoLink.href = manifest.repoUrl;
-
-    if (!editions.length) {
-      showStatus("No editions have been published yet. The next scheduled run will create one.");
+  function route() {
+    var r = parseHash();
+    if (!r.slug) { renderNewsstand(); return; }
+    if (!paperEntry(r.slug) && site) {
+      // Unknown slug — fall back to the newsstand rather than a dead view.
+      renderNewsstand();
       return;
     }
-
-    var hashId = location.hash.replace(/^#/, "");
-    var initial = editions.some(function (e) { return e.id === hashId; })
-      ? hashId
-      : editions[0].id;
-
-    loadEdition(initial, editions);
-
-    window.addEventListener("hashchange", function () {
-      var id = location.hash.replace(/^#/, "");
-      if (editions.some(function (e) { return e.id === id; })) loadEdition(id, editions);
-    });
+    renderPaper(r.slug, r.date);
   }
 
-  getJson("index.json")
-    .then(start)
-    .catch(function (err) {
-      showStatus("Could not load the edition index. " + err.message);
-    });
+  getJson("site.json")
+    .then(function (data) {
+      site = data;
+      if (safeUrl(site.repoUrl)) repoLink.href = site.repoUrl;
+      window.addEventListener("hashchange", route);
+      route();
+    })
+    .catch(function (err) { setStatus("Could not load the newsstand. " + err.message); });
 })();

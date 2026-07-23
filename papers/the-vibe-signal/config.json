@@ -1,0 +1,16 @@
+{
+  "slug": "the-vibe-signal",
+  "name": "The Vibe Signal",
+  "tagline": "AI & tech, distilled daily",
+  "storyCount": 6,
+  "categories": ["Technology", "Business", "Ideas"],
+  "editorialVoice": "Concise, factual, wry. No hype, no predictions stated as fact.",
+  "schedule": { "cron": "0 7 * * *", "timezone": "local" },
+  "sources": [
+    { "type": "hackernews", "minPoints": 100, "limit": 15 },
+    { "type": "reddit", "subreddit": "MachineLearning", "sort": "top", "time": "day", "limit": 10 },
+    { "type": "arxiv", "query": "cat:cs.AI", "limit": 8 },
+    { "type": "rss", "url": "https://hnrss.org/newest?points=150", "limit": 10 },
+    { "type": "websearch", "query": "major AI model release", "recencyDays": 2, "limit": 8 }
+  ]
+}

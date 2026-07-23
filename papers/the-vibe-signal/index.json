@@ -1,7 +1,7 @@
 {
-  "editionTitle": "The Vibe Signal",
+  "slug": "the-vibe-signal",
+  "name": "The Vibe Signal",
   "tagline": "AI & tech, distilled daily",
-  "repoUrl": "https://github.com/voidforall/vibepress-voidforall",
   "editions": [
     {
       "id": "2026-07-23",
