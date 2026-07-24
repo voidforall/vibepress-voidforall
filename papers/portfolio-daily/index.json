@@ -4,6 +4,12 @@
   "tagline": "Your holdings, yesterday's news",
   "editions": [
     {
+      "id": "2026-07-24",
+      "date": "2026-07-24",
+      "headline": "Rocket Lab agrees to buy Iridium for $8B as space stocks slide ahead of Starship test",
+      "storyCount": 5
+    },
+    {
       "id": "2026-07-23",
       "date": "2026-07-23",
       "headline": "Alphabet beats on Q2 revenue but lifts 2026 capex to $195–205B; shares slip",

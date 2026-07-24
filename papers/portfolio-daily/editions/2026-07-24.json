@@ -1,0 +1,78 @@
+{
+  "id": "2026-07-24",
+  "date": "2026-07-24",
+  "generatedAt": "2026-07-24T23:14:52Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Rocket Lab's $8 billion deal to buy Iridium was the day's biggest holdings-specific move, though the stock still slid with the rest of the space sector ahead of tonight's Starship test flight. Duolingo kept sliding on AI-disruption worries ahead of its August earnings, gold and bitcoin both cooled as yields firmed ahead of next week's Fed meeting, and Strategy overhauled its bitcoin accounting to show shareholders what's left after its debt and preferred claims. This is news, not investment advice.",
+  "stories": [
+    {
+      "headline": "Rocket Lab agrees to buy Iridium for $8B as space stocks slide ahead of Starship test",
+      "summary": "Rocket Lab agreed to acquire satellite operator Iridium Communications for $8 billion in enterprise value ($54/share, cash-and-stock), a deal both boards approved that's expected to close in mid-2027 and would add Iridium's roughly $300 million in annual free cash flow. Rocket Lab shares still fell about 7% on the day, in sympathy with a broader pullback in SpaceX and AST SpaceMobile as investors await SpaceX's 13th Starship test flight tonight.",
+      "whyItMatters": "The deal would make Rocket Lab a vertically integrated launch-and-satellite operator with an immediately profitable business bolted on, even as its stock remains hostage to sentiment around SpaceX's Starship program.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Huge News for Rocket Lab Investors (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/huge-news-rocket-lab-investors-135000384.html"
+        },
+        {
+          "title": "SpaceX Drops 5%, Rocket Lab Falls 7%, AST SpaceMobile Slides 4% as Jittery Market Awaits Tonight's Crucial Test Flight (24/7 Wall St.)",
+          "url": "https://247wallst.com/investing/2026/07/24/spacex-drops-5-rocket-lab-falls-7-ast-spacemobile-slides-4-as-jittery-market-awaits-tonights-crucial-test-flight/"
+        }
+      ]
+    },
+    {
+      "headline": "Duolingo shares down almost 10% this week on AI-disruption worries",
+      "summary": "Duolingo stock fell 9.8% this week to $122.37 as investors weighed a mid-July analyst downgrade citing narrowing margins and high operating costs, alongside concern that advancing AI models could erode its core business. The company projects gross margin compression to 69% by year-end as it invests in AI features, and reports Q2 results on August 5.",
+      "whyItMatters": "Shareholders appear to be de-risking ahead of what analysts expect could be a rough quarter, extending a decline that has cut the stock 66% over the past year.",
+      "category": "Markets",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Why Duolingo Stock Plunged 10% This Week (The Motley Fool)",
+          "url": "https://www.fool.com/investing/2026/07/24/why-duolingo-stock-plunged-10-this-week/"
+        }
+      ]
+    },
+    {
+      "headline": "Gold holds below $4,100 ahead of next week's Fed decision",
+      "summary": "Spot gold traded around $4,055–4,057/oz, up about 0.1% on the day, after pulling back from briefly topping $4,100 the prior session. Lower-than-expected jobless claims (187,000 vs. a 212,000 forecast) and a steady-rates outlook ahead of the Fed's July 29 meeting are capping gains.",
+      "whyItMatters": "Stronger labor data and a Fed expected to hold rates are raising the opportunity cost of holding non-yielding gold, even as the metal is still up about 21% year-over-year.",
+      "category": "Commodities",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Gold prices today, Friday, July 24, 2026: Gold price remains below $4,100 ahead of next week's rate decision (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-july-24-2026-gold-price-remains-below-4100-ahead-of-next-weeks-rate-decision-152726975.html"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin slips toward $64,000 as Treasury yields climb",
+      "summary": "Bitcoin fell about 1.6% to roughly $64,300 (ether down 2.9% to about $1,861) as higher oil prices and new tariff policies pushed up inflation expectations and Treasury yields, pulling institutional money away from crypto. Bitcoin ETFs saw $225 million in net outflows on Thursday, breaking a recent run of inflows.",
+      "whyItMatters": "Rising yields are making non-yielding assets like bitcoin less attractive relative to bonds, and the ETF outflow reversal suggests institutional demand is cooling for now.",
+      "category": "Crypto",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin and ethereum prices today, Friday, July 24, 2026: Crypto prices retreat on higher U.S. Treasury yields (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-july-24-2026-crypto-prices-retreat-on-higher-us-treasury-yields-152200068.html"
+        }
+      ]
+    },
+    {
+      "headline": "Strategy overhauls how it reports its $57B bitcoin stash",
+      "summary": "Strategy (formerly MicroStrategy) introduced new metrics — including a 'Net Reserve' of about $36.6 billion — that subtract roughly $22.3 billion in preferred-stock and convertible-debt claims from its 843,775 BTC holdings plus cash, to show common shareholders what's actually theirs. It also introduced a 'BTC Breakeven ARR' of 3.22%, the minimum annual bitcoin appreciation needed to cover its interest and dividend obligations indefinitely.",
+      "whyItMatters": "The reporting overhaul comes as bitcoin trades roughly 50% below its all-time high and MSTR stock is down 84% from its November 2024 peak, underscoring how exposed leveraged bitcoin-treasury strategies are in a bear market.",
+      "category": "Crypto",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Strategy overhauls bitcoin metrics to account for senior claims (CoinDesk)",
+          "url": "https://www.coindesk.com/markets/2026/07/24/saylor-and-team-overhaul-strategy-s-bitcoin-metrics-as-bear-market-persists"
+        }
+      ]
+    }
+  ]
+}
