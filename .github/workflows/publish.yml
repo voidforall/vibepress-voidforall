@@ -63,6 +63,8 @@ jobs:
           [ "$fail" -eq 0 ]
 
       - name: Commit and push
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -71,5 +73,7 @@ jobs:
             echo "no changes to publish"
           else
             git commit -m "editions: $(date -u +%F)"
-            git push
+            # Push with an explicit token URL: the action rewrites git auth mid-run,
+            # so the credential actions/checkout set is no longer valid here.
+            git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
           fi
