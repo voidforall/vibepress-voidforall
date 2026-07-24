@@ -4,12 +4,6 @@
   "tagline": "Your holdings, yesterday's news",
   "editions": [
     {
-      "id": "2026-07-24",
-      "date": "2026-07-24",
-      "headline": "Alphabet sinks ~7% as post-earnings capex worries deepen",
-      "storyCount": 6
-    },
-    {
       "id": "2026-07-23",
       "date": "2026-07-23",
       "headline": "Alphabet beats on Q2 revenue but lifts 2026 capex to $195–205B; shares slip",

@@ -37,7 +37,8 @@ jobs:
             You are the vibepress scheduled publisher, running in this repository.
             Read .vibepress/generate.md and follow it exactly. Today's date is the UTC
             date (`date -u +%F`). For EACH paper directory under papers/*/ that has a
-            config.json, produce today's edition:
+            config.json, produce today's edition. Always regenerate it from freshly gathered
+            material, overwriting any existing papers/<slug>/editions/<today>.json. For each paper:
               - run `python3 .vibepress/gather.py papers/<slug>/config.json --out /tmp/<slug>.json`
                 for the deterministic sources, and run the config's websearch sources yourself;
               - select, investigate, and write papers/<slug>/editions/<today>.json;
@@ -47,6 +48,7 @@ jobs:
             Write data files only. Do NOT run git. If a paper yields no valid story, skip it
             and leave its files unchanged.
           claude_args: "--allowedTools Read,Edit,Write,WebSearch,WebFetch,Bash --max-turns 80"
+          show_full_output: true
 
       - name: Validate editions (fail closed)
         run: |
