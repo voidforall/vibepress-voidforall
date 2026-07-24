@@ -14,7 +14,7 @@ touch the reader shell (`index.html`, `assets/`) — you only write data.
    - `storyCount` — target number of stories (aim for it; fewer is fine, never more).
    - `categories` — the only allowed `category` values.
    - `editorialVoice` — the tone to write in.
-   - `sources` — the typed source list. See `references/sources.md` for the schema.
+   - `sources` — the typed source list. See `.vibepress/sources.md` for the schema.
 2. `papers/<slug>/index.json` — the paper's existing manifest. Read before writing so you merge.
 3. `site.json` — the newsstand manifest; you update this paper's entry at the end.
 4. Today's date as `YYYY-MM-DD` in the configured timezone — the edition `id` and `date`.
@@ -24,7 +24,7 @@ touch the reader shell (`index.html`, `assets/`) — you only write data.
 Run the deterministic collector, then handle search sources yourself:
 
 ```sh
-python3 <skill>/assets/scripts/gather.py papers/<slug>/config.json --out /tmp/vibepress-candidates.json
+python3 .vibepress/gather.py papers/<slug>/config.json --out /tmp/vibepress-candidates.json
 ```
 
 Read that file. Its `candidates` are pre-fetched from Hacker News, RSS, arXiv, Reddit, etc.; its
@@ -88,7 +88,7 @@ Then one `editorNote`: a single short paragraph synthesizing the edition, introd
 ## Step 6 — Validate before writing anything durable (fails closed)
 
 ```sh
-python3 <skill>/assets/scripts/validate_edition.py \
+python3 .vibepress/validate_edition.py \
   papers/<slug>/editions/<id>.json papers/<slug>/config.json --manifest papers/<slug>/index.json
 ```
 

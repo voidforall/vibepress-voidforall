@@ -3,9 +3,10 @@ name: Publish editions
 # GitHub Actions cron is in UTC. Set this to when you want editions to publish.
 # One run generates today's edition for every paper under papers/.
 on:
-  # 22:00 UTC ≈ 06:00 Asia/Shanghai next day — after the US close, a morning read.
+  # 07:00 UTC. GitHub cron is UTC and does NOT shift for DST:
+  # = 08:00 UK during BST (summer), 07:00 UK during GMT (winter).
   schedule:
-    - cron: "0 22 * * *"
+    - cron: "0 7 * * *"
   workflow_dispatch: {}
 
 permissions:
