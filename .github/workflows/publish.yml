@@ -1,0 +1,71 @@
+name: Publish editions
+
+# GitHub Actions cron is in UTC. Set this to when you want editions to publish.
+# One run generates today's edition for every paper under papers/.
+on:
+  # 22:00 UTC ≈ 06:00 Asia/Shanghai next day — after the US close, a morning read.
+  schedule:
+    - cron: "0 22 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vibepress-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate today's editions
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            You are the vibepress scheduled publisher, running in this repository.
+            Read .vibepress/generate.md and follow it exactly. Today's date is the UTC
+            date (`date -u +%F`). For EACH paper directory under papers/*/ that has a
+            config.json, produce today's edition:
+              - run `python3 .vibepress/gather.py papers/<slug>/config.json --out /tmp/<slug>.json`
+                for the deterministic sources, and run the config's websearch sources yourself;
+              - select, investigate, and write papers/<slug>/editions/<today>.json;
+              - update papers/<slug>/index.json and site.json per generate.md;
+              - validate with
+                `python3 .vibepress/validate_edition.py <edition> <config> --manifest <manifest>`.
+            Write data files only. Do NOT run git. If a paper yields no valid story, skip it
+            and leave its files unchanged.
+          claude_args: "--allowedTools Read,Edit,Write,WebSearch,WebFetch,Bash --max-turns 80"
+
+      - name: Validate editions (fail closed)
+        run: |
+          today="$(date -u +%F)"
+          fail=0
+          for cfg in papers/*/config.json; do
+            slug="$(basename "$(dirname "$cfg")")"
+            ed="papers/$slug/editions/$today.json"
+            [ -f "$ed" ] || { echo "no edition produced for $slug"; continue; }
+            python3 .vibepress/validate_edition.py "$ed" "$cfg" --manifest "papers/$slug/index.json" || fail=1
+          done
+          [ "$fail" -eq 0 ]
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add papers site.json
+          if git diff --cached --quiet; then
+            echo "no changes to publish"
+          else
+            git commit -m "editions: $(date -u +%F)"
+            git push
+          fi
