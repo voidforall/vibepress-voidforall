@@ -1,0 +1,95 @@
+{
+  "id": "2026-07-24",
+  "date": "2026-07-24",
+  "generatedAt": "2026-07-24T21:08:14Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "One macro thread runs through the watchlist today: surging oil on Middle East tensions pushed U.S. yields up, pressuring growth stocks, gold, and crypto alike. Alphabet extends its post-earnings slide on capex worries, Alibaba gives back AI-driven gains, Duolingo falls on AI-disruption fear, Rocket Lab clears a Neutron engine test, gold slips below $4,100, and bitcoin drifts toward $64K on ETF outflows. News only — not investment advice.",
+  "stories": [
+    {
+      "headline": "Alphabet sinks ~7% as post-earnings capex worries deepen",
+      "summary": "Alphabet fell about 7% on July 24 to around $318.34, one of its worst single days with roughly $294 billion in market value erased, per Benzinga. The continued selloff after a record Q2 (revenue +24% to $119.8B) reflects a $44.9B quarterly capex figure, raised 2026 capex guidance of $195–205B, a $1B EU fine, and negative free cash flow; Berkshire Hathaway was reported to have bought about $10B of the stock in the quarter.",
+      "whyItMatters": "The drop extends the market's verdict on AI-infrastructure spending outrunning near-term cash generation, not on the quarter's revenue.",
+      "category": "Earnings",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Alphabet lost $294B in one brutal day (Benzinga)",
+          "url": "https://www.benzinga.com/markets/tech/26/07/60664934/alphabet-lost-294-billion-in-one-brutal-day-almost-an-entire-palantir"
+        },
+        {
+          "title": "Why is Alphabet stock down today (FXLeaders)",
+          "url": "https://www.fxleaders.com/news/2026/07/23/why-is-alphabet-googl-stock-down-today-record-quarter-7-billion-capex-shock-shares-fall-anyway/"
+        }
+      ]
+    },
+    {
+      "headline": "Alibaba's Hong Kong shares slide ~4.3%, unwinding recent AI-driven gains",
+      "summary": "Alibaba's Hong Kong-listed shares fell about 4.3%, wiping out close to HK$94 billion in value as a recent AI-fueled run reversed, with net outflows via Stock Connect, per Investing.com and market data. The move gives back part of the rally that followed its Qwen model and Apple Intelligence news earlier in the week.",
+      "whyItMatters": "The reversal shows how much of BABA's recent move was sentiment tied to the AI story rather than a change in fundamentals.",
+      "category": "Markets",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Why is Alibaba's HK stock sliding today (Investing.com)",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-alibabas-hk-stock-sliding-today-93CH-4759789"
+        }
+      ]
+    },
+    {
+      "headline": "Duolingo drops ~10% on the week as AI-disruption fears build",
+      "summary": "Duolingo shares fell roughly 9.8% over the week amid rising investor concern that AI could disrupt its business, per The Motley Fool; the stock is down about 66% over the past year. The company is due to report Q2 2026 results early next month.",
+      "whyItMatters": "The slide is driven by fear of AI substitution and soft prior guidance ahead of earnings, not by fresh company results.",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Why Duolingo stock plunged 10% this week (Motley Fool)",
+          "url": "https://www.fool.com/investing/2026/07/24/why-duolingo-stock-plunged-10-this-week/"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab completes full-duration Neutron engine test",
+      "summary": "Rocket Lab completed a full-duration test of the AVac second-stage engine for its Neutron medium-lift rocket, a key milestone toward a first flight now targeted for Q4 2026, per Yahoo Finance and Spaceflight Now. Shares fell with space peers in a jittery session even so.",
+      "whyItMatters": "Engine test progress is the concrete development step that de-risks Neutron's schedule, separate from the day's broad-market move.",
+      "category": "Company",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab reaches full-duration Neutron engine test (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-reaches-full-081353484.html"
+        },
+        {
+          "title": "Rocket Lab Neutron five-launch deal / late-2026 debut (Spaceflight Now)",
+          "url": "https://spaceflightnow.com/2026/05/07/rocket-lab-announces-five-launch-neutron-deal-as-it-continues-aiming-for-late-2026-debut/"
+        }
+      ]
+    },
+    {
+      "headline": "Gold slips below $4,100 as oil surge lifts inflation worries",
+      "summary": "Spot gold traded around $4,040–4,080 per ounce on Friday July 24, extending a roughly 2% decline from the prior session, as surging oil prices tied to Middle East tensions strengthened the case for tighter U.S. monetary policy, per Forbes Advisor and market data.",
+      "whyItMatters": "Higher oil and yields raise the opportunity cost of holding non-yielding gold, which is what pulled the price back from recent highs.",
+      "category": "Commodities",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Gold price today: July 24, 2026 (Forbes Advisor)",
+          "url": "https://www.forbes.com/advisor/investing/gold-price/"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin retreats toward $64K as ETF outflows and higher yields bite",
+      "summary": "Bitcoin opened around $65,000 on Friday July 24, down about 1.6%, and dipped to roughly $64,300 intraday, per Yahoo Finance and Fortune. Spot bitcoin ETFs recorded about $225 million in net outflows the prior day as higher oil, new tariff policy, and rising Treasury yields pulled institutional money away from risk assets.",
+      "whyItMatters": "Crypto is trading as a risk asset here — the pullback tracks rising yields and ETF outflows rather than anything crypto-specific.",
+      "category": "Crypto",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin and ethereum prices today, Friday July 24 2026 (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-july-24-2026-crypto-prices-retreat-on-higher-us-treasury-yields-152200068.html"
+        }
+      ]
+    }
+  ]
+}

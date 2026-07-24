@@ -8,7 +8,8 @@
     "Company",
     "Markets",
     "Regulatory",
-    "Macro"
+    "Crypto",
+    "Commodities"
   ],
   "editorialVoice": "Factual and market-aware. Report what happened and disclosed facts only; never give buy/sell or personalized investment advice, and never state predictions as fact.",
   "schedule": {
@@ -33,8 +34,12 @@
       "name": "Alphabet (Google)"
     },
     {
-      "symbol": "GOLD",
-      "name": "Barrick Gold"
+      "symbol": "XAU",
+      "name": "Gold (spot price)"
+    },
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin"
     }
   ],
   "sources": [
@@ -60,19 +65,22 @@
     },
     {
       "type": "rss",
-      "url": "https://news.google.com/rss/search?q=%22Barrick%20Gold%22%20%28GOLD%20OR%20stock%20OR%20shares%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+      "url": "https://news.google.com/rss/search?q=%28%22gold%20price%22%20OR%20XAU%20OR%20%22spot%20gold%22%20OR%20bullion%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+      "limit": 6
+    },
+    {
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=%28%22bitcoin%20price%22%20OR%20BTC%20OR%20bitcoin%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
       "limit": 6
     },
     {
       "type": "websearch",
-      "query": "BABA OR Duolingo OR \"Rocket Lab\" OR Alphabet OR \"Barrick Gold\" earnings OR rating OR filing OR guidance",
+      "query": "BABA OR Duolingo OR \"Rocket Lab\" OR Alphabet OR \"gold price\" OR bitcoin earnings OR rating OR filing OR price move",
       "recencyDays": 1,
       "sites": [
-        "reuters.com",
-        "bloomberg.com",
-        "wsj.com",
-        "ft.com",
         "cnbc.com",
+        "apnews.com",
+        "marketwatch.com",
         "sec.gov"
       ],
       "limit": 8

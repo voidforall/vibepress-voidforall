@@ -7,17 +7,17 @@
       "slug": "the-vibe-signal",
       "name": "The Vibe Signal",
       "tagline": "AI & tech, distilled daily",
-      "latestDate": "2026-07-23",
-      "latestHeadline": "Report: five tech giants carry $1.65T in off-balance-sheet debt",
-      "editionCount": 1
+      "latestDate": "2026-07-24",
+      "latestHeadline": "Anthropic releases Claude Opus 5",
+      "editionCount": 2
     },
     {
       "slug": "portfolio-daily",
       "name": "Portfolio Daily",
       "tagline": "Your holdings, yesterday's news",
-      "latestDate": "2026-07-23",
-      "latestHeadline": "Alphabet beats on Q2 revenue but lifts 2026 capex to $195–205B; shares slip",
-      "editionCount": 1
+      "latestDate": "2026-07-24",
+      "latestHeadline": "Alphabet sinks ~7% as post-earnings capex worries deepen",
+      "editionCount": 2
     }
   ]
 }

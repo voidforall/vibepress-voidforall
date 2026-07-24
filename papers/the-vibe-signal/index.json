@@ -4,6 +4,12 @@
   "tagline": "AI & tech, distilled daily",
   "editions": [
     {
+      "id": "2026-07-24",
+      "date": "2026-07-24",
+      "headline": "Anthropic releases Claude Opus 5",
+      "storyCount": 6
+    },
+    {
       "id": "2026-07-23",
       "date": "2026-07-23",
       "headline": "Report: five tech giants carry $1.65T in off-balance-sheet debt",
