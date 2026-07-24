@@ -48,7 +48,6 @@ jobs:
             Write data files only. Do NOT run git. If a paper yields no valid story, skip it
             and leave its files unchanged.
           claude_args: "--allowedTools Read,Edit,Write,WebSearch,WebFetch,Bash --max-turns 80"
-          show_full_output: true
 
       - name: Validate editions (fail closed)
         run: |
