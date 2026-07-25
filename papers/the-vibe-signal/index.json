@@ -4,6 +4,12 @@
   "tagline": "AI & tech, distilled daily",
   "editions": [
     {
+      "id": "2026-07-25",
+      "date": "2026-07-25",
+      "headline": "Researcher says Kimi K3 agents found 19 Redis zero-days in 90 minutes",
+      "storyCount": 5
+    },
+    {
       "id": "2026-07-24",
       "date": "2026-07-24",
       "headline": "Anthropic releases Claude Opus 5",

@@ -1,0 +1,78 @@
+{
+  "id": "2026-07-25",
+  "date": "2026-07-25",
+  "generatedAt": "2026-07-25T09:08:28Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Alphabet takes the day's biggest disclosed hit, its first fine under the EU's Digital Markets Act, while Duolingo shares keep sliding on AI-disruption worries ahead of its August 5 earnings. In the sector where Rocket Lab sits, SpaceX's Starship flew a mostly successful 13th test after a jittery pre-flight selloff, and both gold and bitcoin saw structural, not just price, news: Beijing shut down leveraged retail gold trading and Strategy rolled out new bitcoin accounting metrics.",
+  "stories": [
+    {
+      "headline": "EU fines Google $1 billion in its first Digital Markets Act penalty",
+      "summary": "The European Commission fined Google €890 million ($1 billion) on July 23: €460 million for favoring its own services in shopping, hotel, and transport search results, and €430 million for restricting Google Play developers from steering users to cheaper offers elsewhere. Google called the ruling harmful to users and said it is reviewing an appeal, while regulators noted \"constructive dialogue\" and said further daily penalties are unlikely for now.",
+      "whyItMatters": "It's the first fine issued against Google under the DMA, a new enforcement track distinct from the EU's traditional antitrust cases and a template for future penalties.",
+      "category": "Regulatory",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Google hit with $1 billion European Commission fine (RTE)",
+          "url": "https://www.rte.ie/news/business/2026/0723/1584780-google-hit-with-1-billion-eu-fine/"
+        }
+      ]
+    },
+    {
+      "headline": "Duolingo shares down 9.8% this week on AI-disruption worries",
+      "summary": "Duolingo stock fell 9.8% over the week to $122.37, as investors weighed AI's threat to its language-learning business alongside a mid-July analyst downgrade to hold that flagged narrowing margins. Management has said gross margins will fall to 69% by year-end as AI-driven costs rise, and shareholders are positioning ahead of Q2 earnings due August 5.",
+      "whyItMatters": "It's Duolingo's worst weekly stretch in months, extending a 66% decline over the past year on the same AI-competition concern.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Why Duolingo Stock Plunged 10% This Week (The Motley Fool)",
+          "url": "https://www.fool.com/investing/2026/07/24/why-duolingo-stock-plunged-10-this-week/"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab falls 7% ahead of Starship test; SpaceX flight mostly succeeds",
+      "summary": "Rocket Lab shares fell 7% to $65.27 on July 24 in sympathy trading as investors awaited SpaceX's 13th Starship test flight. The flight launched July 24 evening, deployed 20 Starlink satellites, demonstrated an in-space engine restart, and completed a soft splashdown in the Indian Ocean, though the Super Heavy booster's landing burn failed and it hit the water hard after only 5 of 13 engines restarted.",
+      "whyItMatters": "The space sector traded down on Starship risk even though Rocket Lab has no direct stake in the outcome, showing how tightly the group now moves together.",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "SpaceX Drops 5%, Rocket Lab Falls 7%, AST SpaceMobile Slides 4% as Jittery Market Awaits Tonight's Crucial Test Flight (24/7 Wall St.)",
+          "url": "https://247wallst.com/investing/2026/07/24/spacex-drops-5-rocket-lab-falls-7-ast-spacemobile-slides-4-as-jittery-market-awaits-tonights-crucial-test-flight/"
+        },
+        {
+          "title": "Super Heavy-Starship rocket chalks up mostly successful test flight (Spaceflight Now)",
+          "url": "https://spaceflightnow.com/2026/07/25/super-heavy-starship-rocket-chalks-up-mostly-successful-test-flight/"
+        }
+      ]
+    },
+    {
+      "headline": "China's biggest banks end retail leveraged gold trading",
+      "summary": "ICBC and four other major Chinese banks terminated retail leveraged gold products tied to Shanghai Gold Exchange contracts on July 24, after gold fell from a January peak of $5,589 to about $4,010 by July 20, a 28% decline. Physical gold purchases, gold ETFs, and institutional SGE operations are unaffected; regulators cited investor protection after leveraged positions amplified both the spike and the subsequent drop.",
+      "whyItMatters": "Removing retail leverage from China's gold market strips out an amplification mechanism that helped drive this year's price swings.",
+      "category": "Commodities",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "China Ends Retail Paper Gold Trading. What It Means. (GoldSilver)",
+          "url": "https://goldsilver.com/industry-news/goldsilver-news/china-paper-gold-sge-shutdown-july-2026/"
+        }
+      ]
+    },
+    {
+      "headline": "Strategy overhauls how it reports its bitcoin position",
+      "summary": "Strategy (formerly MicroStrategy) introduced new metrics on July 24, including \"Net Reserve\" ($36.6 billion, its $55.6 billion BTC holdings plus cash minus convertible debt and preferred stock claims) and a \"BTC Breakeven ARR\" of 3.22%, the annual bitcoin appreciation needed to cover interest and dividend obligations from gains alone. The change comes with bitcoin around $65,000, roughly half its all-time high, and MSTR stock 84% below its November 2024 peak.",
+      "whyItMatters": "The new metrics make explicit, for the first time, how much of Strategy's bitcoin stack is encumbered by debt and preferred claims ahead of common shareholders.",
+      "category": "Crypto",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Saylor and team overhaul Strategy's bitcoin metrics as bear market persists (CoinDesk)",
+          "url": "https://www.coindesk.com/markets/2026/07/24/saylor-and-team-overhaul-strategy-s-bitcoin-metrics-as-bear-market-persists"
+        }
+      ]
+    }
+  ]
+}

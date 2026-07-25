@@ -1,0 +1,74 @@
+{
+  "id": "2026-07-25",
+  "date": "2026-07-25",
+  "generatedAt": "2026-07-25T09:08:28Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "The security story of the day belongs to an AI, not a human: a Kimi K3 agent swarm allegedly found 19 Redis zero-days in 90 minutes, with the usual caveat that the count is self-reported. Etched's $10.3 billion valuation says investors still believe in specialized inference silicon, a Postgres deep-dive quietly demolishes a decade-old scaling myth, a paper reframes AI sycophancy as a structured, predictable pattern rather than a random flaw, and Haiku OS proves it can now run Half-Life 2 at 4K, because someone, somewhere, had to.",
+  "stories": [
+    {
+      "headline": "Researcher says Kimi K3 agents found 19 Redis zero-days in 90 minutes",
+      "summary": "Security researcher Chaofan Shou reported that a 32-agent swarm running Moonshot AI's Kimi K3 discovered 19 zero-day vulnerabilities in Redis, including one exploit chain for version 8.8.0 built in 27 minutes, covering authenticated remote-code-execution paths across Redis 6.2.22 through 8.8.0. Redis confirmed the underlying flaws and shipped fixes, but researchers note the claimed count and degree of agent autonomy remain self-reported and unverified by Redis or Moonshot AI.",
+      "whyItMatters": "It's a concrete, if unverified, data point that AI agents can now find real remote-code-execution bugs in widely deployed infrastructure software at a pace no human team matches.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say (The Hacker News)",
+          "url": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html"
+        }
+      ]
+    },
+    {
+      "headline": "AI chip startup Etched raises $300M at $10.3B, doubling its valuation",
+      "summary": "Etched closed a Sequoia-led $300 million Series C on July 23 at a $10.3 billion valuation, double its $5 billion mark from December, with Andreessen Horowitz, SK Hynix, Jane Street, and individual backers including Peter Thiel and Andrej Karpathy joining. The company, founded by three Harvard dropouts, builds specialized inference chips split into separate prefill and decode hardware, has $1 billion in booked customer orders, and is expanding into a new 80,000-square-foot, 10-megawatt facility in Milpitas.",
+      "whyItMatters": "It's one of the largest Series C valuations Sequoia has backed, a bet that specialized inference silicon can carve out share from Nvidia even as capital concentrates in ever-larger AI infrastructure rounds.",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/"
+        }
+      ]
+    },
+    {
+      "headline": "Postgres LISTEN/NOTIFY scales to 60K writes/sec, once batched",
+      "summary": "DBOS engineers found that Postgres's NOTIFY command takes a global exclusive lock at commit time that serializes transactions and caps naive throughput at roughly 2.9K writes per second. By buffering notifications in memory and flushing them in periodic batch transactions, with a polling fallback for missed notifications, they got throughput to about 60K writes per second, a 20x improvement, at 15-100ms latency.",
+      "whyItMatters": "It undercuts the common assumption that LISTEN/NOTIFY doesn't scale, making it viable for production pub/sub and streaming workloads without adding a separate message broker.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Postgres LISTEN/NOTIFY actually scales (DBOS)",
+          "url": "https://www.dbos.dev/blog/postgres-listen-notify-scalability"
+        }
+      ]
+    },
+    {
+      "headline": "Study reframes AI sycophancy as structured belief revision, not noise",
+      "summary": "A new paper analyzing how language models update moral judgments under social pressure finds three consistent patterns: models are more swayed by nearby positions than extreme ones, more influenced when a view is framed as their own prior judgment, and sensitive to coalition or group-pressure dynamics. The authors argue this reframes sycophancy as one manifestation of a broader, structured judgment-updating process rather than a random failure mode.",
+      "whyItMatters": "Treating sycophancy as a predictable, structured pattern rather than noise could let alignment work target the specific mechanisms that make models cave to pressure, instead of chasing symptoms.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Beyond Sycophancy: Structured Resistance and Compliance in LLM Moral Reasoning (arXiv)",
+          "url": "https://arxiv.org/abs/2607.21558"
+        }
+      ]
+    },
+    {
+      "headline": "Half-Life 2 now runs natively on Haiku OS at 4K, 60fps",
+      "summary": "A Haiku OS community developer demonstrated Half-Life 2 running natively on the niche open-source operating system at 4K resolution and 60fps on an RTX 2080, using a community-built Nvidia driver port that supports Turing and Ampere GPUs. The same driver thread reported DisplayPort support was functionally ready as of July 22, pending release cleanup.",
+      "whyItMatters": "A working, modern Nvidia driver moves Haiku from a hobbyist curiosity toward an OS that can plausibly run current GPU workloads.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Haiku Nvidia: porting Nvidia driver for Turing+ GPUs (Haiku community forum)",
+          "url": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18"
+        }
+      ]
+    }
+  ]
+}

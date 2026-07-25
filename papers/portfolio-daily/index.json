@@ -4,6 +4,12 @@
   "tagline": "Your holdings, yesterday's news",
   "editions": [
     {
+      "id": "2026-07-25",
+      "date": "2026-07-25",
+      "headline": "EU fines Google $1 billion in its first Digital Markets Act penalty",
+      "storyCount": 5
+    },
+    {
       "id": "2026-07-24",
       "date": "2026-07-24",
       "headline": "Rocket Lab agrees to buy Iridium for $8B as space stocks slide ahead of Starship test",
