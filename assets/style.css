@@ -252,3 +252,128 @@ a { color: var(--link); }
   padding: 1.5rem 1.25rem 2.5rem;
 }
 .colophon a { color: var(--ink-faint); }
+
+/* ============================================================
+   Template switcher control (reader can pick web vs print look)
+   ============================================================ */
+#vp-controls {
+  position: fixed;
+  top: 0.6rem;
+  right: 0.6rem;
+  display: flex;
+  gap: 0.25rem;
+  z-index: 20;
+  font-family: var(--sans);
+  font-size: 0.7rem;
+}
+#vp-controls button {
+  border: 1px solid var(--rule);
+  background: var(--paper-raised);
+  color: var(--ink-soft);
+  padding: 0.3rem 0.55rem;
+  border-radius: 4px;
+  cursor: pointer;
+  line-height: 1;
+}
+#vp-controls button[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+
+/* ============================================================
+   Template: classic — an old-newspaper, print-oriented layout
+   ============================================================ */
+:root[data-template="classic"] {
+  --ink: #17140d;
+  --ink-soft: #3c352a;
+  --ink-faint: #6c6353;
+  --paper: #f1ead9;
+  --paper-raised: #f5efe0;
+  --rule: #c7bca1;
+  --accent: #6f1a12;
+  --link: #5a3220;
+  --max: 52rem;
+  --serif: "Times New Roman", Times, Georgia, "Iowan Old Style", serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root[data-template="classic"] {
+    /* Classic stays ink-on-paper even in dark mode — it's meant to look printed. */
+    --ink: #17140d;
+    --ink-soft: #3c352a;
+    --ink-faint: #6c6353;
+    --paper: #f1ead9;
+    --paper-raised: #f5efe0;
+    --rule: #c7bca1;
+    --accent: #6f1a12;
+    --link: #5a3220;
+  }
+}
+
+[data-template="classic"] .masthead {
+  border-bottom: 4px double var(--ink);
+  border-top: 2px solid var(--ink);
+}
+[data-template="classic"] .masthead-title {
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  font-size: clamp(2.4rem, 8vw, 4rem);
+}
+[data-template="classic"] .masthead-date {
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  margin-top: 0.7rem;
+  padding: 0.3rem 0;
+}
+
+/* Multi-column body, like a printed page. */
+[data-template="classic"] .edition {
+  column-count: 2;
+  column-gap: 2.2rem;
+  column-rule: 1px solid var(--rule);
+}
+[data-template="classic"] .editor-note {
+  column-span: all;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  border-left: none;
+  padding: 0.7rem 0;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+[data-template="classic"] .story {
+  break-inside: avoid;
+  border-top: none;
+  padding: 0 0 1.2rem;
+}
+[data-template="classic"] .story-headline {
+  font-weight: 800;
+  line-height: 1.04;
+  margin-bottom: 0.4rem;
+}
+[data-template="classic"] .story-summary { text-align: justify; }
+/* Drop cap on the lead story. */
+[data-template="classic"] .story:first-of-type .story-summary::first-letter {
+  float: left;
+  font-size: 3.1rem;
+  line-height: 0.8;
+  padding: 0.1rem 0.5rem 0 0;
+  font-weight: 700;
+}
+@media (max-width: 40rem) {
+  [data-template="classic"] .edition { column-count: 1; }
+}
+
+/* ============================================================
+   Print — make either template come out as a clean paper
+   ============================================================ */
+@media print {
+  #vp-controls, .timeline, .colophon, .skip-link { display: none !important; }
+  body { background: #fff; color: #000; }
+  .masthead { background: #fff; }
+  .edition { column-count: 3; column-gap: 1.6rem; column-rule: 1px solid #999; }
+  .editor-note { column-span: all; }
+  .story { break-inside: avoid; }
+  a { color: #000; text-decoration: none; }
+  .story-category, .masthead-kicker { color: #000; }
+}

@@ -2,6 +2,7 @@
   "slug": "the-vibe-signal",
   "name": "The Vibe Signal",
   "tagline": "AI & tech, distilled daily",
+  "template": "classic",
   "editions": [
     {
       "id": "2026-07-25",

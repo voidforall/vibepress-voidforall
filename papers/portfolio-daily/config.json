@@ -2,6 +2,7 @@
   "slug": "portfolio-daily",
   "name": "Portfolio Daily",
   "tagline": "Your holdings, yesterday's news",
+  "template": "standard",
   "storyCount": 8,
   "categories": [
     "Earnings",

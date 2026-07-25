@@ -15,6 +15,52 @@
 
   var site = null; // cached site.json
 
+  // --- templates -------------------------------------------------------------
+  // A paper declares a default look via its `template` field ("standard" | "classic").
+  // A reader can override it for their session with the on-page switcher; the choice
+  // is remembered in localStorage. Layout is entirely CSS-driven off <html data-template>.
+
+  var TEMPLATES = ["standard", "classic"];
+  var controls = null;
+
+  function storedOverride() {
+    try { return localStorage.getItem("vp-template"); } catch (e) { return null; }
+  }
+
+  function normalizeTemplate(value) {
+    return TEMPLATES.indexOf(value) === -1 ? "standard" : value;
+  }
+
+  function applyTemplate(paperDefault) {
+    var chosen = normalizeTemplate(storedOverride() || paperDefault || "standard");
+    document.documentElement.setAttribute("data-template", chosen);
+    if (controls) {
+      var buttons = controls.querySelectorAll("button[data-template]");
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].setAttribute("aria-pressed", String(buttons[i].getAttribute("data-template") === chosen));
+      }
+    }
+  }
+
+  function buildControls() {
+    controls = document.createElement("div");
+    controls.id = "vp-controls";
+    controls.innerHTML =
+      '<button type="button" data-template="standard" title="Web reading layout">Web</button>' +
+      '<button type="button" data-template="classic" title="Old-newspaper print layout">Print</button>' +
+      '<button type="button" data-action="print" title="Print this edition" aria-label="Print">⎙</button>';
+    controls.addEventListener("click", function (e) {
+      var btn = e.target.closest ? e.target.closest("button") : null;
+      if (!btn) return;
+      if (btn.getAttribute("data-action") === "print") { window.print(); return; }
+      var t = normalizeTemplate(btn.getAttribute("data-template"));
+      try { localStorage.setItem("vp-template", t); } catch (err) {}
+      document.documentElement.setAttribute("data-template", t);
+      applyTemplate(t);
+    });
+    document.body.appendChild(controls);
+  }
+
   // --- helpers ---------------------------------------------------------------
 
   function escapeHtml(value) {
@@ -62,6 +108,7 @@
 
   function renderNewsstand() {
     document.title = (site.publisher || "The Newsstand");
+    applyTemplate("standard");
     timeline.hidden = true;
     masthead.innerHTML =
       '<p class="masthead-kicker">Newsstand</p>' +
@@ -153,6 +200,7 @@
     getJson("papers/" + encodeURIComponent(slug) + "/index.json")
       .then(function (paper) {
         paper.slug = paper.slug || slug;
+        applyTemplate(paper.template);
         var editions = (Array.isArray(paper.editions) ? paper.editions : []).slice().sort(function (a, b) {
           return (b.date || b.id || "").localeCompare(a.date || a.id || "");
         });
@@ -188,6 +236,7 @@
     .then(function (data) {
       site = data;
       if (safeUrl(site.repoUrl)) repoLink.href = site.repoUrl;
+      buildControls();
       window.addEventListener("hashchange", route);
       route();
     })

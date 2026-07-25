@@ -100,9 +100,10 @@ valid JSON; `id`/`date` equal today; every story has non-empty `headline`/`summa
 
 1. Write the edition to `papers/<slug>/editions/<id>.json` (overwriting today's is fine — that's how a
    re-run replaces the day's edition; it is idempotent).
-2. Rebuild `papers/<slug>/index.json`: keep `slug`/`name`/`tagline`; set `editions` to the existing
-   entries with today's removed then re-added as `{ id, date, headline: <lead headline>, storyCount }`,
-   sorted newest-first.
+2. Rebuild `papers/<slug>/index.json`: keep `slug`/`name`/`tagline`, and carry `template` from
+   `config.json` (the reader reads the paper's look from here); set `editions` to the existing entries
+   with today's removed then re-added as `{ id, date, headline: <lead headline>, storyCount }`, sorted
+   newest-first.
 3. Update `site.json`: in `papers`, replace this paper's entry's `latestDate`, `latestHeadline`
    (lead story), and `editionCount` (its edition count). Leave the other papers untouched.
 
