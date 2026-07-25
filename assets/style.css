@@ -285,39 +285,49 @@ a { color: var(--link); }
    Template: classic — an old-newspaper, print-oriented layout
    ============================================================ */
 :root[data-template="classic"] {
-  --ink: #17140d;
-  --ink-soft: #3c352a;
-  --ink-faint: #6c6353;
-  --paper: #f1ead9;
-  --paper-raised: #f5efe0;
-  --rule: #c7bca1;
-  --accent: #6f1a12;
-  --link: #5a3220;
-  --max: 52rem;
+  /* Ink-on-newsprint: a cool grey paper, soft charcoal ink (real ink isn't pure
+     black), and a monochrome section label rather than a colour spot. */
+  --ink: #1c1a14;
+  --ink-soft: #3a352b;
+  --ink-faint: #6b6558;
+  --paper: #e7e4d8;
+  --paper-raised: #ece9d9;
+  --rule: #b3ab97;
+  --accent: #2a2720;
+  --link: #333027;
+  --max: 60rem;
   --serif: "Times New Roman", Times, Georgia, "Iowan Old Style", serif;
+  /* Faint newsprint grain — a tiny tiled, desaturated fractal-noise SVG. */
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E");
 }
 @media (prefers-color-scheme: dark) {
   :root[data-template="classic"] {
     /* Classic stays ink-on-paper even in dark mode — it's meant to look printed. */
-    --ink: #17140d;
-    --ink-soft: #3c352a;
-    --ink-faint: #6c6353;
-    --paper: #f1ead9;
-    --paper-raised: #f5efe0;
-    --rule: #c7bca1;
-    --accent: #6f1a12;
-    --link: #5a3220;
+    --ink: #1c1a14;
+    --ink-soft: #3a352b;
+    --ink-faint: #6b6558;
+    --paper: #e7e4d8;
+    --paper-raised: #ece9d9;
+    --rule: #b3ab97;
+    --accent: #2a2720;
+    --link: #333027;
   }
 }
 
+[data-template="classic"] body {
+  background-color: var(--paper);
+  background-image: var(--grain);
+}
 [data-template="classic"] .masthead {
   border-bottom: 4px double var(--ink);
   border-top: 2px solid var(--ink);
+  background-color: var(--paper-raised);
+  background-image: var(--grain);
 }
 [data-template="classic"] .masthead-title {
   font-weight: 800;
-  letter-spacing: 0.01em;
-  font-size: clamp(2.4rem, 8vw, 4rem);
+  letter-spacing: 0.005em;
+  font-size: clamp(2.4rem, 8vw, 4.2rem);
 }
 [data-template="classic"] .masthead-date {
   border-top: 1px solid var(--ink);
@@ -326,11 +336,18 @@ a { color: var(--link); }
   padding: 0.3rem 0;
 }
 
-/* Multi-column body, like a printed page. */
+/* Multi-column body, like a printed page: text flows and fills columns (as real
+   newspapers do), so columns stay balanced. Headlines/labels stay with their text. */
 [data-template="classic"] .edition {
   column-count: 2;
-  column-gap: 2.2rem;
+  column-gap: 2rem;
   column-rule: 1px solid var(--rule);
+}
+@media (min-width: 64rem) {
+  [data-template="classic"] .edition { column-count: 3; }
+}
+@media (max-width: 40rem) {
+  [data-template="classic"] .edition { column-count: 1; }
 }
 [data-template="classic"] .editor-note {
   column-span: all;
@@ -338,30 +355,30 @@ a { color: var(--link); }
   border-bottom: 1px solid var(--ink);
   border-left: none;
   padding: 0.7rem 0;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.4rem;
   text-align: justify;
 }
 [data-template="classic"] .story {
-  break-inside: avoid;
-  border-top: none;
-  padding: 0 0 1.2rem;
+  border-top: 1px solid var(--rule);
+  padding: 0.85rem 0 0.4rem;
 }
+[data-template="classic"] .story:first-of-type { border-top: none; padding-top: 0; }
+[data-template="classic"] .story-category { break-after: avoid; color: var(--accent); }
 [data-template="classic"] .story-headline {
   font-weight: 800;
   line-height: 1.04;
   margin-bottom: 0.4rem;
+  break-inside: avoid;
+  break-after: avoid;
 }
 [data-template="classic"] .story-summary { text-align: justify; }
 /* Drop cap on the lead story. */
 [data-template="classic"] .story:first-of-type .story-summary::first-letter {
   float: left;
-  font-size: 3.1rem;
-  line-height: 0.8;
+  font-size: 3.2rem;
+  line-height: 0.78;
   padding: 0.1rem 0.5rem 0 0;
   font-weight: 700;
-}
-@media (max-width: 40rem) {
-  [data-template="classic"] .edition { column-count: 1; }
 }
 
 /* ============================================================
@@ -369,8 +386,8 @@ a { color: var(--link); }
    ============================================================ */
 @media print {
   #vp-controls, .timeline, .colophon, .skip-link { display: none !important; }
-  body { background: #fff; color: #000; }
-  .masthead { background: #fff; }
+  body { background: #fff !important; background-image: none !important; color: #000; }
+  .masthead { background: #fff !important; background-image: none !important; }
   .edition { column-count: 3; column-gap: 1.6rem; column-rule: 1px solid #999; }
   .editor-note { column-span: all; }
   .story { break-inside: avoid; }
