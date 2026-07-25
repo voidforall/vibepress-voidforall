@@ -192,9 +192,10 @@
     var d = new Date(Number(p[0]), Number(p[1]) - 1, 1);
     return isNaN(d.getTime()) ? ym : d.toLocaleDateString(undefined, { month: "long", year: "numeric" });
   }
-  function dayNumber(dateStr) {
-    var p = String(dateStr || "").split("-");
-    return p[2] ? String(Number(p[2])) : (dateStr || "");
+  function shortDate(dateStr) {
+    var d = new Date(String(dateStr || "") + "T00:00:00");
+    return isNaN(d.getTime()) ? String(dateStr || "")
+      : d.toLocaleDateString(undefined, { weekday: "short", day: "numeric", month: "short" });
   }
 
   function navGoto(id) {
@@ -206,26 +207,28 @@
     if (target) navGoto(target.id);
   }
 
-  function archiveEl() { return timeline.querySelector(".nav-archive"); }
-  function toggleBtn() { return timeline.querySelector(".nav-current"); }
-  function closeArchive() {
-    var a = archiveEl(); if (a) a.hidden = true;
-    var t = toggleBtn(); if (t) t.setAttribute("aria-expanded", "false");
+  // The archive is a slide-in sidebar drawer — opened only when browsing back,
+  // so it never clutters the reading view and has room to scroll for long runs.
+  function setDrawer(open) {
+    ["nav-drawer", "nav-backdrop"].forEach(function (cls) {
+      var el = timeline.querySelector("." + cls);
+      if (!el) return;
+      if (open) el.setAttribute("data-open", "true");
+      else el.removeAttribute("data-open");
+    });
   }
-  function toggleArchive() {
-    var a = archiveEl(); if (!a) return;
-    a.hidden = !a.hidden;
-    var t = toggleBtn(); if (t) t.setAttribute("aria-expanded", String(!a.hidden));
-  }
+  function openDrawer() { setDrawer(true); }
+  function closeDrawer() { setDrawer(false); }
 
   function onTimelineClick(e) {
-    var btn = e.target.closest ? e.target.closest("button") : null;
-    if (!btn) return;
-    var goto = btn.getAttribute("data-goto");
-    if (goto) { navGoto(goto); closeArchive(); return; }
-    var nav = btn.getAttribute("data-nav");
+    var target = e.target.closest ? e.target.closest("[data-goto],[data-nav]") : null;
+    if (!target) return;
+    var goto = target.getAttribute("data-goto");
+    if (goto) { navGoto(goto); closeDrawer(); return; }
+    var nav = target.getAttribute("data-nav");
     if (nav === "older" || nav === "newer") navStep(nav);
-    else if (nav === "toggle") toggleArchive();
+    else if (nav === "open") openDrawer();
+    else if (nav === "close") closeDrawer();
   }
 
   function renderNav(paper, editions, activeId) {
@@ -240,13 +243,14 @@
       byKey[k].items.push(e);
     });
     var archive = groups.map(function (g) {
-      var days = g.items.map(function (e) {
-        return '<button type="button" data-goto="' + escapeHtml(e.id) + '"' +
-          (e.id === activeId ? ' aria-current="true"' : "") +
-          ' title="' + escapeHtml(e.date || e.id) + '">' + escapeHtml(dayNumber(e.date || e.id)) + "</button>";
+      var rows = g.items.map(function (e) {
+        return '<button type="button" class="arch-item" data-goto="' + escapeHtml(e.id) + '"' +
+          (e.id === activeId ? ' aria-current="true"' : "") + ">" +
+          '<span class="ai-date">' + escapeHtml(shortDate(e.date || e.id)) + "</span>" +
+          (e.headline ? '<span class="ai-head">' + escapeHtml(e.headline) + "</span>" : "") +
+          "</button>";
       }).join("");
-      return '<section class="arch-group"><h3>' + escapeHtml(monthLabel(g.key)) + "</h3>" +
-        '<div class="arch-days">' + days + "</div></section>";
+      return '<section class="arch-group"><h3>' + escapeHtml(monthLabel(g.key)) + "</h3>" + rows + "</section>";
     }).join("");
 
     var hasNewer = index > 0;
@@ -256,13 +260,19 @@
     timeline.innerHTML =
       '<div class="nav-bar">' +
         '<button type="button" class="nav-older" data-nav="older"' + (hasOlder ? "" : " disabled") + ">‹ Older</button>" +
-        '<button type="button" class="nav-current" data-nav="toggle" aria-haspopup="true" aria-expanded="false">' +
+        '<button type="button" class="nav-current" data-nav="open" aria-haspopup="dialog">' +
           '<span class="nav-date">' + escapeHtml(formatDate(editions[index].date || activeId)) + "</span>" +
           '<span class="nav-count">' + (index + 1) + " / " + editions.length + "</span>" +
+          '<span class="nav-open-icon" aria-hidden="true">▤</span>' +
         "</button>" +
         '<button type="button" class="nav-newer" data-nav="newer"' + (hasNewer ? "" : " disabled") + ">Newer ›</button>" +
       "</div>" +
-      '<div class="nav-archive" hidden>' + archive + "</div>";
+      '<div class="nav-backdrop" data-nav="close"></div>' +
+      '<aside class="nav-drawer" aria-label="Edition archive">' +
+        '<div class="drawer-head"><h2>Archive · ' + editions.length + " editions</h2>" +
+          '<button type="button" class="drawer-close" data-nav="close" aria-label="Close archive">×</button></div>' +
+        '<div class="drawer-list">' + archive + "</div>" +
+      "</aside>";
   }
 
   function renderPaper(slug, wantedDate) {
@@ -308,11 +318,8 @@
       if (safeUrl(site.repoUrl)) repoLink.href = site.repoUrl;
       buildControls();
       timeline.addEventListener("click", onTimelineClick);
-      document.addEventListener("click", function (e) {
-        if (!timeline.hidden && !timeline.contains(e.target)) closeArchive();
-      });
       document.addEventListener("keydown", function (e) {
-        if (e.key === "Escape") { closeArchive(); return; }
+        if (e.key === "Escape") { closeDrawer(); return; }
         if (!navState) return;
         var tag = (e.target && e.target.tagName) || "";
         if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
