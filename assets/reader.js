@@ -43,23 +43,50 @@
     }
   }
 
+  // Colour theme: Auto (follow the OS via prefers-color-scheme), or a manual Light/Dark
+  // that wins over it. Cycled from the toolbar, remembered in localStorage.
+  var THEMES = ["auto", "light", "dark"];
+  var THEME_LABEL = { auto: "◐ Auto", light: "☀ Light", dark: "🌙 Dark" };
+
+  function storedTheme() {
+    try { return localStorage.getItem("vp-theme") || "auto"; } catch (e) { return "auto"; }
+  }
+  function applyTheme(mode) {
+    if (THEMES.indexOf(mode) === -1) mode = "auto";
+    if (mode === "auto") document.documentElement.removeAttribute("data-theme");
+    else document.documentElement.setAttribute("data-theme", mode);
+    if (controls) {
+      var b = controls.querySelector('button[data-action="theme"]');
+      if (b) { b.textContent = THEME_LABEL[mode]; b.setAttribute("title", "Theme: " + mode + " — click to change"); }
+    }
+  }
+
   function buildControls() {
     controls = document.createElement("div");
     controls.id = "vp-controls";
     controls.innerHTML =
       '<button type="button" data-template="standard" title="Web reading layout">Web</button>' +
       '<button type="button" data-template="classic" title="Old-newspaper print layout">Print</button>' +
-      '<button type="button" data-action="print" title="Print this edition" aria-label="Print">⎙</button>';
+      '<button type="button" data-action="print" title="Print this edition" aria-label="Print">⎙</button>' +
+      '<button type="button" data-action="theme" title="Theme"></button>';
     controls.addEventListener("click", function (e) {
       var btn = e.target.closest ? e.target.closest("button") : null;
       if (!btn) return;
-      if (btn.getAttribute("data-action") === "print") { window.print(); return; }
+      var action = btn.getAttribute("data-action");
+      if (action === "print") { window.print(); return; }
+      if (action === "theme") {
+        var next = THEMES[(THEMES.indexOf(storedTheme()) + 1) % THEMES.length];
+        try { localStorage.setItem("vp-theme", next); } catch (err) {}
+        applyTheme(next);
+        return;
+      }
       var t = normalizeTemplate(btn.getAttribute("data-template"));
       try { localStorage.setItem("vp-template", t); } catch (err) {}
       document.documentElement.setAttribute("data-template", t);
       applyTemplate(t);
     });
     document.body.appendChild(controls);
+    applyTheme(storedTheme());
   }
 
   // --- helpers ---------------------------------------------------------------

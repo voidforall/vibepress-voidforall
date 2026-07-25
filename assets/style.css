@@ -27,6 +27,30 @@
   }
 }
 
+/* Manual theme override (the reader's Auto/Light/Dark switch stamps data-theme on
+   <html>). The attribute selectors outrank the prefers-color-scheme media query, so
+   an explicit choice wins; "Auto" simply removes the attribute and the query governs. */
+:root[data-theme="light"] {
+  --ink: #1a1a1a;
+  --ink-soft: #4a4a4a;
+  --ink-faint: #767676;
+  --paper: #f7f5ef;
+  --paper-raised: #fffdf8;
+  --rule: #d8d3c6;
+  --accent: #8a1a1a;
+  --link: #1b4b8a;
+}
+:root[data-theme="dark"] {
+  --ink: #ececec;
+  --ink-soft: #c2c2c2;
+  --ink-faint: #8f8f8f;
+  --paper: #16150f;
+  --paper-raised: #1e1d16;
+  --rule: #3a382e;
+  --accent: #e08a7a;
+  --link: #8fb6ec;
+}
+
 * { box-sizing: border-box; }
 
 body {
