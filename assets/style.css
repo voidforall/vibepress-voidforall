@@ -147,30 +147,78 @@ a { color: var(--link); }
   color: var(--ink-faint);
 }
 
-/* Timeline */
+/* Edition navigation — a compact prev/next bar plus a grouped, scrollable
+   archive dropdown, so it stays tidy whether there are 3 editions or 3,000. */
 .timeline {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 0.75rem 1.25rem;
-  display: flex;
-  gap: 0.5rem;
-  overflow-x: auto;
+  padding: 0.6rem 1.25rem;
   border-bottom: 1px solid var(--rule);
-  scrollbar-width: thin;
+  position: relative;
+  font-family: var(--sans);
 }
-.timeline button {
-  flex: 0 0 auto;
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.nav-bar button {
   font-family: var(--sans);
   font-size: 0.78rem;
   padding: 0.35rem 0.7rem;
   border: 1px solid var(--rule);
-  border-radius: 999px;
-  background: transparent;
+  border-radius: 6px;
+  background: var(--paper-raised);
   color: var(--ink-soft);
   cursor: pointer;
   white-space: nowrap;
 }
-.timeline button[aria-current="true"] {
+.nav-bar button:disabled { opacity: 0.4; cursor: default; }
+.nav-current { display: inline-flex; gap: 0.5rem; align-items: baseline; }
+.nav-current .nav-count { color: var(--ink-faint); font-size: 0.7rem; }
+.nav-older, .nav-newer { min-width: 4.75rem; }
+
+.nav-archive {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100%;
+  z-index: 15;
+  width: min(32rem, calc(100vw - 2rem));
+  max-height: 62vh;
+  overflow-y: auto;
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
+  padding: 0.4rem 0.9rem 0.9rem;
+}
+.arch-group { margin-top: 0.5rem; }
+.arch-group h3 {
+  margin: 0 0 0.45rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  position: sticky;
+  top: 0;
+  background: var(--paper-raised);
+  padding: 0.35rem 0;
+}
+.arch-days { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+.arch-days button {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  min-width: 2rem;
+  padding: 0.3rem 0.45rem;
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+  background: transparent;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+.arch-days button[aria-current="true"] {
   background: var(--ink);
   color: var(--paper);
   border-color: var(--ink);
