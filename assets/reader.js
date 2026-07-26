@@ -122,6 +122,20 @@
     return d.toLocaleDateString(undefined, { weekday: "long", year: "numeric", month: "long", day: "numeric" });
   }
 
+  // A friendly "how fresh is this paper" label for the newsstand cards.
+  function relativeDate(iso) {
+    var d = new Date((iso || "") + "T00:00:00");
+    if (isNaN(d.getTime())) return escapeHtml(iso || "");
+    var today = new Date();
+    today.setHours(0, 0, 0, 0);
+    var days = Math.round((today - d) / 86400000);
+    if (days <= 0) return "Today";
+    if (days === 1) return "Yesterday";
+    if (days < 7) return days + " days ago";
+    if (days < 14) return "Last week";
+    return d.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+  }
+
   function getJson(path) {
     return fetch(path, { cache: "no-cache" }).then(function (res) {
       if (!res.ok) throw new Error(path + " → HTTP " + res.status);
@@ -154,14 +168,17 @@
     applyTemplate("standard");
     navState = null;
     timeline.hidden = true;
-    masthead.innerHTML =
-      '<p class="masthead-kicker">Newsstand</p>' +
-      '<h1 class="masthead-title">' + escapeHtml(site.publisher || "The Newsstand") + "</h1>" +
-      (site.tagline ? '<p class="masthead-sub">' + escapeHtml(site.tagline) + "</p>" : "");
-
     var papers = (site.papers || []).slice().sort(function (a, b) {
       return (b.latestDate || "").localeCompare(a.latestDate || "");
     });
+
+    var count = papers.length;
+    masthead.innerHTML =
+      '<p class="masthead-kicker">The Newsstand</p>' +
+      '<h1 class="masthead-title">' + escapeHtml(site.publisher || "The Newsstand") + "</h1>" +
+      (site.tagline ? '<p class="masthead-sub">' + escapeHtml(site.tagline) + "</p>" : "") +
+      '<p class="newsstand-meta">' + count + (count === 1 ? " paper" : " papers") +
+        ", each publishing itself</p>";
 
     if (!papers.length) {
       setStatus("No papers yet. The next scheduled run will publish one.");
@@ -173,17 +190,21 @@
       papers.map(function (p) {
         var href = "#/" + encodeURIComponent(p.slug);
         var accent = safeColor(p.accent);
+        var count = p.editionCount || 0;
         return (
           '<a class="paper-card" href="' + href + '"' +
           (accent ? ' style="--card-accent:' + accent + '"' : "") + ">" +
-          (p.emoji ? '<div class="paper-card-emoji" aria-hidden="true">' + escapeHtml(p.emoji) + "</div>" : "") +
+          '<div class="paper-card-top">' +
+            '<span class="paper-card-emoji" aria-hidden="true">' + escapeHtml(p.emoji || "📰") + "</span>" +
+            (count ? '<span class="paper-card-badge">' + count + (count === 1 ? " edition" : " editions") + "</span>" : "") +
+          "</div>" +
           '<h2 class="paper-card-title">' + escapeHtml(p.name || p.slug) + "</h2>" +
           (p.tagline ? '<p class="paper-card-tagline">' + escapeHtml(p.tagline) + "</p>" : "") +
           (p.latestHeadline ? '<p class="paper-card-lead">' + escapeHtml(p.latestHeadline) + "</p>" : "") +
-          '<p class="paper-card-meta">' +
-          (p.latestDate ? escapeHtml(p.latestDate) : "no editions yet") +
-          (p.editionCount ? " · " + p.editionCount + " edition" + (p.editionCount === 1 ? "" : "s") : "") +
-          "</p>" +
+          '<div class="paper-card-foot">' +
+            '<span class="paper-card-date">' + (p.latestDate ? escapeHtml(relativeDate(p.latestDate)) : "no editions yet") + "</span>" +
+            '<span class="paper-card-cta">Read →</span>' +
+          "</div>" +
           "</a>"
         );
       }).join("") +

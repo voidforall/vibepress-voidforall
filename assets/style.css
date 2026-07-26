@@ -128,60 +128,106 @@ a { color: var(--link); }
 }
 .back-link:hover { color: var(--ink); }
 
-/* Newsstand */
+/* Newsstand landing — a hero masthead plus a grid of paper cards, each with the
+   paper's own accent so a shelf of titles reads as distinct at a glance. */
+.newsstand-meta {
+  margin: 0.7rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
 .newsstand {
-  max-width: var(--max);
+  max-width: 62rem;
   margin: 0 auto;
-  padding: 1.75rem 1.25rem 3rem;
+  padding: 2rem 1.25rem 3.5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: 1.25rem;
 }
 .paper-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
   color: inherit;
   border: 1px solid var(--rule);
-  border-top: 3px solid var(--card-accent, var(--rule));
-  border-radius: 4px;
-  padding: 1rem 1.15rem 1rem;
+  border-top: 3px solid var(--card-accent, var(--ink-faint));
+  border-radius: 6px;
+  padding: 1.1rem 1.25rem 1rem;
   background: var(--paper-raised);
+  min-height: 12.5rem;
   transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
 }
 .paper-card:hover {
   border-color: var(--ink-faint);
   border-top-color: var(--card-accent, var(--ink-faint));
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+.paper-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.55rem;
 }
 .paper-card-emoji {
-  font-size: 1.7rem;
+  font-size: 1.75rem;
   line-height: 1;
-  margin: 0 0 0.5rem;
+}
+.paper-card-badge {
+  font-family: var(--sans);
+  font-size: 0.64rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--card-accent, var(--ink-faint));
+  border: 1px solid var(--card-accent, var(--rule));
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem;
+  opacity: 0.9;
 }
 .paper-card-title {
-  margin: 0 0 0.25rem;
-  font-size: 1.5rem;
-  line-height: 1.1;
+  margin: 0 0 0.2rem;
+  font-size: 1.55rem;
+  line-height: 1.08;
   font-weight: 700;
 }
 .paper-card-tagline {
-  margin: 0 0 0.7rem;
+  margin: 0 0 0.75rem;
   font-family: var(--sans);
   font-size: 0.82rem;
   color: var(--ink-faint);
 }
 .paper-card-lead {
-  margin: 0 0 0.7rem;
+  margin: 0 0 1rem;
   color: var(--ink-soft);
+  flex: 1;
 }
-.paper-card-meta {
-  margin: 0;
+.paper-card-foot {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--rule);
   font-family: var(--sans);
-  font-size: 0.72rem;
-  letter-spacing: 0.08em;
+  font-size: 0.74rem;
+}
+.paper-card-date {
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--ink-faint);
+}
+.paper-card-cta {
+  font-weight: 600;
+  color: var(--card-accent, var(--accent));
+  transform: translateX(-2px);
+  opacity: 0.85;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+.paper-card:hover .paper-card-cta {
+  transform: translateX(2px);
+  opacity: 1;
 }
 
 /* Edition navigation — a compact prev/next bar plus a grouped, scrollable
