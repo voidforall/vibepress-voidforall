@@ -12,6 +12,7 @@ on:
 permissions:
   contents: write
   id-token: write
+  issues: write     # the alert step opens a tracking issue when a paper is missing/invalid
 
 concurrency:
   group: vibepress-publish
@@ -52,25 +53,77 @@ jobs:
             and leave its files unchanged.
           claude_args: "--allowedTools Read,Edit,Write,WebSearch,WebFetch,Bash --max-turns 80"
 
-      - name: Validate editions (fail closed)
+      # Classify each paper (published / missing / invalid), stage the good ones, and write a
+      # per-paper table to the run summary. Fails closed per edition: a broken paper is reverted
+      # and never published, but it does not hold back the papers that passed.
+      - name: Validate, stage, and report
+        id: report
+        if: always()
         run: |
           today="$(date -u +%F)"
-          fail=0
+          {
+            echo "## vibepress publish — $today (UTC)"
+            echo ""
+            echo "| Paper | Status | Detail |"
+            echo "| --- | --- | --- |"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          ok=0; missing=""; invalid=""
           for cfg in papers/*/config.json; do
+            [ -e "$cfg" ] || continue
             slug="$(basename "$(dirname "$cfg")")"
             ed="papers/$slug/editions/$today.json"
-            [ -f "$ed" ] || { echo "no edition produced for $slug"; continue; }
-            python3 .vibepress/validate_edition.py "$ed" "$cfg" --manifest "papers/$slug/index.json" || fail=1
+            man="papers/$slug/index.json"
+            if [ ! -f "$ed" ]; then
+              echo "| \`$slug\` | ⚠️ no edition | Claude produced nothing for today |" >> "$GITHUB_STEP_SUMMARY"
+              missing="$missing $slug"
+              continue
+            fi
+            if vout="$(python3 .vibepress/validate_edition.py "$ed" "$cfg" --manifest "$man" 2>&1)"; then
+              head="$(python3 -c "import json;s=(json.load(open('$ed')).get('stories') or [{}]);print(s[0].get('headline',''))" 2>/dev/null || true)"
+              echo "| \`$slug\` | ✅ published | ${head:-—} |" >> "$GITHUB_STEP_SUMMARY"
+              git add "$ed" "$man"
+              [ -f "papers/$slug/seen.json" ] && git add "papers/$slug/seen.json" || true
+              ok=$((ok + 1))
+            else
+              echo "| \`$slug\` | ❌ invalid | failed validation — reverted, not published |" >> "$GITHUB_STEP_SUMMARY"
+              echo "::error title=vibepress $slug invalid::$vout"
+              git checkout HEAD -- "$ed" "$man" 2>/dev/null || rm -f "$ed"
+              [ -f "papers/$slug/seen.json" ] && { git checkout HEAD -- "papers/$slug/seen.json" 2>/dev/null || true; }
+              invalid="$invalid $slug"
+            fi
           done
-          [ "$fail" -eq 0 ]
+
+          # site.json is a single shared file. If any paper was reverted, drop all of today's
+          # site.json edits so the newsstand never forward-references a paper we didn't publish;
+          # the next clean run rewrites it. Otherwise stage it normally.
+          if [ -n "$invalid" ]; then
+            git checkout HEAD -- site.json 2>/dev/null || true
+            git reset -q -- site.json 2>/dev/null || true
+          else
+            git add site.json
+          fi
+
+          {
+            echo ""
+            [ -n "$missing" ] && echo "**Missing:** \`$missing\`  "
+            [ -n "$invalid" ] && echo "**Invalid (reverted):** \`$invalid\`  "
+            echo "Published **$ok** paper(s)."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          {
+            echo "ok=$ok"
+            echo "missing=$missing"
+            echo "invalid=$invalid"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Commit and push
+        if: steps.report.outputs.ok != '0'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add papers site.json
           if git diff --cached --quiet; then
             echo "no changes to publish"
           else
@@ -79,3 +132,41 @@ jobs:
             # so the credential actions/checkout set is no longer valid here.
             git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
           fi
+
+      # Soft alert: some papers published, but at least one was missing/invalid. The good papers
+      # are already live; open (or comment on) a dated tracking issue so the gap reaches you by
+      # email without turning the whole run red. Uses GITHUB_TOKEN — no extra secret.
+      - name: Alert on gaps (tracking issue)
+        if: always() && (steps.report.outputs.missing != '' || steps.report.outputs.invalid != '')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          today="$(date -u +%F)"
+          title="⚠️ vibepress: edition gaps on ${today}"
+          run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          body="$(printf '%s\n' \
+            "Automated alert from the publish workflow for **${today}** (UTC)." \
+            "" \
+            "- **Missing** (no edition produced):${{ steps.report.outputs.missing }}" \
+            "- **Invalid** (produced but failed validation, reverted):${{ steps.report.outputs.invalid }}" \
+            "" \
+            "Papers that passed still published. Full per-paper report: ${run_url}")"
+          num="$(gh issue list --state open --search "${title} in:title" --json number,title \
+                  --jq ".[] | select(.title==\"${title}\") | .number" 2>/dev/null | head -n1 || true)"
+          if [ -n "$num" ]; then
+            gh issue comment "$num" --body "$body"
+          else
+            gh issue create --title "$title" --body "$body" || true
+          fi
+
+      # Hard failure: nothing published at all today (total dry run or the generate step errored).
+      # Exiting non-zero turns the run red, which triggers GitHub's native "run failed" email.
+      - name: Fail the run if nothing published
+        if: always()
+        run: |
+          ok="${{ steps.report.outputs.ok }}"
+          if [ "${ok:-0}" = "0" ]; then
+            echo "::error title=vibepress::no papers published today — see the run summary"
+            exit 1
+          fi
+          echo "published ${ok} paper(s); missing:${{ steps.report.outputs.missing }}; invalid:${{ steps.report.outputs.invalid }}"
