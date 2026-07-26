@@ -49,14 +49,21 @@ Recent papers from the arXiv API, newest first.
 - `limit` — max results (default 10).
 
 ### `reddit`
-Top posts from a subreddit's public JSON.
+Top posts from a subreddit, via Reddit's **public RSS feed** (`/r/<sub>/<sort>.rss`).
 ```json
 { "type": "reddit", "subreddit": "MachineLearning", "sort": "top", "time": "day", "limit": 10 }
 ```
 - `subreddit` (required), `sort` (`top`/`hot`/`new`, default `top`), `time` (`day`/`week`, default `day`).
-- **Best-effort:** Reddit blocks unauthenticated requests from many IPs (especially cloud/CI), so
-  this may return an HTTP 403 and be skipped. It generally works from a personal machine. Do not rely
-  on it as a paper's only source.
+- **Cloud-safe, no auth.** Reddit's *JSON API* (`.json`) returns 403 from datacenter IPs (every CI
+  runner), but the *RSS feed* is served to those same IPs — verified 200 from a GitHub Actions runner —
+  so this works under the cloud backend as well as locally. The trade-off vs. the old JSON path: RSS
+  carries no per-post score, so ranking leans on recency and the model's judgment instead of upvotes.
+- One request per run keeps you well under Reddit's per-IP rate limit; a stray 429 is retried once,
+  and a hard failure is reported in the gather output's `skipped` list (never swallowed silently).
+- **Optional richer data (not required):** to pull the scored JSON API from the cloud you would need a
+  free Reddit OAuth "script" app (client id + secret → token → `oauth.reddit.com`), which authenticated
+  requests *are* allowed to make from datacenter IPs. That adds two repo secrets and is not wired up by
+  default — the RSS path above is the zero-config recommendation.
 
 ### `websearch`
 Topic discovery the model runs itself, with optional domain scoping.

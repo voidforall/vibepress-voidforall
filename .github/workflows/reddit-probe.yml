@@ -7,25 +7,24 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Probe Reddit endpoints from the runner IP
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run the real gather.py reddit source from the runner
         run: |
-          UA="vibepress-gather/1.0 (+https://github.com/voidforall/vibepress)"
-          echo "## Reddit endpoint probe (GitHub Actions runner IP)" >> "$GITHUB_STEP_SUMMARY"
-          echo "" >> "$GITHUB_STEP_SUMMARY"
-          echo "| Endpoint | HTTP |" >> "$GITHUB_STEP_SUMMARY"
-          echo "| --- | --- |" >> "$GITHUB_STEP_SUMMARY"
-          probe() {
-            code=$(curl -sS -o /tmp/body -w "%{http_code}" -A "$UA" --max-time 20 "$1" 2>/dev/null || echo ERR)
-            bytes=$(wc -c < /tmp/body 2>/dev/null || echo 0)
-            echo "| \`$1\` | $code (${bytes}B) |" >> "$GITHUB_STEP_SUMMARY"
-            echo "PROBE $code ${bytes}B  $1"
-          }
-          probe "https://www.reddit.com/r/MachineLearning/top.rss?t=day"
-          probe "https://www.reddit.com/r/MachineLearning/.rss"
-          probe "https://www.reddit.com/r/MachineLearning/top.json?t=day&limit=3"
-          probe "https://www.reddit.com/search.json?q=llm&t=week&limit=3"
-          # OAuth token endpoint reachability (no creds -> expect 401, proves not IP-blocked)
-          tc=$(curl -sS -o /dev/null -w "%{http_code}" -A "$UA" --max-time 20 -X POST \
-               "https://www.reddit.com/api/v1/access_token" -d "grant_type=client_credentials" 2>/dev/null || echo ERR)
-          echo "| \`POST /api/v1/access_token\` (no creds) | $tc |" >> "$GITHUB_STEP_SUMMARY"
-          echo "PROBE token $tc"
+          cat > /tmp/reddit-cfg.json <<'CFG'
+          { "slug": "probe", "name": "probe", "categories": ["Technology"], "storyCount": 5,
+            "sources": [ { "type": "reddit", "subreddit": "MachineLearning", "sort": "top", "time": "day", "limit": 6 } ] }
+          CFG
+          python3 .vibepress/gather.py /tmp/reddit-cfg.json --out /tmp/out.json
+          echo "## Reddit gather probe (runner)" >> "$GITHUB_STEP_SUMMARY"
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          d=json.load(open("/tmp/out.json"))
+          print(f"\ncandidateCount = **{d['candidateCount']}**, skipped = `{d['skipped']}`\n")
+          for c in d["candidates"][:6]:
+              print(f"- [{c['type']}] {c['title']}")
+          PY
+          echo "PROBE candidateCount=$(python3 -c "import json;print(json.load(open('/tmp/out.json'))['candidateCount'])")"
+          echo "PROBE skipped=$(python3 -c "import json;print(json.load(open('/tmp/out.json'))['skipped'])")"

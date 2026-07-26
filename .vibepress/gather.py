@@ -20,6 +20,8 @@ import json
 import os
 import re
 import sys
+import time as pytime
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -105,24 +107,34 @@ def from_rss(src):
 
 
 def from_reddit(src):
-    sub = src["subreddit"]
+    """Fetch a subreddit via Reddit's public RSS feed.
+
+    Reddit's JSON API (`/r/<sub>/<sort>.json`) returns 403 from datacenter IPs —
+    including every GitHub Actions runner — so it is unusable under the cloud
+    backend. The RSS syndication feed (`/r/<sub>/<sort>.rss`) is served to the same
+    IPs (verified 200 from a runner) and needs no auth. We trade away per-post
+    score for something that actually works everywhere. One request per run keeps
+    us well under Reddit's per-IP rate limit; a single 429 is retried once.
+    """
+    sub = urllib.parse.quote(src["subreddit"])
     sort = src.get("sort", "top")
     time = src.get("time", "day")
     limit = int(src.get("limit", 10))
-    url = f"https://www.reddit.com/r/{urllib.parse.quote(sub)}/{sort}.json?t={time}&limit={limit}"
-    data = fetch_json(url)
-    out = []
-    for child in data.get("data", {}).get("children", []):
-        d = child.get("data", {})
-        if d.get("stickied"):
-            continue
-        link = d.get("url_overridden_by_dest") or d.get("url") or ("https://reddit.com" + d.get("permalink", ""))
-        out.append({
-            "source": f"r/{sub}", "type": "reddit", "title": clean(d.get("title")),
-            "url": link, "score": d.get("score"),
-            "discussion": "https://reddit.com" + d.get("permalink", ""),
-        })
-    return out
+    url = f"https://www.reddit.com/r/{sub}/{sort}.rss?t={time}&limit={limit}"
+
+    for attempt in range(2):
+        try:
+            feed = _parse_feed(fetch(url), limit)
+            break
+        except urllib.error.HTTPError as exc:
+            if exc.code == 429 and attempt == 0:
+                pytime.sleep(2)
+                continue
+            raise
+    for c in feed:
+        c["source"] = f"r/{src['subreddit']}"
+        c["type"] = "reddit"
+    return feed
 
 
 def from_arxiv(src):
