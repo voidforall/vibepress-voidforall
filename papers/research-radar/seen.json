@@ -1,0 +1,54 @@
+{
+  "windowDays": 21,
+  "updatedAt": "2026-07-26T17:12:30Z",
+  "events": [
+    {
+      "date": "2026-07-26",
+      "headline": "Why humans may stay in the loop even when AI is highly capable",
+      "summary": "Challenging the assumption that humans remain in the loop only until AI is capable enough, this paper argues human participation may persist for three distinct reasons — beginning with technical/complementarity grounds, where humans contri…",
+      "urls": [
+        "https://arxiv.org/abs/2607.21547"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "headline": "Vision-language models solve a problem in text, then fail it as a diagram",
+      "summary": "On geometry problems with equivalent text and diagram views, VLMs behave inconsistently: a model may solve from text but fail the corresponding diagram, or succeed visually while failing textually. MIRROR builds a paired multimodal geometr…",
+      "urls": [
+        "https://arxiv.org/abs/2607.21552"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "headline": "Test-time scaling that finds where the reasoning went wrong",
+      "summary": "Standard inference-time scaling — independent sampling and sequential refinement — wastes compute because it discards valid reasoning prefixes without token-level credit assignment. Test-Time Scaling via Error Localization (TTEL) compares…",
+      "urls": [
+        "https://arxiv.org/abs/2607.21453"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "headline": "DONDO: open speech-recognition models for 27 African language varieties",
+      "summary": "DONDO is a family of open, permissively licensed ASR base models — 21 monolingual and 5 multilingual — spanning 27 language varieties across Ghana, Sierra Leone, Nigeria, Senegal, Kenya and Zimbabwe. Built on the w2v-BERT 2.0 speech encode…",
+      "urls": [
+        "https://arxiv.org/abs/2607.21540"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "headline": "Can local open-weight LLMs do research data-prep without touching the cloud?",
+      "summary": "Governance rules often forbid sending personal research data to third-party cloud models. This paper introduces an open-source framework — including a curated ground-truth dataset of cleaning scripts — to evaluate locally deployable open-w…",
+      "urls": [
+        "https://arxiv.org/abs/2607.21482"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "headline": "At million-token context, the “free” speculative draft head stops being free",
+      "summary": "Frontier models ship a built-in Multi-Token-Prediction draft head on the assumption it is negligibly cheap. This paper shows that at million-token context the draft head runs full attention over the entire KV cache at every step, so its co…",
+      "urls": [
+        "https://arxiv.org/abs/2607.21535"
+      ]
+    }
+  ]
+}

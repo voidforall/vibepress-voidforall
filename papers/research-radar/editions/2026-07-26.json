@@ -1,0 +1,87 @@
+{
+  "id": "2026-07-26",
+  "date": "2026-07-26",
+  "generatedAt": "2026-07-26T17:12:17Z",
+  "editionTitle": "Research Radar",
+  "editorNote": "This week's radar leans practical: two results on making inference cheaper and more precise — windowed speculative drafting so long-context decoding stays a win, and test-time scaling that localizes the failing token — alongside a dataset that catches vision-language models contradicting themselves across views of one problem. Rounding out the week: a benchmark for privacy-bound local coding agents, a theory of why humans persist in the loop, and an open ASR family for African languages.",
+  "stories": [
+    {
+      "headline": "At million-token context, the “free” speculative draft head stops being free",
+      "summary": "Frontier models ship a built-in Multi-Token-Prediction draft head on the assumption it is negligibly cheap. This paper shows that at million-token context the draft head runs full attention over the entire KV cache at every step, so its cost grows linearly with context and can dominate — a deep native draft can even turn net-negative, slower than no speculation. Windowed-MTP restricts that read to keep speculative decoding a win.",
+      "whyItMatters": "As context windows stretch to millions of tokens, the standard assumption that the draft head is negligible breaks; the paper pinpoints when speculation backfires and how to keep it profitable.",
+      "category": "Systems",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Windowed-MTP (arXiv:2607.21535)",
+          "url": "https://arxiv.org/abs/2607.21535"
+        }
+      ]
+    },
+    {
+      "headline": "Test-time scaling that finds where the reasoning went wrong",
+      "summary": "Standard inference-time scaling — independent sampling and sequential refinement — wastes compute because it discards valid reasoning prefixes without token-level credit assignment. Test-Time Scaling via Error Localization (TTEL) compares conditional probabilities under informed feedback against a null-context baseline to localize errors at the token level.",
+      "whyItMatters": "Token-level error localization lets inference compute target the specific step that failed instead of resampling whole solutions.",
+      "category": "Methods",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Test-Time Scaling via Error Localization (arXiv:2607.21453)",
+          "url": "https://arxiv.org/abs/2607.21453"
+        }
+      ]
+    },
+    {
+      "headline": "Vision-language models solve a problem in text, then fail it as a diagram",
+      "summary": "On geometry problems with equivalent text and diagram views, VLMs behave inconsistently: a model may solve from text but fail the corresponding diagram, or succeed visually while failing textually. MIRROR builds a paired multimodal geometry dataset (ODA-Data) to study and exploit these complementary reasoning paths that standard multimodal post-training does not fully use.",
+      "whyItMatters": "It turns a vague ‘VLMs are weak at visual reasoning’ into a measurable gap — the same model contradicting itself across views of one problem — that post-training can target.",
+      "category": "Models",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "MIRROR (arXiv:2607.21552)",
+          "url": "https://arxiv.org/abs/2607.21552"
+        }
+      ]
+    },
+    {
+      "headline": "Can local open-weight LLMs do research data-prep without touching the cloud?",
+      "summary": "Governance rules often forbid sending personal research data to third-party cloud models. This paper introduces an open-source framework — including a curated ground-truth dataset of cleaning scripts — to evaluate locally deployable open-weight LLM agents on longitudinal-study data preparation, one of the field's most persistent bottlenecks.",
+      "whyItMatters": "It gives privacy-constrained research a concrete benchmark for whether local open-weight agents are good enough to replace cloud coding assistants on sensitive data.",
+      "category": "Benchmarks",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Agentic coding without the cloud (arXiv:2607.21482)",
+          "url": "https://arxiv.org/abs/2607.21482"
+        }
+      ]
+    },
+    {
+      "headline": "Why humans may stay in the loop even when AI is highly capable",
+      "summary": "Challenging the assumption that humans remain in the loop only until AI is capable enough, this paper argues human participation may persist for three distinct reasons — beginning with technical/complementarity grounds, where humans contribute capabilities or perspectives unavailable to AI, and normative/developmental grounds. It asks where automation's conceptual limits lie rather than how far it can reach.",
+      "whyItMatters": "It reframes ‘human-in-the-loop’ as a design principle with lasting conceptual limits, not a temporary crutch awaiting better models.",
+      "category": "Theory",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "The Boundaries of Automation (arXiv:2607.21547)",
+          "url": "https://arxiv.org/abs/2607.21547"
+        }
+      ]
+    },
+    {
+      "headline": "DONDO: open speech-recognition models for 27 African language varieties",
+      "summary": "DONDO is a family of open, permissively licensed ASR base models — 21 monolingual and 5 multilingual — spanning 27 language varieties across Ghana, Sierra Leone, Nigeria, Senegal, Kenya and Zimbabwe. Built on the w2v-BERT 2.0 speech encoder, they are fine-tuned largely on license-clear read speech from religious texts, which give broad, orthographically consistent coverage for languages that otherwise lack transcribed audio.",
+      "whyItMatters": "It extends open, license-clear speech recognition to low-resource African languages most systems ignore, using a data source that is broad and consistent enough to bootstrap them.",
+      "category": "Applications",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "DONDO (arXiv:2607.21540)",
+          "url": "https://arxiv.org/abs/2607.21540"
+        }
+      ]
+    }
+  ]
+}

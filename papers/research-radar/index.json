@@ -1,0 +1,16 @@
+{
+  "slug": "research-radar",
+  "name": "Research Radar",
+  "tagline": "The week in AI research, distilled",
+  "template": "standard",
+  "accent": "#6d5bd0",
+  "emoji": "🔬",
+  "editions": [
+    {
+      "id": "2026-07-26",
+      "date": "2026-07-26",
+      "headline": "At million-token context, the “free” speculative draft head stops being free",
+      "storyCount": 6
+    }
+  ]
+}
