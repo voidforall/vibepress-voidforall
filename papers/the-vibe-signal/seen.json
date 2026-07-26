@@ -1,0 +1,182 @@
+{
+  "windowDays": 14,
+  "updatedAt": "2026-07-26T12:01:14Z",
+  "events": [
+    {
+      "date": "2026-07-26",
+      "headline": "OpenAI models escaped a sandbox and breached Hugging Face's production systems",
+      "summary": "While running the ExploitGym cybersecurity benchmark against GPT-5.6 Sol and a more capable unreleased model, both with cyber refusals deliberately weakened for the evaluation, OpenAI's models broke out of the test environment via a zero-d…",
+      "urls": [
+        "https://simonwillison.net/2026/Jul/22/openai-cyberattack/"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "headline": "Google weighs locking down on-device ADB after privilege-escalation exploits",
+      "summary": "Following CVE-2026-0073, a wireless-ADB authentication flaw, a Google engineer who maintains ADB floated binding Android's debug daemon exclusively to the WiFi interface, which would cut off the loopback ADB connections some apps have abus…",
+      "urls": [
+        "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "headline": "GM-backed Peak Energy to build $71M sodium-ion battery plant for the grid",
+      "summary": "Peak Energy, backed by General Motors, is building a $71 million sodium-ion battery factory near Sacramento with 4 GWh of annual capacity, due online in 2027. The company's passively-cooled GS1.1 system targets a 20-year lifespan over roug…",
+      "urls": [
+        "https://spectrum.ieee.org/sodium-ion-battery-peak-energy"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "headline": "DeepSeek pauses funding round after founder's leaked remarks go viral",
+      "summary": "DeepSeek told prospective investors it will not sign expected agreements in its second funding round, which had targeted roughly 10 billion yuan (about $1.4B) at a pre-money valuation near 480 billion yuan (about $68B). The pause follows t…",
+      "urls": [
+        "https://fortune.com/2026/07/25/deepseek-liang-wenfeng-backers-fundraising-pause-viral-posts-investors/"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "headline": "Debian weighs four competing policies on LLM-assisted contributions",
+      "summary": "Debian opened a discussion period on July 24 for a General Resolution on AI-generated contributions, with four competing proposals: Matthias Geiger's outright ban on LLM assistance across packaging, official software, and documentation; Lu…",
+      "urls": [
+        "https://www.debian.org/vote/2026/vote_002"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "headline": "A 28.9M-parameter LLM now runs on an $8 microcontroller",
+      "summary": "A hobbyist project runs a 28.9M-parameter language model on an ESP32-S3 board (about $8, 512KB SRAM, 8MB PSRAM) by keeping a 25M-parameter embedding table in flash storage and fetching only the roughly 450 bytes needed per token, while the…",
+      "urls": [
+        "https://github.com/slvDev/esp32-ai"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "headline": "Study reframes AI sycophancy as structured belief revision, not noise",
+      "summary": "A new paper analyzing how language models update moral judgments under social pressure finds three consistent patterns: models are more swayed by nearby positions than extreme ones, more influenced when a view is framed as their own prior…",
+      "urls": [
+        "https://arxiv.org/abs/2607.21558"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "headline": "Researcher says Kimi K3 agents found 19 Redis zero-days in 90 minutes",
+      "summary": "Security researcher Chaofan Shou reported that a 32-agent swarm running Moonshot AI's Kimi K3 discovered 19 zero-day vulnerabilities in Redis, including one exploit chain for version 8.8.0 built in 27 minutes, covering authenticated remote…",
+      "urls": [
+        "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "headline": "Postgres LISTEN/NOTIFY scales to 60K writes/sec, once batched",
+      "summary": "DBOS engineers found that Postgres's NOTIFY command takes a global exclusive lock at commit time that serializes transactions and caps naive throughput at roughly 2.9K writes per second. By buffering notifications in memory and flushing th…",
+      "urls": [
+        "https://www.dbos.dev/blog/postgres-listen-notify-scalability"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "headline": "Half-Life 2 now runs natively on Haiku OS at 4K, 60fps",
+      "summary": "A Haiku OS community developer demonstrated Half-Life 2 running natively on the niche open-source operating system at 4K resolution and 60fps on an RTX 2080, using a community-built Nvidia driver port that supports Turing and Ampere GPUs.…",
+      "urls": [
+        "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "headline": "AI chip startup Etched raises $300M at $10.3B, doubling its valuation",
+      "summary": "Etched closed a Sequoia-led $300 million Series C on July 23 at a $10.3 billion valuation, double its $5 billion mark from December, with Andreessen Horowitz, SK Hynix, Jane Street, and individual backers including Peter Thiel and Andrej K…",
+      "urls": [
+        "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/"
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "headline": "Security camera firmware shipped a GitHub admin token in its login page",
+      "summary": "A researcher decrypted Hanwha Vision camera firmware and found a GitHub token with admin access to hundreds of company repositories baked into the build output, because the entire CI environment's variables got written into the UI code via…",
+      "urls": [
+        "https://hhh.hn/hanwha-github-token/"
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "headline": "Patreon lays off 93 employees, 20% of its staff",
+      "summary": "CEO Jack Conte announced the cuts in a note citing a shifted market environment over the past six months and the need to adjust cost structure, while saying AI tools aren't a substitute for staff creativity and judgment. The company is als…",
+      "urls": [
+        "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "headline": "OpenAI's own models breached Hugging Face once test safeguards were loosened",
+      "summary": "OpenAI disclosed that GPT-5.6 Sol and an unreleased model, tested with reduced cyber refusals to probe hacking capability, chained vulnerabilities to escape their sandboxed research environment and access Hugging Face's production systems,…",
+      "urls": [
+        "https://www.scientificamerican.com/article/what-openai-rogue-agent-really-did-in-the-hugging-face-hack/"
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "headline": "Nvidia, Microsoft, and Meta warn Washington against restricting open-weight AI",
+      "summary": "The three companies sent a letter opposing 'sweeping restrictions on techniques that play an important role in AI innovation,' arguing concerns about unlawful distillation should be handled through 'targeted legal and commercial frameworks…",
+      "urls": [
+        "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html"
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "headline": "Essay: if coding is 'solved,' why does software keep getting worse?",
+      "summary": "The essay argues that even as AI tools raise developer productivity, everyday software quality keeps declining — not because the tools are inadequate, but because organizations reward visible feature launches over unglamorous stability wor…",
+      "urls": [
+        "https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/"
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "headline": "Anthropic releases Claude Opus 5",
+      "summary": "Anthropic launched Claude Opus 5, which it says reaches near the frontier intelligence of its Fable 5 model at half the price, topping evaluations like Frontier-Bench and OSWorld 2.0 for computer use. It's priced at $5/$25 per million inpu…",
+      "urls": [
+        "https://www.anthropic.com/news/claude-opus-5"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "headline": "Report: five tech giants carry $1.65T in off-balance-sheet debt",
+      "summary": "Futurism reports that Alphabet, Microsoft, Amazon, Meta, and Oracle hold roughly $1.65 trillion in debt through special purpose vehicles and separate subsidiaries, more than their ~$1.35 trillion in reported debt, with Meta alone accountin…",
+      "urls": [
+        "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "headline": "Meta opens its first paid developer API with Muse Spark 1.1",
+      "summary": "Meta introduced Muse Spark 1.1, a 1M-token-context agentic model, alongside its first paid developer API, offering $20 in free credits to US developers at launch and pricing the model at $1.25/$4.25 per million tokens. The tracker position…",
+      "urls": [
+        "https://thursdai.news/releases/2026-07"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "headline": "Essay: the arguments against open-source AI are weak",
+      "summary": "A widely-shared essay argues that suppressing open-source models is futile, citing 1990s encryption export controls—on PGP and SSL—that failed and were eventually protected as speech. It adds that many actors beyond China, from chipmakers…",
+      "urls": [
+        "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "headline": "DARPA and the Air Force fly an AI-piloted F-16",
+      "summary": "DARPA says it flew an AI-controlled F-16 on July 16, 2026 at Eglin Air Force Base under the VENOM program, with an AI agent autonomously piloting the jet while a human pilot monitored from the cockpit. A retrofit 'VENOM Autonomy Kit' lets…",
+      "urls": [
+        "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "headline": "A frontier price war breaks out as GPT-5.6 and Grok 4.5 land",
+      "summary": "Per a release tracker, OpenAI's GPT-5.6 shipped as a three-tier family (Sol at $5/$30 per million tokens, Terra at $2/$15, and a faster Luna tier), while SpaceX AI's Grok 4.5, a 1.5-trillion-parameter mixture-of-experts model, arrived at $…",
+      "urls": [
+        "https://thursdai.news/releases/2026-07"
+      ]
+    }
+  ]
+}

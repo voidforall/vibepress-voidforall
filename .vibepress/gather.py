@@ -17,6 +17,7 @@ Each candidate: { source, type, title, url, score?, publishedAt? }.
 
 import datetime
 import json
+import os
 import re
 import sys
 import urllib.parse
@@ -147,6 +148,22 @@ COLLECTORS = {
 }
 
 
+def load_recently_covered(config_path):
+    """Read the paper's sibling seen.json so the model can skip already-covered events.
+
+    seen.json is written by update_seen.py after each edition. It is best-effort
+    context, not a gate: a missing or unreadable file just yields an empty list.
+    """
+    seen_path = os.path.join(os.path.dirname(os.path.abspath(config_path)), "seen.json")
+    try:
+        with open(seen_path, "r", encoding="utf-8") as handle:
+            data = json.load(handle)
+    except (FileNotFoundError, json.JSONDecodeError, OSError):
+        return []
+    events = data.get("events") if isinstance(data, dict) else None
+    return events if isinstance(events, list) else []
+
+
 def main(argv):
     args = [a for a in argv[1:] if not a.startswith("--")]
     out_path = None
@@ -159,6 +176,7 @@ def main(argv):
 
     config = json.load(open(args[0], encoding="utf-8"))
     sources = config.get("sources", [])
+    recently_covered = load_recently_covered(args[0])
 
     candidates, skipped, seen = [], [], set()
     for src in sources:
@@ -185,6 +203,8 @@ def main(argv):
         "candidateCount": len(candidates),
         "candidates": candidates,
         "skipped": skipped,
+        "recentlyCoveredCount": len(recently_covered),
+        "recentlyCovered": recently_covered,
     }
     text = json.dumps(result, indent=2, ensure_ascii=False)
     if out_path:

@@ -32,6 +32,10 @@ Read that file. Its `candidates` are pre-fetched from Hacker News, RSS, arXiv, R
 `skipped`, run the WebSearch tool with that `query` (pass `sites` as `allowed_domains` and bias toward
 the last `recencyDays` days), and fold the results into your candidate pool.
 
+The file also carries `recentlyCovered`: the stories this paper already ran over the last couple of
+weeks (each with `date`, `headline`, `summary`, `urls`). This is your dedup memory — hold it while you
+select. An empty list just means no history yet.
+
 You want noticeably more candidates than `storyCount` so selection has something to work with.
 
 ## Step 2 — Select, using this rubric
@@ -43,6 +47,11 @@ Choose up to `storyCount` stories. Optimize for a reader who wants signal, not a
 - **Primary sources win.** When several candidates cover one event, keep the one closest to the
   source (the announcement, paper, filing, repo) and merge the rest as context. Never run two stories
   about the same event.
+- **Don't repeat yesterday.** Compare every candidate against `recentlyCovered`. If it is the same
+  event this paper already ran in the window — same story, even from a different outlet or headline —
+  drop it. Judge by substance, not by URL: a fresh link to an event you already covered is still a
+  repeat. The one exception is a *material new development* (a result landed, a deal closed, a reversal);
+  then you may run it, but frame it as the update — lead with what changed since, not a re-announcement.
 - **Spread across `categories`.** A good edition isn't five variations on one theme. Aim for range,
   but don't manufacture a category with a weak story just to fill it.
 - **Recency.** Favor the last 24–48h (or the paper's cadence). Drop stale items unless they're the
@@ -106,6 +115,17 @@ valid JSON; `id`/`date` equal today; every story has non-empty `headline`/`summa
    newest-first.
 3. Update `site.json`: in `papers`, replace this paper's entry's `latestDate`, `latestHeadline`
    (lead story), and `editionCount` (its edition count). Leave the other papers untouched.
+4. Record what ran into this paper's dedup memory, so tomorrow's run won't repeat it:
+
+   ```sh
+   python3 .vibepress/update_seen.py \
+     papers/<slug>/editions/<id>.json papers/<slug>/seen.json --config papers/<slug>/config.json
+   ```
+
+   This appends today's stories to `papers/<slug>/seen.json` and prunes anything past the rolling
+   window (14 days by default, or `config.dedupWindowDays`). Re-running for the same date replaces that
+   day's entries, so it stays idempotent. `seen.json` is committed with the edition — it is the memory
+   the next run reads back. Only run this after validation passes.
 
 ## Guardrails (do not relax)
 
