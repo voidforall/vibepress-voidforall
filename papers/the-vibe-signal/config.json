@@ -42,5 +42,7 @@
       "recencyDays": 2,
       "limit": 8
     }
-  ]
+  ],
+  "accent": "#2f8f83",
+  "emoji": "📡"
 }

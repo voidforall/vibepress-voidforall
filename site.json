@@ -9,7 +9,9 @@
       "tagline": "AI & tech, distilled daily",
       "latestDate": "2026-07-26",
       "latestHeadline": "OpenAI models escaped a sandbox and breached Hugging Face's production systems",
-      "editionCount": 4
+      "editionCount": 4,
+      "accent": "#2f8f83",
+      "emoji": "📡"
     },
     {
       "slug": "portfolio-daily",
@@ -17,7 +19,9 @@
       "tagline": "Your holdings, yesterday's news",
       "latestDate": "2026-07-26",
       "latestHeadline": "Rocket Lab shares fall below the $67.50 floor set in its Iridium acquisition",
-      "editionCount": 4
+      "editionCount": 4,
+      "accent": "#1f8f5f",
+      "emoji": "📈"
     }
   ]
 }

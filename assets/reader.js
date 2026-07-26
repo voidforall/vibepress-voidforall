@@ -15,6 +15,7 @@
 
   var site = null; // cached site.json
   var navState = null; // { paper, editions (newest-first), id, index } for the current paper
+  var currentAccent = ""; // the active paper's accent hex, or "" on the newsstand / none
 
   // --- templates -------------------------------------------------------------
   // A paper declares a default look via its `template` field ("standard" | "classic").
@@ -35,6 +36,13 @@
   function applyTemplate(paperDefault) {
     var chosen = normalizeTemplate(storedOverride() || paperDefault || "standard");
     document.documentElement.setAttribute("data-template", chosen);
+    // A paper's accent gives it a visual identity in the standard look; classic is
+    // deliberately monochrome ink-on-newsprint, so the accent is suppressed there.
+    if (currentAccent && chosen !== "classic") {
+      document.documentElement.style.setProperty("--accent", currentAccent);
+    } else {
+      document.documentElement.style.removeProperty("--accent");
+    }
     if (controls) {
       var buttons = controls.querySelectorAll("button[data-template]");
       for (var i = 0; i < buttons.length; i++) {
@@ -102,6 +110,12 @@
     return /^https?:\/\//i.test(url) ? url : "";
   }
 
+  // Only accept a hex colour, so a paper's `accent` can never inject arbitrary CSS.
+  function safeColor(value) {
+    var c = String(value == null ? "" : value).trim();
+    return /^#(?:[0-9a-f]{3}|[0-9a-f]{4}|[0-9a-f]{6}|[0-9a-f]{8})$/i.test(c) ? c : "";
+  }
+
   function formatDate(iso) {
     var d = new Date((iso || "") + "T00:00:00");
     if (isNaN(d.getTime())) return escapeHtml(iso || "");
@@ -136,6 +150,7 @@
 
   function renderNewsstand() {
     document.title = (site.publisher || "The Newsstand");
+    currentAccent = "";
     applyTemplate("standard");
     navState = null;
     timeline.hidden = true;
@@ -157,8 +172,11 @@
       '<div class="newsstand">' +
       papers.map(function (p) {
         var href = "#/" + encodeURIComponent(p.slug);
+        var accent = safeColor(p.accent);
         return (
-          '<a class="paper-card" href="' + href + '">' +
+          '<a class="paper-card" href="' + href + '"' +
+          (accent ? ' style="--card-accent:' + accent + '"' : "") + ">" +
+          (p.emoji ? '<div class="paper-card-emoji" aria-hidden="true">' + escapeHtml(p.emoji) + "</div>" : "") +
           '<h2 class="paper-card-title">' + escapeHtml(p.name || p.slug) + "</h2>" +
           (p.tagline ? '<p class="paper-card-tagline">' + escapeHtml(p.tagline) + "</p>" : "") +
           (p.latestHeadline ? '<p class="paper-card-lead">' + escapeHtml(p.latestHeadline) + "</p>" : "") +
@@ -198,6 +216,7 @@
     document.title = (paper.name || paper.slug) + " · " + (edition.date || "");
     masthead.innerHTML =
       '<p class="masthead-kicker"><a href="#/" class="back-link">← Newsstand</a></p>' +
+      (paper.emoji ? '<div class="masthead-emoji" aria-hidden="true">' + escapeHtml(paper.emoji) + "</div>" : "") +
       '<h1 class="masthead-title">' + escapeHtml(paper.name || paper.slug) + "</h1>" +
       '<p class="masthead-date">' + formatDate(edition.date) + "</p>";
 
@@ -307,6 +326,7 @@
     getJson("papers/" + encodeURIComponent(slug) + "/index.json")
       .then(function (paper) {
         paper.slug = paper.slug || slug;
+        currentAccent = safeColor(paper.accent);
         applyTemplate(paper.template);
         var editions = (Array.isArray(paper.editions) ? paper.editions : []).slice().sort(function (a, b) {
           return (b.date || b.id || "").localeCompare(a.date || a.id || "");
