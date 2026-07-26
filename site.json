@@ -32,6 +32,16 @@
       "editionCount": 1,
       "accent": "#6d5bd0",
       "emoji": "🔬"
+    },
+    {
+      "slug": "cosmic-dispatch",
+      "name": "The Cosmic Dispatch",
+      "tagline": "Space, astronomy, and the odd asteroid",
+      "latestDate": "2026-07-26",
+      "latestHeadline": "SpaceX's Starship flies again — and lands the “softest splashdown” yet",
+      "editionCount": 1,
+      "accent": "#c8862a",
+      "emoji": "🪐"
     }
   ]
 }

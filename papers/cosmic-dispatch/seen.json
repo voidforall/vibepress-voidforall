@@ -1,0 +1,60 @@
+{
+  "windowDays": 21,
+  "updatedAt": "2026-07-26T21:35:54Z",
+  "events": [
+    {
+      "date": "2026-07-26",
+      "headline": "SpaceX's Starship flies again — and lands the “softest splashdown” yet",
+      "summary": "On July 24 SpaceX launched the second flight of Starship V3 from Starbase, Texas, deploying 20 next-generation Starlink V3 satellites about 18 minutes in — its first look at them in flight. The Super Heavy booster splashed down in the Gulf…",
+      "urls": [
+        "https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-makes-the-softest-splashdown-ever-after-launching-next-gen-starlink-satellites-in-flight-13-test-video",
+        "https://spacenews.com/spacex-conducts-13th-starship-test-flight/"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "headline": "NASA's Roman telescope reaches the launch pad — about nine months early",
+      "summary": "NASA will hold a July 29 briefing to preview the Nancy Grace Roman Space Telescope, now set to launch Aug. 30 from Kennedy Space Center on a SpaceX Falcon Heavy — roughly nine months ahead of schedule. Roman's field of view is at least 100…",
+      "urls": [
+        "https://www.nasa.gov/news-release/nasa-to-host-media-briefing-on-roman-telescope-launching-next-month/",
+        "https://science.nasa.gov/mission/roman-space-telescope/"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "headline": "For the first time, an atmosphere is found around a rocky planet in the habitable zone",
+      "summary": "Researchers report in Science (July 16) the first confirmed atmosphere around a rocky, Earth-like world in its star's habitable zone: LHS 1140 b, a super-Earth about 49 light-years away with roughly 1.7 times Earth's radius. Such an atmosp…",
+      "urls": [
+        "https://www.smithsonianmag.com/smart-news/could-life-exist-on-this-nearby-world-in-a-first-astronomers-find-an-atmosphere-on-an-earth-like-exoplanet-in-the-habitable-zone-180989149/",
+        "https://www.space.com/astronomy/exoplanets/astronomers-discover-1st-atmosphere-around-a-rocky-earth-like-planet-in-the-habitable-zone"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "headline": "Astronomers may have spotted the first moon beyond our solar system — a Jupiter-sized one",
+      "summary": "Using the radial-velocity “wobble” method on the European Southern Observatory's Very Large Telescope, astronomers report evidence of the first known exomoon — at least as massive as Jupiter — orbiting not a planet but a brown dwarf (CD-35…",
+      "urls": [
+        "https://time.com/article/2026/07/22/astronomers-discover-exomoon/",
+        "https://www.space.com/astronomy/exoplanets/astronomers-may-have-discovered-the-1st-moon-outside-of-our-solar-system-or-is-it-something-weirder"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "headline": "After 241 days in orbit, a Soyuz brings three crewmates home to the steppe",
+      "summary": "Soyuz MS-28 undocked from the International Space Station and made a parachute landing on the Kazakh steppe, returning NASA astronaut Chris Williams and cosmonauts Sergey Kud-Sverchkov and Sergei Mikaev after a 241-day mission — 3,856 orbi…",
+      "urls": [
+        "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-crewmates-return-from-space-station/",
+        "https://www.space.com/space-exploration/human-spaceflight/nasa-astronaut-two-cosmonauts-return-to-earth-soyuz-ms-28"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "headline": "A new way to hunt planets: listen for them in gravitational waves",
+      "summary": "An Astrobites roundup describes how the planned LISA space observatory could detect giant planets circling double white dwarfs by the tiny shifts a planet imprints on the pair's gravitational-wave signal — a method akin to radial velocity…",
+      "urls": [
+        "https://astrobites.org/2026/07/22/extragalactic-exoplanets-gws/",
+        "https://www.space.com/gravitational-waves-to-detect-planets-beyond-galaxy.html"
+      ]
+    }
+  ]
+}
