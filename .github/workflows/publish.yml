@@ -30,15 +30,43 @@ jobs:
         with:
           python-version: "3.12"
 
+      # One trigger fires per day; each paper's config.schedule.cadence decides whether today is
+      # its publish day (daily / weekdays / weekly / explicit days). Papers not due today are left
+      # untouched and are NOT treated as gaps downstream.
+      - name: Select papers due today
+        id: due
+        run: |
+          today="$(date -u +%F)"
+          due=""
+          for cfg in papers/*/config.json; do
+            [ -e "$cfg" ] || continue
+            slug="$(basename "$(dirname "$cfg")")"
+            if python3 .vibepress/should_publish.py "$cfg" --date "$today" >/dev/null; then
+              due="$due $slug"
+            fi
+          done
+          due="$(echo $due | xargs || true)"   # collapse/trim whitespace
+          echo "due=$due" >> "$GITHUB_OUTPUT"
+          {
+            echo "## vibepress publish — $today (UTC)"
+            echo ""
+            if [ -z "$due" ]; then
+              echo "_No papers are scheduled to publish today._"
+            else
+              echo "Scheduled today: \`$due\`"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
       - name: Generate today's editions
+        if: steps.due.outputs.due != ''
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             You are the vibepress scheduled publisher, running in this repository.
             Read .vibepress/generate.md and follow it exactly. Today's date is the UTC
-            date (`date -u +%F`). For EACH paper directory under papers/*/ that has a
-            config.json, produce today's edition. Always regenerate it from freshly gathered
+            date (`date -u +%F`). Produce today's edition for ONLY these papers (space-separated
+            slugs): ${{ steps.due.outputs.due }}. Always regenerate each from freshly gathered
             material, overwriting any existing papers/<slug>/editions/<today>.json. For each paper:
               - run `python3 .vibepress/gather.py papers/<slug>/config.json --out /tmp/<slug>.json`
                 for the deterministic sources, and run the config's websearch sources yourself;
@@ -59,19 +87,25 @@ jobs:
       - name: Validate, stage, and report
         id: report
         if: always()
+        env:
+          DUE: ${{ steps.due.outputs.due }}
         run: |
           today="$(date -u +%F)"
+          if [ -z "${DUE}" ]; then
+            { echo "ok=0"; echo "missing="; echo "invalid="; } >> "$GITHUB_OUTPUT"
+            echo "nothing scheduled today — nothing to validate"
+            exit 0
+          fi
           {
-            echo "## vibepress publish — $today (UTC)"
             echo ""
             echo "| Paper | Status | Detail |"
             echo "| --- | --- | --- |"
           } >> "$GITHUB_STEP_SUMMARY"
 
           ok=0; missing=""; invalid=""
-          for cfg in papers/*/config.json; do
+          for slug in ${DUE}; do
+            cfg="papers/$slug/config.json"
             [ -e "$cfg" ] || continue
-            slug="$(basename "$(dirname "$cfg")")"
             ed="papers/$slug/editions/$today.json"
             man="papers/$slug/index.json"
             if [ ! -f "$ed" ]; then
@@ -159,14 +193,20 @@ jobs:
             gh issue create --title "$title" --body "$body" || true
           fi
 
-      # Hard failure: nothing published at all today (total dry run or the generate step errored).
-      # Exiting non-zero turns the run red, which triggers GitHub's native "run failed" email.
-      - name: Fail the run if nothing published
+      # Hard failure: papers were scheduled today but none published (total dry run or the generate
+      # step errored). Exiting non-zero turns the run red -> GitHub's native "run failed" email.
+      # A day where NO paper was scheduled is a quiet success, not a failure.
+      - name: Fail the run if a scheduled paper didn't publish
         if: always()
         run: |
+          due="${{ steps.due.outputs.due }}"
           ok="${{ steps.report.outputs.ok }}"
+          if [ -z "$due" ]; then
+            echo "no papers scheduled to publish today — nothing to do"
+            exit 0
+          fi
           if [ "${ok:-0}" = "0" ]; then
-            echo "::error title=vibepress::no papers published today — see the run summary"
+            echo "::error title=vibepress::papers were due today but none published — see the run summary"
             exit 1
           fi
           echo "published ${ok} paper(s); missing:${{ steps.report.outputs.missing }}; invalid:${{ steps.report.outputs.invalid }}"

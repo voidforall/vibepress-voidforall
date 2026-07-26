@@ -14,8 +14,7 @@
   ],
   "editorialVoice": "Factual and market-aware. Report what happened and disclosed facts only; never give buy/sell or personalized investment advice, and never state predictions as fact.",
   "schedule": {
-    "cron": "0 7 * * *",
-    "timezone": "local"
+    "cadence": "daily"
   },
   "watchlist": [
     {

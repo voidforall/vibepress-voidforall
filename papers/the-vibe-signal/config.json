@@ -11,8 +11,7 @@
   ],
   "editorialVoice": "Concise, factual, wry. No hype, no predictions stated as fact.",
   "schedule": {
-    "cron": "0 7 * * *",
-    "timezone": "local"
+    "cadence": "daily"
   },
   "sources": [
     {
