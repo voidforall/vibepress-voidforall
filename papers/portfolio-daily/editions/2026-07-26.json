@@ -1,0 +1,61 @@
+{
+  "id": "2026-07-26",
+  "date": "2026-07-26",
+  "generatedAt": "2026-07-26T09:17:44Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Today's edition centers on deal and market mechanics rather than fresh earnings: Rocket Lab's stock breach of its Iridium acquisition's $67.50 collar locks in new terms for that deal, Alibaba's Hong Kong shares gave back a week of AI-rally gains, gold's slide continues alongside rising bond yields and ETF outflows, and new Cambridge research shows bitcoin mining's power mix shifting toward hydropower even as total energy use and emissions grow. Duolingo and Alphabet coverage circulating today largely repeated developments already reported in prior editions, so it was left out rather than run as new news.",
+  "stories": [
+    {
+      "headline": "Rocket Lab shares fall below the $67.50 floor set in its Iridium acquisition",
+      "summary": "Rocket Lab shares fell 8.7% on Friday to close at $63.91, dropping below the $67.50 price level that triggers the fixed exchange-ratio collar in its pending $8 billion acquisition of Iridium Communications. At or below that threshold, the deal's exchange ratio locks at 0.4000 Rocket Lab shares plus $27 in cash per Iridium share. Rocket Lab shares are down 34.8% over the past month; the company has secured $3.6 billion in bridge financing for the cash portion of the deal, which is expected to close in mid-2027 pending regulatory and shareholder approval.",
+      "whyItMatters": "With the exchange ratio now locked, further moves in Rocket Lab's stock price change the dollar value Iridium shareholders receive without changing the number of Rocket Lab shares issued.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab (NASDAQ:RKLB) shares drop 8.7%, ending below Iridium agreement's $67.50 floor (TS2 Tech)",
+          "url": "https://ts2.tech/en/rocket-lab-nasdaqrklb-shares-drop-8-7-ending-below-iridium-agreements-67-50-floor/"
+        }
+      ]
+    },
+    {
+      "headline": "Alibaba's Hong Kong shares fall 4.3%, erasing HK$94 billion as AI-rally gains unwind",
+      "summary": "Alibaba's Hong Kong-listed shares (9988.HK) fell 4.26% on Friday to HK$110, erasing about HK$94 billion in market value, giving back gains from earlier in the week when the stock rose 3.73% on Monday following the unveiling of Alibaba's Qwen3.8 Max AI model. The decline came amid a broader market pullback tied to rising oil prices and inflation concerns; Alibaba underperformed the Hang Seng Tech Index by 2.79 percentage points, while rivals JD.com and Meituan held up better.",
+      "whyItMatters": "The pullback shows investors unwinding company-specific AI-driven gains faster than the broader tech sector, on top of a wider market retreat.",
+      "category": "Markets",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Alibaba (HKG:9988) Shares Drop, Wiping Out Nearly HK$94 Billion as AI-Driven Gains Recede (TS2 Tech)",
+          "url": "https://ts2.tech/en/alibaba-hkg9988-shares-drop-wiping-out-nearly-hk94-billion-as-ai-driven-gains-recede/"
+        }
+      ]
+    },
+    {
+      "headline": "Gold extends slide as bond yields rise and ETF investors pull back",
+      "summary": "Gold has fallen more than 27% from its January high, as the two-year Treasury yield climbed to 4.33% and the ten-year to 4.70%. Major gold ETFs have seen sustained outflows: SPDR Gold Shares (GLD) lost $1.63 billion over 30 days and $12.2 billion over six months, while iShares Gold Trust (IAU) shed $1.2 billion over 30 days and $4.5 billion over six months.",
+      "whyItMatters": "Rising yields make interest-bearing bonds more competitive with non-yielding gold, and the ETF flow data gives a concrete measure of investor positioning behind the price decline.",
+      "category": "Commodities",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Behind the Gold Price Drop? Falling ETF Inflows as US Bond Yields Jump (Benzinga)",
+          "url": "https://www.benzinga.com/markets/commodities/26/07/60685283/behind-the-gold-price-drop-falling-etf-inflows-as-us-bond-yields-jump"
+        }
+      ]
+    },
+    {
+      "headline": "Hydropower overtakes natural gas as bitcoin mining's top power source, Cambridge data shows",
+      "summary": "Preliminary research from the Cambridge Centre for Alternative Finance, presented at the Energy Investors Forum in Dallas, found bitcoin mining's annualized electricity use rose 38% to about 190 TWh between June 2024 and December 2025, with hydropower overtaking natural gas as the single largest energy source. Low-carbon power made up 59.4% of the reported mix, up from 52.4% previously, though total mining-related greenhouse-gas emissions still rose roughly 20%, to about 48 million tonnes of CO2-equivalent, as overall electricity consumption grew.",
+      "whyItMatters": "It's a documented shift in how the bitcoin network is powered, from one of the field's most-cited independent research groups, even as absolute energy use and emissions continue to climb.",
+      "category": "Crypto",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Hydropower overtakes gas as Bitcoin mining power use jumps 38% (crypto.news)",
+          "url": "https://crypto.news/hydropower-overtakes-gas-as-bitcoin-mining-power-use-jumps-38/"
+        }
+      ]
+    }
+  ]
+}

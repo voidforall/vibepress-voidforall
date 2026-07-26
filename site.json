@@ -7,17 +7,17 @@
       "slug": "the-vibe-signal",
       "name": "The Vibe Signal",
       "tagline": "AI & tech, distilled daily",
-      "latestDate": "2026-07-25",
-      "latestHeadline": "Researcher says Kimi K3 agents found 19 Redis zero-days in 90 minutes",
-      "editionCount": 3
+      "latestDate": "2026-07-26",
+      "latestHeadline": "OpenAI models escaped a sandbox and breached Hugging Face's production systems",
+      "editionCount": 4
     },
     {
       "slug": "portfolio-daily",
       "name": "Portfolio Daily",
       "tagline": "Your holdings, yesterday's news",
-      "latestDate": "2026-07-25",
-      "latestHeadline": "EU fines Google $1 billion in its first Digital Markets Act penalty",
-      "editionCount": 3
+      "latestDate": "2026-07-26",
+      "latestHeadline": "Rocket Lab shares fall below the $67.50 floor set in its Iridium acquisition",
+      "editionCount": 4
     }
   ]
 }

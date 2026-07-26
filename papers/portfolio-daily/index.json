@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-07-26",
+      "date": "2026-07-26",
+      "headline": "Rocket Lab shares fall below the $67.50 floor set in its Iridium acquisition",
+      "storyCount": 4
+    },
+    {
       "id": "2026-07-25",
       "date": "2026-07-25",
       "headline": "EU fines Google $1 billion in its first Digital Markets Act penalty",
