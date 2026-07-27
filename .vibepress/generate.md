@@ -29,8 +29,11 @@ python3 .vibepress/gather.py papers/<slug>/config.json --out /tmp/vibepress-cand
 
 Read that file. Its `candidates` are pre-fetched from Hacker News, RSS, arXiv, Reddit, etc.; its
 `skipped` list names any source that failed or that you must handle. For every `websearch` entry in
-`skipped`, run the WebSearch tool with that `query` (pass `sites` as `allowed_domains` and bias toward
-the last `recencyDays` days), and fold the results into your candidate pool.
+`skipped`, **if your agent has a web-search tool**, run it with that `query` (pass `sites` as the
+domain filter and bias toward the last `recencyDays` days), and fold the results into your candidate
+pool. **If your agent has no web search, skip the `websearch` entries** — the deterministic sources
+above already give you candidates, and a paper can publish without web search. (`websearch` is the one
+source type that needs a model tool; every other type is fetched deterministically by `gather.py`.)
 
 The file also carries `recentlyCovered`: the stories this paper already ran over the last couple of
 weeks (each with `date`, `headline`, `summary`, `urls`). This is your dedup memory — hold it while you

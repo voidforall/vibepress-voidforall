@@ -69,15 +69,19 @@ Top posts from a subreddit, via Reddit's **public RSS feed** (`/r/<sub>/<sort>.r
   default — the RSS path above is the zero-config recommendation.
 
 ### `websearch`
-Topic discovery the model runs itself, with optional domain scoping.
+Topic discovery the agent runs itself, with optional domain scoping.
 ```json
 { "type": "websearch", "query": "major AI model release", "recencyDays": 2, "sites": ["thursdai.news"], "limit": 8 }
 ```
 - `query` (required) — the search.
 - `recencyDays` — bias toward items from the last N days.
-- `sites` — restrict results to these domains (maps to the search tool's `allowed_domains`).
+- `sites` — restrict results to these domains (maps to the search tool's domain filter).
 - `gather.py` skips these and lists them under `skipped`; the generate flow reads that list and runs
-  each search with the WebSearch tool.
+  each search with the agent's web-search tool.
+- **This is the only source type that needs a model tool.** It is best-effort and provider-dependent:
+  an agent without web search simply skips `websearch` entries, and the paper still publishes from its
+  deterministic sources (HN/RSS/arXiv/Reddit). Give any paper at least one deterministic source so it
+  never depends on search alone.
 
 **`sites` must list crawler-accessible domains.** A reliable outlet is not necessarily a fetchable
 one: Reuters, WSJ, and the FT block the search crawler, and including even one blocked domain in

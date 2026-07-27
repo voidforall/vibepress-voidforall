@@ -57,6 +57,11 @@ jobs:
             fi
           } >> "$GITHUB_STEP_SUMMARY"
 
+      # --- Editorial agent: the Claude Code adapter ---
+      # This is the only provider-specific step. To run vibepress under a different coding agent, swap
+      # this one step for that provider's headless action (e.g. an OpenAI/Gemini coding-agent action):
+      # it must follow .vibepress/generate.md for the papers in ${{ steps.due.outputs.due }} and write
+      # only data files. Everything around it (select/validate/report/commit/alert) is provider-neutral.
       - name: Generate today's editions
         if: steps.due.outputs.due != ''
         uses: anthropics/claude-code-action@v1
