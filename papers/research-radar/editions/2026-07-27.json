@@ -1,0 +1,87 @@
+{
+  "id": "2026-07-27",
+  "date": "2026-07-27",
+  "generatedAt": "2026-07-27T12:04:34Z",
+  "editionTitle": "Research Radar",
+  "editorNote": "This week's radar centers on agents under load: a task-level router that beats per-call routing on both accuracy and latency, a self-play loop where agents write their own harder tasks and skills, and a sobering analysis showing that a skill's benefit usually comes from avoiding regressions rather than unlocking new wins. DBA-Bench puts a hard number on the gap between automated database agents and human DBAs on real incidents. Rounding out the week: new scaling laws for training vision-language models natively from scratch, and LunarFM's shared embedding space across six lunar instruments.",
+  "stories": [
+    {
+      "headline": "New scaling laws for training vision-language models natively, from scratch",
+      "summary": "A study of vision-language transformers trained on multimodal data from the ground up, rather than adapted from pretrained text-only models, finds that minimal loss follows a predictable compute law, but the optimal split between model size and token count is highly sensitive to the training mix — text-heavy data mixtures need larger models to stay compute-efficient. Native multimodal pretraining also produces positive cross-modal transfer, improving text-only spatial reasoning and enabling more robust in-context learning.",
+      "whyItMatters": "It gives teams building multimodal foundation models an efficiency frontier for allocating compute, instead of relying on scaling recipes borrowed from text-only LLMs.",
+      "category": "Models",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Scaling Native Multimodal Pre-Training From Scratch (arXiv:2607.22043)",
+          "url": "https://arxiv.org/abs/2607.22043v1"
+        }
+      ]
+    },
+    {
+      "headline": "A router that picks one model per agent task, not per call — and wins on accuracy and latency both",
+      "summary": "TRACE-Router addresses a mismatch in agentic LLM routing: most routers choose a model call-by-call, but agent tasks are judged only on completion. It instead assigns one model per task at admission via a contextual bandit, pins every subsequent call in that task to it, and updates its policy from delayed, task-level accuracy/latency feedback. On tau2-Bench it beats latency-matched interpolation between individual models by 7-8 accuracy points; on Terminal-Bench it beats the strongest single-model baseline by 7.1 accuracy points with 36% lower latency.",
+      "whyItMatters": "Routing at the task level rather than the call level lets multi-model agent systems gain both accuracy and lower latency instead of trading one for the other.",
+      "category": "Systems",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "TRACE-ROUTER: Task-Consistent and Adaptive Online Routing for Agentic AI (arXiv:2607.22465)",
+          "url": "https://arxiv.org/abs/2607.22465v1"
+        }
+      ]
+    },
+    {
+      "headline": "DBA-Bench scores LLM database agents against real incidents — and against human DBAs",
+      "summary": "DBA-Bench tests LLM agents on 106 scenarios across seven task domains inside instrumented, live PostgreSQL environments with active workloads and persistent state, scoring whether they diagnose and safely fix operational incidents. The best automated system safely resolved only 17.9% of scenarios, against 93.4% for a human-DBA reference, and its safe-fix rate fell further, from 19.6% on easy scenarios to 7.6% on hard ones.",
+      "whyItMatters": "It replaces vague claims about capable 'AI database agents' with a concrete, safety-scored gap against human operators on production-like incidents.",
+      "category": "Benchmarks",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "DBA-Bench: A Production-Fidelity Benchmark for LLM-Based Database Operations Agents (arXiv:2607.22165)",
+          "url": "https://arxiv.org/abs/2607.22165v1"
+        }
+      ]
+    },
+    {
+      "headline": "Skill Self-Play lets LLM agents write their own harder tasks — and their own skills to solve them",
+      "summary": "Skill Self-Play trains three co-evolving components with reinforcement learning: a proposer that generates new tasks conditioned on a skill library, a solver that attempts them, and a controller that updates the skill library from execution feedback. The authors report the approach raises the performance ceiling of already-competent backbone models and produces large gains for models that started out performing poorly, on tool-use and reasoning benchmarks.",
+      "whyItMatters": "It offers a way to keep expanding an agent's task diversity without losing the verifiable feedback that purely open-ended self-play tasks lack.",
+      "category": "Methods",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills (arXiv:2607.22529)",
+          "url": "https://arxiv.org/abs/2607.22529v1"
+        }
+      ]
+    },
+    {
+      "headline": "When an LLM agent gets a 'skill,' most of the benefit is avoiding new failures, not gaining new wins",
+      "summary": "Testing agents with and without procedural skills across nearly 6,000 runs on two office-automation benchmarks and three model harnesses, the authors find a skill's apparent benefit comes mainly from the agent regressing less, not from solving more tasks outright. They trace most regressions to skills silently changing behavior just by being present in context, overriding correct input interpretation ('grounding displacement'), or suppressing the agent's own output verification.",
+      "whyItMatters": "It reframes how skill libraries should be built and evaluated — current designs overemphasize procedural steps while underserving grounding and verification, which the paper finds are the actual dominant failure sources.",
+      "category": "Theory",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents (arXiv:2607.22520)",
+          "url": "https://arxiv.org/abs/2607.22520v1"
+        }
+      ]
+    },
+    {
+      "headline": "LunarFM: one shared embedding space for six lunar instruments across three missions",
+      "summary": "LunarFM is a multimodal foundation model trained on 18 input channels from six instruments across three lunar orbital missions, covering latitudes from 70°S to 70°N, mapped into a shared 768-dimensional representation via a pretrained masked-autoencoder architecture. The authors release the model, a machine-learning-ready co-registered dataset, and an embedding dataset, and show the representation supports similarity search, few-shot resource mapping, mineral-abundance regression, and geological-unit classification.",
+      "whyItMatters": "A single shared representation across instruments and missions lets researchers reuse one model for multiple lunar-science tasks instead of building a bespoke pipeline per instrument.",
+      "category": "Applications",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "LunarFM: A Shared Multimodal Representation of the Moon's Surface (arXiv:2607.22408)",
+          "url": "https://arxiv.org/abs/2607.22408v1"
+        }
+      ]
+    }
+  ]
+}

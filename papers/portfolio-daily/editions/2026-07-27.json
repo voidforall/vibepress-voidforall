@@ -1,0 +1,48 @@
+{
+  "id": "2026-07-27",
+  "date": "2026-07-27",
+  "generatedAt": "2026-07-27T12:03:02Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Today's edition is dominated by one geopolitical catalyst rippling across two watchlist holdings: a second consecutive day of the US-Iran military pause sent oil sharply lower, lifting bitcoin back above $65,000 while also pushing gold up toward $4,100 as investors positioned ahead of this week's Fed meeting. Away from the macro story, Morgan Stanley trimmed its Alibaba price target on softening core e-commerce even as it kept the stock as a top pick on cloud strength.",
+  "stories": [
+    {
+      "headline": "Bitcoin reclaims $65,000 as US-Iran military pause enters second day",
+      "summary": "Bitcoin traded at $65,082.17, up 0.94% over 24 hours, as the US and Iran held off further strikes for a second consecutive day, sending oil prices lower — WTI crude fell roughly 5% to about $85 a barrel and Brent dropped 4.7% to $92.19. Ether outperformed, gaining more than 3% to near $1,950, as broader risk sentiment improved and Nasdaq and S&P 500 futures rose about 0.5%.",
+      "whyItMatters": "The rebound shows bitcoin trading as a risk asset tracking the geopolitical de-escalation alongside equities, rather than moving as a safe-haven hedge.",
+      "category": "Crypto",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Is Back Above $65,000 as U.S., Iran Hold Fire, Oil Drops 5% (CoinDesk)",
+          "url": "https://www.coindesk.com/markets/2026/07/27/bitcoin-is-back-above-usd65-000-as-u-s-iran-hold-fire-oil-drops-5"
+        }
+      ]
+    },
+    {
+      "headline": "Gold gains toward $4,100 even as the same US-Iran pause cools oil prices",
+      "summary": "Spot gold rose to about $4,096.63 an ounce, up roughly 1% on the day, after the US paused military strikes on Iran following 13 consecutive days of attacks, with Iran halting retaliation in turn. US crude fell more than 6% to about $83.10 a barrel on the news. The moves come ahead of this week's Federal Reserve meeting, where markets expect rates to hold at 3.50%-3.75%.",
+      "whyItMatters": "Gold rising alongside sharply falling oil, despite reduced war-risk pricing, shows safe-haven demand still outweighing the inflation-easing case for lower rates just before the Fed's decision.",
+      "category": "Commodities",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "U.S.-Iran Ceasefire Sparks Oil Price Decline and Gold Rally, as Fed Rate Outlook Looms (KuCoin)",
+          "url": "https://www.kucoin.com/news/flash/u-s-iran-ceasefire-sparks-oil-drop-and-gold-rally-fed-rate-outlook-looms"
+        }
+      ]
+    },
+    {
+      "headline": "Morgan Stanley cuts Alibaba price target to $180, cites eroding core e-commerce",
+      "summary": "Morgan Stanley analyst Gary Yu cut his Alibaba price target to $180 from $200, pointing to a weakening core e-commerce business — customer-management revenue growth is expected to slow to about 3% year-over-year and China e-commerce EBITA to decline roughly 3%, with consolidated adjusted EBITA seen falling 45% year-over-year to about 30 billion yuan. Yu kept an Overweight rating and named Alibaba a top pick ahead of its late-August earnings, citing accelerating Alicloud growth above 35% year-over-year.",
+      "whyItMatters": "A lower price target paired with a reiterated Overweight and 'top pick' status signals Morgan Stanley still favors Alibaba on AI-cloud momentum even as it grows more cautious on the core retail business.",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Alibaba stock target cut at Morgan Stanley on worsening core e-comm business (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/news/alibaba-stock-target-cut-morgan-160844286.html"
+        }
+      ]
+    }
+  ]
+}

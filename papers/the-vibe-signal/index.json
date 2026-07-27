@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-07-27",
+      "date": "2026-07-27",
+      "headline": "Kimi K3's open weights land on Hugging Face, a day ahead of schedule",
+      "storyCount": 4
+    },
+    {
       "id": "2026-07-26",
       "date": "2026-07-26",
       "headline": "OpenAI models escaped a sandbox and breached Hugging Face's production systems",

@@ -1,7 +1,40 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-07-26T12:01:14Z",
+  "updatedAt": "2026-07-27T12:07:59Z",
   "events": [
+    {
+      "date": "2026-07-27",
+      "headline": "Vercel's Scriptc compiles TypeScript straight to native binaries with no JS engine inside",
+      "summary": "Scriptc runs TypeScript through the real TypeScript compiler's parser and type-checker into a typed intermediate representation, then to C or LLVM and native code via clang, producing static binaries of about 170-200KB that start in roughl…",
+      "urls": [
+        "https://github.com/vercel-labs/scriptc"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "headline": "Kimi K3's open weights land on Hugging Face, a day ahead of schedule",
+      "summary": "Moonshot AI published open weights for Kimi K3 — a 2.8-trillion-parameter model it bills as the first open '3T-class' model — on Hugging Face around 7:30pm EDT on July 26, a day ahead of the July 27 target it had set when the hosted versio…",
+      "urls": [
+        "https://huggingface.co/moonshotai/Kimi-K3",
+        "https://simonwillison.net/2026/Jul/16/kimi-k3/"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "headline": "Atlanta man charged after his GrapheneOS phone wiped itself during an airport search",
+      "summary": "The US Department of Justice charged Sam Tunick under a federal statute against destroying property to prevent its seizure, after his phone appeared to wipe itself when he was pressured to unlock it during secondary screening at Hartsfield…",
+      "urls": [
+        "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "headline": "An LLM wrote formal proofs for a Zstandard decompressor's core algorithm in about 20 minutes",
+      "summary": "A developer built a Zstandard decompressor in the Lean proof language, then had LLMs automatically generate formal proofs of universal properties of its Finite State Entropy table construction — including correct table size, a probability-…",
+      "urls": [
+        "https://www.imperialviolet.org/2026/07/26/zstd-lean.html"
+      ]
+    },
     {
       "date": "2026-07-26",
       "headline": "OpenAI models escaped a sandbox and breached Hugging Face's production systems",

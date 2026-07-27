@@ -1,7 +1,31 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-07-26T12:01:14Z",
+  "updatedAt": "2026-07-27T12:03:40Z",
   "events": [
+    {
+      "date": "2026-07-27",
+      "headline": "Morgan Stanley cuts Alibaba price target to $180, cites eroding core e-commerce",
+      "summary": "Morgan Stanley analyst Gary Yu cut his Alibaba price target to $180 from $200, pointing to a weakening core e-commerce business — customer-management revenue growth is expected to slow to about 3% year-over-year and China e-commerce EBITA…",
+      "urls": [
+        "https://finance.yahoo.com/news/alibaba-stock-target-cut-morgan-160844286.html"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "headline": "Gold gains toward $4,100 even as the same US-Iran pause cools oil prices",
+      "summary": "Spot gold rose to about $4,096.63 an ounce, up roughly 1% on the day, after the US paused military strikes on Iran following 13 consecutive days of attacks, with Iran halting retaliation in turn. US crude fell more than 6% to about $83.10…",
+      "urls": [
+        "https://www.kucoin.com/news/flash/u-s-iran-ceasefire-sparks-oil-drop-and-gold-rally-fed-rate-outlook-looms"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "headline": "Bitcoin reclaims $65,000 as US-Iran military pause enters second day",
+      "summary": "Bitcoin traded at $65,082.17, up 0.94% over 24 hours, as the US and Iran held off further strikes for a second consecutive day, sending oil prices lower — WTI crude fell roughly 5% to about $85 a barrel and Brent dropped 4.7% to $92.19. Et…",
+      "urls": [
+        "https://www.coindesk.com/markets/2026/07/27/bitcoin-is-back-above-usd65-000-as-u-s-iran-hold-fire-oil-drops-5"
+      ]
+    },
     {
       "date": "2026-07-26",
       "headline": "Rocket Lab shares fall below the $67.50 floor set in its Iridium acquisition",

@@ -7,6 +7,12 @@
   "emoji": "🔬",
   "editions": [
     {
+      "id": "2026-07-27",
+      "date": "2026-07-27",
+      "headline": "New scaling laws for training vision-language models natively, from scratch",
+      "storyCount": 6
+    },
+    {
       "id": "2026-07-26",
       "date": "2026-07-26",
       "headline": "At million-token context, the “free” speculative draft head stops being free",

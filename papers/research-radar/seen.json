@@ -1,7 +1,55 @@
 {
   "windowDays": 21,
-  "updatedAt": "2026-07-26T17:12:30Z",
+  "updatedAt": "2026-07-27T12:05:14Z",
   "events": [
+    {
+      "date": "2026-07-27",
+      "headline": "When an LLM agent gets a 'skill,' most of the benefit is avoiding new failures, not gaining new wins",
+      "summary": "Testing agents with and without procedural skills across nearly 6,000 runs on two office-automation benchmarks and three model harnesses, the authors find a skill's apparent benefit comes mainly from the agent regressing less, not from sol…",
+      "urls": [
+        "https://arxiv.org/abs/2607.22520v1"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "headline": "Skill Self-Play lets LLM agents write their own harder tasks — and their own skills to solve them",
+      "summary": "Skill Self-Play trains three co-evolving components with reinforcement learning: a proposer that generates new tasks conditioned on a skill library, a solver that attempts them, and a controller that updates the skill library from executio…",
+      "urls": [
+        "https://arxiv.org/abs/2607.22529v1"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "headline": "New scaling laws for training vision-language models natively, from scratch",
+      "summary": "A study of vision-language transformers trained on multimodal data from the ground up, rather than adapted from pretrained text-only models, finds that minimal loss follows a predictable compute law, but the optimal split between model siz…",
+      "urls": [
+        "https://arxiv.org/abs/2607.22043v1"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "headline": "LunarFM: one shared embedding space for six lunar instruments across three missions",
+      "summary": "LunarFM is a multimodal foundation model trained on 18 input channels from six instruments across three lunar orbital missions, covering latitudes from 70°S to 70°N, mapped into a shared 768-dimensional representation via a pretrained mask…",
+      "urls": [
+        "https://arxiv.org/abs/2607.22408v1"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "headline": "DBA-Bench scores LLM database agents against real incidents — and against human DBAs",
+      "summary": "DBA-Bench tests LLM agents on 106 scenarios across seven task domains inside instrumented, live PostgreSQL environments with active workloads and persistent state, scoring whether they diagnose and safely fix operational incidents. The bes…",
+      "urls": [
+        "https://arxiv.org/abs/2607.22165v1"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "headline": "A router that picks one model per agent task, not per call — and wins on accuracy and latency both",
+      "summary": "TRACE-Router addresses a mismatch in agentic LLM routing: most routers choose a model call-by-call, but agent tasks are judged only on completion. It instead assigns one model per task at admission via a contextual bandit, pins every subse…",
+      "urls": [
+        "https://arxiv.org/abs/2607.22465v1"
+      ]
+    },
     {
       "date": "2026-07-26",
       "headline": "Why humans may stay in the loop even when AI is highly capable",

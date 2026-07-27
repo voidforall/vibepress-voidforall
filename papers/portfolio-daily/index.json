@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-07-27",
+      "date": "2026-07-27",
+      "headline": "Bitcoin reclaims $65,000 as US-Iran military pause enters second day",
+      "storyCount": 3
+    },
+    {
       "id": "2026-07-26",
       "date": "2026-07-26",
       "headline": "Rocket Lab shares fall below the $67.50 floor set in its Iridium acquisition",
