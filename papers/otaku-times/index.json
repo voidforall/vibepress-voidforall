@@ -1,0 +1,16 @@
+{
+  "slug": "otaku-times",
+  "name": "The Otaku Times",
+  "tagline": "Anime & manga, and what to watch next",
+  "template": "standard",
+  "accent": "#e35d8a",
+  "emoji": "🌸",
+  "editions": [
+    {
+      "id": "2026-07-27",
+      "date": "2026-07-27",
+      "headline": "Summer 2026 is one of the most stacked anime seasons in years",
+      "storyCount": 6
+    }
+  ]
+}

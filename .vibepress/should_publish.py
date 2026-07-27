@@ -17,6 +17,8 @@ schedule shapes (all optional; the default is daily):
     { "cadence": "daily" }
     { "cadence": "weekdays" }               # Monday–Friday
     { "cadence": "weekly", "day": "mon" }   # once a week (default Monday)
+    { "cadence": "monthly", "day": 1 }      # once a month on that day-of-month (default 1;
+                                            #   clamped to the last day in short months)
     { "days": ["mon", "thu"] }              # explicit weekday allow-list (wins over cadence)
 
 Days use %a-style 3-letter abbreviations (mon tue wed thu fri sat sun), case-insensitive.
@@ -24,6 +26,7 @@ The reference date is whatever caller passes with --date (the cloud backend pass
 UTC date), so cadence is evaluated in that same timezone.
 """
 
+import calendar
 import datetime
 import json
 import sys
@@ -58,6 +61,13 @@ def should_publish(schedule, date):
     if cadence == "weekly":
         target = _weekday_index(schedule.get("day", "mon"))
         return date.weekday() == (target if target is not None else 0)
+    if cadence == "monthly":
+        try:
+            day = int(schedule.get("day", 1))
+        except (TypeError, ValueError):
+            day = 1
+        last = calendar.monthrange(date.year, date.month)[1]
+        return date.day == max(1, min(day, last))  # clamp so short months still fire
     return True  # unknown cadence => fail-safe to publishing
 
 

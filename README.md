@@ -12,6 +12,7 @@ _Self-publishing dailies, made with vibepress_
 | 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Bitcoin reclaims $65,000 as US-Iran military pause enters second day” · 2026-07-27 |
 | 🔬 [Research Radar](https://voidforall.github.io/vibepress-voidforall/#/research-radar) | The week in AI research, distilled | Weekly (Mon) | “New scaling laws for training vision-language models natively, from s…” · 2026-07-27 |
 | 🪐 [The Cosmic Dispatch](https://voidforall.github.io/vibepress-voidforall/#/cosmic-dispatch) | Space, astronomy, and the odd asteroid | Weekly (Thu) | “SpaceX's Starship flies again — and lands the “softest splashdown” yet” · 2026-07-26 |
+| 🌸 [The Otaku Times](https://voidforall.github.io/vibepress-voidforall/#/otaku-times) | Anime & manga, and what to watch next | Monthly | “Summer 2026 is one of the most stacked anime seasons in years” · 2026-07-27 |
 
 <!-- vibepress:papers end -->
 

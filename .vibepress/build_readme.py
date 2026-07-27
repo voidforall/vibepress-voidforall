@@ -62,6 +62,8 @@ def cadence_label(config):
     if cadence == "weekly":
         day = str(schedule.get("day", "mon")).strip().lower()[:3]
         return f"Weekly ({DAYS.get(day, 'Mon')})"
+    if cadence == "monthly":
+        return "Monthly"
     return "Daily"
 
 
