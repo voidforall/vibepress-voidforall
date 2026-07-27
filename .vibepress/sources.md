@@ -9,6 +9,9 @@ run by the model during generate, because search is a Claude tool rather than a 
 it records the failure under `skipped` and keeps going. A paper should never fail to publish because
 one source had a bad day.
 
+For worked examples that combine these source types into real papers, see the
+[cookbook](cookbook.md).
+
 ## Source types
 
 ### `hackernews`

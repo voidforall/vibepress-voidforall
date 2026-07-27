@@ -109,12 +109,13 @@ valid JSON; `id`/`date` equal today; every story has non-empty `headline`/`summa
 
 1. Write the edition to `papers/<slug>/editions/<id>.json` (overwriting today's is fine — that's how a
    re-run replaces the day's edition; it is idempotent).
-2. Rebuild `papers/<slug>/index.json`: keep `slug`/`name`/`tagline`, and carry `template` from
-   `config.json` (the reader reads the paper's look from here); set `editions` to the existing entries
-   with today's removed then re-added as `{ id, date, headline: <lead headline>, storyCount }`, sorted
-   newest-first.
+2. Rebuild `papers/<slug>/index.json`: keep `slug`/`name`/`tagline`, and carry the paper's presentation
+   fields from `config.json` — `template`, and `accent`/`emoji` if present (the reader reads the paper's
+   look from here); set `editions` to the existing entries with today's removed then re-added as
+   `{ id, date, headline: <lead headline>, storyCount }`, sorted newest-first.
 3. Update `site.json`: in `papers`, replace this paper's entry's `latestDate`, `latestHeadline`
-   (lead story), and `editionCount` (its edition count). Leave the other papers untouched.
+   (lead story), and `editionCount` (its edition count), and carry its `accent`/`emoji` from
+   `config.json` if present (so the newsstand card matches the paper). Leave the other papers untouched.
 4. Record what ran into this paper's dedup memory, so tomorrow's run won't repeat it:
 
    ```sh

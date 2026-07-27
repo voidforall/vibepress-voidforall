@@ -158,6 +158,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Refresh the site README's papers block so the repo reflects what it holds.
+          python3 .vibepress/build_readme.py >/dev/null 2>&1 && git add README.md || true
           if git diff --cached --quiet; then
             echo "no changes to publish"
           else
