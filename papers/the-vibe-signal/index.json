@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-07-28",
+      "date": "2026-07-28",
+      "headline": "Anthropic says it never wanted an open-weights ban — just chip controls and mandatory safety tests",
+      "storyCount": 6
+    },
+    {
       "id": "2026-07-27",
       "date": "2026-07-27",
       "headline": "Kimi K3's open weights land on Hugging Face, a day ahead of schedule",

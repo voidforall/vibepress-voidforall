@@ -1,0 +1,35 @@
+{
+  "id": "2026-07-28",
+  "date": "2026-07-28",
+  "generatedAt": "2026-07-28T12:00:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Fed decision week is setting the tone across the watchlist: bitcoin sank to a 10-day low as a selloff in Asian AI-linked tech stocks spilled into crypto and rate-hike odds climbed, while gold tested key chart support as the same rising rate expectations and a firm dollar offset steady Chinese physical demand.",
+  "stories": [
+    {
+      "headline": "Bitcoin falls to 10-day low near $63,000 as Asian tech selloff and Fed rate-hike odds weigh",
+      "summary": "Bitcoin dropped as much as 3.1% to about $63,495, its lowest level in ten days, as a selloff in Asian AI-linked tech stocks — South Korea's KOSPI slumped more than 10% on fears over unsustainable AI infrastructure spending — spilled into crypto markets, while traders priced in roughly a 38% chance of a surprise Fed rate hike this week, up from 16% a week earlier. Ether bucked the trend, rising 5% to about $1,888, while XRP, Solana, Cardano, and Dogecoin all fell alongside bitcoin.",
+      "whyItMatters": "The drop shows crypto trading in step with a broader risk-off move in tech equities and rising Fed rate-hike odds, compounded by continued outflows from US spot bitcoin ETFs.",
+      "category": "Crypto",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin slips to 10-day low near $63k as tech sell-off, Fed uncertainty weigh (Investing.com)",
+          "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-to-10day-low-near-63k-as-tech-selloff-fed-uncertainty-weigh-4815471"
+        }
+      ]
+    },
+    {
+      "headline": "Gold tests $4,021 support as dollar strength and rising Fed rate-hike odds pressure bullion",
+      "summary": "Spot gold slipped to about $4,046 an ounce, testing the $4,021 support level, as the dollar held near a one-month high and markets priced a 38% chance of a quarter-point Fed rate hike this week, up from 16% a week earlier; easing US-Iran tensions further dented gold's safe-haven appeal. China's gold imports via Hong Kong doubled year-over-year in June and its central bank posted its largest monthly reserve add in over two years, providing some underlying support.",
+      "whyItMatters": "A stronger dollar and rising rate-hike odds are currently outweighing steady Chinese physical demand, with a break below $4,021 seen opening the way toward $3,964.",
+      "category": "Commodities",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Gold Price Forecast Today: XAU/USD Tests $4,020 Support Ahead of Fed Decision, July 28 (FX Leaders)",
+          "url": "https://www.fxleaders.com/news/2026/07/28/gold-price-forecast-today-xauusd-tests-dollar4020-support-ahead-of-fed-decision-july-28/"
+        }
+      ]
+    }
+  ]
+}

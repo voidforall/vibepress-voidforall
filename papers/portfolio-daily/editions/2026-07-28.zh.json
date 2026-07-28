@@ -1,0 +1,35 @@
+{
+  "id": "2026-07-28",
+  "date": "2026-07-28",
+  "generatedAt": "2026-07-28T12:00:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "美联储决议周为自选清单定下基调：亚洲AI科技股抛售波及加密货币，比特币跌至十天新低，加息预期同步升温；黄金则在同样走高的加息预期与走强的美元压力下考验关键支撑位，尽管中国实物需求保持稳健。",
+  "stories": [
+    {
+      "headline": "亚洲科技股抛售叠加美联储加息预期升温，比特币跌至十天新低近63,000美元",
+      "summary": "比特币一度下跌3.1%至约63,495美元，为十天以来最低水平。韩国KOSPI指数因市场担忧AI基础设施支出不可持续而暴跌逾10%，带动的亚洲AI相关科技股抛售潮波及加密市场；与此同时，交易员将美联储本周意外加息的概率上调至约38%，一周前这一数字仅为16%。以太坊逆势上涨5%至约1,888美元，而XRP、Solana、Cardano和狗狗币则跟随比特币下跌。",
+      "whyItMatters": "此次下跌显示加密货币正与科技股的风险规避情绪及美联储加息预期同步波动，美国比特币现货ETF持续遭遇资金流出进一步加剧了跌势。",
+      "category": "加密货币",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin slips to 10-day low near $63k as tech sell-off, Fed uncertainty weigh (Investing.com)",
+          "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-to-10day-low-near-63k-as-tech-selloff-fed-uncertainty-weigh-4815471"
+        }
+      ]
+    },
+    {
+      "headline": "美元走强叠加加息预期升温，黄金考验4,021美元支撑位",
+      "summary": "现货黄金跌至约每盎司4,046美元，考验4,021美元支撑位。美元维持在一个月高位附近，市场将美联储本周加息25个基点的概率定价为38%，高于一周前的16%；美伊紧张关系缓和也进一步削弱了黄金的避险吸引力。中国经香港的黄金进口量同比翻倍，其央行也录得两年多来最大单月储备增幅，为金价提供了一定支撑。",
+      "whyItMatters": "美元走强与加息预期升温目前压过了中国稳健的实物需求，若跌破4,021美元，金价可能进一步下探至3,964美元。",
+      "category": "大宗商品",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Gold Price Forecast Today: XAU/USD Tests $4,020 Support Ahead of Fed Decision, July 28 (FX Leaders)",
+          "url": "https://www.fxleaders.com/news/2026/07/28/gold-price-forecast-today-xauusd-tests-dollar4020-support-ahead-of-fed-decision-july-28/"
+        }
+      ]
+    }
+  ]
+}

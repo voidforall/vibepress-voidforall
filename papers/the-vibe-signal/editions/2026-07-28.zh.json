@@ -1,0 +1,87 @@
+{
+  "id": "2026-07-28",
+  "date": "2026-07-28",
+  "generatedAt": "2026-07-28T12:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天的两则报道关乎AI与科技平台该如何被治理——Anthropic重申其反对「开源权重禁令」的立场，而一位法官则收窄了谷歌用DMCA对抗搜索抓取的空间；另外三则故事讲的是系统失控或表现过头会怎样：一个未加身份验证的车队平台API暴露了数十万辆车，一个缺失的下划线把无辜者送进监狱，以及一个只花500美元微调的模型在成本上碾压了前沿模型。最后是一桩Netflix高管的不当解雇诉讼。",
+  "stories": [
+    {
+      "headline": "Anthropic称自己从未想禁止开源权重模型——只是想管住芯片和强制安全测试",
+      "summary": "在一篇新博客文章中，CEO Dario Amodei否认Anthropic曾主张禁止开源权重模型，称不具备危险能力的模型总体上是有益的。他转而重申了三项一贯支持的举措：限制先进芯片对华出口、打击针对前沿模型的大规模「蒸馏」行为，以及要求对任何足够强大的模型（无论开源与否）进行强制性安全测试。",
+      "whyItMatters": "这是Anthropic迄今为止对批评者最直接的回应——包括曾游说华盛顿反对限制开源权重AI的英伟达、微软和Meta——但它是在重申而非改变自身的政策立场。",
+      "category": "观点",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Our position on open-weights models (Anthropic)",
+          "url": "https://www.anthropic.com/news/position-open-weights-models"
+        }
+      ]
+    },
+    {
+      "headline": "法官驳回谷歌利用DMCA起诉搜索抓取API厂商的诉讼",
+      "summary": "美国一家法院驳回了谷歌依据DMCA第1201条对SerpAPI提起的诉讼。SerpAPI出售抓取自谷歌搜索结果的访问权限，Perplexity等服务依赖于此。法官裁定，谷歌用于验证的SearchGuard验证码系统不能作为「反规避」手段被援引，因为它所保护的搜索结果汇编本身并不享有版权。",
+      "whyItMatters": "该裁决限制了企业滥用DMCA反规避条款来阻止他人抓取不受版权保护数据的空间，不过谷歌仍可以就Knowledge Panel图片等具体受版权保护的内容提出范围更窄的诉讼。",
+      "category": "商业",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Judge Rejects Google's Attempt to DMCA Its Way Out of Being Scraped (Techdirt)",
+          "url": "https://www.techdirt.com/2026/07/27/judge-rejects-googles-attempt-to-dmca-its-way-out-of-being-scraped/"
+        }
+      ]
+    },
+    {
+      "headline": "商用车队平台的未鉴权API暴露了67.6万辆车辆",
+      "summary": "一名研究者发现，VE Commercial Vehicles旗下的「My Eicher」车队管理平台存在无需身份验证即可访问的内部API，导致74.8万条客户记录、250万条可追溯至2021年的一次性验证码、7.6万份身份证件，以及对67.6万辆已注册车辆的接管或控制权限均可被获取。该研究者已于2025年11月报告此问题，核心漏洞在约两周内被修复；这篇技术分析于2026年7月27日公开发布。",
+      "whyItMatters": "这又是一起未加身份验证的内部API让服务数十万真实客户的平台完全暴露于账户接管与车辆控制风险之下的案例，而且是被外部研究者而非厂商自己发现的。",
+      "category": "技术",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "My Eicher fleet-management platform hack (eaton-works.com)",
+          "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/"
+        }
+      ]
+    },
+    {
+      "headline": "一个字符的用户名之差，让一名无辜男子入狱18个月",
+      "summary": "在调查一宗诱拐儿童案时，威斯康星州与哈利法克斯警方原本要调取Kik消息应用中用户名「fus__ro_dah」（两个下划线）的记录，却误请求了「fus_ro_dah」（一个下划线）的记录，从而将新斯科舍省的Brandon Klayme误认成嫌疑人。尽管他的设备上并无相应证据佐证，Klayme仍在2023年被判犯有引诱及持有儿童色情制品等罪名，服刑18个月；直到2026年7月24日，新斯科舍省上诉法院才推翻原判，裁定他「在事实上是清白的」，「本就不应被起诉，更不应被定罪」。",
+      "whyItMatters": "这个用户名差异在整个案件过程中本是可查的信息，却在逮捕、审判、量刑各环节都无人发现，直到Klayme的上诉团队去核查时才被揪出。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Police missed one underscore and sent the wrong man to prison (Ars Technica)",
+          "url": "https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/"
+        }
+      ]
+    },
+    {
+      "headline": "只花500美元、耗时三天微调的90亿参数模型，击败了所有被测的前沿模型",
+      "summary": "Fermisense使用GRPO强化学习方法，在17.7767万条电商商品目录审核样本上微调了一个90亿参数的Qwen 3.5模型，使用两块RTX PRO 6000显卡，耗时约3.5天，成本约500美元。这个专精模型在审核任务上的得分为87.3%，高于表现最好的前沿模型配置（GPT-5.5-pro）的76.9%；成本方面，它每千条商品仅需0.50美元，而前沿模型的成本在每千条19美元到172美元之间。",
+      "whyItMatters": "这为「针对具体任务微调的小模型能在成本和准确率上击败通用前沿模型」提供了一个具体的数据点，不过这一对比来自该公司自身的基准测试，而非独立第三方评测。",
+      "category": "技术",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "The Rise of Intelligence Ownership: a task-trained open source model vs the frontier (Fermisense)",
+          "url": "https://fermisense.com/when-machines-take-the-wheel/"
+        }
+      ]
+    },
+    {
+      "headline": "被解雇的Netflix副总裁起诉公司，起因是在「信任训练」环节透露的一次氯胺酮治疗经历",
+      "summary": "Netflix旗下Eyeline Studios的前副总裁兼创意负责人Kevin Baillie提起诉讼，起因是他在2026年1月的一次公司团建活动上，于「脆弱-信任」环节中透露了自己此前因抑郁症接受过医生监督下的氯胺酮治疗经历，随后于4月被公司解雇。他指控公司以涉嫌娱乐性用毒为由对他展开调查，并称公司律师已确认这次披露「是导致解雇的因素之一」。",
+      "whyItMatters": "这起诉讼的核心争议在于：员工在公司组织的「敞开心扉」环节中所做的披露，是否可以被公司用作解雇员工的依据。",
+      "category": "商业",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Netflix exec goes ballistic after being fired for stunning 'trust exercise' confession at retreat: suit (New York Post)",
+          "url": "https://nypost.com/2026/07/26/us-news/netflix-exec-goes-ballistic-after-being-fired-for-stunning-trust-exercise-confession-at-retreat-suit/"
+        }
+      ]
+    }
+  ]
+}

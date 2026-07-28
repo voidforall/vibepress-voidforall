@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-07-27T12:07:59Z",
+  "updatedAt": "2026-07-28T09:45:37Z",
   "events": [
+    {
+      "date": "2026-07-28",
+      "headline": "Unauthenticated APIs on a commercial fleet platform exposed 676,000 vehicles",
+      "summary": "A researcher found that VE Commercial Vehicles' 'My Eicher' fleet-management platform exposed internal APIs with no authentication, allowing access to 748,000 customer records, 2.5 million OTP codes going back to 2021, 76,000 ID documents,…",
+      "urls": [
+        "https://eaton-works.com/2026/07/27/my-eicher-hack/"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "headline": "Judge tosses Google's DMCA case against a search-scraping API vendor",
+      "summary": "A U.S. court dismissed Google's DMCA Section 1201 lawsuit against SerpAPI, which sells access to scraped Google search results that services like Perplexity rely on. The judge ruled Google's SearchGuard CAPTCHA system can't be enforced as…",
+      "urls": [
+        "https://www.techdirt.com/2026/07/27/judge-rejects-googles-attempt-to-dmca-its-way-out-of-being-scraped/"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "headline": "Fired Netflix VP sues over a ketamine-therapy disclosure made during a company 'trust exercise'",
+      "summary": "Kevin Baillie, former VP and head of creative at Netflix's Eyeline Studios, is suing after being terminated in April following a January 2026 company retreat where he disclosed past medically supervised ketamine therapy for depression duri…",
+      "urls": [
+        "https://nypost.com/2026/07/26/us-news/netflix-exec-goes-ballistic-after-being-fired-for-stunning-trust-exercise-confession-at-retreat-suit/"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "headline": "Anthropic says it never wanted an open-weights ban — just chip controls and mandatory safety tests",
+      "summary": "In a new blog post, CEO Dario Amodei denies Anthropic has ever advocated banning open-weight models, arguing models without dangerous capabilities are broadly beneficial. He instead restates support for three measures: restricting advanced…",
+      "urls": [
+        "https://www.anthropic.com/news/position-open-weights-models"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "headline": "A one-character username mismatch put an innocent man in prison for 18 months",
+      "summary": "Investigating a child-luring case, Wisconsin and Halifax police sought Kik messaging records for the username 'fus__ro_dah' (two underscores) but requested 'fus_ro_dah' (one underscore) instead, misidentifying Nova Scotia's Brandon Klayme.…",
+      "urls": [
+        "https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "headline": "A $500, three-day fine-tune of a 9B open model beat every frontier model it was tested against",
+      "summary": "Fermisense used GRPO reinforcement learning to fine-tune a 9B-parameter Qwen 3.5 model on 177,767 e-commerce catalog-review episodes, at a cost of about $500 over roughly 3.5 days on two RTX PRO 6000 GPUs. The resulting specialist model sc…",
+      "urls": [
+        "https://fermisense.com/when-machines-take-the-wheel/"
+      ]
+    },
     {
       "date": "2026-07-27",
       "headline": "Vercel's Scriptc compiles TypeScript straight to native binaries with no JS engine inside",

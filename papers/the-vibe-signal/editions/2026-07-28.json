@@ -1,0 +1,87 @@
+{
+  "id": "2026-07-28",
+  "date": "2026-07-28",
+  "generatedAt": "2026-07-28T12:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today pairs two arguments about how AI and tech platforms should be governed — Anthropic restating its stance against open-weight bans, and a judge narrowing Google's DMCA leverage over search scraping — against three stories about what happens when systems fail or work too well: an unauthenticated fleet-platform API exposing hundreds of thousands of vehicles, a single missing underscore that jailed an innocent man, and a $500 fine-tuned model outperforming frontier AI on cost. A Netflix executive's wrongful-termination suit closes things out.",
+  "stories": [
+    {
+      "headline": "Anthropic says it never wanted an open-weights ban — just chip controls and mandatory safety tests",
+      "summary": "In a new blog post, CEO Dario Amodei denies Anthropic has ever advocated banning open-weight models, arguing models without dangerous capabilities are broadly beneficial. He instead restates support for three measures: restricting advanced chip sales to China, cracking down on industrial-scale distillation of frontier models, and mandatory safety testing for any sufficiently capable model, open or closed.",
+      "whyItMatters": "It's Anthropic's most direct rebuttal yet to critics — including Nvidia, Microsoft, and Meta, who've lobbied Washington against restricting open-weight AI — while restating rather than changing its policy position.",
+      "category": "Ideas",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Our position on open-weights models (Anthropic)",
+          "url": "https://www.anthropic.com/news/position-open-weights-models"
+        }
+      ]
+    },
+    {
+      "headline": "Judge tosses Google's DMCA case against a search-scraping API vendor",
+      "summary": "A U.S. court dismissed Google's DMCA Section 1201 lawsuit against SerpAPI, which sells access to scraped Google search results that services like Perplexity rely on. The judge ruled Google's SearchGuard CAPTCHA system can't be enforced as an anti-circumvention measure because the search-results compilations it protects aren't copyrighted works.",
+      "whyItMatters": "The ruling limits how far companies can stretch DMCA anti-circumvention claims to block scraping of uncopyrighted data, though Google can still pursue narrower claims over specific copyrighted content like Knowledge Panel images.",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Judge Rejects Google's Attempt to DMCA Its Way Out of Being Scraped (Techdirt)",
+          "url": "https://www.techdirt.com/2026/07/27/judge-rejects-googles-attempt-to-dmca-its-way-out-of-being-scraped/"
+        }
+      ]
+    },
+    {
+      "headline": "Unauthenticated APIs on a commercial fleet platform exposed 676,000 vehicles",
+      "summary": "A researcher found that VE Commercial Vehicles' 'My Eicher' fleet-management platform exposed internal APIs with no authentication, allowing access to 748,000 customer records, 2.5 million OTP codes going back to 2021, 76,000 ID documents, and takeover or control of 676,000 registered vehicles. The researcher reported it in November 2025, and the core issue was fixed within about two weeks; the writeup was published July 27, 2026.",
+      "whyItMatters": "It's another case of an unauthenticated internal API leaving full account-takeover and vehicle-control access open on a platform serving hundreds of thousands of real customers, caught by an outside researcher rather than the vendor.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "My Eicher fleet-management platform hack (eaton-works.com)",
+          "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/"
+        }
+      ]
+    },
+    {
+      "headline": "A one-character username mismatch put an innocent man in prison for 18 months",
+      "summary": "Investigating a child-luring case, Wisconsin and Halifax police sought Kik messaging records for the username 'fus__ro_dah' (two underscores) but requested 'fus_ro_dah' (one underscore) instead, misidentifying Nova Scotia's Brandon Klayme. He was convicted in 2023 on luring and child-pornography-possession charges despite no corroborating evidence on his devices, and served an 18-month sentence before the Nova Scotia Court of Appeal overturned the conviction on July 24, 2026, ruling he was 'factually innocent' and 'should never have been charged, let alone convicted.'",
+      "whyItMatters": "The username discrepancy was available to investigators throughout the case yet went unnoticed through arrest, trial, and sentencing — caught only once Klayme's appeal team went looking.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Police missed one underscore and sent the wrong man to prison (Ars Technica)",
+          "url": "https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/"
+        }
+      ]
+    },
+    {
+      "headline": "A $500, three-day fine-tune of a 9B open model beat every frontier model it was tested against",
+      "summary": "Fermisense used GRPO reinforcement learning to fine-tune a 9B-parameter Qwen 3.5 model on 177,767 e-commerce catalog-review episodes, at a cost of about $500 over roughly 3.5 days on two RTX PRO 6000 GPUs. The resulting specialist model scored 87.3% on the review task versus 76.9% for the best frontier configuration tested (GPT-5.5-pro), while costing $0.50 per 1,000 listings versus $19–$172 per 1,000 for the frontier models.",
+      "whyItMatters": "It's a concrete data point for task-specific fine-tuning beating general frontier models on cost and accuracy for a narrow, repeatable workflow, though the comparison is against one company's own benchmark rather than an independent one.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "The Rise of Intelligence Ownership: a task-trained open source model vs the frontier (Fermisense)",
+          "url": "https://fermisense.com/when-machines-take-the-wheel/"
+        }
+      ]
+    },
+    {
+      "headline": "Fired Netflix VP sues over a ketamine-therapy disclosure made during a company 'trust exercise'",
+      "summary": "Kevin Baillie, former VP and head of creative at Netflix's Eyeline Studios, is suing after being terminated in April following a January 2026 company retreat where he disclosed past medically supervised ketamine therapy for depression during a 'Vulnerability-Trust exercise.' He alleges the company investigated him for suspected recreational drug use and that its own counsel confirmed the disclosure 'factored into the termination.'",
+      "whyItMatters": "The suit turns on whether disclosures made during a company-run vulnerability exercise can be used against an employee in a termination decision.",
+      "category": "Business",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Netflix exec goes ballistic after being fired for stunning 'trust exercise' confession at retreat: suit (New York Post)",
+          "url": "https://nypost.com/2026/07/26/us-news/netflix-exec-goes-ballistic-after-being-fired-for-stunning-trust-exercise-confession-at-retreat-suit/"
+        }
+      ]
+    }
+  ]
+}
