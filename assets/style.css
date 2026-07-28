@@ -491,6 +491,27 @@ a { color: var(--link); }
 .reaction-cite a { color: var(--link); text-decoration: none; }
 .reaction-cite a:hover { text-decoration: underline; }
 .story-discussion-sources { margin-top: 0.55rem; font-size: 0.8rem; }
+
+/* Place card (config.enrich, venue stories): a rating/price/address/map row + review quotes. */
+.story-place { margin: 0 0 0.85rem; }
+.place-meta {
+  margin: 0 0 0.5rem;
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.1rem 0.35rem;
+}
+.place-rating { color: var(--accent); font-weight: 700; }
+.place-count { color: var(--ink-faint); font-size: 0.82rem; }
+.place-price { color: var(--ink); font-weight: 600; }
+.place-address { color: var(--ink-soft); }
+.place-dot { color: var(--ink-faint); }
+.place-map { color: var(--link); text-decoration: none; }
+.place-map:hover { text-decoration: underline; }
+.place-reviews { margin: 0; }
 .story-sources {
   list-style: none;
   margin: 0;

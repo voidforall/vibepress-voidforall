@@ -184,10 +184,31 @@ of the edition. If you don't have the material for a field, **omit it** (never f
   datapoint, or well-put dissent, and represent the real range of views — no vote chatter, no jokes,
   no invented handles. Every `discussion` must carry at least one link (a `quotes[].url` or a
   `sourceLinks[].url`). If you read no thread for a story, **omit `discussion`** — never invent reactions.
+- `place` — for a story about a **venue** (a restaurant, bar, shop, landmark): its rating and a couple of
+  real review quotes, so a place-themed paper (e.g. a "trending restaurants" brief) reads like a guide.
+  Shape (every field optional — include only what you actually looked up):
+  ```json
+  "place": {
+    "rating": 4.6,
+    "ratingCount": 1243,
+    "priceLevel": "££",
+    "address": "12 Dean St, Soho, London",
+    "mapUrl": "https://maps.google.com/?q=...",
+    "reviews": [
+      { "text": "The dan dan noodles alone are worth the queue.", "author": "A. Chen", "url": "https://maps.google.com/…review" }
+    ]
+  }
+  ```
+  Rules: fetch `rating`/`ratingCount`/`priceLevel`/`address`/`mapUrl` from a real lookup (Google Maps /
+  a maps MCP / web search) — **never estimate a rating**; omit any field you couldn't verify. `reviews`
+  are **verbatim** quotes from actual reviews you read (same rules as `discussion.quotes` — trim with
+  `…`, real author handle or omit, keep the review's link when there is one). `rating` is on Google's
+  0–5 scale. If you couldn't look the place up, omit `place` entirely — do not fabricate ratings or
+  reviews.
 
-These are secondary matter: the reader renders `context` as a muted line and `discussion` as a
-collapsible **Reactions** section (the quotes) under the story, and shows nothing when a field is absent.
-Enrichment never changes selection, `sourceLinks`, or the story's core fields.
+These are secondary matter: the reader renders `context` as a muted line, `discussion` as a collapsible
+**Reactions** section, and `place` as a rating/map card with its review quotes — showing nothing when a
+field is absent. Enrichment never changes selection, `sourceLinks`, or the story's core fields.
 
 ## Step 5 — Assemble the edition object
 

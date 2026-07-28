@@ -24,8 +24,8 @@
   // offers a switcher when a paper has more than one, and remembers the choice in localStorage.
   var LANG_LABEL = { en: "EN", zh: "中文", ja: "日本語", es: "ES", fr: "FR", de: "DE", ko: "한국어" };
   var STRINGS = {
-    en: { why: "Why it matters", back: "← Newsstand", context: "Background", discussion: "Reactions", theme: "Theme" },
-    zh: { why: "为何重要", back: "← 报摊", context: "背景", discussion: "各方反应", theme: "主题" },
+    en: { why: "Why it matters", back: "← Newsstand", context: "Background", discussion: "Reactions", theme: "Theme", map: "Map" },
+    zh: { why: "为何重要", back: "← 报摊", context: "背景", discussion: "各方反应", theme: "主题", map: "地图" },
   };
   function t(key) {
     var table = STRINGS[currentLang] || STRINGS.en;
@@ -290,14 +290,19 @@
     return '<cite class="reaction-cite">— ' + inner + "</cite>";
   }
 
-  // Render the optional Reactions block: a collapsible list of direct quotes.
-  function renderReactions(d) {
-    if (!d || typeof d !== "object" || !Array.isArray(d.quotes)) return "";
-    var items = d.quotes.map(function (quote) {
+  // Render a list of verbatim quotes into <li> blockquotes (shared by Reactions and place reviews).
+  function quoteItems(quotes) {
+    return (Array.isArray(quotes) ? quotes : []).map(function (quote) {
       if (!quote || typeof quote.text !== "string" || !quote.text.trim()) return "";
       return '<li class="reaction"><blockquote class="reaction-quote">' +
         escapeHtml(quote.text.trim()) + "</blockquote>" + reactionCite(quote) + "</li>";
     }).filter(Boolean);
+  }
+
+  // Render the optional Reactions block: a collapsible list of direct quotes.
+  function renderReactions(d) {
+    if (!d || typeof d !== "object") return "";
+    var items = quoteItems(d.quotes);
     if (!items.length) return "";
 
     var threadLinks = renderLinks(d.sourceLinks);
@@ -313,17 +318,45 @@
       "</details>";
   }
 
+  // Render the optional place card: a rating/price/address/map meta row + review quotes.
+  function renderPlace(place) {
+    if (!place || typeof place !== "object") return "";
+    var meta = [];
+    if (typeof place.rating === "number" && isFinite(place.rating)) {
+      var r = '<span class="place-rating">★ ' + escapeHtml(String(place.rating)) + "</span>";
+      if (typeof place.ratingCount === "number" && isFinite(place.ratingCount) && place.ratingCount >= 0) {
+        r += ' <span class="place-count">(' + place.ratingCount.toLocaleString() + ")</span>";
+      }
+      meta.push(r);
+    }
+    if (typeof place.priceLevel === "string" && place.priceLevel.trim())
+      meta.push('<span class="place-price">' + escapeHtml(place.priceLevel.trim()) + "</span>");
+    if (typeof place.address === "string" && place.address.trim())
+      meta.push('<span class="place-address">' + escapeHtml(place.address.trim()) + "</span>");
+    var mapUrl = safeUrl(place.mapUrl);
+    if (mapUrl)
+      meta.push('<a class="place-map" href="' + escapeHtml(mapUrl) + '" rel="noopener noreferrer" target="_blank">' + escapeHtml(t("map")) + " ↗</a>");
+
+    var reviews = quoteItems(place.reviews);
+    if (!meta.length && !reviews.length) return "";
+    return '<div class="story-place">' +
+      (meta.length ? '<p class="place-meta">' + meta.join('<span class="place-dot">·</span>') + "</p>" : "") +
+      (reviews.length ? '<ul class="reactions place-reviews">' + reviews.join("") + "</ul>" : "") +
+      "</div>";
+  }
+
   function renderStory(story) {
     var links = renderLinks(story.sourceLinks);
 
-    // Optional enrichment (config.enrich). Both fields are absent by default and
-    // render nothing when missing, so an un-enriched edition looks exactly as before.
+    // Optional enrichment (config.enrich). All absent by default and render nothing when
+    // missing, so an un-enriched edition looks exactly as before.
     var context = (typeof story.context === "string" && story.context.trim())
       ? '<p class="story-context"><span class="story-label">' + escapeHtml(t("context")) + "</span> " + escapeHtml(story.context) + "</p>"
       : "";
 
-    // Reactions: a small comment-section of direct quotes (see references/reactions.md),
-    // collapsed by default. Native <details> — no JS, and print CSS forces it open.
+    // Place card (rating/map/reviews) for venue stories; Reactions is a collapsible
+    // comment-section of direct quotes (references/reactions.md).
+    var place = renderPlace(story.place);
     var discussion = renderReactions(story.discussion);
 
     return [
@@ -332,6 +365,7 @@
       '<h2 class="story-headline">' + escapeHtml(story.headline) + "</h2>",
       story.summary ? '<p class="story-summary">' + escapeHtml(story.summary) + "</p>" : "",
       context,
+      place,
       story.whyItMatters ? '<p class="story-why"><b>' + escapeHtml(t("why")) + "</b> — " + escapeHtml(story.whyItMatters) + "</p>" : "",
       discussion,
       links ? '<ul class="story-sources">' + links + "</ul>" : "",

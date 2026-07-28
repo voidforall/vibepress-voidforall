@@ -87,6 +87,78 @@ def validate_story(story, index, allowed_categories, translated=False):
     discussion = story.get("discussion")
     if discussion is not None:
         problems.extend(validate_discussion(discussion, f"{where}.discussion"))
+
+    place = story.get("place")
+    if place is not None:
+        problems.extend(validate_place(place, f"{where}.place"))
+    return problems
+
+
+def validate_quotes(quotes, where):
+    """Return problems for a list of direct quotes {text, author?, url?} (see reactions.md).
+
+    Shared by Reactions (discussion.quotes) and place reviews (place.reviews): text is
+    required and verbatim, author optional, url optional but http(s) when present.
+    """
+    problems = []
+    for index, quote in enumerate(quotes):
+        q_where = f"{where}[{index}]"
+        if not isinstance(quote, dict):
+            problems.append(f"{q_where} is not an object")
+            continue
+        text = quote.get("text")
+        if not isinstance(text, str) or not text.strip():
+            problems.append(f"{q_where}.text must be a non-empty string")
+        author = quote.get("author")
+        if author is not None and (not isinstance(author, str) or not author.strip()):
+            problems.append(f"{q_where}.author, if present, must be a non-empty string")
+        url = quote.get("url")
+        if url is not None and (not isinstance(url, str) or not HTTP_URL.match(url.strip())):
+            problems.append(f"{q_where}.url, if present, must be an http(s) URL, got {url!r}")
+    return problems
+
+
+def _has_http_url(items):
+    """True if any {url} in items is a well-formed http(s) URL."""
+    return any(
+        isinstance(it, dict) and isinstance(it.get("url"), str) and HTTP_URL.match(it["url"].strip())
+        for it in (items or [])
+    )
+
+
+def validate_place(place, where):
+    """Return problems for a story's optional place card (see references/generate.md).
+
+    All fields optional; when present each must be well-formed. reviews reuse the
+    verbatim-quote shape. mapUrl and any review url must be http(s).
+    """
+    problems = []
+    if not isinstance(place, dict):
+        return [f"{where}, if present, must be an object"]
+
+    rating = place.get("rating")
+    if rating is not None and (isinstance(rating, bool) or not isinstance(rating, (int, float)) or not 0 <= rating <= 5):
+        problems.append(f"{where}.rating, if present, must be a number 0–5")
+
+    count = place.get("ratingCount")
+    if count is not None and (isinstance(count, bool) or not isinstance(count, int) or count < 0):
+        problems.append(f"{where}.ratingCount, if present, must be a non-negative integer")
+
+    for field in ("priceLevel", "address"):
+        value = place.get(field)
+        if value is not None and (not isinstance(value, str) or not value.strip()):
+            problems.append(f"{where}.{field}, if present, must be a non-empty string")
+
+    map_url = place.get("mapUrl")
+    if map_url is not None and (not isinstance(map_url, str) or not HTTP_URL.match(map_url.strip())):
+        problems.append(f"{where}.mapUrl, if present, must be an http(s) URL, got {map_url!r}")
+
+    reviews = place.get("reviews")
+    if reviews is not None:
+        if not isinstance(reviews, list):
+            problems.append(f"{where}.reviews, if present, must be an array")
+        else:
+            problems.extend(validate_quotes(reviews, f"{where}.reviews"))
     return problems
 
 
@@ -107,23 +179,8 @@ def validate_discussion(discussion, where):
     if not isinstance(quotes, list) or not quotes:
         problems.append(f"{where}.quotes must be a non-empty array")
     else:
-        for q_index, quote in enumerate(quotes):
-            q_where = f"{where}.quotes[{q_index}]"
-            if not isinstance(quote, dict):
-                problems.append(f"{q_where} is not an object")
-                continue
-            text = quote.get("text")
-            if not isinstance(text, str) or not text.strip():
-                problems.append(f"{q_where}.text must be a non-empty string")
-            author = quote.get("author")
-            if author is not None and (not isinstance(author, str) or not author.strip()):
-                problems.append(f"{q_where}.author, if present, must be a non-empty string")
-            url = quote.get("url")
-            if url is not None:
-                if not isinstance(url, str) or not HTTP_URL.match(url.strip()):
-                    problems.append(f"{q_where}.url, if present, must be an http(s) URL, got {url!r}")
-                else:
-                    linked = True
+        problems.extend(validate_quotes(quotes, f"{where}.quotes"))
+        linked = linked or _has_http_url(quotes)
 
     d_links = discussion.get("sourceLinks")
     if d_links is not None:
