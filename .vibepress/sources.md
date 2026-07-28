@@ -89,8 +89,9 @@ Topic discovery the agent runs itself, with optional domain scoping.
 A **configurable source** backed by an [MCP](https://modelcontextprotocol.io) server the agent calls —
 for material that needs credentials, an account, or a running tool (e.g. a social platform). Generic:
 one `mcp` type covers any MCP server. Full model & trust rules: [`configurable-sources.md`](configurable-sources.md).
+A worked instance (Xiaohongshu, incl. setup): [`mcp-xiaohongshu.md`](mcp-xiaohongshu.md).
 ```json
-{ "type": "mcp", "server": "xiaohongshu", "tool": "search_notes", "args": { "keyword": "London restaurants", "sort": "trending", "limit": 20 }, "optional": true }
+{ "type": "mcp", "server": "xiaohongshu-mcp", "tool": "search_feeds", "args": { "keyword": "London restaurants" }, "optional": true }
 ```
 - `server` (required) — the MCP server name to call. It must be one the **agent** has connected;
   vibepress does not launch or configure it, and stores no credentials.
