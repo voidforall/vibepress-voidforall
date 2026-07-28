@@ -4,8 +4,9 @@
 Deterministic collection only — the flaky, expensive parts of newsgathering
 (hitting APIs, parsing feeds) are handled here so the model can spend its effort
 on selection, investigation, and writing rather than scraping. Zero dependencies
-(stdlib urllib + xml.etree). Sources of type "websearch" are intentionally left
-to the model, since search is a Claude tool; they are reported as skipped.
+(stdlib urllib + xml.etree). Agent-tool sources — "websearch" and "mcp" — are
+intentionally left to the model (search and MCP servers are agent-side tools);
+they are reported under "skipped" with their config for the agent to act on.
 
 Usage:
     gather.py <config.json> [--out candidates.json]
@@ -195,6 +196,22 @@ def main(argv):
         stype = src.get("type")
         if stype == "websearch":
             skipped.append({"type": "websearch", "reason": "search is a model tool; run it in generate", "query": src.get("query")})
+            continue
+        if stype == "mcp":
+            # A configurable source backed by an MCP server the agent calls (see
+            # references/configurable-sources.md). gather.py never launches or holds
+            # credentials for it — it passes the config through for the agent to act on,
+            # exactly like websearch. optional defaults true (best-effort).
+            server = src.get("server")
+            skipped.append({
+                "type": "mcp",
+                "reason": (f"mcp source: call the '{server}' MCP tool in generate"
+                           if server else "mcp source: 'server' is required"),
+                "server": server,
+                "tool": src.get("tool"),
+                "args": src.get("args", {}),
+                "optional": bool(src.get("optional", True)),
+            })
             continue
         collector = COLLECTORS.get(stype)
         if not collector:
