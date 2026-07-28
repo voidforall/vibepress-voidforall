@@ -24,8 +24,8 @@
   // offers a switcher when a paper has more than one, and remembers the choice in localStorage.
   var LANG_LABEL = { en: "EN", zh: "中文", ja: "日本語", es: "ES", fr: "FR", de: "DE", ko: "한국어" };
   var STRINGS = {
-    en: { why: "Why it matters", back: "← Newsstand", context: "Background", discussion: "In the comments" },
-    zh: { why: "为何重要", back: "← 报摊", context: "背景", discussion: "评论区" },
+    en: { why: "Why it matters", back: "← Newsstand", context: "Background", discussion: "Reactions" },
+    zh: { why: "为何重要", back: "← 报摊", context: "背景", discussion: "各方反应" },
   };
   function t(key) {
     var table = STRINGS[currentLang] || STRINGS.en;
