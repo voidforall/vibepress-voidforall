@@ -14,6 +14,8 @@ touch the reader shell (`index.html`, `assets/`) — you only write data.
    - `storyCount` — target number of stories (aim for it; fewer is fine, never more).
    - `categories` — the only allowed `category` values.
    - `editorialVoice` — the tone to write in.
+   - `mode` — *(optional)* `"on-demand"` marks a themed paper commissioned per issue (see Step 0);
+     absent/`"scheduled"` is the default. See [`on-demand.md`](on-demand.md).
    - `minScore` — *(optional)* a relevance threshold, `0`–`12`. Set = turn on the scoring gate in
      Step 2b. Absent = judgment-only selection (the default). See Step 2b.
    - `enrich` — *(optional)* `true` = add per-story background + community discussion in Step 4b.
@@ -24,6 +26,22 @@ touch the reader shell (`index.html`, `assets/`) — you only write data.
 2. `papers/<slug>/index.json` — the paper's existing manifest. Read before writing so you merge.
 3. `site.json` — the newsstand manifest; you update this paper's entry at the end.
 4. Today's date as `YYYY-MM-DD` in the configured timezone — the edition `id` and `date`.
+
+## Step 0 — On-demand theme (only if a theme was given)
+
+If this run supplied a **theme** — the paper is on-demand (`config.mode: "on-demand"`) and you were
+given a theme (in the task prompt / `$VIBEPRESS_THEME`) — this is a themed issue. Otherwise skip this
+step: it's an ordinary scheduled run.
+
+When a theme is given:
+
+- Treat the theme as the **selection lead**: gather and choose stories that report *around this theme*
+  (Steps 1–2 still apply — sourcing, dedup, one-per-event — but relevance is judged against the theme).
+- Set the edition's **`theme`** field to the given theme string, exactly as provided.
+- Ignore cadence entirely (an on-demand paper has none; the runner already bypassed the gate).
+
+Everything else (investigate, write, validate, write files, translate) is unchanged. Fail-closed still
+holds: if you can't assemble at least one valid, sourced story on the theme, write nothing and say why.
 
 ## Step 1 — Gather candidate material
 
@@ -169,6 +187,7 @@ Enrichment never changes selection, `sourceLinks`, or the story's core fields.
   "date": "YYYY-MM-DD",
   "generatedAt": "<ISO-8601 UTC>",
   "editionTitle": "<config.name>",
+  "theme": "<the given theme>",          // only on an on-demand issue (Step 0); omit otherwise
   "editorNote": "…",
   "stories": [ /* selected stories, importance order */ ]
 }

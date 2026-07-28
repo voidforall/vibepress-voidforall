@@ -24,8 +24,8 @@
   // offers a switcher when a paper has more than one, and remembers the choice in localStorage.
   var LANG_LABEL = { en: "EN", zh: "中文", ja: "日本語", es: "ES", fr: "FR", de: "DE", ko: "한국어" };
   var STRINGS = {
-    en: { why: "Why it matters", back: "← Newsstand", context: "Background", discussion: "Reactions" },
-    zh: { why: "为何重要", back: "← 报摊", context: "背景", discussion: "各方反应" },
+    en: { why: "Why it matters", back: "← Newsstand", context: "Background", discussion: "Reactions", theme: "Theme" },
+    zh: { why: "为何重要", back: "← 报摊", context: "背景", discussion: "各方反应", theme: "主题" },
   };
   function t(key) {
     var table = STRINGS[currentLang] || STRINGS.en;
@@ -345,7 +345,11 @@
       '<p class="masthead-kicker"><a href="#/" class="back-link">' + escapeHtml(t("back")) + "</a></p>" +
       (paper.emoji ? '<div class="masthead-emoji" aria-hidden="true">' + escapeHtml(paper.emoji) + "</div>" : "") +
       '<h1 class="masthead-title">' + escapeHtml(paper.name || paper.slug) + "</h1>" +
-      '<p class="masthead-date">' + formatDate(edition.date) + "</p>";
+      '<p class="masthead-date">' + formatDate(edition.date) + "</p>" +
+      // On-demand issues carry a theme (see references/on-demand.md); scheduled ones don't.
+      ((typeof edition.theme === "string" && edition.theme.trim())
+        ? '<p class="masthead-theme">' + escapeHtml(t("theme")) + ": " + escapeHtml(edition.theme.trim()) + "</p>"
+        : "");
 
     var stories = Array.isArray(edition.stories) ? edition.stories : [];
     var html = "";

@@ -116,6 +116,14 @@ a { color: var(--link); }
   text-transform: uppercase;
   color: var(--ink-faint);
 }
+/* On-demand issue theme, shown under the date (see references/on-demand.md). */
+.masthead-theme {
+  margin: 0.4rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--accent);
+}
 .masthead-sub {
   margin: 0.55rem 0 0;
   font-size: 1.05rem;

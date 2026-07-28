@@ -41,8 +41,21 @@ def _weekday_index(name):
     return WEEKDAYS.get(name.strip().lower()[:3])
 
 
-def should_publish(schedule, date):
-    """Return True if a paper with this `schedule` publishes on `date` (a date object)."""
+def is_on_demand(mode):
+    """True if a paper's `mode` marks it on-demand (commissioned per issue, no cadence)."""
+    return isinstance(mode, str) and mode.strip().lower() == "on-demand"
+
+
+def should_publish(schedule, date, mode=None):
+    """Return True if a paper publishes on `date` (a date object) via the daily trigger.
+
+    An on-demand paper (`mode == "on-demand"`) has no cadence and is never due on the
+    daily trigger — it is commissioned per issue with a theme instead (run-edition.sh
+    --theme), which bypasses this gate entirely.
+    """
+    if is_on_demand(mode):
+        return False
+
     if not isinstance(schedule, dict):
         return True  # no schedule => daily
 
@@ -106,14 +119,19 @@ def main(argv):
     try:
         with open(config_path, "r", encoding="utf-8") as handle:
             config = json.load(handle)
-        schedule = config.get("schedule") if isinstance(config, dict) else None
+        is_config = isinstance(config, dict)
+        schedule = config.get("schedule") if is_config else None
+        mode = config.get("mode") if is_config else None
     except (FileNotFoundError, json.JSONDecodeError, OSError):
-        schedule = None  # fail-safe: unreadable config => publish
+        schedule, mode = None, None  # fail-safe: unreadable config => publish
 
-    if should_publish(schedule, date):
+    if should_publish(schedule, date, mode):
         print(f"publish: {config_path} is due on {date.isoformat()} ({date.strftime('%a')})")
         return 0
-    print(f"skip: {config_path} is not scheduled on {date.isoformat()} ({date.strftime('%a')})", file=sys.stderr)
+    if is_on_demand(mode):
+        print(f"skip: {config_path} is on-demand (commission an issue with --theme)", file=sys.stderr)
+    else:
+        print(f"skip: {config_path} is not scheduled on {date.isoformat()} ({date.strftime('%a')})", file=sys.stderr)
     return 3
 
 

@@ -172,6 +172,12 @@ def validate_edition(edition, config, translated=False):
     if not isinstance(edition.get("editorNote"), str) or not edition["editorNote"].strip():
         problems.append("editorNote is missing or empty")
 
+    # Optional per-issue theme (on-demand papers; see references/on-demand.md). Absent on
+    # scheduled editions; when present it must be a non-empty string.
+    theme = edition.get("theme")
+    if theme is not None and (not isinstance(theme, str) or not theme.strip()):
+        problems.append("theme, if present, must be a non-empty string")
+
     allowed = config.get("categories")
     allowed_categories = set(allowed) if isinstance(allowed, list) and allowed else None
     if allowed_categories is None:
