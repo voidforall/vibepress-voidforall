@@ -72,6 +72,16 @@
         "en",
         "zh"
       ]
+    },
+    {
+      "slug": "the-agenda",
+      "name": "The Agenda",
+      "tagline": "What's worth your time — one city, one theme at a time",
+      "latestDate": "2026-07-28",
+      "latestHeadline": "Solaya: sunset dining 25 floors above Shoreditch",
+      "editionCount": 1,
+      "accent": "#c05746",
+      "emoji": "🗓️"
     }
   ]
 }

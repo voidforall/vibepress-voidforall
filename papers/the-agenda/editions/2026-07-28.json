@@ -1,0 +1,29 @@
+{
+ "id":"2026-07-28","date":"2026-07-28","generatedAt":"2026-07-28T21:20:00Z","editionTitle":"The Agenda",
+ "theme":"trending London restaurants this week",
+ "editorNote":"Three rooms London's feed is pushing this week — a rooftop for the view, a Fitzrovia set-menu steal, and a Soho tapas stalwart — each checked against its ratings before it made the cut.",
+ "stories":[
+  {"headline":"Solaya: sunset dining 25 floors above Shoreditch","category":"Eat & Drink","importance":1,
+   "summary":"Kenny Atkinson's first London room sits on the top floor of Art'otel Hoxton, pairing a full-floor skyline view with a French-Mediterranean menu — and a £55 'Taste of Solaya' set that undercuts the city's other view restaurants.",
+   "context":"Chef Kenny Atkinson's first London opening; it takes the whole 25th floor, so the sunset view runs a full 360°.",
+   "whyItMatters":"It's the week's most-shared date-night pick — a view room people rate for the food, not just the skyline.",
+   "place":{"rating":4.5,"ratingCount":42,"priceLevel":"£££","address":"Art'otel, Rivington St, Shoreditch, London","mapUrl":"https://www.google.com/maps/search/?api=1&query=Solaya+restaurant+Rivington+Street+Shoreditch+London","reviews":[
+     {"text":"Solaya delivered sunshine on a plate, even when there was none to be seen in the skies.","author":"DesignMyNight","url":"https://www.designmynight.com/reviews/solaya-london-review"}]},
+   "sourceLinks":[{"title":"Xiaohongshu — 半枚金币：Solaya 日落约会餐厅","url":"https://www.xiaohongshu.com/explore/6a0da7e8000000003503aacd?xsec_token=ABw4-cl_YkcJh0XCqz6T5M7_AvKZUBN0ErG0D3SUxdXuY="}]},
+
+  {"headline":"Clipstone's £20.16 set menu is the week's best Michelin-adjacent steal","category":"Eat & Drink","importance":2,
+   "summary":"Portland's low-key Fitzrovia sibling still runs a three-course set at £20.16 — a nod to its 2016 opening — changing monthly and served only in the 5:30–6pm slot. Book ahead.",
+   "context":"The relaxed Fitzrovia sibling of Michelin-starred Portland; the set menu is redrawn every month.",
+   "whyItMatters":"A rare way into serious cooking for the price of a pub main — if you can grab the early slot.",
+   "place":{"rating":4.5,"priceLevel":"£££","address":"Fitzrovia, London","mapUrl":"https://www.google.com/maps/search/?api=1&query=Clipstone+restaurant+Fitzrovia+London","reviews":[
+     {"text":"A meal here is never going to be cheap, but the food's never showy","author":"The Infatuation","url":"https://www.theinfatuation.com/london/reviews/clipstone-restaurant"}]},
+   "sourceLinks":[{"title":"Xiaohongshu — Bvv_life：£20.16 set menu｜Clipstone","url":"https://www.xiaohongshu.com/explore/6a27011b000000000800b800?xsec_token=ABqeIED-T_0vTZByecJ1wIj098HATNJ1tx-9ajq87rd_k="}]},
+
+  {"headline":"Copita: the Soho tapas counter regulars keep going back to","category":"Eat & Drink","importance":3,
+   "summary":"A D'Arblay Street standby doing tight, well-made Spanish plates — acorn-fed Ibérico presa, a tender grilled octopus leg, a Basque cheesecake worth ordering — at around £50 a head.",
+   "whyItMatters":"Proof the reliable neighbourhood tapas bar still beats the hyped new opening most weeks.",
+   "place":{"rating":4.1,"ratingCount":373,"priceLevel":"££","address":"27 D'Arblay St, Soho, London W1F 8EP","mapUrl":"https://www.google.com/maps/search/?api=1&query=Copita+27+D'Arblay+Street+Soho+London","reviews":[
+     {"text":"This place has a massive range of well made tapas, it's all quite reasonably priced","author":"The Infatuation","url":"https://www.theinfatuation.com/london/reviews/copita"}]},
+   "sourceLinks":[{"title":"Xiaohongshu — Ich bin Taro：伦敦西班牙菜天花板 Copita","url":"https://www.xiaohongshu.com/explore/6a6917430000000008009c00?xsec_token=ABcrdq6HK0KOP--zjuUF_eC9yb9wfFA9YoAlD7-5ITNJo="}]}
+ ]
+}
