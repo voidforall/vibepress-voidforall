@@ -1,0 +1,111 @@
+{
+  "id": "2026-07-26",
+  "date": "2026-07-26",
+  "generatedAt": "2026-07-26T21:35:42Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "本期的调度从发射台一直延伸到银河边缘：星舰再次升空并完整归来，一艘联盟号则在轨道上停留 241 天后把三名机组送回地面。更远处，发现接连不断——宜居带岩质行星上首次探测到大气、疑似太阳系外的第一颗卫星（还是个大家伙），以及一个用引力波「低语」来寻找行星的巧妙设想。与此同时，NASA 的 Roman 望远镜比原计划提前数月抵达发射台。",
+  "stories": [
+    {
+      "headline": "SpaceX 星舰再次升空——并完成迄今「最柔和的溅落」",
+      "summary": "7 月 24 日，SpaceX 从德州 Starbase 发射了星舰 V3 的第二次试飞，约 18 分钟时部署了 20 颗新一代 Starlink V3 卫星——这是它们首次在飞行中亮相。超重助推器在墨西哥湾溅落，上面级则在印度洋完整着陆，首次提供了一张完好隔热罩的清晰画面。此前两次尝试分别因末秒发动机中止和天气被取消。",
+      "whyItMatters": "回收到完整隔热罩、并部署真实载荷，把星舰 V3 从「能不能飞」推向「能不能用」——而可复用正是整个项目的立身之本。",
+      "category": "发射",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Softest splashdown ever, Flight 13 (Space.com)",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-makes-the-softest-splashdown-ever-after-launching-next-gen-starlink-satellites-in-flight-13-test-video"
+        },
+        {
+          "title": "SpaceX conducts 13th Starship test flight (SpaceNews)",
+          "url": "https://spacenews.com/spacex-conducts-13th-starship-test-flight/"
+        }
+      ]
+    },
+    {
+      "headline": "首次在宜居带岩质行星上发现大气",
+      "summary": "研究者在《Science》（7 月 16 日）报告，首次确认在恒星宜居带内的一颗岩质、类地行星上存在大气：LHS 1140 b，一颗约 49 光年外、半径约为地球 1.7 倍的超级地球。这样的大气可能帮助调节行星气候、并让液态水在其表面留存。",
+      "whyItMatters": "宜居带里的岩质行星已不算稀奇；在其中一颗上确认到大气，才是迈向「它能否孕育生命」这一更难、也更有意义的一步。",
+      "category": "天文",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "First atmosphere on a habitable-zone rocky planet (Smithsonian)",
+          "url": "https://www.smithsonianmag.com/smart-news/could-life-exist-on-this-nearby-world-in-a-first-astronomers-find-an-atmosphere-on-an-earth-like-exoplanet-in-the-habitable-zone-180989149/"
+        },
+        {
+          "title": "1st atmosphere around a rocky habitable-zone planet (Space.com)",
+          "url": "https://www.space.com/astronomy/exoplanets/astronomers-discover-1st-atmosphere-around-a-rocky-earth-like-planet-in-the-habitable-zone"
+        }
+      ]
+    },
+    {
+      "headline": "天文学家或已发现太阳系外第一颗卫星——一颗木星大小的",
+      "summary": "借助欧洲南方天文台甚大望远镜（VLT）上的径向速度「摆动」法，天文学家报告了首颗已知系外卫星的证据——质量至少与木星相当——它绕的不是行星，而是一颗棕矮星（CD-35 2772，约 33 倍木星质量），距地约 71 光年。也有科学家提醒，这一解读仍有争议。",
+      "whyItMatters": "若能证实，这将是人类在太阳系外探测到的第一颗卫星——而且是绕着一颗「失败的恒星」的大家伙，拓宽了「卫星」一词的含义。",
+      "category": "深空",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "The first known exomoon (TIME)",
+          "url": "https://time.com/article/2026/07/22/astronomers-discover-exomoon/"
+        },
+        {
+          "title": "First moon outside our solar system — or something weirder? (Space.com)",
+          "url": "https://www.space.com/astronomy/exoplanets/astronomers-may-have-discovered-the-1st-moon-outside-of-our-solar-system-or-is-it-something-weirder"
+        }
+      ]
+    },
+    {
+      "headline": "NASA 的 Roman 望远镜抵达发射台——比计划提前约九个月",
+      "summary": "NASA 将于 7 月 29 日举行发布会预览 Nancy Grace Roman 太空望远镜，其发射时间已定在 8 月 30 日、由 SpaceX 猎鹰重型从肯尼迪航天中心送上太空——比原计划提前约九个月。Roman 的视场至少是哈勃的 100 倍，专为大规模宇宙巡天而造。",
+      "whyItMatters": "一只哈勃级的「眼睛」配上百倍宽的视场，意味着可以在哈勃力所不及的尺度上巡查暗能量、系外行星与银河结构。",
+      "category": "任务",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "NASA to host Roman telescope briefing, launching next month (NASA)",
+          "url": "https://www.nasa.gov/news-release/nasa-to-host-media-briefing-on-roman-telescope-launching-next-month/"
+        },
+        {
+          "title": "Nancy Grace Roman Space Telescope (NASA Science)",
+          "url": "https://science.nasa.gov/mission/roman-space-telescope/"
+        }
+      ]
+    },
+    {
+      "headline": "在轨 241 天后，一艘联盟号把三名机组送回哈萨克草原",
+      "summary": "联盟号 MS-28 与国际空间站分离，在哈萨克草原完成降落伞着陆，送回 NASA 宇航员 Chris Williams 与宇航员 Sergey Kud-Sverchkov、Sergei Mikaev——他们完成了 241 天任务，自 2025 年 11 月 27 日发射以来绕地 3,856 圈、飞行超过 1.02 亿英里。这是 Williams 与 Mikaev 的首次太空飞行。",
+      "whyItMatters": "这类长期驻留，正是各航天机构积累人体健康数据的方式——未来的登月与火星之旅都要靠它。",
+      "category": "太阳系",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Chris Williams, crewmates return from station (NASA)",
+          "url": "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-crewmates-return-from-space-station/"
+        },
+        {
+          "title": "Astronaut, 2 cosmonauts return after 241 days (Space.com)",
+          "url": "https://www.space.com/space-exploration/human-spaceflight/nasa-astronaut-two-cosmonauts-return-to-earth-soyuz-ms-28"
+        }
+      ]
+    },
+    {
+      "headline": "找行星的新办法：在引力波里「听」它们",
+      "summary": "一篇 Astrobites 综述介绍了计划中的 LISA 空间天文台如何通过一对双白矮星引力波信号中的微小偏移，来探测环绕它们的大行星——原理类似径向速度，但不受恒星活动干扰，且原则上可触及银河系之外的行星。",
+      "whyItMatters": "引力波探测器「看」得比望远镜更远，因此这有望最终发现银河系之外的第一批行星——那是现有任何方法都够不到的地方。",
+      "category": "发现",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Beyond the galaxy: finding exoplanets with gravitational waves (Astrobites)",
+          "url": "https://astrobites.org/2026/07/22/extragalactic-exoplanets-gws/"
+        },
+        {
+          "title": "Gravitational waves could help find planets beyond the galaxy (Space.com)",
+          "url": "https://www.space.com/gravitational-waves-to-detect-planets-beyond-galaxy.html"
+        }
+      ]
+    }
+  ]
+}

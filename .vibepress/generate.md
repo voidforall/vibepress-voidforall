@@ -14,6 +14,8 @@ touch the reader shell (`index.html`, `assets/`) — you only write data.
    - `storyCount` — target number of stories (aim for it; fewer is fine, never more).
    - `categories` — the only allowed `category` values.
    - `editorialVoice` — the tone to write in.
+   - `languages` — *(optional)* the languages to publish, e.g. `["en","zh"]`. The first is the
+     **primary** language. Absent or single = monolingual. See Step 8.
    - `sources` — the typed source list. See `.vibepress/sources.md` for the schema.
 2. `papers/<slug>/index.json` — the paper's existing manifest. Read before writing so you merge.
 3. `site.json` — the newsstand manifest; you update this paper's entry at the end.
@@ -113,9 +115,10 @@ valid JSON; `id`/`date` equal today; every story has non-empty `headline`/`summa
 1. Write the edition to `papers/<slug>/editions/<id>.json` (overwriting today's is fine — that's how a
    re-run replaces the day's edition; it is idempotent).
 2. Rebuild `papers/<slug>/index.json`: keep `slug`/`name`/`tagline`, and carry the paper's presentation
-   fields from `config.json` — `template`, and `accent`/`emoji` if present (the reader reads the paper's
-   look from here); set `editions` to the existing entries with today's removed then re-added as
-   `{ id, date, headline: <lead headline>, storyCount }`, sorted newest-first.
+   fields from `config.json` — `template`, `accent`/`emoji`, and `languages` if present (the reader
+   reads the paper's look and language options from here); set `editions` to the existing entries with
+   today's removed then re-added as `{ id, date, headline: <lead headline>, storyCount }`, sorted
+   newest-first. Use the **primary-language** lead headline here.
 3. Update `site.json`: in `papers`, replace this paper's entry's `latestDate`, `latestHeadline`
    (lead story), and `editionCount` (its edition count), and carry its `accent`/`emoji` from
    `config.json` if present (so the newsstand card matches the paper). Leave the other papers untouched.
@@ -130,6 +133,30 @@ valid JSON; `id`/`date` equal today; every story has non-empty `headline`/`summa
    window (14 days by default, or `config.dedupWindowDays`). Re-running for the same date replaces that
    day's entries, so it stays idempotent. `seen.json` is committed with the edition — it is the memory
    the next run reads back. Only run this after validation passes.
+
+## Step 8 — Translations (only if `config.languages` has more than one)
+
+Select and report **once** (Steps 2–5) in the primary language; then produce **the same edition** in
+each additional language — same stories, same order, same `sourceLinks`, same `importance`, same
+`id`/`date`. Only the human-readable text changes.
+
+For each non-primary language `<lang>` in `config.languages`:
+
+1. Write `papers/<slug>/editions/<id>.<lang>.json` — the same edition object with `headline`, `summary`,
+   `whyItMatters`, `editorNote`, and the section `category` labels translated into `<lang>`. Keep
+   `sourceLinks` **identical** (never re-translate or alter a URL/title's target), and keep the same
+   number of stories in the same importance order.
+2. Validate it with the `--translated` flag (its localized `category` labels won't match
+   `config.categories`, which is expected):
+
+   ```sh
+   python3 .vibepress/validate_edition.py \
+     papers/<slug>/editions/<id>.<lang>.json papers/<slug>/config.json --translated
+   ```
+
+The primary language stays at `<id>.json` (no suffix). The reader offers a language switch when a
+paper has more than one language, and falls back to the primary for any date a translation is missing.
+Translate faithfully — do not add, drop, or change facts between languages.
 
 ## Guardrails (do not relax)
 

@@ -1,0 +1,48 @@
+{
+  "id": "2026-07-27",
+  "date": "2026-07-27",
+  "generatedAt": "2026-07-27T12:03:02Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今天这期几乎被同一个地缘催化剂主导，波及自选清单里的两只标的：美伊军事暂停进入第二天，油价大跌，比特币重回 65,000 美元上方，同时金价被推高至接近 4,100 美元，投资者在本周美联储会议前提前布局。宏观之外，摩根士丹利因核心电商走软下调了阿里巴巴目标价，但仍凭云业务的强劲把它列为首选。",
+  "stories": [
+    {
+      "headline": "美伊军事暂停进入第二天，比特币重回 65,000 美元",
+      "summary": "比特币报 65,082.17 美元，24 小时上涨 0.94%。美国与伊朗连续第二天未再动武，油价走低——WTI 原油下跌约 5% 至每桶约 85 美元，布伦特下跌 4.7% 至 92.19 美元。以太坊表现更佳，上涨逾 3% 至接近 1,950 美元，风险情绪整体改善，纳斯达克与标普 500 期货上涨约 0.5%。",
+      "whyItMatters": "这波反弹显示比特币是作为风险资产、随地缘降温与股市同步交易，而非作为避险对冲工具。",
+      "category": "加密货币",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Is Back Above $65,000 as U.S., Iran Hold Fire, Oil Drops 5% (CoinDesk)",
+          "url": "https://www.coindesk.com/markets/2026/07/27/bitcoin-is-back-above-usd65-000-as-u-s-iran-hold-fire-oil-drops-5"
+        }
+      ]
+    },
+    {
+      "headline": "同样的美伊暂停压低油价，金价却逼近 4,100 美元",
+      "summary": "现货黄金升至每盎司约 4,096.63 美元，当日上涨约 1%。此前美国在连续 13 天打击后暂停对伊朗的军事行动，伊朗也随之停止报复。受消息影响，美国原油下跌逾 6% 至每桶约 83.10 美元。这些走势发生在本周美联储会议之前，市场预期利率维持在 3.50%–3.75%。",
+      "whyItMatters": "在战争风险定价回落的情况下，黄金仍与暴跌的油价同涨，说明就在美联储决议前，避险需求仍压过「通胀缓解利于降息」的逻辑。",
+      "category": "大宗商品",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "U.S.-Iran Ceasefire Sparks Oil Price Decline and Gold Rally, as Fed Rate Outlook Looms (KuCoin)",
+          "url": "https://www.kucoin.com/news/flash/u-s-iran-ceasefire-sparks-oil-drop-and-gold-rally-fed-rate-outlook-looms"
+        }
+      ]
+    },
+    {
+      "headline": "摩根士丹利将阿里巴巴目标价下调至 180 美元，指核心电商走弱",
+      "summary": "摩根士丹利分析师 Gary Yu 将阿里巴巴目标价从 200 美元下调至 180 美元，理由是核心电商业务走弱——客户管理收入增速预计放缓至同比约 3%，中国电商 EBITA 预计下滑约 3%，合并调整后 EBITA 预计同比下降 45% 至约 300 亿元人民币。Yu 维持「增持」评级，并在阿里 8 月底财报前将其列为首选，理由是阿里云增速加快、同比超 35%。",
+      "whyItMatters": "下调目标价的同时重申「增持」与「首选」，表明摩根士丹利仍看好阿里的 AI 云动能，尽管对核心零售业务转趋谨慎。",
+      "category": "公司",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Alibaba stock target cut at Morgan Stanley on worsening core e-comm business (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/news/alibaba-stock-target-cut-morgan-160844286.html"
+        }
+      ]
+    }
+  ]
+}

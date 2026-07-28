@@ -1,0 +1,65 @@
+{
+  "id": "2026-07-27",
+  "date": "2026-07-27",
+  "generatedAt": "2026-07-27T12:07:30Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "月之暗面赶在自己定的期限前，把 Kimi K3 的开源权重提前一天放上了 Hugging Face。此外：一起围绕 GrapheneOS 手机擦除的联邦起诉抛出一个古怪的法律问题——使用隐私功能本身是否算销毁证据；一个 LLM 在一杯咖啡的工夫里搞定了某压缩算法核心例程的形式化证明；Vercel 还发布了一个完全绕开 JavaScript 引擎的 TypeScript 编译器。",
+  "stories": [
+    {
+      "headline": "Kimi K3 开源权重提前一天登陆 Hugging Face",
+      "summary": "月之暗面（Moonshot AI）在美东时间 7 月 26 日晚约 7:30 于 Hugging Face 公开了 Kimi K3 的开源权重——一款 2.8 万亿参数、被其称为首个开源「3T 级」的模型——比它 7 月 16 日托管版上线时定下的 7 月 27 日目标提前了一天。月之暗面自报的基准显示 K3 领先于 Claude Opus 4.8 Max 与 GPT-5.5 High，但落后于 Claude Fable 5 与 GPT-5.6 Sol；独立评测机构 Artificial Analysis 测得其 Elo 为 1547，较 Kimi K2.6 提升 732 分，仅次于 Claude Fable 5。",
+      "whyItMatters": "开源权重让开发者可以不受限地使用月之暗面所称迄今最大的公开发布模型，而不只是一个托管 API。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Kimi-K3 (Hugging Face model page)",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3"
+        },
+        {
+          "title": "Kimi K3, and what we can still learn from the pelican benchmark (Simon Willison)",
+          "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/"
+        }
+      ]
+    },
+    {
+      "headline": "亚特兰大男子机场安检时手机自我擦除，遭联邦起诉",
+      "summary": "美国司法部依据一项禁止为阻止扣押而销毁财物的联邦法规，对 Sam Tunick 提起指控。2025 年 1 月 24 日，他在亚特兰大 Hartsfield-Jackson 机场二次安检、被要求解锁手机、并就涉嫌参与反 Cop City 行动受讯问期间，手机疑似自我擦除。GrapheneOS 由密码触发的擦除是内置隐私功能；辩方称此次搜查侵犯其宪法权利、擦除也可能是自动触发，检方则视其为蓄意销毁证据。预计 10 月底裁定。",
+      "whyItMatters": "把使用手机自带安全功能当作销毁证据来起诉——安全研究者警告，这套法律逻辑实际上可能把隐私工具本身定为犯罪。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "US prosecutors charge Atlanta man after GrapheneOS phone wipes during airport search (TechSpot)",
+          "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html"
+        }
+      ]
+    },
+    {
+      "headline": "LLM 约 20 分钟为 Zstandard 解压核心算法写出形式化证明",
+      "summary": "一名开发者用 Lean 证明语言实现了一个 Zstandard 解压器，随后让 LLM 在约 20 分钟内自动生成其有限状态熵（FSE）表构造的一系列普遍性质的形式化证明——包括表大小正确、按概率加权的状态分布、以及合法的状态转移——仅用掉一份 20 美元/月订阅额度的一小部分。作者将此与 seL4 项目的发现对比：后者证明微妙不变量所花的功夫约为写代码本身的 10 倍。",
+      "whyItMatters": "如果 LLM 现在能自动完成那份曾让依赖类型对日常软件不切实际的证明工程，形式化验证的不变量或将从专家的大工程，变成工程里的家常便饭。",
+      "category": "观点",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "We have proof automation now (ImperialViolet)",
+          "url": "https://www.imperialviolet.org/2026/07/26/zstd-lean.html"
+        }
+      ]
+    },
+    {
+      "headline": "Vercel 的 Scriptc 把 TypeScript 直接编成原生二进制，内部不含 JS 引擎",
+      "summary": "Scriptc 用真正的 TypeScript 编译器的解析器与类型检查器把代码变成带类型的中间表示，再经 clang 转为 C 或 LLVM 及原生代码，产出约 170–200KB 的静态二进制，启动约 2.4ms、内存占用 1–4MB；相比之下 Node 启动约 47ms、内存 67–116MB。无法静态编译的代码会回落到内嵌的约 620KB QuickJS 引擎，而非默默失败；项目声称与 Node 行为逐字节兼容，并通过对 800 多个测试程序的差分测试验证。",
+      "whyItMatters": "这是让 TypeScript 拿到编译型语言那种小巧、快启动二进制、又不放弃 Node API 兼容性的一次具体尝试。",
+      "category": "科技",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "vercel-labs/scriptc (GitHub)",
+          "url": "https://github.com/vercel-labs/scriptc"
+        }
+      ]
+    }
+  ]
+}

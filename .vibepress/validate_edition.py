@@ -34,8 +34,13 @@ def load_json(path):
         return None, f"could not read {path}: {exc}"
 
 
-def validate_story(story, index, allowed_categories):
-    """Return a list of problem strings for one story."""
+def validate_story(story, index, allowed_categories, translated=False):
+    """Return a list of problem strings for one story.
+
+    translated=True relaxes the category check for a non-primary-language edition
+    (its section labels are localized, so they won't match config.categories) —
+    the category must still be a non-empty string.
+    """
     where = f"stories[{index}]"
     problems = []
 
@@ -48,7 +53,10 @@ def validate_story(story, index, allowed_categories):
             problems.append(f"{where}.{field} is missing or empty")
 
     category = story.get("category")
-    if category not in allowed_categories:
+    if translated:
+        if not isinstance(category, str) or not category.strip():
+            problems.append(f"{where}.category is missing or empty")
+    elif category not in allowed_categories:
         problems.append(
             f"{where}.category {category!r} is not one of {sorted(allowed_categories)}"
         )
@@ -71,7 +79,7 @@ def validate_story(story, index, allowed_categories):
     return problems
 
 
-def validate_edition(edition, config):
+def validate_edition(edition, config, translated=False):
     """Return a list of problem strings for the whole edition."""
     problems = []
 
@@ -107,7 +115,7 @@ def validate_edition(edition, config):
                 f"stories has {len(stories)} entries, exceeds config.storyCount ({max_stories})"
             )
         for index, story in enumerate(stories):
-            problems.extend(validate_story(story, index, allowed_categories))
+            problems.extend(validate_story(story, index, allowed_categories, translated))
 
     return problems
 
@@ -141,12 +149,13 @@ def validate_manifest(manifest, edition):
 def main(argv):
     args = [a for a in argv[1:] if not a.startswith("--")]
     manifest_path = None
+    translated = "--translated" in argv
     for i, a in enumerate(argv):
         if a == "--manifest" and i + 1 < len(argv):
             manifest_path = argv[i + 1]
 
     if len(args) < 2:
-        print("usage: validate_edition.py <edition.json> <config.json> [--manifest <index.json>]")
+        print("usage: validate_edition.py <edition.json> <config.json> [--manifest <index.json>] [--translated]")
         return 2
 
     edition_path, config_path = args[0], args[1]
@@ -160,7 +169,7 @@ def main(argv):
         print(f"FAIL: {err}")
         return 1
 
-    problems = validate_edition(edition, config)
+    problems = validate_edition(edition, config, translated)
 
     if manifest_path:
         manifest, err = load_json(manifest_path)

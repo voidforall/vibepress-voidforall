@@ -7,12 +7,38 @@
   "emoji": "🔬",
   "storyCount": 6,
   "dedupWindowDays": 21,
-  "categories": ["Models", "Methods", "Benchmarks", "Systems", "Theory", "Applications"],
+  "categories": [
+    "Models",
+    "Methods",
+    "Benchmarks",
+    "Systems",
+    "Theory",
+    "Applications"
+  ],
   "editorialVoice": "Scholarly but plain-spoken. Say what is new and why it matters to a working ML practitioner. Ground every claim in the paper's abstract; never overclaim or state results not in the source.",
-  "schedule": { "cadence": "weekly", "day": "mon" },
+  "schedule": {
+    "cadence": "weekly",
+    "day": "mon"
+  },
   "sources": [
-    { "type": "arxiv", "query": "cat:cs.LG", "limit": 18 },
-    { "type": "arxiv", "query": "cat:cs.CL", "limit": 15 },
-    { "type": "arxiv", "query": "cat:cs.AI", "limit": 12 }
+    {
+      "type": "arxiv",
+      "query": "cat:cs.LG",
+      "limit": 18
+    },
+    {
+      "type": "arxiv",
+      "query": "cat:cs.CL",
+      "limit": 15
+    },
+    {
+      "type": "arxiv",
+      "query": "cat:cs.AI",
+      "limit": 12
+    }
+  ],
+  "languages": [
+    "en",
+    "zh"
   ]
 }

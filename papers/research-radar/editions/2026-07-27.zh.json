@@ -1,0 +1,87 @@
+{
+  "id": "2026-07-27",
+  "date": "2026-07-27",
+  "generatedAt": "2026-07-27T12:04:34Z",
+  "editionTitle": "Research Radar",
+  "editorNote": "本周雷达聚焦「负载下的 agent」：一个任务级路由在准确率和延迟上都胜过按调用路由；一种自博弈让 agent 自己写更难的任务和技能；还有一份冷静的分析指出，一项技能的收益通常来自「避免退步」而非「解锁新胜绩」。DBA-Bench 用硬指标量化了自动化数据库 agent 与人类 DBA 在真实故障上的差距。此外：从零原生训练视觉语言模型的新 scaling law；以及 LunarFM——横跨六台月球仪器的共享嵌入空间。",
+  "stories": [
+    {
+      "headline": "从零原生训练视觉语言模型的新 scaling law",
+      "summary": "一项针对「从头在多模态数据上训练、而非由纯文本预训练模型改造而来」的视觉语言 Transformer 的研究发现：最小 loss 遵循可预测的算力律，但模型规模与 token 数之间的最优分配对训练配比高度敏感——文本占比高的数据混合需要更大的模型才能保持算力高效。原生多模态预训练还带来正向的跨模态迁移，提升纯文本的空间推理，并支持更稳健的上下文学习。",
+      "whyItMatters": "它为构建多模态基础模型的团队给出一条分配算力的效率前沿，而不必照搬来自纯文本 LLM 的 scaling 配方。",
+      "category": "模型",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Scaling Native Multimodal Pre-Training From Scratch (arXiv:2607.22043)",
+          "url": "https://arxiv.org/abs/2607.22043v1"
+        }
+      ]
+    },
+    {
+      "headline": "一个按 agent 任务、而非按调用选模型的路由——准确率和延迟双赢",
+      "summary": "TRACE-Router 针对 agent 式 LLM 路由的一个错配：多数路由按每次调用选模型，但 agent 任务只按完成度评判。它改为在任务准入时用上下文老虎机为整个任务指定一个模型，之后该任务的每次调用都固定用它，并从延迟的、任务级的准确率/延迟反馈更新策略。在 tau2-Bench 上比「延迟对齐的单模型插值」高 7–8 个准确率点；在 Terminal-Bench 上比最强单模型基线高 7.1 个准确率点、延迟低 36%。",
+      "whyItMatters": "在任务层面而非调用层面做路由，让多模型 agent 系统能同时拿到更高准确率和更低延迟，而不是二者取其一。",
+      "category": "系统",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "TRACE-ROUTER: Task-Consistent and Adaptive Online Routing for Agentic AI (arXiv:2607.22465)",
+          "url": "https://arxiv.org/abs/2607.22465v1"
+        }
+      ]
+    },
+    {
+      "headline": "DBA-Bench 用真实故障给 LLM 数据库 agent 打分——并对标人类 DBA",
+      "summary": "DBA-Bench 在带有真实负载与持久状态的、被插桩的实时 PostgreSQL 环境里，用七类任务、106 个场景测试 LLM agent，评判其能否诊断并安全修复运维故障。最好的自动化系统只安全解决了 17.9% 的场景，而人类 DBA 参照为 93.4%；其安全修复率还随难度进一步下滑，从简单场景的 19.6% 降到困难场景的 7.6%。",
+      "whyItMatters": "它把「有能力的 AI 数据库 agent」这类含糊说法，换成了在类生产故障上、按安全性评分、对标人类操作员的具体差距。",
+      "category": "基准",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "DBA-Bench: A Production-Fidelity Benchmark for LLM-Based Database Operations Agents (arXiv:2607.22165)",
+          "url": "https://arxiv.org/abs/2607.22165v1"
+        }
+      ]
+    },
+    {
+      "headline": "Skill Self-Play 让 LLM agent 自己写更难的任务——以及解决它们的技能",
+      "summary": "Skill Self-Play 用强化学习训练三个协同演化的组件：一个基于技能库生成新任务的 proposer、一个尝试求解的 solver，以及一个根据执行反馈更新技能库的 controller。作者报告该方法抬高了本已能干的骨干模型的性能上限，并对起点较差的模型在工具使用与推理基准上带来大幅提升。",
+      "whyItMatters": "它提供了一条持续扩大 agent 任务多样性的路径，同时保留了纯开放式自博弈任务所缺乏的可验证反馈。",
+      "category": "方法",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills (arXiv:2607.22529)",
+          "url": "https://arxiv.org/abs/2607.22529v1"
+        }
+      ]
+    },
+    {
+      "headline": "当 LLM agent 拿到一项「技能」，收益大多来自少犯新错、而非多拿新胜",
+      "summary": "作者在两个办公自动化基准、三种模型 harness 上做了近 6000 次运行，比较有无程序化技能的 agent，发现技能的表面收益主要来自「更少退步」，而非「多解决了任务」。他们把多数退步归因于：技能仅凭出现在上下文里就悄悄改变行为、覆盖了对输入的正确理解（grounding displacement）、或抑制了 agent 自身的输出验证。",
+      "whyItMatters": "它重新界定了技能库该如何构建与评估——现有设计过度强调程序化步骤，却忽视 grounding 与验证，而论文发现后两者才是主导性的失败来源。",
+      "category": "理论",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents (arXiv:2607.22520)",
+          "url": "https://arxiv.org/abs/2607.22520v1"
+        }
+      ]
+    },
+    {
+      "headline": "LunarFM：横跨三次任务、六台月球仪器的一套共享嵌入空间",
+      "summary": "LunarFM 是一个多模态基础模型，在三次月球轨道任务、六台仪器的 18 个输入通道上训练，覆盖 70°S 到 70°N 纬度，经预训练的掩码自编码器架构映射到共享的 768 维表征。作者公开了模型、一份机器学习就绪的共配准数据集，以及一份嵌入数据集，并展示该表征可支持相似度检索、少样本资源制图、矿物丰度回归与地质单元分类。",
+      "whyItMatters": "跨仪器、跨任务的单一共享表征，让研究者可以复用一个模型完成多种月球科学任务，而不必为每台仪器搭一条专用流水线。",
+      "category": "应用",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "LunarFM: A Shared Multimodal Representation of the Moon's Surface (arXiv:2607.22408)",
+          "url": "https://arxiv.org/abs/2607.22408v1"
+        }
+      ]
+    }
+  ]
+}

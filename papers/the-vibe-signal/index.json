@@ -36,5 +36,9 @@
     }
   ],
   "accent": "#2f8f83",
-  "emoji": "📡"
+  "emoji": "📡",
+  "languages": [
+    "en",
+    "zh"
+  ]
 }

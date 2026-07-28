@@ -16,6 +16,38 @@
   var site = null; // cached site.json
   var navState = null; // { paper, editions (newest-first), id, index } for the current paper
   var currentAccent = ""; // the active paper's accent hex, or "" on the newsstand / none
+  var currentLang = ""; // active reading language for the current paper, "" on the newsstand
+
+  // --- languages -------------------------------------------------------------
+  // A paper can publish in several languages (config.languages). The primary (first) language
+  // uses editions/<date>.json; each other language uses editions/<date>.<lang>.json. The reader
+  // offers a switcher when a paper has more than one, and remembers the choice in localStorage.
+  var LANG_LABEL = { en: "EN", zh: "中文", ja: "日本語", es: "ES", fr: "FR", de: "DE", ko: "한국어" };
+  var STRINGS = {
+    en: { why: "Why it matters", back: "← Newsstand" },
+    zh: { why: "为何重要", back: "← 报摊" },
+  };
+  function t(key) {
+    var table = STRINGS[currentLang] || STRINGS.en;
+    return (table && table[key]) || STRINGS.en[key] || key;
+  }
+  function storedLang() {
+    try { return localStorage.getItem("vp-lang") || ""; } catch (e) { return ""; }
+  }
+  function renderLangControl(langs, active) {
+    var el = document.getElementById("vp-lang");
+    if (!el) return;
+    if (!Array.isArray(langs) || langs.length < 2) { el.innerHTML = ""; return; }
+    el.innerHTML = langs.map(function (l) {
+      return '<button type="button" data-lang="' + escapeHtml(l) + '"' +
+        (l === active ? ' aria-pressed="true"' : "") + ' title="' + escapeHtml(l) + '">' +
+        escapeHtml(LANG_LABEL[l] || l.toUpperCase()) + "</button>";
+    }).join("");
+  }
+  function editionUrl(slug, id, lang, primary) {
+    var suffix = (lang && lang !== primary) ? "." + lang : "";
+    return "papers/" + encodeURIComponent(slug) + "/editions/" + encodeURIComponent(id) + suffix + ".json";
+  }
 
   // --- templates -------------------------------------------------------------
   // A paper declares a default look via its `template` field ("standard" | "classic").
@@ -73,6 +105,7 @@
     controls = document.createElement("div");
     controls.id = "vp-controls";
     controls.innerHTML =
+      '<span id="vp-lang" class="vp-lang"></span>' +
       '<button type="button" data-template="standard" title="Web reading layout">Web</button>' +
       '<button type="button" data-template="classic" title="Old-newspaper print layout">Print</button>' +
       '<button type="button" data-action="print" title="Print this edition" aria-label="Print">⎙</button>' +
@@ -80,6 +113,12 @@
     controls.addEventListener("click", function (e) {
       var btn = e.target.closest ? e.target.closest("button") : null;
       if (!btn) return;
+      var lang = btn.getAttribute("data-lang");
+      if (lang) {
+        try { localStorage.setItem("vp-lang", lang); } catch (err) {}
+        if (navState) renderPaper(navState.paper.slug, navState.id);
+        return;
+      }
       var action = btn.getAttribute("data-action");
       if (action === "print") { window.print(); return; }
       if (action === "theme") {
@@ -165,6 +204,8 @@
   function renderNewsstand() {
     document.title = (site.publisher || "The Newsstand");
     currentAccent = "";
+    currentLang = "";
+    renderLangControl([], null);
     applyTemplate("standard");
     navState = null;
     timeline.hidden = true;
@@ -227,7 +268,7 @@
       story.category ? '<p class="story-category">' + escapeHtml(story.category) + "</p>" : "",
       '<h2 class="story-headline">' + escapeHtml(story.headline) + "</h2>",
       story.summary ? '<p class="story-summary">' + escapeHtml(story.summary) + "</p>" : "",
-      story.whyItMatters ? '<p class="story-why"><b>Why it matters</b> — ' + escapeHtml(story.whyItMatters) + "</p>" : "",
+      story.whyItMatters ? '<p class="story-why"><b>' + escapeHtml(t("why")) + "</b> — " + escapeHtml(story.whyItMatters) + "</p>" : "",
       links ? '<ul class="story-sources">' + links + "</ul>" : "",
       "</article>",
     ].join("");
@@ -236,7 +277,7 @@
   function renderEdition(paper, edition) {
     document.title = (paper.name || paper.slug) + " · " + (edition.date || "");
     masthead.innerHTML =
-      '<p class="masthead-kicker"><a href="#/" class="back-link">← Newsstand</a></p>' +
+      '<p class="masthead-kicker"><a href="#/" class="back-link">' + escapeHtml(t("back")) + "</a></p>" +
       (paper.emoji ? '<div class="masthead-emoji" aria-hidden="true">' + escapeHtml(paper.emoji) + "</div>" : "") +
       '<h1 class="masthead-title">' + escapeHtml(paper.name || paper.slug) + "</h1>" +
       '<p class="masthead-date">' + formatDate(edition.date) + "</p>";
@@ -348,6 +389,12 @@
       .then(function (paper) {
         paper.slug = paper.slug || slug;
         currentAccent = safeColor(paper.accent);
+        var langs = (Array.isArray(paper.languages) && paper.languages.length) ? paper.languages : ["en"];
+        var primary = langs[0];
+        var lang = storedLang();
+        if (langs.indexOf(lang) === -1) lang = primary;
+        currentLang = lang;
+        renderLangControl(langs, lang);
         applyTemplate(paper.template);
         var editions = (Array.isArray(paper.editions) ? paper.editions : []).slice().sort(function (a, b) {
           return (b.date || b.id || "").localeCompare(a.date || a.id || "");
@@ -358,7 +405,14 @@
           return;
         }
         var id = editions.some(function (e) { return e.id === wantedDate; }) ? wantedDate : editions[0].id;
-        return getJson("papers/" + encodeURIComponent(slug) + "/editions/" + encodeURIComponent(id) + ".json")
+        return getJson(editionUrl(slug, id, lang, primary))
+          .catch(function (err) {
+            // This edition isn't available in the chosen language yet — fall back to the primary.
+            if (lang === primary) throw err;
+            currentLang = primary;
+            renderLangControl(langs, primary);
+            return getJson(editionUrl(slug, id, primary, primary));
+          })
           .then(function (edition) {
             renderEdition(paper, edition);
             renderNav(paper, editions, id);

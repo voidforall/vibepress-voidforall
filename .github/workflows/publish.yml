@@ -118,17 +118,28 @@ jobs:
               missing="$missing $slug"
               continue
             fi
-            if vout="$(python3 .vibepress/validate_edition.py "$ed" "$cfg" --manifest "$man" 2>&1)"; then
+            ed_ok=1
+            vout="$(python3 .vibepress/validate_edition.py "$ed" "$cfg" --manifest "$man" 2>&1)" || ed_ok=0
+            # Any translated siblings (<today>.<lang>.json) must also pass, with relaxed categories.
+            if [ "$ed_ok" = 1 ]; then
+              for tf in "papers/$slug/editions/$today".*.json; do
+                [ -e "$tf" ] || continue
+                vout="$(python3 .vibepress/validate_edition.py "$tf" "$cfg" --translated 2>&1)" || { ed_ok=0; break; }
+              done
+            fi
+            if [ "$ed_ok" = 1 ]; then
               head="$(python3 -c "import json;s=(json.load(open('$ed')).get('stories') or [{}]);print(s[0].get('headline',''))" 2>/dev/null || true)"
               echo "| \`$slug\` | ✅ published | ${head:-—} |" >> "$GITHUB_STEP_SUMMARY"
               git add "$ed" "$man"
               [ -f "papers/$slug/seen.json" ] && git add "papers/$slug/seen.json" || true
+              for tf in "papers/$slug/editions/$today".*.json; do [ -e "$tf" ] && git add "$tf"; done
               ok=$((ok + 1))
             else
               echo "| \`$slug\` | ❌ invalid | failed validation — reverted, not published |" >> "$GITHUB_STEP_SUMMARY"
               echo "::error title=vibepress $slug invalid::$vout"
               git checkout HEAD -- "$ed" "$man" 2>/dev/null || rm -f "$ed"
               [ -f "papers/$slug/seen.json" ] && { git checkout HEAD -- "papers/$slug/seen.json" 2>/dev/null || true; }
+              for tf in "papers/$slug/editions/$today".*.json; do [ -e "$tf" ] && { git checkout HEAD -- "$tf" 2>/dev/null || rm -f "$tf"; }; done
               invalid="$invalid $slug"
             fi
           done

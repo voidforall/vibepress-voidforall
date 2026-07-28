@@ -457,6 +457,8 @@ a { color: var(--link); }
   color: var(--paper);
   border-color: var(--ink);
 }
+/* The language switcher's buttons should sit in the toolbar flow like the others. */
+.vp-lang { display: contents; }
 
 /* ============================================================
    Template: classic — an old-newspaper, print-oriented layout

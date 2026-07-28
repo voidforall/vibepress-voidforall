@@ -7,13 +7,50 @@
   "emoji": "🪐",
   "storyCount": 6,
   "dedupWindowDays": 21,
-  "categories": ["Launches", "Missions", "Astronomy", "Discovery", "Solar System", "Deep Space"],
+  "categories": [
+    "Launches",
+    "Missions",
+    "Astronomy",
+    "Discovery",
+    "Solar System",
+    "Deep Space"
+  ],
   "editorialVoice": "Curious and a little wonder-struck, but grounded in what actually happened. Explain the science plainly for a general reader; marvel without exaggerating, and never state findings the source doesn't.",
-  "schedule": { "cadence": "weekly", "day": "thu" },
+  "schedule": {
+    "cadence": "weekly",
+    "day": "thu"
+  },
   "sources": [
-    { "type": "rss", "url": "https://news.google.com/rss/search?q=%28NASA%20OR%20ESA%20OR%20%22space%20mission%22%20OR%20JWST%29%20when%3A7d&hl=en-US&gl=US&ceid=US:en", "limit": 8 },
-    { "type": "rss", "url": "https://news.google.com/rss/search?q=%28%22rocket%20launch%22%20OR%20SpaceX%20OR%20%22Blue%20Origin%22%20OR%20Ariane%29%20when%3A7d&hl=en-US&gl=US&ceid=US:en", "limit": 8 },
-    { "type": "rss", "url": "https://news.google.com/rss/search?q=%28astronomy%20OR%20telescope%20OR%20exoplanet%20OR%20galaxy%29%20discovery%20when%3A7d&hl=en-US&gl=US&ceid=US:en", "limit": 8 },
-    { "type": "websearch", "query": "space mission launch astronomy discovery this week", "recencyDays": 7, "sites": ["space.com", "nasa.gov", "apnews.com", "spacenews.com"], "limit": 8 }
+    {
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=%28NASA%20OR%20ESA%20OR%20%22space%20mission%22%20OR%20JWST%29%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+      "limit": 8
+    },
+    {
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=%28%22rocket%20launch%22%20OR%20SpaceX%20OR%20%22Blue%20Origin%22%20OR%20Ariane%29%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+      "limit": 8
+    },
+    {
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=%28astronomy%20OR%20telescope%20OR%20exoplanet%20OR%20galaxy%29%20discovery%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+      "limit": 8
+    },
+    {
+      "type": "websearch",
+      "query": "space mission launch astronomy discovery this week",
+      "recencyDays": 7,
+      "sites": [
+        "space.com",
+        "nasa.gov",
+        "apnews.com",
+        "spacenews.com"
+      ],
+      "limit": 8
+    }
+  ],
+  "languages": [
+    "en",
+    "zh"
   ]
 }

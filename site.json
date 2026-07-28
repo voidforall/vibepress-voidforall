@@ -11,7 +11,11 @@
       "latestHeadline": "Kimi K3's open weights land on Hugging Face, a day ahead of schedule",
       "editionCount": 5,
       "accent": "#2f8f83",
-      "emoji": "📡"
+      "emoji": "📡",
+      "languages": [
+        "en",
+        "zh"
+      ]
     },
     {
       "slug": "portfolio-daily",
@@ -21,7 +25,11 @@
       "latestHeadline": "Bitcoin reclaims $65,000 as US-Iran military pause enters second day",
       "editionCount": 5,
       "accent": "#1f8f5f",
-      "emoji": "📈"
+      "emoji": "📈",
+      "languages": [
+        "en",
+        "zh"
+      ]
     },
     {
       "slug": "research-radar",
@@ -31,7 +39,11 @@
       "latestHeadline": "New scaling laws for training vision-language models natively, from scratch",
       "editionCount": 2,
       "accent": "#6d5bd0",
-      "emoji": "🔬"
+      "emoji": "🔬",
+      "languages": [
+        "en",
+        "zh"
+      ]
     },
     {
       "slug": "cosmic-dispatch",
@@ -41,7 +53,11 @@
       "latestHeadline": "SpaceX's Starship flies again — and lands the “softest splashdown” yet",
       "editionCount": 1,
       "accent": "#c8862a",
-      "emoji": "🪐"
+      "emoji": "🪐",
+      "languages": [
+        "en",
+        "zh"
+      ]
     },
     {
       "slug": "otaku-times",
@@ -51,7 +67,11 @@
       "latestHeadline": "Summer 2026 is one of the most stacked anime seasons in years",
       "editionCount": 1,
       "accent": "#e35d8a",
-      "emoji": "🌸"
+      "emoji": "🌸",
+      "languages": [
+        "en",
+        "zh"
+      ]
     }
   ]
 }

@@ -7,13 +7,52 @@
   "emoji": "🌸",
   "storyCount": 6,
   "dedupWindowDays": 45,
-  "themes": ["cyberpunk & sci-fi", "isekai & fantasy", "psychological thrillers", "cozy & wholesome"],
-  "categories": ["This Month", "Isekai & Fantasy", "Sci-Fi", "Psychological", "Wholesome", "Manga"],
+  "themes": [
+    "cyberpunk & sci-fi",
+    "isekai & fantasy",
+    "psychological thrillers",
+    "cozy & wholesome"
+  ],
+  "categories": [
+    "This Month",
+    "Isekai & Fantasy",
+    "Sci-Fi",
+    "Psychological",
+    "Wholesome",
+    "Manga"
+  ],
   "editorialVoice": "An enthusiast friend who watches everything and recommends by the reader's taste. Each pick names the show, its premise (grounded in the source), and one line on why it fits a reader theme — cyberpunk & sci-fi, isekai & fantasy, psychological thrillers, cozy & wholesome. No spoilers, no invented plot; keep it warm and spoiler-free.",
-  "schedule": { "cadence": "monthly", "day": 1 },
+  "schedule": {
+    "cadence": "monthly",
+    "day": 1
+  },
   "sources": [
-    { "type": "rss", "url": "https://news.google.com/rss/search?q=%28anime%20OR%20manga%29%20%28%22new%20season%22%20OR%20announcement%20OR%20trailer%29%20when%3A14d&hl=en-US&gl=US&ceid=US:en", "limit": 10 },
-    { "type": "reddit", "subreddit": "anime", "sort": "top", "time": "month", "limit": 15 },
-    { "type": "websearch", "query": "best new seasonal anime recommendations this season", "recencyDays": 30, "sites": ["animenewsnetwork.com", "crunchyroll.com", "cbr.com"], "limit": 8 }
+    {
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=%28anime%20OR%20manga%29%20%28%22new%20season%22%20OR%20announcement%20OR%20trailer%29%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+      "limit": 10
+    },
+    {
+      "type": "reddit",
+      "subreddit": "anime",
+      "sort": "top",
+      "time": "month",
+      "limit": 15
+    },
+    {
+      "type": "websearch",
+      "query": "best new seasonal anime recommendations this season",
+      "recencyDays": 30,
+      "sites": [
+        "animenewsnetwork.com",
+        "crunchyroll.com",
+        "cbr.com"
+      ],
+      "limit": 8
+    }
+  ],
+  "languages": [
+    "en",
+    "zh"
   ]
 }
