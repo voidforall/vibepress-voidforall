@@ -140,25 +140,26 @@ of the edition. If you don't have the material for a field, **omit it** (never f
 - `context` — one or two plain sentences of background that help a non-expert: what a company/paper/term
   is, or what came before this event. Ground it in the sources you already read for this story; it needs
   no separate link. Omit for stories that need no background.
-- `discussion` — a digest of the comment thread, as an object:
+- `discussion` — a small comment-section of **direct quotes** from a thread you read. **Not** a
+  summary and **not** prose. Full spec: [`references/reactions.md`](reactions.md). Shape:
   ```json
   "discussion": {
-    "summary": "Two to four sentences on the *specific* substance of the thread — the actual arguments, named tradeoffs, concrete claims, and where people disagree.",
+    "quotes": [
+      { "text": "The 90-day FCC timeline is wishful thinking — I've shipped three radios and none cleared in under six months.", "author": "hwguy", "url": "https://news.ycombinator.com/item?id=…" },
+      { "text": "Margins don't matter here; the hardware is a funnel into their payment take rate.", "author": "fin_reader", "url": "https://news.ycombinator.com/item?id=…" }
+    ],
     "sourceLinks": [ { "title": "HN thread", "url": "https://news.ycombinator.com/item?id=…" } ]
   }
   ```
-  Write it **only** from a comment thread you actually fetched (e.g. a Hacker News or Reddit thread among
-  the candidates). Be **specific and concrete**, not generic: name the actual points being argued, the
-  tradeoffs raised, a notable claim or correction, the sides of a disagreement — the things a reader would
-  learn by reading the thread themselves. **Avoid filler** like "opinions were mixed" or "commenters
-  discussed it" that says nothing. The reader shows this collapsed by default and expands on click, so
-  two to four substantive sentences is the right length — favor specificity over brevity, but never pad.
-  Summarize substance, not vote counts or vibes; keep `sourceLinks` to threads you read, each `http(s)`.
-  If you read no discussion for a story, omit `discussion` — never invent reactions.
+  Rules (see the spec for the full list): 2–4 **verbatim** quotes (trim with `…`, never rewrite) from a
+  Hacker News/Reddit thread you **actually fetched**; pick comments that carry an argument, correction,
+  datapoint, or well-put dissent, and represent the real range of views — no vote chatter, no jokes,
+  no invented handles. Every `discussion` must carry at least one link (a `quotes[].url` or a
+  `sourceLinks[].url`). If you read no thread for a story, **omit `discussion`** — never invent reactions.
 
 These are secondary matter: the reader renders `context` as a muted line and `discussion` as a
-collapsible section under the story, and shows nothing when a field is absent. Enrichment never changes
-selection, `sourceLinks`, or the story's core fields.
+collapsible **Reactions** section (the quotes) under the story, and shows nothing when a field is absent.
+Enrichment never changes selection, `sourceLinks`, or the story's core fields.
 
 ## Step 5 — Assemble the edition object
 
@@ -218,9 +219,10 @@ For each non-primary language `<lang>` in `config.languages`:
 
 1. Write `papers/<slug>/editions/<id>.<lang>.json` — the same edition object with `headline`, `summary`,
    `whyItMatters`, `editorNote`, and the section `category` labels translated into `<lang>`. If a story
-   carries enrichment (Step 4b), translate `context` and `discussion.summary` too. Keep every `sourceLinks`
-   entry **identical** — including `discussion.sourceLinks` — (never re-translate or alter a URL/title's
-   target), and keep the same number of stories in the same importance order.
+   carries enrichment (Step 4b), translate `context` and each `discussion.quotes[].text` too. Keep every
+   `sourceLinks` entry **identical** — including `discussion.sourceLinks` and each `quotes[].url` and
+   `quotes[].author` — (never re-translate or alter a URL/handle/title's target), and keep the same
+   number of stories (and the same quotes) in the same order.
 2. Validate it with the `--translated` flag (its localized `category` labels won't match
    `config.categories`, which is expected):
 

@@ -86,18 +86,57 @@ def validate_story(story, index, allowed_categories, translated=False):
 
     discussion = story.get("discussion")
     if discussion is not None:
-        if not isinstance(discussion, dict):
-            problems.append(f"{where}.discussion, if present, must be an object")
-        else:
-            summary = discussion.get("summary")
-            if not isinstance(summary, str) or not summary.strip():
-                problems.append(f"{where}.discussion.summary must be a non-empty string")
-            d_links = discussion.get("sourceLinks")
-            if d_links is not None:
-                if not isinstance(d_links, list):
-                    problems.append(f"{where}.discussion.sourceLinks, if present, must be an array")
+        problems.extend(validate_discussion(discussion, f"{where}.discussion"))
+    return problems
+
+
+def validate_discussion(discussion, where):
+    """Return problems for a story's optional Reactions block (see references/reactions.md).
+
+    It is a comment-section of direct quotes, not a summary: a non-empty `quotes` array of
+    {text, author?, url?}, and every block must be traceable to at least one link (a quote
+    url or a thread-level sourceLinks url), so reactions are never unsourced.
+    """
+    problems = []
+    if not isinstance(discussion, dict):
+        return [f"{where}, if present, must be an object"]
+
+    linked = False  # at least one http(s) link must exist across quotes + sourceLinks
+
+    quotes = discussion.get("quotes")
+    if not isinstance(quotes, list) or not quotes:
+        problems.append(f"{where}.quotes must be a non-empty array")
+    else:
+        for q_index, quote in enumerate(quotes):
+            q_where = f"{where}.quotes[{q_index}]"
+            if not isinstance(quote, dict):
+                problems.append(f"{q_where} is not an object")
+                continue
+            text = quote.get("text")
+            if not isinstance(text, str) or not text.strip():
+                problems.append(f"{q_where}.text must be a non-empty string")
+            author = quote.get("author")
+            if author is not None and (not isinstance(author, str) or not author.strip()):
+                problems.append(f"{q_where}.author, if present, must be a non-empty string")
+            url = quote.get("url")
+            if url is not None:
+                if not isinstance(url, str) or not HTTP_URL.match(url.strip()):
+                    problems.append(f"{q_where}.url, if present, must be an http(s) URL, got {url!r}")
                 else:
-                    problems.extend(validate_links(d_links, f"{where}.discussion.sourceLinks"))
+                    linked = True
+
+    d_links = discussion.get("sourceLinks")
+    if d_links is not None:
+        if not isinstance(d_links, list):
+            problems.append(f"{where}.sourceLinks, if present, must be an array")
+        else:
+            link_problems = validate_links(d_links, f"{where}.sourceLinks")
+            problems.extend(link_problems)
+            if d_links and not link_problems:
+                linked = True
+
+    if not linked and not problems:
+        problems.append(f"{where} must carry at least one link (a quote url or a sourceLinks url)")
     return problems
 
 

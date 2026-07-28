@@ -266,14 +266,6 @@
 
   // --- one paper -------------------------------------------------------------
 
-  // Split text on blank lines into escaped <p> blocks, so a longer field can carry paragraphs.
-  function paragraphs(text, cls) {
-    return String(text).split(/\n\n+/).map(function (block) {
-      var b = block.trim();
-      return b ? '<p class="' + cls + '">' + escapeHtml(b) + "</p>" : "";
-    }).filter(Boolean).join("");
-  }
-
   // Render an array of {title,url} into <li><a>…</a></li>, dropping any non-http(s) link.
   function renderLinks(arr) {
     return (Array.isArray(arr) ? arr : [])
@@ -285,6 +277,42 @@
       }).filter(Boolean).join("");
   }
 
+  // Attribution line for one quote: "— author" (linked to the comment when a url is given),
+  // a bare "— author", or a "source ↗" link when only a url is available.
+  function reactionCite(quote) {
+    var url = safeUrl(quote && quote.url);
+    var author = (quote && typeof quote.author === "string" && quote.author.trim()) ? quote.author.trim() : "";
+    if (!author && !url) return "";
+    var label = author || "source";
+    var inner = url
+      ? '<a href="' + escapeHtml(url) + '" rel="noopener noreferrer" target="_blank">' + escapeHtml(label) + "</a>"
+      : escapeHtml(label);
+    return '<cite class="reaction-cite">— ' + inner + "</cite>";
+  }
+
+  // Render the optional Reactions block: a collapsible list of direct quotes.
+  function renderReactions(d) {
+    if (!d || typeof d !== "object" || !Array.isArray(d.quotes)) return "";
+    var items = d.quotes.map(function (quote) {
+      if (!quote || typeof quote.text !== "string" || !quote.text.trim()) return "";
+      return '<li class="reaction"><blockquote class="reaction-quote">' +
+        escapeHtml(quote.text.trim()) + "</blockquote>" + reactionCite(quote) + "</li>";
+    }).filter(Boolean);
+    if (!items.length) return "";
+
+    var threadLinks = renderLinks(d.sourceLinks);
+    return '<details class="story-discussion">' +
+      '<summary class="story-discussion-toggle">' +
+      '<span class="story-label">' + escapeHtml(t("discussion")) + "</span>" +
+      '<span class="reaction-count">' + items.length + "</span>" +
+      "</summary>" +
+      '<div class="story-discussion-body">' +
+      '<ul class="reactions">' + items.join("") + "</ul>" +
+      (threadLinks ? '<ul class="story-sources story-discussion-sources">' + threadLinks + "</ul>" : "") +
+      "</div>" +
+      "</details>";
+  }
+
   function renderStory(story) {
     var links = renderLinks(story.sourceLinks);
 
@@ -294,21 +322,9 @@
       ? '<p class="story-context"><span class="story-label">' + escapeHtml(t("context")) + "</span> " + escapeHtml(story.context) + "</p>"
       : "";
 
-    // Community discussion, collapsed by default so it can run long without crowding the
-    // story. Native <details> — no JS, and print CSS forces it open.
-    var discussion = "";
-    var d = story.discussion;
-    if (d && typeof d === "object" && typeof d.summary === "string" && d.summary.trim()) {
-      var dLinks = renderLinks(d.sourceLinks);
-      discussion =
-        '<details class="story-discussion">' +
-        '<summary class="story-discussion-toggle"><span class="story-label">' + escapeHtml(t("discussion")) + "</span></summary>" +
-        '<div class="story-discussion-body">' +
-        paragraphs(d.summary, "story-discussion-text") +
-        (dLinks ? '<ul class="story-sources story-discussion-sources">' + dLinks + "</ul>" : "") +
-        "</div>" +
-        "</details>";
-    }
+    // Reactions: a small comment-section of direct quotes (see references/reactions.md),
+    // collapsed by default. Native <details> — no JS, and print CSS forces it open.
+    var discussion = renderReactions(story.discussion);
 
     return [
       '<article class="story">',
