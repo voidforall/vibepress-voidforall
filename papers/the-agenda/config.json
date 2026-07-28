@@ -7,10 +7,34 @@
   "mode": "on-demand",
   "enrich": true,
   "storyCount": 6,
-  "categories": ["Eat & Drink", "Culture", "Events", "Shops", "Nightlife", "Outdoors"],
+  "categories": [
+    "Eat & Drink",
+    "Culture",
+    "Events",
+    "Shops",
+    "Nightlife",
+    "Outdoors"
+  ],
   "editorialVoice": "A sharp, friendly city-guide voice. Say what's genuinely worth your time and who it's for; check it against real ratings and skip the hype adjectives.",
   "sources": [
-    { "type": "mcp", "server": "xiaohongshu-mcp", "tool": "search_feeds", "args": { "keyword": "探店 好去处" }, "optional": true },
-    { "type": "websearch", "query": "best things to do this week", "recencyDays": 14, "limit": 8 }
+    {
+      "type": "mcp",
+      "server": "xiaohongshu-mcp",
+      "tool": "search_feeds",
+      "args": {
+        "keyword": "探店 好去处"
+      },
+      "optional": true
+    },
+    {
+      "type": "websearch",
+      "query": "best things to do this week",
+      "recencyDays": 14,
+      "limit": 8
+    }
+  ],
+  "languages": [
+    "en",
+    "zh"
   ]
 }

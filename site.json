@@ -81,7 +81,11 @@
       "latestHeadline": "Solaya: sunset dining 25 floors above Shoreditch",
       "editionCount": 1,
       "accent": "#c05746",
-      "emoji": "🗓️"
+      "emoji": "🗓️",
+      "languages": [
+        "en",
+        "zh"
+      ]
     }
   ]
 }

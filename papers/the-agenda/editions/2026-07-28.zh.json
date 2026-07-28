@@ -1,0 +1,29 @@
+{
+ "id":"2026-07-28","date":"2026-07-28","generatedAt":"2026-07-28T21:20:00Z","editionTitle":"The Agenda",
+ "theme":"本周伦敦热门餐厅",
+ "editorNote":"本周伦敦社交平台在热推的三家店——一处看景的屋顶、一份 Fitzrovia 的套餐捡漏、一间苏荷 tapas 老店——每一家都对过评分才收入本期。",
+ "stories":[
+  {"headline":"Solaya：肖尔迪奇 25 层高空的日落晚餐","category":"美食","importance":1,
+   "summary":"Kenny Atkinson 在伦敦的首家餐厅坐落于 Art'otel Hoxton 顶层，把整层的天际线景观与法式地中海菜单结合在一起——£55 的 'Taste of Solaya' 套餐，性价比胜过城里其他景观餐厅。",
+   "context":"主厨 Kenny Atkinson 在伦敦的首次开店；餐厅占据整个 25 层，日落景观是完整的 360°。",
+   "whyItMatters":"本周被分享最多的约会之选——大家给它打高分，是为了菜，而不只是天际线。",
+   "place":{"rating":4.5,"ratingCount":42,"priceLevel":"£££","address":"Art'otel, Rivington St, Shoreditch, London","mapUrl":"https://www.google.com/maps/search/?api=1&query=Solaya+restaurant+Rivington+Street+Shoreditch+London","reviews":[
+     {"text":"Solaya 把阳光端上了餐桌，哪怕天上根本没有阳光。","author":"DesignMyNight","url":"https://www.designmynight.com/reviews/solaya-london-review"}]},
+   "sourceLinks":[{"title":"小红书 — 半枚金币：Solaya 日落约会餐厅","url":"https://www.xiaohongshu.com/explore/6a0da7e8000000003503aacd?xsec_token=ABw4-cl_YkcJh0XCqz6T5M7_AvKZUBN0ErG0D3SUxdXuY="}]},
+
+  {"headline":"Clipstone 的 £20.16 套餐，是本周最划算的米其林近邻之选","category":"美食","importance":2,
+   "summary":"Portland 在 Fitzrovia 的低调姊妹店，仍在供应 £20.16 的三道式套餐——致敬其 2016 年开业——菜单每月一换，且只在 5:30–6:00pm 这一时段供应。请提前预订。",
+   "context":"米其林一星 Portland 在 Fitzrovia 的轻松姊妹店；套餐每月重新设计。",
+   "whyItMatters":"用一份酒馆主菜的价格，难得地吃到认真的料理——前提是你能抢到那个早场。",
+   "place":{"rating":4.5,"priceLevel":"£££","address":"Fitzrovia, London","mapUrl":"https://www.google.com/maps/search/?api=1&query=Clipstone+restaurant+Fitzrovia+London","reviews":[
+     {"text":"在这里吃饭永远算不上便宜，但食物从不浮夸。","author":"The Infatuation","url":"https://www.theinfatuation.com/london/reviews/clipstone-restaurant"}]},
+   "sourceLinks":[{"title":"小红书 — Bvv_life：£20.16 set menu｜Clipstone","url":"https://www.xiaohongshu.com/explore/6a27011b000000000800b800?xsec_token=ABqeIED-T_0vTZByecJ1wIj098HATNJ1tx-9ajq87rd_k="}]},
+
+  {"headline":"Copita：苏荷老饕一再回访的西班牙 tapas 小馆","category":"美食","importance":3,
+   "summary":"D'Arblay 街上的常青小馆，做着扎实、精致的西班牙小菜——橡果喂养的伊比利亚 presa、烤得软嫩的章鱼腿、值得一点的巴斯克芝士蛋糕——人均约 £50。",
+   "whyItMatters":"证明了靠谱的街坊 tapas 小馆，大多数时候仍胜过被热捧的新店。",
+   "place":{"rating":4.1,"ratingCount":373,"priceLevel":"££","address":"27 D'Arblay St, Soho, London W1F 8EP","mapUrl":"https://www.google.com/maps/search/?api=1&query=Copita+27+D'Arblay+Street+Soho+London","reviews":[
+     {"text":"这家的 tapas 品类超多、做得都很好，价格也相当合理。","author":"The Infatuation","url":"https://www.theinfatuation.com/london/reviews/copita"}]},
+   "sourceLinks":[{"title":"小红书 — Ich bin Taro：伦敦西班牙菜天花板 Copita","url":"https://www.xiaohongshu.com/explore/6a6917430000000008009c00?xsec_token=ABcrdq6HK0KOP--zjuUF_eC9yb9wfFA9YoAlD7-5ITNJo="}]}
+ ]
+}
