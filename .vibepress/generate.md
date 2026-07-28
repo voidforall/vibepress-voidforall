@@ -14,6 +14,8 @@ touch the reader shell (`index.html`, `assets/`) — you only write data.
    - `storyCount` — target number of stories (aim for it; fewer is fine, never more).
    - `categories` — the only allowed `category` values.
    - `editorialVoice` — the tone to write in.
+   - `minScore` — *(optional)* a relevance threshold, `0`–`12`. Set = turn on the scoring gate in
+     Step 2b. Absent = judgment-only selection (the default). See Step 2b.
    - `languages` — *(optional)* the languages to publish, e.g. `["en","zh"]`. The first is the
      **primary** language. Absent or single = monolingual. See Step 8.
    - `sources` — the typed source list. See `.vibepress/sources.md` for the schema.
@@ -66,6 +68,45 @@ Choose up to `storyCount` stories. Optimize for a reader who wants signal, not a
 
 Rank the survivors by importance, `1` = lead.
 
+## Step 2b — Score candidates (optional relevance gate)
+
+Only if this paper's `config.json` sets `minScore`. Otherwise skip this step — the judgment-based
+selection in Step 2 stands, and nothing below changes. When `minScore` **is** set, make the same
+selection reproducible by scoring **every** candidate against this rubric before you finalize Step 2.
+
+Give each candidate 0–3 on each axis, then sum to a 0–12 score:
+
+| Axis | 0 | 1 | 2 | 3 |
+| --- | --- | --- | --- | --- |
+| **Consequence** — does it change a decision or outcome for *this paper's* reader? | trivia | mild interest | affects a real choice | materially shifts the field |
+| **Primary source** — how close to the origin is the best link? | rumor / no source | aggregator only | reputable secondary | primary (paper, filing, release, official post) |
+| **Recency** — is it genuinely today's news? | stale / >1wk | this week | last 48h | broke today |
+| **Signal / noise** — substance vs. hype in the item itself | pure hype | promo-heavy | some substance | dense, verifiable substance |
+
+Rules:
+
+- **Score against this paper.** Judge every axis through the paper's `editorialVoice` and
+  `categories` — the same story scores high for one paper and low for another (a markets paper scores
+  a rate decision ~11; a space paper scores it ~2). Score from the **fetched candidate only**; never
+  invent facts to justify a number.
+- **Filter, then rank.** Keep candidates with `score >= minScore`. If fewer than `storyCount` clear
+  the bar, **publish fewer — never pad** to hit the count. If more clear it, take the top `storyCount`
+  by score. Sort selected stories by score descending; let that inform (not override) `importance`,
+  and apply the Step 2 rules (dedup, one-per-event, category spread) on top.
+- **Record the score.** Write the integer on each selected story as `score` (see Step 4). The reader
+  ignores it by default; it's for debugging and audit.
+- **Log the scoring** so a run can be audited — a compact table in your run output, e.g.:
+
+  ```
+  candidate                         C P R S  = total
+  "Fed holds rates, signals cut"    3 3 3 2  = 11   ✓
+  "Startup X raises Series B"       2 2 2 1  =  7   ✓  (minScore 7)
+  "CEO tweets about vibes"          1 0 3 0  =  4   ✗  below 7
+  ```
+
+This stays a prompt-level rubric plus one optional threshold — no new script, no new dependency, and
+selection is still yours.
+
 ## Step 3 — Investigate
 
 Open each selected story's primary source and read it. Write **only** from what that text supports.
@@ -83,6 +124,8 @@ Per story, in the paper's `editorialVoice`:
 - `importance` — integer rank, `1` = lead, ascending.
 - `sourceLinks` — array of `{ "title", "url" }`, every `url` one you actually fetched and `http(s)`.
   At least one per story. Never invent, alter, or pad these.
+- `score` — *(only when `minScore` is set)* the integer 0–12 from Step 2b. Omit it entirely when the
+  paper has no `minScore`.
 
 Then one `editorNote`: a single short paragraph synthesizing the edition, introducing no new facts.
 

@@ -64,6 +64,13 @@ def validate_story(story, index, allowed_categories, translated=False):
     if not isinstance(story.get("importance"), int):
         problems.append(f"{where}.importance must be an integer")
 
+    # Optional relevance score (see generate.md Step 2b). Absent by default;
+    # when a paper opts into scoring it is written for debugging and must be a
+    # plain integer on the 0–12 rubric scale. Reader ignores it.
+    score = story.get("score")
+    if score is not None and (isinstance(score, bool) or not isinstance(score, int) or not 0 <= score <= 12):
+        problems.append(f"{where}.score, if present, must be an integer 0–12")
+
     links = story.get("sourceLinks")
     if not isinstance(links, list) or not links:
         problems.append(f"{where}.sourceLinks must be a non-empty array")
