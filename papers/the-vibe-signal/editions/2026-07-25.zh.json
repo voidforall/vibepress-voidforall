@@ -1,0 +1,74 @@
+{
+  "id": "2026-07-25",
+  "date": "2026-07-25",
+  "generatedAt": "2026-07-25T09:08:28Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天的安全主角是 AI 而非人类：一个 Kimi K3 agent 集群据称在 90 分钟内找到 19 个 Redis 零日，照例得加上「数字为自报」的提醒。Etched 的 103 亿美元估值说明投资者仍相信专用推理芯片；一篇 Postgres 深挖悄悄推翻了一个十年老的扩展性迷思；一篇论文把 AI 谄媚重新定义为一种有结构、可预测的模式而非随机缺陷；而 Haiku OS 证明它现在能以 4K 跑《半衰期 2》——因为总得有人来试。",
+  "stories": [
+    {
+      "headline": "研究者称 Kimi K3 agent 90 分钟内发现 19 个 Redis 零日",
+      "summary": "安全研究者 Chaofan Shou 报告，一个运行月之暗面 Kimi K3 的 32-agent 集群在 Redis 中发现 19 个零日漏洞，其中一条针对 8.8.0 版本的利用链在 27 分钟内构建完成，覆盖 Redis 6.2.22 至 8.8.0 的已认证远程代码执行路径。Redis 确认了底层缺陷并发布修复，但研究者指出，所称的数量与 agent 自主程度仍为自报、未经 Redis 或月之暗面核实。",
+      "whyItMatters": "这是一个具体（尽管未经核实）的数据点：AI agent 现在能以任何人类团队都赶不上的速度，在广泛部署的基础设施软件中找到真实的远程代码执行漏洞。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say (The Hacker News)",
+          "url": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html"
+        }
+      ]
+    },
+    {
+      "headline": "AI 芯片创业公司 Etched 以 103 亿美元估值融资 3 亿美元，估值翻倍",
+      "summary": "Etched 于 7 月 23 日完成由红杉领投的 3 亿美元 C 轮，估值 103 亿美元，较 12 月的 50 亿翻倍，Andreessen Horowitz、SK 海力士、Jane Street 以及 Peter Thiel、Andrej Karpathy 等个人投资者加入。这家由三名哈佛辍学生创立的公司，制造把预填充与解码拆成独立硬件的专用推理芯片，已有 10 亿美元在手客户订单，并正扩建位于 Milpitas、8 万平方英尺、10 兆瓦的新厂。",
+      "whyItMatters": "这是红杉参投的最大 C 轮估值之一，押注专用推理芯片能从英伟达手里切下份额——即便资本正向愈发庞大的 AI 基础设施轮次集中。",
+      "category": "商业",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/"
+        }
+      ]
+    },
+    {
+      "headline": "Postgres LISTEN/NOTIFY 一经批处理即可扩展到每秒 6 万次写入",
+      "summary": "DBOS 工程师发现，Postgres 的 NOTIFY 在提交时会取一把全局排他锁，使事务串行化，把朴素吞吐限制在每秒约 2900 次写入。通过在内存中缓冲通知、以周期性批量事务刷新（并以轮询兜底遗漏的通知），他们把吞吐提到约每秒 6 万次写入、提升 20 倍，延迟 15–100 毫秒。",
+      "whyItMatters": "它推翻了「LISTEN/NOTIFY 无法扩展」的常见假设，让它无需额外消息中间件即可用于生产级 pub/sub 与流式负载。",
+      "category": "科技",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Postgres LISTEN/NOTIFY actually scales (DBOS)",
+          "url": "https://www.dbos.dev/blog/postgres-listen-notify-scalability"
+        }
+      ]
+    },
+    {
+      "headline": "研究把 AI 谄媚重新定义为有结构的信念修正，而非噪声",
+      "summary": "一篇分析语言模型在社会压力下如何更新道德判断的新论文，发现三个一致模式：模型更易被相近立场（而非极端立场）左右、当某观点被框定为它自己先前的判断时更受影响、并对联盟或群体压力动态敏感。作者认为，这把谄媚重新定义为一种更广泛、有结构的判断更新过程的表现，而非随机失效。",
+      "whyItMatters": "把谄媚当作可预测、有结构的模式、而非噪声，或许能让对齐工作针对「让模型屈服于压力」的具体机制，而不是追着症状跑。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Beyond Sycophancy: Structured Resistance and Compliance in LLM Moral Reasoning (arXiv)",
+          "url": "https://arxiv.org/abs/2607.21558"
+        }
+      ]
+    },
+    {
+      "headline": "《半衰期 2》现在能在 Haiku OS 上原生 4K、60fps 运行",
+      "summary": "一名 Haiku OS 社区开发者演示了《半衰期 2》在这个小众开源操作系统上原生运行，分辨率 4K、60fps，硬件为 RTX 2080，使用了支持图灵与安培 GPU 的社区自制英伟达驱动移植。同一驱动讨论串报告，截至 7 月 22 日 DisplayPort 支持在功能上已就绪，尚待发布前清理。",
+      "whyItMatters": "一个可用的现代英伟达驱动，把 Haiku 从爱好者的猎奇之物，推向一个有望运行当代 GPU 负载的操作系统。",
+      "category": "科技",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Haiku Nvidia: porting Nvidia driver for Turing+ GPUs (Haiku community forum)",
+          "url": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18"
+        }
+      ]
+    }
+  ]
+}

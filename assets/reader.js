@@ -35,14 +35,15 @@
     try { return localStorage.getItem("vp-lang") || ""; } catch (e) { return ""; }
   }
   function renderLangControl(langs, active) {
-    var el = document.getElementById("vp-lang");
-    if (!el) return;
-    if (!Array.isArray(langs) || langs.length < 2) { el.innerHTML = ""; return; }
-    el.innerHTML = langs.map(function (l) {
-      return '<button type="button" data-lang="' + escapeHtml(l) + '"' +
-        (l === active ? ' aria-pressed="true"' : "") + ' title="' + escapeHtml(l) + '">' +
-        escapeHtml(LANG_LABEL[l] || l.toUpperCase()) + "</button>";
+    var bar = document.getElementById("vp-langbar");
+    var sel = document.getElementById("vp-lang-select");
+    if (!bar || !sel) return;
+    if (!Array.isArray(langs) || langs.length < 2) { bar.hidden = true; return; }
+    sel.innerHTML = langs.map(function (l) {
+      return '<option value="' + escapeHtml(l) + '">' + escapeHtml(LANG_LABEL[l] || l.toUpperCase()) + "</option>";
     }).join("");
+    sel.value = active;
+    bar.hidden = false;
   }
   function editionUrl(slug, id, lang, primary) {
     var suffix = (lang && lang !== primary) ? "." + lang : "";
@@ -105,7 +106,6 @@
     controls = document.createElement("div");
     controls.id = "vp-controls";
     controls.innerHTML =
-      '<span id="vp-lang" class="vp-lang"></span>' +
       '<button type="button" data-template="standard" title="Web reading layout">Web</button>' +
       '<button type="button" data-template="classic" title="Old-newspaper print layout">Print</button>' +
       '<button type="button" data-action="print" title="Print this edition" aria-label="Print">⎙</button>' +
@@ -113,12 +113,6 @@
     controls.addEventListener("click", function (e) {
       var btn = e.target.closest ? e.target.closest("button") : null;
       if (!btn) return;
-      var lang = btn.getAttribute("data-lang");
-      if (lang) {
-        try { localStorage.setItem("vp-lang", lang); } catch (err) {}
-        if (navState) renderPaper(navState.paper.slug, navState.id);
-        return;
-      }
       var action = btn.getAttribute("data-action");
       if (action === "print") { window.print(); return; }
       if (action === "theme") {
@@ -133,6 +127,24 @@
       applyTemplate(t);
     });
     document.body.appendChild(controls);
+
+    // The language switcher is its own control (top-left), kept apart from the reading-mode
+    // toolbar on the right. A dropdown so it scales past two languages. Shown only when a paper
+    // offers more than one.
+    var langbar = document.createElement("div");
+    langbar.id = "vp-langbar";
+    langbar.hidden = true;
+    langbar.innerHTML =
+      '<span class="vp-lang-icon" aria-hidden="true">🌐</span>' +
+      '<select id="vp-lang-select" aria-label="Language"></select>';
+    langbar.addEventListener("change", function (e) {
+      var sel = e.target;
+      if (!sel || sel.id !== "vp-lang-select") return;
+      try { localStorage.setItem("vp-lang", sel.value); } catch (err) {}
+      if (navState) renderPaper(navState.paper.slug, navState.id);
+    });
+    document.body.appendChild(langbar);
+
     applyTheme(storedTheme());
   }
 

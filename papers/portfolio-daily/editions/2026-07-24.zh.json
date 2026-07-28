@@ -1,0 +1,78 @@
+{
+  "id": "2026-07-24",
+  "date": "2026-07-24",
+  "generatedAt": "2026-07-24T23:14:52Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Rocket Lab 以 80 亿美元收购 Iridium，是当日持仓相关的最大动作，尽管在今晚星舰试飞前，其股价仍随整个航天板块下滑。Duolingo 在 8 月财报前因 AI 冲击担忧继续走低；金价与比特币同时降温，因下周美联储会议前收益率走强；Strategy 则大改其比特币记账方式，向股东展示扣除债务与优先股权益后还剩多少。本文为新闻，非投资建议。",
+  "stories": [
+    {
+      "headline": "Rocket Lab 同意以 80 亿美元收购 Iridium，航天股在星舰试飞前下滑",
+      "summary": "Rocket Lab 同意以 80 亿美元企业价值（每股 54 美元、现金加股票）收购卫星运营商 Iridium Communications，两家董事会均已批准，预计 2027 年年中完成，将带来 Iridium 每年约 3 亿美元的自由现金流。当日 Rocket Lab 股价仍下跌约 7%，与 SpaceX、AST SpaceMobile 的整体回撤同步，投资者正等待今晚 SpaceX 的第 13 次星舰试飞。",
+      "whyItMatters": "这笔交易将让 Rocket Lab 成为垂直整合的「发射+卫星」运营商，并嫁接上一块立即盈利的业务——尽管其股价仍受制于围绕 SpaceX 星舰项目的情绪。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Huge News for Rocket Lab Investors (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/huge-news-rocket-lab-investors-135000384.html"
+        },
+        {
+          "title": "SpaceX Drops 5%, Rocket Lab Falls 7%, AST SpaceMobile Slides 4% as Jittery Market Awaits Tonight's Crucial Test Flight (24/7 Wall St.)",
+          "url": "https://247wallst.com/investing/2026/07/24/spacex-drops-5-rocket-lab-falls-7-ast-spacemobile-slides-4-as-jittery-market-awaits-tonights-crucial-test-flight/"
+        }
+      ]
+    },
+    {
+      "headline": "Duolingo 本周因 AI 冲击担忧下跌近 10%",
+      "summary": "本周 Duolingo 股价下跌 9.8% 至 122.37 美元，投资者权衡 7 月中旬一份因利润率收窄、运营成本高企而下调的分析师评级，同时担忧不断进步的 AI 模型可能侵蚀其核心业务。公司预计随着投入 AI 功能，毛利率到年底压缩至 69%，并将于 8 月 5 日发布二季度业绩。",
+      "whyItMatters": "在分析师预期可能是艰难一季之前，股东似乎在提前降风险，延续了过去一年 66% 的跌幅。",
+      "category": "市场",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Why Duolingo Stock Plunged 10% This Week (The Motley Fool)",
+          "url": "https://www.fool.com/investing/2026/07/24/why-duolingo-stock-plunged-10-this-week/"
+        }
+      ]
+    },
+    {
+      "headline": "下周美联储决议前，金价守在 4100 美元下方",
+      "summary": "现货黄金交易于约 4055–4057 美元/盎司，当日上涨约 0.1%，此前一交易日曾短暂突破 4100 后回落。低于预期的初请失业金人数（18.7 万 vs 预期 21.2 万）与美联储 7 月 29 日会议前的「利率维持」预期，正为涨势封顶。",
+      "whyItMatters": "更强的劳动力数据与预期按兵不动的美联储，抬高了持有无息黄金的机会成本——尽管金价同比仍上涨约 21%。",
+      "category": "大宗商品",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Gold prices today, Friday, July 24, 2026: Gold price remains below $4,100 ahead of next week's rate decision (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-july-24-2026-gold-price-remains-below-4100-ahead-of-next-weeks-rate-decision-152726975.html"
+        }
+      ]
+    },
+    {
+      "headline": "美债收益率攀升，比特币下滑逼近 64,000 美元",
+      "summary": "比特币下跌约 1.6% 至约 64,300 美元（以太坊下跌 2.9% 至约 1,861 美元），因油价走高与新关税政策推升通胀预期与美债收益率，把机构资金从加密资产中抽离。比特币 ETF 周四净流出 2.25 亿美元，中断了近期的流入势头。",
+      "whyItMatters": "收益率上升让比特币这类无息资产相对债券更缺吸引力，ETF 流向的反转表明机构需求暂时降温。",
+      "category": "加密货币",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin and ethereum prices today, Friday, July 24, 2026: Crypto prices retreat on higher U.S. Treasury yields (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-july-24-2026-crypto-prices-retreat-on-higher-us-treasury-yields-152200068.html"
+        }
+      ]
+    },
+    {
+      "headline": "Strategy 大改其 570 亿美元比特币持仓的披露方式",
+      "summary": "Strategy（前身 MicroStrategy）推出新指标——包括约 366 亿美元的「净储备」（Net Reserve）——从其 843,775 枚 BTC 加现金中扣除约 223 亿美元的优先股与可转债权益，向普通股东展示真正属于他们的部分。它还引入 3.22% 的「BTC 盈亏平衡 ARR」，即无限期覆盖其利息与股息义务所需的比特币最低年升值幅度。",
+      "whyItMatters": "这次披露改革，正值比特币较历史高点约低 50%、MSTR 股价较 2024 年 11 月峰值下跌 84% 之际，凸显了杠杆式比特币金库策略在熊市中的暴露程度。",
+      "category": "加密货币",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Strategy overhauls bitcoin metrics to account for senior claims (CoinDesk)",
+          "url": "https://www.coindesk.com/markets/2026/07/24/saylor-and-team-overhaul-strategy-s-bitcoin-metrics-as-bear-market-persists"
+        }
+      ]
+    }
+  ]
+}

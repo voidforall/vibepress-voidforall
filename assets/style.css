@@ -457,8 +457,30 @@ a { color: var(--link); }
   color: var(--paper);
   border-color: var(--ink);
 }
-/* The language switcher's buttons should sit in the toolbar flow like the others. */
-.vp-lang { display: contents; }
+/* Language switcher — its own control, top-left, separate from the reading-mode toolbar. */
+#vp-langbar {
+  position: fixed;
+  top: 0.6rem;
+  left: 0.6rem;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-family: var(--sans);
+}
+#vp-langbar[hidden] { display: none; }
+.vp-lang-icon { font-size: 0.9rem; opacity: 0.65; }
+#vp-lang-select {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  border: 1px solid var(--rule);
+  background: var(--paper-raised);
+  color: var(--ink-soft);
+  padding: 0.3rem 1.4rem 0.3rem 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  line-height: 1;
+}
 
 /* ============================================================
    Template: classic — an old-newspaper, print-oriented layout
@@ -564,7 +586,7 @@ a { color: var(--link); }
    Print — make either template come out as a clean paper
    ============================================================ */
 @media print {
-  #vp-controls, .timeline, .colophon, .skip-link { display: none !important; }
+  #vp-controls, #vp-langbar, .timeline, .colophon, .skip-link { display: none !important; }
   body { background: #fff !important; background-image: none !important; color: #000; }
   .masthead { background: #fff !important; background-image: none !important; }
   .edition { column-count: 3; column-gap: 1.6rem; column-rule: 1px solid #999; }

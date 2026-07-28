@@ -1,0 +1,61 @@
+{
+  "id": "2026-07-26",
+  "date": "2026-07-26",
+  "generatedAt": "2026-07-26T09:17:44Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今日这期聚焦交易与市场机制、而非新财报：Rocket Lab 股价跌破其 Iridium 收购案 67.50 美元的领口，锁定了该交易的新条款；阿里港股回吐了一周的 AI 涨幅；金价随债券收益率上升与 ETF 流出继续下滑；剑桥新研究显示，比特币挖矿的电力结构正转向水电，尽管总能耗与排放仍在增长。今日流传的 Duolingo 与 Alphabet 报道大多在重复此前各期已报的进展，故未作为新消息收录。",
+  "stories": [
+    {
+      "headline": "Rocket Lab 股价跌破其 Iridium 收购案设定的 67.50 美元下限",
+      "summary": "周五 Rocket Lab 股价下跌 8.7% 收于 63.91 美元，跌破触发其 80 亿美元收购 Iridium Communications 案中固定换股比领口的 67.50 美元价位。在该阈值或以下，交易换股比锁定为每股 Iridium 换 0.4000 股 Rocket Lab 加 27 美元现金。Rocket Lab 股价过去一个月下跌 34.8%；公司已为交易的现金部分安排 36 亿美元过桥融资，交易预计在监管与股东批准后于 2027 年年中完成。",
+      "whyItMatters": "换股比一经锁定，Rocket Lab 股价的进一步波动，只会改变 Iridium 股东拿到的美元价值，而不改变发行的 Rocket Lab 股数。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab (NASDAQ:RKLB) shares drop 8.7%, ending below Iridium agreement's $67.50 floor (TS2 Tech)",
+          "url": "https://ts2.tech/en/rocket-lab-nasdaqrklb-shares-drop-8-7-ending-below-iridium-agreements-67-50-floor/"
+        }
+      ]
+    },
+    {
+      "headline": "阿里港股下跌 4.3%、蒸发 940 亿港元，AI 涨幅回吐",
+      "summary": "周五阿里港股（9988.HK）下跌 4.26% 至 110 港元，蒸发约 940 亿港元市值，回吐了本周早些时候——周一因发布 Qwen3.8 Max AI 模型上涨 3.73%——的涨幅。此次下跌发生在油价上涨与通胀担忧引发的更广泛市场回撤之中；阿里跑输恒生科技指数 2.79 个百分点，而京东、美团等对手更为抗跌。",
+      "whyItMatters": "这波回撤显示，投资者在更广泛的市场退潮之上，正比大科技板块更快地回吐个股层面的 AI 涨幅。",
+      "category": "市场",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Alibaba (HKG:9988) Shares Drop, Wiping Out Nearly HK$94 Billion as AI-Driven Gains Recede (TS2 Tech)",
+          "url": "https://ts2.tech/en/alibaba-hkg9988-shares-drop-wiping-out-nearly-hk94-billion-as-ai-driven-gains-recede/"
+        }
+      ]
+    },
+    {
+      "headline": "债券收益率上升、ETF 投资者撤离，金价延续跌势",
+      "summary": "金价已较 1 月高点下跌逾 27%，两年期美债收益率升至 4.33%、十年期升至 4.70%。主要黄金 ETF 持续流出：SPDR 黄金（GLD）30 天流出 16.3 亿美元、半年流出 122 亿美元；iShares 黄金信托（IAU）30 天流出 12 亿美元、半年流出 45 亿美元。",
+      "whyItMatters": "收益率上升让付息债券相对无息黄金更具竞争力，ETF 资金流数据则为价格下跌背后的投资者布局提供了具体度量。",
+      "category": "大宗商品",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Behind the Gold Price Drop? Falling ETF Inflows as US Bond Yields Jump (Benzinga)",
+          "url": "https://www.benzinga.com/markets/commodities/26/07/60685283/behind-the-gold-price-drop-falling-etf-inflows-as-us-bond-yields-jump"
+        }
+      ]
+    },
+    {
+      "headline": "剑桥数据显示：水电超过天然气，成比特币挖矿第一大电源",
+      "summary": "剑桥另类金融中心在达拉斯能源投资者论坛上发布的初步研究发现，2024 年 6 月至 2025 年 12 月间，比特币挖矿的年化用电量增长 38% 至约 190 太瓦时，水电超过天然气成为单一最大能源。低碳电力占所报结构的 59.4%，高于此前的 52.4%，但随着总用电量增长，挖矿相关温室气体总排放仍上升约 20%，至约 4800 万吨二氧化碳当量。",
+      "whyItMatters": "这是来自该领域最常被引用的独立研究团队之一、关于比特币网络供电方式的一次有据可查的转变——尽管绝对能耗与排放仍在攀升。",
+      "category": "加密货币",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Hydropower overtakes gas as Bitcoin mining power use jumps 38% (crypto.news)",
+          "url": "https://crypto.news/hydropower-overtakes-gas-as-bitcoin-mining-power-use-jumps-38/"
+        }
+      ]
+    }
+  ]
+}

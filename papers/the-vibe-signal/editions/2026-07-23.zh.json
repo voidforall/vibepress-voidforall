@@ -1,0 +1,74 @@
+{
+  "id": "2026-07-23",
+  "date": "2026-07-23",
+  "generatedAt": "2026-07-23T21:28:17Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天这期追踪 AI 大建设背后的钱、硬件与政治：一份关于巨头账外债务的报告、新一批前沿模型的价格战、把自主飞行搬上标准战斗机、Meta 开放付费 API，以及一篇论证「开源权重封不住」的文章。",
+  "stories": [
+    {
+      "headline": "报告：五家科技巨头背负 1.65 万亿美元表外债务",
+      "summary": "Futurism 报道，Alphabet、微软、亚马逊、Meta 与甲骨文通过特殊目的实体和独立子公司持有约 1.65 万亿美元债务，超过其约 1.35 万亿美元的账面债务，其中仅 Meta 就约占 4200 亿美元。文中援引的一位顾问将这种做法类比为安然 2001 年崩塌前使用的手法。",
+      "whyItMatters": "藏在资产负债表之外的债务，低估了 AI 大建设中有多少是靠借贷支撑的——这对任何给这些公司风险定价的人都很重要。",
+      "category": "商业",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt (Futurism)",
+          "url": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet"
+        }
+      ]
+    },
+    {
+      "headline": "GPT-5.6 与 Grok 4.5 登场，前沿模型打起价格战",
+      "summary": "据一份发布追踪，OpenAI 的 GPT-5.6 以三档产品线推出（Sol 每百万 token 输入/输出 5/30 美元、Terra 2/15、以及更快的 Luna 档），而 SpaceX AI 的 Grok 4.5——一个 1.5 万亿参数的 MoE 模型——以 2/6 美元登场，且每任务 token 用量更低。两者接连发布把各档价格都往下压。",
+      "whyItMatters": "当同等能力只要上一代零头的价格就能拿到，成本与适配开始变得和纯跑分一样重要。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "July 2026 model releases (ThursdAI)",
+          "url": "https://thursdai.news/releases/2026-07"
+        }
+      ]
+    },
+    {
+      "headline": "DARPA 与美国空军试飞由 AI 驾驶的 F-16",
+      "summary": "DARPA 称，2026 年 7 月 16 日在 Eglin 空军基地、VENOM 项目下试飞了一架由 AI 控制的 F-16，AI agent 自主驾驶战机，人类飞行员在座舱内监控。一套加装的「VENOM 自主套件」让飞行员可在人工与 AI 控制间切换。",
+      "whyItMatters": "把自主飞行跑在标准战机、而非定制无人机上，是让 AI 飞控用上现役机队的一步。",
+      "category": "科技",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "DARPA, U.S. Air Force fly AI-controlled F-16 (DARPA)",
+          "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16"
+        }
+      ]
+    },
+    {
+      "headline": "Meta 携 Muse Spark 1.1 推出首个付费开发者 API",
+      "summary": "Meta 发布了 Muse Spark 1.1——一个百万 token 上下文的 agent 模型——并推出其首个付费开发者 API，上线时向美国开发者提供 20 美元免费额度，定价为每百万 token 1.25/4.25 美元。追踪将其在 agent 基准上对标前沿模型。",
+      "whyItMatters": "付费 API 把 Meta 的模型从自用资产变成别人可在其上构建的平台，让它直接加入对开发者预算的争夺。",
+      "category": "商业",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "July 2026 model releases (ThursdAI)",
+          "url": "https://thursdai.news/releases/2026-07"
+        }
+      ]
+    },
+    {
+      "headline": "评论：反对开源 AI 的论据站不住脚",
+      "summary": "一篇广为流传的文章认为，压制开源模型是徒劳，援引 1990 年代对 PGP 与 SSL 的加密出口管制——那些管制最终失败，加密还被认定为受言论保护。文章还指出，除中国外，还有许多方——从受益于 token 需求的芯片商，到在其上构建的创业公司——都有动机让开源模型持续涌现。",
+      "whyItMatters": "开源权重之争正在塑造美国即将出台的政策，因此「反对开放」的论据到底有多强，具有实际利害。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "The arguments against open source AI are very bad (tombedor.dev)",
+          "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/"
+        }
+      ]
+    }
+  ]
+}

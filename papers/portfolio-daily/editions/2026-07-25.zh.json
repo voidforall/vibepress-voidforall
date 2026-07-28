@@ -1,0 +1,78 @@
+{
+  "id": "2026-07-25",
+  "date": "2026-07-25",
+  "generatedAt": "2026-07-25T09:08:28Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Alphabet 遭遇当日最大披露性打击——它在欧盟《数字市场法》下的首张罚单；Duolingo 在 8 月 5 日财报前因 AI 冲击担忧继续下跌。在 Rocket Lab 所处板块，SpaceX 星舰在飞前一阵抛售后完成了大体成功的第 13 次试飞；黄金与比特币都迎来结构性（而非仅价格）消息：北京叫停散户杠杆黄金交易，Strategy 推出新的比特币记账指标。",
+  "stories": [
+    {
+      "headline": "欧盟对谷歌开出 10 亿美元罚单，为《数字市场法》首例",
+      "summary": "欧盟委员会于 7 月 23 日对谷歌处以 8.9 亿欧元（10 亿美元）罚款：4.6 亿欧元针对其在购物、酒店与出行搜索结果中偏袒自家服务，4.3 亿欧元针对其限制 Google Play 开发者引导用户去别处更便宜的报价。谷歌称该裁定有损用户，并表示正评估上诉；监管方则提到「建设性对话」，并称目前不太可能追加每日罚款。",
+      "whyItMatters": "这是谷歌在 DMA 下收到的首张罚单——一条区别于欧盟传统反垄断案的新执法路径，也为未来处罚立下范本。",
+      "category": "监管",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Google hit with $1 billion European Commission fine (RTE)",
+          "url": "https://www.rte.ie/news/business/2026/0723/1584780-google-hit-with-1-billion-eu-fine/"
+        }
+      ]
+    },
+    {
+      "headline": "Duolingo 本周因 AI 冲击担忧下跌 9.8%",
+      "summary": "本周 Duolingo 股价下跌 9.8% 至 122.37 美元，投资者权衡 AI 对其语言学习业务的威胁，以及 7 月中旬一份下调至「持有」、提示利润率收窄的分析师评级。管理层已表示，随着 AI 相关成本上升，毛利率到年底将降至 69%；股东在 8 月 5 日二季度财报前提前布局。",
+      "whyItMatters": "这是 Duolingo 数月来最差的一周，延续了过去一年因同样的 AI 竞争担忧而下跌 66% 的走势。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Why Duolingo Stock Plunged 10% This Week (The Motley Fool)",
+          "url": "https://www.fool.com/investing/2026/07/24/why-duolingo-stock-plunged-10-this-week/"
+        }
+      ]
+    },
+    {
+      "headline": "星舰试飞前 Rocket Lab 下跌 7%；SpaceX 试飞大体成功",
+      "summary": "7 月 24 日，Rocket Lab 因联动交易下跌 7% 至 65.27 美元，投资者正等待 SpaceX 的第 13 次星舰试飞。该次试飞于 7 月 24 日晚发射，部署 20 颗 Starlink 卫星，演示了太空中的发动机重启，并在印度洋完成柔和溅落——尽管超重助推器的着陆点火失败，仅 13 台发动机中的 5 台重启后重重砸向水面。",
+      "whyItMatters": "尽管 Rocket Lab 对结果没有直接利害，航天板块仍因星舰风险走低，显示该板块如今联动之紧密。",
+      "category": "公司",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "SpaceX Drops 5%, Rocket Lab Falls 7%, AST SpaceMobile Slides 4% as Jittery Market Awaits Tonight's Crucial Test Flight (24/7 Wall St.)",
+          "url": "https://247wallst.com/investing/2026/07/24/spacex-drops-5-rocket-lab-falls-7-ast-spacemobile-slides-4-as-jittery-market-awaits-tonights-crucial-test-flight/"
+        },
+        {
+          "title": "Super Heavy-Starship rocket chalks up mostly successful test flight (Spaceflight Now)",
+          "url": "https://spaceflightnow.com/2026/07/25/super-heavy-starship-rocket-chalks-up-mostly-successful-test-flight/"
+        }
+      ]
+    },
+    {
+      "headline": "中国最大银行终止散户杠杆黄金交易",
+      "summary": "在黄金从 1 月峰值 5589 美元跌至 7 月 20 日约 4010 美元、下跌 28% 之后，工商银行等五家中国主要银行于 7 月 24 日终止了与上海黄金交易所合约挂钩的散户杠杆黄金产品。实物黄金购买、黄金 ETF 与机构的 SGE 业务不受影响；监管方在杠杆头寸放大了此轮暴涨与随后暴跌之后，以投资者保护为由采取行动。",
+      "whyItMatters": "从中国黄金市场移除散户杠杆，等于抽掉了一个助推今年价格剧烈波动的放大机制。",
+      "category": "大宗商品",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "China Ends Retail Paper Gold Trading. What It Means. (GoldSilver)",
+          "url": "https://goldsilver.com/industry-news/goldsilver-news/china-paper-gold-sge-shutdown-july-2026/"
+        }
+      ]
+    },
+    {
+      "headline": "Strategy 大改其比特币持仓的披露方式",
+      "summary": "Strategy（前身 MicroStrategy）于 7 月 24 日推出新指标，包括「净储备」（366 亿美元，即 556 亿美元 BTC 持仓加现金，减去可转债与优先股权益）与 3.22% 的「BTC 盈亏平衡 ARR」，即仅靠升值即可覆盖利息与股息义务所需的比特币年升值幅度。此变动之际，比特币约 65,000 美元、约为历史高点一半，MSTR 股价较 2024 年 11 月峰值低 84%。",
+      "whyItMatters": "这些新指标首次明确了：在普通股东之前，Strategy 的比特币持仓有多少被债务与优先股权益占用。",
+      "category": "加密货币",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Saylor and team overhaul Strategy's bitcoin metrics as bear market persists (CoinDesk)",
+          "url": "https://www.coindesk.com/markets/2026/07/24/saylor-and-team-overhaul-strategy-s-bitcoin-metrics-as-bear-market-persists"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-23",
+  "date": "2026-07-23",
+  "generatedAt": "2026-07-23T22:24:52Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今日自选清单一览：Alphabet 财报超预期，却被上调的资本开支计划盖过风头；Rocket Lab 拿下 2.66 亿美元太空军合同；中国批准 Apple Intelligence，让阿里通义千问进入苹果设备；Duolingo 因指引偏软下跌；Barrick 在金价接近 4000 美元、并经历更名与分析师下调目标价后交易。本文为新闻，非投资建议。",
+  "stories": [
+    {
+      "headline": "Alphabet 二季度营收超预期，但把 2026 资本开支上调至 1950–2050 亿美元；股价下滑",
+      "summary": "据其 8-K 与 CNBC，Alphabet 报告 2026 年二季度营收增长 24% 至 1198 亿美元，谷歌云增长 82% 至 248 亿美元。它将全年资本开支指引从 1800–1900 亿上调至 1950–2050 亿美元；盘后股价下跌约 3.65% 至约 329.43 美元。",
+      "whyItMatters": "在云业务强劲增长的同时上调资本开支指引，正是盘后拉动 GOOGL 的原因——即所披露的「AI 基础设施投入 vs 近期利润」的取舍。",
+      "category": "财报",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Alphabet Q2 2026 8-K exhibit (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000066/googexhibit991q22026.htm"
+        },
+        {
+          "title": "Alphabet Q2 earnings: revenue beats, stock sinks on capex hike (CNBC)",
+          "url": "https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab 赢得 2.66 亿美元太空军亚轨道发射合同",
+      "summary": "Rocket Lab 获得美国太空军太空系统司令部一份 2.66 亿美元的固定价格合同，用于 12 次亚轨道发射（其中 6 次可选），工作在阿拉斯加太平洋航天发射场进行、持续到 2028 年。盘后股价上涨约 5.9% 至约 73.19 美元。",
+      "whyItMatters": "一份经竞争授予的政府合同增加了披露在手订单，是 RKLB 上涨的催化剂——尽管股价仍远低于其 2026 年高点。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab wins $266M Space Force contract (Benzinga)",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60605248/rocket-lab-wins-266-million-space-force-contract-for-suborbital-launches-stock-rises"
+        }
+      ]
+    },
+    {
+      "headline": "中国放行 Apple Intelligence，让阿里通义千问进入苹果端侧 AI",
+      "summary": "据 Yahoo Finance 等汇总报道，中国网信监管部门批准了 Apple Intelligence，由阿里的通义千问为中国用户驱动苹果的端侧生成式 AI；BABA 美股上涨约 4%。阿里还预览了新的 Qwen3.8-Max 模型，但尚未发布完整模型卡或独立基准。",
+      "whyItMatters": "该批准把阿里的 AI 触角延伸到苹果在华的 iPhone 用户群——一个超出其自有应用与云的分发渠道。",
+      "category": "监管",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Alibaba joins Apple Intelligence in China (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alibaba-group-holding-baba-joins-001630752.html"
+        }
+      ]
+    },
+    {
+      "headline": "Duolingo 下跌：CEO 提示增速放缓、近期盈利走低",
+      "summary": "据 Yahoo Finance，管理层指引预订增速放缓、近期利润偏软后，Duolingo 股价大跌，CEO Luis von Ahn 表示公司将优先用户增长与 AI 投入。2026 全年预订被框定在十几个百分点低段的增长区间。",
+      "whyItMatters": "股价反应针对的是指引、而非已报季度——公司选择了增长与 AI 投入，而非近期盈利。",
+      "category": "公司",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Duolingo shares drop despite earnings beat as outlook disappoints (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-shares-drop-despite-earnings-102356431.html"
+        }
+      ]
+    },
+    {
+      "headline": "Barrick（现名 Barrick Mining）随金价逼近 4000 美元，Scotiabank 下调目标价",
+      "summary": "据 Investing.com 与 24/7 Wall St，在金价约 4022 美元/盎司之际，今年更名为 Barrick Mining 的 Barrick 近期上涨。Scotiabank 将目标价从 63 下调至 57 美元，维持「跑赢大盘」评级；公司披露持有 Kingfisher Metals 1483 万美元、9.9% 的股份，并将二季度业绩定于 8 月 10 日。",
+      "whyItMatters": "更名/代码变更与分析师下调目标价，是持有者需留意的具体事项；股价走势与金价挂钩，而非公司自身业绩。",
+      "category": "市场",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Why is Barrick Mining stock rallying today (Investing.com)",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-barrick-mining-stock-rallying-today-93CH-4773177"
+        },
+        {
+          "title": "Gold is soaring, so why has Barrick fallen since its rebrand? (24/7 Wall St)",
+          "url": "https://247wallst.com/investing/2026/07/02/gold-is-soaring-so-why-has-barrick-fallen-since-its-rebrand/"
+        }
+      ]
+    }
+  ]
+}
