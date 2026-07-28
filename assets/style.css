@@ -407,6 +407,33 @@ a { color: var(--link); }
   text-transform: uppercase;
   font-size: 0.72rem;
 }
+
+/* Optional enrichment (config.enrich): background + community discussion.
+   Rendered as secondary matter so it never competes with the story itself. */
+.story-label {
+  color: var(--ink-faint);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+.story-context {
+  margin: 0 0 0.75rem;
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+}
+.story-discussion {
+  margin: 0 0 0.85rem;
+  padding: 0.5rem 0.85rem;
+  border-left: 3px solid var(--card-accent, var(--ink-faint));
+  background: var(--paper-raised);
+  border-radius: 0 4px 4px 0;
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+}
+.story-discussion-sources { margin-top: 0.4rem; font-size: 0.8rem; }
 .story-sources {
   list-style: none;
   margin: 0;
@@ -591,7 +618,10 @@ a { color: var(--link); }
   .masthead { background: #fff !important; background-image: none !important; }
   .edition { column-count: 3; column-gap: 1.6rem; column-rule: 1px solid #999; }
   .editor-note { column-span: all; }
-  .story { break-inside: avoid; }
+  .story, .story-discussion { break-inside: avoid; }
   a { color: #000; text-decoration: none; }
   .story-category, .masthead-kicker { color: #000; }
+  /* Enrichment: keep it ink-on-paper — no fill, a hairline rule instead. */
+  .story-discussion { background: #fff !important; border-left: 2px solid #999; }
+  .story-label { color: #000; }
 }

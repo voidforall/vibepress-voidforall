@@ -24,8 +24,8 @@
   // offers a switcher when a paper has more than one, and remembers the choice in localStorage.
   var LANG_LABEL = { en: "EN", zh: "中文", ja: "日本語", es: "ES", fr: "FR", de: "DE", ko: "한국어" };
   var STRINGS = {
-    en: { why: "Why it matters", back: "← Newsstand" },
-    zh: { why: "为何重要", back: "← 报摊" },
+    en: { why: "Why it matters", back: "← Newsstand", context: "Background", discussion: "What people are saying" },
+    zh: { why: "为何重要", back: "← 报摊", context: "背景", discussion: "大家在聊什么" },
   };
   function t(key) {
     var table = STRINGS[currentLang] || STRINGS.en;
@@ -266,21 +266,46 @@
 
   // --- one paper -------------------------------------------------------------
 
-  function renderStory(story) {
-    var links = (Array.isArray(story.sourceLinks) ? story.sourceLinks : [])
+  // Render an array of {title,url} into <li><a>…</a></li>, dropping any non-http(s) link.
+  function renderLinks(arr) {
+    return (Array.isArray(arr) ? arr : [])
       .map(function (link) {
         var url = safeUrl(link && link.url);
         if (!url) return "";
         return '<li><a href="' + escapeHtml(url) + '" rel="noopener noreferrer" target="_blank">' +
           escapeHtml((link && link.title) || url) + "</a></li>";
       }).filter(Boolean).join("");
+  }
+
+  function renderStory(story) {
+    var links = renderLinks(story.sourceLinks);
+
+    // Optional enrichment (config.enrich). Both fields are absent by default and
+    // render nothing when missing, so an un-enriched edition looks exactly as before.
+    var context = (typeof story.context === "string" && story.context.trim())
+      ? '<p class="story-context"><span class="story-label">' + escapeHtml(t("context")) + "</span> " + escapeHtml(story.context) + "</p>"
+      : "";
+
+    var discussion = "";
+    var d = story.discussion;
+    if (d && typeof d === "object" && typeof d.summary === "string" && d.summary.trim()) {
+      var dLinks = renderLinks(d.sourceLinks);
+      discussion =
+        '<aside class="story-discussion">' +
+        '<span class="story-label">' + escapeHtml(t("discussion")) + "</span> " +
+        escapeHtml(d.summary) +
+        (dLinks ? '<ul class="story-sources story-discussion-sources">' + dLinks + "</ul>" : "") +
+        "</aside>";
+    }
 
     return [
       '<article class="story">',
       story.category ? '<p class="story-category">' + escapeHtml(story.category) + "</p>" : "",
       '<h2 class="story-headline">' + escapeHtml(story.headline) + "</h2>",
       story.summary ? '<p class="story-summary">' + escapeHtml(story.summary) + "</p>" : "",
+      context,
       story.whyItMatters ? '<p class="story-why"><b>' + escapeHtml(t("why")) + "</b> — " + escapeHtml(story.whyItMatters) + "</p>" : "",
+      discussion,
       links ? '<ul class="story-sources">' + links + "</ul>" : "",
       "</article>",
     ].join("");

@@ -75,14 +75,43 @@ def validate_story(story, index, allowed_categories, translated=False):
     if not isinstance(links, list) or not links:
         problems.append(f"{where}.sourceLinks must be a non-empty array")
     else:
-        for link_index, link in enumerate(links):
-            link_where = f"{where}.sourceLinks[{link_index}]"
-            if not isinstance(link, dict):
-                problems.append(f"{link_where} is not an object")
-                continue
-            url = link.get("url")
-            if not isinstance(url, str) or not HTTP_URL.match(url.strip()):
-                problems.append(f"{link_where}.url must be an http(s) URL, got {url!r}")
+        problems.extend(validate_links(links, f"{where}.sourceLinks"))
+
+    # Optional enrichment (config.enrich; see generate.md Step 4b). Both fields are
+    # optional and absent by default; when present they must be well-formed and any
+    # links must be http(s) — enrichment is sourced like everything else.
+    context = story.get("context")
+    if context is not None and (not isinstance(context, str) or not context.strip()):
+        problems.append(f"{where}.context, if present, must be a non-empty string")
+
+    discussion = story.get("discussion")
+    if discussion is not None:
+        if not isinstance(discussion, dict):
+            problems.append(f"{where}.discussion, if present, must be an object")
+        else:
+            summary = discussion.get("summary")
+            if not isinstance(summary, str) or not summary.strip():
+                problems.append(f"{where}.discussion.summary must be a non-empty string")
+            d_links = discussion.get("sourceLinks")
+            if d_links is not None:
+                if not isinstance(d_links, list):
+                    problems.append(f"{where}.discussion.sourceLinks, if present, must be an array")
+                else:
+                    problems.extend(validate_links(d_links, f"{where}.discussion.sourceLinks"))
+    return problems
+
+
+def validate_links(links, where):
+    """Return problems for a list of {title,url} links: each an object with an http(s) url."""
+    problems = []
+    for link_index, link in enumerate(links):
+        link_where = f"{where}[{link_index}]"
+        if not isinstance(link, dict):
+            problems.append(f"{link_where} is not an object")
+            continue
+        url = link.get("url")
+        if not isinstance(url, str) or not HTTP_URL.match(url.strip()):
+            problems.append(f"{link_where}.url must be an http(s) URL, got {url!r}")
     return problems
 
 

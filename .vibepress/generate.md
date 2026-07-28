@@ -16,6 +16,8 @@ touch the reader shell (`index.html`, `assets/`) — you only write data.
    - `editorialVoice` — the tone to write in.
    - `minScore` — *(optional)* a relevance threshold, `0`–`12`. Set = turn on the scoring gate in
      Step 2b. Absent = judgment-only selection (the default). See Step 2b.
+   - `enrich` — *(optional)* `true` = add per-story background + community discussion in Step 4b.
+     Absent/`false` = no enrichment (the default). See Step 4b.
    - `languages` — *(optional)* the languages to publish, e.g. `["en","zh"]`. The first is the
      **primary** language. Absent or single = monolingual. See Step 8.
    - `sources` — the typed source list. See `.vibepress/sources.md` for the schema.
@@ -129,6 +131,29 @@ Per story, in the paper's `editorialVoice`:
 
 Then one `editorNote`: a single short paragraph synthesizing the edition, introducing no new facts.
 
+## Step 4b — Enrich (only if `config.enrich` is true)
+
+Skip this entirely unless `config.enrich` is `true`. When on, add up to two **optional** fields to each
+story, written **only** from material you actually fetched and read — same fail-closed rule as the rest
+of the edition. If you don't have the material for a field, **omit it** (never fill from memory or guess):
+
+- `context` — one or two plain sentences of background that help a non-expert: what a company/paper/term
+  is, or what came before this event. Ground it in the sources you already read for this story; it needs
+  no separate link. Omit for stories that need no background.
+- `discussion` — what the community is saying, as an object:
+  ```json
+  "discussion": {
+    "summary": "One or two sentences on the substance of the discussion — the main reactions or points of contention.",
+    "sourceLinks": [ { "title": "HN thread", "url": "https://news.ycombinator.com/item?id=…" } ]
+  }
+  ```
+  Write it **only** from discussion you actually fetched (e.g. a Hacker News or Reddit thread among the
+  candidates). Summarize substance, not vote counts or vibes; keep `sourceLinks` to threads you read, each
+  `http(s)`. If you read no discussion for a story, omit `discussion` — never invent reactions.
+
+These are secondary matter: the reader renders them under the story in a muted style, and shows nothing
+when a field is absent. Enrichment never changes selection, `sourceLinks`, or the story's core fields.
+
 ## Step 5 — Assemble the edition object
 
 ```json
@@ -186,9 +211,10 @@ each additional language — same stories, same order, same `sourceLinks`, same 
 For each non-primary language `<lang>` in `config.languages`:
 
 1. Write `papers/<slug>/editions/<id>.<lang>.json` — the same edition object with `headline`, `summary`,
-   `whyItMatters`, `editorNote`, and the section `category` labels translated into `<lang>`. Keep
-   `sourceLinks` **identical** (never re-translate or alter a URL/title's target), and keep the same
-   number of stories in the same importance order.
+   `whyItMatters`, `editorNote`, and the section `category` labels translated into `<lang>`. If a story
+   carries enrichment (Step 4b), translate `context` and `discussion.summary` too. Keep every `sourceLinks`
+   entry **identical** — including `discussion.sourceLinks` — (never re-translate or alter a URL/title's
+   target), and keep the same number of stories in the same importance order.
 2. Validate it with the `--translated` flag (its localized `category` labels won't match
    `config.categories`, which is expected):
 
