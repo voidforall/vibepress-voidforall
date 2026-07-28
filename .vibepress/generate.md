@@ -140,19 +140,25 @@ of the edition. If you don't have the material for a field, **omit it** (never f
 - `context` — one or two plain sentences of background that help a non-expert: what a company/paper/term
   is, or what came before this event. Ground it in the sources you already read for this story; it needs
   no separate link. Omit for stories that need no background.
-- `discussion` — what the community is saying, as an object:
+- `discussion` — a digest of the comment thread, as an object:
   ```json
   "discussion": {
-    "summary": "One or two sentences on the substance of the discussion — the main reactions or points of contention.",
+    "summary": "Two to four sentences on the *specific* substance of the thread — the actual arguments, named tradeoffs, concrete claims, and where people disagree.",
     "sourceLinks": [ { "title": "HN thread", "url": "https://news.ycombinator.com/item?id=…" } ]
   }
   ```
-  Write it **only** from discussion you actually fetched (e.g. a Hacker News or Reddit thread among the
-  candidates). Summarize substance, not vote counts or vibes; keep `sourceLinks` to threads you read, each
-  `http(s)`. If you read no discussion for a story, omit `discussion` — never invent reactions.
+  Write it **only** from a comment thread you actually fetched (e.g. a Hacker News or Reddit thread among
+  the candidates). Be **specific and concrete**, not generic: name the actual points being argued, the
+  tradeoffs raised, a notable claim or correction, the sides of a disagreement — the things a reader would
+  learn by reading the thread themselves. **Avoid filler** like "opinions were mixed" or "commenters
+  discussed it" that says nothing. The reader shows this collapsed by default and expands on click, so
+  two to four substantive sentences is the right length — favor specificity over brevity, but never pad.
+  Summarize substance, not vote counts or vibes; keep `sourceLinks` to threads you read, each `http(s)`.
+  If you read no discussion for a story, omit `discussion` — never invent reactions.
 
-These are secondary matter: the reader renders them under the story in a muted style, and shows nothing
-when a field is absent. Enrichment never changes selection, `sourceLinks`, or the story's core fields.
+These are secondary matter: the reader renders `context` as a muted line and `discussion` as a
+collapsible section under the story, and shows nothing when a field is absent. Enrichment never changes
+selection, `sourceLinks`, or the story's core fields.
 
 ## Step 5 — Assemble the edition object
 

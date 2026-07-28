@@ -423,9 +423,10 @@ a { color: var(--link); }
   font-size: 0.88rem;
   color: var(--ink-soft);
 }
+/* Collapsible community discussion — a native <details>. Closed by default so it
+   can hold several sentences without crowding the story. */
 .story-discussion {
   margin: 0 0 0.85rem;
-  padding: 0.5rem 0.85rem;
   border-left: 3px solid var(--card-accent, var(--ink-faint));
   background: var(--paper-raised);
   border-radius: 0 4px 4px 0;
@@ -433,6 +434,27 @@ a { color: var(--link); }
   font-size: 0.88rem;
   color: var(--ink-soft);
 }
+.story-discussion-toggle {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.4rem 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  user-select: none;
+}
+.story-discussion-toggle::-webkit-details-marker { display: none; }
+.story-discussion-toggle::after {
+  content: "▸";
+  color: var(--ink-faint);
+  font-size: 0.7rem;
+  transition: transform 0.15s ease;
+}
+.story-discussion[open] .story-discussion-toggle::after { transform: rotate(90deg); }
+.story-discussion-toggle:hover .story-label { color: var(--ink); }
+.story-discussion-body { padding: 0 0.85rem 0.55rem; }
+.story-discussion-text { margin: 0 0 0.5rem; }
+.story-discussion-text:last-child { margin-bottom: 0; }
 .story-discussion-sources { margin-top: 0.4rem; font-size: 0.8rem; }
 .story-sources {
   list-style: none;
@@ -621,7 +643,10 @@ a { color: var(--link); }
   .story, .story-discussion { break-inside: avoid; }
   a { color: #000; text-decoration: none; }
   .story-category, .masthead-kicker { color: #000; }
-  /* Enrichment: keep it ink-on-paper — no fill, a hairline rule instead. */
+  /* Enrichment: keep it ink-on-paper — no fill, a hairline rule instead, and always
+     expanded (a closed <details> would drop its body from the printed page). */
   .story-discussion { background: #fff !important; border-left: 2px solid #999; }
+  .story-discussion-body { display: block !important; }
+  .story-discussion-toggle::after { display: none; }
   .story-label { color: #000; }
 }

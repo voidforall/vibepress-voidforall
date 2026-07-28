@@ -24,8 +24,8 @@
   // offers a switcher when a paper has more than one, and remembers the choice in localStorage.
   var LANG_LABEL = { en: "EN", zh: "中文", ja: "日本語", es: "ES", fr: "FR", de: "DE", ko: "한국어" };
   var STRINGS = {
-    en: { why: "Why it matters", back: "← Newsstand", context: "Background", discussion: "What people are saying" },
-    zh: { why: "为何重要", back: "← 报摊", context: "背景", discussion: "大家在聊什么" },
+    en: { why: "Why it matters", back: "← Newsstand", context: "Background", discussion: "In the comments" },
+    zh: { why: "为何重要", back: "← 报摊", context: "背景", discussion: "评论区" },
   };
   function t(key) {
     var table = STRINGS[currentLang] || STRINGS.en;
@@ -266,6 +266,14 @@
 
   // --- one paper -------------------------------------------------------------
 
+  // Split text on blank lines into escaped <p> blocks, so a longer field can carry paragraphs.
+  function paragraphs(text, cls) {
+    return String(text).split(/\n\n+/).map(function (block) {
+      var b = block.trim();
+      return b ? '<p class="' + cls + '">' + escapeHtml(b) + "</p>" : "";
+    }).filter(Boolean).join("");
+  }
+
   // Render an array of {title,url} into <li><a>…</a></li>, dropping any non-http(s) link.
   function renderLinks(arr) {
     return (Array.isArray(arr) ? arr : [])
@@ -286,16 +294,20 @@
       ? '<p class="story-context"><span class="story-label">' + escapeHtml(t("context")) + "</span> " + escapeHtml(story.context) + "</p>"
       : "";
 
+    // Community discussion, collapsed by default so it can run long without crowding the
+    // story. Native <details> — no JS, and print CSS forces it open.
     var discussion = "";
     var d = story.discussion;
     if (d && typeof d === "object" && typeof d.summary === "string" && d.summary.trim()) {
       var dLinks = renderLinks(d.sourceLinks);
       discussion =
-        '<aside class="story-discussion">' +
-        '<span class="story-label">' + escapeHtml(t("discussion")) + "</span> " +
-        escapeHtml(d.summary) +
+        '<details class="story-discussion">' +
+        '<summary class="story-discussion-toggle"><span class="story-label">' + escapeHtml(t("discussion")) + "</span></summary>" +
+        '<div class="story-discussion-body">' +
+        paragraphs(d.summary, "story-discussion-text") +
         (dLinks ? '<ul class="story-sources story-discussion-sources">' + dLinks + "</ul>" : "") +
-        "</aside>";
+        "</div>" +
+        "</details>";
     }
 
     return [
