@@ -1,7 +1,32 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-07-28T09:40:37Z",
+  "updatedAt": "2026-07-29T09:48:56Z",
   "events": [
+    {
+      "date": "2026-07-29",
+      "headline": "SK Hynix's earnings miss deepens Korea's chip rout, keeps Alphabet in the AI-capex crossfire",
+      "summary": "SK Hynix posted record Q2 revenue (79.32 trillion won, +257% year-over-year) and operating profit (60.54 trillion won, +557%), but both came in about 5-6% below estimates, and shares fell nearly 7% in pre-market trading after a 14% drop th…",
+      "urls": [
+        "https://en.sedaily.com/finance/2026/07/29/sk-hynix-drops-nearly-7-percent-in-pre-market-on-weaker",
+        "https://finance.yahoo.com/markets/stocks/article/chip-stock-rout-sends-investors-rushing-back-to-bruised-alphabet-stock-140503906.html"
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "headline": "Rocket Lab completes a single-contractor rapid-response space mission for the Space Force",
+      "summary": "Rocket Lab's Victus Haze mission launched a spacecraft just 16 hours and 42 minutes after receiving the Space Force's final go order, activated it in about 38 hours (versus a 72-hour deadline), and maneuvered it into observation position o…",
+      "urls": [
+        "https://www.fool.com/investing/2026/07/28/rocket-lab-debuts-a-breakthrough-technology-invest/"
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "headline": "Bitcoin ETFs shed 3,170 BTC as Ethereum funds pull in a third straight week of inflows",
+      "summary": "US spot bitcoin ETFs posted net outflows of 3,170 BTC over the past week, led by BlackRock's IBIT (-3,511 BTC), even as bitcoin itself traded near $63,900, up about 4% for the week. Ethereum ETFs added 37,959 ETH in the same period, led ag…",
+      "urls": [
+        "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-bleed-while-ethereum-055451344.html"
+      ]
+    },
     {
       "date": "2026-07-28",
       "headline": "Gold tests $4,021 support as dollar strength and rising Fed rate-hike odds pressure bullion",

@@ -1,7 +1,48 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-07-28T09:45:37Z",
+  "updatedAt": "2026-07-29T09:50:06Z",
   "events": [
+    {
+      "date": "2026-07-29",
+      "headline": "Study: it's falling behind, not risk appetite, that pushes AI teams toward unsafe development",
+      "summary": "In a paired behavioral experiment, participants repeatedly chose between a slower 'safe' and faster 'unsafe' development path with capped personal risk; the strongest predictor of choosing unsafe wasn't individual risk tolerance but fallin…",
+      "urls": [
+        "https://arxiv.org/abs/2607.26034v1"
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "headline": "OpenAI quietly open-sources its Codex Security CLI — Hacker News found it before OpenAI announced it",
+      "summary": "OpenAI released Codex Security CLI, a code-vulnerability scanner and TypeScript SDK it had run as a ChatGPT research preview since March, under an Apache-2.0 license with no formal announcement. OpenAI's own acknowledgment came after the f…",
+      "urls": [
+        "https://gigazine.net/gsc_news/en/20260729-codex-security-cli-open-source/",
+        "https://github.com/openai/codex-security"
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "headline": "Kimi K3's architecture notes show a 2.8T-parameter model with no positional embeddings at all",
+      "summary": "A detailed technical writeup of Kimi K3 — scaled up from the 48B Kimi Linear to 2.8T parameters — describes a LatentMoE layer that compresses large linear layers, a mix of multi-head latent attention and Kimi Delta Attention in place of re…",
+      "urls": [
+        "https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html"
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "headline": "Apple replaces its iPhone Upgrade Program with a Klarna-backed lease called Apple Upgrade",
+      "summary": "Apple Upgrade now covers iPhone, iPad, Mac, and Apple Watch with monthly lease pricing starting at $17.99, $11.99, $24.99, and $11.99 respectively, and Klarna charges no financing fee on top of retail price. Lease terms run 12-24 months fo…",
+      "urls": [
+        "https://www.macrumors.com/2026/07/28/apple-upgrade-program-klarna/"
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "headline": "Andrew Ng launches LearnVector, an AI tutoring startup, with $100M from Coursera",
+      "summary": "Coursera is putting $100M into LearnVector, a new company from co-founder Andrew Ng, for roughly a third of it on a fully diluted basis. LearnVector is building agentic AI that plans, adapts to, and sticks with an individual learner rather…",
+      "urls": [
+        "https://investor.coursera.com/news/news-details/2026/Coursera-Makes-100-Million-Strategic-Investment-in-LearnVector-a-New-AI-Native-Learning-Company-Founded-by-Andrew-Ng/default.aspx"
+      ]
+    },
     {
       "date": "2026-07-28",
       "headline": "Unauthenticated APIs on a commercial fleet platform exposed 676,000 vehicles",

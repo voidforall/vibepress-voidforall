@@ -1,0 +1,40 @@
+{
+  "id": "2026-07-29",
+  "date": "2026-07-29",
+  "generatedAt": "2026-07-29T09:47:53Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Korea's chip rout deepened today as SK Hynix's own blowout earnings fell short of sky-high expectations, spilling caution into Big Tech's AI-capex story and keeping Alphabet in focus. Away from that, crypto fund flows kept tilting from bitcoin toward ether, and Rocket Lab notched a genuine operational win for the Space Force even as its stock struggles.",
+  "stories": [
+    {
+      "headline": "SK Hynix's earnings miss deepens Korea's chip rout, keeps Alphabet in the AI-capex crossfire",
+      "summary": "SK Hynix posted record Q2 revenue (79.32 trillion won, +257% year-over-year) and operating profit (60.54 trillion won, +557%), but both came in about 5-6% below estimates, and shares fell nearly 7% in pre-market trading after a 14% drop the prior session. The renewed selloff pushed the Kospi's two-day decline past 18% with fresh circuit breakers, and the broader chip rout has kept investors focused on Alphabet, whose shares are still digesting a raised $195-205B 2026 capex forecast alongside the same AI-spending scrutiny.",
+      "whyItMatters": "The world's second-largest memory chipmaker missing on record profit shows how far AI-driven growth expectations have outrun even blowout results, and it's keeping capex-heavy names like Alphabet under the market's microscope.",
+      "category": "Markets",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "SK Hynix drops nearly 7% in pre-market on weaker-than-expected earnings", "url": "https://en.sedaily.com/finance/2026/07/29/sk-hynix-drops-nearly-7-percent-in-pre-market-on-weaker" },
+        { "title": "Chip stock rout sends investors rushing back to bruised Alphabet stock", "url": "https://finance.yahoo.com/markets/stocks/article/chip-stock-rout-sends-investors-rushing-back-to-bruised-alphabet-stock-140503906.html" }
+      ]
+    },
+    {
+      "headline": "Bitcoin ETFs shed 3,170 BTC as Ethereum funds pull in a third straight week of inflows",
+      "summary": "US spot bitcoin ETFs posted net outflows of 3,170 BTC over the past week, led by BlackRock's IBIT (-3,511 BTC), even as bitcoin itself traded near $63,900, up about 4% for the week. Ethereum ETFs added 37,959 ETH in the same period, led again by BlackRock's ETHA, marking a third consecutive week of inflows even though bitcoin funds still hold roughly eight times Ethereum funds' assets ($76.22B vs $9.72B).",
+      "whyItMatters": "Fresh capital is increasingly rotating toward ether products even as bitcoin's price holds up, a shift analysts describe as structural rather than a short-term trade.",
+      "category": "Crypto",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Bitcoin ETFs Bleed While Ethereum Funds Post Third Straight Weekly Inflow", "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-bleed-while-ethereum-055451344.html" }
+      ]
+    },
+    {
+      "headline": "Rocket Lab completes a single-contractor rapid-response space mission for the Space Force",
+      "summary": "Rocket Lab's Victus Haze mission launched a spacecraft just 16 hours and 42 minutes after receiving the Space Force's final go order, activated it in about 38 hours (versus a 72-hour deadline), and maneuvered it into observation position of a target satellite in under 59 hours, all under one $32M contract covering design, manufacturing, launch, and on-orbit operations.",
+      "whyItMatters": "It's the first Space Force rapid-response mission where a single contractor supplied every piece, a model Rocket Lab says lets it earn revenue across a mission rather than from launch alone.",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Rocket Lab Debuts a Breakthrough Technology Investors Should Have on Their Radar", "url": "https://www.fool.com/investing/2026/07/28/rocket-lab-debuts-a-breakthrough-technology-invest/" }
+      ]
+    }
+  ]
+}

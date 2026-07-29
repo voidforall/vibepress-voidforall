@@ -1,0 +1,60 @@
+{
+  "id": "2026-07-29",
+  "date": "2026-07-29",
+  "generatedAt": "2026-07-29T09:47:53Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Andrew Ng's back with a new company and Coursera's money behind it, Apple's quietly turned its phones into a Klarna-backed lease, and OpenAI open-sourced a security tool without telling anyone — Hacker News beat them to the announcement. Underneath the product news, a behavioral study makes an unglamorous but useful point about AI safety: it's competitive pressure, not risk appetite, that pushes teams toward unsafe shortcuts.",
+  "stories": [
+    {
+      "headline": "Andrew Ng launches LearnVector, an AI tutoring startup, with $100M from Coursera",
+      "summary": "Coursera is putting $100M into LearnVector, a new company from co-founder Andrew Ng, for roughly a third of it on a fully diluted basis. LearnVector is building agentic AI that plans, adapts to, and sticks with an individual learner rather than answering one-off questions, with first products targeted for early 2027.",
+      "whyItMatters": "It's a concrete bet from one of AI's most recognizable figures — and from Coursera's balance sheet — that personalized AI tutors, not just chat interfaces, are the next phase of ed-tech.",
+      "category": "Business",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Coursera Makes $100 Million Strategic Investment in LearnVector, a New AI-Native Learning Company Founded by Andrew Ng", "url": "https://investor.coursera.com/news/news-details/2026/Coursera-Makes-100-Million-Strategic-Investment-in-LearnVector-a-New-AI-Native-Learning-Company-Founded-by-Andrew-Ng/default.aspx" }
+      ]
+    },
+    {
+      "headline": "Apple replaces its iPhone Upgrade Program with a Klarna-backed lease called Apple Upgrade",
+      "summary": "Apple Upgrade now covers iPhone, iPad, Mac, and Apple Watch with monthly lease pricing starting at $17.99, $11.99, $24.99, and $11.99 respectively, and Klarna charges no financing fee on top of retail price. Lease terms run 12-24 months for iPhone/Watch and 24-36 months for iPad/Mac, with the iPhone 16, Watch SE, MacBook Neo, Mac mini, base iPad, and Studio Display excluded.",
+      "whyItMatters": "It swaps Apple's old device-payment plan for an actual lease across its whole hardware line, changing how millions of buyers finance an upgrade.",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Apple Retires iPhone Upgrade Program for Klarna-Backed Leases", "url": "https://www.macrumors.com/2026/07/28/apple-upgrade-program-klarna/" }
+      ]
+    },
+    {
+      "headline": "OpenAI quietly open-sources its Codex Security CLI — Hacker News found it before OpenAI announced it",
+      "summary": "OpenAI released Codex Security CLI, a code-vulnerability scanner and TypeScript SDK it had run as a ChatGPT research preview since March, under an Apache-2.0 license with no formal announcement. OpenAI's own acknowledgment came after the fact: \"We quietly released the open-source Codex Security CLI, but Hacker News found it before we had a chance to share it here.\" The tool scans repositories, tracks findings across scans, and plugs into CI, though it can't yet resume an interrupted scan.",
+      "whyItMatters": "A company that usually stage-manages its launches let this one slip out untouched, handing developers a free, open vulnerability-scanning agent in the process.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "The security review AI 'Codex Security CLI' has been open-sourced and is now available for download from GitHub", "url": "https://gigazine.net/gsc_news/en/20260729-codex-security-cli-open-source/" },
+        { "title": "openai/codex-security", "url": "https://github.com/openai/codex-security" }
+      ]
+    },
+    {
+      "headline": "Study: it's falling behind, not risk appetite, that pushes AI teams toward unsafe development",
+      "summary": "In a paired behavioral experiment, participants repeatedly chose between a slower 'safe' and faster 'unsafe' development path with capped personal risk; the strongest predictor of choosing unsafe wasn't individual risk tolerance but falling behind an opponent, while being ahead reduced unsafe choices. An accompanying evolutionary-game model found the same dynamic across strategies, leading the authors to argue interventions should target competitive pressure itself, not just individual risk-taking.",
+      "whyItMatters": "It reframes the AI-race safety debate: slowing any one lab's risk appetite may matter less than reducing the competitive pressure that makes falling behind feel dangerous.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Falling Behind Drives Unsafe Development in an Idealised AI Race Experiment", "url": "https://arxiv.org/abs/2607.26034v1" }
+      ]
+    },
+    {
+      "headline": "Kimi K3's architecture notes show a 2.8T-parameter model with no positional embeddings at all",
+      "summary": "A detailed technical writeup of Kimi K3 — scaled up from the 48B Kimi Linear to 2.8T parameters — describes a LatentMoE layer that compresses large linear layers, a mix of multi-head latent attention and Kimi Delta Attention in place of regular attention, and cross-layer attention-based residual connections that cost about 4% more to train and 2% more to serve in exchange for better validation loss. Most notably, it drops RoPE entirely in favor of no positional embeddings anywhere, which the analysis calls the first frontier-scale model to do so.",
+      "whyItMatters": "It's a concrete data point in the industry's shift from scaling parameter count to redesigning architecture for inference efficiency, alongside DeepSeek V4 and Nemotron 3.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Kimi K3 Architecture Overview and Notes", "url": "https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html" }
+      ]
+    }
+  ]
+}

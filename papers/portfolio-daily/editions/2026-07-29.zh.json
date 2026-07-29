@@ -1,0 +1,40 @@
+{
+  "id": "2026-07-29",
+  "date": "2026-07-29",
+  "generatedAt": "2026-07-29T09:47:53Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今日韩国芯片股抛售加剧：SK海力士交出亮眼财报却仍不及预期，这份焦虑蔓延到大型科技股的AI资本开支叙事上,让Alphabet持续处于聚光灯下。与此同时,加密货币基金流向持续从比特币转向以太坊,而火箭实验室则为太空军完成了一次实打实的任务胜利,尽管其股价仍承压。",
+  "stories": [
+    {
+      "headline": "SK海力士财报不及预期,加剧韩国芯片股抛售,Alphabet仍处AI资本开支风口浪尖",
+      "summary": "SK海力士第二季度营收(79.32万亿韩元,同比增257%)和营业利润(60.54万亿韩元,同比增557%)均创纪录,但均低于预期约5%-6%,股价在盘前一度下跌近7%,此前一个交易日已重挫14%。这轮抛售令韩国综合股价指数两日累计跌幅超过18%,并多次触发熔断。更广泛的芯片股抛售让市场持续关注Alphabet——该公司仍在消化其上调至1950亿至2050亿美元的2026年资本开支预期,同样面临AI支出方面的审视。",
+      "whyItMatters": "全球第二大存储芯片厂商在创纪录盈利下仍不及预期,说明AI驱动的增长预期已远超即便是亮眼的业绩表现,这也让Alphabet等资本开支高企的公司持续处于市场放大镜之下。",
+      "category": "市场",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "SK Hynix drops nearly 7% in pre-market on weaker-than-expected earnings", "url": "https://en.sedaily.com/finance/2026/07/29/sk-hynix-drops-nearly-7-percent-in-pre-market-on-weaker" },
+        { "title": "Chip stock rout sends investors rushing back to bruised Alphabet stock", "url": "https://finance.yahoo.com/markets/stocks/article/chip-stock-rout-sends-investors-rushing-back-to-bruised-alphabet-stock-140503906.html" }
+      ]
+    },
+    {
+      "headline": "比特币ETF流出3170枚BTC,以太坊基金连续第三周迎来资金净流入",
+      "summary": "过去一周,美国现货比特币ETF净流出3170枚BTC,其中贝莱德IBIT基金流出3511枚BTC领跌,尽管比特币本身报价接近63900美元,周涨幅约4%。同期以太坊ETF净流入37959枚ETH,再次由贝莱德ETHA基金领涨,连续第三周实现资金净流入——尽管比特币基金资产规模(762.2亿美元)仍是以太坊基金(97.2亿美元)的约八倍。",
+      "whyItMatters": "即便比特币价格保持坚挺,新增资金仍在持续转向以太坊相关产品,分析师认为这是结构性转变,而非短期交易行为。",
+      "category": "加密货币",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Bitcoin ETFs Bleed While Ethereum Funds Post Third Straight Weekly Inflow", "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-bleed-while-ethereum-055451344.html" }
+      ]
+    },
+    {
+      "headline": "火箭实验室为太空军完成单一承包商快速响应太空任务",
+      "summary": "火箭实验室的“Victus Haze”任务在收到太空军最终指令后仅16小时42分钟就完成发射,约38小时内激活航天器(远快于72小时的截止时限),并在不到59小时内将其机动至目标卫星的观测位置——整个过程均在一份价值3200万美元、涵盖设计、制造、发射及在轨运营的合同下完成。",
+      "whyItMatters": "这是太空军首次由单一承包商包揽全部环节的快速响应任务,火箭实验室表示这一模式让公司能在整个任务周期内创收,而不仅仅依赖发射费用。",
+      "category": "公司",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Rocket Lab Debuts a Breakthrough Technology Investors Should Have on Their Radar", "url": "https://www.fool.com/investing/2026/07/28/rocket-lab-debuts-a-breakthrough-technology-invest/" }
+      ]
+    }
+  ]
+}

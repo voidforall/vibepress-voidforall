@@ -1,0 +1,60 @@
+{
+  "id": "2026-07-29",
+  "date": "2026-07-29",
+  "generatedAt": "2026-07-29T09:47:53Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "吴恩达携新公司归来,背后是Coursera的真金白银;苹果悄悄把手机变成了由Klarna支持的租赁产品;OpenAI在没有通知任何人的情况下开源了一款安全工具——Hacker News抢在官方公告之前就发现了它。在这些产品新闻之下,一项行为学研究就AI安全提出了一个不那么光鲜却很有用的观点:推动团队走向不安全捷径的,是竞争压力,而非风险偏好本身。",
+  "stories": [
+    {
+      "headline": "吴恩达推出AI辅导创业公司LearnVector,获Coursera 1亿美元投资",
+      "summary": "Coursera向联合创始人吴恩达创办的新公司LearnVector投资1亿美元,按完全稀释计算约占三分之一股权。LearnVector正在打造具备智能体能力的AI,能够为单个学习者规划、适应并持续陪伴学习过程,而非仅仅回答零散问题,首批产品预计于2027年初推出。",
+      "whyItMatters": "这是AI领域最具知名度的人物之一——连同Coursera的资产负债表——对个性化AI辅导(而非仅仅是聊天界面)将成为教育科技下一阶段的一次实质性押注。",
+      "category": "商业",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Coursera Makes $100 Million Strategic Investment in LearnVector, a New AI-Native Learning Company Founded by Andrew Ng", "url": "https://investor.coursera.com/news/news-details/2026/Coursera-Makes-100-Million-Strategic-Investment-in-LearnVector-a-New-AI-Native-Learning-Company-Founded-by-Andrew-Ng/default.aspx" }
+      ]
+    },
+    {
+      "headline": "苹果以Klarna支持的租赁项目“Apple Upgrade”取代iPhone分期升级计划",
+      "summary": "Apple Upgrade现已覆盖iPhone、iPad、Mac和Apple Watch,月租起价分别为17.99美元、11.99美元、24.99美元和11.99美元,Klarna在零售价基础上不收取额外融资费用。iPhone/Watch租期为12至24个月,iPad/Mac为24至36个月,iPhone 16、Watch SE、MacBook Neo、Mac mini、入门版iPad及Studio Display不在计划范围内。",
+      "whyItMatters": "苹果用一项覆盖全线硬件的真正租赁方案取代了旧有的设备付款计划,这将改变数百万购买者为升级设备融资的方式。",
+      "category": "商业",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Apple Retires iPhone Upgrade Program for Klarna-Backed Leases", "url": "https://www.macrumors.com/2026/07/28/apple-upgrade-program-klarna/" }
+      ]
+    },
+    {
+      "headline": "OpenAI悄然开源Codex Security CLI——Hacker News抢在官方公告前先发现了它",
+      "summary": "OpenAI以Apache-2.0协议开源了Codex Security CLI——这款代码漏洞扫描工具及TypeScript SDK自3月以来一直作为ChatGPT研究预览版运行——且未做任何正式公告。OpenAI事后才在推文中承认:“我们悄悄发布了开源版Codex Security CLI,但Hacker News抢在我们分享之前就发现了它。”该工具可扫描代码仓库、在多次扫描间追踪发现结果并接入CI流程,不过目前还无法恢复被中断的扫描。",
+      "whyItMatters": "这家通常精心安排每次发布节奏的公司,这次却让产品悄然流出,顺带为开发者提供了一个免费的开源漏洞扫描智能体。",
+      "category": "科技",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "The security review AI 'Codex Security CLI' has been open-sourced and is now available for download from GitHub", "url": "https://gigazine.net/gsc_news/en/20260729-codex-security-cli-open-source/" },
+        { "title": "openai/codex-security", "url": "https://github.com/openai/codex-security" }
+      ]
+    },
+    {
+      "headline": "研究:推动AI团队走向不安全开发的是“落后焦虑”,而非风险偏好",
+      "summary": "在一项配对行为实验中,参与者需在较慢的“安全”路径与较快、个人风险有上限的“不安全”路径之间反复选择;结果显示,选择不安全路径的最强预测因素并非个体的风险偏好,而是落后于对手,而领先则会减少不安全选择。配套的演化博弈模型在不同策略下也发现了相同的动态,促使作者提出:干预措施应针对竞争压力本身,而不仅仅是个体的风险倾向。",
+      "whyItMatters": "这为AI竞赛安全性的讨论提供了新框架:降低单一实验室的风险偏好,或许不如降低那种让“落后”显得危险的竞争压力来得重要。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Falling Behind Drives Unsafe Development in an Idealised AI Race Experiment", "url": "https://arxiv.org/abs/2607.26034v1" }
+      ]
+    },
+    {
+      "headline": "Kimi K3架构笔记显示:这是一个完全不使用位置编码的2.8万亿参数模型",
+      "summary": "一篇详细的技术解析文章介绍了Kimi K3——从480亿参数的Kimi Linear扩展至2.8万亿参数——其中包括压缩大型线性层的LatentMoE层、以多头潜在注意力和Kimi Delta Attention取代常规注意力机制,以及跨层的注意力式残差连接(训练成本增加约4%、推理成本增加约2%,以换取更好的验证损失)。最值得注意的是,它完全摒弃了RoPE,转而在所有层都不使用位置编码,该分析称其为首个采用这一做法的前沿级模型。",
+      "whyItMatters": "这为行业从“扩大参数规模”转向“为推理效率重新设计架构”的趋势提供了一个具体例证,与DeepSeek V4和Nemotron 3的路线相呼应。",
+      "category": "科技",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Kimi K3 Architecture Overview and Notes", "url": "https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html" }
+      ]
+    }
+  ]
+}

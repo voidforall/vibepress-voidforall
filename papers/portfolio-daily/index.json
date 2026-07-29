@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-07-29",
+      "date": "2026-07-29",
+      "headline": "SK Hynix's earnings miss deepens Korea's chip rout, keeps Alphabet in the AI-capex crossfire",
+      "storyCount": 3
+    },
+    {
       "id": "2026-07-28",
       "date": "2026-07-28",
       "headline": "Bitcoin falls to 10-day low near $63,000 as Asian tech selloff and Fed rate-hike odds weigh",
