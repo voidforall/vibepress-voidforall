@@ -1,0 +1,60 @@
+{
+  "id": "2026-07-31",
+  "date": "2026-07-31",
+  "generatedAt": "2026-07-31T00:00:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "火箭实验室的股价继续上涨,这次靠的是新签的发射合同,而不是单次任务的胜利;与此同时,Alphabet旗下DeepMind悄然解散了打造出诺贝尔奖级成果AlphaFold的团队,转而将重心放在Gemini上。比特币持有者则被提醒硬件钱包并非万无一失——Coldcard的一个漏洞让攻击者盗走了约4000万美元;黄金因日本央行维持利率不变、日元走弱而回吐了7月部分涨幅;Duolingo则选择在营销上发力而非基本面,与瑞幸咖啡展开合作。",
+  "stories": [
+    {
+      "headline": "火箭实验室与iQPS一年内第三次签署多发射合同,股价上涨逾9%",
+      "summary": "火箭实验室将从2027年末开始为日本iQPS执行三次新的Electron专属发射任务,每次将一颗QPS-SAR卫星送入575公里轨道,使iQPS已预订的Electron发射总数达到18次。消息公布后股价上涨9.39%。",
+      "whyItMatters": "这是同一客户一年内第三次预订多次发射,表明Electron获得的是回头客需求,而不仅仅是一次性合同。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Rocket Lab Signs 3-Launch iQPS Deal for Late 2027", "url": "https://www.stocktitan.net/news/RKLB/rocket-lab-secures-multi-launch-deal-with-i-qps-for-three-dedicated-cqj2b4pc5u1n.html" },
+        { "title": "Why Rocket Lab Stock Is Soaring Today", "url": "https://www.fool.com/investing/2026/07/30/why-rocket-lab-stock-is-soaring-today/" }
+      ]
+    },
+    {
+      "headline": "Coldcard硬件钱包漏洞致数百个钱包约4000万美元比特币被盗",
+      "summary": "攻击者利用了2021年3月起固件版本中Coldcard Mk3设备可预测的软件生成密钥漏洞,在数分钟内从数百个独立钱包中盗走约600枚比特币(约4000万美元)。制造商Coinkite表示,直到攻击曝光才知晓该漏洞,并建议用户将资金迁移至新钱包。",
+      "whyItMatters": "尽管消息传出后比特币仍守住6万美元上方,但一款被广泛使用的冷存储设备出现漏洞,削弱了硬件钱包安全性的核心承诺,攻击者正抢在用户转移资金前加紧利用漏洞。",
+      "category": "加密货币",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Massive, Surprise Bitcoin Attack Sparks Sudden Price Crash Fears", "url": "https://www.forbes.com/sites/digital-assets/2026/07/31/massive-surprise-bitcoin-attack-sparks-sudden-price-crash-fears/" }
+      ]
+    },
+    {
+      "headline": "谷歌DeepMind解散打造诺贝尔奖级成果AlphaFold的团队",
+      "summary": "DeepMind已解散专门的AlphaFold团队,将大部分研究人员重新分配至Gemini及其他项目,公司正从“单一问题攻坚团队”模式转向以Gemini为中心的结构;副总裁Pushmeet Kohli表示“战略已经演变”。诺贝尔奖得主John Jumper已于6月跳槽至Anthropic,另外两名核心论文作者也随之离开,原论文全职作者中已有近四分之一彻底离开谷歌。",
+      "whyItMatters": "AlphaFold数据库和服务仍在运行,但DeepMind这一标志性科学突破的持续研发已被并入更广泛的Gemini推进计划,而非作为独立项目延续。",
+      "category": "公司",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Google DeepMind disbands its Nobel-prize winning AlphaFold team", "url": "https://www.engadget.com/2225849/google-shuts-down-alphafold/" }
+      ]
+    },
+    {
+      "headline": "日本央行维持利率不变,美元走强致黄金跌至4076美元",
+      "summary": "日本央行以8比1的投票结果维持利率在1%不变,导致日元走弱、美元走强,以美元计价的黄金对国际买家而言变得更贵,金价因此下跌约0.5%至4076.53美元。黄金7月仍有望上涨1.8%,为五个月来首次月度上涨,第二季度289吨的央行购金量为其提供了支撑。",
+      "whyItMatters": "此次回调表明,尽管央行需求为金价提供了底部支撑,黄金的涨势仍对汇率和利率变动高度敏感。",
+      "category": "大宗商品",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Why Is Gold Price Down Today? XAU/USD Slips to $4,077 as BoJ Holds Rates at 1%", "url": "https://www.fxleaders.com/news/2026/07/31/why-gold-price-down-today-xauusd-slips-boj-holds-rates/" }
+      ]
+    },
+    {
+      "headline": "Duolingo与瑞幸咖啡合作推出美国返校季联名饮品",
+      "summary": "Duolingo与瑞幸咖啡在美国推出限时合作,围绕暑期学习与返校季主题推出联名饮品(含两款新品)及周边商品,这是瑞幸在美国市场的首次联名合作。",
+      "whyItMatters": "这是一次针对Duolingo核心Z世代用户群体的营销活动,而非业务本身的改变,恰逢公司8月5日财报发布前夕。",
+      "category": "公司",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Luckin Coffee and Duolingo Team Up for a Limited-Time Collaboration Celebrating Summer Learning and Back-to-School", "url": "https://www.prnewswire.com/news-releases/luckin-coffee-and-duolingo-team-up-for-a-limited-time-collaboration-celebrating-summer-learning-and-back-to-school-302835842.html" }
+      ]
+    }
+  ]
+}

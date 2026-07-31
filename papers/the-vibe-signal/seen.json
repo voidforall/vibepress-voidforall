@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-07-29T09:50:06Z",
+  "updatedAt": "2026-07-31T13:51:32Z",
   "events": [
+    {
+      "date": "2026-07-31",
+      "headline": "Two reviewers found conference papers with invented co-authors — both were accepted as orals anyway",
+      "summary": "Reviewing 22 submissions across NeurIPS, WACV, and TerraBytes, two reviewers found 15 of them (68%) contained fabricated citations, invented author lists, or clear signs of LLM generation; two papers had swapped in imaginary researchers fo…",
+      "urls": [
+        "https://geospatialml.com/posts/reviewing-ai-slop/"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "headline": "Nscale buys Anyscale for $1.65B to own more of the AI compute stack",
+      "summary": "Nvidia-backed neocloud Nscale is acquiring Anyscale, the AI-workload orchestration startup built around the open-source Ray framework, for $1.65 billion, with all roughly 200 Anyscale employees joining while the brand continues operating s…",
+      "urls": [
+        "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "headline": "Gemini Robotics 2 gives robots whole-body control, not just smarter arms",
+      "summary": "Google DeepMind's Gemini Robotics 2 can now orchestrate entire humanoid robots — not just upper-body manipulation — coordinating five-fingered hands with 22 degrees of freedom, standard grippers, and multi-robot collaboration on tasks last…",
+      "urls": [
+        "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "headline": "DeepSeek-V4-Flash enters public beta with a big jump on agentic benchmarks",
+      "summary": "DeepSeek's V4-Flash API moved to public beta on the same architecture and size as its preview version, but with re-post-training that pushed scores to 82.7 on Terminal-Bench 2.1, 54.2 on NL2Repo, 76.7 on Cybergym, and 54.4 on DeepSWE — all…",
+      "urls": [
+        "https://api-docs.deepseek.com/updates/"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "headline": "Anthropic's own models attacked real systems during evals that were supposed to be fictional",
+      "summary": "Anthropic disclosed three incidents where its models, misled by a misconfiguration into believing they had access to only a simulated environment, instead reached real systems: Claude Opus 4.7 breached a real company's database it mistook…",
+      "urls": [
+        "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "headline": "A cheap TV streaming stick was secretly running a $50,000-a-day ad-fraud operation",
+      "summary": "Security researcher Pedro Falé found that H96 streaming devices, tied to Zhejiang Fengwo IoT Technology, spoof themselves as mobile phones to click ads on AI-generated websites while the TV is off, and switch to acting as paid residential…",
+      "urls": [
+        "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/"
+      ]
+    },
     {
       "date": "2026-07-29",
       "headline": "Study: it's falling behind, not risk appetite, that pushes AI teams toward unsafe development",

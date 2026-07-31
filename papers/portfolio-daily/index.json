@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-07-31",
+      "date": "2026-07-31",
+      "headline": "Rocket Lab signs its third iQPS multi-launch deal in a year, stock up over 9%",
+      "storyCount": 5
+    },
+    {
       "id": "2026-07-29",
       "date": "2026-07-29",
       "headline": "SK Hynix's earnings miss deepens Korea's chip rout, keeps Alphabet in the AI-capex crossfire",

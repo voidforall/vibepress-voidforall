@@ -1,7 +1,48 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-07-29T09:48:56Z",
+  "updatedAt": "2026-07-31T13:48:26Z",
   "events": [
+    {
+      "date": "2026-07-31",
+      "headline": "Rocket Lab signs its third iQPS multi-launch deal in a year, stock up over 9%",
+      "summary": "Rocket Lab will fly three more dedicated Electron missions for Japan's iQPS starting late 2027, each deploying a QPS-SAR satellite to a 575km orbit, bringing iQPS's total booked Electron launches to 18. Shares gained 9.39% on the announcem…",
+      "urls": [
+        "https://www.stocktitan.net/news/RKLB/rocket-lab-secures-multi-launch-deal-with-i-qps-for-three-dedicated-cqj2b4pc5u1n.html",
+        "https://www.fool.com/investing/2026/07/30/why-rocket-lab-stock-is-soaring-today/"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "headline": "Google DeepMind disbands the team behind its Nobel-winning AlphaFold work",
+      "summary": "DeepMind has dissolved the dedicated AlphaFold team, reassigning most of its researchers to Gemini and other projects as the company shifts from single-problem teams toward a Gemini-centered structure; VP Pushmeet Kohli said 'the strategy…",
+      "urls": [
+        "https://www.engadget.com/2225849/google-shuts-down-alphafold/"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "headline": "Gold slips to $4,076 as a Bank of Japan rate hold strengthens the dollar",
+      "summary": "Gold fell about 0.5% to $4,076.53 after the Bank of Japan held rates at 1% on an 8-1 vote, weakening the yen and lifting the dollar, which makes dollar-priced gold costlier for international buyers. Gold is still tracking a 1.8% gain for J…",
+      "urls": [
+        "https://www.fxleaders.com/news/2026/07/31/why-gold-price-down-today-xauusd-slips-boj-holds-rates/"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "headline": "Duolingo teams up with Luckin Coffee for a US back-to-school drink collaboration",
+      "summary": "Duolingo and Luckin Coffee launched a limited-time US collaboration pairing co-branded beverages (including two new drinks) with merchandise across a summer-learning and back-to-school campaign, Luckin's first collaboration in the US marke…",
+      "urls": [
+        "https://www.prnewswire.com/news-releases/luckin-coffee-and-duolingo-team-up-for-a-limited-time-collaboration-celebrating-summer-learning-and-back-to-school-302835842.html"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "headline": "Coldcard hardware-wallet flaw drains roughly $40M in bitcoin from hundreds of wallets",
+      "summary": "Attackers exploited predictable software-based key generation on Coldcard Mk3 devices running firmware from March 2021 onward, draining about 600 BTC (~$40M) from hundreds of separate wallets within minutes. Maker Coinkite says it was unaw…",
+      "urls": [
+        "https://www.forbes.com/sites/digital-assets/2026/07/31/massive-surprise-bitcoin-attack-sparks-sudden-price-crash-fears/"
+      ]
+    },
     {
       "date": "2026-07-29",
       "headline": "SK Hynix's earnings miss deepens Korea's chip rout, keeps Alphabet in the AI-capex crossfire",

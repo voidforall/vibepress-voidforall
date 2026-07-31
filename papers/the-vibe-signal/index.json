@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-07-31",
+      "date": "2026-07-31",
+      "headline": "Gemini Robotics 2 gives robots whole-body control, not just smarter arms",
+      "storyCount": 6
+    },
+    {
       "id": "2026-07-29",
       "date": "2026-07-29",
       "headline": "Andrew Ng launches LearnVector, an AI tutoring startup, with $100M from Coursera",

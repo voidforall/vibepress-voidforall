@@ -1,0 +1,60 @@
+{
+  "id": "2026-07-31",
+  "date": "2026-07-31",
+  "generatedAt": "2026-07-31T00:00:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Rocket Lab's stock kept climbing on a fresh launch contract rather than a single mission win, while Alphabet's DeepMind quietly dismantled the team behind its Nobel-winning AlphaFold work as it refocuses on Gemini. Bitcoin holders got a reminder that hardware wallets aren't infallible after a Coldcard flaw let attackers drain roughly $40M, gold gave back some of July's gain as the yen weakened on a Bank of Japan hold, and Duolingo leaned into marketing rather than fundamentals with a Luckin Coffee tie-up.",
+  "stories": [
+    {
+      "headline": "Rocket Lab signs its third iQPS multi-launch deal in a year, stock up over 9%",
+      "summary": "Rocket Lab will fly three more dedicated Electron missions for Japan's iQPS starting late 2027, each deploying a QPS-SAR satellite to a 575km orbit, bringing iQPS's total booked Electron launches to 18. Shares gained 9.39% on the announcement.",
+      "whyItMatters": "It's the third multi-launch booking from the same customer within a year, a sign of repeat-buyer demand for Electron beyond one-off contracts.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Rocket Lab Signs 3-Launch iQPS Deal for Late 2027", "url": "https://www.stocktitan.net/news/RKLB/rocket-lab-secures-multi-launch-deal-with-i-qps-for-three-dedicated-cqj2b4pc5u1n.html" },
+        { "title": "Why Rocket Lab Stock Is Soaring Today", "url": "https://www.fool.com/investing/2026/07/30/why-rocket-lab-stock-is-soaring-today/" }
+      ]
+    },
+    {
+      "headline": "Coldcard hardware-wallet flaw drains roughly $40M in bitcoin from hundreds of wallets",
+      "summary": "Attackers exploited predictable software-based key generation on Coldcard Mk3 devices running firmware from March 2021 onward, draining about 600 BTC (~$40M) from hundreds of separate wallets within minutes. Maker Coinkite says it was unaware of the bug until the attack surfaced and is telling users to migrate funds to new wallets.",
+      "whyItMatters": "Bitcoin held above $60,000 despite the news, but a flaw in a widely-used cold-storage device undercuts the core promise of hardware wallets as attackers race to exploit it before users can move funds.",
+      "category": "Crypto",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Massive, Surprise Bitcoin Attack Sparks Sudden Price Crash Fears", "url": "https://www.forbes.com/sites/digital-assets/2026/07/31/massive-surprise-bitcoin-attack-sparks-sudden-price-crash-fears/" }
+      ]
+    },
+    {
+      "headline": "Google DeepMind disbands the team behind its Nobel-winning AlphaFold work",
+      "summary": "DeepMind has dissolved the dedicated AlphaFold team, reassigning most of its researchers to Gemini and other projects as the company shifts from single-problem teams toward a Gemini-centered structure; VP Pushmeet Kohli said 'the strategy has evolved.' Nobel laureate John Jumper left for Anthropic in June along with two other core co-authors, and nearly a quarter of the original paper's full-time authors have now left Google entirely.",
+      "whyItMatters": "The AlphaFold database and server keep running, but active development of one of DeepMind's flagship scientific breakthroughs has been folded into the broader Gemini push rather than continued as a dedicated effort.",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Google DeepMind disbands its Nobel-prize winning AlphaFold team", "url": "https://www.engadget.com/2225849/google-shuts-down-alphafold/" }
+      ]
+    },
+    {
+      "headline": "Gold slips to $4,076 as a Bank of Japan rate hold strengthens the dollar",
+      "summary": "Gold fell about 0.5% to $4,076.53 after the Bank of Japan held rates at 1% on an 8-1 vote, weakening the yen and lifting the dollar, which makes dollar-priced gold costlier for international buyers. Gold is still tracking a 1.8% gain for July, its first monthly rise in five months, helped by 289 tonnes of central-bank buying in Q2.",
+      "whyItMatters": "The pullback shows gold's rally is still sensitive to currency and rate moves even as central-bank demand provides an underlying floor.",
+      "category": "Commodities",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Why Is Gold Price Down Today? XAU/USD Slips to $4,077 as BoJ Holds Rates at 1%", "url": "https://www.fxleaders.com/news/2026/07/31/why-gold-price-down-today-xauusd-slips-boj-holds-rates/" }
+      ]
+    },
+    {
+      "headline": "Duolingo teams up with Luckin Coffee for a US back-to-school drink collaboration",
+      "summary": "Duolingo and Luckin Coffee launched a limited-time US collaboration pairing co-branded beverages (including two new drinks) with merchandise across a summer-learning and back-to-school campaign, Luckin's first collaboration in the US market.",
+      "whyItMatters": "It's a marketing push aimed at Duolingo's core Gen Z user base rather than a change to the business itself, ahead of the company's August 5 earnings report.",
+      "category": "Company",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Luckin Coffee and Duolingo Team Up for a Limited-Time Collaboration Celebrating Summer Learning and Back-to-School", "url": "https://www.prnewswire.com/news-releases/luckin-coffee-and-duolingo-team-up-for-a-limited-time-collaboration-celebrating-summer-learning-and-back-to-school-302835842.html" }
+      ]
+    }
+  ]
+}

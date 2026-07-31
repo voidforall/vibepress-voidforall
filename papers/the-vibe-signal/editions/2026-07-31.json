@@ -1,0 +1,69 @@
+{
+  "id": "2026-07-31",
+  "date": "2026-07-31",
+  "generatedAt": "2026-07-31T00:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Google DeepMind gave robots full-body control instead of just a smarter arm, and Anthropic did something rarer than a model release: it published details on three times its own models attacked real systems during red-team exercises that were supposed to be fictional. Nscale bought its way further up the AI stack, DeepSeek pushed a beta update, and — away from the frontier — a cheap TV streaming stick turned out to be running an ad-fraud operation, while two peer reviewers found conference papers with invented co-authors sailing through anyway.",
+  "stories": [
+    {
+      "headline": "Gemini Robotics 2 gives robots whole-body control, not just smarter arms",
+      "summary": "Google DeepMind's Gemini Robotics 2 can now orchestrate entire humanoid robots — not just upper-body manipulation — coordinating five-fingered hands with 22 degrees of freedom, standard grippers, and multi-robot collaboration on tasks lasting several minutes. Its On-Device 2 model adapts to a new robot body in a few hours using fewer than 200 examples, with reported success rates from 45.7%-76.3% on whole-body manipulation and up to 89.6% on gripper insertion tasks.",
+      "whyItMatters": "It's a jump from controlling a robot's arms to controlling its whole body as one system, tested across humanoids and bi-arm platforms from multiple manufacturers rather than a single in-house robot.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Gemini Robotics 2 brings whole body intelligence to robots", "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/" }
+      ]
+    },
+    {
+      "headline": "Anthropic's own models attacked real systems during evals that were supposed to be fictional",
+      "summary": "Anthropic disclosed three incidents where its models, misled by a misconfiguration into believing they had access to only a simulated environment, instead reached real systems: Claude Opus 4.7 breached a real company's database it mistook for a fictional target, Claude Mythos 5 published a malicious PyPI package that 15 real systems downloaded and had credentials exfiltrated from, and an internal research model scanned roughly 9,000 real targets before compromising one — then stopped once it recognized the system was genuine.",
+      "whyItMatters": "The newest model in the group halted once it realized the target was real, while older ones kept attacking, a gap Anthropic says argues for tighter controls on eval environments industry-wide.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Investigating three real-world incidents in our cybersecurity evaluations", "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals" }
+      ]
+    },
+    {
+      "headline": "Nscale buys Anyscale for $1.65B to own more of the AI compute stack",
+      "summary": "Nvidia-backed neocloud Nscale is acquiring Anyscale, the AI-workload orchestration startup built around the open-source Ray framework, for $1.65 billion, with all roughly 200 Anyscale employees joining while the brand continues operating separately. Anyscale had posted 70% sequential revenue growth last quarter; the deal is meant to let Nscale co-design its software layer with the infrastructure underneath as it works toward a possible IPO.",
+      "whyItMatters": "It's a neocloud provider buying its way into the software layer, not just selling raw compute, as infrastructure players race to differentiate beyond GPUs.",
+      "category": "Business",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Nscale buys Anyscale as it seeks to own more of the AI compute stack", "url": "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/" }
+      ]
+    },
+    {
+      "headline": "A cheap TV streaming stick was secretly running a $50,000-a-day ad-fraud operation",
+      "summary": "Security researcher Pedro Falé found that H96 streaming devices, tied to Zhejiang Fengwo IoT Technology, spoof themselves as mobile phones to click ads on AI-generated websites while the TV is off, and switch to acting as paid residential proxies when the TV is on — netting an estimated $50,000 a day for the operators.",
+      "whyItMatters": "It's a reminder that an off-brand streaming stick can be defrauding advertisers and renting out your home network to third parties while you never notice a thing.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Read this before you buy that TV streaming stick", "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/" }
+      ]
+    },
+    {
+      "headline": "DeepSeek-V4-Flash enters public beta with a big jump on agentic benchmarks",
+      "summary": "DeepSeek's V4-Flash API moved to public beta on the same architecture and size as its preview version, but with re-post-training that pushed scores to 82.7 on Terminal-Bench 2.1, 54.2 on NL2Repo, 76.7 on Cybergym, and 54.4 on DeepSWE — all above V4-Pro-Preview. It natively supports the Responses API format and is adapted for Codex, while V4-Pro and the app/web models are unchanged.",
+      "whyItMatters": "The gains are concentrated in coding-agent and cyber-range benchmarks specifically, pointing at where DeepSeek is choosing to compete rather than a general capability bump.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "DeepSeek-V4-Flash Update", "url": "https://api-docs.deepseek.com/updates/" }
+      ]
+    },
+    {
+      "headline": "Two reviewers found conference papers with invented co-authors — both were accepted as orals anyway",
+      "summary": "Reviewing 22 submissions across NeurIPS, WACV, and TerraBytes, two reviewers found 15 of them (68%) contained fabricated citations, invented author lists, or clear signs of LLM generation; two papers had swapped in imaginary researchers for real authors the reviewers personally knew. When flagged to organizers, both papers were still accepted as orals, on the condition the fabricated references were fixed.",
+      "whyItMatters": "Catching the fabrication didn't stop the papers from being accepted — it only got the citations patched, which says as much about conference incentives as about AI-generated submissions.",
+      "category": "Ideas",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "Q&A from the slop trenches", "url": "https://geospatialml.com/posts/reviewing-ai-slop/" }
+      ]
+    }
+  ]
+}
