@@ -64,6 +64,26 @@ At run time, in the runbook (`generate.md` Step 1), for each `mcp` entry in `ski
 
 An agent never blocks on a missing tool, and a missing optional MCP source is not reported as a failure.
 
+## Unattended runs (cron / CI)
+
+Running an `mcp` source without a human in the loop needs two things in place:
+
+- **Connected & running server.** The MCP server must be registered in the *agent's own* config
+  (Claude Code: `claude mcp add …` at user or project scope) **and** actually running when the job
+  fires. On a local cron job that means the server process is up on the machine; a cloud runner has no
+  such server, so an `mcp` source there simply degrades and is skipped (see above). Because most MCP
+  servers hold a login/cookie on one machine, `mcp` sources are typically a **local-backend** thing.
+- **Tool authorization.** A headless agent only calls tools it's allowed to. The local runner handles
+  this for you: `run-edition.sh` reads each paper's `mcp` sources and passes the matching
+  `mcp__<server>__*` tool globs to the Claude adapter's `--allowedTools` — **only** for a paper that
+  declares an `mcp` source, so a paper without one keeps the exact same tool surface. A custom
+  `VIBEPRESS_AGENT_CMD` adapter receives the same globs in `$VIBEPRESS_MCP_TOOLS` and authorizes them
+  however that agent expects. (On the GitHub Actions backend, add the globs to the `claude_args`
+  `--allowedTools` in `publish.yml` if you wire an MCP server there.)
+
+Either way it stays best-effort: if the server is down or unauthorized, the source is skipped and the
+paper publishes from its other sources.
+
 ## Trust model (important)
 
 Configurable sources routinely bring in **user-generated content** — social posts, comments, reviews.
