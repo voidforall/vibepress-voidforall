@@ -6,6 +6,9 @@
   "emoji": "🗓️",
   "mode": "on-demand",
   "enrich": true,
+  "mcpServers": [
+    "google-maps"
+  ],
   "storyCount": 6,
   "categories": [
     "Eat & Drink",

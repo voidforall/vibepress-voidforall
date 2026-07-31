@@ -20,6 +20,8 @@ touch the reader shell (`index.html`, `assets/`) — you only write data.
      Step 2b. Absent = judgment-only selection (the default). See Step 2b.
    - `enrich` — *(optional)* `true` = add per-story background + community discussion in Step 4b.
      Absent/`false` = no enrichment (the default). See Step 4b.
+   - `mcpServers` — *(optional)* MCP servers this paper's agent may call for **enrichment/verification**
+     (e.g. a Google Maps server for `place` ratings). Discovery `mcp` sources are separate. See Step 4b.
    - `languages` — *(optional)* the languages to publish, e.g. `["en","zh"]`. The first is the
      **primary** language. Absent or single = monolingual. See Step 8.
    - `sources` — the typed source list. See `.vibepress/sources.md` for the schema.
@@ -202,12 +204,17 @@ of the edition. If you don't have the material for a field, **omit it** (never f
     ]
   }
   ```
-  Rules: fetch `rating`/`ratingCount`/`priceLevel`/`address`/`mapUrl` from a real lookup (Google Maps /
-  a maps MCP / web search) — **never estimate a rating**; omit any field you couldn't verify. `reviews`
-  are **verbatim** quotes from actual reviews you read (same rules as `discussion.quotes` — trim with
-  `…`, real author handle or omit, keep the review's link when there is one). `rating` is on Google's
-  0–5 scale. If you couldn't look the place up, omit `place` entirely — do not fabricate ratings or
-  reviews.
+  Rules: fetch `rating`/`ratingCount`/`priceLevel`/`address`/`mapUrl` from a real lookup — **never
+  estimate a rating**; omit any field you couldn't verify.
+  - **Prefer a maps MCP when the paper has one** (a `mcpServers` entry like a Google Maps server, e.g.
+    tools `maps_search_places` → `maps_place_details`): search the venue, take the place's Google
+    `rating`, `user_ratings_total` (→ `ratingCount`), `address`, its Google Maps URL (→ `mapUrl`), and
+    a couple of its real `reviews` (verbatim). This gives authoritative Google numbers.
+  - **Otherwise fall back to web search** for the rating and a review, and set `mapUrl` to a
+    `https://www.google.com/maps/search/?api=1&query=<venue+address>` link.
+  `reviews` are **verbatim** quotes from actual reviews you read (same rules as `discussion.quotes` —
+  trim with `…`, real author handle or omit, keep the review's link when there is one). `rating` is on
+  the 0–5 scale. If you couldn't look the place up at all, omit `place` entirely — do not fabricate.
 
 These are secondary matter: the reader renders `context` as a muted line, `discussion` as a collapsible
 **Reactions** section, and `place` as a rating/map card with its review quotes — showing nothing when a

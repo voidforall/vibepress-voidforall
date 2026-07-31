@@ -84,6 +84,27 @@ Running an `mcp` source without a human in the loop needs two things in place:
 Either way it stays best-effort: if the server is down or unauthorized, the source is skipped and the
 paper publishes from its other sources.
 
+## Enrichment servers (`mcpServers`)
+
+An `mcp` **source** feeds the candidate pool (discovery). Some MCP servers are useful for the opposite
+end — **enriching/verifying** a story the agent already picked, e.g. a Google Maps server that returns a
+venue's real rating and reviews for a `place` card. Those aren't sources; declare them with the optional
+paper-level **`mcpServers`** array:
+
+```json
+{
+  "enrich": true,
+  "mcpServers": ["google-maps"],
+  "sources": [ { "type": "mcp", "server": "xiaohongshu-mcp", "tool": "search_feeds", "args": { … } } ]
+}
+```
+
+- `mcpServers` lists servers the agent may call during Step 4b enrichment (place ratings, fact-checks).
+- The runner authorizes them the same way as discovery sources: `run-edition.sh` unions the `mcp`
+  sources' servers with `mcpServers` and allowlists `mcp__<server>__*` for the run — only for a paper
+  that declares them.
+- A worked instance — true Google ratings — is in [`mcp-google-maps.md`](mcp-google-maps.md).
+
 ## Trust model (important)
 
 Configurable sources routinely bring in **user-generated content** — social posts, comments, reviews.
