@@ -63,6 +63,7 @@ jobs:
       # it must follow .vibepress/generate.md for the papers in ${{ steps.due.outputs.due }} and write
       # only data files. Everything around it (select/validate/report/commit/alert) is provider-neutral.
       - name: Generate today's editions
+        id: generate
         if: steps.due.outputs.due != ''
         uses: anthropics/claude-code-action@v1
         with:
@@ -82,8 +83,13 @@ jobs:
                 `python3 .vibepress/validate_edition.py <edition> <config> --manifest <manifest>`;
               - once it validates, record dedup memory with
                 `python3 .vibepress/update_seen.py <edition> papers/<slug>/seen.json --config <config>`.
-            Write data files only. Do NOT run git. If a paper yields no valid story, skip it
-            and leave its files unchanged.
+            Write data files only. Do NOT run git.
+            gather.py normally returns dozens of candidates for these papers; when it does, you
+            should be able to assemble an edition — a SHORTER edition is fine, but do not skip a
+            paper that has usable candidates. Only skip a paper when its material is genuinely
+            unusable: gather returned almost nothing AND you have no web-search results, or every
+            candidate is already in `recentlyCovered`. Never fabricate to avoid skipping. If you do
+            skip a paper, state the concrete reason (candidate counts + why) in your final message.
           claude_args: "--allowedTools Read,Edit,Write,WebSearch,WebFetch,Bash --max-turns 80"
 
       # Classify each paper (published / missing / invalid), stage the good ones, and write a
@@ -211,20 +217,28 @@ jobs:
             gh issue create --title "$title" --body "$body" || true
           fi
 
-      # Hard failure: papers were scheduled today but none published (total dry run or the generate
-      # step errored). Exiting non-zero turns the run red -> GitHub's native "run failed" email.
-      # A day where NO paper was scheduled is a quiet success, not a failure.
-      - name: Fail the run if a scheduled paper didn't publish
+      # Fail-safe outcome. Only a REAL breakage turns the run red: the editorial agent step itself
+      # failing (bad token, action crash, infra). A clean run that simply produced nothing — the
+      # agent fail-closing on every paper, or a genuinely no-news day — is NOT fatal: it's a warning
+      # plus the gap-alert tracking issue above (which already emails you), and the run stays green.
+      # A day where NO paper was scheduled is a quiet success. Rationale: a missing edition is
+      # recoverable and already surfaced; a red X for it is redundant alarm (see LIN-245).
+      - name: Report outcome (fail only on a real generate failure)
         if: always()
         run: |
           due="${{ steps.due.outputs.due }}"
           ok="${{ steps.report.outputs.ok }}"
+          gen="${{ steps.generate.outcome }}"   # success | failure | skipped
           if [ -z "$due" ]; then
             echo "no papers scheduled to publish today — nothing to do"
             exit 0
           fi
-          if [ "${ok:-0}" = "0" ]; then
-            echo "::error title=vibepress::papers were due today but none published — see the run summary"
+          if [ "$gen" = "failure" ]; then
+            echo "::error title=vibepress::the editorial agent step failed (infra/token/crash) — run is red on purpose"
             exit 1
+          fi
+          if [ "${ok:-0}" = "0" ]; then
+            echo "::warning title=vibepress::papers were due but none published today — the agent produced no valid edition (fail-closed). Tracked in the gap-alert issue; not failing the run."
+            exit 0
           fi
           echo "published ${ok} paper(s); missing:${{ steps.report.outputs.missing }}; invalid:${{ steps.report.outputs.invalid }}"
