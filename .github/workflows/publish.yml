@@ -113,7 +113,7 @@ jobs:
             echo "| --- | --- | --- |"
           } >> "$GITHUB_STEP_SUMMARY"
 
-          ok=0; missing=""; invalid=""
+          ok=0; missing=""; invalid=""; published=""
           for slug in ${DUE}; do
             cfg="papers/$slug/config.json"
             [ -e "$cfg" ] || continue
@@ -139,7 +139,7 @@ jobs:
               git add "$ed" "$man"
               [ -f "papers/$slug/seen.json" ] && git add "papers/$slug/seen.json" || true
               for tf in "papers/$slug/editions/$today".*.json; do [ -e "$tf" ] && git add "$tf"; done
-              ok=$((ok + 1))
+              ok=$((ok + 1)); published="$published $slug"
             else
               echo "| \`$slug\` | ❌ invalid | failed validation — reverted, not published |" >> "$GITHUB_STEP_SUMMARY"
               echo "::error title=vibepress $slug invalid::$vout"
@@ -171,6 +171,7 @@ jobs:
             echo "ok=$ok"
             echo "missing=$missing"
             echo "invalid=$invalid"
+            echo "published=$(echo $published | xargs || true)"
           } >> "$GITHUB_OUTPUT"
 
       - name: Commit and push
@@ -190,6 +191,22 @@ jobs:
             # so the credential actions/checkout set is no longer valid here.
             git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
           fi
+
+      # Optional, best-effort delivery. For each paper that published, POST a summary to a webhook
+      # if that paper opted in (config.delivery.webhook) and the URL secret is set. Cloud runs expose
+      # VIBEPRESS_WEBHOOK_URL / _TOKEN from repo secrets; a paper's urlEnv should name one of these.
+      # Failures here never fail the run (deliver.py is best-effort and each call is `|| true`).
+      - name: Deliver editions (best-effort webhook)
+        if: steps.report.outputs.published != ''
+        env:
+          VIBEPRESS_WEBHOOK_URL: ${{ secrets.VIBEPRESS_WEBHOOK_URL }}
+          VIBEPRESS_WEBHOOK_TOKEN: ${{ secrets.VIBEPRESS_WEBHOOK_TOKEN }}
+        run: |
+          [ -f .vibepress/deliver.py ] || { echo "no deliver.py — skipping"; exit 0; }
+          today="$(date -u +%F)"
+          for slug in ${{ steps.report.outputs.published }}; do
+            python3 .vibepress/deliver.py "papers/$slug/editions/$today.json" "papers/$slug/config.json" --slug "$slug" || true
+          done
 
       # Soft alert: some papers published, but at least one was missing/invalid. The good papers
       # are already live; open (or comment on) a dated tracking issue so the gap reaches you by
