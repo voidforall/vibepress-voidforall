@@ -1,0 +1,49 @@
+{
+  "id": "2026-08-01",
+  "date": "2026-08-01",
+  "generatedAt": "2026-08-01T09:12:48Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A quieter session for the watchlist: Alibaba jumped on a reported AI chip-supply deal it only half-confirmed, Rocket Lab picked up a slice of a shared $981M Space Force contract vehicle, gold and silver both slipped on a firmer dollar, and bitcoin closed out July still up on the month despite a rough few weeks. No confirmed news today on Duolingo or Alphabet beyond routine filings and analyst commentary.",
+  "stories": [
+    {
+      "headline": "Alibaba shares gain nearly 5% on reports Moonshot AI runs its Kimi models on a 20,000-chip Alibaba cluster",
+      "summary": "Alibaba stock rose about 5% to $122.28 after Bloomberg reported that Moonshot AI, in which Alibaba is a major investor, is running its 2.8-trillion-parameter Kimi K3 on roughly 20,000 Nvidia chips supplied through an Alibaba Cloud computing arrangement. Alibaba denied supplying H200 chips specifically, calling that claim 'completely groundless,' but did not deny the broader 20,000-chip arrangement.",
+      "whyItMatters": "It's evidence Alibaba's cloud business is quietly underwriting a competitor's AI models, an unusual investor-competitor dynamic investors are pricing as a cloud-demand positive.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Yahoo Finance: Alibaba shares rise on Moonshot's 20,000-chip AI deal", "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-shares-rise-moonshot-20-200611917.html" }
+      ]
+    },
+    {
+      "headline": "Rocket Lab named among 15 vendors on a $981M Space Force training-range contract vehicle",
+      "summary": "The U.S. Space Force awarded its NITE-STAR indefinite-delivery, indefinite-quantity contract — a five-year base plus one-year option worth up to $981 million in task orders through July 2032 — to 15 companies including Rocket Lab, Lockheed Martin, Northrop Grumman, and Boeing, to build satellites, sensors, and systems for the National Space Test and Training Complex.",
+      "whyItMatters": "The $981M is a shared ceiling across all 15 vendors, not a Rocket Lab-specific award, so any revenue depends on which task orders it later wins.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "SpaceNews: Space Force picks 15 companies for $981 million training range contract", "url": "https://spacenews.com/space-force-picks-15-companies-for-981-million-training-range-contract/" }
+      ]
+    },
+    {
+      "headline": "Gold and silver both slip as a firmer dollar delays Fed rate-cut bets",
+      "summary": "Gold fell 1.54% to $4,043/oz and silver dropped 2.18% to $57.79/oz as solid consumer-spending data and sticky inflation readings pushed the dollar to three-week highs, denting demand for non-yielding metals. Silver's steeper drop also reflected industrial-demand concerns; miners Fresnillo and Buenaventura shares fell on the combination of weaker metal prices and weaker local currencies.",
+      "whyItMatters": "Rate-cut timing, not a new supply or demand shock, is still the swing factor moving both metals.",
+      "category": "Commodities",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Rio Times: Gold & Silver Retreat as Dollar Firms; Mexico Miners Dip", "url": "https://www.riotimesonline.com/gold-silver-precious-metals-saturday-august-1-2026/" }
+      ]
+    },
+    {
+      "headline": "Bitcoin closes out July up about 7.5% despite a hawkish Fed, an AI-stock selloff, and a $38M hardware-wallet hack",
+      "summary": "Bitcoin ended July roughly 7.5% higher, holding near $63,000, after absorbing a stretch of shocks: rising bets on a Fed rate hike, a sharp AI-stock pullback, and a Coldcard hardware-wallet exploit that drained at least $38 million. Analysts note daily liquidations stayed well below this year's typical $400-500M range, since much of the market's leverage was already flushed out in a late-June selloff that took bitcoin below $58,000.",
+      "whyItMatters": "Lower leverage going into the month's shocks, not renewed bullishness, is the reason cited for the market absorbing them without a forced-selling cascade.",
+      "category": "Crypto",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "CoinDesk: Bitcoin (BTC) price's July gain survives hawkish Fed, AI meltdown and Coldcard fallout", "url": "https://www.coindesk.com/markets/2026/07/31/bitcoin-holds-onto-july-gain-as-forced-selling-fuel-was-already-spent-analysts-say" }
+      ]
+    }
+  ]
+}

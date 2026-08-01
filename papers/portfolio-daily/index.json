@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-08-01",
+      "date": "2026-08-01",
+      "headline": "Alibaba shares gain nearly 5% on reports Moonshot AI runs its Kimi models on a 20,000-chip Alibaba cluster",
+      "storyCount": 4
+    },
+    {
       "id": "2026-07-31",
       "date": "2026-07-31",
       "headline": "Rocket Lab signs its third iQPS multi-launch deal in a year, stock up over 9%",

@@ -1,0 +1,69 @@
+{
+  "id": "2026-08-01",
+  "date": "2026-08-01",
+  "generatedAt": "2026-08-01T09:12:48Z",
+  "editionTitle": "The Otaku Times",
+  "editorNote": "八月的片单口味齐全:《BLEACH 千年血战篇》终于迎来最终章,一部由网络漫画改编的时间旅行动作番,一部黑暗系异世界战争史诗,一段略带不安的黑暗奇幻恋爱故事,一部轻松惬意的潜水社喜剧,还有一位机智小武将的第二季。总有一款适合你这个月的心情。",
+  "stories": [
+    {
+      "headline": "本月焦点:《BLEACH 千年血战篇》迎来最终章",
+      "summary": "这部长篇少年漫改动画的最后一季,副标题为“-诀别谭-”,描绘了黑崎一护与最终反派虎彻力一之间的高潮对决,为这部业界最大的长篇故事之一画上句点。",
+      "whyItMatters": "如果你追了《BLEACH》多年,或只是看过千年血战篇的任意一部分,这一季就是所有伏笔揭晓的一季。",
+      "category": "本月焦点",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "CBR: The Most Anticipated Upcoming Anime of Summer 2026", "url": "https://www.cbr.com/most-anticipated-anime-summer-2026-list/" }
+      ]
+    },
+    {
+      "headline": "科幻:《盗墓之王》让主角穿越回十五年前",
+      "summary": "这是一部网络漫画改编作品,主角发现了一件能让他穿越回十五年前——也就是全球各地开始出现超自然墓穴之前——的神器。",
+      "whyItMatters": "写给赛博朋克与科幻爱好者:一个围绕改变世界的事件展开的时间旅行设定,原作是网络漫画而非传统漫画。",
+      "category": "科幻",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "CBR: The Most Anticipated Upcoming Anime of Summer 2026", "url": "https://www.cbr.com/most-anticipated-anime-summer-2026-list/" }
+      ]
+    },
+    {
+      "headline": "异世界与奇幻:《幼女战记》讲述一名转生少女在战场军阶中一路攀升",
+      "summary": "一部黑暗奇幻军事题材作品,讲述一名少女转生进入一个魔法横行的世界大战之中,并在帝国军队中一路晋升军阶。",
+      "whyItMatters": "写给异世界与奇幻爱好者中,想看更硬核战争史诗、而非温馨新生活的那部分读者。",
+      "category": "异世界与奇幻",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "CBR: 10 Best Summer 2026 Anime Series, So Far", "url": "https://www.cbr.com/best-summer-2026-anime-series-so-far/" }
+      ]
+    },
+    {
+      "headline": "心理向:《我想爱你直到你死去的那一天》讲述孤儿士兵与不死室友的故事",
+      "summary": "一部黑暗奇幻百合作品,讲述被训练成士兵的孤儿少女们的故事,主线围绕一位向往和平的学生,以及与她配对的那位不会死去的室友展开。",
+      "whyItMatters": "写给心理惊悚爱好者:一个建立在“士兵的世界”与“一个无法死去的角色”之间张力之上的设定。",
+      "category": "心理",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "CBR: 10 Best Summer 2026 Anime Series, So Far", "url": "https://www.cbr.com/best-summer-2026-anime-series-so-far/" }
+      ]
+    },
+    {
+      "headline": "温馨治愈:《Grand Blue 梦想潜水部》继续它的潜水部闹剧",
+      "summary": "一部喜剧作品,讲述大学生们与他们潜水社团的各种荒唐冒险。",
+      "whyItMatters": "写给想要低压力、以聚会日常为主、不太需要跟剧情的温馨治愈系观众。",
+      "category": "温馨治愈",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "CBR: 10 Best Summer 2026 Anime Series, So Far", "url": "https://www.cbr.com/best-summer-2026-anime-series-so-far/" }
+      ]
+    },
+    {
+      "headline": "本月焦点:《逃げ上手の若君》第二季回归,继续智取强敌",
+      "summary": "这部画风独特的武将题材动画继续讲述一位八岁贵族少年的故事,他依靠躲避与谋略、而非战斗实力来夺回自己的地位。",
+      "whyItMatters": "写给喜欢看主角靠智慧而非刀剑取胜的“以弱胜强”故事的读者。",
+      "category": "本月焦点",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "CBR: The Most Anticipated Upcoming Anime of Summer 2026", "url": "https://www.cbr.com/most-anticipated-anime-summer-2026-list/" }
+      ]
+    }
+  ]
+}

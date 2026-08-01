@@ -1,0 +1,49 @@
+{
+  "id": "2026-08-01",
+  "date": "2026-08-01",
+  "generatedAt": "2026-08-01T09:12:48Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今天关注列表整体走势平淡:阿里巴巴因一项尚未完全证实的芯片供应传闻而上涨,火箭实验室在一份共享的 9.81 亿美元太空军合同框架中占得一席之地,黄金和白银都因美元走强而下跌,比特币则在经历艰难数周后仍以月度上涨收官七月。今天没有关于 Duolingo 或 Alphabet 的确切消息,只有常规文件披露和分析师评论。",
+  "stories": [
+    {
+      "headline": "有报道称 Moonshot AI 借助阿里巴巴的 2 万块芯片集群运行其 Kimi 模型,阿里巴巴股价上涨近 5%",
+      "summary": "阿里巴巴股价上涨约 5%,报收 122.28 美元,此前彭博社报道称,阿里巴巴重点投资的 Moonshot AI 正在通过阿里云的一项算力安排,使用约 2 万块英伟达芯片运行其 2.8 万亿参数的 Kimi K3 模型。阿里巴巴否认向对方提供了 H200 芯片,称该说法“完全没有根据”,但并未否认更广泛的 2 万块芯片合作安排本身。",
+      "whyItMatters": "这表明阿里巴巴的云业务正在悄然为一家竞争对手的 AI 模型提供支持,这种投资者与竞争者兼具的关系较为罕见,市场将其视为云需求的利好信号。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Yahoo Finance: Alibaba shares rise on Moonshot's 20,000-chip AI deal", "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-shares-rise-moonshot-20-200611917.html" }
+      ]
+    },
+    {
+      "headline": "火箭实验室入选太空军 9.81 亿美元训练靶场合同的 15 家供应商之一",
+      "summary": "美国太空军授出了 NITE-STAR 不定期不定量合同——基础期五年、可选期一年,截至 2032 年 7 月总任务订单上限为 9.81 亿美元——授予包括火箭实验室、洛克希德·马丁、诺斯罗普·格鲁曼和波音在内的 15 家公司,用于为“国家太空测试与训练综合体”建造卫星、传感器及相关系统。",
+      "whyItMatters": "9.81 亿美元是 15 家供应商共享的合同上限,而非火箭实验室专属的合同金额,其实际收入取决于日后能拿到哪些具体任务订单。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "SpaceNews: Space Force picks 15 companies for $981 million training range contract", "url": "https://spacenews.com/space-force-picks-15-companies-for-981-million-training-range-contract/" }
+      ]
+    },
+    {
+      "headline": "美元走强推迟降息预期,黄金、白银同步下跌",
+      "summary": "黄金下跌 1.54%,报每盎司 4,043 美元;白银下跌 2.18%,报每盎司 57.79 美元。稳健的消费支出数据及顽固的通胀数据促使美元升至三周高点,削弱了这类无息资产的吸引力。白银跌幅更大,还叠加了工业需求方面的担忧;矿业公司 Fresnillo 和 Buenaventura 的股价也因金属价格走弱与当地货币贬值的双重打击而下跌。",
+      "whyItMatters": "推动两种贵金属走势的仍是降息时点的预期变化,而非新的供需冲击。",
+      "category": "大宗商品",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Rio Times: Gold & Silver Retreat as Dollar Firms; Mexico Miners Dip", "url": "https://www.riotimesonline.com/gold-silver-precious-metals-saturday-august-1-2026/" }
+      ]
+    },
+    {
+      "headline": "尽管美联储立场偏鹰、AI 股大幅回调,还发生了一起 3800 万美元的硬件钱包被盗事件,比特币七月仍上涨约 7.5% 收官",
+      "summary": "比特币七月上涨约 7.5%,收于 6.3 万美元附近,期间经受住了一连串冲击:市场上升的美联储加息预期、AI 股急剧回调,以及一起导致至少 3800 万美元被盗的 Coldcard 硬件钱包漏洞事件。分析师指出,日均清算规模仍远低于今年 4 亿至 5 亿美元的常见区间,原因是市场杠杆在六月末的一轮抛售中(比特币曾跌破 5.8 万美元)已经被大量出清。",
+      "whyItMatters": "分析指出,市场能够在本月的冲击中未引发被迫抛售的连锁反应,原因在于此前杠杆水平已经降低,而非市场重新转向乐观。",
+      "category": "加密货币",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "CoinDesk: Bitcoin (BTC) price's July gain survives hawkish Fed, AI meltdown and Coldcard fallout", "url": "https://www.coindesk.com/markets/2026/07/31/bitcoin-holds-onto-july-gain-as-forced-selling-fuel-was-already-spent-analysts-say" }
+      ]
+    }
+  ]
+}

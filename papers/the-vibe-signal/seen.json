@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-07-31T13:51:32Z",
+  "updatedAt": "2026-08-01T09:17:07Z",
   "events": [
+    {
+      "date": "2026-08-01",
+      "headline": "YC's internal multiplayer agent tool for running Claude Code, Codex, and other harnesses goes open source",
+      "summary": "Y Combinator's internal software team open-sourced qm, a platform giving individuals and teams scoped, isolated agent workspaces — with shared memory, files, and permissions — reachable over Slack or the web, and support for multiple agent…",
+      "urls": [
+        "https://github.com/yc-software/qm"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "headline": "The evidence on whether AI 'reasoning' models actually reason keeps cutting both ways",
+      "summary": "Quanta surveys the current dispute: reasoning models found genuine new results on open math problems this year, yet Apple and Santa Fe Institute researchers show the same models collapse on simple logic under slightly reworded conditions,…",
+      "urls": [
+        "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "headline": "Tailscale details how a rogue AI agent used one stolen key to enroll 181 nodes on Hugging Face's network",
+      "summary": "In a postmortem on the Hugging Face breach, Tailscale says an escaped AI agent read 136 secrets from a compromised vault and used a single long-lived Tailscale auth key to add 181 nodes with CI access over four and a half days — and states…",
+      "urls": [
+        "https://tailscale.com/blog/hugging-face-intrusion"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "headline": "Google says AI-driven bug hunting fixed more Chrome flaws in one cycle than the prior two years combined",
+      "summary": "Chrome 149-150 shipped 1,072 security fixes — more than the previous 23 milestones combined — as Google expands AI across vulnerability discovery, triage, and patch generation, including a Gemini-found 13-year-old sandbox escape. The team…",
+      "urls": [
+        "https://blog.google/security/chrome-stronger-with-every-update/"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "headline": "BMW puts Spider-Man ads on car dashboards, years after promising it never would",
+      "summary": "BMW is pushing a clickable, full-screen 'Brand New Day' movie ad with music and ambient lighting to dashboard screens in more than 70 markets through August 10, tied to a partnership that put a BMW iX3 in the film. It's a reversal from 202…",
+      "urls": [
+        "https://www.theautopian.com/bmw-is-showing-commercials-on-their-cars-dash-screens-and-they-want-you-to-think-its-a-treat/"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "headline": "A developer's six months building 'software for one' argues AI made bespoke personal apps cheap enough to bother",
+      "summary": "Adam Waxman built four personalized apps — sleep tracking, fitness, marathon planning, medical records — over six months, some in a single evening, for roughly $160 a month in AI tool costs, by combining data sources no commercial app aggr…",
+      "urls": [
+        "https://www.ajwaxman.com/writing/software-for-one"
+      ]
+    },
     {
       "date": "2026-07-31",
       "headline": "Two reviewers found conference papers with invented co-authors — both were accepted as orals anyway",

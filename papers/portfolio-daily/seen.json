@@ -1,7 +1,39 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-07-31T13:48:26Z",
+  "updatedAt": "2026-08-01T09:17:07Z",
   "events": [
+    {
+      "date": "2026-08-01",
+      "headline": "Rocket Lab named among 15 vendors on a $981M Space Force training-range contract vehicle",
+      "summary": "The U.S. Space Force awarded its NITE-STAR indefinite-delivery, indefinite-quantity contract — a five-year base plus one-year option worth up to $981 million in task orders through July 2032 — to 15 companies including Rocket Lab, Lockheed…",
+      "urls": [
+        "https://spacenews.com/space-force-picks-15-companies-for-981-million-training-range-contract/"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "headline": "Gold and silver both slip as a firmer dollar delays Fed rate-cut bets",
+      "summary": "Gold fell 1.54% to $4,043/oz and silver dropped 2.18% to $57.79/oz as solid consumer-spending data and sticky inflation readings pushed the dollar to three-week highs, denting demand for non-yielding metals. Silver's steeper drop also refl…",
+      "urls": [
+        "https://www.riotimesonline.com/gold-silver-precious-metals-saturday-august-1-2026/"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "headline": "Bitcoin closes out July up about 7.5% despite a hawkish Fed, an AI-stock selloff, and a $38M hardware-wallet hack",
+      "summary": "Bitcoin ended July roughly 7.5% higher, holding near $63,000, after absorbing a stretch of shocks: rising bets on a Fed rate hike, a sharp AI-stock pullback, and a Coldcard hardware-wallet exploit that drained at least $38 million. Analyst…",
+      "urls": [
+        "https://www.coindesk.com/markets/2026/07/31/bitcoin-holds-onto-july-gain-as-forced-selling-fuel-was-already-spent-analysts-say"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "headline": "Alibaba shares gain nearly 5% on reports Moonshot AI runs its Kimi models on a 20,000-chip Alibaba cluster",
+      "summary": "Alibaba stock rose about 5% to $122.28 after Bloomberg reported that Moonshot AI, in which Alibaba is a major investor, is running its 2.8-trillion-parameter Kimi K3 on roughly 20,000 Nvidia chips supplied through an Alibaba Cloud computin…",
+      "urls": [
+        "https://finance.yahoo.com/technology/ai/articles/alibaba-shares-rise-moonshot-20-200611917.html"
+      ]
+    },
     {
       "date": "2026-07-31",
       "headline": "Rocket Lab signs its third iQPS multi-launch deal in a year, stock up over 9%",

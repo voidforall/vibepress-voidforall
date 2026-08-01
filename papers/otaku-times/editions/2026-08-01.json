@@ -1,0 +1,69 @@
+{
+  "id": "2026-08-01",
+  "date": "2026-08-01",
+  "generatedAt": "2026-08-01T09:12:48Z",
+  "editionTitle": "The Otaku Times",
+  "editorNote": "August's picks run the full range: Bleach's Thousand-Year Blood War finally reaching its climax, a webtoon-turned-anime time-travel actioner, a dark isekai war epic, a quietly unsettling dark-fantasy romance, a laid-back diving comedy, and a scrappy child strategist's second season. Something for every reader theme this month.",
+  "stories": [
+    {
+      "headline": "This Month: Bleach: Thousand-Year Blood War reaches its final act",
+      "summary": "The long-running shonen's last season, subtitled -The Calamity-, depicts the climactic battle between Ichigo Kurosaki and antagonist Yhwach, closing out one of the genre's biggest sagas.",
+      "whyItMatters": "If you've followed Bleach for years, or any part of the Blood War arc, this is the season where it all resolves.",
+      "category": "This Month",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "CBR: The Most Anticipated Upcoming Anime of Summer 2026", "url": "https://www.cbr.com/most-anticipated-anime-summer-2026-list/" }
+      ]
+    },
+    {
+      "headline": "Sci-Fi: Tomb Raider King sends its hero fifteen years into the past",
+      "summary": "A webtoon adaptation whose protagonist discovers a relic that lets him travel back fifteen years — to before supernatural tombs began appearing worldwide.",
+      "whyItMatters": "For the cyberpunk & sci-fi crowd: a time-travel premise built around a world-altering event, from a webtoon original rather than a manga.",
+      "category": "Sci-Fi",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "CBR: The Most Anticipated Upcoming Anime of Summer 2026", "url": "https://www.cbr.com/most-anticipated-anime-summer-2026-list/" }
+      ]
+    },
+    {
+      "headline": "Isekai & Fantasy: Saga of Tanya the Evil follows a reincarnated girl up a wartime chain of command",
+      "summary": "A dark fantasy military series about a girl reincarnated into a magic-infused world war, climbing the ranks of an imperial army.",
+      "whyItMatters": "For isekai & fantasy fans who want their reincarnation story with a harder, war-epic edge instead of a cozy new life.",
+      "category": "Isekai & Fantasy",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "CBR: 10 Best Summer 2026 Anime Series, So Far", "url": "https://www.cbr.com/best-summer-2026-anime-series-so-far/" }
+      ]
+    },
+    {
+      "headline": "Psychological: I Want to Love You Till Your Dying Day pairs orphaned soldiers with an immortal roommate",
+      "summary": "A dark fantasy yuri about orphaned girls trained as soldiers, centered on a peace-loving student and the immortal roommate she's paired with.",
+      "whyItMatters": "For psychological-thriller readers: a premise built on the tension between a soldier's world and a character who can't die in it.",
+      "category": "Psychological",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "CBR: 10 Best Summer 2026 Anime Series, So Far", "url": "https://www.cbr.com/best-summer-2026-anime-series-so-far/" }
+      ]
+    },
+    {
+      "headline": "Wholesome: Grand Blue Dreaming keeps its diving-club chaos going",
+      "summary": "A comedy series following college students and their diving club's misadventures.",
+      "whyItMatters": "For cozy & wholesome viewers who want low-stakes, hangout-heavy comedy over anything with a plot to follow.",
+      "category": "Wholesome",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "CBR: 10 Best Summer 2026 Anime Series, So Far", "url": "https://www.cbr.com/best-summer-2026-anime-series-so-far/" }
+      ]
+    },
+    {
+      "headline": "This Month: The Elusive Samurai returns for a second season of outsmarting the enemy",
+      "summary": "The visually distinctive samurai series continues following an eight-year-old noble who relies on evasion tactics rather than combat strength to reclaim his position.",
+      "whyItMatters": "A pick for readers who like their underdog stories won with wits rather than swordplay.",
+      "category": "This Month",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "CBR: The Most Anticipated Upcoming Anime of Summer 2026", "url": "https://www.cbr.com/most-anticipated-anime-summer-2026-list/" }
+      ]
+    }
+  ]
+}
