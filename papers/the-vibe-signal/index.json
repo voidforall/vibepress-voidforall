@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-08-02",
+      "date": "2026-08-02",
+      "headline": "A Lean kernel bug let someone 'disprove' the Collatz conjecture — patched within the hour",
+      "storyCount": 6
+    },
+    {
       "id": "2026-08-01",
       "date": "2026-08-01",
       "headline": "Google says AI-driven bug hunting fixed more Chrome flaws in one cycle than the prior two years combined",

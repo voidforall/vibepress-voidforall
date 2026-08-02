@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-01T09:17:07Z",
+  "updatedAt": "2026-08-02T09:17:07Z",
   "events": [
+    {
+      "date": "2026-08-02",
+      "headline": "NetBSD 11.0 ships after a delay, citing an AI-driven surge in security reports",
+      "summary": "NetBSD 11.0 released August 1 after a lengthy delay the project attributes partly to 'the number of security issues found or suspected everywhere' increasing 'with the advent of AI tools.' The team shipped anyway, disclosing three unresolv…",
+      "urls": [
+        "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released"
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "headline": "MIT study: AI financial advice is good, but the wealth gap depends on how well you ask",
+      "summary": "MIT Sloan and Stanford researchers had 1,000 adults write their own prompts for financial advice from GPT-5.2, GPT-5.6, and Gemini 3 Flash, then simulated lifetime outcomes; the models consistently pushed saving, diversification, and age-a…",
+      "urls": [
+        "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions"
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "headline": "Linux desktop share in North America 'doubles' to 10.65% — mostly a measurement artifact",
+      "summary": "Statcounter's July 2026 figures put Linux desktop usage in North America at 10.65%, up from 5.52% in June. But June's data also carried an 'Unknown' category at 9.24% that shrank as Linux's share rose, suggesting the jump is largely reclas…",
+      "urls": [
+        "https://linuxiac.com/linux-desktop-market-share-surpasses-10-in-north-america/"
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "headline": "ByteDance ships Seedance 2.5, doubling single-pass video generation to 30 seconds",
+      "summary": "ByteDance's Seedance 2.5 extends single-pass video generation from 15 to 30 seconds with multi-round extensions for longer sequences, and accepts up to 30 images, 10 video clips, and 10 audio clips as reference material with timestamp-leve…",
+      "urls": [
+        "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "headline": "AMD's MI355X beats Nvidia's B300 on tokens-per-dollar running Kimi K3, inference startup finds",
+      "summary": "Wafer AI reports its MI355X deployment of the 2.8T-parameter Kimi K3 hits 48 tokens/sec per dollar versus 33 for Nvidia's B300, despite lower peak throughput, because the AMD chip costs roughly 2.4x less per GPU while matching its 288GB VR…",
+      "urls": [
+        "https://www.wafer.ai/blog/kimi-k3-mi355x"
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "headline": "A Lean kernel bug let someone 'disprove' the Collatz conjecture — patched within the hour",
+      "summary": "On July 25, an AI-assisted proof claiming to disprove the Collatz conjecture in Lean 4 turned out to exploit a kernel bug: nested inductive types with unused 'phantom' parameters could vanish during elimination, letting ill-typed arguments…",
+      "urls": [
+        "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/"
+      ]
+    },
     {
       "date": "2026-08-01",
       "headline": "YC's internal multiplayer agent tool for running Claude Code, Codex, and other harnesses goes open source",

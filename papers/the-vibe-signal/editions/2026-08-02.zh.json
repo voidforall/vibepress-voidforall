@@ -1,0 +1,69 @@
+{
+  "id": "2026-08-02",
+  "date": "2026-08-02",
+  "generatedAt": "2026-08-02T09:14:29Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天最有意思的不是一次新品发布:一个 Lean 内核漏洞让人得以发表一份 AI 辅助的“反证”,声称推翻了 Collatz 猜想,但它其实在类型检查层面就是错的,漏洞在一小时内被修复。与此同时,字节跳动和一家专注 AMD 的推理公司都在说明,模型质量与基础设施经济性是两场独立的比赛;一份 Statcounter 图表引来的注解比标题还多;麻省理工的研究者发现,AI 理财建议确实有效——除非你不知道该怎么问。",
+  "stories": [
+    {
+      "headline": "一个 Lean 内核漏洞让人“反证”了 Collatz 猜想——一小时内被修复",
+      "summary": "7 月 25 日,一份声称在 Lean 4 中反证 Collatz 猜想的 AI 辅助证明,最终被发现是利用了一个内核漏洞:带有未使用“幻影参数”的嵌套归纳类型会在消去过程中让该参数消失,使类型不匹配的参数绕过类型检查、证明出 False。Kiran Gopinathan 于 7 月 28 日将其简化为一个最小反例,Lean 首席开发者 Leonardo de Moura 的团队在一小时内发布修复,后续还将加固内核。",
+      "whyItMatters": "这是可信内核中的一个实现漏洞,而非 Lean 底层逻辑本身的漏洞,但它尖锐地提醒人们:AI 生成的“证明”,其可信度取决于验证它的检查器本身是否可靠。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Leonardo de Moura: Postmortem for Kernel Soundness Bug #14576", "url": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/" }
+      ]
+    },
+    {
+      "headline": "字节跳动发布 Seedance 2.5,单次生成视频时长翻倍至 30 秒",
+      "summary": "字节跳动的 Seedance 2.5 将单次生成的视频时长从 15 秒延长至 30 秒,并支持多轮续写以生成更长的片段;它还可接受最多 30 张图片、10 段视频片段和 10 段音频作为参考素材,并支持时间戳级别的编辑控制。该模型已在即梦 AI 和豆包 Pro 上线,BytePlus ModelArk 的 API 接入即将推出;字节跳动未公布针对同类视频模型的基准对比数据。",
+      "whyItMatters": "更长的单次生成时长加上多模态参考能力,让视频模型从“依据提示词生成一段片段”朝“依据已有素材拼接场景”迈进了一步。",
+      "category": "技术",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "ByteDance Seed: One-Take Creation, Flexible Referencing — Introducing Seedance 2.5", "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5" }
+      ]
+    },
+    {
+      "headline": "运行 Kimi K3 时,AMD MI355X 单位美元算力表现优于英伟达 B300,一家推理初创公司称",
+      "summary": "Wafer AI 报告称,其在 MI355X 上部署的 2.8 万亿参数 Kimi K3 模型达到每秒每美元 48 个 token,而英伟达 B300 为 33 个,尽管前者峰值吞吐更低,但 AMD 芯片单卡成本低约 2.4 倍,同时显存规格同为 288GB 级别。Wafer 认为 AMD 对 Kimi K3 的“首日支持”省去了通常的框架适配工作,并主张随着模型规模增长,显存容量而非原始算力速度正成为真正的瓶颈。",
+      "whyItMatters": "这是厂商自行发布的基准测试,而非独立测评,但它为“CUDA 护城河正在被侵蚀”这一论点提供了一个具体的经济数据点,而非又一张厂商路线图幻灯片。",
+      "category": "商业",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Wafer AI: Running Kimi K3 on MI355X at Better Performance per Dollar Than B300", "url": "https://www.wafer.ai/blog/kimi-k3-mi355x" }
+      ]
+    },
+    {
+      "headline": "麻省理工研究:AI 理财建议确实不错,但贫富差距取决于你会不会提问",
+      "summary": "麻省理工斯隆管理学院与斯坦福的研究者让 1,000 名成年人自行撰写提示词,向 GPT-5.2、GPT-5.6 和 Gemini 3 Flash 寻求理财建议,再模拟其终身财务结果;这些模型普遍会建议储蓄、分散投资并随年龄增长降低风险,但在应对失业等冲击时调整不足,且过度依赖简单的再平衡经验法则。由男性或具备理财知识的用户撰写的提示词,预计到 60 岁时能带来比平均水平多约 5 万美元的财富积累,而不熟悉 AI 的用户预计退休储蓄将损失近 10 万美元。",
+      "whyItMatters": "建议质量的差距源于人们提问的方式,而非模型本身,这意味着同一款免费工具,会因使用者的不同而扩大或缩小财务结果上的差距。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "MIT Sloan: AI financial advice is surprisingly good, especially if you ask right questions", "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions" }
+      ]
+    },
+    {
+      "headline": "NetBSD 11.0 延期后发布,称原因之一是 AI 驱动的安全报告激增",
+      "summary": "NetBSD 11.0 于 8 月 1 日发布,此前经历了长时间延期,项目方将部分原因归结为“随着 AI 工具的出现”,“各处发现或疑似存在的安全问题数量大幅增加”。团队最终选择如期发布,并披露了三个尚未解决的问题——hdaudio(4) 缺少权限检查、IPFilter 存在空指针漏洞、Packet Filter 的分片重组存在释放后使用漏洞(后两者默认未启用)——修复计划在约两个月后的 11.1 版本中完成。",
+      "whyItMatters": "这是一个规模不大但异常坦诚的案例:项目方选择在披露已知、范围明确的问题后如期发布,而不是为追赶被 AI 放大的漏洞队列而继续延期。",
+      "category": "技术",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "NetBSD Blog: NetBSD 11.0 released", "url": "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released" }
+      ]
+    },
+    {
+      "headline": "北美 Linux 桌面份额“翻倍”至 10.65%——很大程度上是统计口径问题",
+      "summary": "Statcounter 2026 年 7 月数据显示,Linux 在北美的桌面使用份额达到 10.65%,高于 6 月的 5.52%。但 6 月数据中还有一个占比 9.24% 的“未知”类别,其占比的下降恰好与 Linux 份额的上升同步,这表明这次跃升在很大程度上是流量被重新归类的结果,而非大量用户涌入 Linux。",
+      "whyItMatters": "这个数字正被当作 Linux 的突破性时刻广为传播,但底层数据并不支持“一个月内数百万人转向 Linux”的说法——它支持的其实是 Statcounter 对已有流量做了更好的归因。",
+      "category": "商业",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "Linuxiac: Linux Desktop Market Share Surpasses 10% in North America", "url": "https://linuxiac.com/linux-desktop-market-share-surpasses-10-in-north-america/" }
+      ]
+    }
+  ]
+}

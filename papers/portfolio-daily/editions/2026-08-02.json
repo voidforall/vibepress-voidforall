@@ -1,0 +1,29 @@
+{
+  "id": "2026-08-02",
+  "date": "2026-08-02",
+  "generatedAt": "2026-08-02T09:14:29Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A thin news day for the watchlist: the main developments were the Coldcard bitcoin-wallet exploit continuing to widen rather than get contained, and a fresh World Gold Council report showing central banks bought gold at a record pace in Q2 even as the price fell. No confirmed news today on Alibaba, Duolingo, Rocket Lab, or Alphabet beyond routine analyst commentary and stories already covered this week.",
+  "stories": [
+    {
+      "headline": "Coldcard wallet attack widens to 4,585 addresses and nearly $89M in stolen bitcoin",
+      "summary": "A third wave of thefts exploiting a 2021 Coldcard firmware flaw drained roughly 208 BTC from 1,912 addresses over the weekend, per Galaxy Research, bringing the campaign's total to about 1,367 BTC (~$89M) from 4,585 addresses since it began Thursday. The bug let a March 2021 firmware build fall back to software-based key generation seeded from a device's serial number and clock, letting an attacker reproduce private keys offline without ever touching the physical device.",
+      "whyItMatters": "The average theft per address has fallen with each wave, suggesting the highest-value vulnerable wallets have already been swept and the remaining exposure is smaller but not zero.",
+      "category": "Crypto",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "CoinDesk: Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million", "url": "https://www.coindesk.com/tech/2026/08/02/bitcoin-cold-wallet-attack-spreads-to-4-500-addresses-as-losses-near-usd89-million" }
+      ]
+    },
+    {
+      "headline": "Central banks bought gold at a record Q2 pace even as its price fell 16%",
+      "summary": "The World Gold Council's Q2 2026 report shows central banks bought 289 tonnes of gold, a 62% jump from a year earlier and the strongest second quarter on record, led by Poland (51 tonnes) and China (33 tonnes, its largest quarterly add since Q4 2023). The buying came during gold's worst quarterly price performance since 2013, a roughly 16% drop, while Russia was the quarter's largest seller as it works to plug a budget deficit.",
+      "whyItMatters": "Central banks kept accumulating through the price decline rather than pausing, evidence the buying is a structural reserve shift rather than a bet on near-term price gains.",
+      "category": "Commodities",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "World Gold Council: Gold Demand Trends Q2 2026 — Central Banks", "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026/central-banks" }
+      ]
+    }
+  ]
+}

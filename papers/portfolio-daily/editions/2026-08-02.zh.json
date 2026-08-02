@@ -1,0 +1,29 @@
+{
+  "id": "2026-08-02",
+  "date": "2026-08-02",
+  "generatedAt": "2026-08-02T09:14:29Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今天关注列表的消息相对清淡:主要动态是 Coldcard 比特币钱包漏洞攻击持续扩大而非得到遏制,以及世界黄金协会最新报告显示,尽管金价下跌,各国央行第二季度仍以创纪录速度购金。今天没有关于阿里巴巴、Duolingo、火箭实验室或 Alphabet 的确切消息,只有常规分析师评论以及本周已报道过的内容。",
+  "stories": [
+    {
+      "headline": "Coldcard 钱包攻击扩大至 4,585 个地址,被盗比特币近 8,900 万美元",
+      "summary": "据 Galaxy Research 消息,利用 2021 年 Coldcard 固件漏洞发起的第三波盗窃,在周末从 1,912 个地址中卷走约 208 枚比特币,使这场自周四开始的攻击活动总计从 4,585 个地址盗走约 1,367 枚比特币(约合 8,900 万美元)。该漏洞源于一个 2021 年 3 月的固件版本会回退至基于软件的密钥生成方式,种子取自设备序列号和时钟,使攻击者无需接触实体设备即可离线还原私钥。",
+      "whyItMatters": "每一波攻击的平均单地址被盗金额都在下降,说明价值最高的易受攻击钱包已被扫荡殆尽,剩余风险敞口虽变小但并未清零。",
+      "category": "加密货币",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "CoinDesk: Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million", "url": "https://www.coindesk.com/tech/2026/08/02/bitcoin-cold-wallet-attack-spreads-to-4-500-addresses-as-losses-near-usd89-million" }
+      ]
+    },
+    {
+      "headline": "尽管金价下跌 16%,各国央行第二季度购金量仍创新高",
+      "summary": "世界黄金协会 2026 年第二季度报告显示,各国央行共购入 289 吨黄金,同比增长 62%,创下历史同期最高纪录,其中波兰(51 吨)和中国(33 吨,为 2023 年第四季度以来最大单季增持)领跑。这轮购金发生在金价录得自 2013 年以来最差单季表现(下跌约 16%)期间;同期俄罗斯是最大卖家,借此弥补财政赤字。",
+      "whyItMatters": "各国央行在金价下跌期间仍持续增持而非暂停买入,表明这是一种结构性的储备调整,而非押注短期金价上涨。",
+      "category": "大宗商品",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "World Gold Council: Gold Demand Trends Q2 2026 — Central Banks", "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026/central-banks" }
+      ]
+    }
+  ]
+}

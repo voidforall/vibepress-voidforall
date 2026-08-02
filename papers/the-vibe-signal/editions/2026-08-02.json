@@ -1,0 +1,69 @@
+{
+  "id": "2026-08-02",
+  "date": "2026-08-02",
+  "generatedAt": "2026-08-02T09:14:29Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "The most interesting story today isn't a launch: a Lean kernel bug let someone publish an AI-assisted 'disproof' of the Collatz conjecture that was wrong at the type-checker level, patched within the hour. Around it, ByteDance and an AMD-focused inference shop both make the case that model quality and infrastructure economics are separate races, a Statcounter chart gets more caveats than headline, and MIT researchers find AI financial advice works — unless you don't know how to ask.",
+  "stories": [
+    {
+      "headline": "A Lean kernel bug let someone 'disprove' the Collatz conjecture — patched within the hour",
+      "summary": "On July 25, an AI-assisted proof claiming to disprove the Collatz conjecture in Lean 4 turned out to exploit a kernel bug: nested inductive types with unused 'phantom' parameters could vanish during elimination, letting ill-typed arguments slip past the type checker to prove False. Kiran Gopinathan reduced it to a minimal case on July 28, and lead developer Leonardo de Moura's team shipped a fix within an hour, with kernel hardening to follow.",
+      "whyItMatters": "It's an implementation bug in the trusted kernel, not a hole in Lean's underlying logic, but it's a sharp reminder that AI-generated 'proofs' are only as trustworthy as the checker verifying them.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Leonardo de Moura: Postmortem for Kernel Soundness Bug #14576", "url": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/" }
+      ]
+    },
+    {
+      "headline": "ByteDance ships Seedance 2.5, doubling single-pass video generation to 30 seconds",
+      "summary": "ByteDance's Seedance 2.5 extends single-pass video generation from 15 to 30 seconds with multi-round extensions for longer sequences, and accepts up to 30 images, 10 video clips, and 10 audio clips as reference material with timestamp-level editing control. It's rolling out now on Jimeng AI and Doubao Pro, with API access via BytePlus ModelArk coming soon; ByteDance published no benchmark comparisons against rival video models.",
+      "whyItMatters": "Longer single-pass generation with multimodal referencing moves video models closer to assembling a scene from existing footage rather than just generating a clip from a prompt.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "ByteDance Seed: One-Take Creation, Flexible Referencing — Introducing Seedance 2.5", "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5" }
+      ]
+    },
+    {
+      "headline": "AMD's MI355X beats Nvidia's B300 on tokens-per-dollar running Kimi K3, inference startup finds",
+      "summary": "Wafer AI reports its MI355X deployment of the 2.8T-parameter Kimi K3 hits 48 tokens/sec per dollar versus 33 for Nvidia's B300, despite lower peak throughput, because the AMD chip costs roughly 2.4x less per GPU while matching its 288GB VRAM class. Wafer credits AMD's day-0 support for Kimi K3 with avoiding the usual framework porting work, and argues that as models grow, memory capacity — not raw compute speed — is becoming the binding constraint.",
+      "whyItMatters": "It's a vendor-published benchmark, not an independent one, but it's a concrete economic data point for the 'CUDA moat is eroding' argument rather than another vendor's roadmap slide.",
+      "category": "Business",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Wafer AI: Running Kimi K3 on MI355X at Better Performance per Dollar Than B300", "url": "https://www.wafer.ai/blog/kimi-k3-mi355x" }
+      ]
+    },
+    {
+      "headline": "MIT study: AI financial advice is good, but the wealth gap depends on how well you ask",
+      "summary": "MIT Sloan and Stanford researchers had 1,000 adults write their own prompts for financial advice from GPT-5.2, GPT-5.6, and Gemini 3 Flash, then simulated lifetime outcomes; the models consistently pushed saving, diversification, and age-appropriate risk reduction, but adjusted poorly to shocks like unemployment and leaned on simplistic rebalancing rules. Prompts from men or financially literate users produced advice projected to yield about $50,000 more wealth by age 60 than average, while users unfamiliar with AI lost nearly $100,000 in projected retirement savings.",
+      "whyItMatters": "The advice quality gap comes from how people prompt, not from the model itself, meaning the same free tool can widen or narrow financial outcomes depending on who's using it.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "MIT Sloan: AI financial advice is surprisingly good, especially if you ask right questions", "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions" }
+      ]
+    },
+    {
+      "headline": "NetBSD 11.0 ships after a delay, citing an AI-driven surge in security reports",
+      "summary": "NetBSD 11.0 released August 1 after a lengthy delay the project attributes partly to 'the number of security issues found or suspected everywhere' increasing 'with the advent of AI tools.' The team shipped anyway, disclosing three unresolved issues — a missing privilege check in hdaudio(4), a null-pointer bug in IPFilter, and a use-after-free in Packet Filter's fragment reassembly (the latter two off by default) — with fixes targeted for a 11.1 release in about two months.",
+      "whyItMatters": "It's a small, unusually candid example of a project choosing to ship with known, scoped issues disclosed rather than delay further chasing an AI-inflated bug queue.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "NetBSD Blog: NetBSD 11.0 released", "url": "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released" }
+      ]
+    },
+    {
+      "headline": "Linux desktop share in North America 'doubles' to 10.65% — mostly a measurement artifact",
+      "summary": "Statcounter's July 2026 figures put Linux desktop usage in North America at 10.65%, up from 5.52% in June. But June's data also carried an 'Unknown' category at 9.24% that shrank as Linux's share rose, suggesting the jump is largely reclassified traffic rather than a wave of new Linux users.",
+      "whyItMatters": "The headline number is being shared as a Linux breakout moment, but the underlying data doesn't support 'millions switched in a month' — it supports better attribution of traffic Statcounter was already seeing.",
+      "category": "Business",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "Linuxiac: Linux Desktop Market Share Surpasses 10% in North America", "url": "https://linuxiac.com/linux-desktop-market-share-surpasses-10-in-north-america/" }
+      ]
+    }
+  ]
+}
