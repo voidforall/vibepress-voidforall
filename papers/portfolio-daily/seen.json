@@ -1,7 +1,47 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-02T09:17:07Z",
+  "updatedAt": "2026-08-04T09:46:45Z",
   "events": [
+    {
+      "date": "2026-08-04",
+      "headline": "Strategy sells another 1,638 bitcoin to fund STRC buybacks and cash reserve",
+      "summary": "Strategy sold 1,638 BTC for $104.7 million and raised $290.6 million issuing common shares, using the combined $395 million to repurchase 912,143 STRC preferred shares for $81.2 million, fund preferred dividends, and add $250 million to it…",
+      "urls": [
+        "https://www.coindesk.com/markets/2026/08/03/strategy-sold-another-usd105-million-of-bitcoin-last-week-repurchased-usd81-2-million-of-strc"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "headline": "Gold slips toward $4,071 as a paused Iran airstrike eases the war premium",
+      "summary": "Gold futures opened 0.7% higher at $4,135.20 on Monday after President Trump said the U.S. would pause planned airstrikes on Iran, but prices retreated through the day to around $4,071-4,111 as Iran said it was not directly negotiating wit…",
+      "urls": [
+        "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-3-2026-gold-prices-open-higher-after-us-pauses-planned-airstrikes-121655731.html"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "headline": "Coldcard hack losses climb past $100M as a fourth wave hits",
+      "summary": "The Coldcard hardware-wallet exploit has now drained a confirmed 1,596 BTC (over $100M) from roughly 7,300 addresses across three confirmed waves and 14 smaller incidents, up sharply from the ~$89M and 4,585 addresses reported over the wee…",
+      "urls": [
+        "https://www.cryptotimes.io/2026/08/04/coldcard-hack-losses-hit-100m-with-1596-btc-stolen/"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "headline": "Alphabet shares jump 5% as Morgan Stanley defends its AI capex",
+      "summary": "Alphabet stock rose 5.1% Monday after Morgan Stanley analysts told clients the company's raised 2026 capex forecast of $195-205 billion is justified, pointing to $53.3 billion in trailing-12-month free cash flow and financing options inclu…",
+      "urls": [
+        "https://www.fool.com/investing/2026/08/03/why-alphabet-stock-popped-today/"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "headline": "Alibaba unveils 2.4-trillion-parameter Qwen3.8-Max, shares jump as much as 7%",
+      "summary": "Alibaba introduced Qwen3.8-Max, a sparse mixture-of-experts model with 2.4 trillion total parameters (95 billion active) and a 1-million-token context window, saying it beat rival Moonshot's Kimi K3 on several coding and multimodal benchma…",
+      "urls": [
+        "https://www.forbes.com/sites/gabrielalinzainescu/2026/08/03/alibaba-unveils-its-largest-ai-model-yet-as-china-closes-the-gap/"
+      ]
+    },
     {
       "date": "2026-08-02",
       "headline": "Coldcard wallet attack widens to 4,585 addresses and nearly $89M in stolen bitcoin",

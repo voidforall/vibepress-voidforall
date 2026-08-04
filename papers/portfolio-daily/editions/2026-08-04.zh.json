@@ -1,0 +1,59 @@
+{
+  "id": "2026-08-04",
+  "date": "2026-08-04",
+  "generatedAt": "2026-08-04T00:00:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "阿里巴巴发布迄今最大的AI模型,成为今日关注列表的焦点;Alphabet则在分析师力挺其资本开支计划后,收复了财报后的失地。加密货币方面,Strategy 继续出售比特币以为回购提供资金,而 Coldcard 钱包漏洞攻击规模已远超周末的统计。黄金价格因伊朗空袭计划暂缓而短暂回落风险溢价,在涨跌之间波动。",
+  "stories": [
+    {
+      "headline": "阿里巴巴发布2.4万亿参数的Qwen3.8-Max,股价一度大涨7%",
+      "summary": "阿里巴巴推出稀疏混合专家模型Qwen3.8-Max,总参数达2.4万亿(激活参数950亿),上下文窗口达100万token,公司称该模型在多项编程和多模态基准测试中超越了竞争对手月之暗面的Kimi K3,但在部分通用推理测试中落后。阿里巴巴港股收盘上涨7%,美国存托凭证盘前上涨4.5%;公司计划下周开源该模型权重,这是其首次在此规模上开源。",
+      "whyItMatters": "这是阿里巴巴首次开源Max级别的Qwen模型,此举对其他中国实验室形成价格压力,分析师估计中美前沿模型之间的差距已缩小至三到六个月。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Forbes: Alibaba Unveils Its Largest AI Model Yet As China Closes The Gap", "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/08/03/alibaba-unveils-its-largest-ai-model-yet-as-china-closes-the-gap/" }
+      ]
+    },
+    {
+      "headline": "摩根士丹利力挺AI资本开支后,Alphabet股价上涨5%",
+      "summary": "周一,在摩根士丹利分析师告诉客户Alphabet将2026年资本开支上调至1950亿至2050亿美元的计划合理后,Alphabet股价上涨5.1%,分析师指出其过去12个月自由现金流达533亿美元,并有租赁、定制芯片等多种融资方式支撑。此举扭转了此前的跌势——此前一周,尽管公司第二季度业绩强劲(每股收益9.11美元,是预期的三倍),但因资本开支上调而使股价持续低于财报前水平。",
+      "whyItMatters": "此次反弹表明,投资者对Alphabet AI支出的焦虑更多源于对融资计划清晰度的担忧,而非支出金额本身。",
+      "category": "市场",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "The Motley Fool: Why Alphabet Stock Popped Today", "url": "https://www.fool.com/investing/2026/08/03/why-alphabet-stock-popped-today/" }
+      ]
+    },
+    {
+      "headline": "Coldcard黑客攻击损失突破1亿美元,第四波攻击来袭",
+      "summary": "Coldcard硬件钱包漏洞攻击目前已确认从约7,300个地址中盗走1,596枚比特币(超过1亿美元),分三波确认攻击加14起较小事件完成,较周末统计的约8,900万美元、4,585个地址大幅上升。8月3日实时监测到疑似第四波攻击,在2.5小时内通过218笔交易转移约449枚比特币;Coinkite已发布紧急固件更新并销毁了剩余的易受攻击库存。",
+      "whyItMatters": "新一波攻击表明,即便厂商已采取补救措施,该漏洞的影响仍未减弱,Galaxy Research目前建议所有使用受影响固件的用户将其钱包视为已被攻破。",
+      "category": "加密货币",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "CryptoTimes: Coldcard Hack Losses Hit $100M With 1,596 BTC Stolen", "url": "https://www.cryptotimes.io/2026/08/04/coldcard-hack-losses-hit-100m-with-1596-btc-stolen/" }
+      ]
+    },
+    {
+      "headline": "Strategy再售1,638枚比特币,为STRC回购和现金储备提供资金",
+      "summary": "Strategy出售1,638枚比特币,套现1.047亿美元,并通过发行普通股筹集2.906亿美元,合计3.95亿美元用于以8,120万美元回购912,143股STRC优先股、支付优先股股息,并向现金储备增加2.5亿美元,使其总额达到40亿美元。此次出售后,Strategy的比特币持仓降至842,138枚。",
+      "whyItMatters": "这延续了Strategy从单纯囤积比特币转向通过定期出售比特币来管理资本结构的策略转变。",
+      "category": "加密货币",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "CoinDesk: Strategy sold another $105 million of bitcoin last week, repurchased $81.2 million of STRC", "url": "https://www.coindesk.com/markets/2026/08/03/strategy-sold-another-usd105-million-of-bitcoin-last-week-repurchased-usd81-2-million-of-strc" }
+      ]
+    },
+    {
+      "headline": "伊朗空袭计划暂缓平息风险溢价,黄金价格回落至4,071美元附近",
+      "summary": "周一,在特朗普总统表示美国将暂缓对伊朗的计划空袭后,黄金期货开盘上涨0.7%至4,135.20美元,但随后伊朗表示并未与华盛顿直接谈判、仅就霍尔木兹海峡问题与阿曼进行讨论,金价当日回落至4,071至4,111美元区间。",
+      "whyItMatters": "金价回落表明近期金价的强势很大程度上依赖地缘政治风险溢价,一旦紧张局势哪怕短暂缓解,这种溢价也可能迅速消退。",
+      "category": "大宗商品",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Yahoo Finance: Gold prices today, Monday, August 3, 2026", "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-3-2026-gold-prices-open-higher-after-us-pauses-planned-airstrikes-121655731.html" }
+      ]
+    }
+  ]
+}

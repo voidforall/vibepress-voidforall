@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-08-04",
+      "date": "2026-08-04",
+      "headline": "Alibaba unveils 2.4-trillion-parameter Qwen3.8-Max, shares jump as much as 7%",
+      "storyCount": 5
+    },
+    {
       "id": "2026-08-02",
       "date": "2026-08-02",
       "headline": "Coldcard wallet attack widens to 4,585 addresses and nearly $89M in stolen bitcoin",

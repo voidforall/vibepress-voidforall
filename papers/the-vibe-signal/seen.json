@@ -1,7 +1,56 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-02T09:17:07Z",
+  "updatedAt": "2026-08-04T09:46:45Z",
   "events": [
+    {
+      "date": "2026-08-04",
+      "headline": "Swiftlet runs an 80B-parameter Qwen model in 4.3GB of RAM on a Mac",
+      "summary": "An open-source project called Swiftlet runs Qwen3-Next (80B) and Qwen3.6 (35B) natively on Apple Silicon by keeping only the dense model core resident in memory and streaming the mixture-of-experts' routed experts from SSD on demand, repac…",
+      "urls": [
+        "https://github.com/leonickson1/Swiftlet"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "headline": "OpenAI's internal model resolves ten open math and CS problems for under $2,000 each",
+      "summary": "OpenAI says an internal version of its next model, Astra, produced new results on ten long-standing open problems spanning sphere packing, coding theory, group theory, arithmetic circuit complexity, quantum complexity, and extremal combina…",
+      "urls": [
+        "https://github.com/openai/ten-proofs",
+        "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "headline": "OpenAI publicly rebuts Apple's trade-secrets lawsuit over former staff",
+      "summary": "OpenAI published a detailed rebuttal to Apple's July 10 lawsuit alleging former Apple employees Chang Liu and Tang Tan carried hardware trade secrets to OpenAI, calling the suit 'careless, aggressive and oddly personal.' OpenAI says Apple'…",
+      "urls": [
+        "https://9to5mac.com/2026/08/03/openai-rebuts-apple-trade-secrets-allegations-in-new-response-and-evidence/"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "headline": "Essay: LLMs reward expertise, not prompting skill",
+      "summary": "A widely discussed essay argues the popular idea that anyone can get expert-level results from an LLM with the right prompt gets it backwards: using Terence Tao's own exchanges with ChatGPT as an example, it contends deep domain knowledge…",
+      "urls": [
+        "https://www.seangoedecke.com/llms-reward-expertise/"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "headline": "Essay: AI coding agents make the case that devtools must be open source",
+      "summary": "An essay argues that because AI agents can now cheaply rewrite a tool's own source to fit a user's workflow and keep syncing with upstream, the economics of customizing software have flipped — bespoke, self-modified tools are now cheaper t…",
+      "urls": [
+        "https://blog.exe.dev/devtools-must-be-open-source"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "headline": "Andy Pavlo leaves academia part-time to found ClickHouse Labs",
+      "summary": "Carnegie Mellon database professor Andy Pavlo is joining ClickHouse as VP of Database Research to launch ClickHouse Labs, a research team meant to work directly with ClickHouse's engineers and customers rather than operate as an isolated g…",
+      "urls": [
+        "https://clickhouse.com/blog/andy-pavlo-joins-clickhouse"
+      ]
+    },
     {
       "date": "2026-08-02",
       "headline": "NetBSD 11.0 ships after a delay, citing an AI-driven surge in security reports",

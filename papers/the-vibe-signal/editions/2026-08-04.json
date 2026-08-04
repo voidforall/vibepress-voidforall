@@ -1,0 +1,70 @@
+{
+  "id": "2026-08-04",
+  "date": "2026-08-04",
+  "generatedAt": "2026-08-04T00:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "OpenAI's math team had the biggest news of the day, quietly resolving ten open problems for pocket change in tokens. Apple and OpenAI kept trading blows in court, ClickHouse hired itself a research arm, and two sharp essays argued opposite corners of the same question: what AI actually changes about how we build software.",
+  "stories": [
+    {
+      "headline": "OpenAI's internal model resolves ten open math and CS problems for under $2,000 each",
+      "summary": "OpenAI says an internal version of its next model, Astra, produced new results on ten long-standing open problems spanning sphere packing, coding theory, group theory, arithmetic circuit complexity, quantum complexity, and extremal combinatorics — each using less than $2,000 worth of GPT-5.6 Sol tokens. The company published Lean 4 formal proofs for all ten in a GitHub repository (openai/ten-proofs) alongside a research paper, though it hasn't disclosed how many other problems it spent money on without success.",
+      "whyItMatters": "Formally verified proofs make the claims independently checkable rather than a marketing assertion, and the price tag reframes what 'a decade of no progress' can mean once a model can attempt a problem for a few thousand dollars.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "GitHub: openai/ten-proofs", "url": "https://github.com/openai/ten-proofs" },
+        { "title": "Simon Willison: Ten advances in mathematics and theoretical computer science", "url": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/" }
+      ]
+    },
+    {
+      "headline": "Essay: LLMs reward expertise, not prompting skill",
+      "summary": "A widely discussed essay argues the popular idea that anyone can get expert-level results from an LLM with the right prompt gets it backwards: using Terence Tao's own exchanges with ChatGPT as an example, it contends deep domain knowledge is what lets someone steer a model, catch its errors, and extract a genuinely good answer. The author's summary line: 'the human is the bottleneck, not the model.'",
+      "whyItMatters": "It cuts against the narrative that LLMs flatten the value of expertise — the essay's claim is closer to the opposite, that expertise is what makes the tool worth anything.",
+      "category": "Ideas",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Sean Goedecke: LLMs reward expertise", "url": "https://www.seangoedecke.com/llms-reward-expertise/" }
+      ]
+    },
+    {
+      "headline": "OpenAI publicly rebuts Apple's trade-secrets lawsuit over former staff",
+      "summary": "OpenAI published a detailed rebuttal to Apple's July 10 lawsuit alleging former Apple employees Chang Liu and Tang Tan carried hardware trade secrets to OpenAI, calling the suit 'careless, aggressive and oddly personal.' OpenAI says Apple's outside lawyers emailed the wrong person after confusing two Asian surnames when first raising the issue in February, and that a cited conversation with OpenAI's general counsel never took place; the company says it has rejected Apple's request for a preliminary injunction.",
+      "whyItMatters": "The dispute turns on whether inadvertent post-departure file access is trade-secret theft or an access-management failure on Apple's side, a distinction that will matter well beyond this case.",
+      "category": "Business",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "9to5Mac: OpenAI rebuts Apple trade secrets allegations in new response with receipts", "url": "https://9to5mac.com/2026/08/03/openai-rebuts-apple-trade-secrets-allegations-in-new-response-and-evidence/" }
+      ]
+    },
+    {
+      "headline": "Essay: AI coding agents make the case that devtools must be open source",
+      "summary": "An essay argues that because AI agents can now cheaply rewrite a tool's own source to fit a user's workflow and keep syncing with upstream, the economics of customizing software have flipped — bespoke, self-modified tools are now cheaper than configuring commercial ones. The author's conclusion: closed-source developer tools, Claude Code included, will lose out to open-source alternatives that let agents personalize them directly.",
+      "whyItMatters": "If the argument holds, it reframes 'open source' from an ideological preference into a competitive requirement for any tool a developer expects an agent to modify.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "blog.exe.dev: Devtools must be open source", "url": "https://blog.exe.dev/devtools-must-be-open-source" }
+      ]
+    },
+    {
+      "headline": "Andy Pavlo leaves academia part-time to found ClickHouse Labs",
+      "summary": "Carnegie Mellon database professor Andy Pavlo is joining ClickHouse as VP of Database Research to launch ClickHouse Labs, a research team meant to work directly with ClickHouse's engineers and customers rather than operate as an isolated group. The team will also support ClickHouse's Postgres-managed service and study how databases should adapt to AI and agentic workloads.",
+      "whyItMatters": "It's a bet that an in-house research lab modeled on IBM Research or Microsoft Research can move database ideas into a commercial product faster than the usual academia-to-industry pipeline.",
+      "category": "Business",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "ClickHouse: Andy Pavlo joins ClickHouse", "url": "https://clickhouse.com/blog/andy-pavlo-joins-clickhouse" }
+      ]
+    },
+    {
+      "headline": "Swiftlet runs an 80B-parameter Qwen model in 4.3GB of RAM on a Mac",
+      "summary": "An open-source project called Swiftlet runs Qwen3-Next (80B) and Qwen3.6 (35B) natively on Apple Silicon by keeping only the dense model core resident in memory and streaming the mixture-of-experts' routed experts from SSD on demand, repacked into fixed-size blocks for fast reads. On an M5 Mac the 80B model uses 4.3GB peak RAM at 4.5-5 tokens/second; the 35B model reportedly runs on an iPhone 17 in about 2.5GB of RAM at roughly 1 token/second, which the author says is the first time a model this large has run natively on a phone.",
+      "whyItMatters": "It's a concrete demonstration that mixture-of-experts architectures can decouple a model's parameter count from the RAM needed to run it, at least for consumer hardware with fast local storage.",
+      "category": "Technology",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "GitHub: leonickson1/Swiftlet", "url": "https://github.com/leonickson1/Swiftlet" }
+      ]
+    }
+  ]
+}

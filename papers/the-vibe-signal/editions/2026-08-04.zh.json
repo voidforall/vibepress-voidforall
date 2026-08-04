@@ -1,0 +1,70 @@
+{
+  "id": "2026-08-04",
+  "date": "2026-08-04",
+  "generatedAt": "2026-08-04T00:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "OpenAI的数学团队带来了今天最大的新闻——花费几乎可以忽略不计的token成本,悄悄解决了十个悬而未决的数学难题。苹果与OpenAI继续在法庭上交锋,ClickHouse为自己招募了一个研究团队,还有两篇犀利的文章从相反角度探讨了同一个问题:AI究竟改变了我们构建软件方式中的哪些部分。",
+  "stories": [
+    {
+      "headline": "OpenAI内部模型以每题不到2000美元的成本解决十个数学与计算机科学难题",
+      "summary": "OpenAI表示,其下一代模型Astra的内部版本在球体填充、编码理论、群论、算术电路复杂度、量子复杂度和极值组合数学等领域的十个长期悬而未决的问题上取得了新成果,每个问题耗费的GPT-5.6 Sol token成本不到2000美元。该公司在GitHub仓库(openai/ten-proofs)中公布了全部十个问题的Lean 4形式化证明,并附有一篇研究论文,但尚未披露在其他未成功的问题上花费了多少资金。",
+      "whyItMatters": "经过形式化验证的证明使这些成果可被独立核实,而非仅是营销说辞;而这一价格标签也重新定义了当一个模型能以几千美元的成本尝试解决问题时,'十年没有进展'究竟意味着什么。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "GitHub: openai/ten-proofs", "url": "https://github.com/openai/ten-proofs" },
+        { "title": "Simon Willison: Ten advances in mathematics and theoretical computer science", "url": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/" }
+      ]
+    },
+    {
+      "headline": "文章观点:大语言模型奖励的是专业知识,而非提示词技巧",
+      "summary": "一篇广受讨论的文章认为,'只要提示词得当,任何人都能从大语言模型获得专家级结果'这一流行观点恰恰说反了:文章以陶哲轩与ChatGPT的对话为例,认为正是深厚的领域知识才能让人引导模型、发现其错误,并提炼出真正优质的答案。作者的总结是:'瓶颈是人,而不是模型。'",
+      "whyItMatters": "这与'大语言模型抹平了专业知识价值'的叙事相悖——文章的论点恰恰相反,认为专业知识才是让这个工具真正有价值的原因。",
+      "category": "观点",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Sean Goedecke: LLMs reward expertise", "url": "https://www.seangoedecke.com/llms-reward-expertise/" }
+      ]
+    },
+    {
+      "headline": "OpenAI公开反驳苹果就前员工提起的商业机密诉讼",
+      "summary": "OpenAI发布了一份详细声明,反驳苹果7月10日提起的诉讼——该诉讼指控前苹果员工Chang Liu和Tang Tan将硬件商业机密带到了OpenAI,OpenAI称该诉讼'草率、咄咄逼人且带有莫名的针对性'。OpenAI表示,苹果的外部律师今年2月首次提出此事时,曾因混淆两个亚裔姓氏而发错邮件对象;苹果所称与OpenAI总法律顾问的一次对话也从未发生过;该公司表示已拒绝苹果提出的初步禁令申请。",
+      "whyItMatters": "这场争议的核心在于:员工离职后无意中仍能访问文件,究竟属于商业机密盗窃,还是苹果自身的权限管理失误——这一区分的影响将远超本案本身。",
+      "category": "商业",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "9to5Mac: OpenAI rebuts Apple trade secrets allegations in new response with receipts", "url": "https://9to5mac.com/2026/08/03/openai-rebuts-apple-trade-secrets-allegations-in-new-response-and-evidence/" }
+      ]
+    },
+    {
+      "headline": "文章观点:AI编程代理证明开发者工具必须开源",
+      "summary": "一篇文章认为,由于AI代理如今能够低成本地重写工具自身的源代码以适配用户的工作流程,并持续与上游同步,定制软件的经济账已经发生逆转——定制化、自行修改的工具如今比配置商业工具的成本更低。作者得出的结论是:包括Claude Code在内的闭源开发者工具,终将输给能让代理直接个性化定制的开源替代品。",
+      "whyItMatters": "如果这一论点成立,它将把'开源'从一种意识形态偏好重新定义为——任何期望被代理修改的工具都必须满足的竞争性要求。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "blog.exe.dev: Devtools must be open source", "url": "https://blog.exe.dev/devtools-must-be-open-source" }
+      ]
+    },
+    {
+      "headline": "Andy Pavlo兼职离开学界,创立ClickHouse Labs",
+      "summary": "卡内基梅隆大学数据库教授Andy Pavlo将加入ClickHouse担任数据库研究副总裁,创立ClickHouse Labs研究团队,该团队旨在与ClickHouse的工程师和客户直接协作,而非作为孤立团队运作。该团队还将支持ClickHouse的Postgres托管服务,并研究数据库应如何适应AI和代理工作负载。",
+      "whyItMatters": "这是一次押注:一个仿照IBM研究院或微软研究院模式的内部研究实验室,能够比通常的学界到产业转化路径更快地将数据库理念转化为商业产品。",
+      "category": "商业",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "ClickHouse: Andy Pavlo joins ClickHouse", "url": "https://clickhouse.com/blog/andy-pavlo-joins-clickhouse" }
+      ]
+    },
+    {
+      "headline": "Swiftlet让800亿参数的Qwen模型在Mac上仅用4.3GB内存运行",
+      "summary": "一个名为Swiftlet的开源项目让Qwen3-Next(800亿参数)和Qwen3.6(350亿参数)模型能够在苹果芯片上原生运行,方法是仅将模型的密集核心常驻内存,而将混合专家架构中被路由调用的专家模块按需从SSD流式读取,并重新打包为固定大小的数据块以加快读取速度。在M5 Mac上,800亿参数模型峰值内存占用为4.3GB,速度为每秒4.5至5个token;据称350亿参数模型能在iPhone 17上以约2.5GB内存、每秒约1个token的速度运行,作者称这是此规模模型首次在手机上原生运行。",
+      "whyItMatters": "这具体证明了混合专家架构至少在配备高速本地存储的消费级硬件上,能够将模型参数量与运行所需的内存占用解耦。",
+      "category": "科技",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "GitHub: leonickson1/Swiftlet", "url": "https://github.com/leonickson1/Swiftlet" }
+      ]
+    }
+  ]
+}
