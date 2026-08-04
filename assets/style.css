@@ -2,8 +2,8 @@
 
 :root {
   --ink: #1a1a1a;
-  --ink-soft: #4a4a4a;
-  --ink-faint: #767676;
+  --ink-soft: #4a453f;
+  --ink-faint: #79716a;
   --paper: #f7f5ef;
   --paper-raised: #fffdf8;
   --rule: #d8d3c6;
@@ -32,8 +32,8 @@
    an explicit choice wins; "Auto" simply removes the attribute and the query governs. */
 :root[data-theme="light"] {
   --ink: #1a1a1a;
-  --ink-soft: #4a4a4a;
-  --ink-faint: #767676;
+  --ink-soft: #4a453f;
+  --ink-faint: #79716a;
   --paper: #f7f5ef;
   --paper-raised: #fffdf8;
   --rule: #d8d3c6;
@@ -51,7 +51,42 @@
   --link: #8fb6ec;
 }
 
+/* Shared design tokens (theme-independent radius + focus; elevation is warm-tinted on the
+   cream ground and deepened for dark). Chosen, not defaulted — see the taste pass. */
+:root {
+  --radius: 10px;
+  --radius-sm: 7px;
+  --focus: color-mix(in srgb, var(--accent) 60%, transparent);
+  --shadow-card: 0 1px 2px rgba(60, 46, 38, 0.05), 0 6px 16px rgba(60, 46, 38, 0.06);
+  --shadow-card-hover: 0 2px 6px rgba(60, 46, 38, 0.09), 0 16px 34px rgba(60, 46, 38, 0.13);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 20px rgba(0, 0, 0, 0.45);
+    --shadow-card-hover: 0 2px 8px rgba(0, 0, 0, 0.5), 0 18px 40px rgba(0, 0, 0, 0.6);
+  }
+}
+:root[data-theme="dark"] {
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 20px rgba(0, 0, 0, 0.45);
+  --shadow-card-hover: 0 2px 8px rgba(0, 0, 0, 0.5), 0 18px 40px rgba(0, 0, 0, 0.6);
+}
+:root[data-theme="light"] {
+  --shadow-card: 0 1px 2px rgba(60, 46, 38, 0.05), 0 6px 16px rgba(60, 46, 38, 0.06);
+  --shadow-card-hover: 0 2px 6px rgba(60, 46, 38, 0.09), 0 16px 34px rgba(60, 46, 38, 0.13);
+}
+
 * { box-sizing: border-box; }
+
+/* Visible keyboard focus everywhere interactive (accessibility + tactile craft). */
+a:focus-visible,
+button:focus-visible,
+select:focus-visible,
+summary:focus-visible,
+.paper-card:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
 
 body {
   margin: 0;
@@ -107,6 +142,7 @@ a { color: var(--link); }
   font-weight: 800;
   letter-spacing: -0.01em;
   line-height: 1.02;
+  text-wrap: balance;
 }
 .masthead-date {
   margin: 0.55rem 0 0;
@@ -161,17 +197,28 @@ a { color: var(--link); }
   color: inherit;
   border: 1px solid var(--rule);
   border-top: 3px solid var(--card-accent, var(--ink-faint));
-  border-radius: 6px;
+  border-radius: var(--radius);
   padding: 1.1rem 1.25rem 1rem;
   background: var(--paper-raised);
   min-height: 12.5rem;
-  transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: var(--shadow-card);
+  transition: border-color 0.2s ease, transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;
 }
 .paper-card:hover {
-  border-color: var(--ink-faint);
-  border-top-color: var(--card-accent, var(--ink-faint));
-  transform: translateY(-3px);
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+  border-color: color-mix(in srgb, var(--card-accent, var(--ink-faint)) 45%, var(--rule));
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-card-hover);
+}
+.paper-card:active { transform: translateY(-1px); }
+/* Cards settle in on load with a light stagger (calm, dial-3). Reduced-motion opts out. */
+@media (prefers-reduced-motion: no-preference) {
+  .paper-card { animation: vp-rise 0.55s cubic-bezier(0.16, 1, 0.3, 1) both; }
+  .paper-card:nth-child(2) { animation-delay: 0.05s; }
+  .paper-card:nth-child(3) { animation-delay: 0.10s; }
+  .paper-card:nth-child(4) { animation-delay: 0.15s; }
+  .paper-card:nth-child(5) { animation-delay: 0.20s; }
+  .paper-card:nth-child(6) { animation-delay: 0.25s; }
+  @keyframes vp-rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 }
 .paper-card-top {
   display: flex;
@@ -199,6 +246,8 @@ a { color: var(--link); }
   font-size: 1.55rem;
   line-height: 1.08;
   font-weight: 700;
+  letter-spacing: -0.006em;
+  text-wrap: balance;
 }
 .paper-card-tagline {
   margin: 0 0 0.75rem;
@@ -401,6 +450,8 @@ a { color: var(--link); }
   font-size: clamp(1.35rem, 4vw, 1.9rem);
   line-height: 1.15;
   font-weight: 700;
+  letter-spacing: -0.008em;
+  text-wrap: balance;
 }
 .story-summary { margin: 0 0 0.75rem; }
 .story-why {
@@ -552,11 +603,15 @@ a { color: var(--link); }
   border: 1px solid var(--rule);
   background: var(--paper-raised);
   color: var(--ink-soft);
-  padding: 0.3rem 0.55rem;
-  border-radius: 4px;
+  padding: 0.32rem 0.6rem;
+  border-radius: var(--radius-sm);
   cursor: pointer;
   line-height: 1;
+  box-shadow: var(--shadow-card);
+  transition: color 0.15s ease, background 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
 }
+#vp-controls button:hover { color: var(--ink); border-color: var(--ink-faint); }
+#vp-controls button:active { transform: translateY(1px); }
 #vp-controls button[aria-pressed="true"] {
   background: var(--ink);
   color: var(--paper);
