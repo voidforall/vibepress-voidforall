@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-04T09:46:45Z",
+  "updatedAt": "2026-08-05T09:46:58Z",
   "events": [
+    {
+      "date": "2026-08-05",
+      "headline": "Waymo opens its robotaxi service to the general public in Dallas",
+      "summary": "Waymo said anyone in Dallas can now download its app and hail a fully autonomous ride, ending a waitlist that had already served roughly 150,000 people since the service launched there in February 2026. The company plans to extend autonomo…",
+      "urls": [
+        "https://waymo.com/blog/shorts/dallas-open-to-all/"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "headline": "Three WebKit features quietly bypass proxy settings, leaking real IPs and DNS queries",
+      "summary": "Researchers at Mysk found that WebKit's DNS prefetching, WebAuthn related-origin requests, and WebTransport all route around apps' configured proxies, exposing a device's real DNS servers and IP address even inside apps using Apple's proxy…",
+      "urls": [
+        "https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "headline": "Oxide Computer raises $445 million Series D, more than double its Series C",
+      "summary": "An SEC Form D filing shows on-premises cloud-server startup Oxide Computer raised $445 million, over twice the $200 million Series C it closed in December 2025 and roughly ten times its 2023 Series A. Oxide has shipped hardware to customer…",
+      "urls": [
+        "https://news.ycombinator.com/item?id=49174407"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "headline": "Mistral open-sources Shieldstral, a 3B moderation model it says beats guards 7x its size",
+      "summary": "Mistral released Shieldstral, an Apache 2.0-licensed 3-billion-parameter model that scores content safety across text and images by answering user-supplied yes/no policy questions instead of applying fixed categories. Mistral says it match…",
+      "urls": [
+        "https://mistral.ai/news/shieldstral/"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "headline": "Interpol: AI now touches 55% of cybercrime cases across Africa",
+      "summary": "Interpol's latest assessment found AI involved in 55% of surveyed cybercrime cases across Africa, with losses rising from $192 million in 2024 to $484 million in 2025 and 72% of surveyed countries reporting scam centers operating within th…",
+      "urls": [
+        "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "headline": "Essay: developers spend just 14% of their time writing code, so AI code-gen has a ceiling",
+      "summary": "A widely discussed essay on 'eight myths' of GenAI and software engineering cites research showing developers spend around 14% of their time actually writing code, with the rest going to design, review, meetings, and coordination — and tha…",
+      "urls": [
+        "https://getdx.com/blog/8-myths-on-software-engineering-and-ai/"
+      ]
+    },
     {
       "date": "2026-08-04",
       "headline": "Swiftlet runs an 80B-parameter Qwen model in 4.3GB of RAM on a Mac",

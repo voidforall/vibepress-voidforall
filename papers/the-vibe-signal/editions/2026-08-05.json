@@ -1,0 +1,69 @@
+{
+  "id": "2026-08-05",
+  "date": "2026-08-05",
+  "generatedAt": "2026-08-05T09:45:30Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today's thread is friction under the hype: Mistral ships a small, auditable moderation model instead of a bigger one, researchers find WebKit quietly defeating the privacy tools people trust, Oxide's outsized new round bets against the hyperscalers, Interpol puts a number on AI-enabled scam losses in Africa, Waymo trades its waitlist for an open tap-to-ride app in Dallas, and a software-engineering essay argues the '10x developer' story doesn't survive contact with a real codebase.",
+  "stories": [
+    {
+      "headline": "Mistral open-sources Shieldstral, a 3B moderation model it says beats guards 7x its size",
+      "summary": "Mistral released Shieldstral, an Apache 2.0-licensed 3-billion-parameter model that scores content safety across text and images by answering user-supplied yes/no policy questions instead of applying fixed categories. Mistral says it matches or beats open guard models up to seven times its size on text safety, refusal detection, policy adaptability, and multimodal benchmarks, and it runs on a single 16GB GPU.",
+      "whyItMatters": "It gives developers a small, self-hostable moderation layer they can inspect and customize, instead of depending on a closed one-size-fits-all filter.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Shieldstral", "url": "https://mistral.ai/news/shieldstral/" }
+      ]
+    },
+    {
+      "headline": "Three WebKit features quietly bypass proxy settings, leaking real IPs and DNS queries",
+      "summary": "Researchers at Mysk found that WebKit's DNS prefetching, WebAuthn related-origin requests, and WebTransport all route around apps' configured proxies, exposing a device's real DNS servers and IP address even inside apps using Apple's proxyConfigurations API — including iCloud Private Relay and Tor-style browsers. Full VPNs, which tunnel all system traffic, aren't affected.",
+      "whyItMatters": "Anyone relying on a WebKit-based proxy browser or iCloud Private Relay for privacy has been leaking identifying network data with no indication anything was wrong, and Apple has not yet acknowledged a fix.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay", "url": "https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/" }
+      ]
+    },
+    {
+      "headline": "Oxide Computer raises $445 million Series D, more than double its Series C",
+      "summary": "An SEC Form D filing shows on-premises cloud-server startup Oxide Computer raised $445 million, over twice the $200 million Series C it closed in December 2025 and roughly ten times its 2023 Series A. Oxide has shipped hardware to customers including Jane Street and a national lab, and has said it intends to stay independent rather than sell.",
+      "whyItMatters": "The size of the round signals growing investor appetite for on-premises alternatives to hyperscaler cloud infrastructure.",
+      "category": "Business",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Oxide Computer raises $445M (SEC Form D) — discussion", "url": "https://news.ycombinator.com/item?id=49174407" }
+      ]
+    },
+    {
+      "headline": "Interpol: AI now touches 55% of cybercrime cases across Africa",
+      "summary": "Interpol's latest assessment found AI involved in 55% of surveyed cybercrime cases across Africa, with losses rising from $192 million in 2024 to $484 million in 2025 and 72% of surveyed countries reporting scam centers operating within their borders. The report also linked AI-generated deepfakes to over 600,000 detected sextortion cases and flagged AI-written business-email-compromise scams as a fast-growing category.",
+      "whyItMatters": "It's a concrete, if partial, measurement of generative AI lowering the cost of running scams at scale, across a market of 1.1 billion mobile subscribers.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol", "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/" }
+      ]
+    },
+    {
+      "headline": "Waymo opens its robotaxi service to the general public in Dallas",
+      "summary": "Waymo said anyone in Dallas can now download its app and hail a fully autonomous ride, ending a waitlist that had already served roughly 150,000 people since the service launched there in February 2026. The company plans to extend autonomous testing to Dallas freeways and eventually serve Dallas Love Field Airport.",
+      "whyItMatters": "It's Waymo's latest step from limited pilot to open commercial service, extending its lead in the U.S. robotaxi market to another major metro.",
+      "category": "Business",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Dallas, open to all", "url": "https://waymo.com/blog/shorts/dallas-open-to-all/" }
+      ]
+    },
+    {
+      "headline": "Essay: developers spend just 14% of their time writing code, so AI code-gen has a ceiling",
+      "summary": "A widely discussed essay on 'eight myths' of GenAI and software engineering cites research showing developers spend around 14% of their time actually writing code, with the rest going to design, review, meetings, and coordination — and that measured code-throughput gains from AI average around 7.8%, not the multiples the '10x developer' narrative implies. It also argues lines-of-code is a poor productivity metric and that AI's gains concentrate in greenfield work rather than the integration-heavy work most enterprises do.",
+      "whyItMatters": "It's a direct, evidence-based challenge to the productivity multiples and metrics many organizations are using right now to justify AI-tooling budgets.",
+      "category": "Ideas",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "The Eight Myths on Software Engineering and GenAI", "url": "https://getdx.com/blog/8-myths-on-software-engineering-and-ai/" }
+      ]
+    }
+  ]
+}

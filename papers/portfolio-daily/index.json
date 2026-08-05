@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-08-05",
+      "date": "2026-08-05",
+      "headline": "Rocket Lab wins $397 million Space Force contract to build and fly 'Flatellite' satellites",
+      "storyCount": 3
+    },
+    {
       "id": "2026-08-04",
       "date": "2026-08-04",
       "headline": "Alibaba unveils 2.4-trillion-parameter Qwen3.8-Max, shares jump as much as 7%",

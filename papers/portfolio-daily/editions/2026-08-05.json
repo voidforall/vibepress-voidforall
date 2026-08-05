@@ -1,0 +1,56 @@
+{
+  "id": "2026-08-05",
+  "date": "2026-08-05",
+  "generatedAt": "2026-08-05T09:43:13Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Three threads today: Rocket Lab converts its space ambitions into recurring government revenue with a nine-figure Space Force award, Wall Street turns more skeptical on Duolingo just hours ahead of its earnings print, and Coinkite's admission that its own AI-assisted audits missed the bug behind the Coldcard hack adds a cautionary note as crypto's losses there climb past $130 million.",
+  "stories": [
+    {
+      "headline": "Rocket Lab wins $397 million Space Force contract to build and fly 'Flatellite' satellites",
+      "summary": "The U.S. Space Force awarded Rocket Lab a $397 million contract under its Space-Based Airborne Moving Target Indicator program to design, build, launch, and operate a constellation of flat-panel 'Flatellite' satellites. The spacecraft are slated to launch on Rocket Lab's still-unflown Neutron rocket, and the contract value includes an option for additional satellites.",
+      "whyItMatters": "It extends Rocket Lab's shift from launch provider to end-to-end space contractor with recurring satellite-operations revenue, and adds another payload to Neutron's manifest before its first flight.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab Awarded $397 Million Contract to Build and Launch Flatellites for U.S. Space Force's SB-AMTI Program",
+          "url": "https://www.globenewswire.com/news-release/2026/08/04/3338977/0/en/rocket-lab-awarded-397-million-contract-to-build-and-launch-flatellites-for-u-s-space-force-s-space-based-airborne-moving-target-indicator-program.html"
+        }
+      ]
+    },
+    {
+      "headline": "Bank of America downgrades Duolingo to Underperform, cuts price target to $93, hours before Q2 earnings",
+      "summary": "BofA analyst Omar Dessouky moved Duolingo from Neutral to Underperform and lowered his price target from $103 to $93, arguing the stock trades at a roughly six-times premium to midcap subscription peers with similar EBITDA growth. The firm also cut its 2027 bookings-growth estimate to 9% from 11% and trimmed projected EBITDA to $338 million from $388 million, citing uncertainty around a planned, voice-focused app redesign.",
+      "whyItMatters": "The downgrade lands just hours before Duolingo reports second-quarter results after today's close, giving investors a bearish counterpoint heading into the print.",
+      "category": "Markets",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "BofA downgrades Duolingo stock rating on valuation concerns",
+          "url": "https://ca.investing.com/news/stock-market-news/bofa-downgrades-duolingo-stock-rating-on-valuation-concerns-93CH-4773511"
+        },
+        {
+          "title": "Duolingo (NASDAQ:DUOL) Downgraded by Bank of America to \"Underperform\"",
+          "url": "https://www.marketbeat.com/instant-alerts/duolingo-nasdaqduol-downgraded-by-bank-of-america-to-underperform-2026-08-04/"
+        }
+      ]
+    },
+    {
+      "headline": "Coldcard maker says its own AI code review missed the bug behind the $130M hardware-wallet hack",
+      "summary": "Coinkite said total losses from the Coldcard firmware exploit have grown to roughly $130 million across four attack waves, per Galaxy Research estimates, and disclosed that AI-assisted reviews of its codebase — including one run weeks before the exploit — failed to catch the flaw. The company said it retested the code afterward against several frontier AI models, and none of them caught it either.",
+      "whyItMatters": "It undercuts the case that AI-assisted audits can substitute for human review of security-critical code, and pushes the running Coldcard loss total well past the roughly $100 million reported a day earlier.",
+      "category": "Crypto",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Hacked Bitcoin wallet maker warns of AI failure to detect bug",
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/08/05/hacked-bitcoin-wallet-maker-warns-of-ai-failure-to-detect-bug"
+        },
+        {
+          "title": "'I Did Everything Right'—AI Warning After $116 Million Bitcoin Hack",
+          "url": "https://www.forbes.com/sites/boazsobrado/2026/08/04/i-did-everything-right-ai-warning-after-116-million-bitcoin-hack/"
+        }
+      ]
+    }
+  ]
+}

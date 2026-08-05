@@ -1,0 +1,69 @@
+{
+  "id": "2026-08-05",
+  "date": "2026-08-05",
+  "generatedAt": "2026-08-05T09:45:30Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天的主线是炒作之下的摩擦:Mistral没有堆更大的模型,而是发布了一个更小、可审计的内容审核模型;研究人员发现WebKit在悄悄绕过人们信任的隐私工具;Oxide出人意料的大额新融资是在对冲云计算巨头;国际刑警组织给出了非洲AI诈骗损失的具体数字;Waymo在达拉斯把等候名单换成了随点随走的打车应用;还有一篇软件工程文章认为,'10倍效率开发者'的说法经不起真实代码库的检验。",
+  "stories": [
+    {
+      "headline": "Mistral开源Shieldstral:一款30亿参数的审核模型,号称超越体量7倍的同类模型",
+      "summary": "Mistral发布了Shieldstral,这是一款采用Apache 2.0许可、拥有30亿参数的模型,它通过回答用户自定义的是非型政策问题(而非套用固定分类)来评估文本和图像内容的安全性。Mistral表示,该模型在文本安全、拒答检测、策略适应性和多模态基准测试上,表现可与体量达其七倍的开放护栏模型持平甚至更优,且仅需单张16GB显卡即可运行。",
+      "whyItMatters": "这为开发者提供了一个体积小、可自行部署、可检查和自定义的内容审核层,而不必依赖封闭的、一刀切的过滤器。",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Shieldstral", "url": "https://mistral.ai/news/shieldstral/" }
+      ]
+    },
+    {
+      "headline": "WebKit三项功能悄然绕过代理设置,泄露真实IP和DNS查询记录",
+      "summary": "Mysk的研究人员发现,WebKit的DNS预取、WebAuthn相关来源请求以及WebTransport这三项功能,都会绕开应用配置的代理设置,即便在使用苹果proxyConfigurations接口(包括iCloud隐私中继和类Tor浏览器)的应用内部,也会暴露设备的真实DNS服务器和IP地址。而对全系统流量进行隧道传输的完整VPN则不受影响。",
+      "whyItMatters": "任何依赖基于WebKit的代理浏览器或iCloud隐私中继来保护隐私的用户,此前都在毫无察觉的情况下泄露了可识别身份的网络数据,而苹果尚未确认将予以修复。",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay", "url": "https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/" }
+      ]
+    },
+    {
+      "headline": "Oxide Computer完成4.45亿美元D轮融资,规模是C轮的两倍多",
+      "summary": "一份SEC D表格显示,本地私有云服务器初创公司Oxide Computer筹集了4.45亿美元,是其2025年12月完成的2亿美元C轮融资的两倍多,也约为2023年A轮融资规模的十倍。Oxide已向包括Jane Street和一家国家实验室在内的客户交付了硬件,并表示打算保持独立,而非被收购。",
+      "whyItMatters": "这轮融资的规模显示,投资者对本地部署、替代超大规模云厂商基础设施的方案兴趣正在迅速升温。",
+      "category": "Business",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Oxide Computer raises $445M (SEC Form D) — discussion", "url": "https://news.ycombinator.com/item?id=49174407" }
+      ]
+    },
+    {
+      "headline": "国际刑警组织:AI已涉及非洲55%的网络犯罪案件",
+      "summary": "国际刑警组织最新评估发现,在其调查的非洲网络犯罪案件中,55%涉及AI技术,相关损失从2024年的1.92亿美元升至2025年的4.84亿美元,72%的受访国家报告其境内存在诈骗中心。报告还将AI生成的深度伪造内容与超过60万起已侦测的性勒索案件相关联,并指出AI撰写的商业邮件诈骗正成为增长最快的类别之一。",
+      "whyItMatters": "这为生成式AI正在大规模压低诈骗成本提供了一个具体(即便只是部分)的量化证据,而当地拥有11亿手机用户这一庞大的潜在受害群体。",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol", "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/" }
+      ]
+    },
+    {
+      "headline": "Waymo在达拉斯向普通公众开放无人驾驶打车服务",
+      "summary": "Waymo表示,达拉斯的任何人现在都可以下载其应用程序叫一辆全自动驾驶车辆,结束了自2026年2月该服务上线以来、已服务约15万人的等候名单机制。公司计划将自动驾驶测试扩展至达拉斯的高速公路,并最终服务达拉斯洛夫机场(Love Field)。",
+      "whyItMatters": "这是Waymo从有限试点走向开放商业化服务的又一步,将其在美国无人驾驶出租车市场的领先地位扩展到又一个主要都市区。",
+      "category": "Business",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Dallas, open to all", "url": "https://waymo.com/blog/shorts/dallas-open-to-all/" }
+      ]
+    },
+    {
+      "headline": "文章观点:开发者只把14%的时间用于写代码,AI代码生成的提升空间有限",
+      "summary": "一篇广受讨论、关于生成式AI与软件工程'八大迷思'的文章援引研究指出,开发者实际用于写代码的时间仅约14%,其余时间花在设计、评审、会议和协调上;而AI带来的代码产出提升实测平均约为7.8%,远低于'10倍效率开发者'说法所暗示的倍数。文章还指出,用代码行数衡量生产力并不合理,AI的效果更多体现在从零开始的新项目中,而非大多数企业所面对的、需要大量系统集成与向后兼容的工作。",
+      "whyItMatters": "这是对许多企业当下用来证明AI工具投入合理性的效率倍数说法与衡量指标的一次直接、基于证据的质疑。",
+      "category": "Ideas",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "The Eight Myths on Software Engineering and GenAI", "url": "https://getdx.com/blog/8-myths-on-software-engineering-and-ai/" }
+      ]
+    }
+  ]
+}

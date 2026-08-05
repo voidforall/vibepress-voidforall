@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-08-05",
+      "date": "2026-08-05",
+      "headline": "Mistral open-sources Shieldstral, a 3B moderation model it says beats guards 7x its size",
+      "storyCount": 6
+    },
+    {
       "id": "2026-08-04",
       "date": "2026-08-04",
       "headline": "OpenAI's internal model resolves ten open math and CS problems for under $2,000 each",

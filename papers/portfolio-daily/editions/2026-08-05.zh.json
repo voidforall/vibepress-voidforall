@@ -1,0 +1,56 @@
+{
+  "id": "2026-08-05",
+  "date": "2026-08-05",
+  "generatedAt": "2026-08-05T09:43:13Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今天有三条主线:火箭实验室凭借一份九位数的太空军合同,把太空业务转化为持续的政府收入;华尔街在财报公布前几小时对多邻国的态度转趋谨慎;而Coinkite承认自家的AI辅助审计未能发现导致Coldcard硬件钱包被盗的漏洞,为加密行业依赖自动化审计敲响警钟——该事件损失已攀升至逾1.3亿美元。",
+  "stories": [
+    {
+      "headline": "火箭实验室获美国太空军3.97亿美元合同,将建造并发射'Flatellite'卫星",
+      "summary": "美国太空军根据其“天基机载移动目标指示”(SB-AMTI)项目,授予火箭实验室一份3.97亿美元合同,用于设计、制造、发射并运营一批扁平化“Flatellite”卫星星座。这些卫星预计将搭载火箭实验室尚未首飞的Neutron火箭发射,合同金额中还包含追加卫星的选项。",
+      "whyItMatters": "这笔合同推动火箭实验室从单纯的发射服务商,转型为具备卫星运营持续收入的端到端太空承包商,也为尚未首飞的Neutron火箭增加了新的载荷订单。",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab Awarded $397 Million Contract to Build and Launch Flatellites for U.S. Space Force's SB-AMTI Program",
+          "url": "https://www.globenewswire.com/news-release/2026/08/04/3338977/0/en/rocket-lab-awarded-397-million-contract-to-build-and-launch-flatellites-for-u-s-space-force-s-space-based-airborne-moving-target-indicator-program.html"
+        }
+      ]
+    },
+    {
+      "headline": "美银将多邻国评级下调至'跑输大盘',目标价降至93美元,财报公布前数小时发布",
+      "summary": "美银分析师Omar Dessouky将多邻国评级从'中性'下调至'跑输大盘',目标价从103美元降至93美元,理由是该股相对于EBITDA增速相近的中盘订阅制公司,估值溢价约为六倍。该行同时将2027年预订量增速预期从11%下调至9%,并将预计EBITDA从3.88亿美元降至3.38亿美元,原因是公司计划推出以语音为核心的应用重新设计存在不确定性。",
+      "whyItMatters": "此次下调恰好发生在多邻国于今日收盘后公布第二季度财报的几小时之前,为投资者在财报公布前提供了一个看空的参考信号。",
+      "category": "Markets",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "BofA downgrades Duolingo stock rating on valuation concerns",
+          "url": "https://ca.investing.com/news/stock-market-news/bofa-downgrades-duolingo-stock-rating-on-valuation-concerns-93CH-4773511"
+        },
+        {
+          "title": "Duolingo (NASDAQ:DUOL) Downgraded by Bank of America to \"Underperform\"",
+          "url": "https://www.marketbeat.com/instant-alerts/duolingo-nasdaqduol-downgraded-by-bank-of-america-to-underperform-2026-08-04/"
+        }
+      ]
+    },
+    {
+      "headline": "Coldcard制造商承认自家AI代码审查未能发现导致1.3亿美元硬件钱包被盗的漏洞",
+      "summary": "Coinkite表示,根据Galaxy Research的估算,Coldcard固件漏洞导致的总损失已在四波攻击中增至约1.3亿美元,该公司并披露,其对代码库的AI辅助审查——包括在漏洞被利用前几周进行的一次审查——未能发现该缺陷。公司事后还用多个前沿AI模型重新测试了这段代码,结果同样没有一个模型发现问题。",
+      "whyItMatters": "这削弱了'AI辅助审计可以替代人工审查关键安全代码'的说法,也使Coldcard的累计损失大幅超过一天前报告的约1亿美元。",
+      "category": "Crypto",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Hacked Bitcoin wallet maker warns of AI failure to detect bug",
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/08/05/hacked-bitcoin-wallet-maker-warns-of-ai-failure-to-detect-bug"
+        },
+        {
+          "title": "'I Did Everything Right'—AI Warning After $116 Million Bitcoin Hack",
+          "url": "https://www.forbes.com/sites/boazsobrado/2026/08/04/i-did-everything-right-ai-warning-after-116-million-bitcoin-hack/"
+        }
+      ]
+    }
+  ]
+}
