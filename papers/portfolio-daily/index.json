@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-08-07",
+      "date": "2026-08-07",
+      "headline": "Alphabet's chief scientist Jeff Dean exits after 27 years as DeepMind reshuffles leadership",
+      "storyCount": 5
+    },
+    {
       "id": "2026-08-05",
       "date": "2026-08-05",
       "headline": "Rocket Lab wins $397 million Space Force contract to build and fly 'Flatellite' satellites",

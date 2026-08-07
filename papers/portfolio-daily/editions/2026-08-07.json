@@ -1,0 +1,60 @@
+{
+  "id": "2026-08-07",
+  "date": "2026-08-07",
+  "generatedAt": "2026-08-07T08:19:21Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Today's edition centers on leadership upheaval at Alphabet, where chief scientist Jeff Dean's departure and a DeepMind reshuffle knocked shares down more than 4%. Duolingo's Q2 beat couldn't outrun cautious guidance, Alibaba moved to start charging large users of its next Qwen model, and gold and bitcoin diverged — gold rallying on rate-cut bets while bitcoin's price stalled despite heavy ETF and whale buying.",
+  "stories": [
+    {
+      "headline": "Alphabet's chief scientist Jeff Dean exits after 27 years as DeepMind reshuffles leadership",
+      "summary": "Jeff Dean and senior fellow Sanjay Ghemawat are leaving Google to launch AI-for-science venture Discovery Loop, a public benefit corporation with Google as a founding investor. In the same announcement, Demis Hassabis stepped back from day-to-day operational leadership of Google DeepMind to become its chairman and Alphabet's chief scientist, while Koray Kavukcuoglu was promoted to lead the DeepMind unit, reporting directly to CEO Sundar Pichai.",
+      "whyItMatters": "Alphabet shares fell more than 4% on the August 5 announcement, reflecting investor unease about a leadership shakeup atop the company's AI unit as it races to ship Gemini 4.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Google reveals big shakeup in its AI teams as Jeff Dean leaves and Demis Hassabis moves upstairs", "url": "https://siliconangle.com/2026/08/05/google-reveals-big-shake-ai-teams-jeff-dean-leaves-demis-hassabis-moves-upstairs/" }
+      ]
+    },
+    {
+      "headline": "Duolingo tops Q2 revenue and profit estimates, but shares slide on cautious guidance",
+      "summary": "Duolingo reported Q2 2026 revenue of $298.5 million, up 18.3% year-over-year and 0.9% ahead of estimates, with GAAP EPS of $0.66 beating consensus by 8.9% and adjusted EBITDA of $77.3 million beating estimates by 8%. Next-quarter revenue guidance of $302 million came in 0.9% below analyst expectations, even as full-year revenue guidance was lifted to a $1.21 billion midpoint.",
+      "whyItMatters": "Shares fell as much as 12% before closing down 9.46% at $122.52 on 3.3x average volume, extending pressure on the stock after Bank of America's downgrade earlier in the week.",
+      "category": "Earnings",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Duolingo (NASDAQ:DUOL) Posts Better-Than-Expected Sales In Q2 CY2026 But Stock Drops", "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-nasdaq-duol-posts-better-205327699.html" },
+        { "title": "Duolingo Q2 Earnings: Daily Active Users Up 23%", "url": "https://www.stocktitan.net/news/DUOL/duolingo-reports-second-quarter-2026-50sfevgaxt3z.html" }
+      ]
+    },
+    {
+      "headline": "Alibaba to charge large enterprise users of its next Qwen AI model, Reuters reports",
+      "summary": "Two sources told Reuters that Alibaba plans to require major commercial users of its upcoming Qwen3.8-Max open-source model — those building \"Model-as-a-Service\" offerings generating over $20 million a year — to share a cut of that revenue, mirroring a policy Chinese rival Moonshot AI already applies to its Kimi K3 model. The exact revenue-share percentage is still under negotiation; Moonshot's comparable terms reportedly demand up to 30%.",
+      "whyItMatters": "The shift marks Alibaba's first departure from offering Qwen models free to enterprise users on their own infrastructure, signaling Chinese AI labs are moving to monetize previously free open-weight models.",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Exclusive-Alibaba plans to charge big users of its next open-source AI model, sources say", "url": "https://ca.finance.yahoo.com/news/exclusive-alibaba-plans-charge-big-010847902.html" }
+      ]
+    },
+    {
+      "headline": "Gold rallies to $4,254, on pace for its best week since January",
+      "summary": "Spot gold traded around $4,254 an ounce, up roughly 5% this week, as falling oil prices, a weaker dollar and declining Treasury yields lifted the metal. Traders are watching Friday's non-farm payrolls report, with soft ADP private-sector data — 44,000 jobs added — fueling bets that a weak print could push yields, and gold, further.",
+      "whyItMatters": "The rally marks gold's best week since January, extending gains as investors position for weaker Fed policy support following soft labor-market data.",
+      "category": "Commodities",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Gold Price Forecast Today: XAU/USD Holds Above $4,250 as NFP Takes Center Stage", "url": "https://www.fxleaders.com/news/2026/08/07/gold-price-forecast-today-xau-usd-holds-above-4250-ahead-of-nfp/" }
+      ]
+    },
+    {
+      "headline": "Bitcoin whales add $1.2 billion in BTC as spot ETFs post their best week since April",
+      "summary": "Wallets holding 10 to 10,000 BTC accumulated more than 20,000 bitcoin worth about $1.2 billion since July 29, even as the price traded in a narrow band below $65,000. U.S. spot bitcoin ETFs took in $754.69 million over the week, their strongest showing since April.",
+      "whyItMatters": "The divergence between strong institutional buying and a stalled price highlights how thin conviction remains after the Senate delayed a vote on the CLARITY Act until September.",
+      "category": "Crypto",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Bitcoin whales load up on $1.2 billion in BTC as ETFs attract $750 million", "url": "https://www.coindesk.com/markets/2026/08/07/bitcoin-whales-load-up-on-usd1-2-billion-in-btc-as-etfs-attract-usd750-million" }
+      ]
+    }
+  ]
+}

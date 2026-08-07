@@ -1,0 +1,60 @@
+{
+  "id": "2026-08-07",
+  "date": "2026-08-07",
+  "generatedAt": "2026-08-07T08:19:21Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今天的焦点是Alphabet的高层动荡:首席科学家Jeff Dean离职,DeepMind完成重组,股价应声下跌逾4%。多邻国第二季度业绩超预期,却因指引保守而遭抛售;阿里巴巴计划对下一代Qwen模型的大客户收费;黄金与比特币走势分化——黄金在降息预期推动下上涨,比特币价格则在ETF与巨鲸大举买入的同时陷入停滞。",
+  "stories": [
+    {
+      "headline": "Alphabet首席科学家Jeff Dean任职27年后离职,DeepMind完成领导层重组",
+      "summary": "Jeff Dean与高级研究员Sanjay Ghemawat即将离开谷歌,创办专注于'AI用于科学研究'的新公司Discovery Loop,该公司为公益公司形式,谷歌将作为创始投资方参与。同一份公告中,Demis Hassabis卸任Google DeepMind的日常运营职责,转任DeepMind董事长兼Alphabet首席科学家;Koray Kavukcuoglu则获提拔,将直接向首席执行官Sundar Pichai汇报,领导DeepMind部门。",
+      "whyItMatters": "8月5日公告发布后,Alphabet股价下跌超过4%,反映出投资者对公司AI部门高层动荡的担忧,尤其是在Gemini 4冲刺研发的关键时期。",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Google reveals big shakeup in its AI teams as Jeff Dean leaves and Demis Hassabis moves upstairs", "url": "https://siliconangle.com/2026/08/05/google-reveals-big-shake-ai-teams-jeff-dean-leaves-demis-hassabis-moves-upstairs/" }
+      ]
+    },
+    {
+      "headline": "多邻国第二季度营收与利润均超预期,但指引保守拖累股价",
+      "summary": "多邻国公布2026年第二季度营收2.985亿美元,同比增长18.3%,超出预期0.9%;GAAP每股收益0.66美元,超出市场共识8.9%;调整后EBITDA为7730万美元,超出预期8%。下一季度营收指引为3.02亿美元,低于分析师预期0.9%,尽管公司将全年营收指引中值上调至12.1亿美元。",
+      "whyItMatters": "财报公布后股价一度重挫12%,收盘跌9.46%至122.52美元,成交量达日均水平的3.3倍,延续了本周早些时候美银下调评级带来的压力。",
+      "category": "Earnings",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Duolingo (NASDAQ:DUOL) Posts Better-Than-Expected Sales In Q2 CY2026 But Stock Drops", "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-nasdaq-duol-posts-better-205327699.html" },
+        { "title": "Duolingo Q2 Earnings: Daily Active Users Up 23%", "url": "https://www.stocktitan.net/news/DUOL/duolingo-reports-second-quarter-2026-50sfevgaxt3z.html" }
+      ]
+    },
+    {
+      "headline": "路透社:阿里巴巴计划向下一代Qwen模型的大客户收费",
+      "summary": "据两位消息人士向路透社透露,阿里巴巴计划要求即将发布的开源模型Qwen3.8-Max的大型商业用户——即那些以'模型即服务'方式运营、年收入超过2000万美元的企业——分享部分收入,这一做法与中国AI公司月之暗面(Moonshot AI)对其Kimi K3模型采取的政策类似。具体分成比例仍在协商中;作为参照,月之暗面的类似条款据称最高要求30%的分成。",
+      "whyItMatters": "此举标志着阿里巴巴首次改变此前允许企业在自有基础设施上免费使用Qwen模型的做法,显示中国AI实验室正开始对此前免费的开源模型进行商业化变现。",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Exclusive-Alibaba plans to charge big users of its next open-source AI model, sources say", "url": "https://ca.finance.yahoo.com/news/exclusive-alibaba-plans-charge-big-010847902.html" }
+      ]
+    },
+    {
+      "headline": "黄金价格升至4254美元,有望创下自1月以来最佳单周表现",
+      "summary": "现货黄金在4254美元/盎司附近交易,本周涨幅约5%,受油价下跌、美元走弱及美债收益率下滑推动。市场正关注周五公布的非农就业报告,此前ADP私营部门就业数据疲软(仅增加4.4万个岗位),市场押注疲软的非农数据可能进一步压低收益率,从而支撑金价。",
+      "whyItMatters": "这一涨幅创下黄金自1月以来最佳单周表现,反映出在疲软就业数据之后,投资者正为美联储政策转向宽松做仓位调整。",
+      "category": "Commodities",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Gold Price Forecast Today: XAU/USD Holds Above $4,250 as NFP Takes Center Stage", "url": "https://www.fxleaders.com/news/2026/08/07/gold-price-forecast-today-xau-usd-holds-above-4250-ahead-of-nfp/" }
+      ]
+    },
+    {
+      "headline": "比特币巨鲸增持12亿美元,现货ETF迎来4月以来最佳单周表现",
+      "summary": "持有10至10000枚比特币的钱包自7月29日以来已累计增持超过2万枚比特币,价值约12亿美元,尽管价格一直在6.5万美元下方的窄幅区间内波动。美国现货比特币ETF本周净流入7.5469亿美元,为4月以来最佳单周表现。",
+      "whyItMatters": "机构资金强劲流入与价格滞涨之间的背离,凸显出在参议院将《CLARITY法案》表决推迟至9月后,市场信心依然脆弱。",
+      "category": "Crypto",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Bitcoin whales load up on $1.2 billion in BTC as ETFs attract $750 million", "url": "https://www.coindesk.com/markets/2026/08/07/bitcoin-whales-load-up-on-usd1-2-billion-in-btc-as-etfs-attract-usd750-million" }
+      ]
+    }
+  ]
+}

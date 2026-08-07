@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-05T09:46:58Z",
+  "updatedAt": "2026-08-07T08:22:13Z",
   "events": [
+    {
+      "date": "2026-08-07",
+      "headline": "Study: humans miss 1 in 3 malicious commands when supervising AI agents",
+      "summary": "An interactive browser game testing human-in-the-loop approval of AI agent commands, spanning more than 40,000 runs and roughly 409,000 individual decisions, found players caught threats with only 66.3% accuracy. Credential-exfiltration at…",
+      "urls": [
+        "https://scalex.dev/blog/ai-agent-permissions-stats/"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "headline": "Qwen3.8-Max climbs the agentic benchmarks but its hallucination rate nearly doubles",
+      "summary": "Alibaba's Qwen3.8-Max scored 56 on the Artificial Analysis Intelligence Index — level with Claude Opus 4.8 and ahead of every Google, Meta, and xAI model, trailing only Anthropic, OpenAI, and Moonshot's Kimi K3. On GDPval-AA it reached 173…",
+      "urls": [
+        "https://officechai.com/ai/qwen-3-8-max-scores-56-on-artificial-analysis-intelligence-index-ahead-of-all-us-companies-except-anthropic-and-openai/"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "headline": "OpenAI tightens GPT-5.6 Sol's responses and gives free ChatGPT users unlimited Luna access",
+      "summary": "OpenAI updated GPT-5.6 Sol for paying subscribers to give more focused answers, cut unnecessary detail, and added a slider to control reasoning depth per response. Free and Go users are getting GPT-5.6 Luna as their default model with unli…",
+      "urls": [
+        "https://the-decoder.com/openai-improves-gpt-5-6-sol-in-chatgpt-and-restricts-free-users-to-its-weakest-model/"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "headline": "New Mexico court orders Meta to pay $567 million over harms to children's mental health",
+      "summary": "A judge in New Mexico ordered Meta to pay $567 million into a fund for youth mental health treatment and prevention programs, with $420 million earmarked for treatment services over the next five years. The ruling is the second phase of a…",
+      "urls": [
+        "https://www.pbs.org/newshour/nation/new-mexico-court-orders-meta-to-pay-567-million-over-mental-health-harms-to-kids-online"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "headline": "Essay: with AI making production nearly free, taste is the only scarce skill left",
+      "summary": "The essay argues that as AI tools remove the friction of building software, the human judgment to distinguish what's worth making from what merely works — taste — has become the scarce resource, since production itself is no longer ratione…",
+      "urls": [
+        "https://notashelf.dev/posts/taste-is-all-thats-left"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "headline": "AMD acquires AI chip startup Taalas to etch model weights directly into silicon",
+      "summary": "AMD has acquired Toronto-based Taalas, which builds model-specific chips that embed AI model weights directly into silicon instead of relying on external memory; terms were not disclosed. Taalas's HC1 chip has demonstrated 16,960 tokens pe…",
+      "urls": [
+        "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344"
+      ]
+    },
     {
       "date": "2026-08-05",
       "headline": "Waymo opens its robotaxi service to the general public in Dallas",
@@ -499,46 +547,6 @@
       "summary": "Anthropic launched Claude Opus 5, which it says reaches near the frontier intelligence of its Fable 5 model at half the price, topping evaluations like Frontier-Bench and OSWorld 2.0 for computer use. It's priced at $5/$25 per million inpu…",
       "urls": [
         "https://www.anthropic.com/news/claude-opus-5"
-      ]
-    },
-    {
-      "date": "2026-07-23",
-      "headline": "Report: five tech giants carry $1.65T in off-balance-sheet debt",
-      "summary": "Futurism reports that Alphabet, Microsoft, Amazon, Meta, and Oracle hold roughly $1.65 trillion in debt through special purpose vehicles and separate subsidiaries, more than their ~$1.35 trillion in reported debt, with Meta alone accountin…",
-      "urls": [
-        "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet"
-      ]
-    },
-    {
-      "date": "2026-07-23",
-      "headline": "Meta opens its first paid developer API with Muse Spark 1.1",
-      "summary": "Meta introduced Muse Spark 1.1, a 1M-token-context agentic model, alongside its first paid developer API, offering $20 in free credits to US developers at launch and pricing the model at $1.25/$4.25 per million tokens. The tracker position…",
-      "urls": [
-        "https://thursdai.news/releases/2026-07"
-      ]
-    },
-    {
-      "date": "2026-07-23",
-      "headline": "Essay: the arguments against open-source AI are weak",
-      "summary": "A widely-shared essay argues that suppressing open-source models is futile, citing 1990s encryption export controls—on PGP and SSL—that failed and were eventually protected as speech. It adds that many actors beyond China, from chipmakers…",
-      "urls": [
-        "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/"
-      ]
-    },
-    {
-      "date": "2026-07-23",
-      "headline": "DARPA and the Air Force fly an AI-piloted F-16",
-      "summary": "DARPA says it flew an AI-controlled F-16 on July 16, 2026 at Eglin Air Force Base under the VENOM program, with an AI agent autonomously piloting the jet while a human pilot monitored from the cockpit. A retrofit 'VENOM Autonomy Kit' lets…",
-      "urls": [
-        "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16"
-      ]
-    },
-    {
-      "date": "2026-07-23",
-      "headline": "A frontier price war breaks out as GPT-5.6 and Grok 4.5 land",
-      "summary": "Per a release tracker, OpenAI's GPT-5.6 shipped as a three-tier family (Sol at $5/$30 per million tokens, Terra at $2/$15, and a faster Luna tier), while SpaceX AI's Grok 4.5, a 1.5-trillion-parameter mixture-of-experts model, arrived at $…",
-      "urls": [
-        "https://thursdai.news/releases/2026-07"
       ]
     }
   ]
