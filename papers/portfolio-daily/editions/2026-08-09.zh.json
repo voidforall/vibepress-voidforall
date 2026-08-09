@@ -1,0 +1,49 @@
+{
+  "id": "2026-08-09",
+  "date": "2026-08-09",
+  "generatedAt": "2026-08-09T07:58:15Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今日关注列表上有四则动态：苹果将阿里巴巴的通义千问接入 Mac 系统以服务中国市场;伯克希尔·哈撒韦继续加仓 Alphabet 股票并加快回购;Strategy 进一步押注比特币抵押杠杆;华尔街对多邻国财报后的回调看法出现分歧。黄金和 Rocket Lab 今日没有实质性的新进展——Rocket Lab 将于周一公布第二季度财报。",
+  "stories": [
+    {
+      "headline": "苹果允许中国 Mac 用户将 Siri 与写作工具连接到阿里巴巴通义千问",
+      "summary": "苹果发布指南,允许符合条件的中国大陆 Mac 用户在 macOS 26.6 及更高版本上选择将 Siri 与写作工具接入阿里巴巴的通义千问 AI 服务,涵盖图片与文档分析、根据描述生成文本或图像等功能。苹果表示阿里巴巴不能使用交互内容训练或改进其模型。",
+      "whyItMatters": "此举让阿里巴巴的 AI 得以进入苹果在中国的生态系统——目前 Mac 在中国 PC 市场份额仅为 9%,远低于联想的 31%——同时苹果在中国的合规要求下仍保留对界面的控制权。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Apple says Mac users in China can connect to Alibaba's Qwen AI service", "url": "https://finance.yahoo.com/news/apple-says-mac-users-china-123458428.html" }
+      ]
+    },
+    {
+      "headline": "伯克希尔披露持有 100 亿美元 Alphabet 股份,二季度回购增至 45 亿美元",
+      "summary": "伯克希尔·哈撒韦在第二季度追加投资 Alphabet 100 亿美元,使其持仓总额增至近 410 亿美元;同时回购约 45 亿美元自家股票,较一季度的 2.34 亿美元大幅增加。现金储备从三月底的近 4000 亿美元降至 3655 亿美元。",
+      "whyItMatters": "这是新任 CEO 格雷格·阿贝尔迄今最明确的信号,表明他将比近几个季度更积极地动用伯克希尔的现金储备,既投向 Alphabet,也投向自家股票回购。",
+      "category": "市场",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Berkshire Hathaway buys $10 billion in Alphabet stock and repurchases $4.5 billion in shares", "url": "https://fortune.com/2026/08/08/berkshire-hathaway-cash-pile-10-billion-alphabet-stock-brk-repurchasei-greg-abel-warren-buffett/" }
+      ]
+    },
+    {
+      "headline": "Strategy 公布 150 亿美元比特币抵押优先股计划",
+      "summary": "Strategy Inc. 宣布通过新的比特币抵押优先股结构筹集 150 亿美元资金,这是其更广泛的“数字信贷资本框架”的一部分,该框架还包括 20 亿美元的股票回购,并将 STRC 优先股股息提高至 12%。",
+      "whyItMatters": "这标志着迈克尔·塞勒的公司进一步从单纯囤积比特币转向更依赖杠杆的资本管理策略,在普通股股东之上又增加了一层义务。",
+      "category": "加密货币",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Strategy (MSTR) Unveils $15 Billion Bitcoin Backed Preferred Stock Plan", "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-mstr-unveils-15-billion-130721771.html" }
+      ]
+    },
+    {
+      "headline": "瑞银将多邻国评级上调至“强力买入”,目标价升至 150 美元",
+      "summary": "瑞银将多邻国评级上调至“强力买入”,目标价从 125 美元上调至 150 美元,理由是其日活跃用户同比增速达到 23%,高于 20.6% 的预期,调整后 EBITDA 达到 7730 万美元,超出市场共识约 7%。",
+      "whyItMatters": "此次上调与该股此前因三季度指引疲软而在财报后遭遇抛售形成对比,显示华尔街对多邻国增长放缓与用户增长的看法出现分歧。",
+      "category": "公司",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Duolingo (NASDAQ:DUOL) Rating Increased to Strong-Buy at UBS Group", "url": "https://www.marketbeat.com/instant-alerts/duolingo-nasdaqduol-rating-increased-to-strong-buy-at-ubs-group-2026-08-08/" }
+      ]
+    }
+  ]
+}

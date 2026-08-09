@@ -1,0 +1,69 @@
+{
+  "id": "2026-08-09",
+  "date": "2026-08-09",
+  "generatedAt": "2026-08-09T07:59:49Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天的两则 AI 相关政策新闻首尾呼应——丹麦要求学生为居家作业进行口头答辩,亚马逊为 AI 基础设施配套的燃气电厂规模惊人——此外还有 Claude Code 新增的多会话协作功能、Fastmail 出于隐私考量推出的新服务、一项动摇“苹果芯片能效天下第一”说法的基准测试,以及一篇为编程这门苦活正名的文章。",
+  "stories": [
+    {
+      "headline": "亚马逊得州 AI 数据中心配套燃气电厂,排放规模超全美最大煤电厂",
+      "summary": "亚马逊正在得克萨斯州佩科斯县为一处数据中心项目建设一座 7.65 吉瓦的燃气电厂,州政府许可其每年排放最多 3300 万吨二氧化碳——超过全美最大煤电厂的排放量。目前已开始清理土地,该设施初期将脱离电网独立运行。",
+      "whyItMatters": "这为 AI 基础设施建设的能源代价给出了具体数字,也与亚马逊承诺 2040 年实现净零排放的目标形成了尴尬的对比。",
+      "category": "商业",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Amazon Is Creating the Biggest Pollution Source in the Country", "url": "https://newrepublic.com/post/214111/amazon-data-center-biggest-pollution-source-entire-country" }
+      ]
+    },
+    {
+      "headline": "丹麦要求高中生为居家作业进行口头答辩,以应对 AI 作弊",
+      "summary": "丹麦教育部现规定,高中阶段学生必须为任何在家完成的书面作业进行口头答辩,同时在考试期间引入屏幕监控与内容防火墙——该规定立即生效,涉及其两年制考前项目中约 9000 名学生。",
+      "whyItMatters": "这是政府应对 AI 辅助作弊较为具体的举措之一,以当面核实取代对居家作业的信任,而非直接禁止使用相关工具。",
+      "category": "观点",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Danish high schoolers will have to verbally defend written assignments, in government move to combat AI cheating", "url": "https://kvia.com/news/us-world/cnn-world/2026/08/07/danish-high-schoolers-will-have-to-verbally-defend-written-assignments-in-government-move-to-combat-ai-cheating/" }
+      ]
+    },
+    {
+      "headline": "Claude Code 新增跨会话消息功能,让编程会话之间可以互相通信",
+      "summary": "Anthropic 为 Claude Code 上线了跨会话消息功能:借助新的 ListAgents 与 SendMessage 工具,一个会话现在可以查找并向同一台机器上的另一个会话发消息,或通过 Remote Control 跨机器回复。消息仅为纯文本,绝不包含完整对话记录或文件,该功能需要 Claude Code v2.1.224 及以上版本,支持 macOS 和 Linux。",
+      "whyItMatters": "这将开发者此前自行摸索的做法正式产品化——在不同 worktree 中处理同一代码库的多个会话可以相互协调——同时不会在彼此之间暴露文件或完整对话记录。",
+      "category": "科技",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Message your other Claude Code sessions", "url": "https://code.claude.com/docs/en/cross-session-messaging" }
+      ]
+    },
+    {
+      "headline": "Fastmail 推出欧盟数据区域,邮件数据存储于其自建的阿姆斯特丹服务器",
+      "summary": "Fastmail 现允许任何用户选择将主邮箱数据存储在基于其自建阿姆斯特丹基础设施的欧盟区域,而非现有的美国节点,且不额外收费。账单地址在欧洲的用户已被预先迁移;其他用户可随时在账户设置中切换。",
+      "whyItMatters": "这是面向不希望数据流出欧盟的用户的一次合规与信任举措,依托的是自建基础设施而非租用的云区域。",
+      "category": "商业",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Fastmail offers EU data region", "url": "https://www.fastmail.com/blog/fastmail-offers-eu-data-region/" }
+      ]
+    },
+    {
+      "headline": "搭载英特尔 Core 5 320 的戴尔 XPS 13 在能效上超过多数苹果芯片 Mac",
+      "summary": "在 Jeff Geerling 的 Linpack 基准测试中,搭载英特尔 Core 5 320 芯片的戴尔 XPS 13 达到每瓦 6.21 Gflops,超过 MacBook Neo 的 5.38,也超过所有参测的 Mac Studio 机型——仅次于 M4 Mac Mini 的 7.57。",
+      "whyItMatters": "这动摇了“ARM 芯片在性能功耗比上必然占优”的默认认知,说明苹果的能效优势或许更多来自设计选择,而非架构本身。",
+      "category": "科技",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Want energy efficiency? Dude, you're getting a Dell", "url": "https://hackaday.com/2026/08/08/want-energy-efficiency-dude-youre-getting-a-dell/" }
+      ]
+    },
+    {
+      "headline": "一位程序员反驳“代码从来都不是难的部分”",
+      "summary": "针对科技圈常见的说法——写代码很简单,真正的难点在于决定做什么——开发者 Ivan Rašić 认为这种说法是对程序员的侮辱:高薪、严苛的面试门槛,以及这个领域数十年来涌现的传奇人物,都说明写代码本身就很难;至于代码能力与领域知识孰轻孰重,答案是两者都要,而非二选一。",
+      "whyItMatters": "这是对当下 AI 编程代理热潮的一次反驳,后者往往把“实现”这件事当作已被解决、价值不高的商品来看待。",
+      "category": "观点",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "\"Code was never the hard part\" is an insult to all programmers", "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers" }
+      ]
+    }
+  ]
+}

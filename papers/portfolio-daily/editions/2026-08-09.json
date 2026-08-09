@@ -1,0 +1,49 @@
+{
+  "id": "2026-08-09",
+  "date": "2026-08-09",
+  "generatedAt": "2026-08-09T07:58:15Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Four moves across the watchlist today: Apple wires Alibaba's Qwen into Mac software for China, Berkshire Hathaway keeps building its Alphabet stake while stepping up buybacks, Strategy leans further into bitcoin-backed leverage, and Wall Street splits on Duolingo after its post-earnings dip. Gold and Rocket Lab had no fresh, non-repeat developments today — Rocket Lab reports Q2 earnings Monday.",
+  "stories": [
+    {
+      "headline": "Apple lets Mac users in China connect Siri and Writing Tools to Alibaba's Qwen",
+      "summary": "Apple published a guide letting eligible Mac users in mainland China opt into linking Siri and Writing Tools to Alibaba's Qwen AI service on macOS 26.6 and later, covering tasks like photo and document analysis and generating text or images from a description. Apple says Alibaba cannot use the exchanged material to train or improve its models.",
+      "whyItMatters": "It gives Alibaba's AI a foothold inside Apple's ecosystem in China, where Mac holds just 9% of the PC market against Lenovo's 31%, while Apple keeps interface control amid Beijing's compliance requirements.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Apple says Mac users in China can connect to Alibaba's Qwen AI service", "url": "https://finance.yahoo.com/news/apple-says-mac-users-china-123458428.html" }
+      ]
+    },
+    {
+      "headline": "Berkshire Hathaway discloses $10 billion Alphabet stake as Q2 buybacks jump to $4.5 billion",
+      "summary": "Berkshire Hathaway invested $10 billion in Alphabet during the second quarter, bringing its position to nearly $41 billion, while repurchasing about $4.5 billion of its own stock, up sharply from $234 million in Q1. Cash holdings fell to $365.5 billion from nearly $400 billion at the end of March.",
+      "whyItMatters": "It's new CEO Greg Abel's clearest signal yet that he'll deploy Berkshire's cash pile more aggressively than in recent quarters, both into Alphabet and into the company's own shares.",
+      "category": "Markets",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Berkshire Hathaway buys $10 billion in Alphabet stock and repurchases $4.5 billion in shares", "url": "https://fortune.com/2026/08/08/berkshire-hathaway-cash-pile-10-billion-alphabet-stock-brk-repurchasei-greg-abel-warren-buffett/" }
+      ]
+    },
+    {
+      "headline": "Strategy unveils $15 billion bitcoin-backed preferred stock plan",
+      "summary": "Strategy Inc. announced a $15 billion capital raise through a new bitcoin-backed preferred stock structure, part of a broader Digital Credit Capital Framework that also sets up $2 billion in buybacks and raises the STRC preferred dividend to 12%.",
+      "whyItMatters": "It marks a further shift for Michael Saylor's company from pure bitcoin accumulation toward a more leveraged capital-management strategy, adding another layer of obligations ahead of common shareholders.",
+      "category": "Crypto",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Strategy (MSTR) Unveils $15 Billion Bitcoin Backed Preferred Stock Plan", "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-mstr-unveils-15-billion-130721771.html" }
+      ]
+    },
+    {
+      "headline": "UBS upgrades Duolingo to Strong-Buy, raises price target to $150",
+      "summary": "UBS raised Duolingo to a Strong-Buy rating and lifted its price target to $150 from $125, citing daily active user growth accelerating to 23% year-over-year against a 20.6% estimate, and adjusted EBITDA of $77.3 million beating consensus by about 7%.",
+      "whyItMatters": "The upgrade cuts against the stock's post-earnings selloff on weaker Q3 guidance, highlighting a split in how Wall Street is reading Duolingo's slowdown versus its user growth.",
+      "category": "Company",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Duolingo (NASDAQ:DUOL) Rating Increased to Strong-Buy at UBS Group", "url": "https://www.marketbeat.com/instant-alerts/duolingo-nasdaqduol-rating-increased-to-strong-buy-at-ubs-group-2026-08-08/" }
+      ]
+    }
+  ]
+}

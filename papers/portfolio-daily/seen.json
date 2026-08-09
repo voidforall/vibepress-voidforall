@@ -1,7 +1,39 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-07T08:22:13Z",
+  "updatedAt": "2026-08-09T07:59:20Z",
   "events": [
+    {
+      "date": "2026-08-09",
+      "headline": "UBS upgrades Duolingo to Strong-Buy, raises price target to $150",
+      "summary": "UBS raised Duolingo to a Strong-Buy rating and lifted its price target to $150 from $125, citing daily active user growth accelerating to 23% year-over-year against a 20.6% estimate, and adjusted EBITDA of $77.3 million beating consensus b…",
+      "urls": [
+        "https://www.marketbeat.com/instant-alerts/duolingo-nasdaqduol-rating-increased-to-strong-buy-at-ubs-group-2026-08-08/"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "headline": "Strategy unveils $15 billion bitcoin-backed preferred stock plan",
+      "summary": "Strategy Inc. announced a $15 billion capital raise through a new bitcoin-backed preferred stock structure, part of a broader Digital Credit Capital Framework that also sets up $2 billion in buybacks and raises the STRC preferred dividend…",
+      "urls": [
+        "https://finance.yahoo.com/markets/crypto/articles/strategy-mstr-unveils-15-billion-130721771.html"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "headline": "Berkshire Hathaway discloses $10 billion Alphabet stake as Q2 buybacks jump to $4.5 billion",
+      "summary": "Berkshire Hathaway invested $10 billion in Alphabet during the second quarter, bringing its position to nearly $41 billion, while repurchasing about $4.5 billion of its own stock, up sharply from $234 million in Q1. Cash holdings fell to $…",
+      "urls": [
+        "https://fortune.com/2026/08/08/berkshire-hathaway-cash-pile-10-billion-alphabet-stock-brk-repurchasei-greg-abel-warren-buffett/"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "headline": "Apple lets Mac users in China connect Siri and Writing Tools to Alibaba's Qwen",
+      "summary": "Apple published a guide letting eligible Mac users in mainland China opt into linking Siri and Writing Tools to Alibaba's Qwen AI service on macOS 26.6 and later, covering tasks like photo and document analysis and generating text or image…",
+      "urls": [
+        "https://finance.yahoo.com/news/apple-says-mac-users-china-123458428.html"
+      ]
+    },
     {
       "date": "2026-08-07",
       "headline": "Gold rallies to $4,254, on pace for its best week since January",
@@ -293,88 +325,6 @@
       "summary": "Alibaba's Hong Kong-listed shares (9988.HK) fell 4.26% on Friday to HK$110, erasing about HK$94 billion in market value, giving back gains from earlier in the week when the stock rose 3.73% on Monday following the unveiling of Alibaba's Qw…",
       "urls": [
         "https://ts2.tech/en/alibaba-hkg9988-shares-drop-wiping-out-nearly-hk94-billion-as-ai-driven-gains-recede/"
-      ]
-    },
-    {
-      "date": "2026-07-25",
-      "headline": "Strategy overhauls how it reports its bitcoin position",
-      "summary": "Strategy (formerly MicroStrategy) introduced new metrics on July 24, including \"Net Reserve\" ($36.6 billion, its $55.6 billion BTC holdings plus cash minus convertible debt and preferred stock claims) and a \"BTC Breakeven ARR\" of 3.22%, th…",
-      "urls": [
-        "https://www.coindesk.com/markets/2026/07/24/saylor-and-team-overhaul-strategy-s-bitcoin-metrics-as-bear-market-persists"
-      ]
-    },
-    {
-      "date": "2026-07-25",
-      "headline": "Rocket Lab falls 7% ahead of Starship test; SpaceX flight mostly succeeds",
-      "summary": "Rocket Lab shares fell 7% to $65.27 on July 24 in sympathy trading as investors awaited SpaceX's 13th Starship test flight. The flight launched July 24 evening, deployed 20 Starlink satellites, demonstrated an in-space engine restart, and…",
-      "urls": [
-        "https://247wallst.com/investing/2026/07/24/spacex-drops-5-rocket-lab-falls-7-ast-spacemobile-slides-4-as-jittery-market-awaits-tonights-crucial-test-flight/",
-        "https://spaceflightnow.com/2026/07/25/super-heavy-starship-rocket-chalks-up-mostly-successful-test-flight/"
-      ]
-    },
-    {
-      "date": "2026-07-25",
-      "headline": "EU fines Google $1 billion in its first Digital Markets Act penalty",
-      "summary": "The European Commission fined Google €890 million ($1 billion) on July 23: €460 million for favoring its own services in shopping, hotel, and transport search results, and €430 million for restricting Google Play developers from steering u…",
-      "urls": [
-        "https://www.rte.ie/news/business/2026/0723/1584780-google-hit-with-1-billion-eu-fine/"
-      ]
-    },
-    {
-      "date": "2026-07-25",
-      "headline": "Duolingo shares down 9.8% this week on AI-disruption worries",
-      "summary": "Duolingo stock fell 9.8% over the week to $122.37, as investors weighed AI's threat to its language-learning business alongside a mid-July analyst downgrade to hold that flagged narrowing margins. Management has said gross margins will fal…",
-      "urls": [
-        "https://www.fool.com/investing/2026/07/24/why-duolingo-stock-plunged-10-this-week/"
-      ]
-    },
-    {
-      "date": "2026-07-25",
-      "headline": "China's biggest banks end retail leveraged gold trading",
-      "summary": "ICBC and four other major Chinese banks terminated retail leveraged gold products tied to Shanghai Gold Exchange contracts on July 24, after gold fell from a January peak of $5,589 to about $4,010 by July 20, a 28% decline. Physical gold p…",
-      "urls": [
-        "https://goldsilver.com/industry-news/goldsilver-news/china-paper-gold-sge-shutdown-july-2026/"
-      ]
-    },
-    {
-      "date": "2026-07-24",
-      "headline": "Strategy overhauls how it reports its $57B bitcoin stash",
-      "summary": "Strategy (formerly MicroStrategy) introduced new metrics — including a 'Net Reserve' of about $36.6 billion — that subtract roughly $22.3 billion in preferred-stock and convertible-debt claims from its 843,775 BTC holdings plus cash, to sh…",
-      "urls": [
-        "https://www.coindesk.com/markets/2026/07/24/saylor-and-team-overhaul-strategy-s-bitcoin-metrics-as-bear-market-persists"
-      ]
-    },
-    {
-      "date": "2026-07-24",
-      "headline": "Rocket Lab agrees to buy Iridium for $8B as space stocks slide ahead of Starship test",
-      "summary": "Rocket Lab agreed to acquire satellite operator Iridium Communications for $8 billion in enterprise value ($54/share, cash-and-stock), a deal both boards approved that's expected to close in mid-2027 and would add Iridium's roughly $300 mi…",
-      "urls": [
-        "https://finance.yahoo.com/markets/stocks/articles/huge-news-rocket-lab-investors-135000384.html",
-        "https://247wallst.com/investing/2026/07/24/spacex-drops-5-rocket-lab-falls-7-ast-spacemobile-slides-4-as-jittery-market-awaits-tonights-crucial-test-flight/"
-      ]
-    },
-    {
-      "date": "2026-07-24",
-      "headline": "Gold holds below $4,100 ahead of next week's Fed decision",
-      "summary": "Spot gold traded around $4,055–4,057/oz, up about 0.1% on the day, after pulling back from briefly topping $4,100 the prior session. Lower-than-expected jobless claims (187,000 vs. a 212,000 forecast) and a steady-rates outlook ahead of th…",
-      "urls": [
-        "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-july-24-2026-gold-price-remains-below-4100-ahead-of-next-weeks-rate-decision-152726975.html"
-      ]
-    },
-    {
-      "date": "2026-07-24",
-      "headline": "Duolingo shares down almost 10% this week on AI-disruption worries",
-      "summary": "Duolingo stock fell 9.8% this week to $122.37 as investors weighed a mid-July analyst downgrade citing narrowing margins and high operating costs, alongside concern that advancing AI models could erode its core business. The company projec…",
-      "urls": [
-        "https://www.fool.com/investing/2026/07/24/why-duolingo-stock-plunged-10-this-week/"
-      ]
-    },
-    {
-      "date": "2026-07-24",
-      "headline": "Bitcoin slips toward $64,000 as Treasury yields climb",
-      "summary": "Bitcoin fell about 1.6% to roughly $64,300 (ether down 2.9% to about $1,861) as higher oil prices and new tariff policies pushed up inflation expectations and Treasury yields, pulling institutional money away from crypto. Bitcoin ETFs saw…",
-      "urls": [
-        "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-july-24-2026-crypto-prices-retreat-on-higher-us-treasury-yields-152200068.html"
       ]
     }
   ]

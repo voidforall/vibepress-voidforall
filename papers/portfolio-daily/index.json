@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-08-09",
+      "date": "2026-08-09",
+      "headline": "Apple lets Mac users in China connect Siri and Writing Tools to Alibaba's Qwen",
+      "storyCount": 4
+    },
+    {
       "id": "2026-08-07",
       "date": "2026-08-07",
       "headline": "Alphabet's chief scientist Jeff Dean exits after 27 years as DeepMind reshuffles leadership",
