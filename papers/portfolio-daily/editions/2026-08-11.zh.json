@@ -1,0 +1,60 @@
+{
+  "id": "2026-08-11",
+  "date": "2026-08-11",
+  "generatedAt": "2026-08-11T08:15:22Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Rocket Lab 交出创纪录的一季度财报,但股价因 Neutron 火箭时间表收紧而下跌;一家联邦上诉法院裁定 Alphabet 仍须面对数千起青少年成瘾诉讼;黄金的突破性上涨如今正带动中国黄金矿业股,涨幅不亚于金价本身。多邻国为董事会引入一位重量级财务高管,Strategy 则继续削减比特币持仓以回购优先股。",
+  "stories": [
+    {
+      "headline": "Rocket Lab 交出 2.34 亿美元创纪录营收,但股价因 Neutron 时间表收紧而下跌",
+      "summary": "Rocket Lab 公布第二季度营收创纪录达 2.341 亿美元,同比增长 62%,在手订单同比增长 137% 至 23.6 亿美元,本季度及季后新签合同超过 10 亿美元。公司将三季度营收指引定为 2.5 亿至 2.65 亿美元,但重申其 Neutron 火箭一级贮箱的交付目标仍为 2026 年第四季度,今年内首飞的窗口正在收窄。",
+      "whyItMatters": "投资者更关注 Neutron 时间表的推迟,而非创纪录的营收本身,这提醒市场对 Rocket Lab 的定价基础是它的下一款火箭,而非当前的发射节奏。",
+      "category": "财报",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Rocket Lab Q2 Earnings: Record $234M Revenue", "url": "https://www.stocktitan.net/news/RKLB/rocket-lab-announces-second-quarter-2026-financial-results-posts-u80uvwckg6f1.html" },
+        { "title": "Rocket Lab Q2 Revenue Rises 62% YoY to Quarterly Record as Backlog Rises to $2.36 Billion", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262093764-rocket-lab-announces-second-quarter-2026-financial-results-tradingkey" }
+      ]
+    },
+    {
+      "headline": "上诉法院恢复针对谷歌等平台的逾 3000 起青少年成瘾诉讼",
+      "summary": "美国第九巡回上诉法院于 8 月 11 日裁定,《通信规范法》第 230 条提供的是责任抗辩,而非免于被起诉的豁免,驳回了 Meta、Alphabet 旗下谷歌、TikTok 和 Snap 试图提前驳回逾 3000 起联邦诉讼的请求,这些诉讼指控其故意让年轻用户上瘾。加州州法院还有约 3300 起相关案件在审理中。",
+      "whyItMatters": "这撤销了一道早期的程序性保护,使 Alphabet 在未来数年内持续面临围绕产品设计与信息披露的诉讼风险。",
+      "category": "监管",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Appeal Court: Social Media Companies Must Face Thousands of Addiction Lawsuits", "url": "https://www.insurancejournal.com/news/national/2026/08/11/880935.htm" }
+      ]
+    },
+    {
+      "headline": "黄金突破性上涨带动中国黄金矿业股较七月低点最高上涨 40%",
+      "summary": "现货黄金 8 月 11 日报价约每盎司 4479 美元,在突破 50 日均线后,过去一个月上涨 12%;A 股黄金股指数较近期低点上涨约 25%。中国最大的两家黄金生产商紫金矿业和赤峰吉隆黄金股价均较七月低点上涨至少 40%,同期中国和波兰在二季度央行购金中领跑。",
+      "whyItMatters": "这波涨势如今已传导至与黄金挂钩的股票,而不仅仅是现货金价本身,使这笔交易的范围超出了 XAU 本身。",
+      "category": "大宗商品",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Gold breakout rally sends Chinese bullion stocks near record highs", "url": "https://www.scmp.com/business/china-business/article/3363620/gold-breakout-rally-sends-chinese-bullion-stocks-near-highs-central-banks-keep-buying" }
+      ]
+    },
+    {
+      "headline": "多邻国任命前花旗集团首席财务官萨莉·克劳切克为董事",
+      "summary": "多邻国任命萨莉·克劳切克——前花旗集团首席财务官、Ellevest 创始人——为独立董事,自 8 月 10 日起生效,并加入审计、风险与合规委员会。CEO 路易斯·冯·安称赞她在财务领导力与公司治理方面的履历。",
+      "whyItMatters": "在华尔街对多邻国财报后指引看法分歧之际,此举为其董事会增添了财务治理方面的深度。",
+      "category": "公司",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Duolingo Appoints Sallie Krawcheck to Audit Committee", "url": "https://www.stocktitan.net/news/DUOL/duolingo-appoints-sallie-krawcheck-to-board-of-zm2rw5uem9od.html" }
+      ]
+    },
+    {
+      "headline": "Strategy 再抛售 1690 枚比特币,为六月以来第四次减持",
+      "summary": "Strategy 于 8 月 10 日以约 6.47 万美元的平均价格出售 1690 枚比特币,套现约 1.09 亿美元,所得款项用于回购其 STRC 优先股,而非增加美元储备。这是该公司自六月底开始为期七周的购买暂停以来第四次出售比特币,属于其计划出售最多 12.5 亿美元比特币方案的一部分。",
+      "whyItMatters": "这是 Strategy 从单纯囤积比特币转向以持仓为自身资本结构融资的又一具体举措。",
+      "category": "加密货币",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Strategy dumps yet more Bitcoin, latest $109 million sell-off comes amid a seven-week buying hiatus", "url": "https://fortune.com/2026/08/10/strategy-bitcoin-109-million-sell-off-seven-week-buying-hiatus/" }
+      ]
+    }
+  ]
+}

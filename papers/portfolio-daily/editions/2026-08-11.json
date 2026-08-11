@@ -1,0 +1,60 @@
+{
+  "id": "2026-08-11",
+  "date": "2026-08-11",
+  "generatedAt": "2026-08-11T08:15:22Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Rocket Lab posted a record quarter but the stock fell on Neutron's narrowing timeline, a federal appeals court kept Alphabet on the hook for thousands of youth-addiction suits, and gold's breakout is now lifting Chinese bullion miners as hard as it's lifting the metal itself. Duolingo added a heavyweight financial director to its board, and Strategy kept trimming its bitcoin stack to fund preferred-stock buybacks.",
+  "stories": [
+    {
+      "headline": "Rocket Lab posts record $234M quarter, but shares fall on Neutron's tightening timeline",
+      "summary": "Rocket Lab reported record Q2 revenue of $234.1 million, up 62% year-over-year, with backlog rising 137% to $2.36 billion and more than $1 billion in new contracts signed in and after the quarter. The company guided Q3 revenue to $250-265 million but reiterated that its Neutron rocket's Stage 1 tank is still targeting delivery only by Q4 2026, narrowing the runway for a debut launch this year.",
+      "whyItMatters": "Investors focused on Neutron's slipping schedule over the record top line, a reminder that the market is pricing Rocket Lab on its next rocket, not its current launch cadence.",
+      "category": "Earnings",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Rocket Lab Q2 Earnings: Record $234M Revenue", "url": "https://www.stocktitan.net/news/RKLB/rocket-lab-announces-second-quarter-2026-financial-results-posts-u80uvwckg6f1.html" },
+        { "title": "Rocket Lab Q2 Revenue Rises 62% YoY to Quarterly Record as Backlog Rises to $2.36 Billion", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262093764-rocket-lab-announces-second-quarter-2026-financial-results-tradingkey" }
+      ]
+    },
+    {
+      "headline": "Appeals court revives over 3,000 youth-addiction lawsuits against Google and other platforms",
+      "summary": "The 9th U.S. Circuit Court of Appeals ruled on August 11 that Section 230 provides a defense to liability, not immunity from being sued, rejecting an early attempt by Meta, Alphabet's Google, TikTok and Snap to dismiss more than 3,000 federal lawsuits alleging they intentionally addicted young users. About 3,300 related cases are also proceeding in California state court.",
+      "whyItMatters": "It removes an early procedural shield and keeps Alphabet exposed to years of product-design and disclosure litigation over Google's youth-facing products.",
+      "category": "Regulatory",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Appeal Court: Social Media Companies Must Face Thousands of Addiction Lawsuits", "url": "https://www.insurancejournal.com/news/national/2026/08/11/880935.htm" }
+      ]
+    },
+    {
+      "headline": "Gold's breakout rally lifts Chinese bullion miners as much as 40% off July lows",
+      "summary": "Spot gold traded near $4,479 an ounce on August 11, up 12% over the past month after breaking through its 50-day moving average, and a gauge of mainland-listed gold stocks has gained about 25% off recent lows. Zijin Mining and Chifeng Jilong Gold, China's biggest producers, are both up at least 40% from July lows, with China and Poland leading central-bank gold purchases in the second quarter.",
+      "whyItMatters": "The rally is now feeding through to equities tied to the metal, not just the spot price, broadening the trade beyond XAU itself.",
+      "category": "Commodities",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Gold breakout rally sends Chinese bullion stocks near record highs", "url": "https://www.scmp.com/business/china-business/article/3363620/gold-breakout-rally-sends-chinese-bullion-stocks-near-highs-central-banks-keep-buying" }
+      ]
+    },
+    {
+      "headline": "Duolingo appoints former Citigroup CFO Sallie Krawcheck to its board",
+      "summary": "Duolingo named Sallie Krawcheck, former Citigroup CFO and founder of Ellevest, as an independent board member effective August 10, seating her on the Audit, Risk and Compliance Committee. CEO Luis von Ahn cited her track record in financial leadership and governance.",
+      "whyItMatters": "It adds financial-governance depth to Duolingo's board just as Wall Street is split over the company's post-earnings guidance.",
+      "category": "Company",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Duolingo Appoints Sallie Krawcheck to Audit Committee", "url": "https://www.stocktitan.net/news/DUOL/duolingo-appoints-sallie-krawcheck-to-board-of-zm2rw5uem9od.html" }
+      ]
+    },
+    {
+      "headline": "Strategy sells another 1,690 bitcoin, its fourth divestment since June",
+      "summary": "Strategy sold 1,690 bitcoin for roughly $109 million on August 10, at an average price near $64,700, using the proceeds to repurchase its STRC preferred stock rather than add to its dollar reserve. It's the company's fourth bitcoin sale since a seven-week buying pause began in late June, part of a plan to sell up to $1.25 billion in bitcoin.",
+      "whyItMatters": "It's a further, concrete step in Strategy shifting from pure bitcoin accumulation toward funding its own capital structure with its holdings.",
+      "category": "Crypto",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Strategy dumps yet more Bitcoin, latest $109 million sell-off comes amid a seven-week buying hiatus", "url": "https://fortune.com/2026/08/10/strategy-bitcoin-109-million-sell-off-seven-week-buying-hiatus/" }
+      ]
+    }
+  ]
+}

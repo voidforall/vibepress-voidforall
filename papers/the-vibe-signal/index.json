@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-08-11",
+      "date": "2026-08-11",
+      "headline": "Meta releases Muse Glimmer, a 30B open-weight agentic model built to run on a single GPU",
+      "storyCount": 6
+    },
+    {
       "id": "2026-08-09",
       "date": "2026-08-09",
       "headline": "Amazon's Texas AI data center plans a gas plant bigger than the country's biggest coal plant",

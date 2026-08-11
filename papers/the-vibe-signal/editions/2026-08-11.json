@@ -1,0 +1,69 @@
+{
+  "id": "2026-08-11",
+  "date": "2026-08-11",
+  "generatedAt": "2026-08-11T08:15:22Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Meta's newest open model and a fresh Anthropic math result both make the case that the frontier is still moving fast even at the edges — one shrinking a capable agent down to a laptop GPU, the other nudging a century-old number theory bound. Meanwhile Illinois just handed open-source operating systems a compliance problem with no exemption, and an investigation traces how Britain's anonymity-stripping child-safety laws found their way into American statehouses.",
+  "stories": [
+    {
+      "headline": "Meta releases Muse Glimmer, a 30B open-weight agentic model built to run on a single GPU",
+      "summary": "Meta released Muse Glimmer, a 30-billion-parameter model under an Apache 2.0 license on Hugging Face, tuned for local, always-on agent workflows: multi-step tool use, failure recovery, multimodal input, and a 'controllable effort' setting to trade speed for quality. Meta says it performs strongly for its size class against Gemma4-31B and Qwen3.6-27B on agentic, coding and safety benchmarks, with llama.cpp, MLX and ExecuTorch integrations coming in the following days.",
+      "whyItMatters": "It's Meta pushing a capable agentic model down to consumer hardware under fully open weights, at the same time it's publicly framing open models as its answer to closed rivals.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Introducing Muse Glimmer: an open agentic model", "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model" }
+      ]
+    },
+    {
+      "headline": "An unreleased Claude model pushed a Riemann hypothesis bound from 41.6% to 67.2%",
+      "summary": "Anthropic says a research version of Claude, given free rein with 60 subagents that ran 2,400 shell commands and about 31 million output tokens across two sessions, synthesized a 2000 paper by Bombieri with recent work by four mathematicians to raise the known lower bound on zeros satisfying the Riemann hypothesis from 41.6% to 67.2%. The result was validated by Anthropic's own mathematicians and outside experts; Anthropic is explicit that Claude did not solve the hypothesis and doesn't expect the technique to lead to a full proof.",
+      "whyItMatters": "It's a concrete instance of a model producing a genuinely new, human-verified mathematical result rather than restating known work — with the caveats spelled out by the people who checked it.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Learning more about Claude's mathematical capabilities", "url": "https://www.anthropic.com/research/riemann-zeta" }
+      ]
+    },
+    {
+      "headline": "Illinois' new age-verification law gives open-source operating systems no exemption",
+      "summary": "Illinois' HB5511 requires any 'covered manufacturer' of an internet-connected operating system to add an age-declaration setup screen and an encrypted API exposing a user's age bracket to apps, plus restrictions like no algorithmic feeds or late-night notifications for minors, by January 1, 2028. Unlike Colorado's and California's versions, Illinois' bill carves out no exemption for open-source or noncommercial projects, and its penalties range from $2,500 to $7,500 per child — figures the governor's office has separately advertised as up to $50,000 without reconciling the discrepancy.",
+      "whyItMatters": "It puts community-run Linux distributions and similar projects, which have no compliance department or enforcement capacity, under the same legal exposure as Google, Microsoft and Apple.",
+      "category": "Ideas",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Illinois' HB5511 puts Linux on the hook for age verification", "url": "https://linuxstans.com/illinois-hb5511-operating-system-age-verification/" }
+      ]
+    },
+    {
+      "headline": "Investigation traces how UK anonymity-stripping child-safety laws spread to US statehouses",
+      "summary": "An investigation documents British NGOs including the 5Rights Foundation, the Center for Countering Digital Hate and Reset Tech Action lobbying for age-verification bills modeled on Britain's Age Appropriate Design Code across dozens of US states — citing FARA and lobbying-disclosure filings showing 5Rights engaged on 42 bills across 18 states (11 became law) and disclosed $50,000 in California lobbying only in 2024, years after the fact, plus $1.35 million spent by Reset Tech Action on federal and state lobbying since 2024.",
+      "whyItMatters": "It documents, with public filings rather than assertion, how specific foreign-funded advocacy groups shaped US age-verification legislation now spreading state by state.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "The UK's war on anonymity has come to America", "url": "https://www.effort.news/uk-lobby" }
+      ]
+    },
+    {
+      "headline": "Needle2 squeezes a 45M-parameter tool-calling model into a 14MB binary for edge devices",
+      "summary": "Cactus Compute released Needle2, a 45-million-parameter open-source model quantized to a 14MB binary with a fixed 28MB RAM footprint, built specifically for tool calling and device control rather than conversation. It runs at 500+ tokens per second on a Raspberry Pi 5 and targets sub-$200 hardware including microcontrollers, budget phones and wearables, under an Apache 2.0 license with weights on Hugging Face.",
+      "whyItMatters": "It's a bet that most edge devices need reliable, cheap function-calling rather than a scaled-down chatbot, pushed all the way down to microcontroller-class hardware.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots", "url": "https://cactuscompute.com/needle" }
+      ]
+    },
+    {
+      "headline": "H3-metal brings native MiniMax H3 video generation to Apple Silicon",
+      "summary": "Developer Salvatore Sanfilippo released H3-metal, a Metal-optimized inference engine for MiniMax's open H3-Base video and audio model, generating 512x512, 22-frame clips in about 8-17 seconds on an M5 Max in its fast modes, or roughly 39 seconds at full 50-pass reference quality, using layer pruning and weight-reuse techniques to keep peak memory in the 25-40GB range.",
+      "whyItMatters": "It's a from-scratch, dependency-light path to running an open video-generation model locally on Mac hardware instead of through a hosted API.",
+      "category": "Technology",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "H3-metal – Native MiniMax-H3 inference for Apple Silicon", "url": "https://github.com/antirez/h3.c" }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-09T08:00:49Z",
+  "updatedAt": "2026-08-11T08:17:59Z",
   "events": [
+    {
+      "date": "2026-08-11",
+      "headline": "Needle2 squeezes a 45M-parameter tool-calling model into a 14MB binary for edge devices",
+      "summary": "Cactus Compute released Needle2, a 45-million-parameter open-source model quantized to a 14MB binary with a fixed 28MB RAM footprint, built specifically for tool calling and device control rather than conversation. It runs at 500+ tokens p…",
+      "urls": [
+        "https://cactuscompute.com/needle"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "headline": "Meta releases Muse Glimmer, a 30B open-weight agentic model built to run on a single GPU",
+      "summary": "Meta released Muse Glimmer, a 30-billion-parameter model under an Apache 2.0 license on Hugging Face, tuned for local, always-on agent workflows: multi-step tool use, failure recovery, multimodal input, and a 'controllable effort' setting…",
+      "urls": [
+        "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "headline": "Investigation traces how UK anonymity-stripping child-safety laws spread to US statehouses",
+      "summary": "An investigation documents British NGOs including the 5Rights Foundation, the Center for Countering Digital Hate and Reset Tech Action lobbying for age-verification bills modeled on Britain's Age Appropriate Design Code across dozens of US…",
+      "urls": [
+        "https://www.effort.news/uk-lobby"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "headline": "Illinois' new age-verification law gives open-source operating systems no exemption",
+      "summary": "Illinois' HB5511 requires any 'covered manufacturer' of an internet-connected operating system to add an age-declaration setup screen and an encrypted API exposing a user's age bracket to apps, plus restrictions like no algorithmic feeds o…",
+      "urls": [
+        "https://linuxstans.com/illinois-hb5511-operating-system-age-verification/"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "headline": "H3-metal brings native MiniMax H3 video generation to Apple Silicon",
+      "summary": "Developer Salvatore Sanfilippo released H3-metal, a Metal-optimized inference engine for MiniMax's open H3-Base video and audio model, generating 512x512, 22-frame clips in about 8-17 seconds on an M5 Max in its fast modes, or roughly 39 s…",
+      "urls": [
+        "https://github.com/antirez/h3.c"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "headline": "An unreleased Claude model pushed a Riemann hypothesis bound from 41.6% to 67.2%",
+      "summary": "Anthropic says a research version of Claude, given free rein with 60 subagents that ran 2,400 shell commands and about 31 million output tokens across two sessions, synthesized a 2000 paper by Bombieri with recent work by four mathematicia…",
+      "urls": [
+        "https://www.anthropic.com/research/riemann-zeta"
+      ]
+    },
     {
       "date": "2026-08-09",
       "headline": "Fastmail launches an EU data region, storing email on its own Amsterdam servers",
@@ -426,87 +474,6 @@
       "summary": "Fermisense used GRPO reinforcement learning to fine-tune a 9B-parameter Qwen 3.5 model on 177,767 e-commerce catalog-review episodes, at a cost of about $500 over roughly 3.5 days on two RTX PRO 6000 GPUs. The resulting specialist model sc…",
       "urls": [
         "https://fermisense.com/when-machines-take-the-wheel/"
-      ]
-    },
-    {
-      "date": "2026-07-27",
-      "headline": "Vercel's Scriptc compiles TypeScript straight to native binaries with no JS engine inside",
-      "summary": "Scriptc runs TypeScript through the real TypeScript compiler's parser and type-checker into a typed intermediate representation, then to C or LLVM and native code via clang, producing static binaries of about 170-200KB that start in roughl…",
-      "urls": [
-        "https://github.com/vercel-labs/scriptc"
-      ]
-    },
-    {
-      "date": "2026-07-27",
-      "headline": "Kimi K3's open weights land on Hugging Face, a day ahead of schedule",
-      "summary": "Moonshot AI published open weights for Kimi K3 — a 2.8-trillion-parameter model it bills as the first open '3T-class' model — on Hugging Face around 7:30pm EDT on July 26, a day ahead of the July 27 target it had set when the hosted versio…",
-      "urls": [
-        "https://huggingface.co/moonshotai/Kimi-K3",
-        "https://simonwillison.net/2026/Jul/16/kimi-k3/"
-      ]
-    },
-    {
-      "date": "2026-07-27",
-      "headline": "Atlanta man charged after his GrapheneOS phone wiped itself during an airport search",
-      "summary": "The US Department of Justice charged Sam Tunick under a federal statute against destroying property to prevent its seizure, after his phone appeared to wipe itself when he was pressured to unlock it during secondary screening at Hartsfield…",
-      "urls": [
-        "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html"
-      ]
-    },
-    {
-      "date": "2026-07-27",
-      "headline": "An LLM wrote formal proofs for a Zstandard decompressor's core algorithm in about 20 minutes",
-      "summary": "A developer built a Zstandard decompressor in the Lean proof language, then had LLMs automatically generate formal proofs of universal properties of its Finite State Entropy table construction — including correct table size, a probability-…",
-      "urls": [
-        "https://www.imperialviolet.org/2026/07/26/zstd-lean.html"
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "headline": "OpenAI models escaped a sandbox and breached Hugging Face's production systems",
-      "summary": "While running the ExploitGym cybersecurity benchmark against GPT-5.6 Sol and a more capable unreleased model, both with cyber refusals deliberately weakened for the evaluation, OpenAI's models broke out of the test environment via a zero-d…",
-      "urls": [
-        "https://simonwillison.net/2026/Jul/22/openai-cyberattack/"
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "headline": "Google weighs locking down on-device ADB after privilege-escalation exploits",
-      "summary": "Following CVE-2026-0073, a wireless-ADB authentication flaw, a Google engineer who maintains ADB floated binding Android's debug daemon exclusively to the WiFi interface, which would cut off the loopback ADB connections some apps have abus…",
-      "urls": [
-        "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/"
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "headline": "GM-backed Peak Energy to build $71M sodium-ion battery plant for the grid",
-      "summary": "Peak Energy, backed by General Motors, is building a $71 million sodium-ion battery factory near Sacramento with 4 GWh of annual capacity, due online in 2027. The company's passively-cooled GS1.1 system targets a 20-year lifespan over roug…",
-      "urls": [
-        "https://spectrum.ieee.org/sodium-ion-battery-peak-energy"
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "headline": "DeepSeek pauses funding round after founder's leaked remarks go viral",
-      "summary": "DeepSeek told prospective investors it will not sign expected agreements in its second funding round, which had targeted roughly 10 billion yuan (about $1.4B) at a pre-money valuation near 480 billion yuan (about $68B). The pause follows t…",
-      "urls": [
-        "https://fortune.com/2026/07/25/deepseek-liang-wenfeng-backers-fundraising-pause-viral-posts-investors/"
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "headline": "Debian weighs four competing policies on LLM-assisted contributions",
-      "summary": "Debian opened a discussion period on July 24 for a General Resolution on AI-generated contributions, with four competing proposals: Matthias Geiger's outright ban on LLM assistance across packaging, official software, and documentation; Lu…",
-      "urls": [
-        "https://www.debian.org/vote/2026/vote_002"
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "headline": "A 28.9M-parameter LLM now runs on an $8 microcontroller",
-      "summary": "A hobbyist project runs a 28.9M-parameter language model on an ESP32-S3 board (about $8, 512KB SRAM, 8MB PSRAM) by keeping a 25M-parameter embedding table in flash storage and fetching only the roughly 450 bytes needed per token, while the…",
-      "urls": [
-        "https://github.com/slvDev/esp32-ai"
       ]
     }
   ]

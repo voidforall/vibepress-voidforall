@@ -1,7 +1,48 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-09T07:59:20Z",
+  "updatedAt": "2026-08-11T08:17:59Z",
   "events": [
+    {
+      "date": "2026-08-11",
+      "headline": "Strategy sells another 1,690 bitcoin, its fourth divestment since June",
+      "summary": "Strategy sold 1,690 bitcoin for roughly $109 million on August 10, at an average price near $64,700, using the proceeds to repurchase its STRC preferred stock rather than add to its dollar reserve. It's the company's fourth bitcoin sale si…",
+      "urls": [
+        "https://fortune.com/2026/08/10/strategy-bitcoin-109-million-sell-off-seven-week-buying-hiatus/"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "headline": "Rocket Lab posts record $234M quarter, but shares fall on Neutron's tightening timeline",
+      "summary": "Rocket Lab reported record Q2 revenue of $234.1 million, up 62% year-over-year, with backlog rising 137% to $2.36 billion and more than $1 billion in new contracts signed in and after the quarter. The company guided Q3 revenue to $250-265…",
+      "urls": [
+        "https://www.stocktitan.net/news/RKLB/rocket-lab-announces-second-quarter-2026-financial-results-posts-u80uvwckg6f1.html",
+        "https://www.tradingkey.com/analysis/stocks/us-stocks/262093764-rocket-lab-announces-second-quarter-2026-financial-results-tradingkey"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "headline": "Gold's breakout rally lifts Chinese bullion miners as much as 40% off July lows",
+      "summary": "Spot gold traded near $4,479 an ounce on August 11, up 12% over the past month after breaking through its 50-day moving average, and a gauge of mainland-listed gold stocks has gained about 25% off recent lows. Zijin Mining and Chifeng Jilo…",
+      "urls": [
+        "https://www.scmp.com/business/china-business/article/3363620/gold-breakout-rally-sends-chinese-bullion-stocks-near-highs-central-banks-keep-buying"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "headline": "Duolingo appoints former Citigroup CFO Sallie Krawcheck to its board",
+      "summary": "Duolingo named Sallie Krawcheck, former Citigroup CFO and founder of Ellevest, as an independent board member effective August 10, seating her on the Audit, Risk and Compliance Committee. CEO Luis von Ahn cited her track record in financia…",
+      "urls": [
+        "https://www.stocktitan.net/news/DUOL/duolingo-appoints-sallie-krawcheck-to-board-of-zm2rw5uem9od.html"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "headline": "Appeals court revives over 3,000 youth-addiction lawsuits against Google and other platforms",
+      "summary": "The 9th U.S. Circuit Court of Appeals ruled on August 11 that Section 230 provides a defense to liability, not immunity from being sued, rejecting an early attempt by Meta, Alphabet's Google, TikTok and Snap to dismiss more than 3,000 fede…",
+      "urls": [
+        "https://www.insurancejournal.com/news/national/2026/08/11/880935.htm"
+      ]
+    },
     {
       "date": "2026-08-09",
       "headline": "UBS upgrades Duolingo to Strong-Buy, raises price target to $150",
@@ -269,62 +310,6 @@
       "summary": "Bitcoin dropped as much as 3.1% to about $63,495, its lowest level in ten days, as a selloff in Asian AI-linked tech stocks — South Korea's KOSPI slumped more than 10% on fears over unsustainable AI infrastructure spending — spilled into c…",
       "urls": [
         "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-to-10day-low-near-63k-as-tech-selloff-fed-uncertainty-weigh-4815471"
-      ]
-    },
-    {
-      "date": "2026-07-27",
-      "headline": "Morgan Stanley cuts Alibaba price target to $180, cites eroding core e-commerce",
-      "summary": "Morgan Stanley analyst Gary Yu cut his Alibaba price target to $180 from $200, pointing to a weakening core e-commerce business — customer-management revenue growth is expected to slow to about 3% year-over-year and China e-commerce EBITA…",
-      "urls": [
-        "https://finance.yahoo.com/news/alibaba-stock-target-cut-morgan-160844286.html"
-      ]
-    },
-    {
-      "date": "2026-07-27",
-      "headline": "Gold gains toward $4,100 even as the same US-Iran pause cools oil prices",
-      "summary": "Spot gold rose to about $4,096.63 an ounce, up roughly 1% on the day, after the US paused military strikes on Iran following 13 consecutive days of attacks, with Iran halting retaliation in turn. US crude fell more than 6% to about $83.10…",
-      "urls": [
-        "https://www.kucoin.com/news/flash/u-s-iran-ceasefire-sparks-oil-drop-and-gold-rally-fed-rate-outlook-looms"
-      ]
-    },
-    {
-      "date": "2026-07-27",
-      "headline": "Bitcoin reclaims $65,000 as US-Iran military pause enters second day",
-      "summary": "Bitcoin traded at $65,082.17, up 0.94% over 24 hours, as the US and Iran held off further strikes for a second consecutive day, sending oil prices lower — WTI crude fell roughly 5% to about $85 a barrel and Brent dropped 4.7% to $92.19. Et…",
-      "urls": [
-        "https://www.coindesk.com/markets/2026/07/27/bitcoin-is-back-above-usd65-000-as-u-s-iran-hold-fire-oil-drops-5"
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "headline": "Rocket Lab shares fall below the $67.50 floor set in its Iridium acquisition",
-      "summary": "Rocket Lab shares fell 8.7% on Friday to close at $63.91, dropping below the $67.50 price level that triggers the fixed exchange-ratio collar in its pending $8 billion acquisition of Iridium Communications. At or below that threshold, the…",
-      "urls": [
-        "https://ts2.tech/en/rocket-lab-nasdaqrklb-shares-drop-8-7-ending-below-iridium-agreements-67-50-floor/"
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "headline": "Hydropower overtakes natural gas as bitcoin mining's top power source, Cambridge data shows",
-      "summary": "Preliminary research from the Cambridge Centre for Alternative Finance, presented at the Energy Investors Forum in Dallas, found bitcoin mining's annualized electricity use rose 38% to about 190 TWh between June 2024 and December 2025, wit…",
-      "urls": [
-        "https://crypto.news/hydropower-overtakes-gas-as-bitcoin-mining-power-use-jumps-38/"
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "headline": "Gold extends slide as bond yields rise and ETF investors pull back",
-      "summary": "Gold has fallen more than 27% from its January high, as the two-year Treasury yield climbed to 4.33% and the ten-year to 4.70%. Major gold ETFs have seen sustained outflows: SPDR Gold Shares (GLD) lost $1.63 billion over 30 days and $12.2…",
-      "urls": [
-        "https://www.benzinga.com/markets/commodities/26/07/60685283/behind-the-gold-price-drop-falling-etf-inflows-as-us-bond-yields-jump"
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "headline": "Alibaba's Hong Kong shares fall 4.3%, erasing HK$94 billion as AI-rally gains unwind",
-      "summary": "Alibaba's Hong Kong-listed shares (9988.HK) fell 4.26% on Friday to HK$110, erasing about HK$94 billion in market value, giving back gains from earlier in the week when the stock rose 3.73% on Monday following the unveiling of Alibaba's Qw…",
-      "urls": [
-        "https://ts2.tech/en/alibaba-hkg9988-shares-drop-wiping-out-nearly-hk94-billion-as-ai-driven-gains-recede/"
       ]
     }
   ]
