@@ -1,7 +1,56 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-11T08:17:59Z",
+  "updatedAt": "2026-08-12T08:26:49Z",
   "events": [
+    {
+      "date": "2026-08-12",
+      "headline": "Researchers extract hidden reasoning from Anthropic, OpenAI and Google models via a shared encryption flaw",
+      "summary": "A new paper shows that leading LLM providers return chain-of-thought reasoning to clients as encrypted blocks rather than storing them server-side, but every model in a given family shared the same encryption key. Researchers replayed a fr…",
+      "urls": [
+        "https://arxiv.org/abs/2608.09867",
+        "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "headline": "OpenAI's head of ethics departs after less than a year, with no direct replacement planned",
+      "summary": "Chloé Bakalar, OpenAI's head of ethics since August 2025 and previously Meta's chief ethicist, has left the company. An OpenAI spokesperson said ethics 'does not belong to a single individual or team' and that the company won't directly re…",
+      "urls": [
+        "https://americanbazaaronline.com/2026/08/11/openai-head-of-ethics-chloe-bakalar-departs-after-brief-tenure-486215/"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "headline": "OpenAI ships GPT-5.6-Cyber, an 'offense-grade' hacking model restricted to vetted defenders",
+      "summary": "OpenAI released GPT-5.6-Cyber, built on GPT-5.6 Sol with defensive guardrails stripped for offensive security work; it completes 95% of exploit-related requests versus 1.5% for the safeguarded version, and independently found two previousl…",
+      "urls": [
+        "https://www.forbes.com/sites/jonmarkman/2026/08/11/openai-ships-gpt-56-cyber-its-first-offense-grade-hacking-model/"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "headline": "Essay: compression and prediction are the same math, and LLMs are compressors",
+      "summary": "A blog post walks through why data compression and language-model prediction share the same core: both assign probabilities to symbols and use −log₂(probability) to determine bits per symbol, so a model that predicts text better also compr…",
+      "urls": [
+        "https://ngrok.com/blog/compression-is-prediction"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "headline": "British Transport Police expands live facial recognition trial into the London Underground",
+      "summary": "British Transport Police deployed live facial-recognition cameras at Victoria Underground station on August 11, the first Tube deployment in a trial now extended to November, scanning faces against a watchlist of people wanted by police or…",
+      "urls": [
+        "https://idtechwire.com/british-transport-police-expands-facial-recognition-trial-to-london-underground/"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "headline": "A medical-research firm marketed as '100% human-written, never AI' turns out to be almost entirely AI",
+      "summary": "404 Media found that Research Gold, which sells systematic reviews and manuscript drafting under a 'human-written, never AI' banner with a roster of named PhD methodologists, has profile photos that are AI-generated and no verifiable publi…",
+      "urls": [
+        "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/"
+      ]
+    },
     {
       "date": "2026-08-11",
       "headline": "Needle2 squeezes a 45M-parameter tool-calling model into a 14MB binary for edge devices",
@@ -426,54 +475,6 @@
       "summary": "Coursera is putting $100M into LearnVector, a new company from co-founder Andrew Ng, for roughly a third of it on a fully diluted basis. LearnVector is building agentic AI that plans, adapts to, and sticks with an individual learner rather…",
       "urls": [
         "https://investor.coursera.com/news/news-details/2026/Coursera-Makes-100-Million-Strategic-Investment-in-LearnVector-a-New-AI-Native-Learning-Company-Founded-by-Andrew-Ng/default.aspx"
-      ]
-    },
-    {
-      "date": "2026-07-28",
-      "headline": "Unauthenticated APIs on a commercial fleet platform exposed 676,000 vehicles",
-      "summary": "A researcher found that VE Commercial Vehicles' 'My Eicher' fleet-management platform exposed internal APIs with no authentication, allowing access to 748,000 customer records, 2.5 million OTP codes going back to 2021, 76,000 ID documents,…",
-      "urls": [
-        "https://eaton-works.com/2026/07/27/my-eicher-hack/"
-      ]
-    },
-    {
-      "date": "2026-07-28",
-      "headline": "Judge tosses Google's DMCA case against a search-scraping API vendor",
-      "summary": "A U.S. court dismissed Google's DMCA Section 1201 lawsuit against SerpAPI, which sells access to scraped Google search results that services like Perplexity rely on. The judge ruled Google's SearchGuard CAPTCHA system can't be enforced as…",
-      "urls": [
-        "https://www.techdirt.com/2026/07/27/judge-rejects-googles-attempt-to-dmca-its-way-out-of-being-scraped/"
-      ]
-    },
-    {
-      "date": "2026-07-28",
-      "headline": "Fired Netflix VP sues over a ketamine-therapy disclosure made during a company 'trust exercise'",
-      "summary": "Kevin Baillie, former VP and head of creative at Netflix's Eyeline Studios, is suing after being terminated in April following a January 2026 company retreat where he disclosed past medically supervised ketamine therapy for depression duri…",
-      "urls": [
-        "https://nypost.com/2026/07/26/us-news/netflix-exec-goes-ballistic-after-being-fired-for-stunning-trust-exercise-confession-at-retreat-suit/"
-      ]
-    },
-    {
-      "date": "2026-07-28",
-      "headline": "Anthropic says it never wanted an open-weights ban — just chip controls and mandatory safety tests",
-      "summary": "In a new blog post, CEO Dario Amodei denies Anthropic has ever advocated banning open-weight models, arguing models without dangerous capabilities are broadly beneficial. He instead restates support for three measures: restricting advanced…",
-      "urls": [
-        "https://www.anthropic.com/news/position-open-weights-models"
-      ]
-    },
-    {
-      "date": "2026-07-28",
-      "headline": "A one-character username mismatch put an innocent man in prison for 18 months",
-      "summary": "Investigating a child-luring case, Wisconsin and Halifax police sought Kik messaging records for the username 'fus__ro_dah' (two underscores) but requested 'fus_ro_dah' (one underscore) instead, misidentifying Nova Scotia's Brandon Klayme.…",
-      "urls": [
-        "https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/"
-      ]
-    },
-    {
-      "date": "2026-07-28",
-      "headline": "A $500, three-day fine-tune of a 9B open model beat every frontier model it was tested against",
-      "summary": "Fermisense used GRPO reinforcement learning to fine-tune a 9B-parameter Qwen 3.5 model on 177,767 e-commerce catalog-review episodes, at a cost of about $500 over roughly 3.5 days on two RTX PRO 6000 GPUs. The resulting specialist model sc…",
-      "urls": [
-        "https://fermisense.com/when-machines-take-the-wheel/"
       ]
     }
   ]

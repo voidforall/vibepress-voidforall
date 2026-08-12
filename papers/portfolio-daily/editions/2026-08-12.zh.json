@@ -1,0 +1,59 @@
+{
+  "id": "2026-08-12",
+  "date": "2026-08-12",
+  "generatedAt": "2026-08-12T09:00:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今日观察名单中的两笔动向都来自 AI 基础设施交易:Alphabet 旗下 Google Cloud 与瑞安航空签署了为期五年的合作协议,比特币矿企 Riot Platforms 则与 Anthropic 达成一笔为期 20 年、价值 91 亿美元的算力协议,凸显加密矿业硬件正大举转向 AI 托管业务。阿里巴巴宣称其 AI 数据中心建设更快更省,Rocket Lab 拿下 Neutron 火箭首位专属客户,金价则因中东局势紧张和降息预期升至两个月高位。",
+  "stories": [
+    {
+      "headline": "瑞安航空签署五年期 Google Cloud 协议,扩大 Gemini 与 DeepMind 应用",
+      "summary": "瑞安航空与 Google Cloud 签署为期五年的合作协议,将 Google Workspace 推广至 3.5 万名员工,并使用 Gemini Enterprise 构建定制 AI 智能体以处理机组排班和航班中断管理。该航空公司还将使用 Google DeepMind 的 AlphaEvolve 和 WeatherNext 模型支持机队运营与维护排程,同时保留其现有的 AWS 合约。",
+      "whyItMatters": "这是 Google Cloud 在欧洲最大航空公司之一拿下的新企业客户,为 Alphabet 的 AI 业务增添了又一项大型云合作关系,但双方未披露财务条款。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Ryanair signs five-year Google Cloud deal, expands use of AI in airline operations", "url": "https://www.yahoo.com/news/articles/ryanair-signs-five-google-cloud-230235632.html" }
+      ]
+    },
+    {
+      "headline": "Riot Platforms 与 Anthropic 签署 91 亿美元、20 年期 AI 算力协议",
+      "summary": "比特币矿企 Riot Platforms 同意将其得克萨斯州罗克代尔基地的 191 兆瓦算力容量出租给 Anthropic,协议期 20 年、总额 91 亿美元,另有两个可选的五年延期条款,若全部行使总额可达 161 亿美元。部署将于 2027 年 12 月启动,2028 年 6 月全面建成,消息传出后 Riot 股价在盘前交易中一度飙升逾 20%。",
+      "whyItMatters": "这是迄今为止最明确的信号,表明比特币矿企正将挖矿基础设施转化为长期 AI 托管收入,这一转变关系到整个加密挖矿板块的估值逻辑。",
+      "category": "加密货币",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Riot Platforms surges 20% in pre-market trading on $9.1 billion Anthropic deal", "url": "https://www.coindesk.com/business/2026/08/11/riot-platforms-surges-20-in-pre-market-trading-on-usd9-1-billion-anthropic-deal" }
+      ]
+    },
+    {
+      "headline": "阿里云称其 CUBE 5.0 模块化设计可在 100 天内建成 AI 数据中心",
+      "summary": "阿里云表示,其 CUBE 5.0 模块化架构能以低 10% 的建设成本,在约 100 天内交付大型 AI 数据中心,而国内常规建设周期为六到十二个月,美国则需十二到十八个月。该系统将电力、制冷、安防、智能管理和消防等五大系统的模块化率从 30% 提升到 90%,阿里巴巴预计今年交付能力将因此提高一倍以上。",
+      "whyItMatters": "更快、更省的数据中心建设速度支撑着阿里巴巴约 560 亿美元的 AI 资本开支计划,而算力产能正是当下的竞争瓶颈。",
+      "category": "公司",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Alibaba says modular design delivers AI data centres in 100 days at 10% lower cost", "url": "https://www.scmp.com/tech/big-tech/article/3363637/alibaba-says-modular-design-delivers-ai-data-centres-100-days-10-lower-cost" }
+      ]
+    },
+    {
+      "headline": "Rocket Lab 签下 Neutron 火箭首份专属发射合同,客户为 Kepler Communications",
+      "summary": "Rocket Lab 将不早于 2028 年从弗吉尼亚州瓦罗普斯岛为卫星运营商 Kepler Communications 执行一次专属 Neutron 发射任务,部署多颗卫星以扩展 Kepler 的星座。这是 Kepler 首次预订专属商业发射任务,此前其现有的 33 颗卫星均依靠拼车发射。",
+      "whyItMatters": "在 Neutron 自身首飞时间表持续推迟至 2027 年之际,这为其发射订单簿再添一位确定客户。",
+      "category": "公司",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Rocket Lab Inks Neutron Launch Deal with Kepler Communications", "url": "https://www.stocktitan.net/news/RKLB/rocket-lab-inks-neutron-launch-deal-with-kepler-jb0yqfr1ba1p.html" }
+      ]
+    },
+    {
+      "headline": "中东局势紧张叠加降息预期,金价升至 4400 美元上方两个月高位",
+      "summary": "现货黄金 8 月 11 日上涨约 1%,报每盎司约 4432 美元,为 6 月初以来最高水平,黄金期货上涨 1.7% 至约 4493 美元。交易员将本轮连续第三个交易日上涨归因于美伊局势升级带来的避险需求、美元走软,以及市场在美国通胀数据公布前的仓位调整。",
+      "whyItMatters": "两个月新高延续了黄金今年以来的涨势,使这一贵金属继续同时受到地缘政治风险和美联储降息预期的双重推动而备受关注。",
+      "category": "大宗商品",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Gold gains for third session, inflation reports in focus", "url": "https://www.cnbc.com/amp/2026/08/11/gold-gains-for-third-session-inflation-reports-in-focus.html" }
+      ]
+    }
+  ]
+}

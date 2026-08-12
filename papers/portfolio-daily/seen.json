@@ -1,7 +1,47 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-11T08:17:59Z",
+  "updatedAt": "2026-08-12T08:25:29Z",
   "events": [
+    {
+      "date": "2026-08-12",
+      "headline": "Ryanair signs five-year Google Cloud deal, expanding Gemini and DeepMind use across operations",
+      "summary": "Ryanair signed a five-year partnership with Google Cloud, rolling out Google Workspace to 35,000 employees and using Gemini Enterprise to build custom AI agents for crew scheduling and disruption management. The airline will also use Googl…",
+      "urls": [
+        "https://www.yahoo.com/news/articles/ryanair-signs-five-google-cloud-230235632.html"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "headline": "Rocket Lab signs first dedicated Neutron launch contract, with Kepler Communications",
+      "summary": "Rocket Lab will launch a dedicated Neutron mission for satellite operator Kepler Communications no earlier than 2028 from Wallops Island, Virginia, deploying multiple satellites to expand Kepler's constellation. It's the first dedicated co…",
+      "urls": [
+        "https://www.stocktitan.net/news/RKLB/rocket-lab-inks-neutron-launch-deal-with-kepler-jb0yqfr1ba1p.html"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "headline": "Riot Platforms signs $9.1 billion, 20-year AI compute deal with Anthropic",
+      "summary": "Bitcoin miner Riot Platforms agreed to lease 191 megawatts of capacity at its Rockdale, Texas site to Anthropic for $9.1 billion over 20 years, with two optional five-year extensions that could take the total to $16.1 billion. Deployment s…",
+      "urls": [
+        "https://www.coindesk.com/business/2026/08/11/riot-platforms-surges-20-in-pre-market-trading-on-usd9-1-billion-anthropic-deal"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "headline": "Gold hits two-month high above $4,400 on Middle East tensions and rate-cut bets",
+      "summary": "Spot gold rose about 1% to trade near $4,432 an ounce on August 11, its highest level since early June, while gold futures climbed 1.7% to roughly $4,493. Traders pointed to safe-haven demand from the widening US-Iran standoff, a softer do…",
+      "urls": [
+        "https://www.cnbc.com/amp/2026/08/11/gold-gains-for-third-session-inflation-reports-in-focus.html"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "headline": "Alibaba Cloud says its CUBE 5.0 modular design builds AI data centers in 100 days",
+      "summary": "Alibaba Cloud said its CUBE 5.0 modular architecture can deliver large-scale AI data centers in about 100 days at 10% lower construction cost, versus six to twelve months for typical domestic builds and twelve to eighteen months in the US.…",
+      "urls": [
+        "https://www.scmp.com/tech/big-tech/article/3363637/alibaba-says-modular-design-delivers-ai-data-centres-100-days-10-lower-cost"
+      ]
+    },
     {
       "date": "2026-08-11",
       "headline": "Strategy sells another 1,690 bitcoin, its fourth divestment since June",
@@ -294,22 +334,6 @@
       "summary": "US spot bitcoin ETFs posted net outflows of 3,170 BTC over the past week, led by BlackRock's IBIT (-3,511 BTC), even as bitcoin itself traded near $63,900, up about 4% for the week. Ethereum ETFs added 37,959 ETH in the same period, led ag…",
       "urls": [
         "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-bleed-while-ethereum-055451344.html"
-      ]
-    },
-    {
-      "date": "2026-07-28",
-      "headline": "Gold tests $4,021 support as dollar strength and rising Fed rate-hike odds pressure bullion",
-      "summary": "Spot gold slipped to about $4,046 an ounce, testing the $4,021 support level, as the dollar held near a one-month high and markets priced a 38% chance of a quarter-point Fed rate hike this week, up from 16% a week earlier; easing US-Iran t…",
-      "urls": [
-        "https://www.fxleaders.com/news/2026/07/28/gold-price-forecast-today-xauusd-tests-dollar4020-support-ahead-of-fed-decision-july-28/"
-      ]
-    },
-    {
-      "date": "2026-07-28",
-      "headline": "Bitcoin falls to 10-day low near $63,000 as Asian tech selloff and Fed rate-hike odds weigh",
-      "summary": "Bitcoin dropped as much as 3.1% to about $63,495, its lowest level in ten days, as a selloff in Asian AI-linked tech stocks — South Korea's KOSPI slumped more than 10% on fears over unsustainable AI infrastructure spending — spilled into c…",
-      "urls": [
-        "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-to-10day-low-near-63k-as-tech-selloff-fed-uncertainty-weigh-4815471"
       ]
     }
   ]

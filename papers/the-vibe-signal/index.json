@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-08-12",
+      "date": "2026-08-12",
+      "headline": "Researchers extract hidden reasoning from Anthropic, OpenAI and Google models via a shared encryption flaw",
+      "storyCount": 6
+    },
+    {
       "id": "2026-08-11",
       "date": "2026-08-11",
       "headline": "Meta releases Muse Glimmer, a 30B open-weight agentic model built to run on a single GPU",

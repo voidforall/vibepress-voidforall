@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-08-12",
+      "date": "2026-08-12",
+      "headline": "Ryanair signs five-year Google Cloud deal, expanding Gemini and DeepMind use across operations",
+      "storyCount": 5
+    },
+    {
       "id": "2026-08-11",
       "date": "2026-08-11",
       "headline": "Rocket Lab posts record $234M quarter, but shares fall on Neutron's tightening timeline",

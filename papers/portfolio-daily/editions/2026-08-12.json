@@ -1,0 +1,59 @@
+{
+  "id": "2026-08-12",
+  "date": "2026-08-12",
+  "generatedAt": "2026-08-12T09:00:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Two of today's watchlist moves come from AI infrastructure deals: Alphabet's Google Cloud signed a five-year agreement with Ryanair, and bitcoin miner Riot Platforms struck a $9.1 billion, 20-year compute deal with Anthropic that underscores how far crypto-mining hardware has pivoted toward AI hosting. Alibaba touted faster, cheaper AI data-center construction, Rocket Lab locked in its first dedicated Neutron customer, and gold pushed to a two-month high on Middle East tensions and rate-cut bets.",
+  "stories": [
+    {
+      "headline": "Ryanair signs five-year Google Cloud deal, expanding Gemini and DeepMind use across operations",
+      "summary": "Ryanair signed a five-year partnership with Google Cloud, rolling out Google Workspace to 35,000 employees and using Gemini Enterprise to build custom AI agents for crew scheduling and disruption management. The airline will also use Google DeepMind's AlphaEvolve and WeatherNext models to support fleet operations and maintenance scheduling, alongside its existing AWS contract.",
+      "whyItMatters": "It's a new enterprise win for Google Cloud at one of Europe's largest airlines, adding a second major cloud customer relationship to Alphabet's AI business without disclosed financial terms.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Ryanair signs five-year Google Cloud deal, expands use of AI in airline operations", "url": "https://www.yahoo.com/news/articles/ryanair-signs-five-google-cloud-230235632.html" }
+      ]
+    },
+    {
+      "headline": "Riot Platforms signs $9.1 billion, 20-year AI compute deal with Anthropic",
+      "summary": "Bitcoin miner Riot Platforms agreed to lease 191 megawatts of capacity at its Rockdale, Texas site to Anthropic for $9.1 billion over 20 years, with two optional five-year extensions that could take the total to $16.1 billion. Deployment starts in December 2027 with full buildout by June 2028, and Riot's shares surged more than 20% in pre-market trading on the news.",
+      "whyItMatters": "It's the clearest sign yet that bitcoin miners are converting mining infrastructure into long-term AI hosting revenue, a shift relevant to how the broader crypto-mining sector is valued.",
+      "category": "Crypto",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Riot Platforms surges 20% in pre-market trading on $9.1 billion Anthropic deal", "url": "https://www.coindesk.com/business/2026/08/11/riot-platforms-surges-20-in-pre-market-trading-on-usd9-1-billion-anthropic-deal" }
+      ]
+    },
+    {
+      "headline": "Alibaba Cloud says its CUBE 5.0 modular design builds AI data centers in 100 days",
+      "summary": "Alibaba Cloud said its CUBE 5.0 modular architecture can deliver large-scale AI data centers in about 100 days at 10% lower construction cost, versus six to twelve months for typical domestic builds and twelve to eighteen months in the US. The system raises modularization across power, cooling, security, management and fire-protection systems from 30% to 90%, and Alibaba expects it to more than double delivery capacity this year.",
+      "whyItMatters": "Faster, cheaper data-center buildout supports Alibaba's roughly $56 billion AI capex program at a time when compute capacity is a competitive bottleneck.",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Alibaba says modular design delivers AI data centres in 100 days at 10% lower cost", "url": "https://www.scmp.com/tech/big-tech/article/3363637/alibaba-says-modular-design-delivers-ai-data-centres-100-days-10-lower-cost" }
+      ]
+    },
+    {
+      "headline": "Rocket Lab signs first dedicated Neutron launch contract, with Kepler Communications",
+      "summary": "Rocket Lab will launch a dedicated Neutron mission for satellite operator Kepler Communications no earlier than 2028 from Wallops Island, Virginia, deploying multiple satellites to expand Kepler's constellation. It's the first dedicated commercial mission Kepler has booked, after relying on rideshare launches for its existing 33 satellites.",
+      "whyItMatters": "It adds another confirmed customer to Neutron's manifest even as the rocket's own debut timeline keeps slipping toward 2027.",
+      "category": "Company",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Rocket Lab Inks Neutron Launch Deal with Kepler Communications", "url": "https://www.stocktitan.net/news/RKLB/rocket-lab-inks-neutron-launch-deal-with-kepler-jb0yqfr1ba1p.html" }
+      ]
+    },
+    {
+      "headline": "Gold hits two-month high above $4,400 on Middle East tensions and rate-cut bets",
+      "summary": "Spot gold rose about 1% to trade near $4,432 an ounce on August 11, its highest level since early June, while gold futures climbed 1.7% to roughly $4,493. Traders pointed to safe-haven demand from the widening US-Iran standoff, a softer dollar, and positioning ahead of US inflation data as drivers of the third straight session of gains.",
+      "whyItMatters": "A fresh two-month high adds to gold's run this year and keeps the metal in focus as a safe-haven trade tied to both geopolitical risk and Fed rate-cut expectations.",
+      "category": "Commodities",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Gold gains for third session, inflation reports in focus", "url": "https://www.cnbc.com/amp/2026/08/11/gold-gains-for-third-session-inflation-reports-in-focus.html" }
+      ]
+    }
+  ]
+}
