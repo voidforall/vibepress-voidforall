@@ -1,0 +1,69 @@
+{
+  "id": "2026-08-16",
+  "date": "2026-08-16",
+  "generatedAt": "2026-08-16T07:38:01Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today's edition splits between money and method: investors are reportedly modeling a $2 trillion Anthropic IPO while Google keeps shipping Gemini Flash updates every few weeks. On the research side, two papers cut in opposite directions on AI capability — a new benchmark shows agents still fail most formally-verified coding tasks, while a self-reported 'AI scientist' system claims a clean sweep across 36 test cases. An essay on working memory offers a useful reframe for both: some of AI's 'reasoning' gains may be more architectural than intellectual.",
+  "stories": [
+    {
+      "headline": "Anthropic investors reportedly eye $2 trillion valuation for an October IPO",
+      "summary": "Financial Times reporting cited by Fortune says Anthropic's investors expect the company to go public in October at a valuation around $2 trillion, which would exceed SpaceX's $1.77 trillion IPO and be the largest public offering ever. The figure comes from investor models assuming annualized revenue reaches $100-120 billion by year-end; Anthropic itself has not finalized an IPO valuation, and the deal remains under discussion.",
+      "whyItMatters": "It would reset the scale of what an AI-lab IPO looks like, but the number reflects investor expectations, not a confirmed company target.",
+      "category": "Business",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Anthropic reportedly plans a $2 trillion IPO in October—the largest ever—that will eclipse SpaceX", "url": "https://fortune.com/2026/08/13/anthropic-ipo-2-trillion-october-largest-ever-spacex/" }
+      ]
+    },
+    {
+      "headline": "Google ships Gemini 3.7 Flash, three weeks after 3.6 Flash",
+      "summary": "Google released Gemini 3.7 Flash on August 13, calling it its 'most intelligent workhorse model yet for coding and agents.' The company reports gains on FrontierCode (34.4% to 43.6%) and DeepSWE (49.0% to 65.3%), plus improvements on web-development and document-comprehension benchmarks. Introductory pricing through end of 2026 is $0.75/$3.75 per million input/output tokens — half of 3.6 Flash's rate — rising to $1.50/$7.50 in January 2027.",
+      "whyItMatters": "A three-week gap between Flash releases keeps Google's iteration pace ahead of its own last cycle, even as its flagship Gemini 3.5 Pro remains delayed.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Gemini 3.7 Flash: our most intelligent workhorse model", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/" }
+      ]
+    },
+    {
+      "headline": "New benchmark finds AI agents solve only 27 of 43 formally-verified-repo tasks",
+      "summary": "A paper introducing Vero, the first benchmark testing whether AI agents can write both code and matching formal proofs across whole repositories, found the strongest agent fully solved 27 of 43 multi-module instances drawn from real Python, Dafny, Verus and Coq projects — and closed zero specifications on the hardest repositories. Each instance is restructured as a Lean 4 repository to test coherent implementation and proof choices at repo scale, not just single functions.",
+      "whyItMatters": "It's a concrete data point on how far frontier coding agents still are from producing verified software at production scale.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?", "url": "https://arxiv.org/abs/2608.13522v1" }
+      ]
+    },
+    {
+      "headline": "Essay: AI's edge on math problems may be memory, not intelligence",
+      "summary": "An essay argues AI systems outperform humans on many math tasks not because of superior reasoning but because their context windows act as a large external notebook, letting them hold hundreds of intermediate equations and constraints at once — an advantage human working memory can't match. It cites research showing working memory predicts math and literacy performance independent of IQ, and frames current AI as a 'machine-amplified von Neumann': fast and broad, not necessarily conceptually novel.",
+      "whyItMatters": "It's a reframing of what 'AI reasoning' benchmarks are actually measuring, separate from claims about general intelligence.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "AI has access to a vastly larger working memory than the human brain", "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians" }
+      ]
+    },
+    {
+      "headline": "Essay: RISC-V succeeds despite its design, not because of it",
+      "summary": "A detailed critique argues RISC-V can't simultaneously serve embedded microcontrollers and high-performance computing well, pointing to worse interrupt latency and code density than ARM's Cortex-M0, and says making features like multiplication and privilege modes optional has fragmented implementations into incompatible variants. The author also flags inconsistent compressed-instruction encodings across extensions and long-missing addressing modes.",
+      "whyItMatters": "It argues RISC-V's likely market wins will come from its permissive licensing, not superior engineering — a distinction that matters for anyone betting on the architecture technically.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "RISC-V: They Should Have Known Better", "url": "https://dmitry.gr/?r=06.%20Thoughts&proj=12.%20RV" }
+      ]
+    },
+    {
+      "headline": "OmniScientist runs the full research pipeline — from raw data to manuscript — in 36 test cases",
+      "summary": "A new AI-scientist system called OmniScientist takes raw, multi-modal data (images, audio, video, 3D, tables) through perception, ideation, experiment and writeup stages; its authors report it completed the full path to a compiled manuscript in all 36 real-world test cases across disciplines, with a mean paper score of 6.3. Using direct perception of raw data instead of precomputed features won 85% of head-to-head comparisons in the paper's own evaluation.",
+      "whyItMatters": "It's a self-reported benchmark from the system's own authors, not an independent evaluation, so the 36-case result reads as a proof of concept rather than a general capability claim.",
+      "category": "Technology",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist", "url": "https://arxiv.org/abs/2608.13558v1" }
+      ]
+    }
+  ]
+}

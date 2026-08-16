@@ -1,7 +1,56 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-12T08:25:29Z",
+  "updatedAt": "2026-08-16T07:40:28Z",
   "events": [
+    {
+      "date": "2026-08-16",
+      "headline": "UBS's bullish Bitcoin ETF options exposure jumped 24-fold in Q2",
+      "summary": "UBS's Q2 2026 13-F filing, covering the quarter ended June 30 and reported by CoinDesk this week, shows the bank's call-option exposure to BlackRock's iShares Bitcoin Trust (IBIT) rose from 80,000 to 1.95 million underlying shares, while i…",
+      "urls": [
+        "https://www.coindesk.com/business/2026/08/15/swiss-mega-bank-ubs-ramps-up-its-bitcoin-exposure-with-a-massive-24-fold-surge-in-etf-call-options"
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "headline": "Russia bans bitcoin mining in Moscow and parts of Kursk through 2032",
+      "summary": "A Russian Energy Ministry restriction, signed July 25 and reported by CoinDesk on August 15, bars crypto mining and mining-pool participation in Moscow, the Moscow region, and parts of Kursk through December 31, 2032, citing power-capacity…",
+      "urls": [
+        "https://www.coindesk.com/policy/2026/08/15/why-the-world-s-second-largest-bitcoin-mining-power-is-shutting-down-rigs-in-its-capital-city"
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "headline": "Rocket Lab wins $12M Space Force network deal as Neutron's 'Hungry Hippo' fairing nears completion",
+      "summary": "The US Space Force selected Rocket Lab as one of five companies to develop a multi-vendor Space Data Network, awarding a $12 million package — $10 million to demonstrate cross-vendor data transport and $2 million to support orbital router…",
+      "urls": [
+        "https://www.foreignpolicyjournal.com/2026/08/14/rocket-lab-nasdaq-rklb-secures-12-million-space-force-contract-while-neutrons-hungry-hippo-fairing-moves-closer-to-launch/"
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "headline": "Duolingo acquires London animation studio Animade, its third motion-design buy",
+      "summary": "Duolingo announced August 13 that it acquired Animade, a London-based animation and motion-design studio founded in 2010, to expand its in-house Design Studio; financial terms weren't disclosed. It's Duolingo's third acquisition of an anim…",
+      "urls": [
+        "https://www.stocktitan.net/news/DUOL/duolingo-invests-in-world-class-motion-design-with-acquisition-of-aytstpzs4t2l.html"
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "headline": "Berkshire's Q2 13F filing shows Alphabet is now its third-largest holding, at roughly $37B",
+      "summary": "Berkshire Hathaway's regulatory filing, disclosed August 14, shows the stake grew this quarter through a $10 billion discounted private placement tied to Alphabet's AI-infrastructure capital raise plus additional open-market buying. The po…",
+      "urls": [
+        "https://www.forbes.com/sites/bill_stone/2026/08/15/berkshire-hathaway-turns-buyer-as-buffett-backs-alphabet/",
+        "https://abcnews.com/Technology/wireStory/berkshire-hathaway-boosted-stake-alphabet-homebuilders-quarter-135679033"
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "headline": "Alibaba's Qwen models pass 3 billion downloads, overtaking Google and Meta",
+      "summary": "Hugging Face's state-of-open-models report, published August 14, shows Alibaba's Qwen family has accumulated more than 3 billion downloads over the past six months across 460-plus open-sourced models — ahead of Google's 418 million and Met…",
+      "urls": [
+        "https://fortune.com/2026/08/15/alibaba-qwen-open-ai-models-3-billion-downloads-meta-google/"
+      ]
+    },
     {
       "date": "2026-08-12",
       "headline": "Ryanair signs five-year Google Cloud deal, expanding Gemini and DeepMind use across operations",
@@ -236,104 +285,6 @@
       "summary": "The World Gold Council's Q2 2026 report shows central banks bought 289 tonnes of gold, a 62% jump from a year earlier and the strongest second quarter on record, led by Poland (51 tonnes) and China (33 tonnes, its largest quarterly add sin…",
       "urls": [
         "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026/central-banks"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "headline": "Rocket Lab named among 15 vendors on a $981M Space Force training-range contract vehicle",
-      "summary": "The U.S. Space Force awarded its NITE-STAR indefinite-delivery, indefinite-quantity contract — a five-year base plus one-year option worth up to $981 million in task orders through July 2032 — to 15 companies including Rocket Lab, Lockheed…",
-      "urls": [
-        "https://spacenews.com/space-force-picks-15-companies-for-981-million-training-range-contract/"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "headline": "Gold and silver both slip as a firmer dollar delays Fed rate-cut bets",
-      "summary": "Gold fell 1.54% to $4,043/oz and silver dropped 2.18% to $57.79/oz as solid consumer-spending data and sticky inflation readings pushed the dollar to three-week highs, denting demand for non-yielding metals. Silver's steeper drop also refl…",
-      "urls": [
-        "https://www.riotimesonline.com/gold-silver-precious-metals-saturday-august-1-2026/"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "headline": "Bitcoin closes out July up about 7.5% despite a hawkish Fed, an AI-stock selloff, and a $38M hardware-wallet hack",
-      "summary": "Bitcoin ended July roughly 7.5% higher, holding near $63,000, after absorbing a stretch of shocks: rising bets on a Fed rate hike, a sharp AI-stock pullback, and a Coldcard hardware-wallet exploit that drained at least $38 million. Analyst…",
-      "urls": [
-        "https://www.coindesk.com/markets/2026/07/31/bitcoin-holds-onto-july-gain-as-forced-selling-fuel-was-already-spent-analysts-say"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "headline": "Alibaba shares gain nearly 5% on reports Moonshot AI runs its Kimi models on a 20,000-chip Alibaba cluster",
-      "summary": "Alibaba stock rose about 5% to $122.28 after Bloomberg reported that Moonshot AI, in which Alibaba is a major investor, is running its 2.8-trillion-parameter Kimi K3 on roughly 20,000 Nvidia chips supplied through an Alibaba Cloud computin…",
-      "urls": [
-        "https://finance.yahoo.com/technology/ai/articles/alibaba-shares-rise-moonshot-20-200611917.html"
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "headline": "Rocket Lab signs its third iQPS multi-launch deal in a year, stock up over 9%",
-      "summary": "Rocket Lab will fly three more dedicated Electron missions for Japan's iQPS starting late 2027, each deploying a QPS-SAR satellite to a 575km orbit, bringing iQPS's total booked Electron launches to 18. Shares gained 9.39% on the announcem…",
-      "urls": [
-        "https://www.stocktitan.net/news/RKLB/rocket-lab-secures-multi-launch-deal-with-i-qps-for-three-dedicated-cqj2b4pc5u1n.html",
-        "https://www.fool.com/investing/2026/07/30/why-rocket-lab-stock-is-soaring-today/"
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "headline": "Google DeepMind disbands the team behind its Nobel-winning AlphaFold work",
-      "summary": "DeepMind has dissolved the dedicated AlphaFold team, reassigning most of its researchers to Gemini and other projects as the company shifts from single-problem teams toward a Gemini-centered structure; VP Pushmeet Kohli said 'the strategy…",
-      "urls": [
-        "https://www.engadget.com/2225849/google-shuts-down-alphafold/"
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "headline": "Gold slips to $4,076 as a Bank of Japan rate hold strengthens the dollar",
-      "summary": "Gold fell about 0.5% to $4,076.53 after the Bank of Japan held rates at 1% on an 8-1 vote, weakening the yen and lifting the dollar, which makes dollar-priced gold costlier for international buyers. Gold is still tracking a 1.8% gain for J…",
-      "urls": [
-        "https://www.fxleaders.com/news/2026/07/31/why-gold-price-down-today-xauusd-slips-boj-holds-rates/"
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "headline": "Duolingo teams up with Luckin Coffee for a US back-to-school drink collaboration",
-      "summary": "Duolingo and Luckin Coffee launched a limited-time US collaboration pairing co-branded beverages (including two new drinks) with merchandise across a summer-learning and back-to-school campaign, Luckin's first collaboration in the US marke…",
-      "urls": [
-        "https://www.prnewswire.com/news-releases/luckin-coffee-and-duolingo-team-up-for-a-limited-time-collaboration-celebrating-summer-learning-and-back-to-school-302835842.html"
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "headline": "Coldcard hardware-wallet flaw drains roughly $40M in bitcoin from hundreds of wallets",
-      "summary": "Attackers exploited predictable software-based key generation on Coldcard Mk3 devices running firmware from March 2021 onward, draining about 600 BTC (~$40M) from hundreds of separate wallets within minutes. Maker Coinkite says it was unaw…",
-      "urls": [
-        "https://www.forbes.com/sites/digital-assets/2026/07/31/massive-surprise-bitcoin-attack-sparks-sudden-price-crash-fears/"
-      ]
-    },
-    {
-      "date": "2026-07-29",
-      "headline": "SK Hynix's earnings miss deepens Korea's chip rout, keeps Alphabet in the AI-capex crossfire",
-      "summary": "SK Hynix posted record Q2 revenue (79.32 trillion won, +257% year-over-year) and operating profit (60.54 trillion won, +557%), but both came in about 5-6% below estimates, and shares fell nearly 7% in pre-market trading after a 14% drop th…",
-      "urls": [
-        "https://en.sedaily.com/finance/2026/07/29/sk-hynix-drops-nearly-7-percent-in-pre-market-on-weaker",
-        "https://finance.yahoo.com/markets/stocks/article/chip-stock-rout-sends-investors-rushing-back-to-bruised-alphabet-stock-140503906.html"
-      ]
-    },
-    {
-      "date": "2026-07-29",
-      "headline": "Rocket Lab completes a single-contractor rapid-response space mission for the Space Force",
-      "summary": "Rocket Lab's Victus Haze mission launched a spacecraft just 16 hours and 42 minutes after receiving the Space Force's final go order, activated it in about 38 hours (versus a 72-hour deadline), and maneuvered it into observation position o…",
-      "urls": [
-        "https://www.fool.com/investing/2026/07/28/rocket-lab-debuts-a-breakthrough-technology-invest/"
-      ]
-    },
-    {
-      "date": "2026-07-29",
-      "headline": "Bitcoin ETFs shed 3,170 BTC as Ethereum funds pull in a third straight week of inflows",
-      "summary": "US spot bitcoin ETFs posted net outflows of 3,170 BTC over the past week, led by BlackRock's IBIT (-3,511 BTC), even as bitcoin itself traded near $63,900, up about 4% for the week. Ethereum ETFs added 37,959 ETH in the same period, led ag…",
-      "urls": [
-        "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-bleed-while-ethereum-055451344.html"
       ]
     }
   ]

@@ -1,0 +1,70 @@
+{
+  "id": "2026-08-16",
+  "date": "2026-08-16",
+  "generatedAt": "2026-08-16T07:38:01Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今日观察名单新闻在 AI 采用度数据与资本配置之间展开:阿里巴巴的 Qwen 模型在下载量上超过了 Google 和 Meta,而伯克希尔新披露的 13F 文件确认 Alphabet 已成为其第三大重仓股。加密货币方面出现两股相反的力量——俄罗斯在其首都收紧了挖矿限制,瑞银则悄然大幅加仓比特币看涨期权。Rocket Lab 与多邻国则以较小的合同和并购消息为今日收官。",
+  "stories": [
+    {
+      "headline": "阿里巴巴 Qwen 模型下载量突破 30 亿,超越 Google 与 Meta",
+      "summary": "Hugging Face 8 月 14 日发布的开源模型现状报告显示,阿里巴巴 Qwen 系列在过去六个月里,460 余个开源模型的下载量合计超过 30 亿次——领先于 Google 的 4.18 亿次和 Meta 的 2.27 亿次。报告称 Qwen 生态已衍生出超过 30 万个衍生模型。",
+      "whyItMatters": "这是一项独立的、基于实际使用量的数据,表明阿里巴巴的开源模型策略在开发者采用度上正领先其两大美国竞争对手。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Alibaba AI models hit 3 billion downloads, passing Meta, Google", "url": "https://fortune.com/2026/08/15/alibaba-qwen-open-ai-models-3-billion-downloads-meta-google/" }
+      ]
+    },
+    {
+      "headline": "伯克希尔第二季度 13F 文件显示 Alphabet 已成其第三大重仓股,价值约 370 亿美元",
+      "summary": "伯克希尔哈撒韦 8 月 14 日披露的监管文件显示,该公司本季度通过一笔与 Alphabet AI 基础设施融资计划挂钩、价值 100 亿美元的折价私募配售,以及公开市场买入,进一步增持了 Alphabet 股票。目前持仓约 1.06 亿股,估值约 366 亿至 378 亿美元,使 Alphabet 成为伯克希尔仅次于苹果和美国运通的第三大股票重仓。",
+      "whyItMatters": "该文件首次官方确认了伯克希尔对 Alphabet 押注的规模及排名,比本月早些时候披露的初始投资信息更为完整。",
+      "category": "市场",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Berkshire Hathaway Turns Buyer As Buffett Backs Alphabet", "url": "https://www.forbes.com/sites/bill_stone/2026/08/15/berkshire-hathaway-turns-buyer-as-buffett-backs-alphabet/" },
+        { "title": "Berkshire Hathaway boosted stake in Alphabet, homebuilders in the second quarter", "url": "https://abcnews.com/Technology/wireStory/berkshire-hathaway-boosted-stake-alphabet-homebuilders-quarter-135679033" }
+      ]
+    },
+    {
+      "headline": "俄罗斯在莫斯科及库尔斯克部分地区禁止比特币挖矿至 2032 年",
+      "summary": "据 CoinDesk 8 月 15 日报道,俄罗斯能源部一项 7 月 25 日签署的限制令,禁止在莫斯科市、莫斯科州以及库尔斯克部分地区从事加密货币挖矿及参与矿池,期限至 2032 年 12 月 31 日,原因是挖矿设施接入区域电网导致电力容量吃紧。莫斯科电网目前挖矿用电约 1 吉瓦,到 2032 年潜在数据中心用电需求可能达到 3.6 吉瓦,占峰值需求的 17%;俄罗斯是全球第二大比特币挖矿国,占全球算力约 16.4%。",
+      "whyItMatters": "此举削减了全球除美中之外最大算力贡献国之一的挖矿产能,而俄罗斯挖出的比特币此前也被用于规避西方制裁。",
+      "category": "监管",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Why the world's second-largest Bitcoin mining power is shutting down rigs in its capital city", "url": "https://www.coindesk.com/policy/2026/08/15/why-the-world-s-second-largest-bitcoin-mining-power-is-shutting-down-rigs-in-its-capital-city" }
+      ]
+    },
+    {
+      "headline": "瑞银比特币 ETF 看涨期权敞口第二季度激增 24 倍",
+      "summary": "瑞银截至 6 月 30 日的第二季度 13-F 文件显示(CoinDesk 本周披露),该行对贝莱德 iShares 比特币信托(IBIT)的看涨期权敞口从 8 万股标的股份增至 195 万股,直接持有的 IBIT 股份也增长约 12% 至 40.789 万股(约 1360 万美元)。同期瑞银的看跌期权敞口则削减了 53%。",
+      "whyItMatters": "文件并未说明这些期权头寸是出于客户需求、自营交易还是对冲目的,但此举正值瑞银准备向瑞士私人银行客户开放比特币和以太币交易之际。",
+      "category": "市场",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options", "url": "https://www.coindesk.com/business/2026/08/15/swiss-mega-bank-ubs-ramps-up-its-bitcoin-exposure-with-a-massive-24-fold-surge-in-etf-call-options" }
+      ]
+    },
+    {
+      "headline": "Rocket Lab 拿下 1200 万美元太空军网络合同,Neutron “河马嘴”整流罩接近完工",
+      "summary": "美国太空军选中 Rocket Lab 为开发多厂商太空数据网络的五家公司之一,授予一份 1200 万美元的合同组合——其中 1000 万美元用于验证跨厂商数据传输,200 万美元用于支持轨道路由器卫星,公司于 8 月 14 日宣布这一消息。另外,Rocket Lab 表示 Neutron 火箭可重复使用的“河马嘴”整流罩已完成热防护、控制面、航电和流体系统的安装,CEO Peter Beck 表示,一旦当前检测完成,整流罩将“基本完工、可供发射”,不过年底发射窗口正在收窄。",
+      "whyItMatters": "这是一份小额新合同,叠加了 Neutron 火箭一项实质性的硬件进展里程碑,而该火箭的首飞时间已多次推迟。",
+      "category": "公司",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Rocket Lab (NASDAQ: RKLB) Secures $12 Million Space Force Contract While Neutron's 'Hungry Hippo' Fairing Moves Closer To Launch", "url": "https://www.foreignpolicyjournal.com/2026/08/14/rocket-lab-nasdaq-rklb-secures-12-million-space-force-contract-while-neutrons-hungry-hippo-fairing-moves-closer-to-launch/" }
+      ]
+    },
+    {
+      "headline": "多邻国收购伦敦动画工作室 Animade,第三次收购动效设计公司",
+      "summary": "多邻国 8 月 13 日宣布收购总部位于伦敦、成立于 2010 年的动画与动效设计工作室 Animade,以扩充其内部设计工作室,财务条款未披露。这是多邻国第三次收购动画或动效设计工作室,此前分别于 2022 年收购 Gunner、2024 年收购 Hobbes。",
+      "whyItMatters": "这表明即便在产品其他环节大量依赖 AI,多邻国仍在持续投资内部创意制作能力。",
+      "category": "公司",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "Duolingo Invests in World-Class Motion Design with Acquisition of Animade", "url": "https://www.stocktitan.net/news/DUOL/duolingo-invests-in-world-class-motion-design-with-acquisition-of-aytstpzs4t2l.html" }
+      ]
+    }
+  ]
+}

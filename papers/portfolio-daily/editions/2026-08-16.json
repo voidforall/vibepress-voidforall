@@ -1,0 +1,70 @@
+{
+  "id": "2026-08-16",
+  "date": "2026-08-16",
+  "generatedAt": "2026-08-16T07:38:01Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Today's watchlist news splits between AI-adoption metrics and capital allocation: Alibaba's Qwen models overtook Google and Meta on raw download counts, while Berkshire's newly disclosed 13F confirmed Alphabet has become its third-largest holding. Crypto pulled in opposite directions — Russia curbed mining in its capital while UBS quietly built a much larger bullish options book on bitcoin. Rocket Lab and Duolingo rounded out the day with smaller contract and M&A news.",
+  "stories": [
+    {
+      "headline": "Alibaba's Qwen models pass 3 billion downloads, overtaking Google and Meta",
+      "summary": "Hugging Face's state-of-open-models report, published August 14, shows Alibaba's Qwen family has accumulated more than 3 billion downloads over the past six months across 460-plus open-sourced models — ahead of Google's 418 million and Meta's 227 million. The report says the Qwen ecosystem has spawned over 300,000 derivative models on the platform.",
+      "whyItMatters": "It's an independent, usage-based data point showing Alibaba's open-weight strategy is winning developer adoption relative to its two largest US rivals in open models.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Alibaba AI models hit 3 billion downloads, passing Meta, Google", "url": "https://fortune.com/2026/08/15/alibaba-qwen-open-ai-models-3-billion-downloads-meta-google/" }
+      ]
+    },
+    {
+      "headline": "Berkshire's Q2 13F filing shows Alphabet is now its third-largest holding, at roughly $37B",
+      "summary": "Berkshire Hathaway's regulatory filing, disclosed August 14, shows the stake grew this quarter through a $10 billion discounted private placement tied to Alphabet's AI-infrastructure capital raise plus additional open-market buying. The position — around 106 million shares — is now valued at roughly $36.6-37.8 billion, making Alphabet Berkshire's third-largest equity holding behind Apple and American Express.",
+      "whyItMatters": "The filing gives the first official confirmation of how large — and how ranked — Berkshire's Alphabet bet has become, beyond the initial investment reported earlier this month.",
+      "category": "Markets",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Berkshire Hathaway Turns Buyer As Buffett Backs Alphabet", "url": "https://www.forbes.com/sites/bill_stone/2026/08/15/berkshire-hathaway-turns-buyer-as-buffett-backs-alphabet/" },
+        { "title": "Berkshire Hathaway boosted stake in Alphabet, homebuilders in the second quarter", "url": "https://abcnews.com/Technology/wireStory/berkshire-hathaway-boosted-stake-alphabet-homebuilders-quarter-135679033" }
+      ]
+    },
+    {
+      "headline": "Russia bans bitcoin mining in Moscow and parts of Kursk through 2032",
+      "summary": "A Russian Energy Ministry restriction, signed July 25 and reported by CoinDesk on August 15, bars crypto mining and mining-pool participation in Moscow, the Moscow region, and parts of Kursk through December 31, 2032, citing power-capacity shortages as mining facilities strain regional grids. Mining currently draws about 1 gigawatt from Moscow's power system, with potential data-center demand reaching 3.6 GW — 17% of peak demand — by 2032; Russia is the world's second-largest bitcoin mining power at roughly 16.4% of global hashrate.",
+      "whyItMatters": "It removes mining capacity from one of the largest hashrate contributors outside the US and China, at a time when Russian-mined bitcoin has also been used to route around Western sanctions.",
+      "category": "Regulatory",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Why the world's second-largest Bitcoin mining power is shutting down rigs in its capital city", "url": "https://www.coindesk.com/policy/2026/08/15/why-the-world-s-second-largest-bitcoin-mining-power-is-shutting-down-rigs-in-its-capital-city" }
+      ]
+    },
+    {
+      "headline": "UBS's bullish Bitcoin ETF options exposure jumped 24-fold in Q2",
+      "summary": "UBS's Q2 2026 13-F filing, covering the quarter ended June 30 and reported by CoinDesk this week, shows the bank's call-option exposure to BlackRock's iShares Bitcoin Trust (IBIT) rose from 80,000 to 1.95 million underlying shares, while its direct IBIT holdings grew about 12% to 407,890 shares (roughly $13.6 million). UBS also cut its put-option exposure by 53% over the same period.",
+      "whyItMatters": "The filing doesn't disclose whether the options reflect client demand, proprietary trading, or hedging, but it lands as UBS prepares to offer bitcoin and ether trading to Swiss private-banking clients.",
+      "category": "Markets",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options", "url": "https://www.coindesk.com/business/2026/08/15/swiss-mega-bank-ubs-ramps-up-its-bitcoin-exposure-with-a-massive-24-fold-surge-in-etf-call-options" }
+      ]
+    },
+    {
+      "headline": "Rocket Lab wins $12M Space Force network deal as Neutron's 'Hungry Hippo' fairing nears completion",
+      "summary": "The US Space Force selected Rocket Lab as one of five companies to develop a multi-vendor Space Data Network, awarding a $12 million package — $10 million to demonstrate cross-vendor data transport and $2 million to support orbital router satellites, the company said August 14. Separately, Rocket Lab said Neutron's reusable 'Hungry Hippo' fairing has completed installation of thermal protection, control surfaces, avionics and fluid systems, with CEO Peter Beck saying it will be 'essentially finished and ready for launch' once current checks are done, though the year-end launch window is narrowing.",
+      "whyItMatters": "It's a small new contract alongside a concrete hardware milestone for Neutron, whose debut has repeatedly slipped.",
+      "category": "Company",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Rocket Lab (NASDAQ: RKLB) Secures $12 Million Space Force Contract While Neutron's 'Hungry Hippo' Fairing Moves Closer To Launch", "url": "https://www.foreignpolicyjournal.com/2026/08/14/rocket-lab-nasdaq-rklb-secures-12-million-space-force-contract-while-neutrons-hungry-hippo-fairing-moves-closer-to-launch/" }
+      ]
+    },
+    {
+      "headline": "Duolingo acquires London animation studio Animade, its third motion-design buy",
+      "summary": "Duolingo announced August 13 that it acquired Animade, a London-based animation and motion-design studio founded in 2010, to expand its in-house Design Studio; financial terms weren't disclosed. It's Duolingo's third acquisition of an animation or motion-design studio, following Gunner in 2022 and Hobbes in 2024.",
+      "whyItMatters": "It signals Duolingo is still investing in in-house creative production even as it leans on AI elsewhere in the product.",
+      "category": "Company",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "Duolingo Invests in World-Class Motion Design with Acquisition of Animade", "url": "https://www.stocktitan.net/news/DUOL/duolingo-invests-in-world-class-motion-design-with-acquisition-of-aytstpzs4t2l.html" }
+      ]
+    }
+  ]
+}
