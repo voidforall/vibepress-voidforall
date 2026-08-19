@@ -1,7 +1,49 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-16T07:40:28Z",
+  "updatedAt": "2026-08-19T07:47:02Z",
   "events": [
+    {
+      "date": "2026-08-19",
+      "headline": "Turbovec brings Google's TurboQuant vector compression to production Rust",
+      "summary": "An open-source project called turbovec implements Google Research's TurboQuant algorithm — a data-oblivious quantizer with no separate training phase — as a Rust vector index with Python bindings. Its authors claim a 10-million-document co…",
+      "urls": [
+        "https://github.com/RyanCodrai/turbovec"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "headline": "Meta's $200 billion child-harm trial opens, drawing comparisons to Big Tobacco",
+      "summary": "A coalition of state attorneys general opened a trial seeking roughly $200 billion in penalties from Meta over claims it built Instagram and Facebook features designed to foster addiction in children. The case leans heavily on internal Met…",
+      "urls": [
+        "https://news.ycombinator.com/item?id=49355825",
+        "https://gulfnews.com/world/americas/meta-meets-its-own-tobacco-moment-as-jury-selection-kicks-off-trial-1.500638112"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "headline": "Cursor launches Origin, folding code hosting into its AI editor",
+      "summary": "Cursor introduced Origin, a code-hosting platform built directly into the editor, letting users store repos in a new Codebase tab, sync in real time from GitHub (which stays the source of truth for pushes), and manage pull requests — inclu…",
+      "urls": [
+        "https://cursor.com/changelog/origin-code-hosting"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "headline": "Cerebras ships CS-4, a rack-scale inference system claiming 30x GPU speed",
+      "summary": "Cerebras unveiled the CS-4, a rack-scale AI accelerator packing three WSE-3 Turbo wafers per unit, claiming up to 30x faster inference than GPU systems and over 1,000 tokens per second on models exceeding 10 trillion parameters. The compan…",
+      "urls": [
+        "https://www.cerebras.ai/cs4"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "headline": "An AI store manager fired its first human employee — after being reminded of its own rules",
+      "summary": "Luna, the AI system running Andon Labs' San Francisco retail store on Claude Opus 4.8, recommended firing an employee who was late to 17 of 23 shifts, abandoned shifts, and misused a company credit card. Luna's own policy called for termin…",
+      "urls": [
+        "https://thenextweb.com/news/andon-market-luna-ai-store-manager-fires-employee",
+        "https://sfstandard.com/2026/08/17/ai-boss-fires-worker/"
+      ]
+    },
     {
       "date": "2026-08-16",
       "headline": "OmniScientist runs the full research pipeline — from raw data to manuscript — in 36 test cases",
@@ -289,103 +331,6 @@
       "summary": "A widely discussed essay on 'eight myths' of GenAI and software engineering cites research showing developers spend around 14% of their time actually writing code, with the rest going to design, review, meetings, and coordination — and tha…",
       "urls": [
         "https://getdx.com/blog/8-myths-on-software-engineering-and-ai/"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "headline": "Swiftlet runs an 80B-parameter Qwen model in 4.3GB of RAM on a Mac",
-      "summary": "An open-source project called Swiftlet runs Qwen3-Next (80B) and Qwen3.6 (35B) natively on Apple Silicon by keeping only the dense model core resident in memory and streaming the mixture-of-experts' routed experts from SSD on demand, repac…",
-      "urls": [
-        "https://github.com/leonickson1/Swiftlet"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "headline": "OpenAI's internal model resolves ten open math and CS problems for under $2,000 each",
-      "summary": "OpenAI says an internal version of its next model, Astra, produced new results on ten long-standing open problems spanning sphere packing, coding theory, group theory, arithmetic circuit complexity, quantum complexity, and extremal combina…",
-      "urls": [
-        "https://github.com/openai/ten-proofs",
-        "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "headline": "OpenAI publicly rebuts Apple's trade-secrets lawsuit over former staff",
-      "summary": "OpenAI published a detailed rebuttal to Apple's July 10 lawsuit alleging former Apple employees Chang Liu and Tang Tan carried hardware trade secrets to OpenAI, calling the suit 'careless, aggressive and oddly personal.' OpenAI says Apple'…",
-      "urls": [
-        "https://9to5mac.com/2026/08/03/openai-rebuts-apple-trade-secrets-allegations-in-new-response-and-evidence/"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "headline": "Essay: LLMs reward expertise, not prompting skill",
-      "summary": "A widely discussed essay argues the popular idea that anyone can get expert-level results from an LLM with the right prompt gets it backwards: using Terence Tao's own exchanges with ChatGPT as an example, it contends deep domain knowledge…",
-      "urls": [
-        "https://www.seangoedecke.com/llms-reward-expertise/"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "headline": "Essay: AI coding agents make the case that devtools must be open source",
-      "summary": "An essay argues that because AI agents can now cheaply rewrite a tool's own source to fit a user's workflow and keep syncing with upstream, the economics of customizing software have flipped — bespoke, self-modified tools are now cheaper t…",
-      "urls": [
-        "https://blog.exe.dev/devtools-must-be-open-source"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "headline": "Andy Pavlo leaves academia part-time to found ClickHouse Labs",
-      "summary": "Carnegie Mellon database professor Andy Pavlo is joining ClickHouse as VP of Database Research to launch ClickHouse Labs, a research team meant to work directly with ClickHouse's engineers and customers rather than operate as an isolated g…",
-      "urls": [
-        "https://clickhouse.com/blog/andy-pavlo-joins-clickhouse"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "headline": "NetBSD 11.0 ships after a delay, citing an AI-driven surge in security reports",
-      "summary": "NetBSD 11.0 released August 1 after a lengthy delay the project attributes partly to 'the number of security issues found or suspected everywhere' increasing 'with the advent of AI tools.' The team shipped anyway, disclosing three unresolv…",
-      "urls": [
-        "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "headline": "MIT study: AI financial advice is good, but the wealth gap depends on how well you ask",
-      "summary": "MIT Sloan and Stanford researchers had 1,000 adults write their own prompts for financial advice from GPT-5.2, GPT-5.6, and Gemini 3 Flash, then simulated lifetime outcomes; the models consistently pushed saving, diversification, and age-a…",
-      "urls": [
-        "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "headline": "Linux desktop share in North America 'doubles' to 10.65% — mostly a measurement artifact",
-      "summary": "Statcounter's July 2026 figures put Linux desktop usage in North America at 10.65%, up from 5.52% in June. But June's data also carried an 'Unknown' category at 9.24% that shrank as Linux's share rose, suggesting the jump is largely reclas…",
-      "urls": [
-        "https://linuxiac.com/linux-desktop-market-share-surpasses-10-in-north-america/"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "headline": "ByteDance ships Seedance 2.5, doubling single-pass video generation to 30 seconds",
-      "summary": "ByteDance's Seedance 2.5 extends single-pass video generation from 15 to 30 seconds with multi-round extensions for longer sequences, and accepts up to 30 images, 10 video clips, and 10 audio clips as reference material with timestamp-leve…",
-      "urls": [
-        "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "headline": "AMD's MI355X beats Nvidia's B300 on tokens-per-dollar running Kimi K3, inference startup finds",
-      "summary": "Wafer AI reports its MI355X deployment of the 2.8T-parameter Kimi K3 hits 48 tokens/sec per dollar versus 33 for Nvidia's B300, despite lower peak throughput, because the AMD chip costs roughly 2.4x less per GPU while matching its 288GB VR…",
-      "urls": [
-        "https://www.wafer.ai/blog/kimi-k3-mi355x"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "headline": "A Lean kernel bug let someone 'disprove' the Collatz conjecture — patched within the hour",
-      "summary": "On July 25, an AI-assisted proof claiming to disprove the Collatz conjecture in Lean 4 turned out to exploit a kernel bug: nested inductive types with unused 'phantom' parameters could vanish during elimination, letting ill-typed arguments…",
-      "urls": [
-        "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/"
       ]
     }
   ]

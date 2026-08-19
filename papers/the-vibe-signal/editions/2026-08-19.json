@@ -1,0 +1,61 @@
+{
+  "id": "2026-08-19",
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-19T07:44:46Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Two infrastructure plays anchor today's issue — Cursor folding code hosting into its editor, and Cerebras shipping a rack-scale inference system built to outrun GPUs. Meanwhile a landmark trial testing whether Meta gets its own 'Big Tobacco moment' got underway, and an AI store manager's decision to fire a human employee offered an uncomfortable preview of workplace automation.",
+  "stories": [
+    {
+      "headline": "Cerebras ships CS-4, a rack-scale inference system claiming 30x GPU speed",
+      "summary": "Cerebras unveiled the CS-4, a rack-scale AI accelerator packing three WSE-3 Turbo wafers per unit, claiming up to 30x faster inference than GPU systems and over 1,000 tokens per second on models exceeding 10 trillion parameters. The company says a modular 'Nexus Platform Architecture' cuts wafer-to-wafer interconnect latency to 2 microseconds and delivers up to 10x more throughput per watt than the prior CS-3 generation, with first shipments beginning this quarter.",
+      "whyItMatters": "It's Cerebras' most direct pitch yet at hyperscale inference deployments, an arena GPU vendors have dominated.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Cerebras CS-4", "url": "https://www.cerebras.ai/cs4" }
+      ]
+    },
+    {
+      "headline": "Meta's $200 billion child-harm trial opens, drawing comparisons to Big Tobacco",
+      "summary": "A coalition of state attorneys general opened a trial seeking roughly $200 billion in penalties from Meta over claims it built Instagram and Facebook features designed to foster addiction in children. The case leans heavily on internal Meta research — much of it surfaced by whistleblower Frances Haugen in 2021 — showing the company had data on Instagram worsening teen girls' body-image and suicidal-ideation issues.",
+      "whyItMatters": "Legal observers are comparing the strategy directly to the 1990s tobacco settlements, and a loss could force Meta to overhaul how its platforms are designed for young users.",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Meta's blockbuster trial draws parallels to big tobacco - Hacker News discussion", "url": "https://news.ycombinator.com/item?id=49355825" },
+        { "title": "Meta Faces Big Tobacco Moment: Landmark Trial Over Alleged Harm to Children Begins in California - Gulf News", "url": "https://gulfnews.com/world/americas/meta-meets-its-own-tobacco-moment-as-jury-selection-kicks-off-trial-1.500638112" }
+      ]
+    },
+    {
+      "headline": "Cursor launches Origin, folding code hosting into its AI editor",
+      "summary": "Cursor introduced Origin, a code-hosting platform built directly into the editor, letting users store repos in a new Codebase tab, sync in real time from GitHub (which stays the source of truth for pushes), and manage pull requests — including bidirectional comment syncing — without leaving Cursor. It integrates with Vercel, Depot and Buildkite, and launches in early beta on all paid plans.",
+      "whyItMatters": "Cursor is pushing beyond an AI-assisted editor toward owning more of the development workflow that has historically belonged to GitHub.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Cursor Origin — Code hosting changelog", "url": "https://cursor.com/changelog/origin-code-hosting" }
+      ]
+    },
+    {
+      "headline": "An AI store manager fired its first human employee — after being reminded of its own rules",
+      "summary": "Luna, the AI system running Andon Labs' San Francisco retail store on Claude Opus 4.8, recommended firing an employee who was late to 17 of 23 shifts, abandoned shifts, and misused a company credit card. Luna's own policy called for termination after repeated violations, but it had been forgiving the lateness until Andon Labs prompted it to run a 'deep memory search' of its guidelines; humans then reviewed and carried out the decision.",
+      "whyItMatters": "It's described as the first known instance of an AI manager deciding to fire a human — and it only acted once nudged to check the policy it had already written.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "The AI store manager fired its first human. It had to be reminded of its own rules first - The Next Web", "url": "https://thenextweb.com/news/andon-market-luna-ai-store-manager-fires-employee" },
+        { "title": "His AI boss fired his human coworker. He's not worried - The San Francisco Standard", "url": "https://sfstandard.com/2026/08/17/ai-boss-fires-worker/" }
+      ]
+    },
+    {
+      "headline": "Turbovec brings Google's TurboQuant vector compression to production Rust",
+      "summary": "An open-source project called turbovec implements Google Research's TurboQuant algorithm — a data-oblivious quantizer with no separate training phase — as a Rust vector index with Python bindings. Its authors claim a 10-million-document corpus that takes 31GB of RAM as float32 fits in 4GB at 2-bit compression, with search up to 3.4x faster than FAISS's IndexPQFastScan on ARM; the project has drawn 15.5k GitHub stars.",
+      "whyItMatters": "It gives developers a ready-to-use implementation of a recent academic compression technique, aimed at semantic search where memory and latency are tight constraints.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "turbovec on GitHub", "url": "https://github.com/RyanCodrai/turbovec" }
+      ]
+    }
+  ]
+}

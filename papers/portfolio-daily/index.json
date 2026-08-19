@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-08-19",
+      "date": "2026-08-19",
+      "headline": "Alibaba sells gaming unit Lingxi Games for over $1.5 billion, deepening its AI pivot",
+      "storyCount": 6
+    },
+    {
       "id": "2026-08-16",
       "date": "2026-08-16",
       "headline": "Alibaba's Qwen models pass 3 billion downloads, overtaking Google and Meta",

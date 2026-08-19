@@ -1,0 +1,71 @@
+{
+  "id": "2026-08-19",
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-19T07:44:46Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Corporate action dominates today's brief: Alibaba is shedding a profitable gaming unit to sharpen its AI focus, Rocket Lab picked up eligibility on a nearly $1 billion Space Force infrastructure program, and Alphabet is buying a bankrupt airline's internal records to train models. Duolingo shares jumped on a fresh analyst upgrade, while gold slipped and bitcoin sentiment stayed muted ahead of the Fed minutes.",
+  "stories": [
+    {
+      "headline": "Alibaba sells gaming unit Lingxi Games for over $1.5 billion, deepening its AI pivot",
+      "summary": "Alibaba has agreed to sell its gaming arm, Lingxi Games, to private-equity firm Trustar Capital in a deal worth at least $1.5 billion, with Alibaba expected to net more than $2 billion from the transaction. Lingxi is profitable, with over 100 million registered users and a flagship title that has topped $1 billion in lifetime player spending.",
+      "whyItMatters": "The sale, part of CEO Eddie Wu's push to shed non-core assets, shows Alibaba is willing to give up a profitable business to redirect capital toward AI and cloud computing.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Alibaba to Sell Gaming Arm for $1.5 Billion in Boost to AI Pivot - Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-08-17/alibaba-to-sell-gaming-arm-for-1-5-billion-in-boost-to-ai-pivot" },
+        { "title": "Alibaba sells gaming arm Lingxi Games as tech giant sharpens focus on AI and e-commerce - South China Morning Post", "url": "https://www.scmp.com/tech/big-tech/article/3364287/alibaba-sells-gaming-arm-lingxi-games-tech-giant-sharpens-focus-ai-and-e-commerce" }
+      ]
+    },
+    {
+      "headline": "Rocket Lab onboarded to Space Force's $981 million NITE-STAR infrastructure program",
+      "summary": "Rocket Lab was named an awardee on the U.S. Space Force's NITE-STAR IDIQ contract, which has a $981 million ceiling across all awardees for distributed space test and training infrastructure. The onboarding makes Rocket Lab eligible to compete for individual task orders in satellite development, space software, systems engineering and mission operations, but guarantees no specific dollar amount.",
+      "whyItMatters": "It expands Rocket Lab's access to Space Force contract vehicles, though revenue depends on winning task orders rather than a guaranteed award.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Rocket Lab Onboarded to U.S. Space Force's $981M NITE-STAR Program - StockTitan", "url": "https://www.stocktitan.net/news/RKLB/rocket-lab-onboarded-to-u-s-space-force-s-981m-nite-star-program-to-m3ozkkr1wi3m.html" },
+        { "title": "Rocket Lab Onboarded to U.S. Space Force's $981M NITE-STAR Program - GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/08/17/3346506/0/en/rocket-lab-onboarded-to-u-s-space-force-s-981m-nite-star-program-to-advance-space-test-and-training-infrastructure.html" }
+      ]
+    },
+    {
+      "headline": "Duolingo shares jump 7% after DA Davidson upgrade to Buy",
+      "summary": "DA Davidson analyst Wyatt Swanson upgraded Duolingo from neutral to buy and raised his price target from $130 to $160, sending shares up 7.28% on Tuesday. Swanson argued that monetization risks are largely priced in after the stock's roughly 60% decline over the past year, and that the market is underappreciating recent product and marketing changes.",
+      "whyItMatters": "It's the first bullish analyst move on Duolingo since Bank of America's downgrade earlier this month, reflecting a split in how Wall Street reads the company's slowing growth.",
+      "category": "Markets",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Why Duolingo Stock Popped Today - The Motley Fool", "url": "https://www.fool.com/investing/2026/08/18/why-duolingo-stock-popped-today/" }
+      ]
+    },
+    {
+      "headline": "Gold slips below $4,350 as Treasury yields climb ahead of Fed minutes",
+      "summary": "Gold traded at $4,467.70 an ounce on COMEX, down 0.13% from the prior close, after falling nearly 2% the previous session as the 10-year Treasury yield rose to about 4.72%, near a one-year high. Markets were awaiting Wednesday's release of the Federal Reserve's meeting minutes for further signals on the rate path.",
+      "whyItMatters": "Rising bond yields are pressuring gold even as traders scale back bets on further Fed rate hikes this year.",
+      "category": "Commodities",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Gold prices today, Tuesday, August 18, 2026: Gold falters as U.S. Treasury yields rise - Yahoo Finance", "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-tuesday-august-18-2026-gold-falters-as-us-treasury-yields-rise-154856224.html" }
+      ]
+    },
+    {
+      "headline": "Bitcoin apathy sets in as Strategy stays on the sidelines",
+      "summary": "Strategy has not bought any bitcoin since mid-June, according to Bloomberg, and sold $333.7 million of common stock over the past week to fund a preferred-share repurchase and build cash reserves rather than add to its bitcoin holdings. The report describes a growing sense of apathy among bitcoin holders as the market's largest corporate buyer stays on pause.",
+      "whyItMatters": "Strategy's continued pullback removes a major source of steady bitcoin demand that had underpinned the market earlier this year.",
+      "category": "Crypto",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Apathy Takes Over as Saylor's Step Back From Bitcoin Sinks In - Bloomberg", "url": "https://www.bloomberg.com/news/newsletters/2026-08-18/strategy-s-mstr-step-back-is-sinking-in-among-bitcoin-faithful" }
+      ]
+    },
+    {
+      "headline": "Google to buy bankrupt Spirit Airlines' internal records for $10 million to train AI",
+      "summary": "Google won a bankruptcy-court auction with a $10 million bid for Spirit Airlines' internal operational and workplace data, beating a $7.5 million offer from AI data firm Mercor. The trove includes roughly 100 million emails and 500 million Microsoft Teams messages tied to marketing, productivity and airline operations; Google says the data will be de-identified and stripped of personal information before transfer.",
+      "whyItMatters": "It shows AI companies increasingly treating bankrupt firms' internal communications as a source of training data, pending court approval at this week's hearing.",
+      "category": "Company",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "A $10 Million Reason Why Google Stock In Focus - Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/10-million-reason-why-google-150639751.html" }
+      ]
+    }
+  ]
+}

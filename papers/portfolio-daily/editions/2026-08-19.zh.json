@@ -1,0 +1,71 @@
+{
+  "id": "2026-08-19",
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-19T07:44:46Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今天的简报以企业动作为主线：阿里巴巴出售旗下盈利的游戏业务以聚焦人工智能，Rocket Lab 获得竞标近十亿美元太空军基础设施项目的资格，谷歌则计划购买一家破产航空公司的内部记录用于训练模型。多邻国因分析师上调评级股价上涨，而黄金走软、比特币人气低迷,市场都在等待美联储会议纪要。",
+  "stories": [
+    {
+      "headline": "阿里巴巴以逾15亿美元出售游戏业务灵犀互娱，深化人工智能转型",
+      "summary": "阿里巴巴已同意将旗下游戏业务灵犀互娱出售给私募股权公司太盟投资集团，交易金额至少15亿美元，阿里巴巴预计从中获得逾20亿美元收益。灵犀互娱是一项盈利业务，注册用户超过1亿，其旗舰游戏的玩家终身消费已超过10亿美元。",
+      "whyItMatters": "此次出售是CEO吴泳铭剥离非核心资产战略的一部分，表明阿里巴巴愿意放弃一项盈利业务，将资金转投人工智能和云计算领域。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Alibaba to Sell Gaming Arm for $1.5 Billion in Boost to AI Pivot - Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-08-17/alibaba-to-sell-gaming-arm-for-1-5-billion-in-boost-to-ai-pivot" },
+        { "title": "Alibaba sells gaming arm Lingxi Games as tech giant sharpens focus on AI and e-commerce - South China Morning Post", "url": "https://www.scmp.com/tech/big-tech/article/3364287/alibaba-sells-gaming-arm-lingxi-games-tech-giant-sharpens-focus-ai-and-e-commerce" }
+      ]
+    },
+    {
+      "headline": "Rocket Lab入围美国太空军9.81亿美元NITE-STAR基础设施项目",
+      "summary": "Rocket Lab被列为美国太空军NITE-STAR不定数量交货合同的中标方之一，该合同所有中标方合计上限为9.81亿美元，用于分布式太空测试与训练基础设施建设。入围使Rocket Lab有资格在卫星研发、太空软件、系统工程和任务运营等领域竞标具体任务订单，但并不保证获得任何具体金额。",
+      "whyItMatters": "这扩大了Rocket Lab获取太空军合同渠道的机会，但实际收入仍取决于能否赢得具体任务订单，而非有保证的拨款。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Rocket Lab Onboarded to U.S. Space Force's $981M NITE-STAR Program - StockTitan", "url": "https://www.stocktitan.net/news/RKLB/rocket-lab-onboarded-to-u-s-space-force-s-981m-nite-star-program-to-m3ozkkr1wi3m.html" },
+        { "title": "Rocket Lab Onboarded to U.S. Space Force's $981M NITE-STAR Program - GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/08/17/3346506/0/en/rocket-lab-onboarded-to-u-s-space-force-s-981m-nite-star-program-to-advance-space-test-and-training-infrastructure.html" }
+      ]
+    },
+    {
+      "headline": "DA Davidson上调评级，多邻国股价上涨7%",
+      "summary": "DA Davidson分析师Wyatt Swanson将多邻国评级从中性上调至买入，目标价从130美元上调至160美元，推动周二股价上涨7.28%。Swanson认为，在股价过去一年下跌约60%后，变现风险已基本被市场消化，而市场低估了公司近期在产品和营销方面的改进。",
+      "whyItMatters": "这是本月美国银行下调评级以来首次出现的看涨分析师动作，反映出华尔街对该公司增长放缓的解读出现分歧。",
+      "category": "市场",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Why Duolingo Stock Popped Today - The Motley Fool", "url": "https://www.fool.com/investing/2026/08/18/why-duolingo-stock-popped-today/" }
+      ]
+    },
+    {
+      "headline": "美债收益率攀升，黄金在美联储纪要公布前跌破4350美元",
+      "summary": "COMEX黄金报每盎司4467.70美元，较前一交易日收盘价下跌0.13%，此前一个交易日曾下跌近2%，原因是10年期美债收益率升至约4.72%，接近一年高点。市场正等待周三公布的美联储会议纪要，以寻求利率路径的进一步信号。",
+      "whyItMatters": "尽管交易员正在削减对今年美联储进一步加息的押注，债券收益率上升仍在对金价构成压力。",
+      "category": "大宗商品",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Gold prices today, Tuesday, August 18, 2026: Gold falters as U.S. Treasury yields rise - Yahoo Finance", "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-tuesday-august-18-2026-gold-falters-as-us-treasury-yields-rise-154856224.html" }
+      ]
+    },
+    {
+      "headline": "Strategy按兵不动，比特币市场人气渐趋冷淡",
+      "summary": "据彭博社报道，Strategy公司自6月中旬以来未再购买比特币，过去一周还出售了3.337亿美元普通股，用于回购优先股和补充现金储备，而非增持比特币。报道称，随着这家市场最大的企业买家按兵不动，比特币持有者中弥漫着一种日益增长的冷淡情绪。",
+      "whyItMatters": "Strategy持续放缓购买，意味着此前支撑今年早些时候比特币市场的一大稳定需求来源正在消失。",
+      "category": "加密货币",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Apathy Takes Over as Saylor's Step Back From Bitcoin Sinks In - Bloomberg", "url": "https://www.bloomberg.com/news/newsletters/2026-08-18/strategy-s-mstr-step-back-is-sinking-in-among-bitcoin-faithful" }
+      ]
+    },
+    {
+      "headline": "谷歌拟以1000万美元购买破产的精神航空内部记录用于AI训练",
+      "summary": "谷歌在一次破产法庭拍卖中以1000万美元中标，购得精神航空的内部运营和办公数据，击败了AI数据公司Mercor提出的750万美元报价。这批数据包含约1亿封电子邮件和5亿条微软Teams消息，涉及市场营销、生产运营和航空运营，谷歌表示在转移前将对数据进行去标识化处理并剔除个人信息。",
+      "whyItMatters": "此举显示AI公司越来越倾向于将破产企业的内部通信视为训练数据来源，该交易尚待本周听证会上的法院批准。",
+      "category": "公司",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "A $10 Million Reason Why Google Stock In Focus - Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/10-million-reason-why-google-150639751.html" }
+      ]
+    }
+  ]
+}
