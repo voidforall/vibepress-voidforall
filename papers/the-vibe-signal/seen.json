@@ -1,7 +1,47 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-19T07:47:02Z",
+  "updatedAt": "2026-08-21T07:49:43Z",
   "events": [
+    {
+      "date": "2026-08-21",
+      "headline": "Show HN: Huzzah replaces AI coding prompts with persistent, declarative pseudocode files",
+      "summary": "Huzzah has developers write design intent as declarative pseudocode in .hz files instead of longform chat prompts; saving the file generates the real code, and editing the pseudocode captures a diff that regenerates only the affected secti…",
+      "urls": [
+        "https://www.danielvaughn.dev/posts/huzzah/"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "headline": "OpenAI claws back enterprise share from Anthropic, Ramp data shows",
+      "summary": "Data from corporate card issuer Ramp, tracking over 70,000 U.S. businesses, shows Anthropic's share of paying AI customers grew from 41% to about 44% between May and July while OpenAI grew from 39% to about 40% — but OpenAI is now growing…",
+      "urls": [
+        "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "headline": "GitHub's August 17 outage lasted nearly 8 hours after a capacity failure in its Central US data center",
+      "summary": "GitHub says a critical infrastructure component in its Central US data center 'failed to scale' against a new traffic peak, breaking authentication and cascading into Actions, APIs, pull requests, issues and Copilot for 7 hours and 47 minu…",
+      "urls": [
+        "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "headline": "A compromised maintainer account pushed build-time malware through the arrayref Rust crate",
+      "summary": "A hijacked account published a malicious arrayref 0.3.10 to crates.io that pulled in a typosquatted 'proc-macro1' dependency; its build script downloaded and ran platform-specific payloads — a detached binary on Unix, a PowerShell/VBScript…",
+      "urls": [
+        "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "headline": "\"Phantom Gains\" audit finds most self-training methods don't actually make models smarter",
+      "summary": "Researchers ran three rounds of self-training on Qwen3-8B against a frozen control processed identically, and found seven distinct measurement failures that can flip a reported gain into a false positive when no control is used. Once measu…",
+      "urls": [
+        "https://arxiv.org/abs/2608.20290v1"
+      ]
+    },
     {
       "date": "2026-08-19",
       "headline": "Turbovec brings Google's TurboQuant vector compression to production Rust",
@@ -283,54 +323,6 @@
       "summary": "AMD has acquired Toronto-based Taalas, which builds model-specific chips that embed AI model weights directly into silicon instead of relying on external memory; terms were not disclosed. Taalas's HC1 chip has demonstrated 16,960 tokens pe…",
       "urls": [
         "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "headline": "Waymo opens its robotaxi service to the general public in Dallas",
-      "summary": "Waymo said anyone in Dallas can now download its app and hail a fully autonomous ride, ending a waitlist that had already served roughly 150,000 people since the service launched there in February 2026. The company plans to extend autonomo…",
-      "urls": [
-        "https://waymo.com/blog/shorts/dallas-open-to-all/"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "headline": "Three WebKit features quietly bypass proxy settings, leaking real IPs and DNS queries",
-      "summary": "Researchers at Mysk found that WebKit's DNS prefetching, WebAuthn related-origin requests, and WebTransport all route around apps' configured proxies, exposing a device's real DNS servers and IP address even inside apps using Apple's proxy…",
-      "urls": [
-        "https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "headline": "Oxide Computer raises $445 million Series D, more than double its Series C",
-      "summary": "An SEC Form D filing shows on-premises cloud-server startup Oxide Computer raised $445 million, over twice the $200 million Series C it closed in December 2025 and roughly ten times its 2023 Series A. Oxide has shipped hardware to customer…",
-      "urls": [
-        "https://news.ycombinator.com/item?id=49174407"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "headline": "Mistral open-sources Shieldstral, a 3B moderation model it says beats guards 7x its size",
-      "summary": "Mistral released Shieldstral, an Apache 2.0-licensed 3-billion-parameter model that scores content safety across text and images by answering user-supplied yes/no policy questions instead of applying fixed categories. Mistral says it match…",
-      "urls": [
-        "https://mistral.ai/news/shieldstral/"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "headline": "Interpol: AI now touches 55% of cybercrime cases across Africa",
-      "summary": "Interpol's latest assessment found AI involved in 55% of surveyed cybercrime cases across Africa, with losses rising from $192 million in 2024 to $484 million in 2025 and 72% of surveyed countries reporting scam centers operating within th…",
-      "urls": [
-        "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "headline": "Essay: developers spend just 14% of their time writing code, so AI code-gen has a ceiling",
-      "summary": "A widely discussed essay on 'eight myths' of GenAI and software engineering cites research showing developers spend around 14% of their time actually writing code, with the rest going to design, review, meetings, and coordination — and tha…",
-      "urls": [
-        "https://getdx.com/blog/8-myths-on-software-engineering-and-ai/"
       ]
     }
   ]

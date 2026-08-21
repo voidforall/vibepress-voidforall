@@ -1,0 +1,59 @@
+{
+  "id": "2026-08-21",
+  "date": "2026-08-21",
+  "generatedAt": "2026-08-21T07:47:12Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Alibaba's AI capex is now visibly eating profit even as cloud growth accelerates, while Alphabet locked in more custom-chip capacity by handing Marvell a $12.2 billion stake option. Macro moved the commodities and crypto holdings together: a Treasury move to double long-bond buybacks knocked down yields and the dollar, sending both gold and bitcoin sharply higher. Rocket Lab logged another routine Electron success as space stocks slid with the broader market.",
+  "stories": [
+    {
+      "headline": "Alibaba's profit falls 76% as AI capex jumps 75%, even as cloud revenue grows 45%",
+      "summary": "Alibaba's fiscal Q1 revenue rose 9% year-over-year to 268.95 billion yuan ($39.64 billion), but net income dropped 76% to 10.54 billion yuan ($1.55 billion) as capital expenditure climbed 75% to 67.68 billion yuan ($9.98 billion) on AI infrastructure. AI Cloud and Compute Services revenue grew 45% to 48.44 billion yuan, and AI-related product revenue posted its 12th straight quarter of triple-digit growth, while free cash flow was negative $6.58 billion.",
+      "whyItMatters": "The results show Alibaba is willing to sacrifice near-term profit for AI infrastructure buildout, with CEO Eddie Wu reaffirming a target of $100 billion in combined cloud and AI revenue within five years.",
+      "category": "Earnings",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Alibaba Q1 2026 earnings: profit drops 76% on AI spending - Yahoo Finance", "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-q1-2026-earnings-profit-113002329.html" }
+      ]
+    },
+    {
+      "headline": "Marvell grants Google an option to buy up to $12.2 billion in shares tied to AI chip orders",
+      "summary": "Marvell gave Google a warrant to purchase up to 58.97 million shares at $206.58 each, unlocking in tranches as Google buys custom chips for its TPU ecosystem — inference accelerators, networking, storage and memory-interface controllers — through fiscal 2033. Marvell says the partnership could bring roughly $120 billion in revenue over that period if Google hits its purchasing targets, and Marvell shares jumped nearly 8% on the news while rival Broadcom fell more than 5%.",
+      "whyItMatters": "The deal gives Google a stake in a second major chip supplier as it diversifies AI capacity beyond Broadcom, while Marvell's own upside is now tied directly to Google's purchase volumes.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Marvell grants Google $12.2 billion stake option in AI chip deal - Yahoo Finance", "url": "https://finance.yahoo.com/technology/articles/marvell-grants-google-12-2-123812695.html" }
+      ]
+    },
+    {
+      "headline": "Gold climbs to an 11-week high above $4,550 as Treasury bond buybacks hit the dollar",
+      "summary": "Gold (XAU/USD) traded around $4,550, up 0.65% and its highest level in over 11 weeks, reversing the previous week's dip below $4,350. The move follows the Treasury Department's decision to double buybacks of longer-dated debt, which pushed the Dollar Index down toward a three-month low and pulled bond yields lower even as some analysts, including MUFG, warned the buyback plan could prove 'counter-productive' for the dollar.",
+      "whyItMatters": "The same Treasury move that's pressuring the dollar is now the dominant driver for gold, reversing last week's yield-driven pullback.",
+      "category": "Commodities",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Gold Price Forecast: XAU/USD extends rally as US debt concerns continue to drag US Dollar - FXStreet", "url": "https://www.fxstreet.com/analysis/gold-price-forecast-xau-usd-extends-rally-as-us-debt-concerns-continue-to-drag-us-dollar-202608210629" }
+      ]
+    },
+    {
+      "headline": "Bitcoin and ether jump as Trump pushes the Clarity Act and Treasury eases borrowing costs",
+      "summary": "Bitcoin opened up 7.1% on the day to reach $71,980 and ether opened up 17.5% to reach $2,293, with bitcoin later climbing toward $75,000, as President Trump pushed for the Clarity Act, which would define whether cryptocurrencies are regulated as securities or commodities; the bill is currently stalled in the Senate with a procedural vote set for September. A decline in long-term Treasury yields, following the Treasury's move to double long-bond buybacks, added further support for risk assets.",
+      "whyItMatters": "Both bitcoin and ether remain down more than a third from a year ago, so this rally is a sharp reversal rather than a resumption of a longer uptrend.",
+      "category": "Crypto",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Bitcoin and ethereum prices today: crypto prices surge after President Trump pushes for Clarity Act - Yahoo Finance", "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-20-2026-crypto-prices-surge-after-president-trump-pushes-for-clarity-act-154014757.html" }
+      ]
+    },
+    {
+      "headline": "Rocket Lab completes 93rd Electron launch for Japan's iQPS as space stocks slide",
+      "summary": "Rocket Lab launched a QPS-SAR satellite for Japan's iQPS in its 14th mission of the year and ninth dedicated iQPS launch, with nine more Electron launches booked for iQPS through 2030. RKLB shares fell more than 4% on the day, but the drop tracked a broader space-sector selloff — SpaceX fell over 5% and AST SpaceMobile and Virgin Galactic each slipped 3% — rather than any mission-specific issue.",
+      "whyItMatters": "The launch adds to Rocket Lab's track record of dedicated missions for a repeat customer, even as its stock moved with a sector-wide dip rather than its own news.",
+      "category": "Company",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "RKLB Stock In Focus After Rocket Lab Launches 93rd Electron Mission - Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/rklb-stock-focus-rocket-lab-181515807.html" }
+      ]
+    }
+  ]
+}

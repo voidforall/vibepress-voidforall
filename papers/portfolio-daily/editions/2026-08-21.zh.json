@@ -1,0 +1,59 @@
+{
+  "id": "2026-08-21",
+  "date": "2026-08-21",
+  "generatedAt": "2026-08-21T07:47:12Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "阿里巴巴的人工智能资本支出已开始明显侵蚀利润，尽管云业务增长在加速；谷歌则通过给予Marvell一份122亿美元的股权认购权，锁定了更多定制芯片产能。大宗商品和加密货币持仓则同受宏观因素驱动：美国财政部加倍回购长期国债的举措压低了收益率和美元，推动黄金与比特币双双大幅上涨。Rocket Lab完成了又一次常规的Electron发射，而太空板块股票随大盘走低。",
+  "stories": [
+    {
+      "headline": "阿里巴巴利润下滑76%，AI资本支出增75%，云业务收入增长45%",
+      "summary": "阿里巴巴财年第一财季营收同比增长9%，至2689.5亿元人民币（396.4亿美元），但净利润下滑76%，至105.4亿元人民币（15.5亿美元），原因是用于AI基础设施的资本支出增长75%，达到676.8亿元人民币（99.8亿美元）。AI云与计算服务收入增长45%，至484.4亿元人民币，AI相关产品收入连续第12个季度实现三位数增长，同时自由现金流为负65.8亿美元。",
+      "whyItMatters": "业绩表明阿里巴巴愿意为AI基础设施建设牺牲短期利润，CEO吴泳铭重申了未来五年云与AI合计收入达到1000亿美元的目标。",
+      "category": "财报",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Alibaba Q1 2026 earnings: profit drops 76% on AI spending - Yahoo Finance", "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-q1-2026-earnings-profit-113002329.html" }
+      ]
+    },
+    {
+      "headline": "Marvell授予谷歌最高122亿美元的股权认购权，与AI芯片订单挂钩",
+      "summary": "Marvell给予谷歌一份认股权证，允许其以每股206.58美元的价格购买最多5897万股股份，行权比例随谷歌为其TPU生态系统（包括推理加速器、网络、存储和内存接口控制器）采购定制芯片的进度分批解锁，直至2033财年。Marvell表示，若谷歌达成采购目标，该合作在此期间可能带来约1200亿美元收入；消息公布后Marvell股价上涨近8%，而竞争对手博通股价下跌逾5%。",
+      "whyItMatters": "这笔交易让谷歌在其AI芯片产能多元化布局中，获得了第二家主要芯片供应商的股权，而Marvell自身的上行空间也直接与谷歌的采购量挂钩。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Marvell grants Google $12.2 billion stake option in AI chip deal - Yahoo Finance", "url": "https://finance.yahoo.com/technology/articles/marvell-grants-google-12-2-123812695.html" }
+      ]
+    },
+    {
+      "headline": "美国财政部回购长期国债打压美元，黄金升至11周高位逾4550美元",
+      "summary": "现货黄金（XAU/USD）报约4550美元，上涨0.65%，为11周多以来最高水平，一举扭转此前一周跌破4350美元的走势。此轮上涨源于美国财政部决定将长期国债回购规模翻倍，此举将美元指数推低至三个月低点附近，并压低了债券收益率，尽管三菱日联等机构警告，该回购计划可能会“适得其反”。",
+      "whyItMatters": "同样是财政部这一举措在打压美元，如今也成为推动金价的主要因素，扭转了上周由收益率上升导致的回调。",
+      "category": "大宗商品",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Gold Price Forecast: XAU/USD extends rally as US debt concerns continue to drag US Dollar - FXStreet", "url": "https://www.fxstreet.com/analysis/gold-price-forecast-xau-usd-extends-rally-as-us-debt-concerns-continue-to-drag-us-dollar-202608210629" }
+      ]
+    },
+    {
+      "headline": "特朗普推动《明晰法案》、财政部缓解借贷成本，比特币与以太坊上涨",
+      "summary": "比特币当日一度上涨7.1%至71980美元，以太坊上涨17.5%至2293美元，随后比特币进一步升至近7.5万美元，原因是特朗普总统推动《明晰法案》（Clarity Act），该法案将明确加密货币应按证券还是大宗商品监管；该法案目前仍搁置在参议院，程序性表决定于9月举行。美国财政部加倍回购长期国债导致长期收益率下降，也为风险资产提供了进一步支撑。",
+      "whyItMatters": "比特币和以太坊目前仍较一年前下跌超过三分之一，因此此轮上涨更像是急剧反弹，而非长期上升趋势的延续。",
+      "category": "加密货币",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Bitcoin and ethereum prices today: crypto prices surge after President Trump pushes for Clarity Act - Yahoo Finance", "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-20-2026-crypto-prices-surge-after-president-trump-pushes-for-clarity-act-154014757.html" }
+      ]
+    },
+    {
+      "headline": "Rocket Lab为日本iQPS完成第93次Electron发射，太空板块股票走低",
+      "summary": "Rocket Lab为日本iQPS发射了一颗QPS-SAR卫星，这是其年内第14次发射，也是第九次为iQPS执行的专属发射任务，双方已敲定另外九次Electron发射，将持续至2030年。RKLB股价当日下跌逾4%，但这一跌幅与整个太空板块的普遍下滑同步——SpaceX下跌逾5%，AST SpaceMobile和维珍银河也各自下跌3%——而非与本次任务本身有关。",
+      "whyItMatters": "此次发射延续了Rocket Lab为回头客执行专属任务的良好记录，尽管其股价的波动是跟随板块整体下滑，而非受自身消息驱动。",
+      "category": "公司",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "RKLB Stock In Focus After Rocket Lab Launches 93rd Electron Mission - Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/rklb-stock-focus-rocket-lab-181515807.html" }
+      ]
+    }
+  ]
+}
