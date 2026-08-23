@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-08-23",
+      "date": "2026-08-23",
+      "headline": "Alibaba prices record $10.2 billion Hong Kong share placement to fund its AI buildout",
+      "storyCount": 4
+    },
+    {
       "id": "2026-08-21",
       "date": "2026-08-21",
       "headline": "Alibaba's profit falls 76% as AI capex jumps 75%, even as cloud revenue grows 45%",

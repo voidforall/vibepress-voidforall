@@ -1,0 +1,51 @@
+{
+  "id": "2026-08-23",
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-23T00:00:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今天的关注列表新闻由阿里巴巴主导，且是双线出击：一边是斥资102亿美元在香港进行创纪录的配股融资，为其AI建设提供资金；另一边则是以15亿美元竞购生鲜电商拼拼（Pupu），加剧其与美团在本地生活领域的争夺——这两项举措都在中国引来了新的监管关注。与此同时，谷歌据报正将其下一代TPU分散交由MediaTek和博通研发，而非独自完成；美国证券交易委员会（SEC）也就其史上首份加密货币专属融资规则，启动了为期60天的意见征询期。",
+  "stories": [
+    {
+      "headline": "阿里巴巴敲定创纪录的102亿美元香港配股，为AI建设融资",
+      "summary": "阿里巴巴以每股112.70港元的价格配售7.1亿股新股——较此前收盘价折让3.6%——共募资800亿港元（约102亿美元），成为香港上市公司史上规模最大的一次增发。公司表示，全部净募集资金将用于其“全栈”AI能力建设，涵盖芯片、基础设施和模型开发；此次配售由摩根士丹利、汇丰、瑞银和中金公司承销，消息公布后阿里巴巴股价一度下跌8.6%。",
+      "whyItMatters": "这是阿里巴巴专门为AI基础设施筹集外部资金，而非仅靠自身现金流支撑建设，此前公司季度利润已因AI资本支出大幅下滑。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Alibaba's $10.2 Billion Hong Kong Share Placement - Investing.com", "url": "https://www.investing.com/news/stock-market-news/alibaba-proposes-hong-kong-share-placement-worth-10-billion-4872416" },
+        { "title": "Alibaba Group Announced Proposed Placing of New Shares in Hong Kong - Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/alibaba-group-announced-proposed-placing-043000401.html" }
+      ]
+    },
+    {
+      "headline": "阿里巴巴出价15亿美元竞购生鲜电商拼拼，加剧与美团的较量",
+      "summary": "阿里巴巴向福建生鲜即时配送平台拼拼（Pupu）开出15亿美元报价，是此前大润发发出的6亿美元报价的两倍多，意在通过供应链深度布局，与美团、京东在本地生活领域展开竞争。与此同时，中国市场监管总局已就购物节期间涉嫌误导性促销，单独约谈了阿里巴巴、京东、拼多多、字节跳动和小红书，若拼拼收购最终达成，预计还将面临自身的反垄断审查。",
+      "whyItMatters": "阿里巴巴正在资本密集的本地生活业务上加码投入，与此同时监管部门正对其促销行为加强审查，这在支出之外又增加了交易审批方面的风险。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "BABA Makes $1.5B Play for Pupu Amid Regulatory Scrutiny: What's Ahead? - Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/baba-makes-1-5b-play-140700553.html" }
+      ]
+    },
+    {
+      "headline": "据报道，谷歌选定MediaTek作为其下一代TPU“Triggerfish”的独家合作伙伴",
+      "summary": "供应链分析师郭明錤透露，谷歌已选定MediaTek作为其升级版TPU v9芯片（代号Triggerfish）的独家开发合作伙伴，该芯片SRAM容量为现款Humufish设计的2至3倍，并支持新一代HBM4E内存，预计将于2027年末投产。另有报道称，谷歌正将其第八代TPU的研发分散给多家合作伙伴——MediaTek负责I/O与封装，博通负责推理芯片，台积电负责制造——而非完全自主完成。",
+      "whyItMatters": "谷歌正将其下一代AI芯片的研发分散给更多外部合作伙伴，一改此前主要依赖博通一家的局面，这也是其减少对英伟达和AMD依赖这一更大战略的一部分。",
+      "category": "公司",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "GOOGL Stock Dips Premarket After Breakout Week: Analyst Says Google Developing Next-Gen AI Chip With MediaTek - Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/googl-stock-dips-premarket-after-breakout-week-analyst-says-google-developing-next-gen-ai-chip-with-media-tek/cZKtowlR7Ba" },
+        { "title": "Google looks to MediaTek for next-gen AI chips - Yahoo Finance", "url": "https://finance.yahoo.com/sectors/technology/articles/google-looks-mediatek-next-gen-180151007.html" }
+      ]
+    },
+    {
+      "headline": "SEC提出其90年历史上首份加密货币专属融资规则",
+      "summary": "SEC提出“加密资产条例”（Regulation Crypto Assets），设立两项《证券法》注册豁免：一项允许四年内累计融资最高500万美元，另一项允许每12个月融资最高7500万美元，此外还设有一项有条件的“安全港”条款，即发行方一旦完成其承诺的管理性工作，便可不再被视为“投资合同”。该提案已启动为期60天的公众意见征询期；SEC主席Paul Atkins表示，这将为发行方提供“在联邦证券法框架下融资的清晰路径”。",
+      "whyItMatters": "这是SEC首次为加密代币发行建立正式框架，而非依赖个案执法，不过按照常规立法程序推算，正式生效的规则最早也要到2027年年中才可能出台。",
+      "category": "监管",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "SEC Proposes New Regulation Crypto Assets - Newsfile", "url": "https://www.newsfilecorp.com/release/310323/SEC-Proposes-New-Regulation-Crypto-Assets" }
+      ]
+    }
+  ]
+}

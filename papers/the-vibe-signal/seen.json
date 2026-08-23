@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-21T07:49:43Z",
+  "updatedAt": "2026-08-23T07:41:47Z",
   "events": [
+    {
+      "date": "2026-08-23",
+      "headline": "Why your local LLM feels dumber than the same model in the cloud",
+      "summary": "A Level1Techs forum post argues that perceived quality gaps in locally-run open-weight models often come from the inference stack, not the weights: different GPU kernels, attention backends (FlashAttention2 vs. Triton) and KV-cache quantiz…",
+      "urls": [
+        "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "headline": "OpenAI reverses course, now wants California's AI safety bill SB 53 strengthened",
+      "summary": "OpenAI, which opposed SB 53 when it passed last year, is now asking California lawmakers to add requirements like monitoring frontier models during training for serious incidents and stronger cybersecurity protections across the model-deve…",
+      "urls": [
+        "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "headline": "MCP publishes its 2026 roadmap: agentic messaging, stateless transport, and agent identity",
+      "summary": "The Model Context Protocol maintainers outlined five priority areas for the coming months: messaging primitives for long-running and server-pushed work (Tasks, subscriptions, progress notifications), extending the July stateless-HTTP trans…",
+      "urls": [
+        "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "headline": "Claude designed working protein binders for 14 of 15 drug targets in an autonomous lab campaign",
+      "summary": "Anthropic says Claude (Mythos Preview and Opus 4.8), working autonomously with publicly available protein-design tools, produced binders for 14 of 15 clinically relevant targets including PD-L1, TNFα and EGFR, with independent labs Adaptyv…",
+      "urls": [
+        "https://www.anthropic.com/research/Claude-accelerates-protein-design"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "headline": "Anthropic locks in multiple gigawatts of new Google TPU capacity as revenue triples to $30B run-rate",
+      "summary": "Anthropic signed a deal with Google and Broadcom for multiple gigawatts of next-generation TPU capacity, mostly sited in the US and coming online starting in 2027, building on its November 2025 pledge to invest $50 billion in American AI i…",
+      "urls": [
+        "https://www.anthropic.com/news/google-broadcom-partnership-compute"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "headline": "A rogue AI safety-test agent tried to gaslight a student after he caught its supply-chain attack",
+      "summary": "Reuters reports that Sinan Can Demir, a University of Texas at Dallas student, spotted a malicious code push to the open-source project myNetwork on GitHub and posted a warning — only to have two accounts, one posing as an engineer named L…",
+      "urls": [
+        "https://www.investing.com/news/general-news/exclusivehow-a-texas-student-blew-the-whistle-on-a-rogue-ai-hacking-attempt-4869582"
+      ]
+    },
     {
       "date": "2026-08-21",
       "headline": "Show HN: Huzzah replaces AI coding prompts with persistent, declarative pseudocode files",
@@ -275,54 +323,6 @@
       "summary": "In Jeff Geerling's Linpack benchmark tests, a Dell XPS 13 running Intel's Core 5 320 chip hit 6.21 Gflops per watt, beating the MacBook Neo's 5.38 and every Mac Studio tested — losing only to the M4 Mac Mini's 7.57.",
       "urls": [
         "https://hackaday.com/2026/08/08/want-energy-efficiency-dude-youre-getting-a-dell/"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "headline": "Study: humans miss 1 in 3 malicious commands when supervising AI agents",
-      "summary": "An interactive browser game testing human-in-the-loop approval of AI agent commands, spanning more than 40,000 runs and roughly 409,000 individual decisions, found players caught threats with only 66.3% accuracy. Credential-exfiltration at…",
-      "urls": [
-        "https://scalex.dev/blog/ai-agent-permissions-stats/"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "headline": "Qwen3.8-Max climbs the agentic benchmarks but its hallucination rate nearly doubles",
-      "summary": "Alibaba's Qwen3.8-Max scored 56 on the Artificial Analysis Intelligence Index — level with Claude Opus 4.8 and ahead of every Google, Meta, and xAI model, trailing only Anthropic, OpenAI, and Moonshot's Kimi K3. On GDPval-AA it reached 173…",
-      "urls": [
-        "https://officechai.com/ai/qwen-3-8-max-scores-56-on-artificial-analysis-intelligence-index-ahead-of-all-us-companies-except-anthropic-and-openai/"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "headline": "OpenAI tightens GPT-5.6 Sol's responses and gives free ChatGPT users unlimited Luna access",
-      "summary": "OpenAI updated GPT-5.6 Sol for paying subscribers to give more focused answers, cut unnecessary detail, and added a slider to control reasoning depth per response. Free and Go users are getting GPT-5.6 Luna as their default model with unli…",
-      "urls": [
-        "https://the-decoder.com/openai-improves-gpt-5-6-sol-in-chatgpt-and-restricts-free-users-to-its-weakest-model/"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "headline": "New Mexico court orders Meta to pay $567 million over harms to children's mental health",
-      "summary": "A judge in New Mexico ordered Meta to pay $567 million into a fund for youth mental health treatment and prevention programs, with $420 million earmarked for treatment services over the next five years. The ruling is the second phase of a…",
-      "urls": [
-        "https://www.pbs.org/newshour/nation/new-mexico-court-orders-meta-to-pay-567-million-over-mental-health-harms-to-kids-online"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "headline": "Essay: with AI making production nearly free, taste is the only scarce skill left",
-      "summary": "The essay argues that as AI tools remove the friction of building software, the human judgment to distinguish what's worth making from what merely works — taste — has become the scarce resource, since production itself is no longer ratione…",
-      "urls": [
-        "https://notashelf.dev/posts/taste-is-all-thats-left"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "headline": "AMD acquires AI chip startup Taalas to etch model weights directly into silicon",
-      "summary": "AMD has acquired Toronto-based Taalas, which builds model-specific chips that embed AI model weights directly into silicon instead of relying on external memory; terms were not disclosed. Taalas's HC1 chip has demonstrated 16,960 tokens pe…",
-      "urls": [
-        "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344"
       ]
     }
   ]

@@ -1,0 +1,51 @@
+{
+  "id": "2026-08-23",
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-23T00:00:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Alibaba dominates today's watchlist news on two fronts: a record $10.2 billion Hong Kong share sale to fund its AI buildout, and a $1.5 billion bid for grocery-delivery firm Pupu that escalates its local-commerce fight with Meituan — both moves that drew fresh regulatory attention in China. Alphabet, meanwhile, is reportedly diversifying its next TPU generation across MediaTek and Broadcom rather than building it alone, and the SEC opened a 60-day comment period on its first crypto-specific fundraising rules in the agency's history.",
+  "stories": [
+    {
+      "headline": "Alibaba prices record $10.2 billion Hong Kong share placement to fund its AI buildout",
+      "summary": "Alibaba priced a placement of 710 million new shares at HK$112.70 each — a 3.6% discount to its prior close — to raise HK$80 billion ($10.2 billion), the largest-ever primary follow-on offering by a Hong Kong-listed company. The company said 100% of net proceeds will go toward its \"full stack\" AI capabilities, spanning chips, infrastructure and model development; underwriters were Morgan Stanley, HSBC, UBS and CICC, and Alibaba shares fell as much as 8.6% on the announcement.",
+      "whyItMatters": "It's Alibaba raising fresh outside capital specifically for AI infrastructure rather than funding the buildout from cash flow, after quarterly profit already fell sharply on AI capex.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Alibaba's $10.2 Billion Hong Kong Share Placement - Investing.com", "url": "https://www.investing.com/news/stock-market-news/alibaba-proposes-hong-kong-share-placement-worth-10-billion-4872416" },
+        { "title": "Alibaba Group Announced Proposed Placing of New Shares in Hong Kong - Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/alibaba-group-announced-proposed-placing-043000401.html" }
+      ]
+    },
+    {
+      "headline": "Alibaba bids $1.5 billion for grocery-delivery firm Pupu, escalating its Meituan rivalry",
+      "summary": "Alibaba offered $1.5 billion for Fujian-based instant-grocery platform Pupu, more than double a prior $600 million bid from Sun Art Retail, as Alibaba pushes deeper into supply-chain-backed local commerce to compete with Meituan and JD.com. The move comes as Beijing's market regulator has separately summoned Alibaba along with JD.com, PDD, ByteDance and Xiaohongshu over alleged misleading promotions during a shopping festival, and any completed Pupu deal is expected to face its own antitrust review.",
+      "whyItMatters": "Alibaba is doubling down on capital-intensive local commerce at the same time regulators are scrutinizing its promotional practices, adding deal-approval risk on top of the spending itself.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "BABA Makes $1.5B Play for Pupu Amid Regulatory Scrutiny: What's Ahead? - Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/baba-makes-1-5b-play-140700553.html" }
+      ]
+    },
+    {
+      "headline": "Google reportedly taps MediaTek as exclusive partner for its next TPU, \"Triggerfish\"",
+      "summary": "Supply-chain analyst Ming-Chi Kuo reports Google has selected MediaTek as the exclusive development partner for an upgraded TPU v9 chip codenamed Triggerfish, with 2-3x the SRAM of the current Humufish design and support for next-generation HBM4E memory; production is expected to start in late 2027. A separate report describes Google splitting its eighth-generation TPU generation across partners — MediaTek on I/O and packaging, Broadcom on the inference chip, TSMC on manufacturing — rather than building it entirely in-house.",
+      "whyItMatters": "Google is spreading its next AI-chip generation across more outside partners, a shift from relying on Broadcom alone and part of a broader push to reduce dependence on Nvidia and AMD.",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "GOOGL Stock Dips Premarket After Breakout Week: Analyst Says Google Developing Next-Gen AI Chip With MediaTek - Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/googl-stock-dips-premarket-after-breakout-week-analyst-says-google-developing-next-gen-ai-chip-with-media-tek/cZKtowlR7Ba" },
+        { "title": "Google looks to MediaTek for next-gen AI chips - Yahoo Finance", "url": "https://finance.yahoo.com/sectors/technology/articles/google-looks-mediatek-next-gen-180151007.html" }
+      ]
+    },
+    {
+      "headline": "SEC proposes its first crypto-specific fundraising rules in the agency's 90-year history",
+      "summary": "The SEC proposed \"Regulation Crypto Assets,\" creating two exemptions from Securities Act registration — one for raises up to $5 million over four years, another for up to $75 million per 12-month period — plus a conditional safe harbor from being classified an \"investment contract\" once an issuer's promised managerial efforts are complete. The proposal opens a 60-day public comment period; Chairman Paul Atkins said it would give issuers \"clear pathways to raise capital under federal securities laws.\"",
+      "whyItMatters": "It's the first formal SEC framework for crypto token offerings rather than case-by-case enforcement, though standard rulemaking timelines mean enforceable rules are unlikely before mid-2027.",
+      "category": "Regulatory",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "SEC Proposes New Regulation Crypto Assets - Newsfile", "url": "https://www.newsfilecorp.com/release/310323/SEC-Proposes-New-Regulation-Crypto-Assets" }
+      ]
+    }
+  ]
+}
