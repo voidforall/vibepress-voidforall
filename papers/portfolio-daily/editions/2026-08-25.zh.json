@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-25",
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-25T07:46:34Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "对观察名单中的实际经营业务来说,今天是平静的一天,但对其中两个宏观代理资产而言却相当热闹:比特币在一轮逼空行情和美国财政部新的回购计划推动下重返8万美元上方,黄金也因美元走弱升至三个月高点。阿里巴巴的大幅折价配股拖累股价下跌,尽管公司高管随即逢低增持。",
+  "stories": [
+    {
+      "headline": "阿里巴巴以102亿美元折价配股融资后,高管斥资1500万美元增持股份",
+      "summary": "阿里巴巴以每股112.70港元的价格新发行7.1亿股股份,较周五收盘价折让8.4%,筹资800亿港元(约102亿美元)用于AI基础设施建设;香港股价一度下跌10.5%后收窄跌幅,尽管此次配股仍获得约280亿美元的认购订单。董事长蔡崇信和CEO吴泳铭随后在公开市场买入约合1.2亿港元(1530万美元)的股票。",
+      "whyItMatters": "这是香港上市公司有史以来规模最大的一次追加配股,而高管的增持行为表明,他们认为这轮为AI融资带来的短期股价冲击是值得的。",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Alibaba shares slide after $10.2 billion AI share sale offered at sharp discount", "url": "https://www.bnnbloomberg.ca/business/company-news/2026/08/24/alibaba-shares-slide-after-us102-billion-ai-share-sale-offered-at-sharp-discount/" },
+        { "title": "Alibaba Executives Buy $15 Million in Shares After New Offering", "url": "https://www.bloomberg.com/news/articles/2026-08-24/alibaba-executives-buy-15-million-in-shares-after-new-offering" }
+      ]
+    },
+    {
+      "headline": "比特币在逼空行情推动下重返8万美元,创5月以来新高",
+      "summary": "比特币一度上涨超过2%,升至约8.05万美元,创5月以来新高,延续了上周三天内上涨逾20%的涨势——这是自2023年以来最大的三日涨幅。此轮上涨的推动因素包括逼空行情导致逾40亿美元的空头仓位被强制平仓,美国财政部宣布将增加长期国债购买规模,以及比特币和以太坊ETF获得强劲资金流入。",
+      "whyItMatters": "这波突破行情出现在比特币自10月以来长期低迷之后,分析师指出2023年1月的类似飙升最初也曾回落,因此本轮涨势能否持续仍有待验证。",
+      "category": "Crypto",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Bitcoin surges past $80,000 as crypto rally gathers pace", "url": "https://www.cnbc.com/2026/08/25/bitcoin-price-near-80000-cryptocurrency-ether-us-treasuries.html" }
+      ]
+    },
+    {
+      "headline": "黄金因美元走弱升至5月中旬以来最高水平",
+      "summary": "现货黄金上涨0.6%至每盎司4677.19美元,为5月中旬以来最高水平;期金上涨0.5%至4720.30美元,同样创下三个多月来的新高。黄金本月已上涨超过15%,大华银行预测这将是自1999年9月以来最强的单月涨幅,主要受美元走弱和财政部债券回购计划推动。",
+      "whyItMatters": "此轮涨势仍远低于今年早些时候创下的约5600美元历史高点,凸显出黄金在2026年经历的剧烈涨跌起伏。",
+      "category": "Commodities",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Gold hits over three-month high on dollar weakness, Treasury bond buyback plans", "url": "https://www.cnbc.com/2026/08/25/gold-hits-over-three-month-high-on-dollar-weakness-treasury-bond-buyback-plans.html" }
+      ]
+    }
+  ]
+}

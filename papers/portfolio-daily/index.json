@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-08-25",
+      "date": "2026-08-25",
+      "headline": "Alibaba's top executives buy $15 million in shares after its discounted $10.2 billion AI share sale",
+      "storyCount": 3
+    },
+    {
       "id": "2026-08-23",
       "date": "2026-08-23",
       "headline": "Alibaba prices record $10.2 billion Hong Kong share placement to fund its AI buildout",

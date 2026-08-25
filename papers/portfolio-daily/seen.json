@@ -1,7 +1,32 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-23T07:41:47Z",
+  "updatedAt": "2026-08-25T07:48:37Z",
   "events": [
+    {
+      "date": "2026-08-25",
+      "headline": "Gold hits highest level since mid-May as the dollar weakens",
+      "summary": "Spot gold rose 0.6% to $4,677.19 an ounce, its highest since mid-May, while futures gained 0.5% to $4,720.30. Gold has climbed more than 15% this month, which UOB forecasts as its strongest monthly gain since September 1999, driven by U.S.…",
+      "urls": [
+        "https://www.cnbc.com/2026/08/25/gold-hits-over-three-month-high-on-dollar-weakness-treasury-bond-buyback-plans.html"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "headline": "Bitcoin tops $80,000 for the first time since May on a short squeeze",
+      "summary": "Bitcoin rose more than 2% to around $80,500, its highest since May, extending a rally that saw it jump over 20% in three days last week -- its biggest three-day gain since 2023. The move was fueled by a short squeeze that liquidated more t…",
+      "urls": [
+        "https://www.cnbc.com/2026/08/25/bitcoin-price-near-80000-cryptocurrency-ether-us-treasuries.html"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "headline": "Alibaba's top executives buy $15 million in shares after its discounted $10.2 billion AI share sale",
+      "summary": "Alibaba sold 710 million new shares at HK$112.70 each, an 8.4% discount to Friday's close, to raise HK$80 billion ($10.2 billion) for AI infrastructure; Hong Kong shares fell as much as 10.5% before paring losses, even as the offering drew…",
+      "urls": [
+        "https://www.bnnbloomberg.ca/business/company-news/2026/08/24/alibaba-shares-slide-after-us102-billion-ai-share-sale-offered-at-sharp-discount/",
+        "https://www.bloomberg.com/news/articles/2026-08-24/alibaba-executives-buy-15-million-in-shares-after-new-offering"
+      ]
+    },
     {
       "date": "2026-08-23",
       "headline": "SEC proposes its first crypto-specific fundraising rules in the agency's 90-year history",
@@ -254,38 +279,6 @@
       "summary": "The 9th U.S. Circuit Court of Appeals ruled on August 11 that Section 230 provides a defense to liability, not immunity from being sued, rejecting an early attempt by Meta, Alphabet's Google, TikTok and Snap to dismiss more than 3,000 fede…",
       "urls": [
         "https://www.insurancejournal.com/news/national/2026/08/11/880935.htm"
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "headline": "UBS upgrades Duolingo to Strong-Buy, raises price target to $150",
-      "summary": "UBS raised Duolingo to a Strong-Buy rating and lifted its price target to $150 from $125, citing daily active user growth accelerating to 23% year-over-year against a 20.6% estimate, and adjusted EBITDA of $77.3 million beating consensus b…",
-      "urls": [
-        "https://www.marketbeat.com/instant-alerts/duolingo-nasdaqduol-rating-increased-to-strong-buy-at-ubs-group-2026-08-08/"
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "headline": "Strategy unveils $15 billion bitcoin-backed preferred stock plan",
-      "summary": "Strategy Inc. announced a $15 billion capital raise through a new bitcoin-backed preferred stock structure, part of a broader Digital Credit Capital Framework that also sets up $2 billion in buybacks and raises the STRC preferred dividend…",
-      "urls": [
-        "https://finance.yahoo.com/markets/crypto/articles/strategy-mstr-unveils-15-billion-130721771.html"
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "headline": "Berkshire Hathaway discloses $10 billion Alphabet stake as Q2 buybacks jump to $4.5 billion",
-      "summary": "Berkshire Hathaway invested $10 billion in Alphabet during the second quarter, bringing its position to nearly $41 billion, while repurchasing about $4.5 billion of its own stock, up sharply from $234 million in Q1. Cash holdings fell to $…",
-      "urls": [
-        "https://fortune.com/2026/08/08/berkshire-hathaway-cash-pile-10-billion-alphabet-stock-brk-repurchasei-greg-abel-warren-buffett/"
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "headline": "Apple lets Mac users in China connect Siri and Writing Tools to Alibaba's Qwen",
-      "summary": "Apple published a guide letting eligible Mac users in mainland China opt into linking Siri and Writing Tools to Alibaba's Qwen AI service on macOS 26.6 and later, covering tasks like photo and document analysis and generating text or image…",
-      "urls": [
-        "https://finance.yahoo.com/news/apple-says-mac-users-china-123458428.html"
       ]
     }
   ]

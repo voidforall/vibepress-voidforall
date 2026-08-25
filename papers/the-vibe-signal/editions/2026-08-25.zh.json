@@ -1,0 +1,69 @@
+{
+  "id": "2026-08-25",
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-25T07:46:34Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "AI行业的安全承诺继续跑在安全计划前面:一项外部审计发现,五大实验室中没有一家发布过针对失控模型的真正遏制方案,而微软自家的\"本地\"图像生成器其实一直在联网。与此同时,seL4完成了历时三年的形式化证明项目,Protocol Labs放弃了对IPFS维护团队的资助,而欧盟的包装法规则展示了合规成本超过监管对象本身的荒诞现实。",
+  "stories": [
+    {
+      "headline": "独立审计发现AI实验室均未公开应对失控模型的遏制方案",
+      "summary": "Guidelight AI Standards于8月发布的一项评估对Anthropic、谷歌、OpenAI、Meta和xAI在应对试图摆脱控制的模型方面的准备情况进行了打分;OpenAI因曾在过往事故后实际暂停或终止相关工作负载而排名最高,而Meta和Anthropic得分最低,均未公开任何遏制方案文件。Guidelight的首席科学家表示,她对这些公司在如何处理严重事故方面所说的内容之少感到意外。",
+      "whyItMatters": "加州的SB 53法案和纽约拟议中的RAISE法案目前都要求前沿实验室公布此类应急框架,因此Guidelight发现的这一空白正从一个研究层面的问题演变为合规层面的问题。",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Frontier AI labs still won't say how they'd contain a rogue model", "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/" }
+      ]
+    },
+    {
+      "headline": "逆向工程师发现微软画图会为\"本地\"生成的AI图像秘密打上服务器标识",
+      "summary": "研究员Xusheng Li发现,Windows画图和照片应用会将图像提示词发送至微软的审核服务器,服务器返回一个唯一的watermarkId(GUID),随后该标识会被以不可见的方式嵌入到应用宣称\"本地生成\"的图像像素中,并同时签入文件的C2PA凭证。画图应用将水印写入失败视同图像生成失败,因此不会有任何未打水印的输出流向用户。",
+      "whyItMatters": "这表明Windows的\"本地\"AI图像生成工具其实仍需联网进行审核,并会留下一个未被披露、且即便清除可见元数据也依然存在的可追踪指纹。",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Reversing MS Paint's invisible watermark", "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/" }
+      ]
+    },
+    {
+      "headline": "OpenAI预览零留存安全监控功能,直接对标Anthropic的数据政策",
+      "summary": "OpenAI公布了名为Private Safety Processing的新系统,该系统能在不存储客户对话原始数据的情况下,自动扫描其对话中的滥用模式,一旦发现问题仅生成一条范围狭窄的提醒供人工审核。",
+      "whyItMatters": "这明显是在针对Anthropic——后者针对部分模型采取的30天数据留存以进行安全分析的政策,已让处理敏感数据的企业客户感到不安。",
+      "category": "Business",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections", "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/" }
+      ]
+    },
+    {
+      "headline": "Protocol Labs撤资,迫使IPFS维护方Shipyard将于9月30日前关闭",
+      "summary": "负责维护Kubo、Helia、Boxo、Rainbow等核心IPFS项目,以及ipfs.io、dweb.link等公共基础设施的Shipyard宣布,Protocol Labs决定不再续期其资助,该团队所有IPFS相关的工程与基础设施工作将于9月底前全部停止。",
+      "whyItMatters": "被广泛使用的IPFS库和公共网关即将失去专职维护团队,而Protocol Labs尚未说明这些基础设施在资金中断后将何去何从。",
+      "category": "Business",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "IPFS Maintainers Winding Down", "url": "https://ipshipyard.com/blog/2026-the-end-of-ipfs-at-shipyard/" }
+      ]
+    },
+    {
+      "headline": "seL4成为首个在Arm 64位架构上完成完整机密性证明的操作系统内核",
+      "summary": "Proofcraft与英国国家网络安全中心(NCSC)合作,完成了一项形式化数学证明,证明seL4微内核能够阻止一个应用程序在AArch64架构上向另一个应用程序泄露信息,至此完成了此前已涵盖功能正确性(2024年)和完整性(2025年)的三部分验证体系。",
+      "whyItMatters": "在同一颗AArch64芯片上混合运行可信与不可信代码的系统,如今获得的是经过数学证明的隔离保证,而不仅仅是经过测试的隔离效果。",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "seL4 AArch64 confidentiality proofs complete", "url": "https://proofcraft.systems/news-2026/#2026-08-21" }
+      ]
+    },
+    {
+      "headline": "欧盟新包装法规让一块25欧元的传感器板背上四国合规账单",
+      "summary": "一位硬件制造者对欧盟自8月12日起生效的《包装与包装废弃物法规》进行了拆解分析,结果显示,仅向四个成员国各销售10件小型电路板产品,每年就可能产生约1150欧元的分国别注册及代理费用,远超这些规则原本旨在筹集的环境税费本身。",
+      "whyItMatters": "由于生产者延伸责任制是按国别而非全欧盟统一执行,这使得欧洲内部的小批量跨境销售对独立硬件制造者而言变得不再经济可行。",
+      "category": "Ideas",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "How Europe is killing makers and micro-entrepreneurs", "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2026-08-25",
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-25T07:46:34Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "The AI industry's safety talk keeps outrunning its safety plans: an outside audit finds none of the big five labs have published a real containment plan for a rogue model, and Microsoft's own 'local' image generator turns out to phone home. Elsewhere, seL4 finished a three-year formal-proof project, Protocol Labs walked away from IPFS's maintainers, and the EU's packaging law shows what happens when compliance costs outrun the thing they're regulating.",
+  "stories": [
+    {
+      "headline": "Independent audit finds AI labs have no public plan for containing a rogue model",
+      "summary": "An August assessment from Guidelight AI Standards scored Anthropic, Google, OpenAI, Meta and xAI on their preparedness to contain a model that tries to escape control; OpenAI ranked highest for having actually paused or terminated workloads after past incidents, while Meta and Anthropic scored lowest, with no publicly documented containment plans at all. Guidelight's chief scientist said she was surprised by how little the companies have said about handling a serious incident.",
+      "whyItMatters": "California's SB 53 and New York's proposed RAISE Act now require frontier labs to publish these emergency frameworks, so the gap Guidelight found is turning into a compliance problem, not just a research one.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Frontier AI labs still won't say how they'd contain a rogue model", "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/" }
+      ]
+    },
+    {
+      "headline": "Reverse-engineers find Microsoft Paint secretly tags 'local' AI images with a server-issued ID",
+      "summary": "Researcher Xusheng Li found that Windows Paint and Photos send image prompts to a Microsoft moderation server, which returns a unique watermarkId GUID that gets invisibly embedded into the pixels of images the apps present as locally generated, and is also signed into the file's C2PA credential. Paint treats a failed watermark as a failed generation, so no unwatermarked output ever reaches the user.",
+      "whyItMatters": "It shows Windows' 'local' AI image tools still call home for moderation and leave a traceable, undisclosed fingerprint that survives even if the visible metadata is stripped.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Reversing MS Paint's invisible watermark", "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/" }
+      ]
+    },
+    {
+      "headline": "OpenAI previews zero-retention safety monitoring, a jab at Anthropic's data policy",
+      "summary": "OpenAI unveiled Private Safety Processing, an automated system that scans patterns across a customer's conversations for misuse without storing the underlying data, surfacing only a narrow alert for human review if something looks wrong.",
+      "whyItMatters": "It's a pointed contrast with Anthropic's 30-day retention policy for safety analysis on certain models, which has unsettled enterprise customers handling sensitive data.",
+      "category": "Business",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections", "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/" }
+      ]
+    },
+    {
+      "headline": "Protocol Labs pulls funding, forcing IPFS steward Shipyard to shut down by September 30",
+      "summary": "Shipyard, which maintains core IPFS projects including Kubo, Helia, Boxo and Rainbow along with public infrastructure like ipfs.io and dweb.link, announced that Protocol Labs declined to renew its funding and that all IPFS engineering and infrastructure work will stop by the end of September.",
+      "whyItMatters": "Widely used IPFS libraries and public gateways are about to lose their dedicated maintainers, and Protocol Labs hasn't said what happens to the infrastructure after the cutoff.",
+      "category": "Business",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "IPFS Maintainers Winding Down", "url": "https://ipshipyard.com/blog/2026-the-end-of-ipfs-at-shipyard/" }
+      ]
+    },
+    {
+      "headline": "seL4 becomes first OS kernel with a complete confidentiality proof on Arm's 64-bit architecture",
+      "summary": "Proofcraft, working with the UK's NCSC, completed a formal mathematical proof that the seL4 microkernel stops one application from leaking information to another on AArch64, closing out a three-part verification stack that already covered functional correctness (2024) and integrity (2025).",
+      "whyItMatters": "Systems that mix trusted and untrusted code on the same AArch64 chip now have a mathematically proven isolation guarantee instead of just a tested one.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "seL4 AArch64 confidentiality proofs complete", "url": "https://proofcraft.systems/news-2026/#2026-08-21" }
+      ]
+    },
+    {
+      "headline": "EU's new packaging law turns a €25 sensor board into a four-country compliance bill",
+      "summary": "A hardware maker's breakdown of the EU's Packaging and Packaging Waste Regulation, in force since August 12, shows that selling just 10 units of a small board across four member states can trigger roughly €1,150 a year in separate per-country registration and representative fees, far exceeding the environmental levy the rules were meant to fund.",
+      "whyItMatters": "Because the extended-producer-responsibility scheme is enforced country by country rather than EU-wide, it makes small-batch cross-border selling within Europe uneconomical for solo makers.",
+      "category": "Ideas",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "How Europe is killing makers and micro-entrepreneurs", "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs" }
+      ]
+    }
+  ]
+}

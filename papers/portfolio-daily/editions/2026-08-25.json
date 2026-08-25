@@ -1,0 +1,40 @@
+{
+  "id": "2026-08-25",
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-25T07:46:34Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A quiet day for the watchlist's operating businesses but a loud one for two of its macro proxies: bitcoin broke back above $80,000 on a short squeeze and fresh Treasury buyback plans, and gold pushed to a three-month high on dollar weakness. Alibaba's steep discount sends its shares lower even as its top executives stepped in to buy the dip.",
+  "stories": [
+    {
+      "headline": "Alibaba's top executives buy $15 million in shares after its discounted $10.2 billion AI share sale",
+      "summary": "Alibaba sold 710 million new shares at HK$112.70 each, an 8.4% discount to Friday's close, to raise HK$80 billion ($10.2 billion) for AI infrastructure; Hong Kong shares fell as much as 10.5% before paring losses, even as the offering drew about $28 billion in orders. Chairman Joseph Tsai and CEO Eddie Wu then bought roughly HK$120 million ($15.3 million) of stock on the open market.",
+      "whyItMatters": "It is the largest-ever follow-on share sale by a Hong Kong-listed company, and the insider buying signals executives view the AI-funding dilution as worth the near-term stock hit.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Alibaba shares slide after $10.2 billion AI share sale offered at sharp discount", "url": "https://www.bnnbloomberg.ca/business/company-news/2026/08/24/alibaba-shares-slide-after-us102-billion-ai-share-sale-offered-at-sharp-discount/" },
+        { "title": "Alibaba Executives Buy $15 Million in Shares After New Offering", "url": "https://www.bloomberg.com/news/articles/2026-08-24/alibaba-executives-buy-15-million-in-shares-after-new-offering" }
+      ]
+    },
+    {
+      "headline": "Bitcoin tops $80,000 for the first time since May on a short squeeze",
+      "summary": "Bitcoin rose more than 2% to around $80,500, its highest since May, extending a rally that saw it jump over 20% in three days last week -- its biggest three-day gain since 2023. The move was fueled by a short squeeze that liquidated more than $4 billion in bearish positions, alongside the U.S. Treasury's announcement it will increase purchases of longer-dated bonds and strong inflows into bitcoin and ether ETFs.",
+      "whyItMatters": "The breakout follows a prolonged slump since October, and analysts note a similar January 2023 surge initially faded, leaving the rally's durability untested.",
+      "category": "Crypto",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Bitcoin surges past $80,000 as crypto rally gathers pace", "url": "https://www.cnbc.com/2026/08/25/bitcoin-price-near-80000-cryptocurrency-ether-us-treasuries.html" }
+      ]
+    },
+    {
+      "headline": "Gold hits highest level since mid-May as the dollar weakens",
+      "summary": "Spot gold rose 0.6% to $4,677.19 an ounce, its highest since mid-May, while futures gained 0.5% to $4,720.30. Gold has climbed more than 15% this month, which UOB forecasts as its strongest monthly gain since September 1999, driven by U.S. dollar weakness and the Treasury's bond buyback plans.",
+      "whyItMatters": "The rally remains well below the roughly $5,600 record set earlier this year, underscoring how sharply gold has round-tripped in 2026.",
+      "category": "Commodities",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Gold hits over three-month high on dollar weakness, Treasury bond buyback plans", "url": "https://www.cnbc.com/2026/08/25/gold-hits-over-three-month-high-on-dollar-weakness-treasury-bond-buyback-plans.html" }
+      ]
+    }
+  ]
+}
