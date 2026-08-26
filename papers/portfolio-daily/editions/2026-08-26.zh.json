@@ -1,0 +1,30 @@
+{
+  "id": "2026-08-26",
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T07:49:32Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今天有两则值得关注的信息披露。马云亲自加入阿里巴巴高管的增持行列,使高管累计增持金额达到约1.02亿美元,此举意在本周折价配股后重振投资者信心。与此同时,谷歌云在企业AI领域进一步发力,针对银行和律所推出专属Gemini产品,并签下多家知名机构作为首批合作伙伴。",
+  "stories": [
+    {
+      "headline": "马云加入阿里巴巴高管增持行列,累计增持额达约1.02亿美元",
+      "summary": "马云近日购入逾6亿港元(约7650万美元)的阿里巴巴港股股份,加上此前董事局主席蔡崇信和CEO吴泳铭已购入的约1.2亿港元(1530万美元),使高管在阿里巴巴折价完成102亿美元配股后的累计增持额超过8亿港元(约1.02亿美元)。",
+      "whyItMatters": "马云的亲自出手远超本周早些时候披露的高管增持规模,显示这位创始人正试图在配股折价压低股价后提振投资者信心。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Jack Ma, Alibaba top executives buy $102m of stock after record share sale", "url": "https://asia.nikkei.com/spotlight/caixin/jack-ma-alibaba-top-executives-buy-102m-of-stock-after-record-share-sale" }
+      ]
+    },
+    {
+      "headline": "谷歌云推出面向金融服务和法律行业的Gemini Enterprise",
+      "summary": "谷歌云发布了基于Gemini Enterprise平台的首批两款行业专属产品:一款面向资本市场与企业银行业务,目前处于预览阶段,合作机构包括德意志银行、纽约梅隆银行、花旗财富管理、劳埃德银行集团和麦格理银行;另一款面向律师事务所,首批合作伙伴Cleary、路伟、伟凯和Williams & Connolly将用其处理合同审查、尽职调查和监管跟踪等工作。",
+      "whyItMatters": "这是谷歌将Gemini平台打造成经常性企业收入来源的举措,通过针对特定白领工作流打包产品,与微软和OpenAI争夺同样的企业AI预算。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Google Cloud Launches Gemini Enterprise for Legal", "url": "https://www.googlecloudpresscorner.com/2026-08-25-Google-Cloud-Launches-Gemini-Enterprise-for-Legal" },
+        { "title": "Google Cloud Debuts Specialized AI Agents for Financial Services and Legal Industries", "url": "https://www.pymnts.com/google/2026/google-cloud-debuts-specialized-ai-agents-for-financial-services-and-legal-industries/" }
+      ]
+    }
+  ]
+}

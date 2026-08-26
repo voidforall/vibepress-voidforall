@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-25T07:48:37Z",
+  "updatedAt": "2026-08-26T07:51:46Z",
   "events": [
+    {
+      "date": "2026-08-26",
+      "headline": "X sends cease-and-desist letters demanding Nitter and XCancel shut down",
+      "summary": "X Corp sent cease-and-desist letters to Nitter, the open-source project that lets people read X posts without an account or the app, and to XCancel, one of the sites it powers, accusing them of unlawfully scraping X's API and accessing acc…",
+      "urls": [
+        "https://techcrunch.com/2026/08/25/x-sends-cease-and-desist-to-open-source-project-nitter-over-alleged-scraping/"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "headline": "Physicists argue a black hole's singularity is a surface, not a point",
+      "summary": "A new paper challenges the standard picture of black hole singularities, showing that observers falling into a spherical black hole along different paths lose causal contact with each other well before reaching any central point, because s…",
+      "urls": [
+        "https://arxiv.org/abs/2608.21590"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "headline": "OpenAI's first custom AI chip, Jalapeño, claims to beat Nvidia on performance per watt",
+      "summary": "SemiAnalysis reports OpenAI's Broadcom-built inference chip, Jalapeño, went from tape-out in November 2025 to production benchmarks in an unusually fast 16-month cycle, using TSMC's N3P process and HBM4 memory at 15.4TB/s bandwidth; OpenAI…",
+      "urls": [
+        "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "headline": "New memory architecture cuts long-horizon AI agent failures by up to 80% in testing",
+      "summary": "A paper introduces Recuris, an agent architecture that pairs a Working Memory tracking task progress with an Experiential Memory of learned skills, plus a Meta-Agent that analyzes failures and revises skill memory. Reported gains include +…",
+      "urls": [
+        "https://arxiv.org/abs/2608.24876v1"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "headline": "Firefox plans to enable JPEG XL decoding by default in version 157",
+      "summary": "Mozilla developer Timothy Nikkel proposed turning on JPEG XL image decoding by default across all platforms in Firefox 157, moving it out of the Nightly-only/Labs-flag status it has held since Firefox 152. The rewrite uses jxl-rs, a Rust-b…",
+      "urls": [
+        "https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "headline": "Apple ships its first 2nm chip, the M6, alongside a quad-die M5 Ultra",
+      "summary": "Apple introduced the M6, its first chip built on a 2-nanometer process, powering a new Mac mini with a 12-core CPU/GPU and up to 32GB of memory; and the M5 Ultra, the first quad-die Apple silicon using UltraFusion, powering the Mac Studio…",
+      "urls": [
+        "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/"
+      ]
+    },
     {
       "date": "2026-08-25",
       "headline": "seL4 becomes first OS kernel with a complete confidentiality proof on Arm's 64-bit architecture",
@@ -275,54 +323,6 @@
       "summary": "404 Media found that Research Gold, which sells systematic reviews and manuscript drafting under a 'human-written, never AI' banner with a roster of named PhD methodologists, has profile photos that are AI-generated and no verifiable publi…",
       "urls": [
         "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "headline": "Needle2 squeezes a 45M-parameter tool-calling model into a 14MB binary for edge devices",
-      "summary": "Cactus Compute released Needle2, a 45-million-parameter open-source model quantized to a 14MB binary with a fixed 28MB RAM footprint, built specifically for tool calling and device control rather than conversation. It runs at 500+ tokens p…",
-      "urls": [
-        "https://cactuscompute.com/needle"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "headline": "Meta releases Muse Glimmer, a 30B open-weight agentic model built to run on a single GPU",
-      "summary": "Meta released Muse Glimmer, a 30-billion-parameter model under an Apache 2.0 license on Hugging Face, tuned for local, always-on agent workflows: multi-step tool use, failure recovery, multimodal input, and a 'controllable effort' setting…",
-      "urls": [
-        "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "headline": "Investigation traces how UK anonymity-stripping child-safety laws spread to US statehouses",
-      "summary": "An investigation documents British NGOs including the 5Rights Foundation, the Center for Countering Digital Hate and Reset Tech Action lobbying for age-verification bills modeled on Britain's Age Appropriate Design Code across dozens of US…",
-      "urls": [
-        "https://www.effort.news/uk-lobby"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "headline": "Illinois' new age-verification law gives open-source operating systems no exemption",
-      "summary": "Illinois' HB5511 requires any 'covered manufacturer' of an internet-connected operating system to add an age-declaration setup screen and an encrypted API exposing a user's age bracket to apps, plus restrictions like no algorithmic feeds o…",
-      "urls": [
-        "https://linuxstans.com/illinois-hb5511-operating-system-age-verification/"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "headline": "H3-metal brings native MiniMax H3 video generation to Apple Silicon",
-      "summary": "Developer Salvatore Sanfilippo released H3-metal, a Metal-optimized inference engine for MiniMax's open H3-Base video and audio model, generating 512x512, 22-frame clips in about 8-17 seconds on an M5 Max in its fast modes, or roughly 39 s…",
-      "urls": [
-        "https://github.com/antirez/h3.c"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "headline": "An unreleased Claude model pushed a Riemann hypothesis bound from 41.6% to 67.2%",
-      "summary": "Anthropic says a research version of Claude, given free rein with 60 subagents that ran 2,400 shell commands and about 31 million output tokens across two sessions, synthesized a 2000 paper by Bombieri with recent work by four mathematicia…",
-      "urls": [
-        "https://www.anthropic.com/research/riemann-zeta"
       ]
     }
   ]

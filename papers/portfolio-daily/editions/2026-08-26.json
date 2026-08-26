@@ -1,0 +1,30 @@
+{
+  "id": "2026-08-26",
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T07:49:32Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Two disclosures stand out today. Jack Ma personally joined Alibaba's insider-buying wave, pushing total executive purchases to roughly $102 million as the company works to reassure holders after this week's discounted AI share sale. And Google Cloud pushed further into enterprise AI with dedicated Gemini offerings for banks and law firms, signing several marquee names as launch partners.",
+  "stories": [
+    {
+      "headline": "Jack Ma joins Alibaba's insider buying, pushing total to roughly $102 million",
+      "summary": "Jack Ma bought more than HK$600 million (about $76.5 million) of Alibaba's Hong Kong-listed shares in recent days, adding to the roughly HK$120 million ($15.3 million) that chairman Joseph Tsai and CEO Eddie Wu had already purchased, bringing combined executive buying to over HK$800 million (about $102 million) since Alibaba's discounted $10.2 billion share placement.",
+      "whyItMatters": "Ma's personal involvement, well beyond the executives' initial buying disclosed earlier this week, signals the company's founder is trying to shore up investor confidence after the placement's discount pressured the stock.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Jack Ma, Alibaba top executives buy $102m of stock after record share sale", "url": "https://asia.nikkei.com/spotlight/caixin/jack-ma-alibaba-top-executives-buy-102m-of-stock-after-record-share-sale" }
+      ]
+    },
+    {
+      "headline": "Google Cloud launches Gemini Enterprise for Financial Services and Legal",
+      "summary": "Google Cloud introduced the first two industry-specific packages built on its Gemini Enterprise platform: one for capital markets and corporate banking, in preview with adopters including Deutsche Bank, BNY, Citi Wealth, Lloyds Banking Group and Macquarie; the other for law firms, with launch partners Cleary, Freshfields, Weil and Williams & Connolly using it for contract review, diligence and regulatory monitoring.",
+      "whyItMatters": "It's Google's push to convert its Gemini platform into recurring enterprise revenue by packaging it for specific white-collar workflows, competing directly for the same corporate AI budgets Microsoft and OpenAI are chasing.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Google Cloud Launches Gemini Enterprise for Legal", "url": "https://www.googlecloudpresscorner.com/2026-08-25-Google-Cloud-Launches-Gemini-Enterprise-for-Legal" },
+        { "title": "Google Cloud Debuts Specialized AI Agents for Financial Services and Legal Industries", "url": "https://www.pymnts.com/google/2026/google-cloud-debuts-specialized-ai-agents-for-financial-services-and-legal-industries/" }
+      ]
+    }
+  ]
+}

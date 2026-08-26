@@ -1,0 +1,69 @@
+{
+  "id": "2026-08-26",
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T07:49:32Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "OpenAI首款自研推理芯片Jalapeño宣称在每瓦性能上超越英伟达——不过这是OpenAI自己测出来的数据,自然带着一些保留条件。苹果则拿出了自家的新芯片作为回应,X公司对让人们无需账号就能阅读推文的开源客户端提起了法律行动,而一种名为Recuris的记忆架构在测试中将长时程智能体的失败率降低了多达80%。与此同时,一篇物理学论文提出,黑洞奇点根本不是一个点。",
+  "stories": [
+    {
+      "headline": "OpenAI首款自研芯片Jalapeño宣称每瓦性能超越英伟达",
+      "summary": "据SemiAnalysis报道,OpenAI与博通合作打造的推理芯片Jalapeño从2025年11月流片到产出量产级基准数据,只用了不到16个月的罕见速度,采用台积电N3P工艺和带宽达15.4TB/s的HBM4内存;OpenAI称即便不使用推测解码,该芯片在每兆瓦token吞吐量上也优于英伟达Blackwell,在DeepSeek R1上低并发场景下每用户每秒可处理700多个token。",
+      "whyItMatters": "这是OpenAI迄今为止减少对英伟达硬件依赖最明确的一步,不过所有性能数据均来自OpenAI自身测试,而更具可比性的对手芯片——英伟达同样采用HBM4的Vera Rubin——并未被纳入此次对比。",
+      "category": "商业",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "OpenAI Jalapeño: Better than Nvidia Blackwell", "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia" }
+      ]
+    },
+    {
+      "headline": "苹果推出首款2纳米芯片M6,以及四芯粒的M5 Ultra",
+      "summary": "苹果发布了其首款采用2纳米工艺的芯片M6,搭载于新款Mac mini,配备12核CPU/GPU及最高32GB内存;以及首款采用UltraFusion四芯粒封装的M5 Ultra,搭载于Mac Studio,最高配备36核CPU、80核GPU及512GB内存。苹果称M5 Ultra的AI GPU峰值算力最高可达三年前M3 Ultra的4.5倍。",
+      "whyItMatters": "迈向2纳米工艺和四芯粒封装,是苹果对端侧AI算力需求上升的回应,而M5 Ultra的内存上限也让Mac Studio成为少数能够运行超大型本地模型的消费级设备之一。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute", "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/" }
+      ]
+    },
+    {
+      "headline": "X公司发函要求Nitter和XCancel停止运营",
+      "summary": "X公司向开源项目Nitter——该项目让用户无需账号或使用官方App即可阅读X上的帖子——及其支持的站点XCancel发出停止函,指控二者非法抓取X的API数据并访问账号会话令牌。Nitter的创建者、化名Zedeus的开发者已将主站下线以寻求法律咨询,并表示其他Nitter实例也收到了类似的函件。",
+      "whyItMatters": "这实际上终结了目前使用最广泛的、无需登录即可查看X内容的隐私友好方式,也表明X如今愿意对抓取其数据的开源项目动用法律手段,而不仅仅是技术封锁。",
+      "category": "科技",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "X sends cease-and-desist to open source project Nitter over alleged scraping", "url": "https://techcrunch.com/2026/08/25/x-sends-cease-and-desist-to-open-source-project-nitter-over-alleged-scraping/" }
+      ]
+    },
+    {
+      "headline": "新型记忆架构在测试中将长时程AI智能体的失败率降低多达80%",
+      "summary": "一篇论文提出了名为Recuris的智能体架构,它将追踪任务进度的\"工作记忆\"与存储已学技能的\"经验记忆\"相结合,并配备一个负责分析失败原因并修订技能记忆的\"元智能体\"。据报告,在tau-bench上GPT-5.6 Sol提升17.8分、Claude Opus 5提升15.6分,在SkillFlow上Qwen模型分别提升16.6分和13.5分,常见的长时程失败最多减少80%。",
+      "whyItMatters": "长时程智能体任务往往会随着累积的历史记录淹没真实任务状态而出现性能退化;如果这些提升能在论文自身基准之外得到验证,这将是解决智能体AI一大顽固失败模式的具体方案。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses", "url": "https://arxiv.org/abs/2608.24876v1" }
+      ]
+    },
+    {
+      "headline": "物理学家提出黑洞奇点是一个面,而非一个点",
+      "summary": "一篇新论文挑战了黑洞奇点的传统图景,指出沿不同路径坠入球对称黑洞的观察者会在远未到达任何中心点之前就彼此失去因果联系,因为在广义相对论中,空间上的接近并不能保证因果上的联系。对于旋转黑洞,作者认为奇异面位于内视界处,并提出黑洞的量子态可能与困在事件视界内的霍金辐射处于热平衡状态。",
+      "whyItMatters": "这重新定义了一个量子引力理论必须去调和的、关于黑洞结构的基础性假设。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Black hole singularity is a surface not a point", "url": "https://arxiv.org/abs/2608.21590" }
+      ]
+    },
+    {
+      "headline": "Firefox计划在157版本中默认启用JPEG XL解码",
+      "summary": "Mozilla开发者Timothy Nikkel提议在Firefox 157中于所有平台默认启用JPEG XL图像解码,使其脱离自Firefox 152以来一直保持的仅限Nightly版本/Labs开关的状态。该功能重写基于Rust实现的jxl-rs解码器,目前已支持多线程解码,不过有开发者指出,无损JPEG XL解码速度比无损WebP慢约30倍,而文件体积仅缩小10%。",
+      "whyItMatters": "这将使Firefox成为继Safari之后第二个默认支持该格式的主流浏览器引擎,而Chromium目前仍无推出计划。",
+      "category": "科技",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "Firefox 157 will include JPEG XL by default on all platforms", "url": "https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1" }
+      ]
+    }
+  ]
+}

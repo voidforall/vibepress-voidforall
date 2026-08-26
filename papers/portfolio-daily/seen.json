@@ -1,7 +1,24 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-25T07:48:37Z",
+  "updatedAt": "2026-08-26T07:51:45Z",
   "events": [
+    {
+      "date": "2026-08-26",
+      "headline": "Jack Ma joins Alibaba's insider buying, pushing total to roughly $102 million",
+      "summary": "Jack Ma bought more than HK$600 million (about $76.5 million) of Alibaba's Hong Kong-listed shares in recent days, adding to the roughly HK$120 million ($15.3 million) that chairman Joseph Tsai and CEO Eddie Wu had already purchased, bring…",
+      "urls": [
+        "https://asia.nikkei.com/spotlight/caixin/jack-ma-alibaba-top-executives-buy-102m-of-stock-after-record-share-sale"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "headline": "Google Cloud launches Gemini Enterprise for Financial Services and Legal",
+      "summary": "Google Cloud introduced the first two industry-specific packages built on its Gemini Enterprise platform: one for capital markets and corporate banking, in preview with adopters including Deutsche Bank, BNY, Citi Wealth, Lloyds Banking Gro…",
+      "urls": [
+        "https://www.googlecloudpresscorner.com/2026-08-25-Google-Cloud-Launches-Gemini-Enterprise-for-Legal",
+        "https://www.pymnts.com/google/2026/google-cloud-debuts-specialized-ai-agents-for-financial-services-and-legal-industries/"
+      ]
+    },
     {
       "date": "2026-08-25",
       "headline": "Gold hits highest level since mid-May as the dollar weakens",
@@ -238,47 +255,6 @@
       "summary": "Alibaba Cloud said its CUBE 5.0 modular architecture can deliver large-scale AI data centers in about 100 days at 10% lower construction cost, versus six to twelve months for typical domestic builds and twelve to eighteen months in the US.…",
       "urls": [
         "https://www.scmp.com/tech/big-tech/article/3363637/alibaba-says-modular-design-delivers-ai-data-centres-100-days-10-lower-cost"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "headline": "Strategy sells another 1,690 bitcoin, its fourth divestment since June",
-      "summary": "Strategy sold 1,690 bitcoin for roughly $109 million on August 10, at an average price near $64,700, using the proceeds to repurchase its STRC preferred stock rather than add to its dollar reserve. It's the company's fourth bitcoin sale si…",
-      "urls": [
-        "https://fortune.com/2026/08/10/strategy-bitcoin-109-million-sell-off-seven-week-buying-hiatus/"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "headline": "Rocket Lab posts record $234M quarter, but shares fall on Neutron's tightening timeline",
-      "summary": "Rocket Lab reported record Q2 revenue of $234.1 million, up 62% year-over-year, with backlog rising 137% to $2.36 billion and more than $1 billion in new contracts signed in and after the quarter. The company guided Q3 revenue to $250-265…",
-      "urls": [
-        "https://www.stocktitan.net/news/RKLB/rocket-lab-announces-second-quarter-2026-financial-results-posts-u80uvwckg6f1.html",
-        "https://www.tradingkey.com/analysis/stocks/us-stocks/262093764-rocket-lab-announces-second-quarter-2026-financial-results-tradingkey"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "headline": "Gold's breakout rally lifts Chinese bullion miners as much as 40% off July lows",
-      "summary": "Spot gold traded near $4,479 an ounce on August 11, up 12% over the past month after breaking through its 50-day moving average, and a gauge of mainland-listed gold stocks has gained about 25% off recent lows. Zijin Mining and Chifeng Jilo…",
-      "urls": [
-        "https://www.scmp.com/business/china-business/article/3363620/gold-breakout-rally-sends-chinese-bullion-stocks-near-highs-central-banks-keep-buying"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "headline": "Duolingo appoints former Citigroup CFO Sallie Krawcheck to its board",
-      "summary": "Duolingo named Sallie Krawcheck, former Citigroup CFO and founder of Ellevest, as an independent board member effective August 10, seating her on the Audit, Risk and Compliance Committee. CEO Luis von Ahn cited her track record in financia…",
-      "urls": [
-        "https://www.stocktitan.net/news/DUOL/duolingo-appoints-sallie-krawcheck-to-board-of-zm2rw5uem9od.html"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "headline": "Appeals court revives over 3,000 youth-addiction lawsuits against Google and other platforms",
-      "summary": "The 9th U.S. Circuit Court of Appeals ruled on August 11 that Section 230 provides a defense to liability, not immunity from being sued, rejecting an early attempt by Meta, Alphabet's Google, TikTok and Snap to dismiss more than 3,000 fede…",
-      "urls": [
-        "https://www.insurancejournal.com/news/national/2026/08/11/880935.htm"
       ]
     }
   ]

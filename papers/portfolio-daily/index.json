@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-08-26",
+      "date": "2026-08-26",
+      "headline": "Jack Ma joins Alibaba's insider buying, pushing total to roughly $102 million",
+      "storyCount": 2
+    },
+    {
       "id": "2026-08-25",
       "date": "2026-08-25",
       "headline": "Alibaba's top executives buy $15 million in shares after its discounted $10.2 billion AI share sale",

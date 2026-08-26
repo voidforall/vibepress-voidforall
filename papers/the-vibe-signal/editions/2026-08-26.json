@@ -1,0 +1,69 @@
+{
+  "id": "2026-08-26",
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T07:49:32Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "OpenAI's first from-scratch inference chip, Jalapeño, claims to beat Nvidia on tokens per watt -- on OpenAI's own benchmarks, with the usual asterisks. Apple answered with new silicon of its own, X went legal on the open-source client that let people read it without an account, and a memory architecture called Recuris cut long-horizon agent failures by up to 80% in testing. A physics paper, meanwhile, argues black hole singularities aren't points at all.",
+  "stories": [
+    {
+      "headline": "OpenAI's first custom AI chip, Jalapeño, claims to beat Nvidia on performance per watt",
+      "summary": "SemiAnalysis reports OpenAI's Broadcom-built inference chip, Jalapeño, went from tape-out in November 2025 to production benchmarks in an unusually fast 16-month cycle, using TSMC's N3P process and HBM4 memory at 15.4TB/s bandwidth; OpenAI says it beats Nvidia's Blackwell on tokens-per-megawatt even without speculative decoding, hitting 700+ tokens/second per user at low concurrency on DeepSeek R1.",
+      "whyItMatters": "It's OpenAI's clearest step yet toward reducing its dependence on Nvidia hardware, though all the performance numbers are OpenAI's own and the more relevant rival chip, Nvidia's HBM4-based Vera Rubin, wasn't the one benchmarked against.",
+      "category": "Business",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "OpenAI Jalapeño: Better than Nvidia Blackwell", "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia" }
+      ]
+    },
+    {
+      "headline": "Apple ships its first 2nm chip, the M6, alongside a quad-die M5 Ultra",
+      "summary": "Apple introduced the M6, its first chip built on a 2-nanometer process, powering a new Mac mini with a 12-core CPU/GPU and up to 32GB of memory; and the M5 Ultra, the first quad-die Apple silicon using UltraFusion, powering the Mac Studio with up to a 36-core CPU, 80-core GPU and 512GB of memory. Apple claims the M5 Ultra delivers up to 4.5x the peak AI GPU compute of the three-year-old M3 Ultra.",
+      "whyItMatters": "The jump to 2nm and quad-die packaging is Apple's answer to rising on-device AI compute demands, and the M5 Ultra's memory ceiling makes the Mac Studio one of the few consumer machines that can hold very large local models.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute", "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/" }
+      ]
+    },
+    {
+      "headline": "X sends cease-and-desist letters demanding Nitter and XCancel shut down",
+      "summary": "X Corp sent cease-and-desist letters to Nitter, the open-source project that lets people read X posts without an account or the app, and to XCancel, one of the sites it powers, accusing them of unlawfully scraping X's API and accessing account session tokens. Nitter's creator, who goes by Zedeus, took the main site offline while seeking legal advice and said other Nitter instances received similar letters.",
+      "whyItMatters": "It effectively kills the most widely used privacy-friendly way to read X without logging in, and signals X is now willing to use legal threats against open-source projects that scrape its data rather than just technical blocks.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "X sends cease-and-desist to open source project Nitter over alleged scraping", "url": "https://techcrunch.com/2026/08/25/x-sends-cease-and-desist-to-open-source-project-nitter-over-alleged-scraping/" }
+      ]
+    },
+    {
+      "headline": "New memory architecture cuts long-horizon AI agent failures by up to 80% in testing",
+      "summary": "A paper introduces Recuris, an agent architecture that pairs a Working Memory tracking task progress with an Experiential Memory of learned skills, plus a Meta-Agent that analyzes failures and revises skill memory. Reported gains include +17.8 points on tau-bench for GPT-5.6 Sol and +15.6 for Claude Opus 5, +16.6/+13.5 on SkillFlow for Qwen models, and up to an 80% reduction in common long-horizon failures.",
+      "whyItMatters": "Long-running agent tasks tend to degrade as accumulated history buries the actual task state; if these gains hold outside the paper's own benchmarks, it's a concrete fix for one of agentic AI's persistent failure modes.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses", "url": "https://arxiv.org/abs/2608.24876v1" }
+      ]
+    },
+    {
+      "headline": "Physicists argue a black hole's singularity is a surface, not a point",
+      "summary": "A new paper challenges the standard picture of black hole singularities, showing that observers falling into a spherical black hole along different paths lose causal contact with each other well before reaching any central point, because spatial proximity in general relativity doesn't guarantee causal connection. For rotating black holes, the authors argue the singular surface sits at the inner horizon, where they propose black hole quantum states could exist in thermal equilibrium with trapped Hawking radiation.",
+      "whyItMatters": "It reframes a foundational assumption about black hole structure that quantum gravity theories have to reconcile with.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Black hole singularity is a surface not a point", "url": "https://arxiv.org/abs/2608.21590" }
+      ]
+    },
+    {
+      "headline": "Firefox plans to enable JPEG XL decoding by default in version 157",
+      "summary": "Mozilla developer Timothy Nikkel proposed turning on JPEG XL image decoding by default across all platforms in Firefox 157, moving it out of the Nightly-only/Labs-flag status it has held since Firefox 152. The rewrite uses jxl-rs, a Rust-based decoder now with multithreaded support, though one developer flagged that lossless JPEG XL decoding measured about 30x slower than lossless WebP for only a 10% size reduction.",
+      "whyItMatters": "It would make Firefox the second major browser engine, after Safari, to support the format by default, while Chromium still has no plan to ship it.",
+      "category": "Technology",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "Firefox 157 will include JPEG XL by default on all platforms", "url": "https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1" }
+      ]
+    }
+  ]
+}
