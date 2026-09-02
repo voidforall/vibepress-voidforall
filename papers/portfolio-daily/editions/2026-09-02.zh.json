@@ -1,0 +1,59 @@
+{
+  "id": "2026-09-02",
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-02T12:01:02Z",
+  "editionTitle": "投资组合日报",
+  "editorNote": "地缘政治主导了今天的市场基调:美国对伊朗发动新一轮空袭并招致报复,比特币和黄金双双走低,交易员上调了本月美联储加息的概率。个股新闻则呈现另一番景象——围绕火箭实验室收购铱星通信的监管纠纷、华尔街对多邻国明显转向看多的评级,以及谷歌据报正准备推出编程导向模型的消息,都表明在宏观噪音之下,个股层面的催化剂依然活跃。",
+  "stories": [
+    {
+      "headline": "SpaceX要求FCC审查铱星通信行为,火箭实验室80亿美元收购案即将付诸表决",
+      "summary": "SpaceX提交投诉,敦促FCC在审查火箭实验室对卫星运营商铱星通信的80亿美元收购案时,一并审视铱星通信的行为。消息传出后,火箭实验室股价下跌6%至63.82美元;铱星通信股东定于9月24日就该交易进行投票。",
+      "whyItMatters": "铱星通信股东获得的对价部分是按临近交易完成时市价计算的火箭实验室股票,因此FCC纠纷带来的任何监管延误都会直接影响RKLB股价,投票临近之际尤为敏感。",
+      "category": "Regulatory",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Rocket Lab Falls 6% as SpaceX Flags Iridium Deal to the FCC", "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-falls-6-spacex-180203574.html" }
+      ]
+    },
+    {
+      "headline": "据报道谷歌最快今日发布主打编程能力的Gemini 3.8 Flash模型",
+      "summary": "据《华尔街日报》报道,谷歌DeepMind正准备发布内部代号\"Skimaki\"的Gemini 3.8 Flash模型,该模型升级了智能体编程能力,意在缩小与OpenAI和Anthropic的差距。受此消息影响,Alphabet股价周二盘后上涨0.6%。",
+      "whyItMatters": "智能体编程已成为AI最重要的企业级应用场景之一,而谷歌此前在该领域落后于对手;更具竞争力的编程模型可能促使企业需求转向谷歌云。",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Google prepares Gemini 3.8 Flash to narrow AI coding gap, WSJ reports", "url": "https://finance.yahoo.com/technology/ai/articles/google-prepares-gemini-3-8-222338004.html" }
+      ]
+    },
+    {
+      "headline": "Evercore将多邻国目标价翻倍至210美元,评级上调至跑赢大盘",
+      "summary": "Evercore ISI将多邻国评级从\"符合大盘\"上调至\"跑赢大盘\",目标价从105美元上调至210美元,理由是调查数据显示53%的美国语言学习者使用多邻国,而Babbel仅为13%,用户留存率接近84%的历史高位。",
+      "whyItMatters": "Evercore修正后的预测显示,多邻国2027年和2028年每股收益将分别比华尔街共识高出10%和25%,不过该机构也指出其单日活跃用户的收入和预订量均同比下滑。",
+      "category": "Markets",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Evercore upgrades Duolingo, sees strong user growth and earnings upside", "url": "https://www.investing.com/news/stock-market-news/evercore-upgrades-duolingo-sees-strong-user-growth-and-earnings-upside-4884481" }
+      ]
+    },
+    {
+      "headline": "美国对伊朗发动新一轮空袭,比特币跌破77000美元",
+      "summary": "比特币开盘下跌1.5%至77395.89美元,午前进一步跌至76597美元;以太坊下跌2%至2374美元。此前美国对伊朗目标发动新一轮空袭,伊朗随即对美军基地实施报复。",
+      "whyItMatters": "局势升级推高油价,市场对本月美联储加息的预期概率随之上升,更高的利率预期正对比特币等无息资产构成压力。",
+      "category": "Crypto",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Bitcoin and ethereum prices today, Wednesday, September 2, 2026: crypto prices tumble as Iran war reignites", "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-2-2026-crypto-prices-tumble-as-iran-war-reignites-112639522.html" }
+      ]
+    },
+    {
+      "headline": "尽管美伊冲突升级,黄金仍跌至4357美元",
+      "summary": "黄金期货开盘报每盎司4377.20美元,下跌0.4%,午后进一步跌至4357.50美元,尽管美国三天内第二次空袭伊朗且伊朗已对美军基地实施报复。",
+      "whyItMatters": "眼下黄金的走势更多受利率资产属性驱动,而非危机避险需求:冲突推高的油价正提升美联储加息概率,这一因素压过了黄金往常的避险买盘。",
+      "category": "Commodities",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Gold price today, Wednesday, September 2, 2026: Gold slips further as military actions escalate in Iran", "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-september-2-2026-gold-slips-further-as-military-actions-escalate-in-iran-104514058.html" }
+      ]
+    }
+  ]
+}

@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-09-02",
+      "date": "2026-09-02",
+      "headline": "SpaceX asks FCC to scrutinize Iridium's conduct as Rocket Lab's $8B buyout heads to a vote",
+      "storyCount": 5
+    },
+    {
       "id": "2026-08-26",
       "date": "2026-08-26",
       "headline": "Jack Ma joins Alibaba's insider buying, pushing total to roughly $102 million",

@@ -1,0 +1,59 @@
+{
+  "id": "2026-09-02",
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-02T12:01:02Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Geopolitics set the tone today: fresh U.S. strikes on Iran and the retaliation that followed pulled both bitcoin and gold lower as traders priced in higher odds of a Fed rate hike this month. Single-stock stories cut the other way — a regulatory fight over Rocket Lab's Iridium buyout, a sharply more bullish Wall Street call on Duolingo, and a report that Google is readying a coding-focused Gemini model all point to company-specific catalysts still very much in play beneath the macro noise.",
+  "stories": [
+    {
+      "headline": "SpaceX asks FCC to scrutinize Iridium's conduct as Rocket Lab's $8B buyout heads to a vote",
+      "summary": "SpaceX filed a complaint urging the FCC to examine Iridium Communications' conduct as regulators review Rocket Lab's pending $8 billion acquisition of the satellite operator. Rocket Lab shares fell 6% to $63.82 on the news; Iridium shareholders are set to vote on the deal September 24.",
+      "whyItMatters": "Iridium's payout is partly a variable number of Rocket Lab shares priced near closing, so any regulatory delay from the FCC dispute directly weighs on RKLB stock ahead of the vote.",
+      "category": "Regulatory",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Rocket Lab Falls 6% as SpaceX Flags Iridium Deal to the FCC", "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-falls-6-spacex-180203574.html" }
+      ]
+    },
+    {
+      "headline": "Google reportedly readies Gemini 3.8 Flash, a coding-focused model, for launch as soon as today",
+      "summary": "Google DeepMind is preparing to release Gemini 3.8 Flash, internally called \"Skimaki,\" with upgraded agentic-coding capabilities aimed at narrowing the gap with OpenAI and Anthropic, according to a Wall Street Journal report. Alphabet shares rose 0.6% in after-hours trading Tuesday on the report.",
+      "whyItMatters": "Agentic coding has become one of AI's biggest enterprise use cases, an area where Google has trailed rivals; a more competitive coding model could shift enterprise demand toward Google Cloud.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Google prepares Gemini 3.8 Flash to narrow AI coding gap, WSJ reports", "url": "https://finance.yahoo.com/technology/ai/articles/google-prepares-gemini-3-8-222338004.html" }
+      ]
+    },
+    {
+      "headline": "Evercore more than doubles Duolingo price target to $210, upgrades to Outperform",
+      "summary": "Evercore ISI raised its rating on Duolingo to Outperform from In Line and lifted its price target to $210 from $105, citing survey data showing 53% of U.S. language learners use Duolingo versus 13% for Babbel, with user retention near an all-time high of 84%.",
+      "whyItMatters": "Evercore's revised estimates put Duolingo's 2027 and 2028 earnings per share 10% and 25% above Street consensus, even as the firm flags that revenue and bookings per daily active user are both declining year over year.",
+      "category": "Markets",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Evercore upgrades Duolingo, sees strong user growth and earnings upside", "url": "https://www.investing.com/news/stock-market-news/evercore-upgrades-duolingo-sees-strong-user-growth-and-earnings-upside-4884481" }
+      ]
+    },
+    {
+      "headline": "Bitcoin falls below $77,000 as fresh US strikes on Iran rattle risk assets",
+      "summary": "Bitcoin opened down 1.5% at $77,395.89 and slid further to $76,597 by mid-morning, while ether fell 2% to $2,374, after a new round of U.S. airstrikes on Iranian targets prompted Iranian retaliation against American military bases.",
+      "whyItMatters": "Rising oil prices from the escalation are lifting the market-implied odds of a Fed rate hike this month, and higher-rate expectations are pressuring non-yielding assets like bitcoin.",
+      "category": "Crypto",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Bitcoin and ethereum prices today, Wednesday, September 2, 2026: crypto prices tumble as Iran war reignites", "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-2-2026-crypto-prices-tumble-as-iran-war-reignites-112639522.html" }
+      ]
+    },
+    {
+      "headline": "Gold slips to $4,357 even as the US-Iran conflict escalates",
+      "summary": "Gold futures opened at $4,377.20 an ounce, down 0.4%, and slipped further to $4,357.50 by late morning, despite a second round of U.S. airstrikes on Iran in three days and Iranian retaliation against U.S. bases.",
+      "whyItMatters": "Gold is trading more as a rates asset than a crisis hedge right now: rising oil prices from the conflict are boosting the odds of a Fed rate hike, which is outweighing the metal's usual safe-haven bid.",
+      "category": "Commodities",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Gold price today, Wednesday, September 2, 2026: Gold slips further as military actions escalate in Iran", "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-september-2-2026-gold-slips-further-as-military-actions-escalate-in-iran-104514058.html" }
+      ]
+    }
+  ]
+}

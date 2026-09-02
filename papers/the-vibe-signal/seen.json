@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-26T07:51:46Z",
+  "updatedAt": "2026-09-02T12:03:14Z",
   "events": [
+    {
+      "date": "2026-09-02",
+      "headline": "The ChatGPT desktop app quietly bundles a full copy of LibreOffice",
+      "summary": "Simon Willison found that OpenAI's ChatGPT (formerly Codex) desktop app caches 1.7GB of local dependencies on macOS, including complete Python and Node.js installs plus native binaries for Git, the Poppler PDF library, and LibreOffice — th…",
+      "urls": [
+        "https://simonwillison.net/2026/Sep/1/codex-libreoffice/"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "headline": "Paper argues neural networks implicitly encode symbolic structure, not just vectors",
+      "summary": "Researchers found that internal representations in both small networks and large language models — across arithmetic, logic, code, and language tasks — can be replaced with a closed-form symbolic equation while preserving behavior, and con…",
+      "urls": [
+        "https://arxiv.org/abs/2608.29530"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "headline": "Nori Robotics launches a $1,688 bimanual home robot, undercutting the category on price",
+      "summary": "YC S26 startup Nori Robotics unveiled the Nori A3, a bimanual home robot priced at $1,688 with no deposit, shipping fall 2026. Each arm has 7+1 degrees of freedom and a 1.5kg payload, backed by 12-meter LiDAR, four 720p cameras, and 6-8 ho…",
+      "urls": [
+        "https://www.norirobotics.com/"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "headline": "FBI opens probe as dark-web service 'Nexus' is found selling scans of 153 million driver's licenses",
+      "summary": "A dark-web identity-document marketplace called Nexus, launched August 31, was found selling digital scans of more than 153 million U.S. and Canadian driver's licenses plus millions of ID cards and travel documents, with new records added…",
+      "urls": [
+        "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "headline": "Audit of AI-skeptic Ed Zitron's predictions finds a consistent track record of being wrong",
+      "summary": "Dan Luu compiled roughly 30 of Ed Zitron's AI-skepticism predictions from February 2024 to November 2025 and checked them against outcomes: Zitron said Meta, Google, and Microsoft were \"dying,\" but Meta's revenue grew from $135B to $165B a…",
+      "urls": [
+        "https://danluu.com/zitron/"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "headline": "Anthropic ships Claude Fable 5.1 and a restricted Mythos 5.1 for vetted researchers",
+      "summary": "Anthropic released Claude Fable 5.1, available broadly with standard safeguards, alongside Claude Mythos 5.1, a higher-capability variant restricted to vetted cybersecurity and life-sciences professionals. Fable 5.1 jumps to 52.6% on Termi…",
+      "urls": [
+        "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+      ]
+    },
     {
       "date": "2026-08-26",
       "headline": "X sends cease-and-desist letters demanding Nitter and XCancel shut down",
@@ -226,103 +274,6 @@
       "urls": [
         "https://thenextweb.com/news/andon-market-luna-ai-store-manager-fires-employee",
         "https://sfstandard.com/2026/08/17/ai-boss-fires-worker/"
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "headline": "OmniScientist runs the full research pipeline — from raw data to manuscript — in 36 test cases",
-      "summary": "A new AI-scientist system called OmniScientist takes raw, multi-modal data (images, audio, video, 3D, tables) through perception, ideation, experiment and writeup stages; its authors report it completed the full path to a compiled manuscri…",
-      "urls": [
-        "https://arxiv.org/abs/2608.13558v1"
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "headline": "New benchmark finds AI agents solve only 27 of 43 formally-verified-repo tasks",
-      "summary": "A paper introducing Vero, the first benchmark testing whether AI agents can write both code and matching formal proofs across whole repositories, found the strongest agent fully solved 27 of 43 multi-module instances drawn from real Python…",
-      "urls": [
-        "https://arxiv.org/abs/2608.13522v1"
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "headline": "Google ships Gemini 3.7 Flash, three weeks after 3.6 Flash",
-      "summary": "Google released Gemini 3.7 Flash on August 13, calling it its 'most intelligent workhorse model yet for coding and agents.' The company reports gains on FrontierCode (34.4% to 43.6%) and DeepSWE (49.0% to 65.3%), plus improvements on web-d…",
-      "urls": [
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "headline": "Essay: RISC-V succeeds despite its design, not because of it",
-      "summary": "A detailed critique argues RISC-V can't simultaneously serve embedded microcontrollers and high-performance computing well, pointing to worse interrupt latency and code density than ARM's Cortex-M0, and says making features like multiplica…",
-      "urls": [
-        "https://dmitry.gr/?r=06.%20Thoughts&proj=12.%20RV"
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "headline": "Essay: AI's edge on math problems may be memory, not intelligence",
-      "summary": "An essay argues AI systems outperform humans on many math tasks not because of superior reasoning but because their context windows act as a large external notebook, letting them hold hundreds of intermediate equations and constraints at o…",
-      "urls": [
-        "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians"
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "headline": "Anthropic investors reportedly eye $2 trillion valuation for an October IPO",
-      "summary": "Financial Times reporting cited by Fortune says Anthropic's investors expect the company to go public in October at a valuation around $2 trillion, which would exceed SpaceX's $1.77 trillion IPO and be the largest public offering ever. The…",
-      "urls": [
-        "https://fortune.com/2026/08/13/anthropic-ipo-2-trillion-october-largest-ever-spacex/"
-      ]
-    },
-    {
-      "date": "2026-08-12",
-      "headline": "Researchers extract hidden reasoning from Anthropic, OpenAI and Google models via a shared encryption flaw",
-      "summary": "A new paper shows that leading LLM providers return chain-of-thought reasoning to clients as encrypted blocks rather than storing them server-side, but every model in a given family shared the same encryption key. Researchers replayed a fr…",
-      "urls": [
-        "https://arxiv.org/abs/2608.09867",
-        "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/"
-      ]
-    },
-    {
-      "date": "2026-08-12",
-      "headline": "OpenAI's head of ethics departs after less than a year, with no direct replacement planned",
-      "summary": "Chloé Bakalar, OpenAI's head of ethics since August 2025 and previously Meta's chief ethicist, has left the company. An OpenAI spokesperson said ethics 'does not belong to a single individual or team' and that the company won't directly re…",
-      "urls": [
-        "https://americanbazaaronline.com/2026/08/11/openai-head-of-ethics-chloe-bakalar-departs-after-brief-tenure-486215/"
-      ]
-    },
-    {
-      "date": "2026-08-12",
-      "headline": "OpenAI ships GPT-5.6-Cyber, an 'offense-grade' hacking model restricted to vetted defenders",
-      "summary": "OpenAI released GPT-5.6-Cyber, built on GPT-5.6 Sol with defensive guardrails stripped for offensive security work; it completes 95% of exploit-related requests versus 1.5% for the safeguarded version, and independently found two previousl…",
-      "urls": [
-        "https://www.forbes.com/sites/jonmarkman/2026/08/11/openai-ships-gpt-56-cyber-its-first-offense-grade-hacking-model/"
-      ]
-    },
-    {
-      "date": "2026-08-12",
-      "headline": "Essay: compression and prediction are the same math, and LLMs are compressors",
-      "summary": "A blog post walks through why data compression and language-model prediction share the same core: both assign probabilities to symbols and use −log₂(probability) to determine bits per symbol, so a model that predicts text better also compr…",
-      "urls": [
-        "https://ngrok.com/blog/compression-is-prediction"
-      ]
-    },
-    {
-      "date": "2026-08-12",
-      "headline": "British Transport Police expands live facial recognition trial into the London Underground",
-      "summary": "British Transport Police deployed live facial-recognition cameras at Victoria Underground station on August 11, the first Tube deployment in a trial now extended to November, scanning faces against a watchlist of people wanted by police or…",
-      "urls": [
-        "https://idtechwire.com/british-transport-police-expands-facial-recognition-trial-to-london-underground/"
-      ]
-    },
-    {
-      "date": "2026-08-12",
-      "headline": "A medical-research firm marketed as '100% human-written, never AI' turns out to be almost entirely AI",
-      "summary": "404 Media found that Research Gold, which sells systematic reviews and manuscript drafting under a 'human-written, never AI' banner with a roster of named PhD methodologists, has profile photos that are AI-generated and no verifiable publi…",
-      "urls": [
-        "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/"
       ]
     }
   ]

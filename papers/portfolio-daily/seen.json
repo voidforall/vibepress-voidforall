@@ -1,7 +1,47 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-08-26T07:51:45Z",
+  "updatedAt": "2026-09-02T12:03:14Z",
   "events": [
+    {
+      "date": "2026-09-02",
+      "headline": "SpaceX asks FCC to scrutinize Iridium's conduct as Rocket Lab's $8B buyout heads to a vote",
+      "summary": "SpaceX filed a complaint urging the FCC to examine Iridium Communications' conduct as regulators review Rocket Lab's pending $8 billion acquisition of the satellite operator. Rocket Lab shares fell 6% to $63.82 on the news; Iridium shareho…",
+      "urls": [
+        "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-falls-6-spacex-180203574.html"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "headline": "Google reportedly readies Gemini 3.8 Flash, a coding-focused model, for launch as soon as today",
+      "summary": "Google DeepMind is preparing to release Gemini 3.8 Flash, internally called \"Skimaki,\" with upgraded agentic-coding capabilities aimed at narrowing the gap with OpenAI and Anthropic, according to a Wall Street Journal report. Alphabet shar…",
+      "urls": [
+        "https://finance.yahoo.com/technology/ai/articles/google-prepares-gemini-3-8-222338004.html"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "headline": "Gold slips to $4,357 even as the US-Iran conflict escalates",
+      "summary": "Gold futures opened at $4,377.20 an ounce, down 0.4%, and slipped further to $4,357.50 by late morning, despite a second round of U.S. airstrikes on Iran in three days and Iranian retaliation against U.S. bases.",
+      "urls": [
+        "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-september-2-2026-gold-slips-further-as-military-actions-escalate-in-iran-104514058.html"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "headline": "Evercore more than doubles Duolingo price target to $210, upgrades to Outperform",
+      "summary": "Evercore ISI raised its rating on Duolingo to Outperform from In Line and lifted its price target to $210 from $105, citing survey data showing 53% of U.S. language learners use Duolingo versus 13% for Babbel, with user retention near an a…",
+      "urls": [
+        "https://www.investing.com/news/stock-market-news/evercore-upgrades-duolingo-sees-strong-user-growth-and-earnings-upside-4884481"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "headline": "Bitcoin falls below $77,000 as fresh US strikes on Iran rattle risk assets",
+      "summary": "Bitcoin opened down 1.5% at $77,395.89 and slid further to $76,597 by mid-morning, while ether fell 2% to $2,374, after a new round of U.S. airstrikes on Iranian targets prompted Iranian retaliation against American military bases.",
+      "urls": [
+        "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-2-2026-crypto-prices-tumble-as-iran-war-reignites-112639522.html"
+      ]
+    },
     {
       "date": "2026-08-26",
       "headline": "Jack Ma joins Alibaba's insider buying, pushing total to roughly $102 million",
@@ -166,95 +206,6 @@
       "urls": [
         "https://www.bloomberg.com/news/articles/2026-08-17/alibaba-to-sell-gaming-arm-for-1-5-billion-in-boost-to-ai-pivot",
         "https://www.scmp.com/tech/big-tech/article/3364287/alibaba-sells-gaming-arm-lingxi-games-tech-giant-sharpens-focus-ai-and-e-commerce"
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "headline": "UBS's bullish Bitcoin ETF options exposure jumped 24-fold in Q2",
-      "summary": "UBS's Q2 2026 13-F filing, covering the quarter ended June 30 and reported by CoinDesk this week, shows the bank's call-option exposure to BlackRock's iShares Bitcoin Trust (IBIT) rose from 80,000 to 1.95 million underlying shares, while i…",
-      "urls": [
-        "https://www.coindesk.com/business/2026/08/15/swiss-mega-bank-ubs-ramps-up-its-bitcoin-exposure-with-a-massive-24-fold-surge-in-etf-call-options"
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "headline": "Russia bans bitcoin mining in Moscow and parts of Kursk through 2032",
-      "summary": "A Russian Energy Ministry restriction, signed July 25 and reported by CoinDesk on August 15, bars crypto mining and mining-pool participation in Moscow, the Moscow region, and parts of Kursk through December 31, 2032, citing power-capacity…",
-      "urls": [
-        "https://www.coindesk.com/policy/2026/08/15/why-the-world-s-second-largest-bitcoin-mining-power-is-shutting-down-rigs-in-its-capital-city"
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "headline": "Rocket Lab wins $12M Space Force network deal as Neutron's 'Hungry Hippo' fairing nears completion",
-      "summary": "The US Space Force selected Rocket Lab as one of five companies to develop a multi-vendor Space Data Network, awarding a $12 million package — $10 million to demonstrate cross-vendor data transport and $2 million to support orbital router…",
-      "urls": [
-        "https://www.foreignpolicyjournal.com/2026/08/14/rocket-lab-nasdaq-rklb-secures-12-million-space-force-contract-while-neutrons-hungry-hippo-fairing-moves-closer-to-launch/"
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "headline": "Duolingo acquires London animation studio Animade, its third motion-design buy",
-      "summary": "Duolingo announced August 13 that it acquired Animade, a London-based animation and motion-design studio founded in 2010, to expand its in-house Design Studio; financial terms weren't disclosed. It's Duolingo's third acquisition of an anim…",
-      "urls": [
-        "https://www.stocktitan.net/news/DUOL/duolingo-invests-in-world-class-motion-design-with-acquisition-of-aytstpzs4t2l.html"
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "headline": "Berkshire's Q2 13F filing shows Alphabet is now its third-largest holding, at roughly $37B",
-      "summary": "Berkshire Hathaway's regulatory filing, disclosed August 14, shows the stake grew this quarter through a $10 billion discounted private placement tied to Alphabet's AI-infrastructure capital raise plus additional open-market buying. The po…",
-      "urls": [
-        "https://www.forbes.com/sites/bill_stone/2026/08/15/berkshire-hathaway-turns-buyer-as-buffett-backs-alphabet/",
-        "https://abcnews.com/Technology/wireStory/berkshire-hathaway-boosted-stake-alphabet-homebuilders-quarter-135679033"
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "headline": "Alibaba's Qwen models pass 3 billion downloads, overtaking Google and Meta",
-      "summary": "Hugging Face's state-of-open-models report, published August 14, shows Alibaba's Qwen family has accumulated more than 3 billion downloads over the past six months across 460-plus open-sourced models — ahead of Google's 418 million and Met…",
-      "urls": [
-        "https://fortune.com/2026/08/15/alibaba-qwen-open-ai-models-3-billion-downloads-meta-google/"
-      ]
-    },
-    {
-      "date": "2026-08-12",
-      "headline": "Ryanair signs five-year Google Cloud deal, expanding Gemini and DeepMind use across operations",
-      "summary": "Ryanair signed a five-year partnership with Google Cloud, rolling out Google Workspace to 35,000 employees and using Gemini Enterprise to build custom AI agents for crew scheduling and disruption management. The airline will also use Googl…",
-      "urls": [
-        "https://www.yahoo.com/news/articles/ryanair-signs-five-google-cloud-230235632.html"
-      ]
-    },
-    {
-      "date": "2026-08-12",
-      "headline": "Rocket Lab signs first dedicated Neutron launch contract, with Kepler Communications",
-      "summary": "Rocket Lab will launch a dedicated Neutron mission for satellite operator Kepler Communications no earlier than 2028 from Wallops Island, Virginia, deploying multiple satellites to expand Kepler's constellation. It's the first dedicated co…",
-      "urls": [
-        "https://www.stocktitan.net/news/RKLB/rocket-lab-inks-neutron-launch-deal-with-kepler-jb0yqfr1ba1p.html"
-      ]
-    },
-    {
-      "date": "2026-08-12",
-      "headline": "Riot Platforms signs $9.1 billion, 20-year AI compute deal with Anthropic",
-      "summary": "Bitcoin miner Riot Platforms agreed to lease 191 megawatts of capacity at its Rockdale, Texas site to Anthropic for $9.1 billion over 20 years, with two optional five-year extensions that could take the total to $16.1 billion. Deployment s…",
-      "urls": [
-        "https://www.coindesk.com/business/2026/08/11/riot-platforms-surges-20-in-pre-market-trading-on-usd9-1-billion-anthropic-deal"
-      ]
-    },
-    {
-      "date": "2026-08-12",
-      "headline": "Gold hits two-month high above $4,400 on Middle East tensions and rate-cut bets",
-      "summary": "Spot gold rose about 1% to trade near $4,432 an ounce on August 11, its highest level since early June, while gold futures climbed 1.7% to roughly $4,493. Traders pointed to safe-haven demand from the widening US-Iran standoff, a softer do…",
-      "urls": [
-        "https://www.cnbc.com/amp/2026/08/11/gold-gains-for-third-session-inflation-reports-in-focus.html"
-      ]
-    },
-    {
-      "date": "2026-08-12",
-      "headline": "Alibaba Cloud says its CUBE 5.0 modular design builds AI data centers in 100 days",
-      "summary": "Alibaba Cloud said its CUBE 5.0 modular architecture can deliver large-scale AI data centers in about 100 days at 10% lower construction cost, versus six to twelve months for typical domestic builds and twelve to eighteen months in the US.…",
-      "urls": [
-        "https://www.scmp.com/tech/big-tech/article/3363637/alibaba-says-modular-design-delivers-ai-data-centres-100-days-10-lower-cost"
       ]
     }
   ]
