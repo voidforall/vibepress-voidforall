@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-09-04",
+      "date": "2026-09-04",
+      "headline": "OpenAI ships GPT-6 Astra, its first model to cross a 'Critical' cybersecurity threshold",
+      "storyCount": 6
+    },
+    {
       "id": "2026-09-02",
       "date": "2026-09-02",
       "headline": "Anthropic ships Claude Fable 5.1 and a restricted Mythos 5.1 for vetted researchers",

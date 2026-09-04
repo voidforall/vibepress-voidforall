@@ -1,0 +1,60 @@
+{
+  "id": "2026-09-04",
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T12:05:12Z",
+  "editionTitle": "投资组合日报",
+  "editorNote": "加密货币与黄金今天释放出同一个信号:比特币突破81000美元,因交易员下调了美联储本月加息的押注;与此同时,多家大型资管机构表示正在重建此前减持的黄金头寸。个股层面,谷歌将Gemini语音功能直接接入Gmail、Docs和Keep,火箭实验室在铱星通信收购案投票临近之际获得看涨的新评级,而多邻国则被卷入新一轮对伊朗制裁的余波,其英语测试对伊朗护照持有者的封锁范围不仅限于伊朗境内。",
+  "stories": [
+    {
+      "headline": "比特币突破81000美元,交易员下调美联储加息押注",
+      "summary": "比特币隔夜上涨约4%,一度突破81300美元,随后回落至约81060美元;以太坊24小时上涨4.52%,瑞波币上涨5.58%,solana上涨3.04%,全市场爆仓额达3.186亿美元。隐私币涨幅最猛,zcash上涨16.55%,dash上涨19.24%。",
+      "whyItMatters": "目前1枚比特币可兑换约18盎司黄金,为1月以来的最高比价,反映交易员越来越倾向于认为美联储本月将维持利率不变而非加息。",
+      "category": "加密货币",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Bitcoin clears $81,000 as privacy coins lead a broad crypto rally", "url": "https://www.coindesk.com/markets/2026/09/04/bitcoin-clears-usd81-000-as-privacy-coins-lead-a-broad-crypto-rally" }
+      ]
+    },
+    {
+      "headline": "谷歌将Gemini语音功能'Live'接入Gmail、Docs和Keep",
+      "summary": "谷歌推出Gmail Live、Docs Live和Keep Live,用户可让Gemini驱动的助手回答关于收件箱内容的问题,通过口述让AI起草整合Gmail、Drive、聊天记录和网络信息的初稿,并将口头\"灵感碎念\"转化为笔记和清单。Gmail Live面向Google AI Plus、Pro和Ultra订阅用户开放,Docs Live和Keep Live仅限Pro和Ultra版本,Workplace Business版本稍后跟进。",
+      "whyItMatters": "将Gemini语音交互直接嵌入谷歌核心生产力应用,而非作为独立助手存在,把付费AI订阅与人们每天都在使用的工具绑定在了一起。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Google launches AI voice features in Gmail, Docs, and Keep", "url": "https://techcrunch.com/2026/09/03/google-launches-ai-voice-features-in-gmail-docs-and-keep/" }
+      ]
+    },
+    {
+      "headline": "安联投资、富达等大型资管机构重建黄金头寸,押注金价重回5000美元",
+      "summary": "包括Amundi、瑞士百达资产管理、荷宝和富达国际在内的多家全球顶级资管机构,已重新买入此前在金价从历史高点回落期间减持的黄金,其中Amundi押注金价年底前重返每盎司5000美元。富达多资产基金经理Ian Samson表示,公司计划重新超配黄金:\"问题只是时机。\"",
+      "whyItMatters": "此前减持黄金的机构如今重新买入,表明机构层面对金价上涨行情仍有信心,而不只是散户在追涨2026年这轮金价飙升。",
+      "category": "大宗商品",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "World's Biggest Money Managers Are Rebuilding Gold Positions", "url": "https://www.bloomberg.com/news/articles/2026-09-04/world-s-biggest-money-managers-are-rebuilding-gold-positions" }
+      ]
+    },
+    {
+      "headline": "Berenberg看好火箭实验室,铱星通信并购案迈向9月24日投票",
+      "summary": "Berenberg本周对火箭实验室展开覆盖,给予\"买入\"评级和83美元目标价,理由是太空产业规模正逼近1万亿美元,并看好该公司的订单储备和从发射到卫星的一体化平台;周五该行将评级上调至\"强烈买入\"。另一方面,铱星通信已提交正式并购委托文件,股东将于9月24日就火箭实验室80亿美元收购案进行投票,与此同时两家公司的高管均因归属股票奖励产生的例行税款代扣而出售了部分股票。",
+      "whyItMatters": "看涨的新卖方观点与已排定的股东投票,共同缩小了围绕火箭实验室史上最大在谈交易的不确定性。",
+      "category": "市场",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Berenberg launches space coverage, initiates 4 stocks with Buy ratings", "url": "https://finance.yahoo.com/markets/stocks/articles/berenberg-launches-space-coverage-initiates-082127939.html" },
+        { "title": "Iridium CEO Sells Over 9,500 Shares as Rocket Lab Is Poised to Acquire the Company", "url": "https://www.fool.com/coverage/filings/2026/09/03/iridium-ceo-sells-over-9-500-shares-as-rocket-lab-is-poised-to-acquire-the-company/" }
+      ]
+    },
+    {
+      "headline": "新一轮对伊制裁下,多邻国暂停向伊朗护照持有者提供英语测试服务(不限境内)",
+      "summary": "多邻国宣布自9月1日起,对所有在伊朗境内参加测试或持有伊朗政府签发身份证件的人员封锁其英语测试服务——该限制范围扩大至居住在境外的伊朗公民,比竞争对手ETS仅暂停伊朗境内测试的做法更为严格。公司援引美国财政部8月24日暂停\"一般许可证G\"的决定,该许可证自2014年起授权美国企业向伊朗人提供教育服务;公司表示尚不清楚相关规定何时会有变化。",
+      "whyItMatters": "此次制裁切断了伊朗学生在全球范围内(而不仅是境内)获取一项被广泛认可的大学申请资质凭证的渠道,其影响范围超出了原本出口管制措施所要求的程度。",
+      "category": "监管",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Duolingo D-Day: Iranians question latest US sanctions targeting education", "url": "https://www.aljazeera.com/news/2026/9/1/duolingo-d-day-iranians-question-latest-us-sanctions-targeting-education" }
+      ]
+    }
+  ]
+}

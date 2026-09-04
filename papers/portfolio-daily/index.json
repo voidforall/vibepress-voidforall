@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-09-04",
+      "date": "2026-09-04",
+      "headline": "Bitcoin clears $81,000 as traders pare Fed rate-hike bets",
+      "storyCount": 5
+    },
+    {
       "id": "2026-09-02",
       "date": "2026-09-02",
       "headline": "SpaceX asks FCC to scrutinize Iridium's conduct as Rocket Lab's $8B buyout heads to a vote",

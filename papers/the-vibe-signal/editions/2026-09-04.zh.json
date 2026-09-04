@@ -1,0 +1,70 @@
+{
+  "id": "2026-09-04",
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T12:05:12Z",
+  "editionTitle": "Vibe信号",
+  "editorNote": "OpenAI的GPT-6 Astra是今天最大的发布,但其亮点不在于跑分全面领先,而在于它是首个跨过OpenAI自设的网络安全\"关键\"门槛的模型。阿联酋MBZUAI旗下的IFM则发布了K2 Horizon予以回应——六个模型不仅公开权重,还公开了完整训练数据和检查点。另外两篇报道审视了AI智能体已经拥有的隐形影响力:一项研究发现Claude、Codex和Cursor在推荐哪个供应商上几乎达不成一致;另一篇文章则认为,智能体正是Ted Nelson的Xanadu构想一直缺少的那种不知疲倦的读者。此外,一个移植1993年Amiga游戏的个人项目,展示了Claude真刀真枪地完成逆向工程工作,连带挖出了尘封多年的老bug。",
+  "stories": [
+    {
+      "headline": "OpenAI发布GPT-6 Astra,首个跨过网络安全'关键'门槛的模型",
+      "summary": "OpenAI发布了GPT-6 Astra,称其为迄今为止最智能、最对齐的模型,在电脑操作、编程、数学和网络安全等基准测试中取得了业内领先的成绩——在使用厂商优化评测框架的情况下,ARC-AGI-3得分达到99.9%,在DeepSWE智能体编程基准上得分74.1%,在ExploitBench上得分100%。这是OpenAI首个在其\"预备框架\"下跨过网络安全\"关键\"能力门槛的模型。付费ChatGPT用户和云平台将在未来几天内获得访问权限。",
+      "whyItMatters": "跨过OpenAI自己设定的网络安全\"关键\"安全门槛——这是公司自己划下的红线——为其\"Astra需要额外防护措施,而不仅仅是能力提升\"的说法增添了实质分量。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "GPT-6 Astra: A new generation of intelligence", "url": "https://openai.com/index/gpt-6-astra/" },
+        { "title": "GPT-6 Astra on ARC-AGI-3", "url": "https://arcprize.org/blog/astra" }
+      ]
+    },
+    {
+      "headline": "MBZUAI旗下IFM发布K2 Horizon,称其为AI史上最大规模的完全开源发布",
+      "summary": "隶属于阿布扎比穆罕默德·本·扎耶德人工智能大学的基础模型研究院(IFM)发布了K2 Horizon:六个采用Apache 2.0协议的模型,参数规模从9亿到3750亿不等,共享同一套架构和训练方法,并随模型一同公开了训练数据、代码、检查点和训练日志。IFM表示,其中9亿、37亿和70亿参数的模型在各自规模级别上都创下了新的最优成绩。",
+      "whyItMatters": "在公开权重的同时一并公开完整训练数据和中间检查点,而不是像大多数\"开源\"模型那样止步于权重本身,这让外部研究者真正能够复现这些模型的训练过程。",
+      "category": "技术",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Introducing K2 Horizon: Frontier Performance, Radically Open", "url": "https://ifm.ai/blog/k2" }
+      ]
+    },
+    {
+      "headline": "对1.7万次编程智能体会话的研究发现,Claude、Codex和Cursor仅有42%的概率选择同一工具",
+      "summary": "Armature在75个真实代码库、1163种提示词变体上,对Claude Code、Codex和Cursor共运行了16893次会话,记录了每个智能体推荐并最终选用的第三方服务。三者选用同一工具的概率仅为42%;Cursor有三分之二的会话依赖联网搜索得出答案,而Claude Code则主要依赖训练数据。被频繁提及的厂商未必胜出——PayPal被提及139次却从未被实际选用,而Stripe在支付服务的选择中10次里赢了9次。",
+      "whyItMatters": "如果编程智能体推荐哪个库或供应商更多取决于用户使用的是哪个智能体,而非工具本身的优劣,那么这就构成了一条新的、几乎不为人察觉的开发者工具分发渠道。",
+      "category": "商业",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out", "url": "https://armature.tech/blog/which-tools-coding-agents-install" }
+      ]
+    },
+    {
+      "headline": "ICANN终止.name域名层级,恐将有2.2万个地址无家可归",
+      "summary": "Verisign已于7月获得ICANN批准,将取消.name的三级域名(如neil.fraser.name);域名持有者Neil Fraser详细说明了这将带来的实际影响:约2.2万名域名持有者将在明年2月失去自己的域名和关联邮箱,即便他们已经续费到2040年;而这些域名一旦被释放,任何人都可以重新注册。",
+      "whyItMatters": "终止一个域名层级,不仅会让老网站下线,还会让那些外部服务仍视为身份凭证的邮箱地址被回收利用,给每一个曾使用过这类域名的人带来账户被劫持的风险。",
+      "category": "商业",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": ".name Termination", "url": "https://neil.fraser.name/news/2026/09/03/" }
+      ]
+    },
+    {
+      "headline": "一位开发者用Claude逆向了自己1993年Amiga游戏中未公开文档的文件格式",
+      "summary": "Rabah Shihab在Claude Code中使用Claude Fable 5,将自己1993年的Amiga游戏《巴比伦双子》——原版72758行68000汇编代码——移植到Godot引擎,直接从读取这些格式的汇编代码中逆向出未公开文档的二进制格式,并通过像素级对比渲染结果来验证正确性。整个过程还挖出了几个尘封多年的老bug,包括一个守卫的碰撞检测原本影响13格而非3格,以及原始发布二进制文件中遗留的108字节未初始化内存。",
+      "whyItMatters": "该模型完成了格式复原和工具链重建工作——这些正是作者此前手动尝试时曾卡壳的部分——而设计判断和实际试玩测试仍然离不开人工。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly", "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/" }
+      ]
+    },
+    {
+      "headline": "Zed创始人认为,AI智能体终于让Ted Nelson 1965年的Xanadu构想变得可行",
+      "summary": "Nathan Sobo认为,Xanadu计划在1965年提出的\"文档应以永久引用而非复制方式相互链接\"的构想之所以搁置数十年,是因为它需要一位永不遗漏任何线索的读者——这是人类做不到、但AI智能体如今可以做到的事。他以Zed的Delta和DeltaDB为例:两者将对话与代码一同追踪,并赋予其能在编辑后依然存续的身份标识,称之为Nelson所描绘的\"文档宇宙\"的早期雏形。",
+      "whyItMatters": "这是一个具体的论断——智能体改变的是哪些软件架构可行,而不只是软件能完成哪些任务——但它能否在一家公司自身工具之外站得住脚,还有待观察。",
+      "category": "观点",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "Xanadu was waiting for agents", "url": "https://zed.dev/blog/agentic-xanadu" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "2026-09-04",
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T12:05:12Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Crypto and gold pointed the same direction today: bitcoin cleared $81,000 as traders pared Fed rate-hike bets, while a run of major asset managers said they're rebuilding gold positions they'd cut earlier this year. On the company side, Google folded Gemini voice features directly into Gmail, Docs and Keep, Rocket Lab picked up a bullish new sell-side call as its Iridium vote nears, and Duolingo got caught in the crossfire of new Iran sanctions that cut off its English Test for Iranian passport holders everywhere, not just inside the country.",
+  "stories": [
+    {
+      "headline": "Bitcoin clears $81,000 as traders pare Fed rate-hike bets",
+      "summary": "Bitcoin rose about 4% to clear $81,300 overnight before easing to around $81,060, with ether up 4.52%, XRP up 5.58% and solana up 3.04% over 24 hours alongside $318.6 million in liquidations market-wide. Privacy coins ran hardest, with zcash up 16.55% and dash up 19.24%.",
+      "whyItMatters": "One bitcoin now buys about 18 ounces of gold, the richest ratio since January, as traders increasingly price in the Fed holding rates rather than hiking this month.",
+      "category": "Crypto",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Bitcoin clears $81,000 as privacy coins lead a broad crypto rally", "url": "https://www.coindesk.com/markets/2026/09/04/bitcoin-clears-usd81-000-as-privacy-coins-lead-a-broad-crypto-rally" }
+      ]
+    },
+    {
+      "headline": "Google rolls out Gemini-powered 'Live' voice features across Gmail, Docs and Keep",
+      "summary": "Google launched Gmail Live, Docs Live and Keep Live, letting users ask a Gemini-powered assistant questions about their inbox, dictate first drafts that pull from Gmail, Drive, chat and the web, and turn spoken \"brain dumps\" into notes and lists. Gmail Live is available to Google AI Plus, Pro and Ultra subscribers; Docs Live and Keep Live are limited to Pro and Ultra tiers, with Workplace Business access to follow.",
+      "whyItMatters": "Folding Gemini voice interaction directly into Google's core productivity apps, rather than a separate assistant, ties paid AI subscriptions to tools people already use daily.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Google launches AI voice features in Gmail, Docs, and Keep", "url": "https://techcrunch.com/2026/09/03/google-launches-ai-voice-features-in-gmail-docs-and-keep/" }
+      ]
+    },
+    {
+      "headline": "Amundi, Fidelity and other major asset managers rebuild gold positions, eye $5,000",
+      "summary": "Some of the world's largest money managers — Amundi, Pictet Asset Management, Robeco and Fidelity International — have added back gold holdings they cut earlier this year during bullion's pullback from its record high, with Amundi betting on a return to $5,000 an ounce by year-end. Fidelity's Ian Samson said the firm plans to go back to an overweight gold position: \"the question is when.\"",
+      "whyItMatters": "Renewed buying from managers who had trimmed positions signals institutional conviction that gold's rally has further to run, not just retail momentum chasing the metal's 2026 surge.",
+      "category": "Commodities",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "World's Biggest Money Managers Are Rebuilding Gold Positions", "url": "https://www.bloomberg.com/news/articles/2026-09-04/world-s-biggest-money-managers-are-rebuilding-gold-positions" }
+      ]
+    },
+    {
+      "headline": "Berenberg backs Rocket Lab as Iridium merger clears next step toward a September 24 vote",
+      "summary": "Berenberg initiated coverage on Rocket Lab this week with a Buy rating and an $83 price target, arguing the space industry is approaching $1 trillion and citing the company's backlog and end-to-end launch-to-satellite platform; the firm raised that rating to Strong-Buy on Friday. Separately, Iridium filed definitive merger proxy materials for its September 24 shareholder vote on Rocket Lab's $8 billion acquisition, while top executives at both companies sold shares in routine tax-withholding transactions tied to vested stock awards.",
+      "whyItMatters": "A bullish new sell-side thesis and a scheduled shareholder vote both narrow the uncertainty window around the largest pending deal in Rocket Lab's history.",
+      "category": "Markets",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Berenberg launches space coverage, initiates 4 stocks with Buy ratings", "url": "https://finance.yahoo.com/markets/stocks/articles/berenberg-launches-space-coverage-initiates-082127939.html" },
+        { "title": "Iridium CEO Sells Over 9,500 Shares as Rocket Lab Is Poised to Acquire the Company", "url": "https://www.fool.com/coverage/filings/2026/09/03/iridium-ceo-sells-over-9-500-shares-as-rocket-lab-is-poised-to-acquire-the-company/" }
+      ]
+    },
+    {
+      "headline": "Duolingo suspends its English Test for Iranian passport holders worldwide under new US sanctions",
+      "summary": "Duolingo blocked its English Test for anyone testing from Iran or holding Iranian government-issued ID, effective September 1 — a restriction that extends to Iranian citizens living abroad, broader than rival ETS's approach of pausing testing only inside Iran. The company cited the US Treasury's August 24 suspension of General License G, which had authorized American firms to offer educational services to Iranians since 2014, and said it doesn't know when the rules might change.",
+      "whyItMatters": "The sanctions cut off a widely accepted university-admissions credential for Iranian students globally, a broader scope than the underlying export-control action required.",
+      "category": "Regulatory",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Duolingo D-Day: Iranians question latest US sanctions targeting education", "url": "https://www.aljazeera.com/news/2026/9/1/duolingo-d-day-iranians-question-latest-us-sanctions-targeting-education" }
+      ]
+    }
+  ]
+}

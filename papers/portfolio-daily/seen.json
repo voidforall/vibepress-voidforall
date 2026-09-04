@@ -1,7 +1,48 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-02T12:03:14Z",
+  "updatedAt": "2026-09-04T12:07:44Z",
   "events": [
+    {
+      "date": "2026-09-04",
+      "headline": "Google rolls out Gemini-powered 'Live' voice features across Gmail, Docs and Keep",
+      "summary": "Google launched Gmail Live, Docs Live and Keep Live, letting users ask a Gemini-powered assistant questions about their inbox, dictate first drafts that pull from Gmail, Drive, chat and the web, and turn spoken \"brain dumps\" into notes and…",
+      "urls": [
+        "https://techcrunch.com/2026/09/03/google-launches-ai-voice-features-in-gmail-docs-and-keep/"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "headline": "Duolingo suspends its English Test for Iranian passport holders worldwide under new US sanctions",
+      "summary": "Duolingo blocked its English Test for anyone testing from Iran or holding Iranian government-issued ID, effective September 1 — a restriction that extends to Iranian citizens living abroad, broader than rival ETS's approach of pausing test…",
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/1/duolingo-d-day-iranians-question-latest-us-sanctions-targeting-education"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "headline": "Bitcoin clears $81,000 as traders pare Fed rate-hike bets",
+      "summary": "Bitcoin rose about 4% to clear $81,300 overnight before easing to around $81,060, with ether up 4.52%, XRP up 5.58% and solana up 3.04% over 24 hours alongside $318.6 million in liquidations market-wide. Privacy coins ran hardest, with zca…",
+      "urls": [
+        "https://www.coindesk.com/markets/2026/09/04/bitcoin-clears-usd81-000-as-privacy-coins-lead-a-broad-crypto-rally"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "headline": "Berenberg backs Rocket Lab as Iridium merger clears next step toward a September 24 vote",
+      "summary": "Berenberg initiated coverage on Rocket Lab this week with a Buy rating and an $83 price target, arguing the space industry is approaching $1 trillion and citing the company's backlog and end-to-end launch-to-satellite platform; the firm ra…",
+      "urls": [
+        "https://finance.yahoo.com/markets/stocks/articles/berenberg-launches-space-coverage-initiates-082127939.html",
+        "https://www.fool.com/coverage/filings/2026/09/03/iridium-ceo-sells-over-9-500-shares-as-rocket-lab-is-poised-to-acquire-the-company/"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "headline": "Amundi, Fidelity and other major asset managers rebuild gold positions, eye $5,000",
+      "summary": "Some of the world's largest money managers — Amundi, Pictet Asset Management, Robeco and Fidelity International — have added back gold holdings they cut earlier this year during bullion's pullback from its record high, with Amundi betting…",
+      "urls": [
+        "https://www.bloomberg.com/news/articles/2026-09-04/world-s-biggest-money-managers-are-rebuilding-gold-positions"
+      ]
+    },
     {
       "date": "2026-09-02",
       "headline": "SpaceX asks FCC to scrutinize Iridium's conduct as Rocket Lab's $8B buyout heads to a vote",
@@ -156,56 +197,6 @@
       "summary": "Alibaba's fiscal Q1 revenue rose 9% year-over-year to 268.95 billion yuan ($39.64 billion), but net income dropped 76% to 10.54 billion yuan ($1.55 billion) as capital expenditure climbed 75% to 67.68 billion yuan ($9.98 billion) on AI inf…",
       "urls": [
         "https://finance.yahoo.com/technology/ai/articles/alibaba-q1-2026-earnings-profit-113002329.html"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "headline": "Rocket Lab onboarded to Space Force's $981 million NITE-STAR infrastructure program",
-      "summary": "Rocket Lab was named an awardee on the U.S. Space Force's NITE-STAR IDIQ contract, which has a $981 million ceiling across all awardees for distributed space test and training infrastructure. The onboarding makes Rocket Lab eligible to com…",
-      "urls": [
-        "https://www.stocktitan.net/news/RKLB/rocket-lab-onboarded-to-u-s-space-force-s-981m-nite-star-program-to-m3ozkkr1wi3m.html",
-        "https://www.globenewswire.com/news-release/2026/08/17/3346506/0/en/rocket-lab-onboarded-to-u-s-space-force-s-981m-nite-star-program-to-advance-space-test-and-training-infrastructure.html"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "headline": "Google to buy bankrupt Spirit Airlines' internal records for $10 million to train AI",
-      "summary": "Google won a bankruptcy-court auction with a $10 million bid for Spirit Airlines' internal operational and workplace data, beating a $7.5 million offer from AI data firm Mercor. The trove includes roughly 100 million emails and 500 million…",
-      "urls": [
-        "https://finance.yahoo.com/markets/stocks/articles/10-million-reason-why-google-150639751.html"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "headline": "Gold slips below $4,350 as Treasury yields climb ahead of Fed minutes",
-      "summary": "Gold traded at $4,467.70 an ounce on COMEX, down 0.13% from the prior close, after falling nearly 2% the previous session as the 10-year Treasury yield rose to about 4.72%, near a one-year high. Markets were awaiting Wednesday's release of…",
-      "urls": [
-        "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-tuesday-august-18-2026-gold-falters-as-us-treasury-yields-rise-154856224.html"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "headline": "Duolingo shares jump 7% after DA Davidson upgrade to Buy",
-      "summary": "DA Davidson analyst Wyatt Swanson upgraded Duolingo from neutral to buy and raised his price target from $130 to $160, sending shares up 7.28% on Tuesday. Swanson argued that monetization risks are largely priced in after the stock's rough…",
-      "urls": [
-        "https://www.fool.com/investing/2026/08/18/why-duolingo-stock-popped-today/"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "headline": "Bitcoin apathy sets in as Strategy stays on the sidelines",
-      "summary": "Strategy has not bought any bitcoin since mid-June, according to Bloomberg, and sold $333.7 million of common stock over the past week to fund a preferred-share repurchase and build cash reserves rather than add to its bitcoin holdings. Th…",
-      "urls": [
-        "https://www.bloomberg.com/news/newsletters/2026-08-18/strategy-s-mstr-step-back-is-sinking-in-among-bitcoin-faithful"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "headline": "Alibaba sells gaming unit Lingxi Games for over $1.5 billion, deepening its AI pivot",
-      "summary": "Alibaba has agreed to sell its gaming arm, Lingxi Games, to private-equity firm Trustar Capital in a deal worth at least $1.5 billion, with Alibaba expected to net more than $2 billion from the transaction. Lingxi is profitable, with over…",
-      "urls": [
-        "https://www.bloomberg.com/news/articles/2026-08-17/alibaba-to-sell-gaming-arm-for-1-5-billion-in-boost-to-ai-pivot",
-        "https://www.scmp.com/tech/big-tech/article/3364287/alibaba-sells-gaming-arm-lingxi-games-tech-giant-sharpens-focus-ai-and-e-commerce"
       ]
     }
   ]

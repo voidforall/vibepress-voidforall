@@ -1,0 +1,70 @@
+{
+  "id": "2026-09-04",
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T12:05:12Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "OpenAI's GPT-6 Astra was the day's biggest release, notable less for its benchmark sweep than for being the first OpenAI model to cross the company's own \"Critical\" cybersecurity threshold. MBZUAI's IFM answered in kind with K2 Horizon, six models released with full training data and checkpoints, not just weights. Two stories examined how much invisible influence AI agents already have — one finding Claude, Codex and Cursor barely agree on which vendor to recommend, the other arguing agents are the tireless reader Ted Nelson's Xanadu always needed. And a personal project porting a 1993 Amiga game showed Claude doing real reverse-engineering work, decades-old bugs and all.",
+  "stories": [
+    {
+      "headline": "OpenAI ships GPT-6 Astra, its first model to cross a 'Critical' cybersecurity threshold",
+      "summary": "OpenAI released GPT-6 Astra, calling it its most intelligent and aligned model yet, with state-of-the-art scores on computer-use, coding, math and cybersecurity benchmarks — including 99.9% on ARC-AGI-3 under a provider-optimized harness, 74.1% on the DeepSWE agentic-coding benchmark, and 100% on ExploitBench. It's the first OpenAI model to cross the company's \"Critical\" capability threshold for cybersecurity under its Preparedness Framework. Paying ChatGPT customers and cloud platforms get access in the coming days.",
+      "whyItMatters": "Crossing OpenAI's own \"Critical\" safety threshold for cyber capability, a line the company set for itself, puts real weight behind its claim that Astra needed extra safeguards, not just a capability bump.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "GPT-6 Astra: A new generation of intelligence", "url": "https://openai.com/index/gpt-6-astra/" },
+        { "title": "GPT-6 Astra on ARC-AGI-3", "url": "https://arcprize.org/blog/astra" }
+      ]
+    },
+    {
+      "headline": "MBZUAI's IFM releases K2 Horizon, six open models it calls AI's largest fully open launch yet",
+      "summary": "The Institute of Foundation Models, part of Abu Dhabi's Mohamed bin Zayed University of AI, released K2 Horizon: six Apache 2.0 models from 0.9B to 375B parameters sharing a common architecture and training methodology, published together with their training data, code, checkpoints and logs. IFM says the 0.9B, 3.7B and 7B models set new state-of-the-art results at their respective sizes.",
+      "whyItMatters": "Releasing full training data and intermediate checkpoints alongside weights, not just the weights most \"open\" model releases stop at, lets outside researchers actually reproduce how the models were built.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Introducing K2 Horizon: Frontier Performance, Radically Open", "url": "https://ifm.ai/blog/k2" }
+      ]
+    },
+    {
+      "headline": "Study of 17,000 coding-agent sessions finds Claude, Codex and Cursor agree on which tool to use only 42% of the time",
+      "summary": "Armature ran 16,893 sessions across Claude Code, Codex and Cursor on 75 real repositories and 1,163 prompt variations, tracking which third-party services each agent recommended and picked. The three agents converged on the same tool only 42% of the time; Cursor searches the web for its answer in two-thirds of sessions while Claude Code relies mostly on training data. Frequently mentioned vendors often lost anyway — PayPal was cited 139 times but never actually selected, while Stripe won 9 of 10 payment-service picks.",
+      "whyItMatters": "If which library or vendor a coding agent recommends depends more on which agent you're using than on the tools' merits, that's a new, mostly invisible distribution channel for developer tools.",
+      "category": "Business",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out", "url": "https://armature.tech/blog/which-tools-coding-agents-install" }
+      ]
+    },
+    {
+      "headline": "ICANN's move to kill .name's domain tier threatens to orphan 22,000 addresses",
+      "summary": "Verisign won ICANN approval in July to eliminate third-level .name domains (like neil.fraser.name), and registrant Neil Fraser details what that means in practice: roughly 22,000 domain holders will lose their addresses and associated email in February, even those paid up through 2040, and once freed, those names can be re-registered by anyone else.",
+      "whyItMatters": "Retiring a domain tier doesn't just take down old websites, it recycles email addresses that outside services still treat as proof of identity, creating an account-takeover risk for everyone who used one.",
+      "category": "Business",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": ".name Termination", "url": "https://neil.fraser.name/news/2026/09/03/" }
+      ]
+    },
+    {
+      "headline": "A developer used Claude to reverse-engineer his own 1993 Amiga game's undocumented file formats",
+      "summary": "Rabah Shihab used Claude Fable 5 inside Claude Code to port his 1993 Amiga game Babylonian Twins — 72,758 lines of original 68000 assembly — into Godot, reverse-engineering undocumented binary formats directly from the assembly that reads them and validating results with pixel-perfect render comparisons. The process surfaced decades-old bugs, including a guard's collision check that affected thirteen tiles instead of three, and 108 bytes of leftover uninitialized memory baked into the original shipped binary.",
+      "whyItMatters": "The model handled format recovery and toolchain reconstruction that had stumped the author's own earlier manual attempts, while design judgment and playtesting still needed a human.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly", "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/" }
+      ]
+    },
+    {
+      "headline": "Zed's founder argues AI agents finally make Ted Nelson's 1965 Xanadu vision practical",
+      "summary": "Nathan Sobo argues Project Xanadu's 1965 vision of documents linked by permanent reference rather than copy failed for decades because it needed a reader that never loses track of anything, something no human can do but AI agents now can. He points to Zed's Delta and DeltaDB, which track conversation and code together with identities that survive edits, as an early version of the \"docuverse\" Nelson described.",
+      "whyItMatters": "It's a concrete claim that agents change what software architectures are viable, not just what tasks software can perform, worth watching for whether it holds up beyond one company's own tooling.",
+      "category": "Ideas",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "Xanadu was waiting for agents", "url": "https://zed.dev/blog/agentic-xanadu" }
+      ]
+    }
+  ]
+}

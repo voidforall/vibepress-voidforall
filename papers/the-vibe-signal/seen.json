@@ -1,7 +1,56 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-02T12:03:14Z",
+  "updatedAt": "2026-09-04T12:07:44Z",
   "events": [
+    {
+      "date": "2026-09-04",
+      "headline": "Zed's founder argues AI agents finally make Ted Nelson's 1965 Xanadu vision practical",
+      "summary": "Nathan Sobo argues Project Xanadu's 1965 vision of documents linked by permanent reference rather than copy failed for decades because it needed a reader that never loses track of anything, something no human can do but AI agents now can.…",
+      "urls": [
+        "https://zed.dev/blog/agentic-xanadu"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "headline": "Study of 17,000 coding-agent sessions finds Claude, Codex and Cursor agree on which tool to use only 42% of the time",
+      "summary": "Armature ran 16,893 sessions across Claude Code, Codex and Cursor on 75 real repositories and 1,163 prompt variations, tracking which third-party services each agent recommended and picked. The three agents converged on the same tool only…",
+      "urls": [
+        "https://armature.tech/blog/which-tools-coding-agents-install"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "headline": "OpenAI ships GPT-6 Astra, its first model to cross a 'Critical' cybersecurity threshold",
+      "summary": "OpenAI released GPT-6 Astra, calling it its most intelligent and aligned model yet, with state-of-the-art scores on computer-use, coding, math and cybersecurity benchmarks — including 99.9% on ARC-AGI-3 under a provider-optimized harness,…",
+      "urls": [
+        "https://openai.com/index/gpt-6-astra/",
+        "https://arcprize.org/blog/astra"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "headline": "MBZUAI's IFM releases K2 Horizon, six open models it calls AI's largest fully open launch yet",
+      "summary": "The Institute of Foundation Models, part of Abu Dhabi's Mohamed bin Zayed University of AI, released K2 Horizon: six Apache 2.0 models from 0.9B to 375B parameters sharing a common architecture and training methodology, published together…",
+      "urls": [
+        "https://ifm.ai/blog/k2"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "headline": "ICANN's move to kill .name's domain tier threatens to orphan 22,000 addresses",
+      "summary": "Verisign won ICANN approval in July to eliminate third-level .name domains (like neil.fraser.name), and registrant Neil Fraser details what that means in practice: roughly 22,000 domain holders will lose their addresses and associated emai…",
+      "urls": [
+        "https://neil.fraser.name/news/2026/09/03/"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "headline": "A developer used Claude to reverse-engineer his own 1993 Amiga game's undocumented file formats",
+      "summary": "Rabah Shihab used Claude Fable 5 inside Claude Code to port his 1993 Amiga game Babylonian Twins — 72,758 lines of original 68000 assembly — into Godot, reverse-engineering undocumented binary formats directly from the assembly that reads…",
+      "urls": [
+        "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/"
+      ]
+    },
     {
       "date": "2026-09-02",
       "headline": "The ChatGPT desktop app quietly bundles a full copy of LibreOffice",
@@ -232,48 +281,6 @@
       "summary": "Researchers ran three rounds of self-training on Qwen3-8B against a frozen control processed identically, and found seven distinct measurement failures that can flip a reported gain into a false positive when no control is used. Once measu…",
       "urls": [
         "https://arxiv.org/abs/2608.20290v1"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "headline": "Turbovec brings Google's TurboQuant vector compression to production Rust",
-      "summary": "An open-source project called turbovec implements Google Research's TurboQuant algorithm — a data-oblivious quantizer with no separate training phase — as a Rust vector index with Python bindings. Its authors claim a 10-million-document co…",
-      "urls": [
-        "https://github.com/RyanCodrai/turbovec"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "headline": "Meta's $200 billion child-harm trial opens, drawing comparisons to Big Tobacco",
-      "summary": "A coalition of state attorneys general opened a trial seeking roughly $200 billion in penalties from Meta over claims it built Instagram and Facebook features designed to foster addiction in children. The case leans heavily on internal Met…",
-      "urls": [
-        "https://news.ycombinator.com/item?id=49355825",
-        "https://gulfnews.com/world/americas/meta-meets-its-own-tobacco-moment-as-jury-selection-kicks-off-trial-1.500638112"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "headline": "Cursor launches Origin, folding code hosting into its AI editor",
-      "summary": "Cursor introduced Origin, a code-hosting platform built directly into the editor, letting users store repos in a new Codebase tab, sync in real time from GitHub (which stays the source of truth for pushes), and manage pull requests — inclu…",
-      "urls": [
-        "https://cursor.com/changelog/origin-code-hosting"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "headline": "Cerebras ships CS-4, a rack-scale inference system claiming 30x GPU speed",
-      "summary": "Cerebras unveiled the CS-4, a rack-scale AI accelerator packing three WSE-3 Turbo wafers per unit, claiming up to 30x faster inference than GPU systems and over 1,000 tokens per second on models exceeding 10 trillion parameters. The compan…",
-      "urls": [
-        "https://www.cerebras.ai/cs4"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "headline": "An AI store manager fired its first human employee — after being reminded of its own rules",
-      "summary": "Luna, the AI system running Andon Labs' San Francisco retail store on Claude Opus 4.8, recommended firing an employee who was late to 17 of 23 shifts, abandoned shifts, and misused a company credit card. Luna's own policy called for termin…",
-      "urls": [
-        "https://thenextweb.com/news/andon-market-luna-ai-store-manager-fires-employee",
-        "https://sfstandard.com/2026/08/17/ai-boss-fires-worker/"
       ]
     }
   ]
