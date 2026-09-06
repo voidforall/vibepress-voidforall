@@ -1,0 +1,50 @@
+{
+  "id": "2026-09-06",
+  "date": "2026-09-06",
+  "generatedAt": "2026-09-06T11:38:07Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Alphabet and Rocket Lab both get resolution today: a federal judge preserved Google's ad-tech business by rejecting the DOJ's divestiture demand, while Rocket Lab notched its 94th Electron launch even as its CFO disclosed a routine, plan-based share sale. Bitcoin held near $80,000 on steady corporate buying and a looming Senate vote on crypto market rules, while gold pulled back after a stronger-than-expected jobs report lifted the odds of a near-term Fed rate move.",
+  "stories": [
+    {
+      "headline": "Judge rejects DOJ's bid to force Google to sell its ad exchange",
+      "summary": "U.S. District Judge Leonie Brinkema denied the Justice Department's request that Google divest its AdX ad exchange and open-source the final auction logic of its DFP ad server, ruling on September 2 that the structural proposals \"be and are REJECTED.\" She instead accepted most of the parties' proposed behavioral remedies, as modified by the court; the full reasoning stays sealed for 14 days while both sides request redactions, and a joint final judgment is due within 30 days.",
+      "whyItMatters": "Alphabet keeps its ad-tech business intact rather than facing what commentators called the most consequential structural antitrust breakup of a tech company since the Microsoft case, though Google has signaled it will still appeal the underlying liability finding.",
+      "category": "Regulatory",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "DOJ loses AdX divestiture bid as Brinkema accepts behavioral remedies", "url": "https://ppc.land/doj-loses-adx-divestiture-bid-as-brinkema-accepts-behavioral-remedies/" }
+      ]
+    },
+    {
+      "headline": "Rocket Lab snaps 3-day slide after 94th Electron launch as CFO sells $8.8M in shares",
+      "summary": "Rocket Lab completed its 94th Electron mission, \"Owl Around The World,\" from Mahia, New Zealand, deploying Synspective's StriX radar-imaging satellite into a 575km low-Earth orbit after two weather delays; it was the company's 15th launch of 2026 and extends a perfect track record with Synspective, which has 16 more Electron missions booked through 2030. Shares rose 1% to $63.10, snapping a three-session slide, the same day a filing showed CFO Adam Spice plans to sell 140,157 shares (about $8.77 million) acquired via option exercise under a Rule 10b5-1 plan adopted June 3.",
+      "whyItMatters": "The launch keeps Rocket Lab's delivery record intact ahead of a large contracted backlog, while the CFO's pre-scheduled, plan-based sale gives investors a concrete data point on insider activity to weigh against it.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Rocket Lab Launches 94th Electron Mission | RKLB Stock News", "url": "https://www.stocktitan.net/news/RKLB/mission-success-rocket-lab-launches-94th-electron-1jkddot4erkm.html" },
+        { "title": "RKLB Stock Snaps 3-Day Slide: Investors Shrug Off CFO's $8.8M Sale As Rocket Lab Scores 94th Launch Win", "url": "https://www.tradingview.com/news/stocktwits:7b29dc688094b:0-rklb-stock-snaps-3-day-slide-investors-shrug-off-cfo-s-8-8m-sale-as-rocket-lab-scores-94th-launch-win/" }
+      ]
+    },
+    {
+      "headline": "Bitcoin holds near $80,000 as corporate buying and a Senate crypto bill stay in focus",
+      "summary": "Bitcoin traded near $79,980 on September 6, up 0.43% and still down about 9% year-to-date after rebounding from roughly $63,000 in August. MicroStrategy raised $602.8 million through stock sales between August 24-30 and used $369.7 million of it to buy 4,603 more bitcoin, lifting its total holdings to 845,050 BTC, while the Senate's CLARITY Act, which would split digital-asset oversight between the CFTC and SEC, faces a cloture vote on September 15.",
+      "whyItMatters": "Continued corporate accumulation and a concrete date for a Senate procedural vote give holders two tangible catalysts to track, rather than pure price speculation.",
+      "category": "Crypto",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Bitcoin trades near $80,000 as corporate demand and US crypto policy stay in focus", "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trades-near-80000-as-corporate-demand-and-us-crypto-policy-stay-in-focus-4890272" }
+      ]
+    },
+    {
+      "headline": "Gold slips as a stronger-than-expected jobs report lifts Fed rate-hike odds",
+      "summary": "Gold fell about 0.8% on September 4 to trade near $4,437 after dropping more than 2% intraday, as August nonfarm payrolls came in far above forecast (162,000 versus 56,000 expected). The data pushed money-market odds of a Fed rate increase at the September meeting to 61%, up from 54% a day earlier, and strengthened the dollar, which pressures dollar-priced gold.",
+      "whyItMatters": "A stronger labor market reshuffles the rate expectations investors use to price gold, with next week's PPI and CPI releases set to test whether the pullback holds.",
+      "category": "Commodities",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Gold Forecast, News and Analysis (XAU/USD)", "url": "https://www.fxstreet.com/commodities/gold" }
+      ]
+    }
+  ]
+}

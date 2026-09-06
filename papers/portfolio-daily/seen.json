@@ -1,7 +1,40 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-04T12:07:44Z",
+  "updatedAt": "2026-09-06T11:41:29Z",
   "events": [
+    {
+      "date": "2026-09-06",
+      "headline": "Rocket Lab snaps 3-day slide after 94th Electron launch as CFO sells $8.8M in shares",
+      "summary": "Rocket Lab completed its 94th Electron mission, \"Owl Around The World,\" from Mahia, New Zealand, deploying Synspective's StriX radar-imaging satellite into a 575km low-Earth orbit after two weather delays; it was the company's 15th launch…",
+      "urls": [
+        "https://www.stocktitan.net/news/RKLB/mission-success-rocket-lab-launches-94th-electron-1jkddot4erkm.html",
+        "https://www.tradingview.com/news/stocktwits:7b29dc688094b:0-rklb-stock-snaps-3-day-slide-investors-shrug-off-cfo-s-8-8m-sale-as-rocket-lab-scores-94th-launch-win/"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "headline": "Judge rejects DOJ's bid to force Google to sell its ad exchange",
+      "summary": "U.S. District Judge Leonie Brinkema denied the Justice Department's request that Google divest its AdX ad exchange and open-source the final auction logic of its DFP ad server, ruling on September 2 that the structural proposals \"be and ar…",
+      "urls": [
+        "https://ppc.land/doj-loses-adx-divestiture-bid-as-brinkema-accepts-behavioral-remedies/"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "headline": "Gold slips as a stronger-than-expected jobs report lifts Fed rate-hike odds",
+      "summary": "Gold fell about 0.8% on September 4 to trade near $4,437 after dropping more than 2% intraday, as August nonfarm payrolls came in far above forecast (162,000 versus 56,000 expected). The data pushed money-market odds of a Fed rate increase…",
+      "urls": [
+        "https://www.fxstreet.com/commodities/gold"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "headline": "Bitcoin holds near $80,000 as corporate buying and a Senate crypto bill stay in focus",
+      "summary": "Bitcoin traded near $79,980 on September 6, up 0.43% and still down about 9% year-to-date after rebounding from roughly $63,000 in August. MicroStrategy raised $602.8 million through stock sales between August 24-30 and used $369.7 million…",
+      "urls": [
+        "https://www.investing.com/news/cryptocurrency-news/bitcoin-trades-near-80000-as-corporate-demand-and-us-crypto-policy-stay-in-focus-4890272"
+      ]
+    },
     {
       "date": "2026-09-04",
       "headline": "Google rolls out Gemini-powered 'Live' voice features across Gmail, Docs and Keep",
@@ -157,46 +190,6 @@
       "summary": "Alibaba offered $1.5 billion for Fujian-based instant-grocery platform Pupu, more than double a prior $600 million bid from Sun Art Retail, as Alibaba pushes deeper into supply-chain-backed local commerce to compete with Meituan and JD.com…",
       "urls": [
         "https://finance.yahoo.com/markets/stocks/articles/baba-makes-1-5b-play-140700553.html"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "headline": "Rocket Lab completes 93rd Electron launch for Japan's iQPS as space stocks slide",
-      "summary": "Rocket Lab launched a QPS-SAR satellite for Japan's iQPS in its 14th mission of the year and ninth dedicated iQPS launch, with nine more Electron launches booked for iQPS through 2030. RKLB shares fell more than 4% on the day, but the drop…",
-      "urls": [
-        "https://finance.yahoo.com/markets/stocks/articles/rklb-stock-focus-rocket-lab-181515807.html"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "headline": "Marvell grants Google an option to buy up to $12.2 billion in shares tied to AI chip orders",
-      "summary": "Marvell gave Google a warrant to purchase up to 58.97 million shares at $206.58 each, unlocking in tranches as Google buys custom chips for its TPU ecosystem — inference accelerators, networking, storage and memory-interface controllers —…",
-      "urls": [
-        "https://finance.yahoo.com/technology/articles/marvell-grants-google-12-2-123812695.html"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "headline": "Gold climbs to an 11-week high above $4,550 as Treasury bond buybacks hit the dollar",
-      "summary": "Gold (XAU/USD) traded around $4,550, up 0.65% and its highest level in over 11 weeks, reversing the previous week's dip below $4,350. The move follows the Treasury Department's decision to double buybacks of longer-dated debt, which pushed…",
-      "urls": [
-        "https://www.fxstreet.com/analysis/gold-price-forecast-xau-usd-extends-rally-as-us-debt-concerns-continue-to-drag-us-dollar-202608210629"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "headline": "Bitcoin and ether jump as Trump pushes the Clarity Act and Treasury eases borrowing costs",
-      "summary": "Bitcoin opened up 7.1% on the day to reach $71,980 and ether opened up 17.5% to reach $2,293, with bitcoin later climbing toward $75,000, as President Trump pushed for the Clarity Act, which would define whether cryptocurrencies are regula…",
-      "urls": [
-        "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-20-2026-crypto-prices-surge-after-president-trump-pushes-for-clarity-act-154014757.html"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "headline": "Alibaba's profit falls 76% as AI capex jumps 75%, even as cloud revenue grows 45%",
-      "summary": "Alibaba's fiscal Q1 revenue rose 9% year-over-year to 268.95 billion yuan ($39.64 billion), but net income dropped 76% to 10.54 billion yuan ($1.55 billion) as capital expenditure climbed 75% to 67.68 billion yuan ($9.98 billion) on AI inf…",
-      "urls": [
-        "https://finance.yahoo.com/technology/ai/articles/alibaba-q1-2026-earnings-profit-113002329.html"
       ]
     }
   ]

@@ -1,0 +1,50 @@
+{
+  "id": "2026-09-06",
+  "date": "2026-09-06",
+  "generatedAt": "2026-09-06T11:38:07Z",
+  "editionTitle": "投资组合日报",
+  "editorNote": "今天Alphabet和Rocket Lab双双迎来阶段性结果:一名联邦法官驳回了司法部要求谷歌剥离广告业务的诉求,谷歌广告技术业务得以保留;Rocket Lab完成第94次Electron发射的同时,其首席财务官也披露了一笔按计划进行的例行股票出售。比特币在企业持续买入和参议院加密货币法案表决临近的背景下守住8万美元关口;黄金则因强于预期的就业数据推高美联储加息预期而回落。",
+  "stories": [
+    {
+      "headline": "法官驳回司法部要求谷歌出售广告交易平台的诉求",
+      "summary": "美国联邦地区法官莱奥妮·布林克玛(Leonie Brinkema)驳回了司法部要求谷歌剥离其AdX广告交易平台、并将其DFP广告服务器的最终竞价逻辑开源的请求,9月2日的裁决称结构性方案\"被且予以驳回\"。她转而接受了双方提出的大部分行为性补救措施(经法院修改),完整的裁决理由将保密14天以供双方申请涂黑处理,联合最终判决须在30天内提交。",
+      "whyItMatters": "Alphabet得以保住其广告技术业务完整,避免了评论人士所称的自微软反垄断案以来针对科技公司最重大的结构性拆分,不过谷歌已表示仍将对相关责任认定提出上诉。",
+      "category": "监管",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "DOJ loses AdX divestiture bid as Brinkema accepts behavioral remedies", "url": "https://ppc.land/doj-loses-adx-divestiture-bid-as-brinkema-accepts-behavioral-remedies/" }
+      ]
+    },
+    {
+      "headline": "Rocket Lab完成第94次Electron发射后止住三日跌势,首席财务官出售880万美元股票",
+      "summary": "Rocket Lab从新西兰马希亚发射场完成第94次Electron任务\"Owl Around The World\",将Synspective公司的StriX雷达成像卫星送入575公里的近地轨道,此前因大风两度推迟;这是该公司2026年第15次发射,并延续了与Synspective合作以来的全胜纪录,后者还有16次Electron任务将持续执行至2030年。股价当日上涨1%至63.10美元,结束三个交易日的跌势;同一天的文件显示,首席财务官亚当·斯派斯(Adam Spice)计划出售通过行使期权获得的140,157股股票,价值约877万美元,该交易依据6月3日通过的10b5-1交易计划安排。",
+      "whyItMatters": "此次发射使Rocket Lab在大量在手合同订单面前保持了交付纪录,而首席财务官这笔按计划安排的股票出售则为投资者提供了一个可与之权衡的具体内部交易数据点。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Rocket Lab Launches 94th Electron Mission | RKLB Stock News", "url": "https://www.stocktitan.net/news/RKLB/mission-success-rocket-lab-launches-94th-electron-1jkddot4erkm.html" },
+        { "title": "RKLB Stock Snaps 3-Day Slide: Investors Shrug Off CFO's $8.8M Sale As Rocket Lab Scores 94th Launch Win", "url": "https://www.tradingview.com/news/stocktwits:7b29dc688094b:0-rklb-stock-snaps-3-day-slide-investors-shrug-off-cfo-s-8-8m-sale-as-rocket-lab-scores-94th-launch-win/" }
+      ]
+    },
+    {
+      "headline": "企业买盘与参议院加密法案受关注,比特币守住8万美元附近",
+      "summary": "9月6日比特币交易价约为79,980美元,上涨0.43%,年内跌幅仍约9%,此前已从8月约6.3万美元反弹。MicroStrategy在8月24日至30日期间通过股票发行筹集6.028亿美元,并动用其中3.697亿美元增持4,603枚比特币,使其总持仓达到845,050枚;与此同时,参议院将把数字资产监管权在商品期货交易委员会(CFTC)和证券交易委员会(SEC)之间划分的《CLARITY法案》将于9月15日进行结束辩论表决。",
+      "whyItMatters": "持续的企业增持以及参议院程序性表决的明确日期,为持有者提供了两个具体可追踪的催化因素,而非单纯的价格猜测。",
+      "category": "加密货币",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Bitcoin trades near $80,000 as corporate demand and US crypto policy stay in focus", "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trades-near-80000-as-corporate-demand-and-us-crypto-policy-stay-in-focus-4890272" }
+      ]
+    },
+    {
+      "headline": "强于预期的就业数据推高美联储加息预期,黄金回落",
+      "summary": "9月4日黄金下跌约0.8%,盘中一度跌幅超过2%,报每盎司约4,437美元,原因是8月非农就业数据远超预期(实际16.2万,预期5.6万)。该数据将市场对美联储9月会议加息的概率预期推高至61%,高于前一天的54%,并提振了美元,而美元走强会给以美元计价的黄金带来压力。",
+      "whyItMatters": "强于预期的就业市场重塑了投资者用以为黄金定价的利率预期,下周即将公布的PPI和CPI数据将检验此次回调能否延续。",
+      "category": "大宗商品",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Gold Forecast, News and Analysis (XAU/USD)", "url": "https://www.fxstreet.com/commodities/gold" }
+      ]
+    }
+  ]
+}

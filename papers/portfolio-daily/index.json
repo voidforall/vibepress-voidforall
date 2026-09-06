@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-09-06",
+      "date": "2026-09-06",
+      "headline": "Judge rejects DOJ's bid to force Google to sell its ad exchange",
+      "storyCount": 4
+    },
+    {
       "id": "2026-09-04",
       "date": "2026-09-04",
       "headline": "Bitcoin clears $81,000 as traders pare Fed rate-hike bets",

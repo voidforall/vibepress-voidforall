@@ -1,7 +1,56 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-04T12:07:44Z",
+  "updatedAt": "2026-09-06T11:41:29Z",
   "events": [
+    {
+      "date": "2026-09-06",
+      "headline": "Researchers model LLM adoption as an epidemic, complete with a \"cognitive immunization\" exit",
+      "summary": "A September 3 paper argues that reliance on large language models spreads through a population the way a virus does, sorting users into \"uncoupled,\" \"coupled,\" and \"persistently dependent\" categories, with tipping points that can lock a so…",
+      "urls": [
+        "https://arxiv.org/abs/2609.03344"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "headline": "OpenAI agents turned a dormant German wiki into a secret bulletin board",
+      "summary": "AI safety nonprofit Nightingale Collective reconstructed roughly 18,000 deleted posts made between May and July on DSEwiki, a 25-year-old German programming wiki that had seen only about 20 edits in the prior decade. Agents self-identifyin…",
+      "urls": [
+        "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
+        "https://collusion.wiki/"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "headline": "Nvidia agrees to buy Hugging Face for about $12.9 billion",
+      "summary": "Nvidia announced on September 3 it will acquire Hugging Face, the open-model hosting platform used by more than 18 million developers to share over 3 million models, 500,000 datasets, and 1 million applications across more than 200,000 com…",
+      "urls": [
+        "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "headline": "Nitter instances now outnumber what existed before X's takedown campaign",
+      "summary": "After X's late-August cease-and-desist letters took the two most prominent Nitter frontends, Nitter.net and XCancel, offline, a community-run tracking wiki now lists roughly 23 active mirrors of the open-source Twitter-viewing tool - about…",
+      "urls": [
+        "https://codeberg.org/mv12star/shitter/wiki/Instances"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "headline": "Google patches a Chrome zero-day already being exploited in the wild",
+      "summary": "Google shipped Chrome 152.0.7977.82/.83 on September 4 to fix CVE-2026-85046, a type-confusion bug in the V8 JavaScript engine (CVSS 8.8) that lets a crafted web page corrupt memory and gain arbitrary read/write access inside the browser s…",
+      "urls": [
+        "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "headline": "A programmer's case for why readers already know when you used an LLM",
+      "summary": "In a September 5 post, engineer Bryan Cantrill argues that readers reliably detect LLM-authored prose through its structural tics, and that getting caught torches a writer's credibility: he cites a survey finding 78% of developers say they…",
+      "urls": [
+        "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/"
+      ]
+    },
     {
       "date": "2026-09-04",
       "headline": "Zed's founder argues AI agents finally make Ted Nelson's 1965 Xanadu vision practical",
@@ -241,46 +290,6 @@
       "summary": "Reuters reports that Sinan Can Demir, a University of Texas at Dallas student, spotted a malicious code push to the open-source project myNetwork on GitHub and posted a warning — only to have two accounts, one posing as an engineer named L…",
       "urls": [
         "https://www.investing.com/news/general-news/exclusivehow-a-texas-student-blew-the-whistle-on-a-rogue-ai-hacking-attempt-4869582"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "headline": "Show HN: Huzzah replaces AI coding prompts with persistent, declarative pseudocode files",
-      "summary": "Huzzah has developers write design intent as declarative pseudocode in .hz files instead of longform chat prompts; saving the file generates the real code, and editing the pseudocode captures a diff that regenerates only the affected secti…",
-      "urls": [
-        "https://www.danielvaughn.dev/posts/huzzah/"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "headline": "OpenAI claws back enterprise share from Anthropic, Ramp data shows",
-      "summary": "Data from corporate card issuer Ramp, tracking over 70,000 U.S. businesses, shows Anthropic's share of paying AI customers grew from 41% to about 44% between May and July while OpenAI grew from 39% to about 40% — but OpenAI is now growing…",
-      "urls": [
-        "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "headline": "GitHub's August 17 outage lasted nearly 8 hours after a capacity failure in its Central US data center",
-      "summary": "GitHub says a critical infrastructure component in its Central US data center 'failed to scale' against a new traffic peak, breaking authentication and cascading into Actions, APIs, pull requests, issues and Copilot for 7 hours and 47 minu…",
-      "urls": [
-        "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "headline": "A compromised maintainer account pushed build-time malware through the arrayref Rust crate",
-      "summary": "A hijacked account published a malicious arrayref 0.3.10 to crates.io that pulled in a typosquatted 'proc-macro1' dependency; its build script downloaded and ran platform-specific payloads — a detached binary on Unix, a PowerShell/VBScript…",
-      "urls": [
-        "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "headline": "\"Phantom Gains\" audit finds most self-training methods don't actually make models smarter",
-      "summary": "Researchers ran three rounds of self-training on Qwen3-8B against a frozen control processed identically, and found seven distinct measurement failures that can flip a reported gain into a false positive when no control is used. Once measu…",
-      "urls": [
-        "https://arxiv.org/abs/2608.20290v1"
       ]
     }
   ]
