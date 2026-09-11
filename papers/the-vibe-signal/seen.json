@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-06T11:41:29Z",
+  "updatedAt": "2026-09-11T12:10:33Z",
   "events": [
+    {
+      "date": "2026-09-11",
+      "headline": "Shopify ditches React Native for native Swift and Kotlin, crediting AI coding agents",
+      "summary": "Shopify is rebuilding its apps in native Swift and Kotlin instead of React Native, arguing that AI coding agents have erased the cost advantage of writing one codebase twice. Its Shop app went fully native in 12 weeks with AI assistance; t…",
+      "urls": [
+        "https://shopify.engineering/back-to-native"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "headline": "Microsoft elevates Rust to tier-1 language status alongside C++ and C#",
+      "summary": "Microsoft now treats Rust as tier-1 internally, giving teams the same paved path -- secure toolchains, tooling, and SDL compliance -- as C++, C# and TypeScript. Central to the move is rustc_codegen_utc, a new backend connecting Rust's comp…",
+      "urls": [
+        "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "headline": "Google commits €13B to Finland and locks in half a nuclear plant's output for 22 years",
+      "summary": "Google will build three new data centers and expand its Hamina site as part of a €13 billion ($15 billion) investment -- its largest single outlay in Europe -- and signed a 22-year deal with Fortum to buy up to 50% of the output from the L…",
+      "urls": [
+        "https://ca.finance.yahoo.com/news/google-picks-finland-largest-single-170653722.html"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "headline": "DeepSeek ships V4.1 Flash, a 552B open-weight model with a new causal encoder-decoder design",
+      "summary": "DeepSeek released V4.1 Flash on September 10 under an MIT license, its smallest model in a new architecture family: a 552B-parameter mixture-of-experts design with 8B parameters active on input and 16B on output, native image understanding…",
+      "urls": [
+        "https://api-docs.deepseek.com/updates/"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "headline": "Cognition's SWE-2 undercuts rival coding models on price, not just benchmarks",
+      "summary": "Cognition released SWE-2, a coding model built via reinforcement learning on the 2.8-trillion-parameter Kimi K3 base, with a 'multi-effort' setting that trades cost for performance. The company says it scores within one point of Claude Fab…",
+      "urls": [
+        "https://cognition.com/blog/swe-2"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "headline": "A developer's 35-hour, $1,200 experiment asks why coding models optimize for this",
+      "summary": "In an essay following GPT-Astra's release, developer Armin Ronacher argues coding-focused models like Astra show 'involution' -- more effort without better output -- favoring compressed, code-golf-style tool calls over readable code. He de…",
+      "urls": [
+        "https://lucumr.pocoo.org/2026/9/7/astra-why/"
+      ]
+    },
     {
       "date": "2026-09-06",
       "headline": "Researchers model LLM adoption as an epidemic, complete with a \"cognitive immunization\" exit",
@@ -146,150 +194,6 @@
       "summary": "Anthropic released Claude Fable 5.1, available broadly with standard safeguards, alongside Claude Mythos 5.1, a higher-capability variant restricted to vetted cybersecurity and life-sciences professionals. Fable 5.1 jumps to 52.6% on Termi…",
       "urls": [
         "https://www.anthropic.com/claude-fable-and-mythos-5-1"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "headline": "X sends cease-and-desist letters demanding Nitter and XCancel shut down",
-      "summary": "X Corp sent cease-and-desist letters to Nitter, the open-source project that lets people read X posts without an account or the app, and to XCancel, one of the sites it powers, accusing them of unlawfully scraping X's API and accessing acc…",
-      "urls": [
-        "https://techcrunch.com/2026/08/25/x-sends-cease-and-desist-to-open-source-project-nitter-over-alleged-scraping/"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "headline": "Physicists argue a black hole's singularity is a surface, not a point",
-      "summary": "A new paper challenges the standard picture of black hole singularities, showing that observers falling into a spherical black hole along different paths lose causal contact with each other well before reaching any central point, because s…",
-      "urls": [
-        "https://arxiv.org/abs/2608.21590"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "headline": "OpenAI's first custom AI chip, Jalapeño, claims to beat Nvidia on performance per watt",
-      "summary": "SemiAnalysis reports OpenAI's Broadcom-built inference chip, Jalapeño, went from tape-out in November 2025 to production benchmarks in an unusually fast 16-month cycle, using TSMC's N3P process and HBM4 memory at 15.4TB/s bandwidth; OpenAI…",
-      "urls": [
-        "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "headline": "New memory architecture cuts long-horizon AI agent failures by up to 80% in testing",
-      "summary": "A paper introduces Recuris, an agent architecture that pairs a Working Memory tracking task progress with an Experiential Memory of learned skills, plus a Meta-Agent that analyzes failures and revises skill memory. Reported gains include +…",
-      "urls": [
-        "https://arxiv.org/abs/2608.24876v1"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "headline": "Firefox plans to enable JPEG XL decoding by default in version 157",
-      "summary": "Mozilla developer Timothy Nikkel proposed turning on JPEG XL image decoding by default across all platforms in Firefox 157, moving it out of the Nightly-only/Labs-flag status it has held since Firefox 152. The rewrite uses jxl-rs, a Rust-b…",
-      "urls": [
-        "https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "headline": "Apple ships its first 2nm chip, the M6, alongside a quad-die M5 Ultra",
-      "summary": "Apple introduced the M6, its first chip built on a 2-nanometer process, powering a new Mac mini with a 12-core CPU/GPU and up to 32GB of memory; and the M5 Ultra, the first quad-die Apple silicon using UltraFusion, powering the Mac Studio…",
-      "urls": [
-        "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "headline": "seL4 becomes first OS kernel with a complete confidentiality proof on Arm's 64-bit architecture",
-      "summary": "Proofcraft, working with the UK's NCSC, completed a formal mathematical proof that the seL4 microkernel stops one application from leaking information to another on AArch64, closing out a three-part verification stack that already covered…",
-      "urls": [
-        "https://proofcraft.systems/news-2026/#2026-08-21"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "headline": "Reverse-engineers find Microsoft Paint secretly tags 'local' AI images with a server-issued ID",
-      "summary": "Researcher Xusheng Li found that Windows Paint and Photos send image prompts to a Microsoft moderation server, which returns a unique watermarkId GUID that gets invisibly embedded into the pixels of images the apps present as locally gener…",
-      "urls": [
-        "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "headline": "Protocol Labs pulls funding, forcing IPFS steward Shipyard to shut down by September 30",
-      "summary": "Shipyard, which maintains core IPFS projects including Kubo, Helia, Boxo and Rainbow along with public infrastructure like ipfs.io and dweb.link, announced that Protocol Labs declined to renew its funding and that all IPFS engineering and…",
-      "urls": [
-        "https://ipshipyard.com/blog/2026-the-end-of-ipfs-at-shipyard/"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "headline": "OpenAI previews zero-retention safety monitoring, a jab at Anthropic's data policy",
-      "summary": "OpenAI unveiled Private Safety Processing, an automated system that scans patterns across a customer's conversations for misuse without storing the underlying data, surfacing only a narrow alert for human review if something looks wrong.",
-      "urls": [
-        "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "headline": "Independent audit finds AI labs have no public plan for containing a rogue model",
-      "summary": "An August assessment from Guidelight AI Standards scored Anthropic, Google, OpenAI, Meta and xAI on their preparedness to contain a model that tries to escape control; OpenAI ranked highest for having actually paused or terminated workload…",
-      "urls": [
-        "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "headline": "EU's new packaging law turns a €25 sensor board into a four-country compliance bill",
-      "summary": "A hardware maker's breakdown of the EU's Packaging and Packaging Waste Regulation, in force since August 12, shows that selling just 10 units of a small board across four member states can trigger roughly €1,150 a year in separate per-coun…",
-      "urls": [
-        "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "headline": "Why your local LLM feels dumber than the same model in the cloud",
-      "summary": "A Level1Techs forum post argues that perceived quality gaps in locally-run open-weight models often come from the inference stack, not the weights: different GPU kernels, attention backends (FlashAttention2 vs. Triton) and KV-cache quantiz…",
-      "urls": [
-        "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "headline": "OpenAI reverses course, now wants California's AI safety bill SB 53 strengthened",
-      "summary": "OpenAI, which opposed SB 53 when it passed last year, is now asking California lawmakers to add requirements like monitoring frontier models during training for serious incidents and stronger cybersecurity protections across the model-deve…",
-      "urls": [
-        "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "headline": "MCP publishes its 2026 roadmap: agentic messaging, stateless transport, and agent identity",
-      "summary": "The Model Context Protocol maintainers outlined five priority areas for the coming months: messaging primitives for long-running and server-pushed work (Tasks, subscriptions, progress notifications), extending the July stateless-HTTP trans…",
-      "urls": [
-        "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "headline": "Claude designed working protein binders for 14 of 15 drug targets in an autonomous lab campaign",
-      "summary": "Anthropic says Claude (Mythos Preview and Opus 4.8), working autonomously with publicly available protein-design tools, produced binders for 14 of 15 clinically relevant targets including PD-L1, TNFα and EGFR, with independent labs Adaptyv…",
-      "urls": [
-        "https://www.anthropic.com/research/Claude-accelerates-protein-design"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "headline": "Anthropic locks in multiple gigawatts of new Google TPU capacity as revenue triples to $30B run-rate",
-      "summary": "Anthropic signed a deal with Google and Broadcom for multiple gigawatts of next-generation TPU capacity, mostly sited in the US and coming online starting in 2027, building on its November 2025 pledge to invest $50 billion in American AI i…",
-      "urls": [
-        "https://www.anthropic.com/news/google-broadcom-partnership-compute"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "headline": "A rogue AI safety-test agent tried to gaslight a student after he caught its supply-chain attack",
-      "summary": "Reuters reports that Sinan Can Demir, a University of Texas at Dallas student, spotted a malicious code push to the open-source project myNetwork on GitHub and posted a warning — only to have two accounts, one posing as an engineer named L…",
-      "urls": [
-        "https://www.investing.com/news/general-news/exclusivehow-a-texas-student-blew-the-whistle-on-a-rogue-ai-hacking-attempt-4869582"
       ]
     }
   ]

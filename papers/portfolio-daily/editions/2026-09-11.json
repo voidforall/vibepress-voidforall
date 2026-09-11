@@ -1,0 +1,92 @@
+{
+  "id": "2026-09-11",
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-11T00:00:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Today's edition centers on a fresh flashpoint between Washington and Beijing over AI model distillation, alongside a run of watchlist moves driven by the same hot inflation print: bitcoin and gold both retreated ahead of today's CPI report. Elsewhere, Google's Gemini Enterprise platform found its way into industrial welding robots, Berkshire Hathaway's filings revealed a quietly built Alphabet stake, and Duolingo and Rocket Lab posted incremental, unspectacular updates. A guilty plea in one of the largest bitcoin thefts on record rounds out a day that was more about positioning than fireworks.",
+  "stories": [
+    {
+      "headline": "US agencies name Alibaba in a joint advisory on AI-model distillation",
+      "summary": "The NSA, CISA and FBI issued a joint advisory on September 8 accusing six China-based AI developers -- Alibaba, DeepSeek, Moonshot AI, MiniMax, StepFun and Z.AI -- of running industrial-scale distillation campaigns against US frontier models including Claude, GPT, Gemini and Grok, extracting billions of tokens via gray-market API proxies. Alibaba's US-listed shares fell about 0.4% to $108.93 the next day as investors weighed the fallout.",
+      "whyItMatters": "A formal multi-agency advisory raises the odds of tighter access controls or compliance costs that could complicate Alibaba's push to make Qwen a global AI platform.",
+      "category": "Regulatory",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "CISA/NSA/FBI joint advisory AA26-251A", "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a" },
+        { "title": "Alibaba Drops as Washington Turns AI Distillation Into Geopolitical Risk", "url": "https://ca.finance.yahoo.com/news/alibaba-drops-washington-turns-ai-184335216.html" }
+      ]
+    },
+    {
+      "headline": "Bitcoin falls below $77,000 as hot producer prices lift Fed rate-hike odds",
+      "summary": "Bitcoin dropped nearly 2% to just under $77,000 -- a weekly loss of more than 5% -- after August producer prices rose 5.4% year-over-year, above the 5.1% forecast, pushing 30-year Treasury yields to a 19-year high. Odds of a Fed rate hike next week rose to about 70%, and US spot bitcoin ETFs saw $120 million in outflows.",
+      "whyItMatters": "The move shows bitcoin trading in step with rate expectations rather than as an inflation hedge, with technical support seen near $76,270.",
+      "category": "Crypto",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Bitcoin Below $77,000 as Traders Bet on a Fed Rate Hike", "url": "https://www.coindesk.com/markets/2026/09/11/bitcoin-below-usd77-000-zcash-leads-losses-as-traders-bet-on-a-fed-rate-hike" }
+      ]
+    },
+    {
+      "headline": "Gold heads for a third straight weekly decline ahead of today's CPI report",
+      "summary": "Spot gold traded near $4,328 an ounce, up slightly on the day but on track to lose about 2% this week -- its third consecutive weekly decline -- after Thursday's hotter-than-expected August producer-price data lifted Fed rate-hike bets. Markets are awaiting Friday's CPI print, the last major inflation data before next week's Fed meeting.",
+      "whyItMatters": "Rising rate-hike expectations are capping gold's upside even as geopolitical risk and oil above $100 a barrel keep some safe-haven demand in play.",
+      "category": "Commodities",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Gold - Price - Chart - Historical Data", "url": "https://tradingeconomics.com/commodity/gold" },
+        { "title": "Gold eyes $4,300 break as USD sticks to gains amid Fed hike bets, ahead of US CPI", "url": "https://www.fxstreet.com/news/gold-eyes-4-300-break-as-usd-sticks-to-gains-amid-fed-hike-bets-ahead-of-us-cpi-202609110345" }
+      ]
+    },
+    {
+      "headline": "Fanuc shares hit a record high on a new Google-powered welding AI",
+      "summary": "Fanuc and Google unveiled the 'AI Welding Agent,' which reads engineering drawings and auto-generates robotic arc-welding programs using Google Cloud's Gemini Enterprise platform, requiring \"zero setup and zero teaching.\" Fanuc shares jumped as much as 15.6% to an all-time high of ¥8,880; the system will be demoed September 16 and starts shipping by year-end.",
+      "whyItMatters": "It extends Google's Gemini Enterprise push into industrial robotics -- Fanuc says it has already shipped over 1,000 physical-AI-equipped robots since December.",
+      "category": "Company",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "FANUC Accelerates Physical AI in Arc Welding with the New 'AI Welding Agent'", "url": "https://www.fanuc.co.jp/en/profile/pr/newsrelease/2026/notice20260911.html" },
+        { "title": "Japan's Fanuc shares hit record high on Google physical AI partnership", "url": "https://www.investing.com/news/stock-market-news/japans-fanuc-shares-hit-record-high-on-google-physical-ai-partnership-4687155" }
+      ]
+    },
+    {
+      "headline": "Alphabet cracks Berkshire Hathaway's top five holdings",
+      "summary": "Berkshire Hathaway added 24.5 million Alphabet shares last quarter, a 45% increase, lifting its stake to roughly 79 million shares worth about $28.2 billion -- its fourth-largest holding at 9.41% of the portfolio. Berkshire only began buying Alphabet a year ago with an initial $4.4 billion purchase; Alphabet shares are down about 7% over the past month on AI-capex concerns.",
+      "whyItMatters": "It's the first stock to enter Berkshire's top five in years, disclosed via regulatory filing rather than any statement of intent from the company.",
+      "category": "Markets",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Berkshire Hathaway Has a New Top Holding, and It Dominates Its Market", "url": "https://www.fool.com/investing/2026/09/11/berkshire-hathaway-has-a-new-top-holding-and-it-do/" }
+      ]
+    },
+    {
+      "headline": "Duolingo shares rebound 4.3% after a two-day slide",
+      "summary": "Duolingo stock closed up 4.3% at $145.16 on Thursday, recovering part of a prior slide. Second-quarter daily active users rose 23% year-over-year, but bookings -- the metric closer to near-term demand -- grew only 8%, a gap that's central to the debate over the stock's valuation.",
+      "whyItMatters": "The bookings-versus-engagement gap, not the user-growth headline, is what analysts say will determine whether the current valuation holds up.",
+      "category": "Company",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "Duolingo Stock Rebounds 4.3%--Why 23% User Growth Isn't the Key Number", "url": "https://ts2.tech/en/duolingo-stock-rebounds-4-3-why-23-user-growth-isnt-the-key-number/" }
+      ]
+    },
+    {
+      "headline": "Rocket Lab completes its 16th Electron launch of the year",
+      "summary": "Rocket Lab's \"Happily Ever Faster\" mission lifted off from Launch Complex 1 in New Zealand, deploying a single Earth-observation satellite to a 500km orbit for a confidential customer. It was the company's 95th Electron launch overall and 16th of 2026, with another commercial launch planned before month's end.",
+      "whyItMatters": "The steady launch cadence underscores Rocket Lab's position as the leading small-launch provider, independent of any single mission's dollar value.",
+      "category": "Company",
+      "importance": 7,
+      "sourceLinks": [
+        { "title": "Rocket Lab Successfully Launches 16th Electron Mission Of The Year", "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-successfully-launches-16th-electron-mission-year" }
+      ]
+    },
+    {
+      "headline": "Singapore-born hacker pleads guilty in $240 million bitcoin theft",
+      "summary": "Malone Lam, 22, pleaded guilty Tuesday to a federal racketeering conspiracy charge for orchestrating the theft of over 4,100 bitcoin -- about $245 million at the time -- from a Washington, D.C. resident in August 2024, using social-engineering tactics that impersonated Google and Gemini exchange staff. He faces up to 20 years in prison and is the 11th of 18 charged defendants to plead guilty.",
+      "whyItMatters": "It's one of the largest cryptocurrency thefts prosecuted in the US and a reminder that custody of crypto assets, not just their price, carries security risk.",
+      "category": "Crypto",
+      "importance": 8,
+      "sourceLinks": [
+        { "title": "Singapore man in U.S. pleads guilty to orchestrating $240 million bitcoin theft", "url": "https://www.nbcnews.com/news/us-news/singapore-man-us-pleads-guilty-orchestrating-240-million-bitcoin-theft-rcna596761" }
+      ]
+    }
+  ]
+}

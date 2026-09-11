@@ -1,7 +1,74 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-06T11:41:29Z",
+  "updatedAt": "2026-09-11T12:10:33Z",
   "events": [
+    {
+      "date": "2026-09-11",
+      "headline": "US agencies name Alibaba in a joint advisory on AI-model distillation",
+      "summary": "The NSA, CISA and FBI issued a joint advisory on September 8 accusing six China-based AI developers -- Alibaba, DeepSeek, Moonshot AI, MiniMax, StepFun and Z.AI -- of running industrial-scale distillation campaigns against US frontier mode…",
+      "urls": [
+        "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+        "https://ca.finance.yahoo.com/news/alibaba-drops-washington-turns-ai-184335216.html"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "headline": "Singapore-born hacker pleads guilty in $240 million bitcoin theft",
+      "summary": "Malone Lam, 22, pleaded guilty Tuesday to a federal racketeering conspiracy charge for orchestrating the theft of over 4,100 bitcoin -- about $245 million at the time -- from a Washington, D.C. resident in August 2024, using social-enginee…",
+      "urls": [
+        "https://www.nbcnews.com/news/us-news/singapore-man-us-pleads-guilty-orchestrating-240-million-bitcoin-theft-rcna596761"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "headline": "Rocket Lab completes its 16th Electron launch of the year",
+      "summary": "Rocket Lab's \"Happily Ever Faster\" mission lifted off from Launch Complex 1 in New Zealand, deploying a single Earth-observation satellite to a 500km orbit for a confidential customer. It was the company's 95th Electron launch overall and…",
+      "urls": [
+        "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-successfully-launches-16th-electron-mission-year"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "headline": "Gold heads for a third straight weekly decline ahead of today's CPI report",
+      "summary": "Spot gold traded near $4,328 an ounce, up slightly on the day but on track to lose about 2% this week -- its third consecutive weekly decline -- after Thursday's hotter-than-expected August producer-price data lifted Fed rate-hike bets. Ma…",
+      "urls": [
+        "https://tradingeconomics.com/commodity/gold",
+        "https://www.fxstreet.com/news/gold-eyes-4-300-break-as-usd-sticks-to-gains-amid-fed-hike-bets-ahead-of-us-cpi-202609110345"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "headline": "Fanuc shares hit a record high on a new Google-powered welding AI",
+      "summary": "Fanuc and Google unveiled the 'AI Welding Agent,' which reads engineering drawings and auto-generates robotic arc-welding programs using Google Cloud's Gemini Enterprise platform, requiring \"zero setup and zero teaching.\" Fanuc shares jump…",
+      "urls": [
+        "https://www.fanuc.co.jp/en/profile/pr/newsrelease/2026/notice20260911.html",
+        "https://www.investing.com/news/stock-market-news/japans-fanuc-shares-hit-record-high-on-google-physical-ai-partnership-4687155"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "headline": "Duolingo shares rebound 4.3% after a two-day slide",
+      "summary": "Duolingo stock closed up 4.3% at $145.16 on Thursday, recovering part of a prior slide. Second-quarter daily active users rose 23% year-over-year, but bookings -- the metric closer to near-term demand -- grew only 8%, a gap that's central…",
+      "urls": [
+        "https://ts2.tech/en/duolingo-stock-rebounds-4-3-why-23-user-growth-isnt-the-key-number/"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "headline": "Bitcoin falls below $77,000 as hot producer prices lift Fed rate-hike odds",
+      "summary": "Bitcoin dropped nearly 2% to just under $77,000 -- a weekly loss of more than 5% -- after August producer prices rose 5.4% year-over-year, above the 5.1% forecast, pushing 30-year Treasury yields to a 19-year high. Odds of a Fed rate hike…",
+      "urls": [
+        "https://www.coindesk.com/markets/2026/09/11/bitcoin-below-usd77-000-zcash-leads-losses-as-traders-bet-on-a-fed-rate-hike"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "headline": "Alphabet cracks Berkshire Hathaway's top five holdings",
+      "summary": "Berkshire Hathaway added 24.5 million Alphabet shares last quarter, a 45% increase, lifting its stake to roughly 79 million shares worth about $28.2 billion -- its fourth-largest holding at 9.41% of the portfolio. Berkshire only began buyi…",
+      "urls": [
+        "https://www.fool.com/investing/2026/09/11/berkshire-hathaway-has-a-new-top-holding-and-it-do/"
+      ]
+    },
     {
       "date": "2026-09-06",
       "headline": "Rocket Lab snaps 3-day slide after 94th Electron launch as CFO sells $8.8M in shares",
@@ -114,82 +181,6 @@
       "summary": "Bitcoin opened down 1.5% at $77,395.89 and slid further to $76,597 by mid-morning, while ether fell 2% to $2,374, after a new round of U.S. airstrikes on Iranian targets prompted Iranian retaliation against American military bases.",
       "urls": [
         "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-2-2026-crypto-prices-tumble-as-iran-war-reignites-112639522.html"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "headline": "Jack Ma joins Alibaba's insider buying, pushing total to roughly $102 million",
-      "summary": "Jack Ma bought more than HK$600 million (about $76.5 million) of Alibaba's Hong Kong-listed shares in recent days, adding to the roughly HK$120 million ($15.3 million) that chairman Joseph Tsai and CEO Eddie Wu had already purchased, bring…",
-      "urls": [
-        "https://asia.nikkei.com/spotlight/caixin/jack-ma-alibaba-top-executives-buy-102m-of-stock-after-record-share-sale"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "headline": "Google Cloud launches Gemini Enterprise for Financial Services and Legal",
-      "summary": "Google Cloud introduced the first two industry-specific packages built on its Gemini Enterprise platform: one for capital markets and corporate banking, in preview with adopters including Deutsche Bank, BNY, Citi Wealth, Lloyds Banking Gro…",
-      "urls": [
-        "https://www.googlecloudpresscorner.com/2026-08-25-Google-Cloud-Launches-Gemini-Enterprise-for-Legal",
-        "https://www.pymnts.com/google/2026/google-cloud-debuts-specialized-ai-agents-for-financial-services-and-legal-industries/"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "headline": "Gold hits highest level since mid-May as the dollar weakens",
-      "summary": "Spot gold rose 0.6% to $4,677.19 an ounce, its highest since mid-May, while futures gained 0.5% to $4,720.30. Gold has climbed more than 15% this month, which UOB forecasts as its strongest monthly gain since September 1999, driven by U.S.…",
-      "urls": [
-        "https://www.cnbc.com/2026/08/25/gold-hits-over-three-month-high-on-dollar-weakness-treasury-bond-buyback-plans.html"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "headline": "Bitcoin tops $80,000 for the first time since May on a short squeeze",
-      "summary": "Bitcoin rose more than 2% to around $80,500, its highest since May, extending a rally that saw it jump over 20% in three days last week -- its biggest three-day gain since 2023. The move was fueled by a short squeeze that liquidated more t…",
-      "urls": [
-        "https://www.cnbc.com/2026/08/25/bitcoin-price-near-80000-cryptocurrency-ether-us-treasuries.html"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "headline": "Alibaba's top executives buy $15 million in shares after its discounted $10.2 billion AI share sale",
-      "summary": "Alibaba sold 710 million new shares at HK$112.70 each, an 8.4% discount to Friday's close, to raise HK$80 billion ($10.2 billion) for AI infrastructure; Hong Kong shares fell as much as 10.5% before paring losses, even as the offering drew…",
-      "urls": [
-        "https://www.bnnbloomberg.ca/business/company-news/2026/08/24/alibaba-shares-slide-after-us102-billion-ai-share-sale-offered-at-sharp-discount/",
-        "https://www.bloomberg.com/news/articles/2026-08-24/alibaba-executives-buy-15-million-in-shares-after-new-offering"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "headline": "SEC proposes its first crypto-specific fundraising rules in the agency's 90-year history",
-      "summary": "The SEC proposed \"Regulation Crypto Assets,\" creating two exemptions from Securities Act registration — one for raises up to $5 million over four years, another for up to $75 million per 12-month period — plus a conditional safe harbor fro…",
-      "urls": [
-        "https://www.newsfilecorp.com/release/310323/SEC-Proposes-New-Regulation-Crypto-Assets"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "headline": "Google reportedly taps MediaTek as exclusive partner for its next TPU, \"Triggerfish\"",
-      "summary": "Supply-chain analyst Ming-Chi Kuo reports Google has selected MediaTek as the exclusive development partner for an upgraded TPU v9 chip codenamed Triggerfish, with 2-3x the SRAM of the current Humufish design and support for next-generatio…",
-      "urls": [
-        "https://stocktwits.com/news-articles/markets/equity/googl-stock-dips-premarket-after-breakout-week-analyst-says-google-developing-next-gen-ai-chip-with-media-tek/cZKtowlR7Ba",
-        "https://finance.yahoo.com/sectors/technology/articles/google-looks-mediatek-next-gen-180151007.html"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "headline": "Alibaba prices record $10.2 billion Hong Kong share placement to fund its AI buildout",
-      "summary": "Alibaba priced a placement of 710 million new shares at HK$112.70 each — a 3.6% discount to its prior close — to raise HK$80 billion ($10.2 billion), the largest-ever primary follow-on offering by a Hong Kong-listed company. The company sa…",
-      "urls": [
-        "https://www.investing.com/news/stock-market-news/alibaba-proposes-hong-kong-share-placement-worth-10-billion-4872416",
-        "https://finance.yahoo.com/markets/stocks/articles/alibaba-group-announced-proposed-placing-043000401.html"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "headline": "Alibaba bids $1.5 billion for grocery-delivery firm Pupu, escalating its Meituan rivalry",
-      "summary": "Alibaba offered $1.5 billion for Fujian-based instant-grocery platform Pupu, more than double a prior $600 million bid from Sun Art Retail, as Alibaba pushes deeper into supply-chain-backed local commerce to compete with Meituan and JD.com…",
-      "urls": [
-        "https://finance.yahoo.com/markets/stocks/articles/baba-makes-1-5b-play-140700553.html"
       ]
     }
   ]

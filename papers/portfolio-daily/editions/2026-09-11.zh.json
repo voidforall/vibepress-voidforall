@@ -1,0 +1,92 @@
+{
+  "id": "2026-09-11",
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-11T00:00:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今日焦点是华盛顿与北京之间围绕AI模型蒸馏的新摩擦，同一份高于预期的通胀数据也拖累了自选清单上的比特币和黄金,两者在今日CPI数据公布前均出现回落。此外，谷歌的Gemini Enterprise平台被用于工业焊接机器人，伯克希尔·哈撒韦的持仓文件显示其悄然建立了Alphabet仓位，多邻国和火箭实验室则发布了平淡的常规更新。一起涉及史上最大规模比特币盗窃案之一的认罪协议为这一天收尾——整体而言，今天更多是仓位调整，而非大事件。",
+  "stories": [
+    {
+      "headline": "美国多机构联合通报点名阿里巴巴涉AI模型蒸馏",
+      "summary": "美国国家安全局（NSA）、网络安全和基础设施安全局（CISA）与联邦调查局（FBI）于9月8日发布联合通报，指控包括阿里巴巴、DeepSeek、月之暗面、MiniMax、StepFun和Z.AI在内的六家中国AI开发商，通过灰色市场API代理，对Claude、GPT、Gemini和Grok等美国前沿模型进行大规模蒸馏，提取了数十亿token。次日阿里巴巴美股股价下跌约0.4%，至108.93美元。",
+      "whyItMatters": "这份多机构联合通报提高了出台更严格准入限制或合规成本的可能性，可能给阿里巴巴将Qwen打造为全球AI平台的计划带来复杂性。",
+      "category": "监管",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "CISA/NSA/FBI joint advisory AA26-251A", "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a" },
+        { "title": "Alibaba Drops as Washington Turns AI Distillation Into Geopolitical Risk", "url": "https://ca.finance.yahoo.com/news/alibaba-drops-washington-turns-ai-184335216.html" }
+      ]
+    },
+    {
+      "headline": "生产者价格数据超预期推升加息预期，比特币跌破7.7万美元",
+      "summary": "8月生产者价格指数同比上涨5.4%，高于5.1%的预期，推动30年期美债收益率升至19年高点，比特币应声下跌近2%，跌破7.7万美元，本周累计跌幅超过5%。市场对下周美联储加息的预期升至约70%，美国比特币现货ETF出现1.2亿美元资金流出。",
+      "whyItMatters": "此次波动显示比特币的走势正跟随利率预期而非充当通胀对冲工具，技术支撑位在7.627万美元附近。",
+      "category": "加密货币",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Bitcoin Below $77,000 as Traders Bet on a Fed Rate Hike", "url": "https://www.coindesk.com/markets/2026/09/11/bitcoin-below-usd77-000-zcash-leads-losses-as-traders-bet-on-a-fed-rate-hike" }
+      ]
+    },
+    {
+      "headline": "今日CPI数据公布前，黄金即将迎来连续第三周下跌",
+      "summary": "现货黄金交投于每盎司4328美元附近，日内小幅上涨，但本周仍将累计下跌约2%，为连续第三周下跌，此前周四公布的8月生产者价格数据超预期，推升了美联储加息押注。市场正等待周五的CPI数据，这是下周美联储会议前最后一项重要通胀数据。",
+      "whyItMatters": "加息预期上升正在压制黄金上行空间，尽管地缘政治风险和逾100美元的油价仍在支撑部分避险需求。",
+      "category": "大宗商品",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Gold - Price - Chart - Historical Data", "url": "https://tradingeconomics.com/commodity/gold" },
+        { "title": "Gold eyes $4,300 break as USD sticks to gains amid Fed hike bets, ahead of US CPI", "url": "https://www.fxstreet.com/news/gold-eyes-4-300-break-as-usd-sticks-to-gains-amid-fed-hike-bets-ahead-of-us-cpi-202609110345" }
+      ]
+    },
+    {
+      "headline": "谷歌加持的全新焊接AI推动发那科股价创历史新高",
+      "summary": "发那科（Fanuc）与谷歌联合推出\"AI焊接代理\"（AI Welding Agent），该系统利用谷歌云的Gemini Enterprise平台读取工程图纸并自动生成机器人电弧焊接程序，实现\"零配置、零示教\"。消息公布后发那科股价一度上涨15.6%，创下8880日元的历史新高；该系统将于9月16日进行演示，并于年底前开始出货。",
+      "whyItMatters": "这进一步将谷歌Gemini Enterprise的业务拓展至工业机器人领域——发那科表示自去年12月以来已出货逾1000台搭载物理AI的机器人。",
+      "category": "公司",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "FANUC Accelerates Physical AI in Arc Welding with the New 'AI Welding Agent'", "url": "https://www.fanuc.co.jp/en/profile/pr/newsrelease/2026/notice20260911.html" },
+        { "title": "Japan's Fanuc shares hit record high on Google physical AI partnership", "url": "https://www.investing.com/news/stock-market-news/japans-fanuc-shares-hit-record-high-on-google-physical-ai-partnership-4687155" }
+      ]
+    },
+    {
+      "headline": "Alphabet跻身伯克希尔·哈撒韦前五大持仓",
+      "summary": "伯克希尔·哈撒韦上季度增持2450万股Alphabet股票，增幅达45%，使其持仓增至约7900万股，价值约282亿美元，成为公司第四大持仓，占投资组合的9.41%。伯克希尔仅在一年前才开始买入Alphabet，首笔投资为44亿美元；过去一个月Alphabet股价因AI资本支出担忧下跌约7%。",
+      "whyItMatters": "这是多年来首次有新股票进入伯克希尔前五大持仓，消息通过监管文件披露，而非公司方面的任何主动表态。",
+      "category": "市场",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Berkshire Hathaway Has a New Top Holding, and It Dominates Its Market", "url": "https://www.fool.com/investing/2026/09/11/berkshire-hathaway-has-a-new-top-holding-and-it-do/" }
+      ]
+    },
+    {
+      "headline": "多邻国股价在两日下跌后反弹4.3%",
+      "summary": "多邻国（Duolingo）股价周四收盘上涨4.3%，报145.16美元，收复此前部分跌幅。第二季度日活跃用户同比增长23%，但更能反映短期需求的预订量仅增长8%，这一差距是当前围绕该股估值争论的核心。",
+      "whyItMatters": "分析师认为，预订量与用户增长之间的差距，而非用户增长本身的头条数字，将决定当前估值能否维持。",
+      "category": "公司",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "Duolingo Stock Rebounds 4.3%--Why 23% User Growth Isn't the Key Number", "url": "https://ts2.tech/en/duolingo-stock-rebounds-4-3-why-23-user-growth-isnt-the-key-number/" }
+      ]
+    },
+    {
+      "headline": "火箭实验室完成今年第16次Electron发射",
+      "summary": "火箭实验室的\"Happily Ever Faster\"任务从新西兰1号发射场升空，为一位保密客户将一颗地球观测卫星送入500公里轨道。这是该公司第95次Electron发射，也是2026年的第16次，另有一次商业发射计划在本月底前进行。",
+      "whyItMatters": "稳定的发射节奏印证了火箭实验室作为小型运载火箭领域领先企业的地位，与单次任务的合同金额无关。",
+      "category": "公司",
+      "importance": 7,
+      "sourceLinks": [
+        { "title": "Rocket Lab Successfully Launches 16th Electron Mission Of The Year", "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-successfully-launches-16th-electron-mission-year" }
+      ]
+    },
+    {
+      "headline": "新加坡籍黑客对2.4亿美元比特币盗窃案认罪",
+      "summary": "22岁的Malone Lam周二对联邦敲诈勒索共谋罪认罪，他被控于2024年8月伙同他人冒充谷歌和Gemini交易所工作人员，通过社会工程手段从一名华盛顿特区居民处窃取超过4100枚比特币，案发时价值约2.45亿美元。他最高面临20年监禁，是18名被告中第11名认罪者。",
+      "whyItMatters": "这是美国起诉的规模最大的加密货币盗窃案之一，也提醒人们加密资产的托管安全，与其价格本身同样值得关注。",
+      "category": "加密货币",
+      "importance": 8,
+      "sourceLinks": [
+        { "title": "Singapore man in U.S. pleads guilty to orchestrating $240 million bitcoin theft", "url": "https://www.nbcnews.com/news/us-news/singapore-man-us-pleads-guilty-orchestrating-240-million-bitcoin-theft-rcna596761" }
+      ]
+    }
+  ]
+}

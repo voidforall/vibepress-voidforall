@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-09-11",
+      "date": "2026-09-11",
+      "headline": "US agencies name Alibaba in a joint advisory on AI-model distillation",
+      "storyCount": 8
+    },
+    {
       "id": "2026-09-06",
       "date": "2026-09-06",
       "headline": "Judge rejects DOJ's bid to force Google to sell its ad exchange",

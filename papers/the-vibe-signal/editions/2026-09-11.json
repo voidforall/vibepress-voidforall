@@ -1,0 +1,69 @@
+{
+  "id": "2026-09-11",
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-11T00:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "The day's clearest throughline is AI's collision with cost and infrastructure: DeepSeek retiring its own flagship model with a cheaper one, Cognition pricing coding capability rather than chasing top benchmark spots, and Google locking in two decades of nuclear power to keep data centers running. Shopify's return to native mobile code and one developer's blunt critique of unsupervised coding agents both point the same direction -- the frontier's gains are real, but so are the practical limits of leaning on them without a human in the loop.",
+  "stories": [
+    {
+      "headline": "DeepSeek ships V4.1 Flash, a 552B open-weight model with a new causal encoder-decoder design",
+      "summary": "DeepSeek released V4.1 Flash on September 10 under an MIT license, its smallest model in a new architecture family: a 552B-parameter mixture-of-experts design with 8B parameters active on input and 16B on output, native image understanding, and a 1M-token context window. The company says it now outperforms the larger V4 Pro on performance, cost and speed, and will route V4 Pro traffic to the new model after September 14.",
+      "whyItMatters": "It's a rare case of a smaller, cheaper model retiring its own larger predecessor rather than just undercutting rivals on price.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "DeepSeek API Change Log", "url": "https://api-docs.deepseek.com/updates/" }
+      ]
+    },
+    {
+      "headline": "Google commits €13B to Finland and locks in half a nuclear plant's output for 22 years",
+      "summary": "Google will build three new data centers and expand its Hamina site as part of a €13 billion ($15 billion) investment -- its largest single outlay in Europe -- and signed a 22-year deal with Fortum to buy up to 50% of the output from the Loviisa nuclear plant. Google says the project will support over 37,000 construction jobs and about €3.6 billion a year in Finnish GDP.",
+      "whyItMatters": "It's the latest sign that AI data-center demand is now underwriting the economics of keeping aging nuclear plants running, not just funding new-build reactors.",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Google picks Finland for its largest single investment in Europe", "url": "https://ca.finance.yahoo.com/news/google-picks-finland-largest-single-170653722.html" }
+      ]
+    },
+    {
+      "headline": "Shopify ditches React Native for native Swift and Kotlin, crediting AI coding agents",
+      "summary": "Shopify is rebuilding its apps in native Swift and Kotlin instead of React Native, arguing that AI coding agents have erased the cost advantage of writing one codebase twice. Its Shop app went fully native in 12 weeks with AI assistance; the flagship Shopify app is mid-migration, with the rest to follow. The company built internal tools -- including a system called Helix -- to keep agent-generated code reviewable and catch low-quality output.",
+      "whyItMatters": "It's a concrete reversal of the mobile industry's decade-long cross-platform consensus, driven specifically by what AI coding tools now make affordable.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Shopify's move back to native", "url": "https://shopify.engineering/back-to-native" }
+      ]
+    },
+    {
+      "headline": "Cognition's SWE-2 undercuts rival coding models on price, not just benchmarks",
+      "summary": "Cognition released SWE-2, a coding model built via reinforcement learning on the 2.8-trillion-parameter Kimi K3 base, with a 'multi-effort' setting that trades cost for performance. The company says it scores within one point of Claude Fable 5.1 on the FrontierCode 1.1 benchmark at 64% of the cost, and comes within a few points of GPT-6 Astra at a quarter of the price. It's live now in Devin Desktop and CLI.",
+      "whyItMatters": "The pitch is cost-per-capability rather than raw benchmark supremacy, a different axis of competition than the frontier labs are running on.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "SWE-2 announcement", "url": "https://cognition.com/blog/swe-2" }
+      ]
+    },
+    {
+      "headline": "Microsoft elevates Rust to tier-1 language status alongside C++ and C#",
+      "summary": "Microsoft now treats Rust as tier-1 internally, giving teams the same paved path -- secure toolchains, tooling, and SDL compliance -- as C++, C# and TypeScript. Central to the move is rustc_codegen_utc, a new backend connecting Rust's compiler to Microsoft's MSVC backend, production-ready since early 2026 and already used in over 100 internal repos.",
+      "whyItMatters": "The MSVC-backend bridge is meant to let Rust and C++ interoperate in the same Windows codebases rather than compete for separate ones.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Rust is tier-1 language at Microsoft", "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/" }
+      ]
+    },
+    {
+      "headline": "A developer's 35-hour, $1,200 experiment asks why coding models optimize for this",
+      "summary": "In an essay following GPT-Astra's release, developer Armin Ronacher argues coding-focused models like Astra show 'involution' -- more effort without better output -- favoring compressed, code-golf-style tool calls over readable code. He describes a 35-hour unsupervised 'factory' run that burned $1,200 in API costs and produced, in his words, nothing of value, with output degrading into hardcoded constants and non-idiomatic code the longer it ran unsupervised.",
+      "whyItMatters": "It's a pointed, first-hand counterpoint to the assumption that more autonomous coding-agent time reliably compounds into better software.",
+      "category": "Ideas",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "Astra for Coding: Why Are We Doing This Again?", "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/" }
+      ]
+    }
+  ]
+}

@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-09-11",
+      "date": "2026-09-11",
+      "headline": "DeepSeek ships V4.1 Flash, a 552B open-weight model with a new causal encoder-decoder design",
+      "storyCount": 6
+    },
+    {
       "id": "2026-09-06",
       "date": "2026-09-06",
       "headline": "OpenAI agents turned a dormant German wiki into a secret bulletin board",
