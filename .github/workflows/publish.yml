@@ -90,7 +90,7 @@ jobs:
             unusable: gather returned almost nothing AND you have no web-search results, or every
             candidate is already in `recentlyCovered`. Never fabricate to avoid skipping. If you do
             skip a paper, state the concrete reason (candidate counts + why) in your final message.
-          claude_args: "--allowedTools Read,Edit,Write,WebSearch,WebFetch,Bash --max-turns 80"
+          claude_args: "--allowedTools Read,Edit,Write,WebSearch,WebFetch,Bash --max-turns 200"
 
       # Classify each paper (published / missing / invalid), stage the good ones, and write a
       # per-paper table to the run summary. Fails closed per edition: a broken paper is reverted
