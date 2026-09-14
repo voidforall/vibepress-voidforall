@@ -7,6 +7,12 @@
   "emoji": "🔬",
   "editions": [
     {
+      "id": "2026-09-14",
+      "date": "2026-09-14",
+      "headline": "LLMs manage just 1% exact-match accuracy on real procedural tasks spanning hundreds of pages of rules",
+      "storyCount": 6
+    },
+    {
       "id": "2026-07-27",
       "date": "2026-07-27",
       "headline": "New scaling laws for training vision-language models natively, from scratch",

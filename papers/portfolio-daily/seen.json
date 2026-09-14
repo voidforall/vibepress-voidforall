@@ -1,7 +1,48 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-11T12:10:33Z",
+  "updatedAt": "2026-09-14T19:37:36Z",
   "events": [
+    {
+      "date": "2026-09-14",
+      "headline": "US spot bitcoin ETFs post $463M weekly outflow, ending a three-week inflow streak",
+      "summary": "US spot bitcoin ETFs saw $462.7 million in net outflows last week across four straight down days, led by ARK 21Shares Bitcoin ETF ($234.2M) and Grayscale's Bitcoin Trust ($129.1M), with the steepest single-day pull ($282.7M) on Thursday. T…",
+      "urls": [
+        "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-etfs-shed-463m-in-weekly-reversal-as-ether-etfs-gain-197m-202609141058"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "headline": "Rocket Lab files GAO protest over Blue Origin's $700M NASA Mars contract",
+      "summary": "Rocket Lab lodged a formal protest with the Government Accountability Office against NASA's award of the roughly $700 million Mars Telecommunications Network contract to Blue Origin, arguing the decision is 'inconsistent with the eligibili…",
+      "urls": [
+        "https://www.theregister.com/science/2026/09/14/rocket-lab-calls-foul-on-blue-origins-700m-mars-comms-contract/5296173",
+        "https://www.space.com/space-exploration/missions/rocket-lab-protests-nasas-decision-to-award-blue-origin-usd700-million-mars-orbiter-contract"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "headline": "Gold falls nearly 2% as an oil spike and near-5% Treasury yields harden Fed rate-hike bets",
+      "summary": "Spot gold fell 1.80% to $4,269.90/oz and silver dropped 2.50% to $62.75/oz Monday morning as the 10-year Treasury yield approached 5%. Markets are pricing an 87% chance of a 25-basis-point Fed hike this week after August CPI came in hot (0…",
+      "urls": [
+        "http://www.kitco.com/news/article/2026-09-14/gold-price-fall-nearly-2-oil-surge-and-near-5-treasury-yields-bolster-fed"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "headline": "DA Davidson raises Duolingo price target to $175, citing accelerating daily-user growth",
+      "summary": "DA Davidson reiterated its Buy rating and raised its price target on Duolingo to $175, citing proprietary tracking of over 170,000 existing users that now projects third-quarter daily-active-user growth of 26.0%-28.0% year-over-year, up 40…",
+      "urls": [
+        "https://www.investing.com/news/analyst-ratings/da-davidson-reiterates-duolingo-stock-rating-on-user-growth-data-93CH-4899224"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "headline": "Alphabet shares climb as Wall Street bets Google and Meta gain from an AI 'slowdown'",
+      "summary": "Alphabet and Meta shares rose Monday even as parts of the broader AI trade came under pressure, with commentary framing the two as beneficiaries if frontier labs like OpenAI and Anthropic deliberately slow capability releases for safety re…",
+      "urls": [
+        "https://www.techbooky.com/google-meta-gain-ai-slowdown-catch-up/"
+      ]
+    },
     {
       "date": "2026-09-11",
       "headline": "US agencies name Alibaba in a joint advisory on AI-model distillation",

@@ -1,101 +1,53 @@
 {
   "windowDays": 21,
-  "updatedAt": "2026-07-27T12:05:14Z",
+  "updatedAt": "2026-09-14T19:37:36Z",
   "events": [
     {
-      "date": "2026-07-27",
-      "headline": "When an LLM agent gets a 'skill,' most of the benefit is avoiding new failures, not gaining new wins",
-      "summary": "Testing agents with and without procedural skills across nearly 6,000 runs on two office-automation benchmarks and three model harnesses, the authors find a skill's apparent benefit comes mainly from the agent regressing less, not from sol…",
+      "date": "2026-09-14",
+      "headline": "Splitting decode by attention type, not operator type, unlocks up to 3.6x higher inference throughput",
+      "summary": "The paper introduces SubQuadratic Disaggregation (SQD), which separates inference decode work by whether attention is quadratic or subquadratic rather than by traditional operator boundaries — for sparse-attention models it isolates top-k…",
       "urls": [
-        "https://arxiv.org/abs/2607.22520v1"
+        "https://arxiv.org/abs/2609.13134v1"
       ]
     },
     {
-      "date": "2026-07-27",
-      "headline": "Skill Self-Play lets LLM agents write their own harder tasks — and their own skills to solve them",
-      "summary": "Skill Self-Play trains three co-evolving components with reinforcement learning: a proposer that generates new tasks conditioned on a skill library, a solver that attempts them, and a controller that updates the skill library from executio…",
+      "date": "2026-09-14",
+      "headline": "SAS optimizes which tokens survive attention sparsification directly through the training loss",
+      "summary": "Prior trainable sparse-attention methods distill from dense attention patterns, which doesn't directly optimize for what matters under a limited attention budget. SAS instead uses gated sparse attention with continuous selector scores — pl…",
       "urls": [
-        "https://arxiv.org/abs/2607.22529v1"
+        "https://arxiv.org/abs/2609.13141v1"
       ]
     },
     {
-      "date": "2026-07-27",
-      "headline": "New scaling laws for training vision-language models natively, from scratch",
-      "summary": "A study of vision-language transformers trained on multimodal data from the ground up, rather than adapted from pretrained text-only models, finds that minimal loss follows a predictable compute law, but the optimal split between model siz…",
+      "date": "2026-09-14",
+      "headline": "Real-time voice agents score near chance at tracking who should speak next in group conversations",
+      "summary": "MP-Bench evaluates conversational voice agents as active participants in multi-party settings, rather than the dyadic, one-listener setups most existing benchmarks use, measuring both turn-taking awareness and response appropriateness alon…",
       "urls": [
-        "https://arxiv.org/abs/2607.22043v1"
+        "https://arxiv.org/abs/2609.13076v1"
       ]
     },
     {
-      "date": "2026-07-27",
-      "headline": "LunarFM: one shared embedding space for six lunar instruments across three missions",
-      "summary": "LunarFM is a multimodal foundation model trained on 18 input channels from six instruments across three lunar orbital missions, covering latitudes from 70°S to 70°N, mapped into a shared 768-dimensional representation via a pretrained mask…",
+      "date": "2026-09-14",
+      "headline": "LLMs manage just 1% exact-match accuracy on real procedural tasks spanning hundreds of pages of rules",
+      "summary": "A new benchmark, Tasks over Application Manuals (TAM), tests models on real-world long-horizon procedural reasoning: ICD-10-CM clinical coding and U.S. federal sentencing guideline calculations, each requiring navigation of tens of thousan…",
       "urls": [
-        "https://arxiv.org/abs/2607.22408v1"
+        "https://arxiv.org/abs/2609.13005v1"
       ]
     },
     {
-      "date": "2026-07-27",
-      "headline": "DBA-Bench scores LLM database agents against real incidents — and against human DBAs",
-      "summary": "DBA-Bench tests LLM agents on 106 scenarios across seven task domains inside instrumented, live PostgreSQL environments with active workloads and persistent state, scoring whether they diagnose and safely fix operational incidents. The bes…",
+      "date": "2026-09-14",
+      "headline": "A widely-used truthfulness benchmark can be gamed with six surface features, no reasoning required",
+      "summary": "The authors show that TruthfulQA and similar binary-choice truth benchmarks let models exceed chance accuracy without genuine reasoning, because correct and incorrect answers differ systematically in surface-level features — a simple six-f…",
       "urls": [
-        "https://arxiv.org/abs/2607.22165v1"
+        "https://arxiv.org/abs/2609.13003v1"
       ]
     },
     {
-      "date": "2026-07-27",
-      "headline": "A router that picks one model per agent task, not per call — and wins on accuracy and latency both",
-      "summary": "TRACE-Router addresses a mismatch in agentic LLM routing: most routers choose a model call-by-call, but agent tasks are judged only on completion. It instead assigns one model per task at admission via a contextual bandit, pins every subse…",
+      "date": "2026-09-14",
+      "headline": "A new ranking-based calibration measure sidesteps a known flaw in the standard metric",
+      "summary": "The standard way to measure model calibration, Expected Calibration Error (ECE), is provably impossible to estimate with guaranteed accuracy without extra assumptions, and practitioners typically fall back on binned approximations. The aut…",
       "urls": [
-        "https://arxiv.org/abs/2607.22465v1"
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "headline": "Why humans may stay in the loop even when AI is highly capable",
-      "summary": "Challenging the assumption that humans remain in the loop only until AI is capable enough, this paper argues human participation may persist for three distinct reasons — beginning with technical/complementarity grounds, where humans contri…",
-      "urls": [
-        "https://arxiv.org/abs/2607.21547"
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "headline": "Vision-language models solve a problem in text, then fail it as a diagram",
-      "summary": "On geometry problems with equivalent text and diagram views, VLMs behave inconsistently: a model may solve from text but fail the corresponding diagram, or succeed visually while failing textually. MIRROR builds a paired multimodal geometr…",
-      "urls": [
-        "https://arxiv.org/abs/2607.21552"
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "headline": "Test-time scaling that finds where the reasoning went wrong",
-      "summary": "Standard inference-time scaling — independent sampling and sequential refinement — wastes compute because it discards valid reasoning prefixes without token-level credit assignment. Test-Time Scaling via Error Localization (TTEL) compares…",
-      "urls": [
-        "https://arxiv.org/abs/2607.21453"
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "headline": "DONDO: open speech-recognition models for 27 African language varieties",
-      "summary": "DONDO is a family of open, permissively licensed ASR base models — 21 monolingual and 5 multilingual — spanning 27 language varieties across Ghana, Sierra Leone, Nigeria, Senegal, Kenya and Zimbabwe. Built on the w2v-BERT 2.0 speech encode…",
-      "urls": [
-        "https://arxiv.org/abs/2607.21540"
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "headline": "Can local open-weight LLMs do research data-prep without touching the cloud?",
-      "summary": "Governance rules often forbid sending personal research data to third-party cloud models. This paper introduces an open-source framework — including a curated ground-truth dataset of cleaning scripts — to evaluate locally deployable open-w…",
-      "urls": [
-        "https://arxiv.org/abs/2607.21482"
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "headline": "At million-token context, the “free” speculative draft head stops being free",
-      "summary": "Frontier models ship a built-in Multi-Token-Prediction draft head on the assumption it is negligibly cheap. This paper shows that at million-token context the draft head runs full attention over the entire KV cache at every step, so its co…",
-      "urls": [
-        "https://arxiv.org/abs/2607.21535"
+        "https://arxiv.org/abs/2609.13100v1"
       ]
     }
   ]

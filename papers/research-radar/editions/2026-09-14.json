@@ -1,0 +1,69 @@
+{
+  "id": "2026-09-14",
+  "date": "2026-09-14",
+  "generatedAt": "2026-09-14T19:33:33Z",
+  "editionTitle": "Research Radar",
+  "editorNote": "This week's papers converge on a theme: benchmarks and metrics that looked solid are leakier than assumed. A long-horizon procedural benchmark shows GPT-5 barely functions on real rule-heavy documents, a widely-used truthfulness benchmark turns out to be gameable from surface features alone, and a new voice-agent benchmark finds today's systems near chance on group conversation. Alongside those, one systems paper and one methods paper offer concrete efficiency wins, and a statistics paper tackles calibration measurement head-on.",
+  "stories": [
+    {
+      "headline": "LLMs manage just 1% exact-match accuracy on real procedural tasks spanning hundreds of pages of rules",
+      "summary": "A new benchmark, Tasks over Application Manuals (TAM), tests models on real-world long-horizon procedural reasoning: ICD-10-CM clinical coding and U.S. federal sentencing guideline calculations, each requiring navigation of tens of thousands of interdependent rules with human-validated answers. Retrieval-augmented and agent-based approaches on GPT-5 scored only 1% exact-match accuracy on the medical-coding tasks and 15.5% on the sentencing tasks.",
+      "whyItMatters": "Short-horizon, multi-hop benchmarks have suggested strong reasoning progress, but TAM shows that reliably following long, rule-based real-world procedures remains a largely unsolved problem.",
+      "category": "Applications",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Tasks over Application Manuals: Revealing Gaps in Long-Horizon Procedural Reasoning for Language Models", "url": "https://arxiv.org/abs/2609.13005v1" }
+      ]
+    },
+    {
+      "headline": "A widely-used truthfulness benchmark can be gamed with six surface features, no reasoning required",
+      "summary": "The authors show that TruthfulQA and similar binary-choice truth benchmarks let models exceed chance accuracy without genuine reasoning, because correct and incorrect answers differ systematically in surface-level features — a simple six-feature logistic classifier achieves substantial separation accuracy on its own. They introduce Audit-Prune, a mechanism that removes the question-answer pairs most responsible for this leakage, and release a cleaned version of TruthfulQA where surface-feature leakage is reduced close to chance.",
+      "whyItMatters": "Scores on a benchmark this widely cited may partly reflect surface-pattern matching rather than truthfulness, and the cleaned dataset gives practitioners a way to re-check their own reported numbers.",
+      "category": "Benchmarks",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Judging by the Cover: Cleaning LLM Truthfulness Benchmarks to Avoid Surface-Level Feature Leakage", "url": "https://arxiv.org/abs/2609.13003v1" }
+      ]
+    },
+    {
+      "headline": "Splitting decode by attention type, not operator type, unlocks up to 3.6x higher inference throughput",
+      "summary": "The paper introduces SubQuadratic Disaggregation (SQD), which separates inference decode work by whether attention is quadratic or subquadratic rather than by traditional operator boundaries — for sparse-attention models it isolates top-k selection (needing full KV indexing) from top-k attention plus FFN, and for linear/sliding-window models it splits dense from subquadratic layers. On heterogeneous hardware this yields token-efficiency gains of 53% on GLM 5.2, 31% on Nemotron 3 Ultra, and 56% on Gemma 4 31B, up to 3.6x over baseline disaggregation.",
+      "whyItMatters": "As more frontier models adopt subquadratic attention to cut inference cost, disaggregation strategies built for quadratic attention leave real throughput on the table.",
+      "category": "Systems",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Rethinking Heterogeneous System Disaggregation for Subquadratic Attention", "url": "https://arxiv.org/abs/2609.13134v1" }
+      ]
+    },
+    {
+      "headline": "Real-time voice agents score near chance at tracking who should speak next in group conversations",
+      "summary": "MP-Bench evaluates conversational voice agents as active participants in multi-party settings, rather than the dyadic, one-listener setups most existing benchmarks use, measuring both turn-taking awareness and response appropriateness alongside comprehension questions. Across 12 tested voice agents, real-time systems stayed at or below 22% on multiparty comprehension and near chance on multiparty turn-taking.",
+      "whyItMatters": "Voice agents built and benchmarked for one-on-one dialogue don't transfer to group settings, a gap that matters for any deployment beyond a single user talking to a single assistant.",
+      "category": "Benchmarks",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "MP-Bench: Evaluating Voice Agents as a Multiparty Conversation Participant", "url": "https://arxiv.org/abs/2609.13076v1" }
+      ]
+    },
+    {
+      "headline": "SAS optimizes which tokens survive attention sparsification directly through the training loss",
+      "summary": "Prior trainable sparse-attention methods distill from dense attention patterns, which doesn't directly optimize for what matters under a limited attention budget. SAS instead uses gated sparse attention with continuous selector scores — placing gates inside the attention softmax in log form and preserving gradient flow instead of hard top-k selection — trained end-to-end via the language-modeling loss, paired with a memory-efficient Triton kernel built on FlashAttention.",
+      "whyItMatters": "Optimizing context selection for actual prediction impact, rather than mimicking dense attention, gives larger gains precisely when the attention budget is tightest.",
+      "category": "Methods",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking", "url": "https://arxiv.org/abs/2609.13141v1" }
+      ]
+    },
+    {
+      "headline": "A new ranking-based calibration measure sidesteps a known flaw in the standard metric",
+      "summary": "The standard way to measure model calibration, Expected Calibration Error (ECE), is provably impossible to estimate with guaranteed accuracy without extra assumptions, and practitioners typically fall back on binned approximations. The authors propose rankECE, which instead compares points with neighboring predicted probabilities, and show both theoretically and empirically that it is a better proxy for true ECE than the standard binned approximations.",
+      "whyItMatters": "Calibration is routinely reported using an approximation known to be unreliable; a better-behaved proxy metric changes what a practitioner can trust when comparing calibration across models.",
+      "category": "Theory",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "A Ranking Approach for Measuring Calibration", "url": "https://arxiv.org/abs/2609.13100v1" }
+      ]
+    }
+  ]
+}

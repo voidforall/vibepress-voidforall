@@ -1,0 +1,60 @@
+{
+  "id": "2026-09-14",
+  "date": "2026-09-14",
+  "generatedAt": "2026-09-14T19:33:33Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "The day's through-line is the market pricing an AI slowdown, not just an AI boom: Alphabet drew a bid on the theory that safety-driven pacing among frontier labs buys distribution-heavy incumbents time, while Fed rate-hike odds pressured gold and pulled some money out of spot bitcoin ETFs. Rocket Lab's watchlist position now carries a live contract dispute over a $700M NASA award, and Duolingo saw a fresh analyst read on user growth ahead of its next earnings print.",
+  "stories": [
+    {
+      "headline": "Alphabet shares climb as Wall Street bets Google and Meta gain from an AI 'slowdown'",
+      "summary": "Alphabet and Meta shares rose Monday even as parts of the broader AI trade came under pressure, with commentary framing the two as beneficiaries if frontier labs like OpenAI and Anthropic deliberately slow capability releases for safety reasons. The argument: slower frontier progress gives Google and Meta more time to close the gap with their own AI systems while leaning on existing distribution (Search, Android, Workspace, Cloud for Google; Facebook, Instagram, WhatsApp for Meta).",
+      "whyItMatters": "A pacing debate among AI labs is being read by markets as a relative-strength catalyst for Alphabet rather than a threat to it.",
+      "category": "Markets",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Google And Meta Gain As AI Slowdown Could Help Them Catch Up", "url": "https://www.techbooky.com/google-meta-gain-ai-slowdown-catch-up/" }
+      ]
+    },
+    {
+      "headline": "Gold falls nearly 2% as an oil spike and near-5% Treasury yields harden Fed rate-hike bets",
+      "summary": "Spot gold fell 1.80% to $4,269.90/oz and silver dropped 2.50% to $62.75/oz Monday morning as the 10-year Treasury yield approached 5%. Markets are pricing an 87% chance of a 25-basis-point Fed hike this week after August CPI came in hot (0.4% monthly, 3.4% annual), while Brent crude topped $108/barrel on Middle East tensions and Saudi pipeline shutdowns, reinforcing the case for tighter policy.",
+      "whyItMatters": "Rising real yields are outweighing safe-haven demand from geopolitical risk, pulling gold lower even as oil-driven inflation fears build.",
+      "category": "Commodities",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Gold price fall nearly 2% as oil surge and near-5% Treasury yields bolster Fed rate-hike expectations - Kitco AM Report", "url": "http://www.kitco.com/news/article/2026-09-14/gold-price-fall-nearly-2-oil-surge-and-near-5-treasury-yields-bolster-fed" }
+      ]
+    },
+    {
+      "headline": "Rocket Lab files GAO protest over Blue Origin's $700M NASA Mars contract",
+      "summary": "Rocket Lab lodged a formal protest with the Government Accountability Office against NASA's award of the roughly $700 million Mars Telecommunications Network contract to Blue Origin, arguing the decision is 'inconsistent with the eligibility criteria mandated by Congress' and that NASA's technical review of its own bid involved 'incorrect assertions and conclusions.' Rocket Lab says it was the only bidder to propose a standalone communications orbiter meeting the statutory requirements tied to an earlier Mars Sample Return study.",
+      "whyItMatters": "A sustained GAO protest can delay or unwind Blue Origin's contract award and puts a NASA procurement decision under formal review.",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Rocket Lab's Protest Against Blue Origin", "url": "https://www.theregister.com/science/2026/09/14/rocket-lab-calls-foul-on-blue-origins-700m-mars-comms-contract/5296173" },
+        { "title": "Rocket Lab protests NASA's decision to award Blue Origin $700 million Mars orbiter contract", "url": "https://www.space.com/space-exploration/missions/rocket-lab-protests-nasas-decision-to-award-blue-origin-usd700-million-mars-orbiter-contract" }
+      ]
+    },
+    {
+      "headline": "US spot bitcoin ETFs post $463M weekly outflow, ending a three-week inflow streak",
+      "summary": "US spot bitcoin ETFs saw $462.7 million in net outflows last week across four straight down days, led by ARK 21Shares Bitcoin ETF ($234.2M) and Grayscale's Bitcoin Trust ($129.1M), with the steepest single-day pull ($282.7M) on Thursday. The funds remain net positive for September overall (about $307.3M), and the reversal followed roughly $3.8 billion of inflows over the prior three weeks that had helped push bitcoin above $80,000.",
+      "whyItMatters": "The first weekly ETF outflow since mid-August signals cooling institutional demand just as bitcoin trades near $77,000-78,000 amid rising Fed rate-hike odds.",
+      "category": "Crypto",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Bitcoin ETFs shed $463M in weekly reversal as Ether ETFs gain $197M", "url": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-etfs-shed-463m-in-weekly-reversal-as-ether-etfs-gain-197m-202609141058" }
+      ]
+    },
+    {
+      "headline": "DA Davidson raises Duolingo price target to $175, citing accelerating daily-user growth",
+      "summary": "DA Davidson reiterated its Buy rating and raised its price target on Duolingo to $175, citing proprietary tracking of over 170,000 existing users that now projects third-quarter daily-active-user growth of 26.0%-28.0% year-over-year, up 40 basis points from its prior estimate. The firm also noted September DAUs are up 3.0% month-over-month so far, versus 1.3% in August, with strength concentrated in resurrected older-cohort users and new 2024-2026 signups.",
+      "whyItMatters": "The note gives investors a data-driven readout on user growth ahead of Duolingo's next earnings report, the metric most tied to the stock's recent swings.",
+      "category": "Company",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "DA Davidson reiterates Duolingo stock rating on user growth data", "url": "https://www.investing.com/news/analyst-ratings/da-davidson-reiterates-duolingo-stock-rating-on-user-growth-data-93CH-4899224" }
+      ]
+    }
+  ]
+}
