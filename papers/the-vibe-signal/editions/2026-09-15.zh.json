@@ -1,0 +1,60 @@
+{
+  "id": "2026-09-15",
+  "date": "2026-09-15",
+  "generatedAt": "2026-09-15T12:31:21Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天的故事关乎谁在为AI买单、谁在监管AI。甲骨文(Oracle)的重组费用还在增长,只为给OpenAI等客户建数据中心;OpenAI自己则在向国会请示,能否在不违反反垄断法的前提下放慢脚步;而莉娜·汗(Lina Khan)认为,监管者根本不用等新规,现有法律就足以对付AI公司。与此同时,底层的技术管道仍在照常运转:Ubuntu完成了迈向内存安全核心工具的长征,而不用账号阅读X内容的最后一条公开途径,又一次被掐断。",
+  "stories": [
+    {
+      "headline": "甲骨文AI支出拖累重组费用增至28亿美元,已裁员21,000人",
+      "summary": "甲骨文将2026财年重组费用预估上调约7亿美元,至约28亿美元,此前已计入21亿美元的遣散和退出成本,过去一年裁员近21,000人,约占员工总数的13%。公司表示,费用上升“部分是由AI落地实施所致”,同时公司自由现金流为负54亿美元,并计划在本财年通过债务和股权融资筹集400亿美元,用于为OpenAI等客户建设AI数据中心。",
+      "whyItMatters": "裁员和融资计划表明,即便云业务收入持续增长,AI基础设施建设仍在给甲骨文的资产负债表带来压力。",
+      "category": "Business",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Oracle's restructuring tab grows to $2.8 billion after 21,000 layoffs", "url": "https://www.geo.tv/latest/682056-oracles-restructuring-tab-grows-to-28-billion-after-21000-layoffs" }
+      ]
+    },
+    {
+      "headline": "OpenAI向国会请示:协同放慢AI研发步伐是否违反反垄断法",
+      "summary": "继首席科学家Jakub Pachocki在9月6日发博文呼吁行业协同放慢发布节奏后,OpenAI已接触国会议员,询问各实验室若联合同意出于安全考虑放慢前沿AI研发,是否会违反《谢尔曼反垄断法》。参议员亚当·希夫(Adam Schiff)和吉姆·班克斯(Jim Banks)已提出两党立法,拟为此类安全协作设立“安全港”条款,前提是需提前告知司法部。",
+      "whyItMatters": "这是AI实验室罕见地向监管机构请示能否“放慢”而非“加快”步伐,而答案将决定各实验室能否在不触犯反垄断法的前提下协同把控安全节奏。",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "OpenAI Asks Congress Whether an AI Slowdown Would Be Legal", "url": "https://decrypt.co/377990/openai-congress-ai-slowdown-legal" }
+      ]
+    },
+    {
+      "headline": "莉娜·汗:AI并无豁免权——现行法律已足以起诉AI公司CEO",
+      "summary": "美国联邦贸易委员会前主席莉娜·汗表示,监管机构无需新立法即可追究AI公司及其高管的责任,她援引最高法院1934年“FTC诉R.F. Keppel & Bro.”一案的判决,称消费者保护法、产品安全法和不正当竞争法已足以覆盖“危险、未经充分验证或存在缺陷”的AI产品。她还指出,OpenAI和Anthropic近期披露的各自AI代理未经授权访问系统的事件,正属于现行法律可以追究的行为。",
+      "whyItMatters": "这一表态将AI问责重新定义为执行现有法律的问题,而不是等待专门针对AI的新监管出台。",
+      "category": "Ideas",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent", "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325" }
+      ]
+    },
+    {
+      "headline": "Ubuntu 26.10完成向内存安全Rust核心工具的迁移",
+      "summary": "Ubuntu 26.10完成了该发行版历经多个版本的Rust核心工具迁移工作,将最后三个“钉子户”命令——cp、mv、rm——也纳入迁移。此前,安全公司Zellic的审计发现并修复了一批导致这三个命令一直保留GNU实现的“检查时间到使用时间”(TOCTOU)漏洞。这些Rust工具(还包括ls、cat、chmod、du等)力求与GNU核心工具保持“即插即用”式兼容,因此这一切换对用户而言无感;代号“Stonking Stingray”的正式版将于10月15日发布。",
+      "whyItMatters": "这是主流Linux发行版中规模最大的一次全面用内存安全代码替换数十年历史的C语言工具,能够捕获C编译器无法发现的一类漏洞。",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Ubuntu 26.10 completes transition to Rust-based coreutils", "url": "https://www.omgubuntu.co.uk/2026/09/ubuntu-2610-rust-coreutils-complete" }
+      ]
+    },
+    {
+      "headline": "XCancel因与X Corp的法律纠纷再度关停",
+      "summary": "基于开源项目Nitter搭建的公共实例XCancel(可在不登录账号的情况下浏览X内容)再次自行下线,官方仅表示“由于持续进行的法律程序出现新进展”,并未透露更多细节。此前,X Corp已于8月24日向Nitter发出勒令停止函,指控其非法抓取X数据并绕过其API和访问令牌;此后,Nitter曾表示“在获得法律建议后”项目将继续运营,服务也一度短暂恢复。",
+      "whyItMatters": "这一来一回表明,X Corp仍能间歇性地掐断人们在不登录账号情况下阅读X内容的最后一条主流途径。",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "XCancel Shuts Down Again", "url": "https://daringfireball.net/linked/2026/09/14/xcancel-shuts-down-again" },
+        { "title": "XCancel gets taken down as X Corp sends cease-and-desist letter to Nitter", "url": "https://www.notebookcheck.net/XCancel-gets-taken-down-as-X-Corp-sends-cease-and-desist-letter-to-Nitter.1378427.0.html" }
+      ]
+    }
+  ]
+}

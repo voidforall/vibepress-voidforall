@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-09-15",
+      "date": "2026-09-15",
+      "headline": "Rocket Lab fully funds its $8B Iridium buyout, cancels $3.6B bridge loan",
+      "storyCount": 6
+    },
+    {
       "id": "2026-09-14",
       "date": "2026-09-14",
       "headline": "Alphabet shares climb as Wall Street bets Google and Meta gain from an AI 'slowdown'",

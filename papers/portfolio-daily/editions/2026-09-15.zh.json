@@ -1,0 +1,70 @@
+{
+  "id": "2026-09-15",
+  "date": "2026-09-15",
+  "generatedAt": "2026-09-15T12:31:21Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今天的版面围绕融资与宏观催化剂展开:Rocket Lab在Iridium股东9月24日投票前锁定了收购资金;Alphabet则两头受关注——Waymo拓展东京市场,同时ARK减持其股票转投Meta。在周三美联储决议前,比特币和黄金双双走软,参议院的程序性投票又为加密货币市场增添了新的变量。与此同时,Duolingo借助更低的AI推理成本,砍掉了其最贵的订阅档位。",
+  "stories": [
+    {
+      "headline": "Rocket Lab为80亿美元收购Iridium完成全部融资,取消36亿美元过桥贷款",
+      "summary": "Rocket Lab完成了19.44亿美元的市场增发(ATM)股票发行,共发行2930万股新股,并终止了6月安排的36亿美元优先担保过桥贷款承诺,称该备用融资已无必要。Iridium则修改了其现有的17.75亿美元定期贷款条款,以允许控制权变更;至此,ATM募集资金、承接的Iridium定期贷款以及Rocket Lab的可用现金,已足以覆盖此次收购的现金对价。",
+      "whyItMatters": "公司已在Iridium9月24日股东投票前锁定了交易资金,消除了自并购宣布以来一直存在的融资不确定性。",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Rocket Lab Fully Funds Iridium Acquisition, Including Completion of $1.94 Billion ATM", "url": "https://www.globenewswire.com/news-release/2026/09/15/3361819/0/en/rocket-lab-fully-funds-iridium-acquisition-including-completion-of-1-94-billion-atm.html" },
+        { "title": "Rocket Lab cancels a $3.6 billion bridge loan commitment. Iridium deal awaits regulatory approvals.", "url": "https://www.stocktitan.net/news/RKLB/rocket-lab-fully-funds-iridium-acquisition-including-completion-of-1-ynsysr3vgv3b.html" }
+      ]
+    },
+    {
+      "headline": "参议院就加密市场结构法案启动程序性投票,比特币跌向77,000美元",
+      "summary": "比特币交投于约77,000美元附近,较隔夜79,500美元以上的高点回落约3%。周二,参议院就《数字资产市场明晰法案》举行程序性预算表决(cloture vote)——这只是启动全体辩论所需的60票门槛,并非最终通过投票。Polymarket上该法案2026年内成为法律的概率降至18%,较前一日的30%下滑,而周三美联储将公布利率决议,市场目前定价加息25个基点的概率约为94%。",
+      "whyItMatters": "程序性投票未能通过只会推迟而非终结这项加密货币市场结构法案,但在美联储决议前又增添了一层短期不确定性。",
+      "category": "Crypto",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Live updates: Bitcoin slides from nearly $80,000 as Senate votes on Clarity Act", "url": "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act" }
+      ]
+    },
+    {
+      "headline": "美联储加息概率升至92%,黄金跌至五周低点约4,300美元",
+      "summary": "现货黄金交投于约4,295美元,接近五周低点。原油价格飙升,叠加10年期美债收益率升破5%(为2023年以来最高),进一步强化了市场对周三美联储加息的预期,目前定价加息25个基点的概率约为92.4%。沙特阿拉伯在遭到袭击后关闭其东西向输油管道,推高了油价。",
+      "whyItMatters": "收益率上升使不生息的黄金吸引力下降,金价走低表明加息预期正压过此前支撑金价的地缘政治风险溢价。",
+      "category": "Commodities",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Gold falls below $4,300 as higher US yields bolster Fed rate hike bets", "url": "https://www.fxstreet.com/news/gold-falls-below-4-300-as-higher-us-yields-bolster-fed-rate-hike-bets-202609142314" }
+      ]
+    },
+    {
+      "headline": "ARK的凯西·伍德抛售1280万美元Alphabet股票,买入710万美元Meta股票",
+      "summary": "ARK Invest旗下ARKW ETF于9月14日卖出38,273股Alphabet股票,价值约1280万美元,同时买入10,997股Meta股票,价值约710万美元,延续了前一周开始的“减持Alphabet、加仓Meta”操作。",
+      "whyItMatters": "这笔交易削减了ARK对观察名单成分股Alphabet的敞口,转而加仓Meta,凸显两只股票近一季度以来的表现分化。",
+      "category": "Markets",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Cathie Wood's ARK sells Alphabet stock, buys Meta Platforms", "url": "https://www.investing.com/news/company-news/cathie-woods-ark-sells-alphabet-stock-buys-meta-platforms-93CH-4900685" }
+      ]
+    },
+    {
+      "headline": "Alphabet旗下自动驾驶公司Waymo计划2027年前在东京推出无人出租车服务",
+      "summary": "Waymo与日本打车应用运营商GO、出租车公司日本交通(Nihon Kotsu)宣布合作,计划在2027年前于东京推出全自动网约车服务,初期投入少量车辆,随后扩大至约100辆,覆盖主要城区,并可通过GO和Waymo两款应用打车。该服务能否落地取决于能否获得监管批准,以及Waymo技术和联合运营模式在日本的验证结果。",
+      "whyItMatters": "这将是Waymo在美国以外的首个商业无人出租车市场,标志着Alphabet的自动驾驶业务正式进军亚洲。",
+      "category": "Company",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Waymo, Japanese partners target driverless taxi service in Tokyo in 2027", "url": "https://www.freemalaysiatoday.com/category/business/2026/09/15/waymo-japanese-partners-target-driverless-taxi-service-in-tokyo-in-2027" }
+      ]
+    },
+    {
+      "headline": "更便宜的AI模型降低成本,Duolingo砍掉Max订阅档位",
+      "summary": "Duolingo正在逐步淘汰其2023年推出的高端Max订阅档位,将AI视频通话(可与虚构角色对话)、“解释我的错误”等功能并入价格更低的Super档位。公司表示,从OpenAI模型转向开源模型后,每次视频通话的成本从约0.30美元降至0.01美元;新用户已无法选择订阅Max,但现有Max用户可在续订周期内保留原有套餐。Max约占付费订阅用户的10%,而付费订阅用户同比增长17%。",
+      "whyItMatters": "AI推理成本下降,使Duolingo得以在不牺牲利润率的情况下,将最贵档位并入更便宜的套餐,直观反映了AI成本下降如何重塑其订阅经济模型。",
+      "category": "Company",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "The Green Owl Is Ending Duolingo's Own Cash Cow. Here's Why That's Good News For Users and Investors.", "url": "https://www.fool.com/investing/2026/09/14/the-green-owl-is-ending-duolingos-own-cash-cow/" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "2026-09-15",
+  "date": "2026-09-15",
+  "generatedAt": "2026-09-15T12:31:21Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today's stories are about who pays for AI and who polices it. Oracle's restructuring bill keeps growing to fund the data centers it's building for customers like OpenAI, while OpenAI itself is asking Congress for permission to slow down without breaking antitrust law — and Lina Khan says regulators don't need to wait for new rules to go after AI companies anyway. Underneath it all, the plumbing keeps churning: Ubuntu finished its long march to memory-safe coreutils, and the last open way to read X without an account got knocked offline again.",
+  "stories": [
+    {
+      "headline": "Oracle's AI-spending restructuring bill grows to $2.8B after 21,000 layoffs",
+      "summary": "Oracle raised its fiscal 2026 restructuring cost estimate by about $700 million to roughly $2.8 billion, having already booked $2.1 billion in severance and exit costs after cutting nearly 21,000 jobs — about 13% of its workforce — over the past year. The company says the increase is 'in part driven by AI implementation,' and it posted negative free cash flow of $5.4 billion while planning to raise $40 billion in debt and equity this fiscal year to fund AI data centers for customers like OpenAI.",
+      "whyItMatters": "The layoffs and financing plans show the AI infrastructure buildout straining Oracle's balance sheet even as its cloud revenue keeps growing.",
+      "category": "Business",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Oracle's restructuring tab grows to $2.8 billion after 21,000 layoffs", "url": "https://www.geo.tv/latest/682056-oracles-restructuring-tab-grows-to-28-billion-after-21000-layoffs" }
+      ]
+    },
+    {
+      "headline": "OpenAI asks Congress whether a coordinated AI slowdown would break antitrust law",
+      "summary": "OpenAI has approached members of Congress to ask whether labs jointly agreeing to slow frontier AI development for safety reasons could violate the Sherman Antitrust Act, following a September 6 blog post by chief scientist Jakub Pachocki urging the industry to coordinate on pacing. Senators Adam Schiff and Jim Banks have introduced bipartisan legislation that would create a safe harbor for such safety coordination, conditioned on advance notice to the Justice Department.",
+      "whyItMatters": "It's a rare case of an AI lab asking regulators for permission to go slower rather than faster, and the answer will decide whether labs can coordinate safety pacing at all without risking a Sherman Act case.",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "OpenAI Asks Congress Whether an AI Slowdown Would Be Legal", "url": "https://decrypt.co/377990/openai-congress-ai-slowdown-legal" }
+      ]
+    },
+    {
+      "headline": "Lina Khan: no AI exemption — existing law already lets prosecutors charge AI CEOs",
+      "summary": "Former FTC chair Lina Khan argued regulators don't need new legislation to hold AI companies and executives accountable, citing the Supreme Court's 1934 FTC v. R.F. Keppel & Bro. ruling and saying consumer-protection, product-safety, and unfair-competition law already cover 'dangerous, unvetted, or defective' AI products. She pointed to OpenAI and Anthropic's recent disclosures of unauthorized access incidents involving their own agents as the kind of conduct existing law could reach.",
+      "whyItMatters": "It reframes AI accountability as a matter of enforcing laws already on the books rather than waiting on new AI-specific regulation.",
+      "category": "Ideas",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent", "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325" }
+      ]
+    },
+    {
+      "headline": "Ubuntu 26.10 finishes replacing GNU coreutils with memory-safe Rust versions",
+      "summary": "Ubuntu 26.10 completes the distribution's multi-release move to Rust-based coreutils, migrating the last three holdouts — cp, mv, and rm — after a Zellic security audit found and fixed a batch of time-of-check-to-time-of-use bugs that had kept them on their GNU implementations. The Rust utilities, which also cover ls, cat, chmod, du and the rest, aim for drop-in compatibility with GNU coreutils, so the switch is invisible to users; the 'Stonking Stingray' release goes stable on October 15.",
+      "whyItMatters": "It's one of the largest mainstream Linux distributions fully replacing decades-old C utilities with memory-safe code, catching a class of bugs C compilers can't.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Ubuntu 26.10 completes transition to Rust-based coreutils", "url": "https://www.omgubuntu.co.uk/2026/09/ubuntu-2610-rust-coreutils-complete" }
+      ]
+    },
+    {
+      "headline": "XCancel shuts down again as its legal fight with X Corp continues",
+      "summary": "XCancel, a public instance of the open-source Nitter proxy for reading X without an account, suspended itself again, citing 'a new development in the ongoing legal proceedings' without elaborating further. X Corp first sent Nitter a cease-and-desist letter on August 24, accusing it of unlawfully scraping X's data and circumventing its API and access tokens; the service had returned briefly after Nitter said, 'following legal advice,' that the project would continue.",
+      "whyItMatters": "The back-and-forth shows X Corp can still intermittently knock out the last mainstream way to read X posts without logging in.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "XCancel Shuts Down Again", "url": "https://daringfireball.net/linked/2026/09/14/xcancel-shuts-down-again" },
+        { "title": "XCancel gets taken down as X Corp sends cease-and-desist letter to Nitter", "url": "https://www.notebookcheck.net/XCancel-gets-taken-down-as-X-Corp-sends-cease-and-desist-letter-to-Nitter.1378427.0.html" }
+      ]
+    }
+  ]
+}

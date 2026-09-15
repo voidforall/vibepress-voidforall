@@ -1,0 +1,70 @@
+{
+  "id": "2026-09-15",
+  "date": "2026-09-15",
+  "generatedAt": "2026-09-15T12:31:21Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Today's edition centers on financing and macro catalysts: Rocket Lab locked in funding for its Iridium buyout ahead of the September 24 shareholder vote, while Alphabet featured on both sides of the ledger — Waymo's Tokyo expansion and ARK trimming its stake in favor of Meta. Bitcoin and gold both softened ahead of Wednesday's Fed decision, with a Senate cloture vote adding a fresh crypto-specific catalyst. Duolingo, meanwhile, used cheaper AI inference costs to retire its most expensive subscription tier.",
+  "stories": [
+    {
+      "headline": "Rocket Lab fully funds its $8B Iridium buyout, cancels $3.6B bridge loan",
+      "summary": "Rocket Lab completed a $1.944 billion at-the-market equity offering, issuing 29.3 million new shares, and terminated the $3.6 billion senior secured bridge facility it had lined up in June, saying the backup financing was no longer needed. Iridium separately amended its existing $1.775 billion term loan to permit the change of control, so the ATM proceeds, the assumed Iridium term loan, and Rocket Lab's available cash now cover the acquisition's cash consideration.",
+      "whyItMatters": "The company has now locked in financing for the deal ahead of Iridium's September 24 shareholder vote, removing a funding contingency that had been outstanding since the merger was announced.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Rocket Lab Fully Funds Iridium Acquisition, Including Completion of $1.94 Billion ATM", "url": "https://www.globenewswire.com/news-release/2026/09/15/3361819/0/en/rocket-lab-fully-funds-iridium-acquisition-including-completion-of-1-94-billion-atm.html" },
+        { "title": "Rocket Lab cancels a $3.6 billion bridge loan commitment. Iridium deal awaits regulatory approvals.", "url": "https://www.stocktitan.net/news/RKLB/rocket-lab-fully-funds-iridium-acquisition-including-completion-of-1-ynsysr3vgv3b.html" }
+      ]
+    },
+    {
+      "headline": "Bitcoin slips toward $77,000 as Senate holds cloture vote on crypto market-structure bill",
+      "summary": "Bitcoin traded near $77,000, down roughly 3% from an overnight high above $79,500, as the Senate held a procedural cloture vote Tuesday on the Digital Asset Market Clarity Act — a 60-vote threshold to open floor debate, not final passage. Polymarket odds on the bill becoming law in 2026 fell to 18%, down from 30% a day earlier, a day ahead of Wednesday's Fed decision, where markets are pricing roughly a 94% chance of a quarter-point rate hike.",
+      "whyItMatters": "A failed cloture vote would delay rather than kill the crypto market-structure bill, but it adds a fresh source of near-term uncertainty just before the Fed's decision.",
+      "category": "Crypto",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Live updates: Bitcoin slides from nearly $80,000 as Senate votes on Clarity Act", "url": "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act" }
+      ]
+    },
+    {
+      "headline": "Gold falls to a five-week low near $4,300 as Fed rate-hike odds hit 92%",
+      "summary": "Spot gold traded around $4,295, near a five-week low, as surging oil prices and a US 10-year Treasury yield above 5% — its highest since 2023 — reinforced bets on a rate hike at Wednesday's Fed meeting. Markets are pricing roughly a 92.4% probability of a 25-basis-point hike, with oil pushed higher after Saudi Arabia shut its East-West pipeline following attacks on the route.",
+      "whyItMatters": "Higher yields make non-interest-bearing gold less attractive, and the metal's decline shows rate expectations outweighing the geopolitical risk premium that had been supporting it.",
+      "category": "Commodities",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Gold falls below $4,300 as higher US yields bolster Fed rate hike bets", "url": "https://www.fxstreet.com/news/gold-falls-below-4-300-as-higher-us-yields-bolster-fed-rate-hike-bets-202609142314" }
+      ]
+    },
+    {
+      "headline": "ARK's Cathie Wood sells $12.8M of Alphabet, buys $7.1M of Meta",
+      "summary": "ARK Invest's ARKW ETF sold 38,273 Alphabet shares worth about $12.8 million and bought 10,997 Meta shares worth roughly $7.1 million on September 14, extending a rotation out of Alphabet and into Meta that mirrors trades made the prior week.",
+      "whyItMatters": "The trade trims ARK's exposure to Alphabet, a watchlist holding, in favor of Meta as the two stocks have diverged over the past quarter.",
+      "category": "Markets",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Cathie Wood's ARK sells Alphabet stock, buys Meta Platforms", "url": "https://www.investing.com/news/company-news/cathie-woods-ark-sells-alphabet-stock-buys-meta-platforms-93CH-4900685" }
+      ]
+    },
+    {
+      "headline": "Waymo, Alphabet's self-driving unit, plans a driverless taxi service in Tokyo by 2027",
+      "summary": "Waymo, Japanese taxi app operator GO, and taxi company Nihon Kotsu announced a partnership to launch fully autonomous ride-hailing in Tokyo by 2027, starting with a small fleet and expanding to roughly 100 vehicles across key neighborhoods, accessible through both the GO and Waymo apps. The launch depends on securing regulatory approvals and validating Waymo's technology and joint operations in Japan.",
+      "whyItMatters": "This would be Waymo's first commercial robotaxi market outside the US, extending Alphabet's self-driving unit into Asia.",
+      "category": "Company",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Waymo, Japanese partners target driverless taxi service in Tokyo in 2027", "url": "https://www.freemalaysiatoday.com/category/business/2026/09/15/waymo-japanese-partners-target-driverless-taxi-service-in-tokyo-in-2027" }
+      ]
+    },
+    {
+      "headline": "Duolingo retires its Max subscription tier as cheaper AI models cut costs",
+      "summary": "Duolingo is phasing out its ultra-premium Max tier, introduced in 2023, folding features like AI video calls with fictional characters and its 'explain my mistake' tool into the cheaper Super tier. The company said switching from OpenAI's models to open-source alternatives cut its cost per video call from about $0.30 to $0.01; new subscribers can no longer sign up for Max, though existing Max subscribers keep their plans through their renewal cycle. Max represents about 10% of paid subscribers, while paid-subscriber growth stands at 17% year-over-year.",
+      "whyItMatters": "Lower AI inference costs are letting Duolingo fold its priciest tier into a cheaper plan without giving up margin, a direct read on how falling AI costs are reshaping its subscription economics.",
+      "category": "Company",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "The Green Owl Is Ending Duolingo's Own Cash Cow. Here's Why That's Good News For Users and Investors.", "url": "https://www.fool.com/investing/2026/09/14/the-green-owl-is-ending-duolingos-own-cash-cow/" }
+      ]
+    }
+  ]
+}

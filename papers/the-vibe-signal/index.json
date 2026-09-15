@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-09-15",
+      "date": "2026-09-15",
+      "headline": "Oracle's AI-spending restructuring bill grows to $2.8B after 21,000 layoffs",
+      "storyCount": 5
+    },
+    {
       "id": "2026-09-14",
       "date": "2026-09-14",
       "headline": "Amodei calls for an industry-wide AI slowdown; Microsoft answers with a draft rulebook",

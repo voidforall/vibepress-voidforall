@@ -1,7 +1,56 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-14T19:37:36Z",
+  "updatedAt": "2026-09-15T12:32:11Z",
   "events": [
+    {
+      "date": "2026-09-15",
+      "headline": "Waymo, Alphabet's self-driving unit, plans a driverless taxi service in Tokyo by 2027",
+      "summary": "Waymo, Japanese taxi app operator GO, and taxi company Nihon Kotsu announced a partnership to launch fully autonomous ride-hailing in Tokyo by 2027, starting with a small fleet and expanding to roughly 100 vehicles across key neighborhoods…",
+      "urls": [
+        "https://www.freemalaysiatoday.com/category/business/2026/09/15/waymo-japanese-partners-target-driverless-taxi-service-in-tokyo-in-2027"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "headline": "Rocket Lab fully funds its $8B Iridium buyout, cancels $3.6B bridge loan",
+      "summary": "Rocket Lab completed a $1.944 billion at-the-market equity offering, issuing 29.3 million new shares, and terminated the $3.6 billion senior secured bridge facility it had lined up in June, saying the backup financing was no longer needed.…",
+      "urls": [
+        "https://www.globenewswire.com/news-release/2026/09/15/3361819/0/en/rocket-lab-fully-funds-iridium-acquisition-including-completion-of-1-94-billion-atm.html",
+        "https://www.stocktitan.net/news/RKLB/rocket-lab-fully-funds-iridium-acquisition-including-completion-of-1-ynsysr3vgv3b.html"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "headline": "Gold falls to a five-week low near $4,300 as Fed rate-hike odds hit 92%",
+      "summary": "Spot gold traded around $4,295, near a five-week low, as surging oil prices and a US 10-year Treasury yield above 5% — its highest since 2023 — reinforced bets on a rate hike at Wednesday's Fed meeting. Markets are pricing roughly a 92.4%…",
+      "urls": [
+        "https://www.fxstreet.com/news/gold-falls-below-4-300-as-higher-us-yields-bolster-fed-rate-hike-bets-202609142314"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "headline": "Duolingo retires its Max subscription tier as cheaper AI models cut costs",
+      "summary": "Duolingo is phasing out its ultra-premium Max tier, introduced in 2023, folding features like AI video calls with fictional characters and its 'explain my mistake' tool into the cheaper Super tier. The company said switching from OpenAI's…",
+      "urls": [
+        "https://www.fool.com/investing/2026/09/14/the-green-owl-is-ending-duolingos-own-cash-cow/"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "headline": "Bitcoin slips toward $77,000 as Senate holds cloture vote on crypto market-structure bill",
+      "summary": "Bitcoin traded near $77,000, down roughly 3% from an overnight high above $79,500, as the Senate held a procedural cloture vote Tuesday on the Digital Asset Market Clarity Act — a 60-vote threshold to open floor debate, not final passage.…",
+      "urls": [
+        "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "headline": "ARK's Cathie Wood sells $12.8M of Alphabet, buys $7.1M of Meta",
+      "summary": "ARK Invest's ARKW ETF sold 38,273 Alphabet shares worth about $12.8 million and bought 10,997 Meta shares worth roughly $7.1 million on September 14, extending a rotation out of Alphabet and into Meta that mirrors trades made the prior wee…",
+      "urls": [
+        "https://www.investing.com/news/company-news/cathie-woods-ark-sells-alphabet-stock-buys-meta-platforms-93CH-4900685"
+      ]
+    },
     {
       "date": "2026-09-14",
       "headline": "US spot bitcoin ETFs post $463M weekly outflow, ending a three-week inflow streak",
