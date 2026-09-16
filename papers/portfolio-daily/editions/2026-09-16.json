@@ -1,0 +1,61 @@
+{
+  "id": "2026-09-16",
+  "date": "2026-09-16",
+  "generatedAt": "2026-09-16T12:30:02Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Today turns on the Federal Reserve's rate call this afternoon: economists reversed course this week to expect the first hike since 2023, a shift already priced into gold and, alongside the Senate's failure to advance crypto market-structure legislation, into bitcoin's slide. Alphabet is the outlier bright spot, sitting on a 15% Anthropic stake that stands to grow as that company lines up a record-setting IPO.",
+  "stories": [
+    {
+      "headline": "Fed decision lands today as economists reverse to expect a hike",
+      "summary": "The Federal Reserve announces its rate decision this afternoon. In a Reuters poll taken after last Friday's hot inflation report, 86 of 101 economists now expect a quarter-point hike to 3.75%-4.00% — the first increase since 2023 — reversing last week's survey, where two-thirds had expected a hold. Interest-rate futures price roughly a 90% chance of a hike, while prediction markets Kalshi and Polymarket put the odds closer to 50%.",
+      "whyItMatters": "A hike would be the Fed's first tightening move since 2023, resetting borrowing-cost expectations across every asset on this watchlist.",
+      "category": "Markets",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Fed rate hike on Wednesday now likely, say economists, and at least one more to follow: Reuters Poll",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-09-14/fed-rate-hike-wednesday-now-likely-say-economists-and-least-one-more"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin drops as CLARITY Act fails Senate cloture vote, ending 2026's crypto market-structure push",
+      "summary": "The Digital Asset Market Clarity Act fell short of the 60 votes needed to advance in the Senate on Tuesday evening, with more than 40 senators opposed after Democrats' demands for enforceable crypto-ethics rules went unresolved. Bitcoin fell as much as 4.2% to around $75,850, and crypto-linked stocks Coinbase, Circle and Bullish dropped between 4.6% and 8%.",
+      "whyItMatters": "The bill's failure effectively ends Senate crypto market-structure legislation for 2026, removing a regulatory-clarity catalyst the market had been pricing in.",
+      "category": "Crypto",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Live updates: Clarity Act fails in Senate, sending crypto lower",
+          "url": "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act"
+        }
+      ]
+    },
+    {
+      "headline": "Alphabet's 15% Anthropic stake sets up for a windfall as IPO targets $2 trillion valuation",
+      "summary": "Anthropic is targeting a fall IPO at a reported $2 trillion valuation and up to $100 billion raised — both would top SpaceX's $1.77 trillion, $86 billion offering in June. Alphabet holds roughly 15% of Anthropic and booked $99 billion in net gains last quarter tied partly to Anthropic's most recent capital raise; Amazon holds about 21%.",
+      "whyItMatters": "A record IPO valuation would hand Alphabet further unrealized gains on its stake and, after the post-IPO lockup expires, potential cash it could redeploy into AI infrastructure.",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "What the Anthropic IPO Means for Amazon and Alphabet Investors",
+          "url": "https://www.fool.com/investing/2026/09/16/what-anthropic-ipo-means-amazon-alphabet/"
+        }
+      ]
+    },
+    {
+      "headline": "Gold enters Fed decision day still down 21% from this year's record high",
+      "summary": "Spot gold traded near $4,275-$4,340 an ounce Wednesday, stabilizing after touching a six-week low around $4,263 but still well off the record above $5,500 it hit earlier this year. A rate hike would typically pressure gold by lifting yields and the dollar, though analysts note much of the expected move may already be priced in, with the Fed's forward guidance likely to matter more than the decision itself.",
+      "whyItMatters": "Gold's level directly affects the watchlist's XAU holding heading into a decision that could move it sharply in either direction.",
+      "category": "Commodities",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "What a Fed rate hike could mean for gold and silver prices",
+          "url": "https://www.cbsnews.com/news/what-fed-rate-hike-means-for-gold-silver-prices-september-2026/"
+        }
+      ]
+    }
+  ]
+}

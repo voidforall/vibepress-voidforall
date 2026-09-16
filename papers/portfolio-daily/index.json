@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-09-16",
+      "date": "2026-09-16",
+      "headline": "Fed decision lands today as economists reverse to expect a hike",
+      "storyCount": 4
+    },
+    {
       "id": "2026-09-15",
       "date": "2026-09-15",
       "headline": "Rocket Lab fully funds its $8B Iridium buyout, cancels $3.6B bridge loan",

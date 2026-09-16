@@ -1,7 +1,39 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-15T12:32:11Z",
+  "updatedAt": "2026-09-16T12:33:44Z",
   "events": [
+    {
+      "date": "2026-09-16",
+      "headline": "Gold enters Fed decision day still down 21% from this year's record high",
+      "summary": "Spot gold traded near $4,275-$4,340 an ounce Wednesday, stabilizing after touching a six-week low around $4,263 but still well off the record above $5,500 it hit earlier this year. A rate hike would typically pressure gold by lifting yield…",
+      "urls": [
+        "https://www.cbsnews.com/news/what-fed-rate-hike-means-for-gold-silver-prices-september-2026/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "headline": "Fed decision lands today as economists reverse to expect a hike",
+      "summary": "The Federal Reserve announces its rate decision this afternoon. In a Reuters poll taken after last Friday's hot inflation report, 86 of 101 economists now expect a quarter-point hike to 3.75%-4.00% — the first increase since 2023 — reversi…",
+      "urls": [
+        "https://www.kitco.com/news/off-the-wire/2026-09-14/fed-rate-hike-wednesday-now-likely-say-economists-and-least-one-more"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "headline": "Bitcoin drops as CLARITY Act fails Senate cloture vote, ending 2026's crypto market-structure push",
+      "summary": "The Digital Asset Market Clarity Act fell short of the 60 votes needed to advance in the Senate on Tuesday evening, with more than 40 senators opposed after Democrats' demands for enforceable crypto-ethics rules went unresolved. Bitcoin fe…",
+      "urls": [
+        "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "headline": "Alphabet's 15% Anthropic stake sets up for a windfall as IPO targets $2 trillion valuation",
+      "summary": "Anthropic is targeting a fall IPO at a reported $2 trillion valuation and up to $100 billion raised — both would top SpaceX's $1.77 trillion, $86 billion offering in June. Alphabet holds roughly 15% of Anthropic and booked $99 billion in n…",
+      "urls": [
+        "https://www.fool.com/investing/2026/09/16/what-anthropic-ipo-means-amazon-alphabet/"
+      ]
+    },
     {
       "date": "2026-09-15",
       "headline": "Waymo, Alphabet's self-driving unit, plans a driverless taxi service in Tokyo by 2027",

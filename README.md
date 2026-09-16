@@ -8,8 +8,8 @@ _Self-publishing dailies, made with vibepress_
 
 | Paper | Covers | Cadence | Latest edition |
 | --- | --- | --- | --- |
-| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “Oracle's AI-spending restructuring bill grows to $2.8B after 21,000 l…” · 2026-09-15 |
-| 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Rocket Lab fully funds its $8B Iridium buyout, cancels $3.6B bridge l…” · 2026-09-15 |
+| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “TypeSafe AI launches Jev, a model that skips text for calibrated stru…” · 2026-09-16 |
+| 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Fed decision lands today as economists reverse to expect a hike” · 2026-09-16 |
 | 🔬 [Research Radar](https://voidforall.github.io/vibepress-voidforall/#/research-radar) | The week in AI research, distilled | Weekly (Mon) | “LLMs manage just 1% exact-match accuracy on real procedural tasks spa…” · 2026-09-14 |
 | 🪐 [The Cosmic Dispatch](https://voidforall.github.io/vibepress-voidforall/#/cosmic-dispatch) | Space, astronomy, and the odd asteroid | Weekly (Thu) | “SpaceX's Starship flies again — and lands the “softest splashdown” yet” · 2026-07-26 |
 | 🌸 [The Otaku Times](https://voidforall.github.io/vibepress-voidforall/#/otaku-times) | Anime & manga, and what to watch next | Monthly | “This Month: Bleach: Thousand-Year Blood War reaches its final act” · 2026-08-01 |

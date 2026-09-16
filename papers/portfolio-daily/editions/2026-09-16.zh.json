@@ -1,0 +1,49 @@
+{
+  "id": "2026-09-16",
+  "date": "2026-09-16",
+  "generatedAt": "2026-09-16T12:30:02Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今天的焦点是美联储下午公布的利率决议:经济学家本周转向预期近三年来的首次加息,这一预期已经反映在金价上,叠加参议院加密货币市场结构立法未能过关,也拖累了比特币。Alphabet是为数不多的亮点——其持有的15%Anthropic股权有望随后者筹备创纪录IPO而进一步增值。",
+  "stories": [
+    {
+      "headline": "美联储今日公布决议,经济学家转向预期加息",
+      "summary": "美联储将于今天下午公布利率决议。路透社在上周五通胀数据超预期后进行的调查显示,101位受访经济学家中有86位预计将加息25个基点至3.75%-4.00%区间——这将是2023年以来的首次加息,一举扭转了上周三分之二受访者预期维持不变的判断。利率期货定价加息概率约90%,而Kalshi和Polymarket等预测市场给出的概率则接近50%。",
+      "whyItMatters": "若加息成真,这将是美联储2023年以来首次收紧货币政策,重新设定观察名单上所有资产的融资成本预期。",
+      "category": "Markets",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Fed rate hike on Wednesday now likely, say economists, and at least one more to follow: Reuters Poll", "url": "https://www.kitco.com/news/off-the-wire/2026-09-14/fed-rate-hike-wednesday-now-likely-say-economists-and-least-one-more" }
+      ]
+    },
+    {
+      "headline": "《明晰法案》未能通过参议院程序性表决,比特币下跌",
+      "summary": "《数字资产市场明晰法案》周二晚间未能在参议院获得推进所需的60票门槛,40多位参议员因民主党要求的加密货币伦理条款未获满足而投下反对票。比特币一度下跌4.2%至约75,850美元,加密货币概念股Coinbase、Circle和Bullish跌幅在4.6%至8%之间。",
+      "whyItMatters": "该法案的失败实际上终结了参议院2026年内推进加密货币市场结构立法的努力,市场此前曾押注这一监管明晰前景。",
+      "category": "Crypto",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Live updates: Clarity Act fails in Senate, sending crypto lower", "url": "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act" }
+      ]
+    },
+    {
+      "headline": "Anthropic筹备2万亿美元估值IPO,Alphabet所持15%股权有望大幅增值",
+      "summary": "Anthropic计划于今年秋季上市,据报道估值达2万亿美元,融资规模最高1000亿美元——若成真,两项数据都将超过SpaceX今年6月创下的1.77万亿美元估值、860亿美元融资的纪录。Alphabet持有Anthropic约15%的股权,上季度受益于Anthropic最新一轮融资等因素录得990亿美元净收益;亚马逊则持股约21%。",
+      "whyItMatters": "若IPO估值达到预期,Alphabet所持股权的未实现收益将进一步扩大,且在锁定期结束后,公司或可将这部分资金重新投入AI基础设施建设。",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "What the Anthropic IPO Means for Amazon and Alphabet Investors", "url": "https://www.fool.com/investing/2026/09/16/what-anthropic-ipo-means-amazon-alphabet/" }
+      ]
+    },
+    {
+      "headline": "美联储决议日,黄金仍较今年高点回落21%",
+      "summary": "周三现货黄金交投于每盎司4,275至4,340美元区间,较本周触及的六周低点约4,263美元有所企稳,但仍远低于今年早些时候创下的5,500美元以上纪录高位。加息通常会通过推高收益率和美元来打压金价,不过分析人士指出,市场预期的加息可能已大部分计入金价,美联储的前瞻指引或比决议本身更具影响力。",
+      "whyItMatters": "金价走势直接影响观察名单中黄金持仓的价值,而今日决议可能令其大幅波动。",
+      "category": "Commodities",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "What a Fed rate hike could mean for gold and silver prices", "url": "https://www.cbsnews.com/news/what-fed-rate-hike-means-for-gold-silver-prices-september-2026/" }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-15T12:35:24Z",
+  "updatedAt": "2026-09-16T12:33:44Z",
   "events": [
+    {
+      "date": "2026-09-16",
+      "headline": "TypeSafe AI launches Jev, a model that skips text for calibrated structured output",
+      "summary": "TypeSafe AI, founded by former OpenAI researcher Diogo Almeida, emerged from two years of stealth with Jev, the first release in a category it calls 'System One Models' — built for automation inside software rather than conversation. Train…",
+      "urls": [
+        "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "headline": "Prior Labs' TabPFN-3.5 claims the top spot on two tabular-data benchmarks",
+      "summary": "Prior Labs, the SAP-owned tabular-AI research team, released TabPFN-3.5, a foundation model that predicts directly from raw tabular data, handling missing values, mixed types and free text without preprocessing. The company reports a 99% w…",
+      "urls": [
+        "https://priorlabs.ai/tabpfn-3-5"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "headline": "Mistral and Mozilla bring an AI browsing assistant to Firefox",
+      "summary": "Mistral and Mozilla launched Firefox Smart Window in beta, an AI assistant built on Mistral's open-source models that helps users navigate complex searches and recall previously visited pages across tabs. It launches now in France and Nort…",
+      "urls": [
+        "https://mistral.ai/news/mistral-x-mozilla/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "headline": "Google ships Gemini 3.8 Live, with an 'Extended Thinking' tier for real-time voice reasoning",
+      "summary": "Google released Gemini 3.8 Live, a lower-cost model for scaled voice interactions across 97 languages, alongside Gemini 3.8 Live Extended Thinking, which reasons through multi-step tasks while continuing to speak naturally. The Extended Th…",
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "headline": "Apple builds a cryptographic chain of custody for iPhone photos",
+      "summary": "Apple detailed Reference Image, a feature debuting on the iPhone 18 Pro's main camera that cryptographically signs pixel data the instant a photo is captured and bundles it with a trusted timestamp; photographers can later 'develop' that s…",
+      "urls": [
+        "https://security.apple.com/blog/apple-reference-image/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "headline": "A developer's case for why LLMs' Navier-Stokes win doesn't generalize to real work",
+      "summary": "In an essay responding to a recent AI-assisted mathematical proof, developer Jay Kruer argues frontier LLMs still can't be trusted as autonomous replacements for most knowledge work: they need heavy oversight even on simple tasks, fail out…",
+      "urls": [
+        "https://dank.systems/posts/2026-09-15-ai-bear.html"
+      ]
+    },
     {
       "date": "2026-09-15",
       "headline": "XCancel shuts down again as its legal fight with X Corp continues",
