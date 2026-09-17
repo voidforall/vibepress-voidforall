@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-17",
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T12:27:55Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "本周六条线索：一枚饱经挫折的巨型火箭终于排定入轨尝试，一台旗舰级望远镜在发射后苏醒开机。而在更远处，韦布、哈勃和钱德拉望远镜都发现了尚未被教科书收录的新现象——一颗仍在成形中的行星、土星身上一道意料之外的大气波纹，以及一类尚未被归类的X射线天体。",
+  "stories": [
+    {
+      "headline": "SpaceX将于9月22日首次尝试星舰完整入轨飞行",
+      "summary": "SpaceX已将星舰14号试飞排定于9月22日从得克萨斯州星际基地发射，这将是该飞行器经过三年多次亚轨道试飞后首次真正尝试入轨。计划包括部署26颗新一代星链卫星、助推器海上回收，以及飞船在太平洋溅落——其中三颗卫星携带摄像头,用于在再入过程中扫描隔热层状况。",
+      "whyItMatters": "星舰既是NASA阿尔忒弥斯计划的登月着陆器,也是SpaceX用于大宗轨道货运的运载工具;成功入轨将扫清其迈向常态化使用的最大障碍。",
+      "category": "发射",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Starship Flight 14 Confirmed for Sept. 22: Orbital Debut Carries Revenue Payload", "url": "https://www.techtimes.com/articles/327630/20260916/starship-flight-14-confirmed-sept-22-orbital-debut-carries-revenue-payload.htm" },
+        { "title": "SpaceX — Starship Flight 14", "url": "https://www.spacex.com/launches/starship-flight-14" }
+      ]
+    },
+    {
+      "headline": "罗曼太空望远镜仪器首次开机",
+      "summary": "本月工程师们开始启动南希·格雷斯·罗曼太空望远镜的日冕仪和宽视场仪器,将宽视场仪器探测器降温至约零下300华氏度的工作温度附近,并对日冕仪展开科学观测前的校准。两台仪器目前均尚未采集科学数据——NASA表示,罗曼望远镜仍按计划将于2027年初发布首批科学图像。",
+      "whyItMatters": "这一调试里程碑,让8月从肯尼迪航天中心升空的罗曼望远镜又向其广域宇宙巡天任务迈进一步,该任务旨在与哈勃和韦布形成互补。",
+      "category": "任务",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Roman Space Telescope starts waking up as NASA powers on instruments for the 1st time", "url": "https://www.space.com/space-exploration/missions/roman-space-telescope-starts-waking-up-as-nasa-powers-on-instruments-for-the-1st-time" }
+      ]
+    },
+    {
+      "headline": "天文学家确认迄今最年轻的行星",
+      "summary": "研究团队利用凯克天文台的存档数据,由安德里亚·贝尔纳迪领衔确认了Elias 2-24 b——一颗年龄不足百万年、质量与木星相当的行星,目前仍在从其原行星盘中吸积物质,距离母恒星约为地日距离的55倍。此前的最年轻行星纪录保持者年龄均超过500万年。",
+      "whyItMatters": "捕捉到一颗如此年轻、又距母星如此遥远的行星,为天文学家提供了检验巨行星实际形成过程的难得直接证据。",
+      "category": "发现",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Newfound 'Baby' Planet Smashes Record for Youngest Known World", "url": "https://science.nasa.gov/universe/newfound-baby-planet-smashes-record-for-youngest-known-world/" },
+        { "title": "Scientists find youngest exoplanet on record — a 'newborn' named Elias", "url": "https://www.space.com/astronomy/exoplanets/scientists-find-youngest-exoplanet-on-record-a-newborn-named-elias" }
+      ]
+    },
+    {
+      "headline": "钱德拉发现一类前所未见的X射线天体",
+      "summary": "NASA钱德拉X射线天文台在包括仙女座星系和风车星系在内的六个星系中,发现了84个天体,它们发出异常低能的X射线,同时伴随强烈的紫外辐射——这种组合在已知的致密双星系统中从未出现过。研究人员认为,每个天体很可能是黑洞、中子星或白矮星正从伴星身上吸积物质,但其辐射特征与以往已知案例都对不上。",
+      "whyItMatters": "这一发现或许能同时解答两个悬而未决的问题:哪些恒星最终会演变为Ia型超新星,以及是什么剥离了某些星系恒星际气体中的电子。",
+      "category": "深空",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "NASA's Chandra Unveils Mysterious X-Ray Objects", "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-unveils-mysterious-x-ray-objects/" },
+        { "title": "Scientists discover mysterious new X-ray objects 'unlike any they have seen before'", "url": "https://www.space.com/astronomy/galaxies/scientists-discover-mysterious-new-x-ray-objects-unlike-any-they-have-seen-before" }
+      ]
+    },
+    {
+      "headline": "哈勃在土星南极发现正在形成的十边形波纹",
+      "summary": "哈勃自2023年以来的图像显示,土星南极上空正环绕着一个“十边形”——一道十边形大气波纹,位于土星某条急流之内,并贯穿多层大气。它与土星北极著名的、已稳定存在超过40年的六边形相呼应,但这个十边形仍在不断增强,尚未定形。",
+      "whyItMatters": "这是首次在土星南半球确认存在大型正多边形急流图案,自1990年以来科学家一直在寻找却未有斩获——而且它正当着研究人员的面实时增强。",
+      "category": "太阳系",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "NASA's Hubble Tracks New Decagon Encircling Saturn's South Pole", "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/" }
+      ]
+    },
+    {
+      "headline": "韦布迄今最大恒星形成全景图,发现小得不可思议的褐矮星",
+      "summary": "在对约1000光年外恒星形成区IC 348的巡天观测中,韦布拍摄了迄今最大的图像之一,发现了质量仅为木星两倍的褐矮星——比理论认为可能形成的下限还要小。其中质量最小的一颗周围还显示出疑似星周盘的迹象,暗示行星或许能在一个本身仅有行星大小的天体周围形成。",
+      "whyItMatters": "如此微小的天体对现有恒星与褐矮星形成模型构成挑战,而星周盘的发现也模糊了“行星”与“失败恒星”之间的界限。",
+      "category": "天文",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "NASA's Webb Reveals Dynamic Panorama of Star Formation", "url": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/" }
+      ]
+    }
+  ]
+}

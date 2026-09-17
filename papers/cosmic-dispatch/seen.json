@@ -1,59 +1,56 @@
 {
   "windowDays": 21,
-  "updatedAt": "2026-07-26T21:35:54Z",
+  "updatedAt": "2026-09-17T12:29:06Z",
   "events": [
     {
-      "date": "2026-07-26",
-      "headline": "SpaceX's Starship flies again — and lands the “softest splashdown” yet",
-      "summary": "On July 24 SpaceX launched the second flight of Starship V3 from Starbase, Texas, deploying 20 next-generation Starlink V3 satellites about 18 minutes in — its first look at them in flight. The Super Heavy booster splashed down in the Gulf…",
+      "date": "2026-09-17",
+      "headline": "Webb's widest star-forming panorama turns up impossibly small brown dwarfs",
+      "summary": "One of JWST's largest images to date, a survey of the star-forming region IC 348 some 1,000 light-years away, turned up brown dwarfs as small as twice Jupiter's mass — smaller than theory says they should be able to form. One of the lighte…",
       "urls": [
-        "https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-makes-the-softest-splashdown-ever-after-launching-next-gen-starlink-satellites-in-flight-13-test-video",
-        "https://spacenews.com/spacex-conducts-13th-starship-test-flight/"
+        "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/"
       ]
     },
     {
-      "date": "2026-07-26",
-      "headline": "NASA's Roman telescope reaches the launch pad — about nine months early",
-      "summary": "NASA will hold a July 29 briefing to preview the Nancy Grace Roman Space Telescope, now set to launch Aug. 30 from Kennedy Space Center on a SpaceX Falcon Heavy — roughly nine months ahead of schedule. Roman's field of view is at least 100…",
+      "date": "2026-09-17",
+      "headline": "SpaceX sets Starship's first full orbital attempt for September 22",
+      "summary": "SpaceX has scheduled Starship Flight 14 to lift off from Starbase, Texas on September 22, aiming for the vehicle's first real trip to orbit after more than three years of suborbital test flights. The plan calls for deploying 26 next-genera…",
       "urls": [
-        "https://www.nasa.gov/news-release/nasa-to-host-media-briefing-on-roman-telescope-launching-next-month/",
-        "https://science.nasa.gov/mission/roman-space-telescope/"
+        "https://www.techtimes.com/articles/327630/20260916/starship-flight-14-confirmed-sept-22-orbital-debut-carries-revenue-payload.htm",
+        "https://www.spacex.com/launches/starship-flight-14"
       ]
     },
     {
-      "date": "2026-07-26",
-      "headline": "For the first time, an atmosphere is found around a rocky planet in the habitable zone",
-      "summary": "Researchers report in Science (July 16) the first confirmed atmosphere around a rocky, Earth-like world in its star's habitable zone: LHS 1140 b, a super-Earth about 49 light-years away with roughly 1.7 times Earth's radius. Such an atmosp…",
+      "date": "2026-09-17",
+      "headline": "Roman Space Telescope's instruments power on for the first time",
+      "summary": "Engineers began switching on the Nancy Grace Roman Space Telescope's Coronagraph and Wide Field instruments this month, cooling the Wide Field Instrument's detectors toward their -300°F operating temperature and calibrating the coronagraph…",
       "urls": [
-        "https://www.smithsonianmag.com/smart-news/could-life-exist-on-this-nearby-world-in-a-first-astronomers-find-an-atmosphere-on-an-earth-like-exoplanet-in-the-habitable-zone-180989149/",
-        "https://www.space.com/astronomy/exoplanets/astronomers-discover-1st-atmosphere-around-a-rocky-earth-like-planet-in-the-habitable-zone"
+        "https://www.space.com/space-exploration/missions/roman-space-telescope-starts-waking-up-as-nasa-powers-on-instruments-for-the-1st-time"
       ]
     },
     {
-      "date": "2026-07-26",
-      "headline": "Astronomers may have spotted the first moon beyond our solar system — a Jupiter-sized one",
-      "summary": "Using the radial-velocity “wobble” method on the European Southern Observatory's Very Large Telescope, astronomers report evidence of the first known exomoon — at least as massive as Jupiter — orbiting not a planet but a brown dwarf (CD-35…",
+      "date": "2026-09-17",
+      "headline": "Hubble finds a ten-sided wave forming around Saturn's south pole",
+      "summary": "Hubble images going back to 2023 reveal a 'decagon' — a ten-sided atmospheric wave encircling Saturn's south pole, sitting inside one of the planet's jet streams and extending through multiple atmospheric layers. It echoes the planet's fam…",
       "urls": [
-        "https://time.com/article/2026/07/22/astronomers-discover-exomoon/",
-        "https://www.space.com/astronomy/exoplanets/astronomers-may-have-discovered-the-1st-moon-outside-of-our-solar-system-or-is-it-something-weirder"
+        "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/"
       ]
     },
     {
-      "date": "2026-07-26",
-      "headline": "After 241 days in orbit, a Soyuz brings three crewmates home to the steppe",
-      "summary": "Soyuz MS-28 undocked from the International Space Station and made a parachute landing on the Kazakh steppe, returning NASA astronaut Chris Williams and cosmonauts Sergey Kud-Sverchkov and Sergei Mikaev after a 241-day mission — 3,856 orbi…",
+      "date": "2026-09-17",
+      "headline": "Chandra spots a new class of X-ray objects unlike anything seen before",
+      "summary": "NASA's Chandra X-ray Observatory found 84 objects across six galaxies, including Andromeda and the Pinwheel Galaxy, that give off unusually low-energy X-rays alongside intense ultraviolet radiation — a combination not seen in known compact…",
       "urls": [
-        "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-crewmates-return-from-space-station/",
-        "https://www.space.com/space-exploration/human-spaceflight/nasa-astronaut-two-cosmonauts-return-to-earth-soyuz-ms-28"
+        "https://science.nasa.gov/missions/chandra/nasas-chandra-unveils-mysterious-x-ray-objects/",
+        "https://www.space.com/astronomy/galaxies/scientists-discover-mysterious-new-x-ray-objects-unlike-any-they-have-seen-before"
       ]
     },
     {
-      "date": "2026-07-26",
-      "headline": "A new way to hunt planets: listen for them in gravitational waves",
-      "summary": "An Astrobites roundup describes how the planned LISA space observatory could detect giant planets circling double white dwarfs by the tiny shifts a planet imprints on the pair's gravitational-wave signal — a method akin to radial velocity…",
+      "date": "2026-09-17",
+      "headline": "Astronomers confirm the youngest planet ever found",
+      "summary": "Using archival W. M. Keck Observatory data, a team led by Andrea Bernardi identified Elias 2-24 b, a Jupiter-mass world less than a million years old that is still accreting material from its natal disk, sitting roughly 55 times farther fr…",
       "urls": [
-        "https://astrobites.org/2026/07/22/extragalactic-exoplanets-gws/",
-        "https://www.space.com/gravitational-waves-to-detect-planets-beyond-galaxy.html"
+        "https://science.nasa.gov/universe/newfound-baby-planet-smashes-record-for-youngest-known-world/",
+        "https://www.space.com/astronomy/exoplanets/scientists-find-youngest-exoplanet-on-record-a-newborn-named-elias"
       ]
     }
   ]

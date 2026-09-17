@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-17",
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T12:27:55Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "Six threads this week: a battered giant rocket finally lines up an orbital attempt, and a flagship telescope wakes from its post-launch sleep. Further out, Webb, Hubble and Chandra all turned up something that doesn't quite fit the textbooks yet — a planet still being built, an unexpected wave circling Saturn, and a class of X-ray objects nobody's classified.",
+  "stories": [
+    {
+      "headline": "SpaceX sets Starship's first full orbital attempt for September 22",
+      "summary": "SpaceX has scheduled Starship Flight 14 to lift off from Starbase, Texas on September 22, aiming for the vehicle's first real trip to orbit after more than three years of suborbital test flights. The plan calls for deploying 26 next-generation Starlink satellites, an offshore booster landing, and a nominal Pacific splashdown for the ship — with three of the satellites carrying cameras to scan the heat shield during descent.",
+      "whyItMatters": "Starship is both NASA's planned Artemis lunar lander and SpaceX's vehicle for bulk orbital cargo; reaching orbit clears the single biggest hurdle standing between it and routine use.",
+      "category": "Launches",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Starship Flight 14 Confirmed for Sept. 22: Orbital Debut Carries Revenue Payload", "url": "https://www.techtimes.com/articles/327630/20260916/starship-flight-14-confirmed-sept-22-orbital-debut-carries-revenue-payload.htm" },
+        { "title": "SpaceX — Starship Flight 14", "url": "https://www.spacex.com/launches/starship-flight-14" }
+      ]
+    },
+    {
+      "headline": "Roman Space Telescope's instruments power on for the first time",
+      "summary": "Engineers began switching on the Nancy Grace Roman Space Telescope's Coronagraph and Wide Field instruments this month, cooling the Wide Field Instrument's detectors toward their -300°F operating temperature and calibrating the coronagraph ahead of science operations. Neither instrument is collecting science data yet — NASA says Roman remains on track for its first science images in early 2027.",
+      "whyItMatters": "The commissioning milestone moves Roman, launched from Kennedy Space Center in August, a step closer to the wide-field cosmic survey it was built to run alongside Hubble and JWST.",
+      "category": "Missions",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Roman Space Telescope starts waking up as NASA powers on instruments for the 1st time", "url": "https://www.space.com/space-exploration/missions/roman-space-telescope-starts-waking-up-as-nasa-powers-on-instruments-for-the-1st-time" }
+      ]
+    },
+    {
+      "headline": "Astronomers confirm the youngest planet ever found",
+      "summary": "Using archival W. M. Keck Observatory data, a team led by Andrea Bernardi identified Elias 2-24 b, a Jupiter-mass world less than a million years old that is still accreting material from its natal disk, sitting roughly 55 times farther from its star than Earth is from the sun. The previous record-holders for youngest known planet were all more than 5 million years old.",
+      "whyItMatters": "Catching a planet this early, and this far out, gives astronomers a rare direct test of how giant planets actually assemble.",
+      "category": "Discovery",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Newfound 'Baby' Planet Smashes Record for Youngest Known World", "url": "https://science.nasa.gov/universe/newfound-baby-planet-smashes-record-for-youngest-known-world/" },
+        { "title": "Scientists find youngest exoplanet on record — a 'newborn' named Elias", "url": "https://www.space.com/astronomy/exoplanets/scientists-find-youngest-exoplanet-on-record-a-newborn-named-elias" }
+      ]
+    },
+    {
+      "headline": "Chandra spots a new class of X-ray objects unlike anything seen before",
+      "summary": "NASA's Chandra X-ray Observatory found 84 objects across six galaxies, including Andromeda and the Pinwheel Galaxy, that give off unusually low-energy X-rays alongside intense ultraviolet radiation — a combination not seen in known compact binaries. Researchers think each likely involves a black hole, neutron star, or white dwarf pulling material from a companion star, but with an emission pattern that doesn't match prior examples.",
+      "whyItMatters": "The find could help explain two open puzzles at once: which stars end up as Type Ia supernovae, and what strips electrons from the gas between stars in some galaxies.",
+      "category": "Deep Space",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "NASA's Chandra Unveils Mysterious X-Ray Objects", "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-unveils-mysterious-x-ray-objects/" },
+        { "title": "Scientists discover mysterious new X-ray objects 'unlike any they have seen before'", "url": "https://www.space.com/astronomy/galaxies/scientists-discover-mysterious-new-x-ray-objects-unlike-any-they-have-seen-before" }
+      ]
+    },
+    {
+      "headline": "Hubble finds a ten-sided wave forming around Saturn's south pole",
+      "summary": "Hubble images going back to 2023 reveal a 'decagon' — a ten-sided atmospheric wave encircling Saturn's south pole, sitting inside one of the planet's jet streams and extending through multiple atmospheric layers. It echoes the planet's famous six-sided northern hexagon, which has held steady for over 40 years, but the decagon is still strengthening rather than settled.",
+      "whyItMatters": "It's the first large regular-sided jet pattern ever confirmed in Saturn's southern hemisphere, something scientists had looked for without success since 1990 — and it's growing in real time in front of researchers.",
+      "category": "Solar System",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "NASA's Hubble Tracks New Decagon Encircling Saturn's South Pole", "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/" }
+      ]
+    },
+    {
+      "headline": "Webb's widest star-forming panorama turns up impossibly small brown dwarfs",
+      "summary": "One of JWST's largest images to date, a survey of the star-forming region IC 348 some 1,000 light-years away, turned up brown dwarfs as small as twice Jupiter's mass — smaller than theory says they should be able to form. One of the lightest also showed signs of a surrounding disk, hinting that planets could form around an object barely bigger than a planet itself.",
+      "whyItMatters": "Objects this small challenge existing models of how stars and brown dwarfs form, and the disk detection blurs the line between 'planet' and 'failed star.'",
+      "category": "Astronomy",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "NASA's Webb Reveals Dynamic Panorama of Star Formation", "url": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/" }
+      ]
+    }
+  ]
+}

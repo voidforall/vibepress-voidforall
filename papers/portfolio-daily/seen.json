@@ -1,7 +1,48 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-16T12:33:44Z",
+  "updatedAt": "2026-09-17T12:32:09Z",
   "events": [
+    {
+      "date": "2026-09-17",
+      "headline": "Judge orders Google to loosen ad-auction rules and accept a monitor, stops short of a breakup",
+      "summary": "Judge Leonie Brinkema's final remedies order in the DOJ's ad tech case requires Google to share data with rival ad servers, integrate its exchange with competitors' publisher ad servers, ban discriminatory bidding, and accept an outside mo…",
+      "urls": [
+        "https://www.courthousenews.com/monopolist-google-gets-behavioral-guardrails-and-a-monitoring-plan/"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "headline": "Google backs its biggest carbon-removal deal yet, betting on Brazilian rock dust and rice paddies",
+      "summary": "Google agreed to a deal with developer Terradot spanning more than 200,000 hectares in Rio Grande do Sul, Brazil, combining methane-cutting rice-paddy techniques with enhanced rock weathering to pull CO2 from the air. The agreement targets…",
+      "urls": [
+        "https://www.investing.com/news/stock-market-news/google-agrees-biggest-carbonremoval-deal-yet-aims-to-scale-new-model-4903605"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "headline": "Gold holds near $4,300 as the Fed hike lands roughly as priced in",
+      "summary": "Gold opened Thursday around $4,301 an ounce, down about 2% from Wednesday's close, after spiking toward $4,360 in the immediate aftermath of the Fed's rate decision before easing back. The metal has held in the $4,300 range for most of the…",
+      "urls": [
+        "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-september-17-2026-gold-prices-relatively-stable-following-fed-rate-increase-110852391.html"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "headline": "Fed raises rates for the first time since 2023, signals more ahead",
+      "summary": "The Fed's rate-setting committee voted unanimously to raise its benchmark rate by 25 basis points to a target range of 3.75%-4%, its first hike since 2023. Updated projections put the median year-end rate at 4.1%, up from 3.8% previously,…",
+      "urls": [
+        "https://www.cnn.com/2026/09/16/business/live-news/federal-reserve-interest-rate-september",
+        "https://www.theblock.co/news/markets/2026-09-16-bitcoin-ether-swing-unanimous-quarter-point-fed-rate-hike-warsh-aim-inflation-415307"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "headline": "Bitcoin and ether tick up after the Fed's rate hike, despite ETF outflows",
+      "summary": "Bitcoin opened Thursday at $76,144, up 0.7% from Wednesday, and continued climbing toward $76,265 in early trading; ether moved in step, opening at $2,416. The gains came even as US spot bitcoin ETFs saw $296 million in net outflows and sp…",
+      "urls": [
+        "https://www.byteseu.com/2373821/"
+      ]
+    },
     {
       "date": "2026-09-16",
       "headline": "Gold enters Fed decision day still down 21% from this year's record high",
@@ -263,46 +304,6 @@
       "summary": "Some of the world's largest money managers — Amundi, Pictet Asset Management, Robeco and Fidelity International — have added back gold holdings they cut earlier this year during bullion's pullback from its record high, with Amundi betting…",
       "urls": [
         "https://www.bloomberg.com/news/articles/2026-09-04/world-s-biggest-money-managers-are-rebuilding-gold-positions"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "headline": "SpaceX asks FCC to scrutinize Iridium's conduct as Rocket Lab's $8B buyout heads to a vote",
-      "summary": "SpaceX filed a complaint urging the FCC to examine Iridium Communications' conduct as regulators review Rocket Lab's pending $8 billion acquisition of the satellite operator. Rocket Lab shares fell 6% to $63.82 on the news; Iridium shareho…",
-      "urls": [
-        "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-falls-6-spacex-180203574.html"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "headline": "Google reportedly readies Gemini 3.8 Flash, a coding-focused model, for launch as soon as today",
-      "summary": "Google DeepMind is preparing to release Gemini 3.8 Flash, internally called \"Skimaki,\" with upgraded agentic-coding capabilities aimed at narrowing the gap with OpenAI and Anthropic, according to a Wall Street Journal report. Alphabet shar…",
-      "urls": [
-        "https://finance.yahoo.com/technology/ai/articles/google-prepares-gemini-3-8-222338004.html"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "headline": "Gold slips to $4,357 even as the US-Iran conflict escalates",
-      "summary": "Gold futures opened at $4,377.20 an ounce, down 0.4%, and slipped further to $4,357.50 by late morning, despite a second round of U.S. airstrikes on Iran in three days and Iranian retaliation against U.S. bases.",
-      "urls": [
-        "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-september-2-2026-gold-slips-further-as-military-actions-escalate-in-iran-104514058.html"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "headline": "Evercore more than doubles Duolingo price target to $210, upgrades to Outperform",
-      "summary": "Evercore ISI raised its rating on Duolingo to Outperform from In Line and lifted its price target to $210 from $105, citing survey data showing 53% of U.S. language learners use Duolingo versus 13% for Babbel, with user retention near an a…",
-      "urls": [
-        "https://www.investing.com/news/stock-market-news/evercore-upgrades-duolingo-sees-strong-user-growth-and-earnings-upside-4884481"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "headline": "Bitcoin falls below $77,000 as fresh US strikes on Iran rattle risk assets",
-      "summary": "Bitcoin opened down 1.5% at $77,395.89 and slid further to $76,597 by mid-morning, while ether fell 2% to $2,374, after a new round of U.S. airstrikes on Iranian targets prompted Iranian retaliation against American military bases.",
-      "urls": [
-        "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-2-2026-crypto-prices-tumble-as-iran-war-reignites-112639522.html"
       ]
     }
   ]

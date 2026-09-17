@@ -1,0 +1,69 @@
+{
+  "id": "2026-09-17",
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T12:33:20Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today's edition runs from the very physical — AWS still can't fully restore two Gulf data centers six months after drone strikes — to the very abstract, where a paper claims to beat what looked like a hard information-theoretic floor on ternary model storage. In between: Rust gets a real way to write GPU kernels, a security researcher finds a barcode anti-forgery feature almost nobody turned on, a $1,200 side project out-plans Postgres on its own queries, and Servo's donation-funded maintainer role quietly grew the project's contributor base.",
+  "stories": [
+    {
+      "headline": "AWS tells customers it can't restore two Gulf data center regions, six months after Iranian strikes",
+      "summary": "AWS said it has 'exhausted every option' for restoring data centers in Bahrain and the UAE that were hit by Iranian drone strikes in March, with damage spanning multiple availability zones — beyond what its regional and multi-AZ redundancy was designed to survive. Most affected customers have already migrated to other regions using backups; AWS expects an update on Bahrain in early 2027 and has given no timeline for the UAE.",
+      "whyItMatters": "It's a rare admission from a hyperscaler that 'the cloud' has a physical failure mode multi-region design doesn't cover, six months on with no full recovery in sight.",
+      "category": "Business",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "AWS says it can't restore service to Bahrain, UAE facilities 6 months after Iran strikes", "url": "https://www.cnbc.com/2026/09/15/aws-cant-restore-service-to-bahrain-uae-6-months-after-iran-strikes.html" }
+      ]
+    },
+    {
+      "headline": "Nvidia opens two paths to writing GPU kernels directly in Rust",
+      "summary": "Nvidia released cutile-rs (stable, on crates.io, needs Rust 1.89+ and CUDA 13.3) and cuda-oxide (early alpha, pinned nightly toolchain, CUDA 12+), giving Rust two ways to write GPU kernel code natively rather than launching kernels written in C/C++ from Rust. cutile-rs follows CUDA's newer tile-based model, handling thread mapping automatically; cuda-oxide sticks to the traditional single-instruction-multiple-threads model with a custom rustc codegen backend.",
+      "whyItMatters": "Rust developers could previously only launch CUDA kernels, not write them; this closes that gap and gives the language a real foothold in GPU programming.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels", "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/" }
+      ]
+    },
+    {
+      "headline": "A researcher found the signing keys meant to stop fake driver's licenses — barely anyone uses them",
+      "summary": "Security researcher Ryan Fahey built a tool that decodes the PDF417 barcodes on US driver's licenses and checks them against public P-256 keys that can catch even a single altered character. Of the 31 US jurisdictions whose cards are made by IDEMIA, he found only one — California — with public evidence of a working, signed verifiable-credential barcode, despite the underlying cryptography already being built and operational.",
+      "whyItMatters": "A widely deployable anti-forgery feature exists and works, but almost no state is actually turning it on, leaving barcode scanners to trust unsigned data by default.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Keys Not Included: recovering the signing keys for US driver's license barcodes", "url": "https://ryan.science/blog/keys-not-included" }
+      ]
+    },
+    {
+      "headline": "Researchers claim to beat the 'information-theoretic' storage limit for ternary LLMs",
+      "summary": "A paper from Intel researchers introduces BITCOS, a weight-packing layout that exploits how many zeros actually appear in ternary (-1/0/+1) model weights — up to 51.5% in the 29 models they tested — to store weights below the commonly cited 1.58-bit-per-weight floor, reaching 1.485 bits per weight on the sparsest model. The layout also sped up matrix-vector multiplication by up to 1.28x and full inference by up to 1.27x on GPUs across five platforms.",
+      "whyItMatters": "The '1.58-bit barrier' assumed a uniform distribution of ternary weights; real models aren't uniform, and this is a case of that assumption costing real storage and speed for no reason.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Breaking the 1.58-bit Barrier for Ternary LLMs", "url": "https://arxiv.org/abs/2609.16338" }
+      ]
+    },
+    {
+      "headline": "A $1,200 weekend project trained a 4B model to beat Postgres's own query planner",
+      "summary": "Developer Rohan Bansal fine-tuned and then reinforcement-learned a distilled 4B-parameter model to propose PostgreSQL query hints, testing candidate plans against real Postgres containers. Across 113 join-heavy queries, the model's plans ran 1.81x faster on average (a 44.7% cut in total execution time) than Postgres's built-in optimizer, producing a valid plan for 101 of the 113 queries, for about $1,200 in compute.",
+      "whyItMatters": "It's a small, reproducible demonstration that a cheap, specialized model can out-plan a mature, hand-tuned optimizer on its own turf, not a general claim that LLMs should replace query planners in production.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Training a 4B model to produce 81% faster query plans than Postgres", "url": "https://rohanbansal.com/qorl" }
+      ]
+    },
+    {
+      "headline": "A year of paid maintenance work later, Servo has eight new co-maintainers",
+      "summary": "One year into donation-funded, part-time maintenance of the Servo browser engine, Josh Bowman-Matthews reports having nominated eight new maintainers, reviewed over 1,100 pull requests, and written up 114 contributor-friendly issues, 92% of which are now resolved. The role is funded through recurring OpenCollective and GitHub Sponsors donations, and one contributor has since won separate NLnet grant funding for Servo's navigation and downloads work.",
+      "whyItMatters": "It's a small but concrete data point for whether donation-funded maintainer roles can actually grow an open-source project's contributor base, not just keep the lights on.",
+      "category": "Business",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "One Year of Sponsored Servo Development", "url": "https://servo.org/blog/2026/09/15/one-year-of-sponsorship/" }
+      ]
+    }
+  ]
+}

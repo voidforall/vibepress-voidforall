@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-16T12:33:44Z",
+  "updatedAt": "2026-09-17T12:34:19Z",
   "events": [
+    {
+      "date": "2026-09-17",
+      "headline": "Researchers claim to beat the 'information-theoretic' storage limit for ternary LLMs",
+      "summary": "A paper from Intel researchers introduces BITCOS, a weight-packing layout that exploits how many zeros actually appear in ternary (-1/0/+1) model weights — up to 51.5% in the 29 models they tested — to store weights below the commonly cite…",
+      "urls": [
+        "https://arxiv.org/abs/2609.16338"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "headline": "Nvidia opens two paths to writing GPU kernels directly in Rust",
+      "summary": "Nvidia released cutile-rs (stable, on crates.io, needs Rust 1.89+ and CUDA 13.3) and cuda-oxide (early alpha, pinned nightly toolchain, CUDA 12+), giving Rust two ways to write GPU kernel code natively rather than launching kernels written…",
+      "urls": [
+        "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "headline": "AWS tells customers it can't restore two Gulf data center regions, six months after Iranian strikes",
+      "summary": "AWS said it has 'exhausted every option' for restoring data centers in Bahrain and the UAE that were hit by Iranian drone strikes in March, with damage spanning multiple availability zones — beyond what its regional and multi-AZ redundancy…",
+      "urls": [
+        "https://www.cnbc.com/2026/09/15/aws-cant-restore-service-to-bahrain-uae-6-months-after-iran-strikes.html"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "headline": "A year of paid maintenance work later, Servo has eight new co-maintainers",
+      "summary": "One year into donation-funded, part-time maintenance of the Servo browser engine, Josh Bowman-Matthews reports having nominated eight new maintainers, reviewed over 1,100 pull requests, and written up 114 contributor-friendly issues, 92% o…",
+      "urls": [
+        "https://servo.org/blog/2026/09/15/one-year-of-sponsorship/"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "headline": "A researcher found the signing keys meant to stop fake driver's licenses — barely anyone uses them",
+      "summary": "Security researcher Ryan Fahey built a tool that decodes the PDF417 barcodes on US driver's licenses and checks them against public P-256 keys that can catch even a single altered character. Of the 31 US jurisdictions whose cards are made…",
+      "urls": [
+        "https://ryan.science/blog/keys-not-included"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "headline": "A $1,200 weekend project trained a 4B model to beat Postgres's own query planner",
+      "summary": "Developer Rohan Bansal fine-tuned and then reinforcement-learned a distilled 4B-parameter model to propose PostgreSQL query hints, testing candidate plans against real Postgres containers. Across 113 join-heavy queries, the model's plans r…",
+      "urls": [
+        "https://rohanbansal.com/qorl"
+      ]
+    },
     {
       "date": "2026-09-16",
       "headline": "TypeSafe AI launches Jev, a model that skips text for calibrated structured output",
@@ -284,54 +332,6 @@
       "summary": "Rabah Shihab used Claude Fable 5 inside Claude Code to port his 1993 Amiga game Babylonian Twins — 72,758 lines of original 68000 assembly — into Godot, reverse-engineering undocumented binary formats directly from the assembly that reads…",
       "urls": [
         "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "headline": "The ChatGPT desktop app quietly bundles a full copy of LibreOffice",
-      "summary": "Simon Willison found that OpenAI's ChatGPT (formerly Codex) desktop app caches 1.7GB of local dependencies on macOS, including complete Python and Node.js installs plus native binaries for Git, the Poppler PDF library, and LibreOffice — th…",
-      "urls": [
-        "https://simonwillison.net/2026/Sep/1/codex-libreoffice/"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "headline": "Paper argues neural networks implicitly encode symbolic structure, not just vectors",
-      "summary": "Researchers found that internal representations in both small networks and large language models — across arithmetic, logic, code, and language tasks — can be replaced with a closed-form symbolic equation while preserving behavior, and con…",
-      "urls": [
-        "https://arxiv.org/abs/2608.29530"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "headline": "Nori Robotics launches a $1,688 bimanual home robot, undercutting the category on price",
-      "summary": "YC S26 startup Nori Robotics unveiled the Nori A3, a bimanual home robot priced at $1,688 with no deposit, shipping fall 2026. Each arm has 7+1 degrees of freedom and a 1.5kg payload, backed by 12-meter LiDAR, four 720p cameras, and 6-8 ho…",
-      "urls": [
-        "https://www.norirobotics.com/"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "headline": "FBI opens probe as dark-web service 'Nexus' is found selling scans of 153 million driver's licenses",
-      "summary": "A dark-web identity-document marketplace called Nexus, launched August 31, was found selling digital scans of more than 153 million U.S. and Canadian driver's licenses plus millions of ID cards and travel documents, with new records added…",
-      "urls": [
-        "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "headline": "Audit of AI-skeptic Ed Zitron's predictions finds a consistent track record of being wrong",
-      "summary": "Dan Luu compiled roughly 30 of Ed Zitron's AI-skepticism predictions from February 2024 to November 2025 and checked them against outcomes: Zitron said Meta, Google, and Microsoft were \"dying,\" but Meta's revenue grew from $135B to $165B a…",
-      "urls": [
-        "https://danluu.com/zitron/"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "headline": "Anthropic ships Claude Fable 5.1 and a restricted Mythos 5.1 for vetted researchers",
-      "summary": "Anthropic released Claude Fable 5.1, available broadly with standard safeguards, alongside Claude Mythos 5.1, a higher-capability variant restricted to vetted cybersecurity and life-sciences professionals. Fable 5.1 jumps to 52.6% on Termi…",
-      "urls": [
-        "https://www.anthropic.com/claude-fable-and-mythos-5-1"
       ]
     }
   ]

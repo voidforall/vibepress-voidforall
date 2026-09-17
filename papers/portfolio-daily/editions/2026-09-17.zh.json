@@ -1,0 +1,60 @@
+{
+  "id": "2026-09-17",
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T12:31:15Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "美联储终于出手——加息25个基点至3.75%-4%,为2023年以来首次加息——市场反应平淡,因为这一结果早已被消化。黄金和比特币都没有下跌,反而守住了阵地。而更具结构性意义的消息来自监管领域:谷歌的广告技术业务躲过了拆分,但未来六年将接受法院监督;与此同时,该公司还在继续签署气候相关交易。",
+  "stories": [
+    {
+      "headline": "美联储2023年以来首次加息,并暗示后续还会再加",
+      "summary": "美联储利率委员会一致投票将基准利率上调25个基点,至3.75%-4%区间,为2023年以来首次加息。最新预测显示,官员们对年末利率中值的预期升至4.1%,高于此前的3.8%,多数决策者预计年底前至少还会再加息一次25个基点。",
+      "whyItMatters": "此举确认美联储已从降息转向因持续通胀而加息,重新设定了储户、房贷借款人以及本清单上每一项资产的借贷成本基准。",
+      "category": "市场",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Fed raises interest rates for the first time since 2023", "url": "https://www.cnn.com/2026/09/16/business/live-news/federal-reserve-interest-rate-september" },
+        { "title": "Bitcoin, ether swing after unanimous quarter-point Fed rate hike as Warsh takes aim at inflation", "url": "https://www.theblock.co/news/markets/2026-09-16-bitcoin-ether-swing-unanimous-quarter-point-fed-rate-hike-warsh-aim-inflation-415307" }
+      ]
+    },
+    {
+      "headline": "法官下令谷歌放宽广告拍卖规则并接受监督,但未拆分公司",
+      "summary": "法官莱奥妮·布林克玛在司法部广告技术诉讼案中作出的最终补救措施裁决要求谷歌与竞争对手的广告服务器共享数据、将其广告交易所与竞争对手的发布商广告服务器打通、禁止歧视性竞价行为,并接受外部监督人及技术委员会监管——为期六年。她驳回了司法部要求剥离AdX或将DFP拍卖逻辑开源的诉求,称该要求是“对确定性的不切实际渴望”。",
+      "whyItMatters": "谷歌保住了完整的广告技术业务,但未来六年须在法院指定监督人和新竞争规则下运营——这是一种实质约束,只是并非司法部所寻求的那种拆分。",
+      "category": "监管",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Monopolist Google gets 'behavioral' guardrails and a monitoring plan", "url": "https://www.courthousenews.com/monopolist-google-gets-behavioral-guardrails-and-a-monitoring-plan/" }
+      ]
+    },
+    {
+      "headline": "美联储加息符合市场预期,黄金价格守在4300美元附近",
+      "summary": "周四黄金开盘价约为每盎司4301美元,较周三收盘价下跌约2%,此前在美联储加息决定公布后一度冲高至4360美元附近,随后回落。由于投资者此前已消化了这次加息,金价本周大部分时间维持在4300美元区间;美联储上调的年末利率预期几乎未带来新的方向性指引。",
+      "whyItMatters": "面对一次真实的加息——通常对不生息资产构成利空——黄金反应平淡,说明市场此前已提前消化了这一预期。",
+      "category": "大宗商品",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Gold price today, Thursday, September 17, 2026: Gold prices relatively stable following Fed rate increase", "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-september-17-2026-gold-prices-relatively-stable-following-fed-rate-increase-110852391.html" }
+      ]
+    },
+    {
+      "headline": "尽管ETF资金外流,比特币和以太坊在美联储加息后仍小幅上涨",
+      "summary": "比特币周四开盘价为76144美元,较周三上涨0.7%,盘中一度攀升至76265美元附近;以太坊走势同步,开盘价为2416美元。这一涨势出现的同时,美国现货比特币ETF周三净流出2.96亿美元,现货以太坊ETF净流出2.24亿美元,显示涨势之下投资者仍有所谨慎。",
+      "whyItMatters": "加密货币价格在加息之际逆势上涨——通常加息对风险资产不利——这更像是市场因加息幅度符合预期而松了一口气,而非出现了新的利好催化剂。",
+      "category": "加密货币",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Bitcoin and ethereum prices today, Thursday, September 17, 2026: Crypto prices move up following Fed's rate increase", "url": "https://www.byteseu.com/2373821/" }
+      ]
+    },
+    {
+      "headline": "谷歌押注巴西岩粉与稻田,达成迄今最大规模碳去除协议",
+      "summary": "谷歌与开发商Terradot达成协议,项目覆盖巴西南里奥格兰德州逾20万公顷土地,将稻田减甲烷技术与增强岩石风化技术相结合,以从大气中去除二氧化碳。协议目标是到2030年产生100万吨甲烷减排信用额度,到2040年产生100万吨碳去除信用额度——这一岩石风化项目的规模是此前同类项目的十倍。",
+      "whyItMatters": "这是谷歌试图打造的一种可复制模板,将见效快、成本低的甲烷减排与见效慢的碳去除结合起来,而非二选一;Terradot计划到2028年实现商业化规模扩张。",
+      "category": "公司",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Google agrees biggest carbon-removal deal yet, aims to scale new model", "url": "https://www.investing.com/news/stock-market-news/google-agrees-biggest-carbonremoval-deal-yet-aims-to-scale-new-model-4903605" }
+      ]
+    }
+  ]
+}

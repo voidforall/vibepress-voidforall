@@ -1,0 +1,60 @@
+{
+  "id": "2026-09-17",
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T12:31:15Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "The Fed finally pulled the trigger — a quarter-point hike to 3.75%-4%, its first since 2023 — and markets mostly shrugged because it was already priced in. Gold and bitcoin both held their ground instead of selling off, while the bigger structural news landed in regulation: Google's ad tech business avoids a breakup but now answers to a court monitor for six years, even as the company keeps signing climate deals on the side.",
+  "stories": [
+    {
+      "headline": "Fed raises rates for the first time since 2023, signals more ahead",
+      "summary": "The Fed's rate-setting committee voted unanimously to raise its benchmark rate by 25 basis points to a target range of 3.75%-4%, its first hike since 2023. Updated projections put the median year-end rate at 4.1%, up from 3.8% previously, with most policymakers penciling in at least one more quarter-point increase before year-end.",
+      "whyItMatters": "The move confirms the Fed has pivoted from cuts to hikes on persistent inflation, resetting borrowing costs for savers, mortgage holders and every asset on this watchlist.",
+      "category": "Markets",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Fed raises interest rates for the first time since 2023", "url": "https://www.cnn.com/2026/09/16/business/live-news/federal-reserve-interest-rate-september" },
+        { "title": "Bitcoin, ether swing after unanimous quarter-point Fed rate hike as Warsh takes aim at inflation", "url": "https://www.theblock.co/news/markets/2026-09-16-bitcoin-ether-swing-unanimous-quarter-point-fed-rate-hike-warsh-aim-inflation-415307" }
+      ]
+    },
+    {
+      "headline": "Judge orders Google to loosen ad-auction rules and accept a monitor, stops short of a breakup",
+      "summary": "Judge Leonie Brinkema's final remedies order in the DOJ's ad tech case requires Google to share data with rival ad servers, integrate its exchange with competitors' publisher ad servers, ban discriminatory bidding, and accept an outside monitor and technical committee — all for six years. She rejected the DOJ's push to force divestiture of AdX or open-source DFP's auction logic, calling that request an 'unrealistic desire for certainty.'",
+      "whyItMatters": "Google keeps its ad tech stack intact but now operates it under a court-appointed monitor and new competition rules for the next six years — a real constraint, just not the breakup the DOJ sought.",
+      "category": "Regulatory",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Monopolist Google gets 'behavioral' guardrails and a monitoring plan", "url": "https://www.courthousenews.com/monopolist-google-gets-behavioral-guardrails-and-a-monitoring-plan/" }
+      ]
+    },
+    {
+      "headline": "Gold holds near $4,300 as the Fed hike lands roughly as priced in",
+      "summary": "Gold opened Thursday around $4,301 an ounce, down about 2% from Wednesday's close, after spiking toward $4,360 in the immediate aftermath of the Fed's rate decision before easing back. The metal has held in the $4,300 range for most of the week, since investors had already priced in the hike; the Fed's higher year-end rate projection offered little fresh direction.",
+      "whyItMatters": "Gold's muted reaction to a real rate hike — normally a headwind for a non-yielding asset — suggests the market had already done the repricing beforehand.",
+      "category": "Commodities",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Gold price today, Thursday, September 17, 2026: Gold prices relatively stable following Fed rate increase", "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-september-17-2026-gold-prices-relatively-stable-following-fed-rate-increase-110852391.html" }
+      ]
+    },
+    {
+      "headline": "Bitcoin and ether tick up after the Fed's rate hike, despite ETF outflows",
+      "summary": "Bitcoin opened Thursday at $76,144, up 0.7% from Wednesday, and continued climbing toward $76,265 in early trading; ether moved in step, opening at $2,416. The gains came even as US spot bitcoin ETFs saw $296 million in net outflows and spot ether ETFs shed $224 million on Wednesday, a sign of some investor caution beneath the price move.",
+      "whyItMatters": "Crypto prices rising alongside a rate hike — usually a headwind for risk assets — points to relief that the increase matched expectations rather than any new bullish catalyst.",
+      "category": "Crypto",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Bitcoin and ethereum prices today, Thursday, September 17, 2026: Crypto prices move up following Fed's rate increase", "url": "https://www.byteseu.com/2373821/" }
+      ]
+    },
+    {
+      "headline": "Google backs its biggest carbon-removal deal yet, betting on Brazilian rock dust and rice paddies",
+      "summary": "Google agreed to a deal with developer Terradot spanning more than 200,000 hectares in Rio Grande do Sul, Brazil, combining methane-cutting rice-paddy techniques with enhanced rock weathering to pull CO2 from the air. The agreement targets 1 million tons of methane-abatement credits by 2030 and 1 million tons of carbon-removal credits by 2040 — a rock-weathering project ten times larger than any before it.",
+      "whyItMatters": "It's Google's attempt at a repeatable template for combining cheap, fast methane cuts with slower carbon removal rather than picking one approach, with Terradot eyeing commercial scale-up by 2028.",
+      "category": "Company",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Google agrees biggest carbon-removal deal yet, aims to scale new model", "url": "https://www.investing.com/news/stock-market-news/google-agrees-biggest-carbonremoval-deal-yet-aims-to-scale-new-model-4903605" }
+      ]
+    }
+  ]
+}

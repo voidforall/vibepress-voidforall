@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-09-17",
+      "date": "2026-09-17",
+      "headline": "Fed raises rates for the first time since 2023, signals more ahead",
+      "storyCount": 5
+    },
+    {
       "id": "2026-09-16",
       "date": "2026-09-16",
       "headline": "Fed decision lands today as economists reverse to expect a hike",
