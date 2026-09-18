@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-09-18",
+      "date": "2026-09-18",
+      "headline": "Treasury sanctions Iranian exchange BitBank over bitcoin payments to the IRGC",
+      "storyCount": 3
+    },
+    {
       "id": "2026-09-17",
       "date": "2026-09-17",
       "headline": "Fed raises rates for the first time since 2023, signals more ahead",

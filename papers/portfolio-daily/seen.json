@@ -1,7 +1,31 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-17T12:32:09Z",
+  "updatedAt": "2026-09-18T12:11:54Z",
   "events": [
+    {
+      "date": "2026-09-18",
+      "headline": "Treasury sanctions Iranian exchange BitBank over bitcoin payments to the IRGC",
+      "summary": "The US Treasury's OFAC designated Iranian crypto exchange BitBank, its controlling financier Babak Zanjani, its software developer, and three associates, alleging BitBank moved hundreds of millions of dollars in bitcoin collected by the Ho…",
+      "urls": [
+        "https://decrypt.co/378604/treasury-sanctions-crypto-exchange-behind-irans-bitcoin-tolls-on-hormuz-ships"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "headline": "Gold extends its rise toward $4,400 as falling oil eases inflation pressure",
+      "summary": "Gold traded near $4,360 an ounce Friday, adding to Thursday's near-2% gain, as oil prices fell for a third straight session and the 10-year Treasury yield retreated to 4.93% after briefly topping 5%. Markets still price a roughly 53% chanc…",
+      "urls": [
+        "https://www.fxstreet.com/analysis/gold-prices-rise-as-falling-oil-prices-provide-support-202609180653"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "headline": "Bitcoin ETFs draw $159M as ether and XRP funds keep bleeding",
+      "summary": "US spot bitcoin ETFs attracted about $159 million in net inflows Thursday as bitcoin rose over 1% to roughly $77,200, even as ether ETFs posted a third straight day of outflows (about $39 million) and XRP funds lost roughly $5 million. Zca…",
+      "urls": [
+        "https://www.coindesk.com/markets/2026/09/18/ether-and-xrp-etfs-post-outflows-as-bitcoin-moves-above-usd77-000"
+      ]
+    },
     {
       "date": "2026-09-17",
       "headline": "Judge orders Google to loosen ad-auction rules and accept a monitor, stops short of a breakup",

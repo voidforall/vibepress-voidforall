@@ -1,0 +1,69 @@
+{
+  "id": "2026-09-18",
+  "date": "2026-09-18",
+  "generatedAt": "2026-09-18T12:10:55Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天的主线是信任及其执行机制。解封的诉讼文件显示,一位微软高管曾称AI抓取数据是“人类历史上最大规模的劳动盗窃”;与此同时,OpenAI承诺以公开时限披露自家模型的不当行为,而不再是批量打包发布。此外,一名研究员将论坛图片漏洞串联成攻破OpenAI内部代码库的攻击链,阿里巴巴最新的全模态模型让音频处理成本几乎归零,OpenAI将法律研究产品直接推向了其API合作伙伴已在服务的律所客户,还有一种编程语言试图让“AI犯错”在数学上变得不可能,而不再只是代码审查环节的问题。",
+  "stories": [
+    {
+      "headline": "解封文件显示,一位微软高管曾称AI抓取数据是“人类历史上最大规模的劳动盗窃”",
+      "summary": "《纽约时报》对OpenAI和微软提起的版权诉讼案中新解封的文件显示,微软应用科学总监Brent Hecht在2023年1月的一则内部消息中,称两家公司的数据抓取行为是“规模空前的惊人盗窃”和“人类历史上最大规模的劳动盗窃”。文件还显示,微软自身数据发现其Copilot产品导致《纽约时报》的点击率下降了93%。",
+      "whyItMatters": "93%的点击率下降,正是那种可能削弱两家公司在诉讼中所依赖的“合理使用”抗辩的市场损害证据。",
+      "category": "商业",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history', new unredacted filings reveal", "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/" }
+      ]
+    },
+    {
+      "headline": "OpenAI承诺在6至12个工作日内披露模型失准行为",
+      "summary": "OpenAI发布了一套用于追踪和披露模型“失准”(misalignment)行为的新框架,承诺对已具备披露条件的事件在六个工作日内公开报告,对需要进一步调查的事件则在十二个工作日内公开。伴随该框架,OpenAI还发布了过去六个月中观察到的六起意外模型行为报告,并表示任何员工都可以将案例提交给安全与对齐团队审查。",
+      "whyItMatters": "这套框架用一个明确的公开时限,取代了OpenAI此前临时、批量式的披露做法——这是一项其他实验室日后可以据此比较的具体承诺。",
+      "category": "观点",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Our framework for reporting model misalignment", "url": "https://openai.com/index/model-misalignment-reporting-framework/" }
+      ]
+    },
+    {
+      "headline": "研究员将一个存在多年的图片漏洞与SSO配置缺陷串联,直入OpenAI内部代码库",
+      "summary": "安全研究人员利用图片解码库libheif中一个未修复的堆缓冲区溢出漏洞——只需向OpenAI基于Discourse搭建的社区论坛上传一份恶意HEIC文件即可触发——实现远程代码执行,随后利用一处SSO配置错误劫持了一名被攻陷员工的ChatGPT/Codex账号,并在OpenAI内部主代码仓库中提交了一个拉取请求。OpenAI在收到7月25日的报告后约14小时内修复了SSO问题,并支付了6500美元的漏洞赏金。",
+      "whyItMatters": "真正的薄弱环节不是模型或API,而是论坛的图片上传功能——这提醒人们,AI公司的攻击面同样包括普通的Web基础设施。",
+      "category": "科技",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos", "url": "https://www.hacktron.ai/blog/hacking-openai" }
+      ]
+    },
+    {
+      "headline": "OpenAI推出Astra for Law,将GPT-6 Astra接入2.3亿份文档的法律检索库",
+      "summary": "OpenAI推出了Astra for Law,将其GPT-6 Astra模型与一个覆盖超过2.3亿份相互关联的美国判例、成文法、法规及行政裁决的检索库相结合,并新增26个可对接Relativity、Clio等现有工具的生态插件。该产品将先通过ChatGPT和Codex中的“可信访问”面向部分律所推出,API访问权限——包括面向现有API客户Harvey和Legora——将随后开放。",
+      "whyItMatters": "OpenAI称该工具在最高推理强度下的正确率检测通过率为54%,高于仅使用网络搜索的GPT-6 Astra的38.7%;而OpenAI如今正将该产品直接卖入一个其API合作伙伴Harvey和Legora本就在竞争的法律检索市场。",
+      "category": "商业",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "OpenAI Launches Astra For Law", "url": "https://www.artificiallawyer.com/2026/09/18/openai-launches-astra-for-law/" }
+      ]
+    },
+    {
+      "headline": "阿里巴巴Qwen3.8-Omni-Flash将音频输入成本降低98%,并新增百万级Token上下文窗口",
+      "summary": "阿里巴巴发布了Qwen3.8-Omni-Flash,这是一款原生全模态模型,可在单次请求中同时处理文本、图像、音频和视频,拥有百万级Token上下文窗口;阿里巴巴称其在30项基准测试中平均比前代Qwen3.5-Omni-Plus高出逾26%。API定价方面,音频输入成本下降超过98%,音视频输入成本下降超过93%,视频输入成本下降约89%。",
+      "whyItMatters": "比起基准测试成绩的提升,真正的看点是成本下降——这使得智能体式的视频与音频处理工作流首次能够以此前多模态模型难以企及的成本运行。",
+      "category": "科技",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Alibaba Qwen Releases Qwen3.8-Omni-Flash", "url": "https://www.marktechpost.com/2026/09/18/alibaba-qwen-releases-qwen3-8-omni-flash/" }
+      ]
+    },
+    {
+      "headline": "Bend试图让AI写的代码“合并出一个bug”在数学上变得不可能",
+      "summary": "Bend是一种基于依赖类型理论构建的新语言:开发者在LAWS.bend文件中声明不可违背的不变量,证明检查器会在AI生成的代码上线前对其进行数学验证,把“别犯错”从一句审查要求变成一条经过类型检查的定理。它可编译为原生代码,并能在不需要手写多线程或内核代码的情况下自动跨CPU核心和GPU并行化,官方称在拥有数千核心的GPU上最高可实现100倍的加速。",
+      "whyItMatters": "这是一种押注:随着越来越多代码由AI编写,真正的解决方案不是更好的提示词或人工审查,而是把正确性检验转移到形式化证明上——代价是必须提前把所有不变量明确写出来。",
+      "category": "科技",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "Bend: A Language for AI-Verified Code", "url": "https://bend-lang.com/" }
+      ]
+    }
+  ]
+}

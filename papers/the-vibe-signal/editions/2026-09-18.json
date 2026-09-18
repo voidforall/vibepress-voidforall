@@ -1,0 +1,69 @@
+{
+  "id": "2026-09-18",
+  "date": "2026-09-18",
+  "generatedAt": "2026-09-18T12:10:55Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today's throughline is trust and its enforcement mechanisms. Unsealed filings catch a Microsoft exec calling AI scraping 'the largest theft of labor in human history,' while OpenAI commits to disclosing its own models' bad behavior on a public clock instead of a batched PR cycle. Elsewhere, a researcher chained a forum image bug into OpenAI's internal repos, Alibaba's newest omnimodal model makes audio nearly free to process, OpenAI takes its legal-research pitch straight to the firms its own API partners already serve, and one language tries to make 'the AI made a mistake' a mathematical impossibility rather than a code-review problem.",
+  "stories": [
+    {
+      "headline": "Unsealed filings show a Microsoft exec called AI scraping 'the largest theft of labor in human history'",
+      "summary": "Newly unsealed documents from The New York Times' copyright lawsuit against OpenAI and Microsoft reveal a January 2023 internal message in which Microsoft's director of applied science, Brent Hecht, called the companies' data-scraping practices 'an astonishing theft of unprecedented proportions' and 'the largest theft of labor in human history.' The filings also show Microsoft's own data found its Copilot product caused the Times' click-through rates to drop 93%.",
+      "whyItMatters": "A 93% click-through drop is exactly the kind of market-harm evidence that could undercut the fair-use defense both companies are relying on in the suit.",
+      "category": "Business",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history', new unredacted filings reveal", "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/" }
+      ]
+    },
+    {
+      "headline": "OpenAI commits to disclosing model misalignment within 6-12 business days",
+      "summary": "OpenAI published a new framework for tracking and disclosing model misalignment, promising public reports within six business days for incidents ready for disclosure and twelve for ones needing further investigation. Alongside the framework it released six reports on unexpected model behavior observed over the past six months, and said any employee can flag an example for review by its safety and alignment teams.",
+      "whyItMatters": "It replaces OpenAI's prior ad hoc, batched disclosures with a standing public timeline — a concrete commitment other labs can now be measured against.",
+      "category": "Ideas",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Our framework for reporting model misalignment", "url": "https://openai.com/index/model-misalignment-reporting-framework/" }
+      ]
+    },
+    {
+      "headline": "Researcher chains a decade-old image bug with an SSO flaw to reach OpenAI's internal repos",
+      "summary": "Security researchers exploited an unpatched heap buffer overflow in the libheif image library — reachable by uploading a malicious HEIC file to OpenAI's Discourse-based community forum — for remote code execution, then used an SSO misconfiguration to hijack a compromised employee's ChatGPT/Codex account and open a pull request in OpenAI's internal monorepo. OpenAI patched the SSO issue within about 14 hours of the July 25 report and paid a $6,500 bounty.",
+      "whyItMatters": "A forum image-upload feature, not a model or API, was the weak link that reached internal code — a reminder that AI companies' attack surface includes ordinary web infrastructure.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos", "url": "https://www.hacktron.ai/blog/hacking-openai" }
+      ]
+    },
+    {
+      "headline": "OpenAI launches Astra for Law, wiring GPT-6 Astra to a 230-million-document legal search index",
+      "summary": "OpenAI introduced Astra for Law, combining its GPT-6 Astra model with a search index covering more than 230 million linked US cases, statutes, regulations and administrative decisions, plus 26 new ecosystem plugins connecting to tools like Relativity and Clio. It's rolling out first to selected firms via Trusted Access in ChatGPT and Codex, with API access — including for existing API customers Harvey and Legora — coming soon.",
+      "whyItMatters": "OpenAI reports the tool passed 54% of correctness checks at its highest reasoning setting versus 38.7% for GPT-6 Astra with plain web search, and it's now selling directly into a legal-research market its own API partners Harvey and Legora compete in.",
+      "category": "Business",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "OpenAI Launches Astra For Law", "url": "https://www.artificiallawyer.com/2026/09/18/openai-launches-astra-for-law/" }
+      ]
+    },
+    {
+      "headline": "Alibaba's Qwen3.8-Omni-Flash cuts audio input costs 98%, adds a 1M-token context window",
+      "summary": "Alibaba released Qwen3.8-Omni-Flash, a native omnimodal model taking text, image, audio and video in a single request with a 1M-token context window, which it says beats predecessor Qwen3.5-Omni-Plus by over 26% on average across 30 benchmarks. API pricing for audio input dropped more than 98% and audio-visual input more than 93%, with video input costs down about 89%.",
+      "whyItMatters": "The price cuts, more than the benchmark gains, are the story — they make agentic video and audio workflows viable at a cost multimodal models haven't hit before.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "Alibaba Qwen Releases Qwen3.8-Omni-Flash", "url": "https://www.marktechpost.com/2026/09/18/alibaba-qwen-releases-qwen3-8-omni-flash/" }
+      ]
+    },
+    {
+      "headline": "Bend proposes making 'merging a bug' mathematically impossible for AI-written code",
+      "summary": "Bend is a new language built on dependent type theory where developers declare invariants in a LAWS.bend file that a proof checker mathematically verifies before AI-generated code can ship, turning 'don't make mistakes' into a checked theorem rather than a review step. It compiles to native code and automatically parallelizes across CPU cores and GPUs without manual threading or kernel code, claiming up to 100x speedups on GPUs with thousands of cores.",
+      "whyItMatters": "It's a bet that as more code is AI-written, the fix isn't better prompting or review but shifting correctness checks to formal proof, at the cost of requiring invariants to be spelled out up front.",
+      "category": "Technology",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "Bend: A Language for AI-Verified Code", "url": "https://bend-lang.com/" }
+      ]
+    }
+  ]
+}

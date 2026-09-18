@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-17T12:34:19Z",
+  "updatedAt": "2026-09-18T12:11:54Z",
   "events": [
+    {
+      "date": "2026-09-18",
+      "headline": "Unsealed filings show a Microsoft exec called AI scraping 'the largest theft of labor in human history'",
+      "summary": "Newly unsealed documents from The New York Times' copyright lawsuit against OpenAI and Microsoft reveal a January 2023 internal message in which Microsoft's director of applied science, Brent Hecht, called the companies' data-scraping prac…",
+      "urls": [
+        "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "headline": "Researcher chains a decade-old image bug with an SSO flaw to reach OpenAI's internal repos",
+      "summary": "Security researchers exploited an unpatched heap buffer overflow in the libheif image library — reachable by uploading a malicious HEIC file to OpenAI's Discourse-based community forum — for remote code execution, then used an SSO misconfi…",
+      "urls": [
+        "https://www.hacktron.ai/blog/hacking-openai"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "headline": "OpenAI launches Astra for Law, wiring GPT-6 Astra to a 230-million-document legal search index",
+      "summary": "OpenAI introduced Astra for Law, combining its GPT-6 Astra model with a search index covering more than 230 million linked US cases, statutes, regulations and administrative decisions, plus 26 new ecosystem plugins connecting to tools like…",
+      "urls": [
+        "https://www.artificiallawyer.com/2026/09/18/openai-launches-astra-for-law/"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "headline": "OpenAI commits to disclosing model misalignment within 6-12 business days",
+      "summary": "OpenAI published a new framework for tracking and disclosing model misalignment, promising public reports within six business days for incidents ready for disclosure and twelve for ones needing further investigation. Alongside the framewor…",
+      "urls": [
+        "https://openai.com/index/model-misalignment-reporting-framework/"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "headline": "Bend proposes making 'merging a bug' mathematically impossible for AI-written code",
+      "summary": "Bend is a new language built on dependent type theory where developers declare invariants in a LAWS.bend file that a proof checker mathematically verifies before AI-generated code can ship, turning 'don't make mistakes' into a checked theo…",
+      "urls": [
+        "https://bend-lang.com/"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "headline": "Alibaba's Qwen3.8-Omni-Flash cuts audio input costs 98%, adds a 1M-token context window",
+      "summary": "Alibaba released Qwen3.8-Omni-Flash, a native omnimodal model taking text, image, audio and video in a single request with a 1M-token context window, which it says beats predecessor Qwen3.5-Omni-Plus by over 26% on average across 30 benchm…",
+      "urls": [
+        "https://www.marktechpost.com/2026/09/18/alibaba-qwen-releases-qwen3-8-omni-flash/"
+      ]
+    },
     {
       "date": "2026-09-17",
       "headline": "Researchers claim to beat the 'information-theoretic' storage limit for ternary LLMs",

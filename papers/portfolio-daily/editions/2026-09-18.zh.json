@@ -1,0 +1,39 @@
+{
+  "id": "2026-09-18",
+  "date": "2026-09-18",
+  "generatedAt": "2026-09-18T12:10:55Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今天清单上的消息更多集中在加密货币和大宗商品,而非科技股本身:美国财政部制裁了一家伊朗交易所,称其将霍尔木兹海峡航运“过路费”比特币直接输送给伊斯兰革命卫队;黄金随原油下跌、通胀担忧缓解而持续上涨;比特币ETF吸引到新资金流入,而以太坊和XRP基金却持续失血。阿里巴巴、多邻国、火箭实验室和Alphabet今天都没有值得成文的新消息(且非重复报道)。",
+  "stories": [
+    {
+      "headline": "美国财政部制裁伊朗交易所BitBank,涉向伊斯兰革命卫队支付比特币",
+      "summary": "美国财政部海外资产控制办公室(OFAC)制裁了伊朗加密货币交易所BitBank、其实际控制人巴巴克·赞贾尼、其软件开发商,以及三名关联人士,指控BitBank在2026年6月至7月间,将霍尔木兹安全海事服务局——该机构以比特币向船只收取安全通行“过路费”——收取的数亿美元比特币转移给了伊朗伊斯兰革命卫队。此次制裁依据的是一项今年8月被扩展至覆盖伊朗数字资产行业的行政令。",
+      "whyItMatters": "这是迄今为止比特币充当受制裁国家基础设施(而非个人规避手段)最清晰的案例,将美国制裁执法直接延伸到了与霍尔木兹海峡航运安全相关的加密货币通道。",
+      "category": "监管",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Treasury Sanctions Crypto Exchange Behind Iran's Bitcoin Tolls on Hormuz Ships", "url": "https://decrypt.co/378604/treasury-sanctions-crypto-exchange-behind-irans-bitcoin-tolls-on-hormuz-ships" }
+      ]
+    },
+    {
+      "headline": "原油下跌缓解通胀压力,黄金价格延续涨势逼近4400美元",
+      "summary": "周五黄金交投于每盎司4360美元附近,在周四近2%涨幅的基础上继续上行,原油价格连续第三个交易日下跌,10年期美债收益率从此前一度突破5%回落至4.93%。市场目前预计美联储10月再度加息的概率约为53%,这仍在限制金价的上行空间。",
+      "whyItMatters": "在加息概率仍高于五成的情况下黄金依然上涨,说明眼下原油走软和收益率回落的影响暂时压过了加息风险,而非美联储的威胁已经消退。",
+      "category": "大宗商品",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Gold prices rise as falling Oil prices provide support", "url": "https://www.fxstreet.com/analysis/gold-prices-rise-as-falling-oil-prices-provide-support-202609180653" }
+      ]
+    },
+    {
+      "headline": "比特币ETF吸金1.59亿美元,以太坊与XRP基金继续失血",
+      "summary": "周四美国现货比特币ETF净流入约1.59亿美元,比特币上涨逾1%至约77200美元;与此同时,以太坊ETF连续第三日净流出(约3900万美元),XRP基金净流出约500万美元。Zcash表现最为突出,上涨10%至约1488美元,其美国境内唯一基金吸金近4700万美元。",
+      "whyItMatters": "比特币ETF的资金需求正与以太坊、XRP出现分化,表明投资者更多是在加密货币内部进行资金轮动,而非整体加仓这一资产类别。",
+      "category": "加密货币",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Ether and XRP ETFs post outflows as crypto majors move higher", "url": "https://www.coindesk.com/markets/2026/09/18/ether-and-xrp-etfs-post-outflows-as-bitcoin-moves-above-usd77-000" }
+      ]
+    }
+  ]
+}

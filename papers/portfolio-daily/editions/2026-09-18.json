@@ -1,0 +1,39 @@
+{
+  "id": "2026-09-18",
+  "date": "2026-09-18",
+  "generatedAt": "2026-09-18T12:10:55Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Today's watchlist news skews toward crypto and commodities rather than the tech names: Treasury sanctioned an Iranian exchange it says routed bitcoin tolls from Hormuz shipping straight to the Revolutionary Guard Corps, gold kept climbing as falling oil eased inflation worries, and bitcoin ETFs pulled in fresh money even as ether and XRP funds kept losing it. Alibaba, Duolingo, Rocket Lab and Alphabet had no fresh, non-repeat news today worth a story.",
+  "stories": [
+    {
+      "headline": "Treasury sanctions Iranian exchange BitBank over bitcoin payments to the IRGC",
+      "summary": "The US Treasury's OFAC designated Iranian crypto exchange BitBank, its controlling financier Babak Zanjani, its software developer, and three associates, alleging BitBank moved hundreds of millions of dollars in bitcoin collected by the Hormuz Safe Marine Services Authority — which charged ships bitcoin tolls for safe passage through the Strait of Hormuz — on to Iran's Revolutionary Guard Corps between June and July 2026. The designations fall under an executive order extended in August to cover Iran's digital-asset sector.",
+      "whyItMatters": "It's the clearest case yet of bitcoin functioning as sanctioned-state infrastructure rather than an individual workaround, extending US sanctions enforcement directly into crypto rails tied to Strait of Hormuz shipping security.",
+      "category": "Regulatory",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Treasury Sanctions Crypto Exchange Behind Iran's Bitcoin Tolls on Hormuz Ships", "url": "https://decrypt.co/378604/treasury-sanctions-crypto-exchange-behind-irans-bitcoin-tolls-on-hormuz-ships" }
+      ]
+    },
+    {
+      "headline": "Gold extends its rise toward $4,400 as falling oil eases inflation pressure",
+      "summary": "Gold traded near $4,360 an ounce Friday, adding to Thursday's near-2% gain, as oil prices fell for a third straight session and the 10-year Treasury yield retreated to 4.93% after briefly topping 5%. Markets still price a roughly 53% chance of another Fed rate hike in October, which is capping the metal's upside for now.",
+      "whyItMatters": "Gold is gaining even with hike odds still above 50% — a sign softer oil and yields are outweighing rate-hike risk for the moment, not that the Fed threat has gone away.",
+      "category": "Commodities",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Gold prices rise as falling Oil prices provide support", "url": "https://www.fxstreet.com/analysis/gold-prices-rise-as-falling-oil-prices-provide-support-202609180653" }
+      ]
+    },
+    {
+      "headline": "Bitcoin ETFs draw $159M as ether and XRP funds keep bleeding",
+      "summary": "US spot bitcoin ETFs attracted about $159 million in net inflows Thursday as bitcoin rose over 1% to roughly $77,200, even as ether ETFs posted a third straight day of outflows (about $39 million) and XRP funds lost roughly $5 million. Zcash was the standout gainer, up 10% to about $1,488 as its sole US fund drew nearly $47 million.",
+      "whyItMatters": "Bitcoin ETF demand is diverging from ether and XRP, suggesting investors are rotating within crypto rather than adding to the asset class broadly.",
+      "category": "Crypto",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Ether and XRP ETFs post outflows as crypto majors move higher", "url": "https://www.coindesk.com/markets/2026/09/18/ether-and-xrp-etfs-post-outflows-as-bitcoin-moves-above-usd77-000" }
+      ]
+    }
+  ]
+}
