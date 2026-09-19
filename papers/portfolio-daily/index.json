@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-09-19",
+      "date": "2026-09-19",
+      "headline": "Rocket Lab launches its 96th Electron mission, delivering Synspective's 12th StriX satellite",
+      "storyCount": 3
+    },
+    {
       "id": "2026-09-18",
       "date": "2026-09-18",
       "headline": "Treasury sanctions Iranian exchange BitBank over bitcoin payments to the IRGC",

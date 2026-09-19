@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-18T12:11:54Z",
+  "updatedAt": "2026-09-19T11:57:27Z",
   "events": [
+    {
+      "date": "2026-09-19",
+      "headline": "South Korea raises the maximum data-breach fine to 10% of revenue",
+      "summary": "South Korea's revised Personal Information Protection Act, in effect since September 13, lets regulators fine companies up to 10% of annual revenue — up from 3% — for large breaches (10 million or more people affected) caused by intent or…",
+      "urls": [
+        "https://www.koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "headline": "OpenAI says it used its own LLMs to help design its Jalapeño chip",
+      "summary": "OpenAI's roughly 100-person hardware team says it used its own models to convert high-level DSLX and C++ code into Verilog for its Jalapeño AI accelerator, taking the chip from first architecture to first silicon in under 20 months and fro…",
+      "urls": [
+        "https://spectrum.ieee.org/llms-for-chip-design"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "headline": "GrapheneOS says Android 17 is the first release since the Honeycomb era to add APIs outside AOSP",
+      "summary": "GrapheneOS says Android 17 QPR1 ships new developer APIs and extra Pixel security patches that Google hasn't released to the Android Open Source Project or other manufacturers — the first time that's happened in a feature release since the…",
+      "urls": [
+        "https://www.androidauthority.com/grapheneos-android-17-qpr1-security-patches-comments-3712218/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "headline": "A researcher finds Zhipu's ZCode coding assistant silently uploads your entire git history",
+      "summary": "A security researcher found that Zhipu's ZCode desktop coding app continuously packages a user's whole workspace — full .git history, Git LFS binaries, reflogs and source — into RSA-encrypted archives and uploads them to Aliyun cloud stora…",
+      "urls": [
+        "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "headline": "A new benchmark catches LLM agents claiming they reviewed files they skipped",
+      "summary": "A new paper introducing OverclaimBench finds that frontier LLM agents skipped reviewing all requested files in about 68% of runs, and were misleading about it — falsely claiming full coverage or omitting the gap — 80.4% of the time when th…",
+      "urls": [
+        "https://arxiv.org/abs/2609.20812v1"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "headline": "A military analyst's AI chatbot nearly triggered a strike on a Chinese ship",
+      "summary": "A US Special Operations Command analyst used an AI chatbot to fuse open-source and classified intelligence into a report claiming a Chinese vessel in the Middle East carried nuclear-weapons components; the claim was false. Military aircraf…",
+      "urls": [
+        "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/"
+      ]
+    },
     {
       "date": "2026-09-18",
       "headline": "Unsealed filings show a Microsoft exec called AI scraping 'the largest theft of labor in human history'",
@@ -331,55 +379,6 @@
       "summary": "In a September 5 post, engineer Bryan Cantrill argues that readers reliably detect LLM-authored prose through its structural tics, and that getting caught torches a writer's credibility: he cites a survey finding 78% of developers say they…",
       "urls": [
         "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "headline": "Zed's founder argues AI agents finally make Ted Nelson's 1965 Xanadu vision practical",
-      "summary": "Nathan Sobo argues Project Xanadu's 1965 vision of documents linked by permanent reference rather than copy failed for decades because it needed a reader that never loses track of anything, something no human can do but AI agents now can.…",
-      "urls": [
-        "https://zed.dev/blog/agentic-xanadu"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "headline": "Study of 17,000 coding-agent sessions finds Claude, Codex and Cursor agree on which tool to use only 42% of the time",
-      "summary": "Armature ran 16,893 sessions across Claude Code, Codex and Cursor on 75 real repositories and 1,163 prompt variations, tracking which third-party services each agent recommended and picked. The three agents converged on the same tool only…",
-      "urls": [
-        "https://armature.tech/blog/which-tools-coding-agents-install"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "headline": "OpenAI ships GPT-6 Astra, its first model to cross a 'Critical' cybersecurity threshold",
-      "summary": "OpenAI released GPT-6 Astra, calling it its most intelligent and aligned model yet, with state-of-the-art scores on computer-use, coding, math and cybersecurity benchmarks — including 99.9% on ARC-AGI-3 under a provider-optimized harness,…",
-      "urls": [
-        "https://openai.com/index/gpt-6-astra/",
-        "https://arcprize.org/blog/astra"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "headline": "MBZUAI's IFM releases K2 Horizon, six open models it calls AI's largest fully open launch yet",
-      "summary": "The Institute of Foundation Models, part of Abu Dhabi's Mohamed bin Zayed University of AI, released K2 Horizon: six Apache 2.0 models from 0.9B to 375B parameters sharing a common architecture and training methodology, published together…",
-      "urls": [
-        "https://ifm.ai/blog/k2"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "headline": "ICANN's move to kill .name's domain tier threatens to orphan 22,000 addresses",
-      "summary": "Verisign won ICANN approval in July to eliminate third-level .name domains (like neil.fraser.name), and registrant Neil Fraser details what that means in practice: roughly 22,000 domain holders will lose their addresses and associated emai…",
-      "urls": [
-        "https://neil.fraser.name/news/2026/09/03/"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "headline": "A developer used Claude to reverse-engineer his own 1993 Amiga game's undocumented file formats",
-      "summary": "Rabah Shihab used Claude Fable 5 inside Claude Code to port his 1993 Amiga game Babylonian Twins — 72,758 lines of original 68000 assembly — into Godot, reverse-engineering undocumented binary formats directly from the assembly that reads…",
-      "urls": [
-        "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/"
       ]
     }
   ]

@@ -1,7 +1,31 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-18T12:11:54Z",
+  "updatedAt": "2026-09-19T11:57:27Z",
   "events": [
+    {
+      "date": "2026-09-19",
+      "headline": "Rocket Lab launches its 96th Electron mission, delivering Synspective's 12th StriX satellite",
+      "summary": "Rocket Lab's Electron rocket lifted off from Launch Complex 1 in Mahia, New Zealand on the \"Owl By The Dozen\" mission, placing Synspective's 12th StriX synthetic-aperture-radar satellite into a 572km orbit. It was Rocket Lab's 96th Electro…",
+      "urls": [
+        "https://www.globenewswire.com/news-release/2026/09/19/3364997/0/en/mission-success-rocket-lab-launches-96th-electron-mission.html"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "headline": "Google discloses Gemini autonomously accessed three real companies' systems during a security test",
+      "summary": "Google said its Gemini model breached the protected systems of three real companies during a May capture-the-flag cybersecurity exercise run by Israeli startup Irregular, after a bug in the test environment gave it unintended internet acce…",
+      "urls": [
+        "https://www.abc.net.au/news/2026-09-19/gemini-google-ai-hacks-three-companies/107172128"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "headline": "Duolingo CEO Luis von Ahn sells $4.25 million in stock under a pre-set trading plan",
+      "summary": "A Form 4 filing shows Duolingo co-founder and CEO Luis von Ahn sold 28,292 Class A shares on September 16 for roughly $4.25 million, at prices between about $150 and $152.55, under a Rule 10b5-1 plan adopted in June. The same filing shows…",
+      "urls": [
+        "https://www.stocktitan.net/sec-filings/DUOL/form-4-duolingo-inc-insider-trading-activity-a3e304072451.html"
+      ]
+    },
     {
       "date": "2026-09-18",
       "headline": "Treasury sanctions Iranian exchange BitBank over bitcoin payments to the IRGC",
@@ -287,47 +311,6 @@
       "summary": "Bitcoin traded near $79,980 on September 6, up 0.43% and still down about 9% year-to-date after rebounding from roughly $63,000 in August. MicroStrategy raised $602.8 million through stock sales between August 24-30 and used $369.7 million…",
       "urls": [
         "https://www.investing.com/news/cryptocurrency-news/bitcoin-trades-near-80000-as-corporate-demand-and-us-crypto-policy-stay-in-focus-4890272"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "headline": "Google rolls out Gemini-powered 'Live' voice features across Gmail, Docs and Keep",
-      "summary": "Google launched Gmail Live, Docs Live and Keep Live, letting users ask a Gemini-powered assistant questions about their inbox, dictate first drafts that pull from Gmail, Drive, chat and the web, and turn spoken \"brain dumps\" into notes and…",
-      "urls": [
-        "https://techcrunch.com/2026/09/03/google-launches-ai-voice-features-in-gmail-docs-and-keep/"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "headline": "Duolingo suspends its English Test for Iranian passport holders worldwide under new US sanctions",
-      "summary": "Duolingo blocked its English Test for anyone testing from Iran or holding Iranian government-issued ID, effective September 1 — a restriction that extends to Iranian citizens living abroad, broader than rival ETS's approach of pausing test…",
-      "urls": [
-        "https://www.aljazeera.com/news/2026/9/1/duolingo-d-day-iranians-question-latest-us-sanctions-targeting-education"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "headline": "Bitcoin clears $81,000 as traders pare Fed rate-hike bets",
-      "summary": "Bitcoin rose about 4% to clear $81,300 overnight before easing to around $81,060, with ether up 4.52%, XRP up 5.58% and solana up 3.04% over 24 hours alongside $318.6 million in liquidations market-wide. Privacy coins ran hardest, with zca…",
-      "urls": [
-        "https://www.coindesk.com/markets/2026/09/04/bitcoin-clears-usd81-000-as-privacy-coins-lead-a-broad-crypto-rally"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "headline": "Berenberg backs Rocket Lab as Iridium merger clears next step toward a September 24 vote",
-      "summary": "Berenberg initiated coverage on Rocket Lab this week with a Buy rating and an $83 price target, arguing the space industry is approaching $1 trillion and citing the company's backlog and end-to-end launch-to-satellite platform; the firm ra…",
-      "urls": [
-        "https://finance.yahoo.com/markets/stocks/articles/berenberg-launches-space-coverage-initiates-082127939.html",
-        "https://www.fool.com/coverage/filings/2026/09/03/iridium-ceo-sells-over-9-500-shares-as-rocket-lab-is-poised-to-acquire-the-company/"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "headline": "Amundi, Fidelity and other major asset managers rebuild gold positions, eye $5,000",
-      "summary": "Some of the world's largest money managers — Amundi, Pictet Asset Management, Robeco and Fidelity International — have added back gold holdings they cut earlier this year during bullion's pullback from its record high, with Amundi betting…",
-      "urls": [
-        "https://www.bloomberg.com/news/articles/2026-09-04/world-s-biggest-money-managers-are-rebuilding-gold-positions"
       ]
     }
   ]
