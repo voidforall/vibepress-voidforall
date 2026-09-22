@@ -1,0 +1,69 @@
+{
+  "id": "2026-09-22",
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T12:26:02Z",
+  "editionTitle": "投资组合日报",
+  "editorNote": "阿里巴巴和Rocket Lab今天的变动都源于资本与基础设施决策,而非财报:阿里巴巴发布了新一代AI芯片,并公布了大幅扩张的数据中心路线图;Rocket Lab为收购Iridium进行的19亿美元增发则附带了实际的股权稀释测算。比特币和黄金均出现了明确、可追溯日期的行情——比特币触及八个月高点,黄金则因中国进口需求而在高位企稳。多邻国和Alphabet今天没有达到成文门槛的新消息,流传的相关内容只是常规的内部人申报和分析师评论,并非新进展。",
+  "stories": [
+    {
+      "headline": "阿里巴巴发布“震悟V900”AI芯片,并提出2032年20吉瓦数据中心目标",
+      "summary": "在杭州举行的云栖大会上,阿里云推出新一代AI芯片“震悟V900”,称其性能是5月发布的“震悟M890”的三倍,预计2027年第一季度量产。公司同时公布了到2032年将全球数据中心容量扩展至超过20吉瓦的计划,以及下一代通义千问模型的规划;消息公布后阿里巴巴港股股价上涨约3%。",
+      "whyItMatters": "这不只是产品预告,而是附带具体时间表和规模数字的产能与路线图承诺,为阿里巴巴的AI基础设施扩张提供了可衡量的目标。",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Alibaba shares jump as new AI chip, data center buildout plans unveiled",
+          "url": "https://jingletree.com/alibaba-shares-jump-as-new-ai-chip-data-center-buildout-plans-unveiled-274149.html"
+        },
+        {
+          "title": "Alibaba Shares Jump 3% on New AI Chip, Data Center Plans",
+          "url": "https://www.techbuzz.ai/articles/alibaba-shares-jump-3-on-new-ai-chip-data-center-plans"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab为收购Iridium增发19.4亿美元新股,稀释比例约为5%",
+      "summary": "Rocket Lab提交的SEC文件确认,公司通过增发2930万股新股(每股约66美元,低于当时市价)筹集约19.44亿美元,用于资助收购Iridium;由于此次增发加上Iridium现有的定期贷款已能覆盖交易所需现金,公司终止了原定36亿美元的备用过桥贷款。此次增发带来的稀释比例约为流通股的5%(计入可转换优先股后约为4.5%)。",
+      "whyItMatters": "公司选择让现有股东承担约5%的稀释,而非背负36亿美元的收购债务,这一取舍规避了杠杆风险,但也限制了短期每股收益的上行空间。",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab Sold $1.9 Billion of New Stock to Pay for Iridium. Here's the Dilution Math.",
+          "url": "https://www.fool.com/investing/2026/09/22/rocket-lab-sold-usd1-9-billion-of-new-stock-to-pay-for-iridium-here-s-the-dilution-math/"
+        },
+        {
+          "title": "Rocket Lab Corp - Form 8-K Exhibit 99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001819994/000175392626001769/g085951_ex99-1.htm"
+        }
+      ]
+    },
+    {
+      "headline": "比特币触及八个月高点,升破85,000美元",
+      "summary": "比特币一度上涨5%至7%,触及约85,000至87,000美元的高点,为1月以来最高水平,推动因素包括比特币现货ETF资金重新流入、空头回补带来的挤仓效应,以及市场在预期特朗普与习近平举行会晤前风险偏好的改善。目前价格仍比2025年10月创下的逾126,000美元历史高点低约三分之一。",
+      "whyItMatters": "这一走势明显逆转了上周跌破76,000美元的态势,分析指出推动因素是ETF需求和空头回补,而非新的监管消息。",
+      "category": "Crypto",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin jumps to highest in eight months to cross $85,000",
+          "url": "https://www.thenationalnews.com/business/money/2026/09/21/bitcoin-jumps-to-highest-in-eight-months-to-cross-85000/"
+        }
+      ]
+    },
+    {
+      "headline": "黄金企稳于每盎司4,380美元附近,中国黄金进口量年内已破1,000吨",
+      "summary": "黄金期货开盘持平于每金衡盎司4,382.50美元,早盘小幅回落至约4,368美元。中国海关数据显示,截至8月的黄金进口量已超过1,000吨,超过2025年全年总量,国际金价走弱及人民币走强共同拉动了进口需求。",
+      "whyItMatters": "中国强劲的进口需求正在抵消美联储近期加息通常带来的压力,使金价维持区间波动而非下跌。",
+      "category": "Commodities",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Gold price today, Tuesday, September 22, 2026: Gold prices holding as Chinese gold imports set record",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-september-22-2026-gold-prices-holding-as-chinese-gold-imports-set-record-104326063.html"
+        }
+      ]
+    }
+  ]
+}

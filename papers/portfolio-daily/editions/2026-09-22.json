@@ -1,0 +1,69 @@
+{
+  "id": "2026-09-22",
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T12:26:02Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Alibaba and Rocket Lab both moved on capital and infrastructure decisions rather than earnings: Alibaba unveiled its next AI chip and a sharply larger data-center roadmap, while Rocket Lab's $1.9B share sale to fund the Iridium deal came with real dilution math attached. Bitcoin and gold both had a clean, dated move — bitcoin to an eight-month high, gold holding near record levels on Chinese import demand. No fresh Duolingo or Alphabet news cleared the bar today; the circulating items were routine insider filings and analyst commentary, not new developments.",
+  "stories": [
+    {
+      "headline": "Alibaba unveils Zhenwu V900 AI chip and a 20-gigawatt data center target for 2032",
+      "summary": "At its Apsara Conference in Hangzhou, Alibaba Cloud introduced the Zhenwu V900, a next-generation AI chip it says delivers three times the performance of its Zhenwu M890 (released in May) and is due for mass production in Q1 2027. The company also outlined plans to expand its global data-center capacity to more than 20 gigawatts by 2032, alongside its next Qwen model generations; shares rose roughly 3% in Hong Kong trading.",
+      "whyItMatters": "It's a concrete capacity and roadmap commitment, not just a product tease, putting a specific timeline and scale figure behind Alibaba's AI-infrastructure buildout.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Alibaba shares jump as new AI chip, data center buildout plans unveiled",
+          "url": "https://jingletree.com/alibaba-shares-jump-as-new-ai-chip-data-center-buildout-plans-unveiled-274149.html"
+        },
+        {
+          "title": "Alibaba Shares Jump 3% on New AI Chip, Data Center Plans",
+          "url": "https://www.techbuzz.ai/articles/alibaba-shares-jump-3-on-new-ai-chip-data-center-plans"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab's $1.94B share sale to fund Iridium works out to about 5% dilution",
+      "summary": "Rocket Lab's SEC filing confirms it raised roughly $1.944 billion by issuing 29.3 million new shares at about $66 each — below the stock's then-current price — to help fund its Iridium acquisition, and it terminated a $3.6 billion backup bridge loan now that the sale plus Iridium's existing term loan fully cover the deal's cash requirements. The dilution works out to roughly 5% of shares outstanding (4.5% including convertible preferred).",
+      "whyItMatters": "The company chose to dilute existing shareholders by about 5% rather than carry $3.6B in acquisition debt, a trade-off that avoids leverage risk but caps near-term per-share upside.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab Sold $1.9 Billion of New Stock to Pay for Iridium. Here's the Dilution Math.",
+          "url": "https://www.fool.com/investing/2026/09/22/rocket-lab-sold-usd1-9-billion-of-new-stock-to-pay-for-iridium-here-s-the-dilution-math/"
+        },
+        {
+          "title": "Rocket Lab Corp - Form 8-K Exhibit 99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001819994/000175392626001769/g085951_ex99-1.htm"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin hits an eight-month high above $85,000",
+      "summary": "Bitcoin rose as much as 5-7% to peak around $85,000-$87,000, its highest level since January, driven by renewed spot-ETF inflows, a short squeeze on bearish positions, and improved risk appetite ahead of an expected Trump-Xi summit. It remains about a third below its October 2025 record above $126,000.",
+      "whyItMatters": "The move marks a clear reversal from last week's dip below $76,000, with ETF demand and short covering — not new regulation — cited as the drivers.",
+      "category": "Crypto",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin jumps to highest in eight months to cross $85,000",
+          "url": "https://www.thenationalnews.com/business/money/2026/09/21/bitcoin-jumps-to-highest-in-eight-months-to-cross-85000/"
+        }
+      ]
+    },
+    {
+      "headline": "Gold holds near $4,380 as China's gold imports top 1,000 tons for the year",
+      "summary": "Gold futures opened flat at $4,382.50 per troy ounce, easing slightly to about $4,368 in early trading. Chinese customs data show gold imports through August already topped 1,000 tons, surpassing all of 2025, as a slump in international prices and a firmer yuan draw in demand.",
+      "whyItMatters": "Strong Chinese import demand is offsetting the usual headwind from the Fed's recent rate hike, keeping gold range-bound instead of falling.",
+      "category": "Commodities",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Gold price today, Tuesday, September 22, 2026: Gold prices holding as Chinese gold imports set record",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-september-22-2026-gold-prices-holding-as-chinese-gold-imports-set-record-104326063.html"
+        }
+      ]
+    }
+  ]
+}

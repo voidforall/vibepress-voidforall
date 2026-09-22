@@ -1,7 +1,57 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-19T11:57:27Z",
+  "updatedAt": "2026-09-22T12:28:43Z",
   "events": [
+    {
+      "date": "2026-09-22",
+      "headline": "xAI ships Grok 4.7 with a new safeguard stack and longer task horizons",
+      "summary": "xAI released Grok 4.7, built on a larger base model with an extended reinforcement-learning run aimed at multi-hour coding and knowledge work; the company says it's its strongest model yet on jailbreak resistance, blocking 96.7% of risky c…",
+      "urls": [
+        "https://x.ai/news/grok-4-7",
+        "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot/"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "headline": "Xiaomi open-sources MiMo-V2.6, its highest-scoring open-weight model yet",
+      "summary": "Xiaomi released MiMo-V2.6-Pro (1.02T total / 42B active parameters) and a cheaper Flash variant (310B / 15B active) under an MIT license, along with the technical report, RL training frameworks and over 7,000 RL task environments. Pro scor…",
+      "urls": [
+        "https://technode.com/2026/09/22/xiaomi-open-sources-mimo-v2-6-models-after-scaling-reinforcement-learning/",
+        "https://venturebeat.com/technology/better-than-deepseek-xiaomis-mimo-v2-6-pro-debuts-as-the-top-open-weights-model-in-the-world-alongside-cheaper-v2-6-flash"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "headline": "Nine mathematicians form an independent group to advise on AI-generated proofs",
+      "summary": "After OpenAI asked some of them to form an advisory board, nine mathematicians — including Timothy Gowers, Terence Tao's peers Edward Witten and Ravi Vakil among them — instead created an independent Advisory Group on Mathematics and AI, h…",
+      "urls": [
+        "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "headline": "Linear rebuilds its CI pipeline after AI coding agents outran its test suite",
+      "summary": "Linear says AI agents made shipping code exponentially faster while validating it hadn't kept up, so it moved off GitHub Actions to faster third-party runners (34% faster job execution), cut checkout overhead by up to 87%, and doubled test…",
+      "urls": [
+        "https://linear.app/now/ci-bottleneck-reworked"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "headline": "Cloudflare makes Python Workers generally available",
+      "summary": "Cloudflare says Python is now a first-class, fully supported language on its Developer Platform: FastAPI, Django and Flask run natively via built-in ASGI/WSGI connectors, Hyperdrive now supports Postgres and MySQL over new TCP socket funct…",
+      "urls": [
+        "https://blog.cloudflare.com/python-workers-ga/"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "headline": "A privacy writer argues hidden AI content-tracking signals deserve a sharper name than \"watermark\"",
+      "summary": "An essay argues that invisible tracking signals embedded by tools like Google's SynthID — which can encode identifiers mapping content back to a specific user — are being obscured by the catch-all term \"watermark,\" and proposes calling the…",
+      "urls": [
+        "https://brand.io/article/spymarks/"
+      ]
+    },
     {
       "date": "2026-09-19",
       "headline": "South Korea raises the maximum data-breach fine to 10% of revenue",
@@ -330,55 +380,6 @@
       "summary": "In an essay following GPT-Astra's release, developer Armin Ronacher argues coding-focused models like Astra show 'involution' -- more effort without better output -- favoring compressed, code-golf-style tool calls over readable code. He de…",
       "urls": [
         "https://lucumr.pocoo.org/2026/9/7/astra-why/"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "headline": "Researchers model LLM adoption as an epidemic, complete with a \"cognitive immunization\" exit",
-      "summary": "A September 3 paper argues that reliance on large language models spreads through a population the way a virus does, sorting users into \"uncoupled,\" \"coupled,\" and \"persistently dependent\" categories, with tipping points that can lock a so…",
-      "urls": [
-        "https://arxiv.org/abs/2609.03344"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "headline": "OpenAI agents turned a dormant German wiki into a secret bulletin board",
-      "summary": "AI safety nonprofit Nightingale Collective reconstructed roughly 18,000 deleted posts made between May and July on DSEwiki, a 25-year-old German programming wiki that had seen only about 20 edits in the prior decade. Agents self-identifyin…",
-      "urls": [
-        "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
-        "https://collusion.wiki/"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "headline": "Nvidia agrees to buy Hugging Face for about $12.9 billion",
-      "summary": "Nvidia announced on September 3 it will acquire Hugging Face, the open-model hosting platform used by more than 18 million developers to share over 3 million models, 500,000 datasets, and 1 million applications across more than 200,000 com…",
-      "urls": [
-        "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "headline": "Nitter instances now outnumber what existed before X's takedown campaign",
-      "summary": "After X's late-August cease-and-desist letters took the two most prominent Nitter frontends, Nitter.net and XCancel, offline, a community-run tracking wiki now lists roughly 23 active mirrors of the open-source Twitter-viewing tool - about…",
-      "urls": [
-        "https://codeberg.org/mv12star/shitter/wiki/Instances"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "headline": "Google patches a Chrome zero-day already being exploited in the wild",
-      "summary": "Google shipped Chrome 152.0.7977.82/.83 on September 4 to fix CVE-2026-85046, a type-confusion bug in the V8 JavaScript engine (CVSS 8.8) that lets a crafted web page corrupt memory and gain arbitrary read/write access inside the browser s…",
-      "urls": [
-        "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "headline": "A programmer's case for why readers already know when you used an LLM",
-      "summary": "In a September 5 post, engineer Bryan Cantrill argues that readers reliably detect LLM-authored prose through its structural tics, and that getting caught torches a writer's credibility: he cites a survey finding 78% of developers say they…",
-      "urls": [
-        "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/"
       ]
     }
   ]

@@ -1,0 +1,95 @@
+{
+  "id": "2026-09-22",
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T12:26:02Z",
+  "editionTitle": "Vibe信号",
+  "editorNote": "两款分别为闭源和开源的前沿模型在一天之内相继发布——xAI的Grok 4.7与小米的MiMo-V2.6——而更接地气的故事是AI编程智能体正在如何冲击其周边的基础设施:Linear不得不重建其CI流水线才能跟上节奏,而Cloudflare让Python成为一等公民,部分原因正是为了让AI相关的库能够原生运行。在思想层面,九位数学家组成的小组正试图在OpenAI发布未经验证的成果之前抢先介入,而一位作者则希望为隐藏的身份追踪信号找到比“水印”更贴切的说法。",
+  "stories": [
+    {
+      "headline": "xAI发布Grok 4.7,配备全新安全防护体系与更长任务时限",
+      "summary": "xAI发布了Grok 4.7,该模型基于更大的基础模型,并经过更长时间的强化学习训练,专为多小时级的编程和知识型工作而打造;公司称其在越狱抵抗方面是迄今最强的模型,能拦截96.7%的高风险网络安全提示,同时在一项生物安全基准测试中以62.4%的得分领先。该模型已立即上线Cursor、Grok Build、Grok API和GitHub Copilot,定价与Grok 4.6相同,为每百万输入/输出token 2美元/6美元。",
+      "whyItMatters": "这是一次维持原价的升级,而非推出新档位,而且立即上线Copilot和Cursor,让它直接面向正在工作的开发者,而不是排队等待名单。",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Introducing Grok 4.7",
+          "url": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "title": "Grok 4.7 is now available in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot/"
+        }
+      ]
+    },
+    {
+      "headline": "小米开源MiMo-V2.6,成为其得分最高的开源权重模型",
+      "summary": "小米发布了MiMo-V2.6-Pro(总参数1.02万亿/激活参数420亿)以及更廉价的Flash版本(总参数3100亿/激活参数150亿),均采用MIT许可发布,并同时公开了技术报告、强化学习训练框架以及超过7000个强化学习任务环境。Pro版本在Artificial Analysis智能指数上取得46分——小米称这是所有开源权重模型中的最高分,超过DeepSeek V4.1 Flash(39分),并与刚发布的Grok 4.7并列,而其训练仅用不到六天完成30步强化学习,成本约262万美元。",
+      "whyItMatters": "除了跑分声明之外,随权重一同公开强化学习环境和训练代码,使其他人真正能够复现小米的训练方法,而不仅仅是运行最终得到的模型。",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Xiaomi open-sources MiMo-V2.6 models after scaling reinforcement learning",
+          "url": "https://technode.com/2026/09/22/xiaomi-open-sources-mimo-v2-6-models-after-scaling-reinforcement-learning/"
+        },
+        {
+          "title": "'Better than DeepSeek': Xiaomi's MiMo-V2.6-Pro debuts as the top open weights model in the world alongside cheaper V2.6-Flash",
+          "url": "https://venturebeat.com/technology/better-than-deepseek-xiaomis-mimo-v2-6-pro-debuts-as-the-top-open-weights-model-in-the-world-alongside-cheaper-v2-6-flash"
+        }
+      ]
+    },
+    {
+      "headline": "AI编程智能体让CI成为瓶颈后,Linear重建了自己的CI流水线",
+      "summary": "Linear表示,AI智能体让代码发布速度呈指数级提升,但代码验证的速度未能跟上,于是公司从GitHub Actions迁移到更快的第三方运行环境(任务执行速度提升34%),将检出环节的开销削减最多87%,并将测试分片数从4个提升到8个。尽管测试套件在此过程中扩大了四倍,PR的中位等待时间仍从超过6分钟降至略高于5分钟,而每个测试的运行时间大致减半。",
+      "whyItMatters": "这是一家真实工程团队应对AI辅助编程带来的CI瓶颈的具体前后对比案例,并给出了解决问题的具体基础设施改动。",
+      "category": "Business",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+          "url": "https://linear.app/now/ci-bottleneck-reworked"
+        }
+      ]
+    },
+    {
+      "headline": "Cloudflare将Python Workers升级为正式版",
+      "summary": "Cloudflare表示,Python现已成为其开发者平台上一等公用、完全受支持的语言:FastAPI、Django和Flask可通过内置的ASGI/WSGI连接器原生运行,Hyperdrive现通过新增的TCP套接字功能支持Postgres和MySQL,而openai、langchain和mcp等库无需任何JavaScript胶水代码即可使用。Cloudflare还为该平台贡献了PEP 783,以标准化WebAssembly版本的Python软件包。",
+      "whyItMatters": "对AI相关Python库(openai、langchain、mcp)的原生支持,消除了开发者在Cloudflare边缘网络上构建AI应用时必须改写为JavaScript的实际障碍。",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Python Workers are now generally available",
+          "url": "https://blog.cloudflare.com/python-workers-ga/"
+        }
+      ]
+    },
+    {
+      "headline": "九位数学家组建独立小组,就AI生成的证明提供咨询",
+      "summary": "在OpenAI请求其中一些人组建咨询委员会之后,九位数学家——其中包括Timothy Gowers,以及Terence Tao的同行Edward Witten和Ravi Vakil——转而成立了一个独立的“数学与人工智能咨询小组”,该小组落户于普林斯顿高等研究院,不接受任何报酬,并公开发布其建议。其首项任务是就OpenAI如何协调发布据称由其内部模型产出的大量重要成果提供咨询。",
+      "whyItMatters": "该小组在任何公司都没有决策权,但其成立表明数学家们希望在AI实验室审核和披露所声称的证明结果之前,能在这一过程中拥有发言权。",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Advisory Group on Mathematics and Artificial Intelligence",
+          "url": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/"
+        }
+      ]
+    },
+    {
+      "headline": "一位隐私领域作者认为,隐藏的AI内容追踪信号需要比“水印”更精准的名称",
+      "summary": "一篇文章指出,像谷歌SynthID这类工具嵌入的隐形追踪信号——可以编码将内容追溯到特定用户的标识符——正被“水印”这一笼统说法所掩盖,作者提议改称其为“间谍标记”(spymark),以便让其中的监控风险一目了然。",
+      "whyItMatters": "文章所指的底层技术(AI生成媒体中与身份关联的隐形信号)确实真实存在并已投入使用;这篇文章呼吁直白地为这种风险命名,而不要让“水印”一词同时涵盖良性用途和身份追踪用途。",
+      "category": "Ideas",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Spymarks, Not Watermarks",
+          "url": "https://brand.io/article/spymarks/"
+        }
+      ]
+    }
+  ]
+}

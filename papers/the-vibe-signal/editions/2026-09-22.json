@@ -1,0 +1,95 @@
+{
+  "id": "2026-09-22",
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T12:26:02Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Two frontier open- and closed-weight models landed within a day of each other — xAI's Grok 4.7 and Xiaomi's MiMo-V2.6 — while the more mundane story is what AI coding agents are doing to the plumbing around them: Linear had to rebuild its CI pipeline to keep up, and Cloudflare made Python a first-class citizen partly to let AI libraries run natively. On the ideas side, a group of nine mathematicians is trying to get ahead of how OpenAI releases unverified results, and one writer wants a sharper word for hidden identity-tracking signals than \"watermark.\"",
+  "stories": [
+    {
+      "headline": "xAI ships Grok 4.7 with a new safeguard stack and longer task horizons",
+      "summary": "xAI released Grok 4.7, built on a larger base model with an extended reinforcement-learning run aimed at multi-hour coding and knowledge work; the company says it's its strongest model yet on jailbreak resistance, blocking 96.7% of risky cybersecurity prompts while leading a biosafety benchmark at 62.4%. It's live immediately in Cursor, Grok Build, the Grok API and GitHub Copilot, at the same $2/$6 per-million-token pricing as Grok 4.6.",
+      "whyItMatters": "It's a same-price upgrade rather than a new tier, and the immediate rollout into Copilot and Cursor puts it directly in front of working developers rather than behind a waitlist.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Introducing Grok 4.7",
+          "url": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "title": "Grok 4.7 is now available in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot/"
+        }
+      ]
+    },
+    {
+      "headline": "Xiaomi open-sources MiMo-V2.6, its highest-scoring open-weight model yet",
+      "summary": "Xiaomi released MiMo-V2.6-Pro (1.02T total / 42B active parameters) and a cheaper Flash variant (310B / 15B active) under an MIT license, along with the technical report, RL training frameworks and over 7,000 RL task environments. Pro scored 46 on Artificial Analysis' Intelligence Index — Xiaomi says the highest of any open-weight model, edging out DeepSeek V4.1 Flash (39) and tying newly-released Grok 4.7 — after 30 RL training steps completed in under six days for a reported $2.62 million.",
+      "whyItMatters": "Beyond the benchmark claim, publishing the RL environments and training code alongside the weights lets others actually reproduce Xiaomi's training approach, not just run the resulting model.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Xiaomi open-sources MiMo-V2.6 models after scaling reinforcement learning",
+          "url": "https://technode.com/2026/09/22/xiaomi-open-sources-mimo-v2-6-models-after-scaling-reinforcement-learning/"
+        },
+        {
+          "title": "'Better than DeepSeek': Xiaomi's MiMo-V2.6-Pro debuts as the top open weights model in the world alongside cheaper V2.6-Flash",
+          "url": "https://venturebeat.com/technology/better-than-deepseek-xiaomis-mimo-v2-6-pro-debuts-as-the-top-open-weights-model-in-the-world-alongside-cheaper-v2-6-flash"
+        }
+      ]
+    },
+    {
+      "headline": "Linear rebuilds its CI pipeline after AI coding agents outran its test suite",
+      "summary": "Linear says AI agents made shipping code exponentially faster while validating it hadn't kept up, so it moved off GitHub Actions to faster third-party runners (34% faster job execution), cut checkout overhead by up to 87%, and doubled test sharding from 4 to 8. Despite quadrupling its test suite in the process, median PR wait time dropped from over 6 minutes to just over 5, while runner time per test roughly halved.",
+      "whyItMatters": "It's a concrete before/after account of a real engineering org hitting the CI bottleneck that faster AI-assisted coding creates, with the specific infrastructure changes that fixed it.",
+      "category": "Business",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+          "url": "https://linear.app/now/ci-bottleneck-reworked"
+        }
+      ]
+    },
+    {
+      "headline": "Cloudflare makes Python Workers generally available",
+      "summary": "Cloudflare says Python is now a first-class, fully supported language on its Developer Platform: FastAPI, Django and Flask run natively via built-in ASGI/WSGI connectors, Hyperdrive now supports Postgres and MySQL over new TCP socket functionality, and libraries like openai, langchain and mcp work without any JavaScript glue code. Cloudflare also contributed PEP 783 to standardize WebAssembly Python packages for the platform.",
+      "whyItMatters": "Native support for AI-specific Python libraries (openai, langchain, mcp) removes a real barrier for developers who wanted to build AI-backed apps on Cloudflare's edge network without rewriting in JavaScript.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Python Workers are now generally available",
+          "url": "https://blog.cloudflare.com/python-workers-ga/"
+        }
+      ]
+    },
+    {
+      "headline": "Nine mathematicians form an independent group to advise on AI-generated proofs",
+      "summary": "After OpenAI asked some of them to form an advisory board, nine mathematicians — including Timothy Gowers, Terence Tao's peers Edward Witten and Ravi Vakil among them — instead created an independent Advisory Group on Mathematics and AI, hosted at Princeton's Institute for Advanced Study, taking no pay and publishing recommendations openly. Its first task is advising OpenAI on how to coordinate the release of a large batch of significant results reportedly produced by its internal model.",
+      "whyItMatters": "The group has no decision-making power at any company, but its formation signals that mathematicians want a say in how AI labs vet and disclose claimed proofs before they hit the field.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Advisory Group on Mathematics and Artificial Intelligence",
+          "url": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/"
+        }
+      ]
+    },
+    {
+      "headline": "A privacy writer argues hidden AI content-tracking signals deserve a sharper name than \"watermark\"",
+      "summary": "An essay argues that invisible tracking signals embedded by tools like Google's SynthID — which can encode identifiers mapping content back to a specific user — are being obscured by the catch-all term \"watermark,\" and proposes calling them \"spymarks\" instead to make the surveillance risk immediately legible.",
+      "whyItMatters": "The underlying technology (identity-linked invisible signals in AI-generated media) is real and shipping; the piece is a call to name that risk plainly rather than let \"watermarking\" cover both benign and identity-tracking uses.",
+      "category": "Ideas",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Spymarks, Not Watermarks",
+          "url": "https://brand.io/article/spymarks/"
+        }
+      ]
+    }
+  ]
+}

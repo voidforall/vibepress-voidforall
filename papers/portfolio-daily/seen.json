@@ -1,7 +1,41 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-19T11:57:27Z",
+  "updatedAt": "2026-09-22T12:28:43Z",
   "events": [
+    {
+      "date": "2026-09-22",
+      "headline": "Rocket Lab's $1.94B share sale to fund Iridium works out to about 5% dilution",
+      "summary": "Rocket Lab's SEC filing confirms it raised roughly $1.944 billion by issuing 29.3 million new shares at about $66 each — below the stock's then-current price — to help fund its Iridium acquisition, and it terminated a $3.6 billion backup b…",
+      "urls": [
+        "https://www.fool.com/investing/2026/09/22/rocket-lab-sold-usd1-9-billion-of-new-stock-to-pay-for-iridium-here-s-the-dilution-math/",
+        "https://www.sec.gov/Archives/edgar/data/0001819994/000175392626001769/g085951_ex99-1.htm"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "headline": "Gold holds near $4,380 as China's gold imports top 1,000 tons for the year",
+      "summary": "Gold futures opened flat at $4,382.50 per troy ounce, easing slightly to about $4,368 in early trading. Chinese customs data show gold imports through August already topped 1,000 tons, surpassing all of 2025, as a slump in international pr…",
+      "urls": [
+        "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-september-22-2026-gold-prices-holding-as-chinese-gold-imports-set-record-104326063.html"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "headline": "Bitcoin hits an eight-month high above $85,000",
+      "summary": "Bitcoin rose as much as 5-7% to peak around $85,000-$87,000, its highest level since January, driven by renewed spot-ETF inflows, a short squeeze on bearish positions, and improved risk appetite ahead of an expected Trump-Xi summit. It rem…",
+      "urls": [
+        "https://www.thenationalnews.com/business/money/2026/09/21/bitcoin-jumps-to-highest-in-eight-months-to-cross-85000/"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "headline": "Alibaba unveils Zhenwu V900 AI chip and a 20-gigawatt data center target for 2032",
+      "summary": "At its Apsara Conference in Hangzhou, Alibaba Cloud introduced the Zhenwu V900, a next-generation AI chip it says delivers three times the performance of its Zhenwu M890 (released in May) and is due for mass production in Q1 2027. The comp…",
+      "urls": [
+        "https://jingletree.com/alibaba-shares-jump-as-new-ai-chip-data-center-buildout-plans-unveiled-274149.html",
+        "https://www.techbuzz.ai/articles/alibaba-shares-jump-3-on-new-ai-chip-data-center-plans"
+      ]
+    },
     {
       "date": "2026-09-19",
       "headline": "Rocket Lab launches its 96th Electron mission, delivering Synspective's 12th StriX satellite",
@@ -278,39 +312,6 @@
       "summary": "Berkshire Hathaway added 24.5 million Alphabet shares last quarter, a 45% increase, lifting its stake to roughly 79 million shares worth about $28.2 billion -- its fourth-largest holding at 9.41% of the portfolio. Berkshire only began buyi…",
       "urls": [
         "https://www.fool.com/investing/2026/09/11/berkshire-hathaway-has-a-new-top-holding-and-it-do/"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "headline": "Rocket Lab snaps 3-day slide after 94th Electron launch as CFO sells $8.8M in shares",
-      "summary": "Rocket Lab completed its 94th Electron mission, \"Owl Around The World,\" from Mahia, New Zealand, deploying Synspective's StriX radar-imaging satellite into a 575km low-Earth orbit after two weather delays; it was the company's 15th launch…",
-      "urls": [
-        "https://www.stocktitan.net/news/RKLB/mission-success-rocket-lab-launches-94th-electron-1jkddot4erkm.html",
-        "https://www.tradingview.com/news/stocktwits:7b29dc688094b:0-rklb-stock-snaps-3-day-slide-investors-shrug-off-cfo-s-8-8m-sale-as-rocket-lab-scores-94th-launch-win/"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "headline": "Judge rejects DOJ's bid to force Google to sell its ad exchange",
-      "summary": "U.S. District Judge Leonie Brinkema denied the Justice Department's request that Google divest its AdX ad exchange and open-source the final auction logic of its DFP ad server, ruling on September 2 that the structural proposals \"be and ar…",
-      "urls": [
-        "https://ppc.land/doj-loses-adx-divestiture-bid-as-brinkema-accepts-behavioral-remedies/"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "headline": "Gold slips as a stronger-than-expected jobs report lifts Fed rate-hike odds",
-      "summary": "Gold fell about 0.8% on September 4 to trade near $4,437 after dropping more than 2% intraday, as August nonfarm payrolls came in far above forecast (162,000 versus 56,000 expected). The data pushed money-market odds of a Fed rate increase…",
-      "urls": [
-        "https://www.fxstreet.com/commodities/gold"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "headline": "Bitcoin holds near $80,000 as corporate buying and a Senate crypto bill stay in focus",
-      "summary": "Bitcoin traded near $79,980 on September 6, up 0.43% and still down about 9% year-to-date after rebounding from roughly $63,000 in August. MicroStrategy raised $602.8 million through stock sales between August 24-30 and used $369.7 million…",
-      "urls": [
-        "https://www.investing.com/news/cryptocurrency-news/bitcoin-trades-near-80000-as-corporate-demand-and-us-crypto-policy-stay-in-focus-4890272"
       ]
     }
   ]

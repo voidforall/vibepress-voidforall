@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-09-22",
+      "date": "2026-09-22",
+      "headline": "Alibaba unveils Zhenwu V900 AI chip and a 20-gigawatt data center target for 2032",
+      "storyCount": 4
+    },
+    {
       "id": "2026-09-19",
       "date": "2026-09-19",
       "headline": "Rocket Lab launches its 96th Electron mission, delivering Synspective's 12th StriX satellite",
