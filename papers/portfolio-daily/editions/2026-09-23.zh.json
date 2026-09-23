@@ -1,0 +1,49 @@
+{
+  "id": "2026-09-23",
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T12:30:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "关注名单今日相对平静:谷歌因位置数据问题被爱尔兰开出史上第四大罚单;比特币ETF录得2026年以来单日最大净流入;ARK基金继续减持Alphabet、加仓Rocket Lab;金价则在特习会与伊朗谈判的观望情绪中窄幅整理。",
+  "stories": [
+    {
+      "headline": "爱尔兰因非法追踪位置数据向谷歌罚款4.63亿美元",
+      "summary": "爱尔兰数据保护委员会(DPC)经过六年调查后,认定谷歌在2018年至2020年2月期间,在“网络与应用活动”、“位置记录”及安卓“位置准确度”功能中非法处理用户位置数据,违反GDPR,对其处以4.03亿欧元(约4.63亿美元)罚款。",
+      "whyItMatters": "这是爱尔兰监管机构开出的第四大隐私罚单,该机构表示对谷歌还有三项调查在进行中。",
+      "category": "监管",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Google fined $463 million for breaching EU rule on location data", "url": "https://techxplore.com/news/2026-09-google-million-fine-eu-breach.html" }
+      ]
+    },
+    {
+      "headline": "美国比特币ETF单日净流入创纪录达9.99亿美元,币价突破8.6万美元",
+      "summary": "周一美国上市的比特币现货ETF净流入9.989亿美元,创2026年单日最高纪录,其中贝莱德IBIT流入3.81亿美元、ARK与21Shares的ARKB流入2.89亿美元、富达FBTC流入2.39亿美元,同期比特币价格突破8.6万美元,逼近八个月高点。",
+      "whyItMatters": "美国比特币ETF资产规模已突破1100亿美元,这是数周资金外流后机构需求回暖最明显的信号。",
+      "category": "加密货币",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Bitcoin ETFs Hit 2026 High With $999M Inflow as Bitcoin Price Tops $86K", "url": "https://news.bitcoin.com/market-updates/bitcoin-etfs-hit-2026-high-with-999m-inflow-as-bitcoin-price-tops-86k/" }
+      ]
+    },
+    {
+      "headline": "凯西·伍德旗下ARK买入2500万美元Rocket Lab股票,同时减持Alphabet",
+      "summary": "ARK Invest旗下ETF周二通过ARKK、ARKQ和ARKX买入359,612股Rocket Lab股票,价值2510万美元;同时通过ARKQ和ARKX卖出16,422股Alphabet股票,价值580万美元。",
+      "whyItMatters": "此次交易延续了ARK对Rocket Lab的持续加仓,目前其持股已超过320万股,市值约2.25亿美元。",
+      "category": "公司",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Cathie Wood's ARK sells Alphabet stock, buys Rocket Lab", "url": "https://www.investing.com/news/company-news/cathie-woods-ark-sells-alphabet-stock-buys-rocket-lab-93CH-4911908" }
+      ]
+    },
+    {
+      "headline": "金价在特习会与伊朗谈判影响下守稳4350美元附近",
+      "summary": "周三金价在4350至4390美元区间震荡,市场关注特朗普与习近平在华盛顿举行的峰会——这是中国国家主席11年来首次访美——以及联合国会谈后美伊紧张关系的缓和。",
+      "whyItMatters": "地缘政治风险溢价的降温使金价维持盘整,而非延续此前的跌势。",
+      "category": "大宗商品",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Gold price today, Wednesday, September 23, 2026: Gold holds as investors weigh China, Iran relations", "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-september-23-2026-gold-holds-as-investors-weigh-china-iran-relations-110649042.html" }
+      ]
+    }
+  ]
+}

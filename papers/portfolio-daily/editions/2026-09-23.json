@@ -1,0 +1,49 @@
+{
+  "id": "2026-09-23",
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T12:30:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A quieter day for the watchlist: Google absorbs its fourth-largest Irish privacy fine, bitcoin ETFs post their best inflow day of 2026, ARK rotates further out of Alphabet and into Rocket Lab, and gold idles as investors watch this week's Trump-Xi summit and Iran talks.",
+  "stories": [
+    {
+      "headline": "Ireland fines Google $463 million over unlawful location-data tracking",
+      "summary": "Ireland's Data Protection Commission fined Google €403 million ($463 million) after a six-year investigation found the company unlawfully processed location data in Web & App Activity, Location History, and Android's Location Accuracy feature between 2018 and February 2020, breaching GDPR.",
+      "whyItMatters": "It's the fourth-largest privacy fine the Irish regulator has issued, and the DPC says three more investigations into Google remain open.",
+      "category": "Regulatory",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Google fined $463 million for breaching EU rule on location data", "url": "https://techxplore.com/news/2026-09-google-million-fine-eu-breach.html" }
+      ]
+    },
+    {
+      "headline": "US bitcoin ETFs pull in a record $999 million in a single day as price tops $86,000",
+      "summary": "US-listed spot bitcoin ETFs took in $998.95 million in net inflows Monday, their largest single-day haul of 2026, led by BlackRock's IBIT ($381M), ARK & 21Shares' ARKB ($289M), and Fidelity's FBTC ($239M), as bitcoin traded above $86,000 near an eight-month high.",
+      "whyItMatters": "Net assets in US bitcoin ETFs climbed past $110 billion, the clearest sign yet of institutional demand returning after weeks of outflows.",
+      "category": "Crypto",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Bitcoin ETFs Hit 2026 High With $999M Inflow as Bitcoin Price Tops $86K", "url": "https://news.bitcoin.com/market-updates/bitcoin-etfs-hit-2026-high-with-999m-inflow-as-bitcoin-price-tops-86k/" }
+      ]
+    },
+    {
+      "headline": "Cathie Wood's ARK buys $25 million of Rocket Lab, trims Alphabet stake",
+      "summary": "ARK Invest's ETFs bought 359,612 Rocket Lab shares worth $25.1 million on Tuesday across ARKK, ARKQ and ARKX, while selling 16,422 Alphabet shares worth $5.8 million through ARKQ and ARKX.",
+      "whyItMatters": "The trade extends ARK's buildup in Rocket Lab, which it now holds more than 3.2 million shares of, worth roughly $225 million.",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Cathie Wood's ARK sells Alphabet stock, buys Rocket Lab", "url": "https://www.investing.com/news/company-news/cathie-woods-ark-sells-alphabet-stock-buys-rocket-lab-93CH-4911908" }
+      ]
+    },
+    {
+      "headline": "Gold holds near $4,350 as Trump-Xi summit and Iran talks ease investor nerves",
+      "summary": "Gold traded in the $4,350-$4,390 range Wednesday as investors weighed President Trump's Washington summit with Xi Jinping — the first Chinese presidential visit in 11 years — alongside easing US-Iran tensions after talks at the UN.",
+      "whyItMatters": "Softer geopolitical risk premiums are keeping gold in a holding pattern rather than extending its recent slide.",
+      "category": "Commodities",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Gold price today, Wednesday, September 23, 2026: Gold holds as investors weigh China, Iran relations", "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-september-23-2026-gold-holds-as-investors-weigh-china-iran-relations-110649042.html" }
+      ]
+    }
+  ]
+}

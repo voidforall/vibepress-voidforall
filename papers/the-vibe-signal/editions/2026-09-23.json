@@ -1,0 +1,70 @@
+{
+  "id": "2026-09-23",
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T12:30:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "The big story today isn't a launch: a Bloomberg investigation into the February strike on an Iranian school lays out, in granular detail, how an under-staffed review process and an over-trusted targeting AI combined to kill 123 children. Meanwhile OpenAI and Anthropic both refreshed their flagship lineups within a day of each other, a hacking crew says it has FBI personnel data, a 2005 Enigma holdout finally fell to an AI cryptanalyst, and WordPress patched a critical unauthenticated RCE chain.",
+  "stories": [
+    {
+      "headline": "Pentagon probe: overreliance on Palantir's Maven AI contributed to a strike that killed 123 children",
+      "summary": "A Bloomberg investigation into the February 28 Tomahawk strike on Shajarah Tayyebeh Elementary School in Minab, Iran, found investigators concluded that outdated satellite imagery, rushed targeting procedures, and overreliance on Palantir's Maven Smart System combined to misidentify the school as part of a naval base. Civilian-harm mitigation staffing had fallen roughly 90% Defense-Department-wide, and no one from CENTCOM's one-person team reviewed the site before the missiles launched.",
+      "whyItMatters": "It's a documented case of a military AI targeting tool going wrong at scale, with a named contractor, a named process failure, and 157 deaths including 123 children.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Inside US Military 'Kill Chain' That Destroyed an Iranian School", "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/" },
+        { "title": "US overreliance on AI contributed to deadly Iran school strike, Bloomberg says", "url": "https://www.rt.com/news/646000-overreliance-on-ai-contributed-to/" }
+      ]
+    },
+    {
+      "headline": "OpenAI ships GPT-6 Sol and Luna, cutting API prices in half",
+      "summary": "OpenAI released GPT-6 Sol, aimed at complex coding and professional work with roughly half the error rate of its predecessor, and GPT-6 Luna, tuned for high-volume clerical tasks. Sol now costs $2/$10 per million input/output tokens and Luna $0.10/$0.50, both about 50% cheaper than the prior 5.6-series, with Luna also reaching free-tier users.",
+      "whyItMatters": "A 50% API price cut on a coding-capable model resets the cost floor competitors have to match.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes", "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/" }
+      ]
+    },
+    {
+      "headline": "Anthropic ships Claude Opus 5.5, 40% cheaper and faster than Opus 5",
+      "summary": "Anthropic's Opus 5.5 scores 66.4% on Terminal-Bench 4.0 versus 52.3% for Opus 5, generates output 30% faster, and cuts input/output token pricing to $4/$20 per million from $5/$25. Anthropic says it recorded the best alignment scores of any Opus model, with 85% fewer boundary-circumvention attempts in testing, and added cybersecurity and biology safeguards previously reserved for its Fable line.",
+      "whyItMatters": "It lands a day after xAI's Grok 4.7 and alongside OpenAI's Sol/Luna refresh, keeping the frontier-model price and capability race on a roughly weekly cadence.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Claude Opus 5.5", "url": "https://www.anthropic.com/claude-opus-5-5" }
+      ]
+    },
+    {
+      "headline": "Hacking group ShinyHunters claims it stole personal data on all FBI employees",
+      "summary": "ShinyHunters told 404 Media it holds names, home addresses, phone numbers, and family details for FBI employees and applicants, and let the outlet review a sample of about 5,000 alleged agent records. Neither the FBI nor any other official body has confirmed the breach.",
+      "whyItMatters": "If genuine, the data could be used to track, harass, or target agents and their families; the claim remains unverified by authorities.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees", "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/" }
+      ]
+    },
+    {
+      "headline": "OpenAI's GPT-6 Astra breaks a WWII Enigma message that resisted cryptanalysts since 2005",
+      "summary": "Researcher Carter Leffer set GPT-6 Astra loose on unsolved German Army Enigma traffic; it flagged message MVUEH (sent July 10, 1941) as the most promising target, wrote its own Enigma simulator in Python and C++, and used the repeated place name 'ROSENOW' as a crib to recover the key — a two-day effort Crypto Cellar Research's Frode Weierud, who verified the solution, said would take a human researcher weeks or months.",
+      "whyItMatters": "It's a concrete, verified instance of an AI system independently completing a research task that had stumped specialists for two decades.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "The MVUEH break", "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html" }
+      ]
+    },
+    {
+      "headline": "WordPress patches a critical unauthenticated path-traversal bug that can lead to RCE",
+      "summary": "A flaw in get_page_template() (CVE-2026-87902, CVSS 9.2) let an unauthenticated attacker include an arbitrary readable .php file from outside the active theme directory. It's exploitable on sites using a theme with a top-level 'page-' directory — including Twenty Twelve, Twenty Fourteen, Neve, Hestia, and Sydney — and can chain to RCE via PEAR's pearcmd.php on common PHP configurations. WordPress 7.1.2 fixes it, backported to every branch since 4.7.0.",
+      "whyItMatters": "The bug needs no authentication and hits widely-used themes, so unpatched sites are exploitable at scale until they update.",
+      "category": "Technology",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "WordPress: Unauthenticated path traversal leading to conditional RCE", "url": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp" }
+      ]
+    }
+  ]
+}

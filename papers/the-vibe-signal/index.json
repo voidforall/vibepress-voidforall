@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-09-23",
+      "date": "2026-09-23",
+      "headline": "Pentagon probe: overreliance on Palantir's Maven AI contributed to a strike that killed 123 children",
+      "storyCount": 6
+    },
+    {
       "id": "2026-09-22",
       "date": "2026-09-22",
       "headline": "xAI ships Grok 4.7 with a new safeguard stack and longer task horizons",

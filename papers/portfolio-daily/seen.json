@@ -1,7 +1,39 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-22T12:28:43Z",
+  "updatedAt": "2026-09-23T12:40:07Z",
   "events": [
+    {
+      "date": "2026-09-23",
+      "headline": "US bitcoin ETFs pull in a record $999 million in a single day as price tops $86,000",
+      "summary": "US-listed spot bitcoin ETFs took in $998.95 million in net inflows Monday, their largest single-day haul of 2026, led by BlackRock's IBIT ($381M), ARK & 21Shares' ARKB ($289M), and Fidelity's FBTC ($239M), as bitcoin traded above $86,000 n…",
+      "urls": [
+        "https://news.bitcoin.com/market-updates/bitcoin-etfs-hit-2026-high-with-999m-inflow-as-bitcoin-price-tops-86k/"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "headline": "Ireland fines Google $463 million over unlawful location-data tracking",
+      "summary": "Ireland's Data Protection Commission fined Google €403 million ($463 million) after a six-year investigation found the company unlawfully processed location data in Web & App Activity, Location History, and Android's Location Accuracy feat…",
+      "urls": [
+        "https://techxplore.com/news/2026-09-google-million-fine-eu-breach.html"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "headline": "Gold holds near $4,350 as Trump-Xi summit and Iran talks ease investor nerves",
+      "summary": "Gold traded in the $4,350-$4,390 range Wednesday as investors weighed President Trump's Washington summit with Xi Jinping — the first Chinese presidential visit in 11 years — alongside easing US-Iran tensions after talks at the UN.",
+      "urls": [
+        "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-september-23-2026-gold-holds-as-investors-weigh-china-iran-relations-110649042.html"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "headline": "Cathie Wood's ARK buys $25 million of Rocket Lab, trims Alphabet stake",
+      "summary": "ARK Invest's ETFs bought 359,612 Rocket Lab shares worth $25.1 million on Tuesday across ARKK, ARKQ and ARKX, while selling 16,422 Alphabet shares worth $5.8 million through ARKQ and ARKX.",
+      "urls": [
+        "https://www.investing.com/news/company-news/cathie-woods-ark-sells-alphabet-stock-buys-rocket-lab-93CH-4911908"
+      ]
+    },
     {
       "date": "2026-09-22",
       "headline": "Rocket Lab's $1.94B share sale to fund Iridium works out to about 5% dilution",

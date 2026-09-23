@@ -1,7 +1,56 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-22T12:28:43Z",
+  "updatedAt": "2026-09-23T12:41:07Z",
   "events": [
+    {
+      "date": "2026-09-23",
+      "headline": "WordPress patches a critical unauthenticated path-traversal bug that can lead to RCE",
+      "summary": "A flaw in get_page_template() (CVE-2026-87902, CVSS 9.2) let an unauthenticated attacker include an arbitrary readable .php file from outside the active theme directory. It's exploitable on sites using a theme with a top-level 'page-' dire…",
+      "urls": [
+        "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "headline": "Pentagon probe: overreliance on Palantir's Maven AI contributed to a strike that killed 123 children",
+      "summary": "A Bloomberg investigation into the February 28 Tomahawk strike on Shajarah Tayyebeh Elementary School in Minab, Iran, found investigators concluded that outdated satellite imagery, rushed targeting procedures, and overreliance on Palantir'…",
+      "urls": [
+        "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+        "https://www.rt.com/news/646000-overreliance-on-ai-contributed-to/"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "headline": "OpenAI's GPT-6 Astra breaks a WWII Enigma message that resisted cryptanalysts since 2005",
+      "summary": "Researcher Carter Leffer set GPT-6 Astra loose on unsolved German Army Enigma traffic; it flagged message MVUEH (sent July 10, 1941) as the most promising target, wrote its own Enigma simulator in Python and C++, and used the repeated plac…",
+      "urls": [
+        "https://www.cryptocellar.org/bgac/the-mvueh-break.html"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "headline": "OpenAI ships GPT-6 Sol and Luna, cutting API prices in half",
+      "summary": "OpenAI released GPT-6 Sol, aimed at complex coding and professional work with roughly half the error rate of its predecessor, and GPT-6 Luna, tuned for high-volume clerical tasks. Sol now costs $2/$10 per million input/output tokens and Lu…",
+      "urls": [
+        "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "headline": "Hacking group ShinyHunters claims it stole personal data on all FBI employees",
+      "summary": "ShinyHunters told 404 Media it holds names, home addresses, phone numbers, and family details for FBI employees and applicants, and let the outlet review a sample of about 5,000 alleged agent records. Neither the FBI nor any other official…",
+      "urls": [
+        "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "headline": "Anthropic ships Claude Opus 5.5, 40% cheaper and faster than Opus 5",
+      "summary": "Anthropic's Opus 5.5 scores 66.4% on Terminal-Bench 4.0 versus 52.3% for Opus 5, generates output 30% faster, and cuts input/output token pricing to $4/$20 per million from $5/$25. Anthropic says it recorded the best alignment scores of an…",
+      "urls": [
+        "https://www.anthropic.com/claude-opus-5-5"
+      ]
+    },
     {
       "date": "2026-09-22",
       "headline": "xAI ships Grok 4.7 with a new safeguard stack and longer task horizons",

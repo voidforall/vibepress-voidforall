@@ -1,0 +1,70 @@
+{
+  "id": "2026-09-23",
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T12:30:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天的头条不是新品发布:彭博社一篇调查报道详细披露了2月发生在伊朗一所学校的空袭事件——人手不足的审查流程与被过度信任的目标识别AI相结合,最终造成123名儿童死亡。与此同时,OpenAI与Anthropic在一天之内先后更新了各自的旗舰模型阵容,一个黑客团伙声称掌握了FBI人员数据,一条自2005年以来未被破解的恩尼格玛密文终于被AI密码分析破译,WordPress也修复了一个严重的未授权远程代码执行漏洞链。",
+  "stories": [
+    {
+      "headline": "五角大楼调查:过度依赖Palantir的Maven AI系统是致123名儿童死亡空袭的诱因之一",
+      "summary": "彭博社对2月28日“战斧”导弹袭击伊朗米纳布Shajarah Tayyebeh小学事件的调查发现,调查人员认定,过时的卫星影像、仓促的目标锁定流程,以及对Palantir“Maven智能系统”的过度依赖,共同导致该校被误判为海军基地的一部分。国防部范围内的平民伤害缓解人员编制已缩减约90%,中央司令部相关小组仅剩一人,且在导弹发射前无人前往该地点核实。",
+      "whyItMatters": "这是一起有据可查、涉及具名承包商与具体流程失误的军事AI目标识别系统大规模出错案例,造成157人死亡,其中包括123名儿童。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Inside US Military 'Kill Chain' That Destroyed an Iranian School", "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/" },
+        { "title": "US overreliance on AI contributed to deadly Iran school strike, Bloomberg says", "url": "https://www.rt.com/news/646000-overreliance-on-ai-contributed-to/" }
+      ]
+    },
+    {
+      "headline": "OpenAI发布GPT-6 Sol与Luna,API价格砍半",
+      "summary": "OpenAI发布了面向复杂编程与专业工作的GPT-6 Sol,其出错率约为上代模型的一半;以及面向大量文书类任务的GPT-6 Luna。Sol的输入/输出价格降至每百万token 2美元/10美元,Luna降至0.10美元/0.50美元,均较5.6系列降价约50%,Luna还向免费用户开放。",
+      "whyItMatters": "一款具备编程能力的模型API价格砍半,重新拉低了竞争对手必须对齐的成本底线。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes", "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/" }
+      ]
+    },
+    {
+      "headline": "Anthropic发布Claude Opus 5.5,成本较Opus 5降低40%、速度更快",
+      "summary": "Anthropic的Opus 5.5在Terminal-Bench 4.0上得分66.4%,高于Opus 5的52.3%,输出速度提升30%,输入/输出价格从每百万token 5美元/25美元降至4美元/20美元。Anthropic表示该模型录得Opus系列有史以来最佳的对齐评分,测试中的边界规避尝试减少了85%,并首次为Opus系列加入此前仅用于Fable系列的网络安全与生物安全防护措施。",
+      "whyItMatters": "该模型在xAI发布Grok 4.7一天后、并与OpenAI的Sol/Luna更新同期推出,前沿模型的价格与能力竞赛仍保持着近乎每周一轮的节奏。",
+      "category": "科技",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Claude Opus 5.5", "url": "https://www.anthropic.com/claude-opus-5-5" }
+      ]
+    },
+    {
+      "headline": "黑客团伙ShinyHunters声称窃取了全体FBI雇员的个人数据",
+      "summary": "黑客团伙ShinyHunters告诉404 Media,他们掌握了FBI雇员及申请者的姓名、住址、电话号码及家庭成员信息,并让该媒体查看了约5000名所谓探员记录的样本。FBI及其他官方机构均未证实此次入侵。",
+      "whyItMatters": "如果属实,这些数据可能被用于追踪、骚扰甚至针对探员及其家人;目前该说法尚未获官方证实。",
+      "category": "科技",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees", "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/" }
+      ]
+    },
+    {
+      "headline": "OpenAI的GPT-6 Astra破译了一条自2005年以来无人能解的二战恩尼格玛密文",
+      "summary": "研究者Carter Leffer让GPT-6 Astra处理未破解的德国陆军恩尼格玛电文,该模型将1941年7月10日发出的电文MVUEH标记为最有希望的目标,自行用Python和C++编写了恩尼格玛模拟器,并利用反复出现的地名“ROSENOW”作为突破口还原出密钥。验证该结果的Crypto Cellar Research研究者Frode Weierud表示,这项耗时两天完成的工作若由人类研究者独立完成,需要数周甚至数月。",
+      "whyItMatters": "这是AI系统独立完成一项困扰专家二十年之久的研究任务的具体、已验证案例。",
+      "category": "科技",
+      "importance": 5,
+      "sourceLinks": [
+        { "title": "The MVUEH break", "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html" }
+      ]
+    },
+    {
+      "headline": "WordPress修复一个可导致远程代码执行的严重未授权路径穿越漏洞",
+      "summary": "get_page_template()函数中的一个缺陷(CVE-2026-87902,CVSS评分9.2)允许未经身份验证的攻击者引入当前主题目录之外的任意可读.php文件。该漏洞可在使用含顶层“page-”目录主题(包括Twenty Twelve、Twenty Fourteen、Neve、Hestia和Sydney)的网站上被利用,并可在常见PHP配置下通过PEAR的pearcmd.php串联实现远程代码执行。WordPress 7.1.2已修复该问题,并向自4.7.0以来的所有分支回溯补丁。",
+      "whyItMatters": "该漏洞无需身份验证且影响广泛使用的主题,未打补丁的站点在更新前将大规模处于可被利用状态。",
+      "category": "科技",
+      "importance": 6,
+      "sourceLinks": [
+        { "title": "WordPress: Unauthenticated path traversal leading to conditional RCE", "url": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp" }
+      ]
+    }
+  ]
+}
