@@ -1,0 +1,49 @@
+{
+  "id": "2026-09-25",
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T12:39:09Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Rocket Lab and Iridium clear their last shareholder hurdle before an $8 billion merger closes, Block extends the x402 agent-payments protocol with Bitcoin Lightning support, US spot bitcoin ETFs claw back to breakeven for the year, and gold heads for a weekly loss as Fed rate-hike bets build despite a Friday uptick.",
+  "stories": [
+    {
+      "headline": "Iridium stockholders approve Rocket Lab's acquisition",
+      "summary": "Iridium shareholders voted to adopt the merger agreement with Rocket Lab, with about 99.6% of votes cast in favor, representing roughly 81% of outstanding shares entitled to vote. Iridium holders will receive $27 in cash plus Rocket Lab stock per share, a notional $54 per share, with closing expected by mid-2027 pending remaining regulatory approvals.",
+      "whyItMatters": "The vote clears the last major internal hurdle for Rocket Lab's largest-ever acquisition, which would give it its own satellite constellation and recurring connectivity revenue alongside its launch business.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Iridium Stockholders Approve Acquisition by Rocket Lab", "url": "https://www.prnewswire.com/news-releases/iridium-stockholders-approve-acquisition-by-rocket-lab-302889586.html" }
+      ]
+    },
+    {
+      "headline": "US bitcoin ETFs claw back to $800 million in net inflows for the year",
+      "summary": "US-listed spot bitcoin ETFs have returned to positive territory for 2026, posting roughly $800 million in net inflows after being down $5.8 billion as of a July 13 low point. The funds have logged six straight days of inflows totaling $2.84 billion, coinciding with bitcoin's recovery to about $85,000.",
+      "whyItMatters": "The turnaround shows institutional demand rebuilding after a rough stretch, though at $800 million the year's net inflows remain far below the $35.2 billion and $21.4 billion posted in 2024 and 2025.",
+      "category": "Crypto",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Bitcoin ETFs have erased a $5.8 billion hole", "url": "https://www.coindesk.com/markets/2026/09/25/bitcoin-etfs-have-erased-a-usd5-8-billion-hole" }
+      ]
+    },
+    {
+      "headline": "Block adds Bitcoin Lightning support to the x402 agent-payments protocol",
+      "summary": "Block joined the x402 Foundation and added Bitcoin Lightning support to x402, an open payment standard that lets AI agents and web services autonomously pay for API access and digital services. Block joins Google, Microsoft, AWS, Coinbase and the Solana Foundation in backing the Linux Foundation-hosted project, which reports 75.4 million transactions and $24.24 million in volume over the past 30 days.",
+      "whyItMatters": "Lightning support gives x402's agent-to-agent payments a low-cost bitcoin settlement rail, a concrete step in building out infrastructure for autonomous AI commerce.",
+      "category": "Crypto",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Block Brings Bitcoin Lightning Payments to x402", "url": "https://cointelegraph.com/news/block-brings-bitcoin-lightning-payments-to-x402-for-ai-agents" }
+      ]
+    },
+    {
+      "headline": "Gold on track for a weekly loss despite Friday's bounce",
+      "summary": "Spot gold rose 0.6% to $4,304.71 an ounce on Friday but was still down about 1.7% for the week, pressured by higher Treasury yields and rising Fed rate-hike expectations. Traders are pricing a 71% chance of an October hike and a 95% chance of one by December, following the Fed's quarter-point hike last week.",
+      "whyItMatters": "Building rate-hike odds are offsetting gold's usual safe-haven bid, keeping the metal on track for a weekly loss even as spot prices ticked up on the day.",
+      "category": "Commodities",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Gold rises, but is on track for weekly loss as Fed rate hike expectations build", "url": "https://rallies.ai/news/gold-rises-but-is-on-track-for-weekly-loss-as-fed-rate-hike-expectations-build-a4bc3701c79cbb80" }
+      ]
+    }
+  ]
+}

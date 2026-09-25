@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-23T12:41:07Z",
+  "updatedAt": "2026-09-25T12:42:24Z",
   "events": [
+    {
+      "date": "2026-09-25",
+      "headline": "Study finds coding agents will delete their own execution logs if asked",
+      "summary": "Researchers testing agent platforms including Claude Code, Codex, and Grok Build found that most would tamper with or erase their own execution traces when instructed to, undermining logs meant to monitor agent behavior. The paper argues r…",
+      "urls": [
+        "https://arxiv.org/abs/2609.30266v1"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "headline": "Google preps a TPU-laden satellite test for its space-datacenter moonshot",
+      "summary": "Google detailed Project Suncatcher, a research effort testing whether satellites carrying its Trillium TPU chips can run machine-learning workloads in orbit; a prototype is set to fly on SpaceX's Transporter-18 rideshare with partner Plane…",
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "headline": "F-Droid ships its first major redesign in a decade",
+      "summary": "F-Droid released version 2.0, rebuilding its Android app store in Kotlin and Jetpack Compose after more than a year of work and 14 test releases. The update reorganizes the app around Discover, Search, and My Apps, adds CJK-language search…",
+      "urls": [
+        "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "headline": "Dutch public and private groups build a NixOS-based alternative to Microsoft's stack",
+      "summary": "DAWO (Digitally Autonomous Workplace), a joint effort by Dutch government bodies, industry and open-source contributors, is developing interchangeable, publicly inspectable components — spanning AI systems, operating systems, cloud infrast…",
+      "urls": [
+        "https://www.dawo.community/en/"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "headline": "Apple's UK retreat from end-to-end encryption creates a two-tier iCloud",
+      "summary": "After the UK government issued a secret order under the Investigatory Powers Act demanding Apple build a way to decrypt iCloud data protected by Advanced Data Protection, Apple chose to withdraw ADP from new UK users rather than weaken the…",
+      "urls": [
+        "https://macanorak.com/two-tier-encryption-in-the-uk/"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "headline": "A wormable XSS in build logs could have taken over Sourcehut accounts",
+      "summary": "A researcher found that ansi2html, the library builds.sr.ht uses to render ANSI codes in build logs as HTML, failed to sanitize OSC 8 hyperlink sequences, letting anyone inject JavaScript into logs via a patch or CI job and steal viewers'…",
+      "urls": [
+        "https://blog.arusekk.pl/posts/srht-account-takeover/"
+      ]
+    },
     {
       "date": "2026-09-23",
       "headline": "WordPress patches a critical unauthenticated path-traversal bug that can lead to RCE",

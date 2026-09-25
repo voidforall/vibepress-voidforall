@@ -1,0 +1,49 @@
+{
+  "id": "2026-09-25",
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T12:39:09Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Rocket Lab与铱星公司(Iridium)扫清了80亿美元并购案中股东投票这一最后内部障碍;Block为x402智能体支付协议加入比特币闪电网络支持;美国比特币现货ETF今年以来的资金流重返正值;金价周五虽小幅反弹,但在美联储加息预期升温下仍将录得周跌。",
+  "stories": [
+    {
+      "headline": "铱星公司股东批准Rocket Lab收购案",
+      "summary": "铱星公司(Iridium)股东投票通过了与Rocket Lab的合并协议,约99.6%的投票赞成,占有权投票的流通股约81%。铱星股东每股将获得27美元现金,外加按换股比例计算的Rocket Lab股票,名义价值为每股54美元,交易预计在获得剩余监管批准后于2027年年中完成。",
+      "whyItMatters": "此次投票扫清了Rocket Lab史上最大并购案的最后一个内部障碍,该交易将使其在发射业务之外,拥有自己的卫星星座和持续的连接业务收入。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Iridium Stockholders Approve Acquisition by Rocket Lab", "url": "https://www.prnewswire.com/news-releases/iridium-stockholders-approve-acquisition-by-rocket-lab-302889586.html" }
+      ]
+    },
+    {
+      "headline": "美国比特币ETF年内资金流回正,达8亿美元",
+      "summary": "美国上市的比特币现货ETF已于2026年重返资金净流入,在7月13日一度净流出达58亿美元的低点之后,目前年内净流入约8亿美元。相关基金已连续六天净流入,累计28.4亿美元,同期比特币价格回升至约8.5万美元。",
+      "whyItMatters": "这一反转显示机构需求在经历一段低迷期后正在回暖,但8亿美元的年内净流入仍远低于2024年的352亿美元和2025年的214亿美元。",
+      "category": "加密货币",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "Bitcoin ETFs have erased a $5.8 billion hole", "url": "https://www.coindesk.com/markets/2026/09/25/bitcoin-etfs-have-erased-a-usd5-8-billion-hole" }
+      ]
+    },
+    {
+      "headline": "Block为x402智能体支付协议加入比特币闪电网络支持",
+      "summary": "Block加入x402基金会,并为x402——一种允许AI智能体和网络服务自主支付API访问及数字服务费用的开放支付标准——增加了比特币闪电网络支持。Block由此与谷歌、微软、AWS、Coinbase及Solana基金会一同成为这一由Linux基金会主导项目的支持方,该项目过去30天报告完成7541万笔交易,交易量达2424万美元。",
+      "whyItMatters": "闪电网络的支持为x402的智能体间支付提供了一条低成本的比特币结算通道,是为自主AI商业活动搭建基础设施的具体一步。",
+      "category": "加密货币",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Block Brings Bitcoin Lightning Payments to x402", "url": "https://cointelegraph.com/news/block-brings-bitcoin-lightning-payments-to-x402-for-ai-agents" }
+      ]
+    },
+    {
+      "headline": "尽管周五反弹,金价仍将录得周跌",
+      "summary": "周五现货黄金上涨0.6%至每盎司4304.71美元,但当周仍下跌约1.7%,美债收益率上升及美联储加息预期升温对金价形成压力。交易员目前押注10月加息概率为71%,12月前加息概率为95%,此前美联储上周已加息25个基点。",
+      "whyItMatters": "不断上升的加息预期正抵消黄金一贯的避险买盘,使其即便当日现货价格上涨,仍将录得周线下跌。",
+      "category": "大宗商品",
+      "importance": 4,
+      "sourceLinks": [
+        { "title": "Gold rises, but is on track for weekly loss as Fed rate hike expectations build", "url": "https://rallies.ai/news/gold-rises-but-is-on-track-for-weekly-loss-as-fed-rate-hike-expectations-build-a4bc3701c79cbb80" }
+      ]
+    }
+  ]
+}
