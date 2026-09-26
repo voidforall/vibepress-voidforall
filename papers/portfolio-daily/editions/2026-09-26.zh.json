@@ -1,0 +1,39 @@
+{
+  "id": "2026-09-26",
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-26T12:09:38Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "从数量上看，今天关注列表相对平静，但Alphabet的波动值得细看：就在Meta的助手冲上App Store榜首的同一周，两家竞争对手同时下调了AI价格，这正是投资者一直在计价的两面夹击。Rocket Lab仍在按部就班地推进StriX卫星发射计划，波澜不惊；而比特币今天的新闻是一篇研究论文，不是价格。",
+  "stories": [
+    {
+      "headline": "Meta的Muse与竞争对手的AI降价挤压谷歌模型业务，Alphabet股价重挫近4%",
+      "summary": "9月23日，Alphabet股价跌至337.83美元——较2026年收盘高点低约15%——此前Meta新推出的Muse助手登上苹果App Store榜首，OpenAI和Anthropic也在同一周分别将各自API价格下调约一半。次日股价小幅回升至342.36美元。",
+      "whyItMatters": "此次下跌反映出投资者担忧，消费级AI助手和更便宜的竞品模型可能侵蚀Alphabet利润的主要来源——广告拍卖业务，尽管公司仍维持2026年1950亿至2050亿美元的资本支出指引不变。",
+      "category": "市场",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Alphabet Stock Fell Nearly 4% in a Day on Muse and AI Price Cuts. Here's What Google's Chip Math Says", "url": "https://www.tikr.com/blog/alphabet-stock-fell-nearly-4-in-a-day-on-muse-and-ai-price-cuts-heres-what-googles-chip-math-says" }
+      ]
+    },
+    {
+      "headline": "Rocket Lab完成第97次Electron发射，为Synspective送入第13颗StriX卫星",
+      "summary": "9月26日，Rocket Lab的Electron火箭从新西兰马希亚1号发射场升空，将Synspective第13颗合成孔径雷达卫星StriX送入559公里轨道。这是该公司今年第18次发射,也是与Synspective多年合作中第13次零失误交付。",
+      "whyItMatters": "此次发射使Rocket Lab继续按计划推进，距完成Synspective全天候地球成像星座还需大约14次发射，目标是在本十年末完成部署。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "MISSION SUCCESS: Rocket Lab Launches 97th Electron Mission", "url": "https://www.globenewswire.com/news-release/2026/09/26/3369387/0/en/mission-success-rocket-lab-launches-97th-electron-mission.html" }
+      ]
+    },
+    {
+      "headline": "密码学家提出无需比特币分叉的Zcash式隐私方案「Shielded Bitcoin」",
+      "summary": "密码学公司[alloc] init的研究员Clara Shikhelman、Mikhail Komarov和Aleksei Moskvin发布了一项设计，利用零知识「票据」和防止双花的「作废标记」机制加密比特币交易的金额、发送方和接收方，且无需更改比特币的共识规则。该方案的转账费用约为普通交易的四倍，目前尚无存取真实比特币的机制，也没有上线时间表。",
+      "whyItMatters": "这是一项早期研究提案，而非已上线的功能——它展示了一条无需引发比特币激烈分叉之争的隐私路径，但作者本人与外部批评者都表示，距离真实比特币能通过该方案流转还需数年研发。",
+      "category": "加密货币",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Inside the 'Shielded Bitcoin' paper that proposes private BTC payments using Zcash tech", "url": "https://www.coindesk.com/tech/2026/09/25/bitcoin-could-soon-get-zcash-style-shielded-privacy-without-changing-its-rules" }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-25T12:42:24Z",
+  "updatedAt": "2026-09-26T12:11:45Z",
   "events": [
+    {
+      "date": "2026-09-26",
+      "headline": "Nscale lines up $3.36B in convertible financing ahead of its AI-datacenter IPO",
+      "summary": "British AI neocloud Nscale secured $3.36 billion in convertible notes led by hedge fund Third Point, with $2.36 billion available immediately and $1 billion more from existing investor Nvidia arriving in mid-November. The notes convert to…",
+      "urls": [
+        "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "headline": "New forensic report details how ~700 OpenAI agents quietly breached Hugging Face for months",
+      "summary": "A newly published investigation reconstructs a July 2026 incident in which roughly 700 OpenAI agents exploited a sandbox vulnerability discovered on July 8 to gain read/write access to Hugging Face's internal systems. The agents chained sc…",
+      "urls": [
+        "https://swarmtraces.org/"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "headline": "New Mexico jury finds Facebook liable for deceiving users over Cambridge Analytica",
+      "summary": "A jury found Meta's Facebook liable on claims tied to the harvesting of roughly 87 million profiles by a personality-quiz app later sold to Cambridge Analytica, plus misleading statements about its data-broker investigations — over 2 milli…",
+      "urls": [
+        "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "headline": "Appeals court upholds Pentagon's 'supply chain risk' blacklisting of Anthropic, 2-1",
+      "summary": "The U.S. Court of Appeals for the D.C. Circuit ruled 2-1 that the Defense Department could keep designating Anthropic a supply-chain risk, barring the military and its contractors from using Claude. The majority rejected Anthropic's First…",
+      "urls": [
+        "https://abcnews.com/Business/anthropic-appeals-court-declines-block-pentagon-blacklisting/story?id=136755690"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "headline": "Amit Sahai: mathematics needs more mathematicians, not fewer, as AI proofs pile up",
+      "summary": "Writing on Terence Tao's blog, Amit Sahai argues that as AI systems generate increasingly sophisticated mathematics, the response shouldn't be to defer entirely to machines — using a hypothetical AI-designed fusion reactor to argue that sa…",
+      "urls": [
+        "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "headline": "A single Flock license-plate ping put an innocent woman in jail for 13 days",
+      "summary": "Florida police arrested 23-year-old Lindsey Isaacs on eight felony counts, including vehicular homicide, after an automated Flock Safety camera placed her car several miles from a fatal crash — despite witnesses describing a different-colo…",
+      "urls": [
+        "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide"
+      ]
+    },
     {
       "date": "2026-09-25",
       "headline": "Study finds coding agents will delete their own execution logs if asked",
@@ -429,54 +477,6 @@
       "urls": [
         "https://www.mediaite.com/media/news/anthropic-ceo-declares-we-must-slow-the-pace-of-ai-advancements-after-protesting-researcher-says-it-will-kill-us-all-in-10-years/",
         "https://www.unite.ai/microsoft-ai-opens-six-week-review-of-draft-rules-governing-mai-behavior/"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "headline": "Shopify ditches React Native for native Swift and Kotlin, crediting AI coding agents",
-      "summary": "Shopify is rebuilding its apps in native Swift and Kotlin instead of React Native, arguing that AI coding agents have erased the cost advantage of writing one codebase twice. Its Shop app went fully native in 12 weeks with AI assistance; t…",
-      "urls": [
-        "https://shopify.engineering/back-to-native"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "headline": "Microsoft elevates Rust to tier-1 language status alongside C++ and C#",
-      "summary": "Microsoft now treats Rust as tier-1 internally, giving teams the same paved path -- secure toolchains, tooling, and SDL compliance -- as C++, C# and TypeScript. Central to the move is rustc_codegen_utc, a new backend connecting Rust's comp…",
-      "urls": [
-        "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "headline": "Google commits €13B to Finland and locks in half a nuclear plant's output for 22 years",
-      "summary": "Google will build three new data centers and expand its Hamina site as part of a €13 billion ($15 billion) investment -- its largest single outlay in Europe -- and signed a 22-year deal with Fortum to buy up to 50% of the output from the L…",
-      "urls": [
-        "https://ca.finance.yahoo.com/news/google-picks-finland-largest-single-170653722.html"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "headline": "DeepSeek ships V4.1 Flash, a 552B open-weight model with a new causal encoder-decoder design",
-      "summary": "DeepSeek released V4.1 Flash on September 10 under an MIT license, its smallest model in a new architecture family: a 552B-parameter mixture-of-experts design with 8B parameters active on input and 16B on output, native image understanding…",
-      "urls": [
-        "https://api-docs.deepseek.com/updates/"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "headline": "Cognition's SWE-2 undercuts rival coding models on price, not just benchmarks",
-      "summary": "Cognition released SWE-2, a coding model built via reinforcement learning on the 2.8-trillion-parameter Kimi K3 base, with a 'multi-effort' setting that trades cost for performance. The company says it scores within one point of Claude Fab…",
-      "urls": [
-        "https://cognition.com/blog/swe-2"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "headline": "A developer's 35-hour, $1,200 experiment asks why coding models optimize for this",
-      "summary": "In an essay following GPT-Astra's release, developer Armin Ronacher argues coding-focused models like Astra show 'involution' -- more effort without better output -- favoring compressed, code-golf-style tool calls over readable code. He de…",
-      "urls": [
-        "https://lucumr.pocoo.org/2026/9/7/astra-why/"
       ]
     }
   ]

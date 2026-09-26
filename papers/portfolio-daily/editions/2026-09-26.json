@@ -1,0 +1,39 @@
+{
+  "id": "2026-09-26",
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-26T12:09:38Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A quiet day for the watchlist by volume, but the Alphabet move is the one worth sitting with: two rivals cutting AI prices in the same week Meta's assistant broke into the App Store top spot is exactly the pincer investors have been pricing in. Rocket Lab keeps grinding through its StriX manifest without drama, and Bitcoin's news today is a research paper, not a price.",
+  "stories": [
+    {
+      "headline": "Alphabet slides nearly 4% as Meta's Muse and rival AI price cuts squeeze Google's model business",
+      "summary": "Alphabet shares fell to $337.83 on September 23 — about 15% below their 2026 closing high — after Meta's new Muse assistant reached the top of Apple's App Store and OpenAI and Anthropic each cut their API prices roughly in half within the same week. Shares recovered slightly to $342.36 the following day.",
+      "whyItMatters": "The drop reflects investor concern that consumer AI agents and cheaper rival models could erode the ad-auction business that generates most of Alphabet's operating profit, even as the company holds its 2026 capex guidance at $195-205 billion.",
+      "category": "Markets",
+      "importance": 1,
+      "sourceLinks": [
+        { "title": "Alphabet Stock Fell Nearly 4% in a Day on Muse and AI Price Cuts. Here's What Google's Chip Math Says", "url": "https://www.tikr.com/blog/alphabet-stock-fell-nearly-4-in-a-day-on-muse-and-ai-price-cuts-heres-what-googles-chip-math-says" }
+      ]
+    },
+    {
+      "headline": "Rocket Lab launches its 97th Electron mission, delivering Synspective's 13th StriX satellite",
+      "summary": "Rocket Lab's Electron rocket lifted off from Launch Complex 1 in Mahia, New Zealand on September 26, placing Synspective's 13th StriX synthetic-aperture-radar satellite into a 559km orbit. It was the company's 18th launch of the year and its 13th flawless StriX delivery in a multi-year partnership with Synspective.",
+      "whyItMatters": "The mission keeps Rocket Lab on schedule for the roughly 14 remaining launches needed to complete Synspective's all-weather Earth-imaging constellation by the end of the decade.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        { "title": "MISSION SUCCESS: Rocket Lab Launches 97th Electron Mission", "url": "https://www.globenewswire.com/news-release/2026/09/26/3369387/0/en/mission-success-rocket-lab-launches-97th-electron-mission.html" }
+      ]
+    },
+    {
+      "headline": "Cryptographers propose 'Shielded Bitcoin,' a Zcash-style privacy layer that needs no Bitcoin fork",
+      "summary": "Researchers Clara Shikhelman, Mikhail Komarov and Aleksei Moskvin of cryptography firm [alloc] init published a design that would encrypt Bitcoin transaction amounts, senders and recipients using zero-knowledge 'notes' and a double-spend-blocking nullifier, without changing Bitcoin's consensus rules. Transfer fees under the scheme run about four times higher than standard transactions, and there is no mechanism yet for depositing or withdrawing real bitcoin, nor a launch date.",
+      "whyItMatters": "It's an early research proposal, not a shipped feature — a possible path to Bitcoin privacy that avoids a contentious soft fork, but one the authors and outside critics both say needs years more work before real BTC could move through it.",
+      "category": "Crypto",
+      "importance": 3,
+      "sourceLinks": [
+        { "title": "Inside the 'Shielded Bitcoin' paper that proposes private BTC payments using Zcash tech", "url": "https://www.coindesk.com/tech/2026/09/25/bitcoin-could-soon-get-zcash-style-shielded-privacy-without-changing-its-rules" }
+      ]
+    }
+  ]
+}

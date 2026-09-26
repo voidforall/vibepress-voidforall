@@ -1,7 +1,31 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-25T12:42:24Z",
+  "updatedAt": "2026-09-26T12:11:45Z",
   "events": [
+    {
+      "date": "2026-09-26",
+      "headline": "Rocket Lab launches its 97th Electron mission, delivering Synspective's 13th StriX satellite",
+      "summary": "Rocket Lab's Electron rocket lifted off from Launch Complex 1 in Mahia, New Zealand on September 26, placing Synspective's 13th StriX synthetic-aperture-radar satellite into a 559km orbit. It was the company's 18th launch of the year and i…",
+      "urls": [
+        "https://www.globenewswire.com/news-release/2026/09/26/3369387/0/en/mission-success-rocket-lab-launches-97th-electron-mission.html"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "headline": "Cryptographers propose 'Shielded Bitcoin,' a Zcash-style privacy layer that needs no Bitcoin fork",
+      "summary": "Researchers Clara Shikhelman, Mikhail Komarov and Aleksei Moskvin of cryptography firm [alloc] init published a design that would encrypt Bitcoin transaction amounts, senders and recipients using zero-knowledge 'notes' and a double-spend-b…",
+      "urls": [
+        "https://www.coindesk.com/tech/2026/09/25/bitcoin-could-soon-get-zcash-style-shielded-privacy-without-changing-its-rules"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "headline": "Alphabet slides nearly 4% as Meta's Muse and rival AI price cuts squeeze Google's model business",
+      "summary": "Alphabet shares fell to $337.83 on September 23 — about 15% below their 2026 closing high — after Meta's new Muse assistant reached the top of Apple's App Store and OpenAI and Anthropic each cut their API prices roughly in half within the…",
+      "urls": [
+        "https://www.tikr.com/blog/alphabet-stock-fell-nearly-4-in-a-day-on-muse-and-ai-price-cuts-heres-what-googles-chip-math-says"
+      ]
+    },
     {
       "date": "2026-09-25",
       "headline": "US bitcoin ETFs claw back to $800 million in net inflows for the year",
@@ -309,73 +333,6 @@
       "summary": "Alphabet and Meta shares rose Monday even as parts of the broader AI trade came under pressure, with commentary framing the two as beneficiaries if frontier labs like OpenAI and Anthropic deliberately slow capability releases for safety re…",
       "urls": [
         "https://www.techbooky.com/google-meta-gain-ai-slowdown-catch-up/"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "headline": "US agencies name Alibaba in a joint advisory on AI-model distillation",
-      "summary": "The NSA, CISA and FBI issued a joint advisory on September 8 accusing six China-based AI developers -- Alibaba, DeepSeek, Moonshot AI, MiniMax, StepFun and Z.AI -- of running industrial-scale distillation campaigns against US frontier mode…",
-      "urls": [
-        "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
-        "https://ca.finance.yahoo.com/news/alibaba-drops-washington-turns-ai-184335216.html"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "headline": "Singapore-born hacker pleads guilty in $240 million bitcoin theft",
-      "summary": "Malone Lam, 22, pleaded guilty Tuesday to a federal racketeering conspiracy charge for orchestrating the theft of over 4,100 bitcoin -- about $245 million at the time -- from a Washington, D.C. resident in August 2024, using social-enginee…",
-      "urls": [
-        "https://www.nbcnews.com/news/us-news/singapore-man-us-pleads-guilty-orchestrating-240-million-bitcoin-theft-rcna596761"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "headline": "Rocket Lab completes its 16th Electron launch of the year",
-      "summary": "Rocket Lab's \"Happily Ever Faster\" mission lifted off from Launch Complex 1 in New Zealand, deploying a single Earth-observation satellite to a 500km orbit for a confidential customer. It was the company's 95th Electron launch overall and…",
-      "urls": [
-        "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-successfully-launches-16th-electron-mission-year"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "headline": "Gold heads for a third straight weekly decline ahead of today's CPI report",
-      "summary": "Spot gold traded near $4,328 an ounce, up slightly on the day but on track to lose about 2% this week -- its third consecutive weekly decline -- after Thursday's hotter-than-expected August producer-price data lifted Fed rate-hike bets. Ma…",
-      "urls": [
-        "https://tradingeconomics.com/commodity/gold",
-        "https://www.fxstreet.com/news/gold-eyes-4-300-break-as-usd-sticks-to-gains-amid-fed-hike-bets-ahead-of-us-cpi-202609110345"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "headline": "Fanuc shares hit a record high on a new Google-powered welding AI",
-      "summary": "Fanuc and Google unveiled the 'AI Welding Agent,' which reads engineering drawings and auto-generates robotic arc-welding programs using Google Cloud's Gemini Enterprise platform, requiring \"zero setup and zero teaching.\" Fanuc shares jump…",
-      "urls": [
-        "https://www.fanuc.co.jp/en/profile/pr/newsrelease/2026/notice20260911.html",
-        "https://www.investing.com/news/stock-market-news/japans-fanuc-shares-hit-record-high-on-google-physical-ai-partnership-4687155"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "headline": "Duolingo shares rebound 4.3% after a two-day slide",
-      "summary": "Duolingo stock closed up 4.3% at $145.16 on Thursday, recovering part of a prior slide. Second-quarter daily active users rose 23% year-over-year, but bookings -- the metric closer to near-term demand -- grew only 8%, a gap that's central…",
-      "urls": [
-        "https://ts2.tech/en/duolingo-stock-rebounds-4-3-why-23-user-growth-isnt-the-key-number/"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "headline": "Bitcoin falls below $77,000 as hot producer prices lift Fed rate-hike odds",
-      "summary": "Bitcoin dropped nearly 2% to just under $77,000 -- a weekly loss of more than 5% -- after August producer prices rose 5.4% year-over-year, above the 5.1% forecast, pushing 30-year Treasury yields to a 19-year high. Odds of a Fed rate hike…",
-      "urls": [
-        "https://www.coindesk.com/markets/2026/09/11/bitcoin-below-usd77-000-zcash-leads-losses-as-traders-bet-on-a-fed-rate-hike"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "headline": "Alphabet cracks Berkshire Hathaway's top five holdings",
-      "summary": "Berkshire Hathaway added 24.5 million Alphabet shares last quarter, a 45% increase, lifting its stake to roughly 79 million shares worth about $28.2 billion -- its fourth-largest holding at 9.41% of the portfolio. Berkshire only began buyi…",
-      "urls": [
-        "https://www.fool.com/investing/2026/09/11/berkshire-hathaway-has-a-new-top-holding-and-it-do/"
       ]
     }
   ]

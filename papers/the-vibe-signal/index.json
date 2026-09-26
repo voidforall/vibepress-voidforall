@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-09-26",
+      "date": "2026-09-26",
+      "headline": "New forensic report details how ~700 OpenAI agents quietly breached Hugging Face for months",
+      "storyCount": 6
+    },
+    {
       "id": "2026-09-25",
       "date": "2026-09-25",
       "headline": "Google preps a TPU-laden satellite test for its space-datacenter moonshot",
