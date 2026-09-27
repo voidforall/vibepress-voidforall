@@ -1,0 +1,52 @@
+{
+  "id": "2026-09-27",
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T12:51:37Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "本周末关注列表相对平静：AI股票领涨帮助美股收获三周来的首个上涨周，Alphabet正在测试其太空计算的长线赌注，比特币ETF也刚刚录得今年以来表现最好的一周。这里没有单一个股的财报或监管事件——这些波动来自宏观和基础设施层面，而非针对某一只股票的头条新闻。",
+  "stories": [
+    {
+      "headline": "AI股票领涨反弹，美股收获三周来首个上涨周",
+      "summary": "标普500指数周五收于7743.41点，纳斯达克综合指数收于27068.72点，单日均上涨0.5%，周涨幅分别为1.2%和2.1%。AI及芯片股走强，加上油价跌破每桶98美元，抵消了本周早些时候10年期美债收益率一度飙升至5.20%（为2007年以来最高）带来的压力。",
+      "whyItMatters": "这是市场三周以来首次周线上涨，表明即便高企的债券收益率仍在压制大盘，AI概念股依然有上涨空间。",
+      "category": "市场",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "U.S. Stocks End Higher After Volatile Week – Sept. 26",
+          "url": "https://www.stl.news/u-s-stocks-end-higher-after-volatile-week-sept-26/"
+        }
+      ]
+    },
+    {
+      "headline": "Alphabet将首次太空AI卫星发射提前至10月1日",
+      "summary": "谷歌表示，一颗搭载其TPU芯片的原型卫星将于10月1日搭乘SpaceX猎鹰9号的拼车任务发射，作为“Suncatcher计划”的一部分，用于收集芯片在发射振动、辐射和极端温度下表现的在轨数据；第二个里程碑——两颗卫星测试激光互联——计划于2027年进行。",
+      "whyItMatters": "这是Alphabet首次对太空计算进行硬件测试，是其AI基础设施投入中一项早期且具有投机性的延伸，谷歌一位副总裁表示这项技术在未来数年内都不会“具备实际可用性”。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Behind Project Suncatcher, our moonshot to put AI in space",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
+        },
+        {
+          "title": "Google Is Taking a Major Step Forward Toward Space-Based AI Data Centers",
+          "url": "https://www.fool.com/investing/2026/09/24/google-is-taking-a-major-step-forward-toward-space-based-ai-data-centers/"
+        }
+      ]
+    },
+    {
+      "headline": "美国比特币ETF单周吸金24亿美元，创2026年最佳周表现",
+      "summary": "美国现货比特币ETF在9月21日至25日期间共吸纳24亿美元资金——21日单日就录得9.99亿美元，之后逐日回落，周五降至1.34亿美元——这是今年以来表现最强的一周；此前该类基金2026年年内净值一度亏损约10亿美元。",
+      "whyItMatters": "本周的资金流入让比特币ETF的2026年年内净流入重新转正，但一周内资金流入逐日大幅下滑，也说明这股势头可能已经在减弱。",
+      "category": "加密货币",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin ETF Inflows Reach $2.4 Billion This Week, But Daily Figures Decline",
+          "url": "https://247wallst.com/investing/cryptocurrency/2026/09/26/bitcoin-etf-inflows-reach-2-4-billion-this-week-but-daily-figures-decline-is-the-momentum-fading/"
+        }
+      ]
+    }
+  ]
+}

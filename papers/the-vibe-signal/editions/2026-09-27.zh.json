@@ -1,0 +1,74 @@
+{
+  "id": "2026-09-27",
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T12:51:37Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天的主线是谁掌控着管道：解封文件显示OpenAI明知图书抓取违法却仍然为之并加以掩盖，ASML表示欧洲本土芯片厂商甚至都不购买它的设备，Meta在选举前11天在没有任何解释的情况下让一位在任总统的竞选活动噤声。DeepSeek的沙箱论文提醒我们，在所有智能体热潮背后，还有一套并不光鲜的基础设施；而一位Haskell程序员则给出了坚持亲自动手写代码的理由。",
+  "stories": [
+    {
+      "headline": "解封文件：OpenAI高管明知图书盗版违法仍加以利用",
+      "summary": "作家协会（Authors Guild）于9月21日公开的解封诉状显示，OpenAI曾使用LibGen上的盗版图书训练GPT-3——包括比尔·盖茨和凯文·斯科特在内的微软高管早在2019年4月就已知情——OpenAI还在2022年夏天通过内部代号“Project Clear”的行动删除了其LibGen文件，此前内部曾讨论过销毁证据。一名研究员当时曾担心使用“来自某个可疑俄罗斯网站的受版权保护数据”会带来“观感”问题。",
+      "whyItMatters": "这些文件把一场版权纠纷变成了明知故犯的问题，使得目前正走向2027年初开庭审理的诉讼中，OpenAI和微软面临的风险进一步升高。",
+      "category": "商业",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "AG v. OpenAI: Top Execs Knew Mass Book Piracy Was Illegal",
+          "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/"
+        }
+      ]
+    },
+    {
+      "headline": "ASML表示其2026年在欧洲“完全没有卖出任何设备”",
+      "summary": "荷兰光刻机巨头ASML高管Frank Heemskerk表示，公司2026年两个季度在欧洲的营收占比均降至0%，低于2025年的1%和2024年的5%，原因是欧洲没有在建设面向AI级先进芯片的晶圆厂——当地工厂大多生产不需要ASML设备的成熟制程汽车芯片。该公司呼吁欧盟协助创造需求，与此同时却将其2026年全球销售指引上调至430亿至450亿欧元。",
+      "whyItMatters": "这鲜明地表明，即便欧洲拥有这家全球其他厂商都依赖其设备的光刻机公司，欧洲自身在AI芯片竞赛中已明显掉队。",
+      "category": "商业",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
+          "url": "https://finance.yahoo.com/technology/articles/asml-says-sold-absolutely-nothing-121000703.html"
+        }
+      ]
+    },
+    {
+      "headline": "巴西大选前11天，Meta屏蔽卢拉总统的Facebook主页和广告账户",
+      "summary": "Meta于9月23日禁用了巴西总统卢拉的Facebook主页并限制了其竞选团队的广告账户，未向其所属的工人党给出任何解释；此前一周，国际特赦组织的一项测试发现，该平台批准了其提交的87%的AI生成虚假宣传广告。该主页随后被恢复，工人党已提出正式投诉，并考虑将此事上诉至巴西高等选举法院。",
+      "whyItMatters": "在临近投票的关键时刻，一家公司未加解释地对一位在任国家元首的竞选活动采取行动，凸显出平台的内容审核决定所能左右选举的分量有多大。",
+      "category": "商业",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Meta Blocks President Lula's Facebook Page and Campaign Ads",
+          "url": "https://www.panamericandispatch.org/p/meta-blocks-president-lulas-facebook"
+        }
+      ]
+    },
+    {
+      "headline": "DeepSeek披露DSec：每天支撑300万次智能体沙箱会话的平台",
+      "summary": "DeepSeek发表论文介绍其用于智能体AI训练的生产级沙箱平台DSec，该平台在约160个节点上协调FnCall、容器、microVM和完整虚拟机等多种后端，每天处理约300万个沙箱，同时运行的沙箱超过38万个，沙箱创建速度超过每秒5000个。",
+      "whyItMatters": "这难得地揭示了智能体AI训练要达到前沿实验室级别的规模，所依赖的并非模型架构，而是这类并不起眼的基础设施。",
+      "category": "科技",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "DeepSeek Elastic Compute (DSec)",
+          "url": "https://arxiv.org/abs/2609.22978"
+        }
+      ]
+    },
+    {
+      "headline": "一位Haskell程序员：在LLM时代，也要坚持亲自动手写代码",
+      "summary": "在Haskell社区论坛的一篇帖子中，程序员Turion主张开发者应当“一起做计划，但代码要自己写”——将LLM智能体用于规划、调研和低风险的清理工作，而把真正的实现部分留给自己。他称这种工作方式“大概快了一倍”，并警告说，过度接受LLM生成的产出“可能有损你的心理健康”。",
+      "whyItMatters": "相较于对LLM一味排斥或完全依赖，这提供了一种具体的折中方案：一套旨在保住技能与乐趣、而非单纯追求产出速度的工作方式。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "How to keep enjoying programming in a world of LLMs",
+          "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705"
+        }
+      ]
+    }
+  ]
+}

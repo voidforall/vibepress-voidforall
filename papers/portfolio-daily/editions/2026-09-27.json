@@ -1,0 +1,52 @@
+{
+  "id": "2026-09-27",
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T12:51:37Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A light weekend for the watchlist: a broad AI-led rally gave stocks their first winning week in three, Alphabet is testing its long-shot bet on computing from orbit, and bitcoin ETFs just posted their best week of the year. Nothing here is a single-name earnings or regulatory event — the moves are macro and infrastructure, not headlines about one ticker.",
+  "stories": [
+    {
+      "headline": "Wall Street posts its first winning week in three as AI stocks lead a rebound",
+      "summary": "The S&P 500 closed Friday at 7,743.41 and the Nasdaq Composite at 27,068.72, each up 0.5% on the day and 1.2% and 2.1% for the week, as gains in AI and chip stocks and a pullback in oil below $98/barrel offset a Treasury-yield spike to 5.20% — its highest since 2007 — earlier in the week.",
+      "whyItMatters": "It's the market's first weekly gain in three, showing AI-linked names still have room to rally even as elevated bond yields keep pressuring the broader tape.",
+      "category": "Markets",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "U.S. Stocks End Higher After Volatile Week – Sept. 26",
+          "url": "https://www.stl.news/u-s-stocks-end-higher-after-volatile-week-sept-26/"
+        }
+      ]
+    },
+    {
+      "headline": "Alphabet moves up its first orbital AI-satellite launch to October 1",
+      "summary": "Google says a prototype satellite carrying its TPU chips will launch October 1 aboard a SpaceX Falcon 9 rideshare mission for Project Suncatcher, gathering in-orbit data on how the chips handle launch vibration, radiation and thermal extremes; a second milestone pairing two satellites to test laser interconnects is planned for 2027.",
+      "whyItMatters": "It's Alphabet's first hardware test of computing from orbit, an early and speculative extension of its AI infrastructure spending that a Google VP says won't be \"usefully operational\" for years.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Behind Project Suncatcher, our moonshot to put AI in space",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
+        },
+        {
+          "title": "Google Is Taking a Major Step Forward Toward Space-Based AI Data Centers",
+          "url": "https://www.fool.com/investing/2026/09/24/google-is-taking-a-major-step-forward-toward-space-based-ai-data-centers/"
+        }
+      ]
+    },
+    {
+      "headline": "US bitcoin ETFs pull in $2.4 billion in their best week of 2026",
+      "summary": "US spot bitcoin ETFs took in a combined $2.4 billion between September 21 and 25 — led by a $999 million single-day haul on the 21st that tapered to $134 million by Friday — their strongest week of the year, after entering the week roughly $1 billion in the red for 2026.",
+      "whyItMatters": "The week's inflows pushed 2026 year-to-date bitcoin ETF flows back into positive territory, though the sharp daily decline through the week suggests the momentum may already be cooling.",
+      "category": "Crypto",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin ETF Inflows Reach $2.4 Billion This Week, But Daily Figures Decline",
+          "url": "https://247wallst.com/investing/cryptocurrency/2026/09/26/bitcoin-etf-inflows-reach-2-4-billion-this-week-but-daily-figures-decline-is-the-momentum-fading/"
+        }
+      ]
+    }
+  ]
+}

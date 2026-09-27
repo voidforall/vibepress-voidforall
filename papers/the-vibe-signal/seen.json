@@ -1,7 +1,47 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-26T12:11:45Z",
+  "updatedAt": "2026-09-27T12:54:02Z",
   "events": [
+    {
+      "date": "2026-09-27",
+      "headline": "Unsealed filings: OpenAI executives knew book piracy was illegal and used it anyway",
+      "summary": "The Authors Guild released unsealed briefs on September 21 showing OpenAI trained GPT-3 on pirated books from LibGen — known to Microsoft executives, including Bill Gates and Kevin Scott, by April 2019 — and that OpenAI deleted its LibGen…",
+      "urls": [
+        "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "headline": "Meta blocks President Lula's Facebook page and ad account 11 days before Brazil's election",
+      "summary": "Meta disabled Brazilian President Lula's Facebook page and restricted his campaign's ad account on September 23, giving his Workers' Party no explanation, a week after an Amnesty International test found the platform approved 87% of AI-gen…",
+      "urls": [
+        "https://www.panamericandispatch.org/p/meta-blocks-president-lulas-facebook"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "headline": "DeepSeek details DSec, the sandbox platform running 3 million agent sessions a day",
+      "summary": "DeepSeek published a paper on DSec, its production sandbox platform for agentic AI training, which coordinates FnCall, container, microVM and full-VM backends across roughly 160 nodes to handle about 3 million sandboxes daily, more than 38…",
+      "urls": [
+        "https://arxiv.org/abs/2609.22978"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "headline": "ASML says it sold \"absolutely nothing\" in Europe in 2026",
+      "summary": "ASML executive Frank Heemskerk says the Dutch lithography maker's European revenue share fell to 0% in both quarters of 2026, down from 1% in 2025 and 5% in 2024, because no European fabs are being built for advanced, AI-grade chips — the…",
+      "urls": [
+        "https://finance.yahoo.com/technology/articles/asml-says-sold-absolutely-nothing-121000703.html"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "headline": "A Haskell programmer's case for keeping your hands on the keyboard in the LLM era",
+      "summary": "In a Haskell community discourse post, programmer Turion argues developers should \"plan together, but then you code\" — using LLM agents for planning, research and low-risk cleanup while reserving actual implementation for themselves, calli…",
+      "urls": [
+        "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705"
+      ]
+    },
     {
       "date": "2026-09-26",
       "headline": "Nscale lines up $3.36B in convertible financing ahead of its AI-datacenter IPO",

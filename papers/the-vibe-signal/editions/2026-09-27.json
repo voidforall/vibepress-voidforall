@@ -1,0 +1,74 @@
+{
+  "id": "2026-09-27",
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T12:51:37Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today's throughline is who controls the pipes: unsealed filings say OpenAI knew its book-scraping was illegal and hid it anyway, ASML says Europe's own chipmakers won't even buy its machines, and Meta silenced a sitting president's campaign eleven days before an election with no explanation. DeepSeek's sandbox paper is a reminder of the unglamorous infrastructure underneath all the agent hype — and one Haskell programmer's case for keeping your hands on the keyboard.",
+  "stories": [
+    {
+      "headline": "Unsealed filings: OpenAI executives knew book piracy was illegal and used it anyway",
+      "summary": "The Authors Guild released unsealed briefs on September 21 showing OpenAI trained GPT-3 on pirated books from LibGen — known to Microsoft executives, including Bill Gates and Kevin Scott, by April 2019 — and that OpenAI deleted its LibGen files under an internal \"Project Clear\" in summer 2022 after discussing removing the evidence. One researcher had worried about the \"optics\" of using \"copyrighted data from sketchy russian website.\"",
+      "whyItMatters": "The filings turn a copyright dispute into a question of knowing concealment, raising the stakes for OpenAI and Microsoft in litigation now headed toward a hearing in early 2027.",
+      "category": "Business",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "AG v. OpenAI: Top Execs Knew Mass Book Piracy Was Illegal",
+          "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/"
+        }
+      ]
+    },
+    {
+      "headline": "ASML says it sold \"absolutely nothing\" in Europe in 2026",
+      "summary": "ASML executive Frank Heemskerk says the Dutch lithography maker's European revenue share fell to 0% in both quarters of 2026, down from 1% in 2025 and 5% in 2024, because no European fabs are being built for advanced, AI-grade chips — the continent's plants mostly make mature-node automotive chips that don't need ASML's machines. The company is calling on the EU to help create demand even as it raises its global 2026 sales guidance to €43-45 billion.",
+      "whyItMatters": "It's a stark marker of how far Europe has fallen behind in the AI chip race even while hosting the one company that makes the machines everyone else depends on.",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
+          "url": "https://finance.yahoo.com/technology/articles/asml-says-sold-absolutely-nothing-121000703.html"
+        }
+      ]
+    },
+    {
+      "headline": "Meta blocks President Lula's Facebook page and ad account 11 days before Brazil's election",
+      "summary": "Meta disabled Brazilian President Lula's Facebook page and restricted his campaign's ad account on September 23, giving his Workers' Party no explanation, a week after an Amnesty International test found the platform approved 87% of AI-generated disinformation ads it submitted. The page was later restored; the party has filed a formal complaint and is weighing escalation to Brazil's Superior Electoral Court.",
+      "whyItMatters": "An unexplained platform action against a head of state's campaign this close to a vote shows how much electoral leverage a single company's moderation call can carry.",
+      "category": "Business",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Meta Blocks President Lula's Facebook Page and Campaign Ads",
+          "url": "https://www.panamericandispatch.org/p/meta-blocks-president-lulas-facebook"
+        }
+      ]
+    },
+    {
+      "headline": "DeepSeek details DSec, the sandbox platform running 3 million agent sessions a day",
+      "summary": "DeepSeek published a paper on DSec, its production sandbox platform for agentic AI training, which coordinates FnCall, container, microVM and full-VM backends across roughly 160 nodes to handle about 3 million sandboxes daily, more than 380,000 running concurrently, and over 5,000 sandbox creations per second.",
+      "whyItMatters": "It's a rare look at the unglamorous infrastructure — not model architecture — that has to scale before agentic AI training can run at frontier-lab volume.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "DeepSeek Elastic Compute (DSec)",
+          "url": "https://arxiv.org/abs/2609.22978"
+        }
+      ]
+    },
+    {
+      "headline": "A Haskell programmer's case for keeping your hands on the keyboard in the LLM era",
+      "summary": "In a Haskell community discourse post, programmer Turion argues developers should \"plan together, but then you code\" — using LLM agents for planning, research and low-risk cleanup while reserving actual implementation for themselves, calling that workflow \"maybe twice as fast\" and warning that consuming heavy LLM-generated output is \"potentially harmful for your psychic health.\"",
+      "whyItMatters": "It's a concrete alternative to both LLM-skepticism and full delegation: a workflow built to keep skill and enjoyment intact rather than optimize purely for output speed.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "How to keep enjoying programming in a world of LLMs",
+          "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705"
+        }
+      ]
+    }
+  ]
+}
