@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-09-29",
+      "date": "2026-09-29",
+      "headline": "Gold opens at its lowest level since August 5 as rate-hike bets and Treasury yields weigh",
+      "storyCount": 4
+    },
+    {
       "id": "2026-09-27",
       "date": "2026-09-27",
       "headline": "Wall Street posts its first winning week in three as AI stocks lead a rebound",

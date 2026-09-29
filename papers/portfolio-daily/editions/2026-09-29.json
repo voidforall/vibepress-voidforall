@@ -1,0 +1,65 @@
+{
+  "id": "2026-09-29",
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T13:44:53Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Gold's slide to a two-month low and bitcoin's steadier footing set the tone, while Alibaba's chip access and a Duolingo selloff supplied the company-specific moves. Two of the four items are reports of intent or on-chain movement rather than completed transactions.",
+  "stories": [
+    {
+      "headline": "Gold opens at its lowest level since August 5 as rate-hike bets and Treasury yields weigh",
+      "summary": "December gold futures opened at $4,150.10 an ounce, touching $4,180.70 in early trading, and are down 5.3% on the week and 10.9% on the month. Markets are pricing at least one more Fed hike, possibly two, before year-end, while Brent crude eased to $97.51 from above $101.",
+      "whyItMatters": "Gold is now well below the levels this paper reported near $4,350 a week ago, as higher yields raise the opportunity cost of holding it.",
+      "category": "Commodities",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Gold price today, Tuesday, September 29, 2026 (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-september-29-2026-gold-opens-near-2-month-low-but-brent-crude-also-moving-lower-104439751.html"
+        }
+      ]
+    },
+    {
+      "headline": "Beijing signals it intends to let Alibaba and ByteDance buy Nvidia's RTX Pro 5500",
+      "summary": "China's industry ministry has asked Alibaba and ByteDance how many RTX Pro 5500 units they want and how they would be used, and told some companies it 'intends to approve' the purchases. Timing, volumes and conditions are unclear and no orders have been confirmed.",
+      "whyItMatters": "If approved, it would widen the Nvidia chip supply available to Alibaba Cloud alongside its own Zhenwu V900 chip, as part of a committed RMB 380 billion three-year AI and cloud build-out.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Alibaba (NYSE:BABA) Nears Approval For RTX PRO 5500 Chip Purchases In China (Simply Wall St. via Yahoo Finance)",
+          "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-nyse-baba-nears-approval-020934628.html"
+        },
+        {
+          "title": "China Signals It Will Approve Nvidia RTX Pro 5500 Purchases (Implicator)",
+          "url": "https://www.implicator.ai/china-signals-approval-for-bytedance-alibaba-purchases-of-nvidia-rtx-pro-5500/"
+        }
+      ]
+    },
+    {
+      "headline": "Strategy's 3,568-bitcoin transfer was a custody reshuffle, not a sale, on-chain analysts say",
+      "summary": "About 3,568 BTC (roughly $297 million) moved from Strategy-linked wallets in 12 transactions over nine hours. Arkham Intelligence said the coins stayed within Fidelity's custody and never reached exchange deposit addresses; Strategy had bought 1,665 BTC for $142.7 million during September 21–27.",
+      "whyItMatters": "Strategy has made four bitcoin sales this year totaling about $218.4 million, so wallet movements draw scrutiny; this one is attributed to internal custody address changes. Bitcoin traded near $83,800.",
+      "category": "Crypto",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Strategy Moved 3,568 Bitcoin Worth $297 Million. Is Michael Saylor Selling Again? (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-moved-3-568-bitcoin-123017598.html"
+        }
+      ]
+    },
+    {
+      "headline": "Duolingo shares fall 6.4% to $134.30 as insider selling and valuation worries linger",
+      "summary": "Duolingo fell 6.4% to $134.30 on September 28, down about 59% over the past year against a 52-week range of $87.89 to $353.00. Insiders sold $37.8 million of shares over 12 months while buying $0.5 million.",
+      "whyItMatters": "The stock sits well above its April low but far below its high, with growth (21% daily-user growth cited) weighed against AI-disruption concerns.",
+      "category": "Markets",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "A Look at Duolingo Inc (DUOL) After 6.4% Decline (GuruFocus)",
+          "url": "https://www.gurufocus.com/news/9100664/a-look-at-duolingo-inc-duol-after-64-decline-gf-value-40214-vs-price-13430"
+        }
+      ]
+    }
+  ]
+}

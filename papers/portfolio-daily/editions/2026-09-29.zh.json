@@ -1,0 +1,65 @@
+{
+  "id": "2026-09-29",
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T13:44:53Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "黄金滑落至两个月低点、比特币走势相对平稳构成了今日基调；阿里巴巴的芯片获取与多邻国的下跌则是个股层面的主要动向。四条消息中有两条属于意向或链上转移的报道，而非已完成的交易。",
+  "stories": [
+    {
+      "headline": "黄金开盘创8月5日以来最低，加息预期与美债收益率承压",
+      "summary": "12月黄金期货开盘报每盎司4,150.10美元，早盘触及4,180.70美元，本周下跌5.3%，本月下跌10.9%。市场预期年底前美联储至少再加息一次，甚至两次；布伦特原油从101美元上方回落至97.51美元。",
+      "whyItMatters": "黄金已明显低于本报一周前报道的约4,350美元水平，收益率上升抬高了持有黄金的机会成本。",
+      "category": "大宗商品",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Gold price today, Tuesday, September 29, 2026 (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-september-29-2026-gold-opens-near-2-month-low-but-brent-crude-also-moving-lower-104439751.html"
+        }
+      ]
+    },
+    {
+      "headline": "北京表示有意批准阿里巴巴和字节跳动采购英伟达RTX Pro 5500",
+      "summary": "中国工信部已要求阿里巴巴和字节跳动说明拟采购的RTX Pro 5500数量及用途，并向部分公司表示“有意批准”采购。时间、数量和条件尚不明确，也没有确认任何订单。",
+      "whyItMatters": "若获批，阿里云将在自研振武V900芯片之外获得更多英伟达芯片供应，这也是其承诺的三年3,800亿元人民币AI与云投入的一部分。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Alibaba (NYSE:BABA) Nears Approval For RTX PRO 5500 Chip Purchases In China (Simply Wall St. via Yahoo Finance)",
+          "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-nyse-baba-nears-approval-020934628.html"
+        },
+        {
+          "title": "China Signals It Will Approve Nvidia RTX Pro 5500 Purchases (Implicator)",
+          "url": "https://www.implicator.ai/china-signals-approval-for-bytedance-alibaba-purchases-of-nvidia-rtx-pro-5500/"
+        }
+      ]
+    },
+    {
+      "headline": "链上分析：Strategy转移3,568枚比特币只是托管内部调整，并非出售",
+      "summary": "约3,568枚比特币（约2.97亿美元）在九小时内通过12笔交易从Strategy关联钱包转出。Arkham Intelligence表示这些币仍在富达托管体系内，从未进入交易所充值地址；Strategy在9月21日至27日期间以1.427亿美元买入了1,665枚比特币。",
+      "whyItMatters": "Strategy今年已有四次出售比特币，合计约2.184亿美元，因此钱包动向备受关注；本次被归因于内部托管地址调整。比特币交易价约为83,800美元。",
+      "category": "加密货币",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Strategy Moved 3,568 Bitcoin Worth $297 Million. Is Michael Saylor Selling Again? (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-moved-3-568-bitcoin-123017598.html"
+        }
+      ]
+    },
+    {
+      "headline": "多邻国股价下跌6.4%至134.30美元，内部人士减持与估值担忧持续",
+      "summary": "多邻国9月28日下跌6.4%至134.30美元，过去一年下跌约59%，52周区间为87.89至353.00美元。过去12个月内部人士卖出3,780万美元股票，买入50万美元。",
+      "whyItMatters": "股价明显高于4月低点但远低于高点，市场在21%的日活增长与AI冲击担忧之间权衡。",
+      "category": "市场",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "A Look at Duolingo Inc (DUOL) After 6.4% Decline (GuruFocus)",
+          "url": "https://www.gurufocus.com/news/9100664/a-look-at-duolingo-inc-duol-after-64-decline-gf-value-40214-vs-price-13430"
+        }
+      ]
+    }
+  ]
+}

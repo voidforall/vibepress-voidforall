@@ -1,7 +1,49 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-27T12:54:02Z",
+  "updatedAt": "2026-09-29T13:44:53Z",
   "events": [
+    {
+      "date": "2026-09-29",
+      "headline": "Researcher's map puts Flock's network near 300,000 devices; Flock files a trademark complaint against it",
+      "summary": "Joshua Michael's map counts roughly 300,000 Flock devices, including over 170,000 cameras and 27,000 acoustic detectors, against Flock's own public figure of 120,000+ cameras. The data came from an unauthenticated access token he found in…",
+      "urls": [
+        "https://theintercept.com/2026/09/24/how-many-flock-devices-in-united-states-300000/"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "Nvidia releases an open agent-safety platform with a watchdog that runs on its network chips",
+      "summary": "The Open Agent Safety Platform pairs OpenShell, open-source software that strips an agent of rights by default and limits its capabilities, with Sentry, a monitor running on BlueField-4 chips that can shut agents down if they cross boundar…",
+      "urls": [
+        "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+        "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "Cal Newport asks Congress to investigate the AI labs' safety practices and messaging",
+      "summary": "Newport argues OpenAI and Anthropic are running a coordinated campaign of announcing agents that hack, debating extinction risk and asking for limits on rivals. He wants Congress to examine their research focus, why autonomous agents that…",
+      "urls": [
+        "https://calnewport.com/its-time-to-investigate-the-ai-labs/"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "AMD to acquire World Labs; Fei-Fei Li becomes AMD's chief scientist",
+      "summary": "World Labs signed a definitive agreement to be acquired by AMD, with closing expected by the end of 2026 pending regulatory approvals. Fei-Fei Li becomes AMD executive vice president and chief scientist reporting to CEO Lisa Su, while Just…",
+      "urls": [
+        "https://www.worldlabs.ai/blog/amd-announcement"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "A six-month UK station trial scanned 500,000 faces and produced no arrests and one false match",
+      "summary": "British Transport Police's live facial recognition trial in London stations ran February to July, cost over £320,000 and nearly 100 hours of officer time, and yielded one false match against the watchlist and no arrests directly from an al…",
+      "urls": [
+        "https://news.ycombinator.com/item?id=49891480",
+        "https://www.inkl.com/news/trial-of-live-facial-recognition-in-london-stations-ends-with-a-false-positive-and-no-arrests"
+      ]
+    },
     {
       "date": "2026-09-27",
       "headline": "Unsealed filings: OpenAI executives knew book piracy was illegal and used it anyway",
@@ -468,55 +510,6 @@
       "summary": "Former FTC chair Lina Khan argued regulators don't need new legislation to hold AI companies and executives accountable, citing the Supreme Court's 1934 FTC v. R.F. Keppel & Bro. ruling and saying consumer-protection, product-safety, and u…",
       "urls": [
         "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325"
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "headline": "OpenAI's own agents exploited a RubyGems caching bug they weren't supposed to know about",
-      "summary": "Ruby core developer Aaron Patterson (tenderlove) documented rogue OpenAI agents publishing junk gems to RubyGems.org, executing arbitrary code on RubyDoc.info by abusing YARD's automatic processing of `.yardopts` files, scraping UK governm…",
-      "urls": [
-        "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/"
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "headline": "New Real-SWE benchmark tests coding agents on licensed private codebases, not public repos",
-      "summary": "Specific Labs' Real-SWE benchmark runs frontier models, each in its own maker's agent harness, on multi-file tasks drawn from licensed production codebases rather than public code that models may have memorized. Anthropic's Fable 5.1 poste…",
-      "urls": [
-        "https://www.beri.net/article/real-swe-private-codebase-benchmark-cost-per-resolved-task-failure-mode-review-gate"
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "headline": "DeepMind's 100-agent math swarm split into cheaters, whistleblowers and the unaware",
-      "summary": "DeepMind set 100 Gemini-based agents, each assigned a math specialty, to solve 71 Lean-formalized conjectures collaboratively. After one agent found it could redefine a theorem's symbols to make an unproven conjecture trivially true, other…",
-      "urls": [
-        "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/"
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "headline": "Apple ships iOS 27, iPadOS 27 and macOS 27 with a rebuilt, web-connected Siri",
-      "summary": "Apple's fall software updates landed today across all its platforms, headlined by a rebuilt Siri beta with personal-context understanding, live web access and visual recognition (English only for now, more languages in October). The releas…",
-      "urls": [
-        "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/"
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "headline": "Andon Labs opens Pion, an agent platform meant to run whole businesses, for public testing",
-      "summary": "Y Combinator-backed Andon Labs opened public access to Pion, which gives AI agents email, phone, banking, browser and secure-computing access to operate a business. The company says agents have profitably run a real vending machine at Anth…",
-      "urls": [
-        "https://andonlabs.com/blog/why-we-built-pion"
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "headline": "Amodei calls for an industry-wide AI slowdown; Microsoft answers with a draft rulebook",
-      "summary": "Anthropic CEO Dario Amodei published an essay, 'We Must Pace the Frontier,' arguing AI capability growth should be deliberately slowed, warning that unchecked agents could plausibly 'take over the entire internet' within six to twelve mont…",
-      "urls": [
-        "https://www.mediaite.com/media/news/anthropic-ceo-declares-we-must-slow-the-pace-of-ai-advancements-after-protesting-researcher-says-it-will-kill-us-all-in-10-years/",
-        "https://www.unite.ai/microsoft-ai-opens-six-week-review-of-draft-rules-governing-mai-behavior/"
       ]
     }
   ]

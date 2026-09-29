@@ -1,0 +1,82 @@
+{
+  "id": "2026-09-29",
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T13:44:53Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天的主题是“约束及其局限”：英伟达为智能体推出看门狗芯片；英国火车站试验显示了50万次人脸扫描能做与不能做的事；一位研究者绘制的地图揭示了Flock摄像头网络的规模；卡尔·纽波特则希望国会审视AI实验室。AMD收购World Labs是今天的交易新闻。",
+  "stories": [
+    {
+      "headline": "英伟达发布开放的智能体安全平台，看门狗运行在其网络芯片上",
+      "summary": "开放智能体安全平台由两部分组成：OpenShell是开源软件，默认收回智能体的全部权限并限制其能力；Sentry则是运行在BlueField-4芯片上的监控程序，可在智能体越界时将其关停。英伟达称包括Anthropic、微软和Palantir在内的100多家机构已采用。",
+      "whyItMatters": "它把智能体的约束从与其并行运行的软件转移到独立硬件上，直接回应了本月的失控智能体事件。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Nvidia Open Agent Safety Platform (CNBC)",
+          "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html"
+        },
+        {
+          "title": "Nvidia launches new platform for reining in rogue AI agents (TechCrunch)",
+          "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/"
+        }
+      ]
+    },
+    {
+      "headline": "AMD将收购World Labs，李飞飞出任AMD首席科学家",
+      "summary": "World Labs已签署被AMD收购的最终协议，预计2026年底前在监管批准后完成交割。李飞飞将出任AMD执行副总裁兼首席科学家，向CEO苏姿丰汇报；贾斯汀·约翰逊和本·米尔登霍尔继续领导团队。",
+      "whyItMatters": "两家公司此前已在AMD GPU上合作进行训练与推理优化；此次交易把合作关系变成了对一家空间智能实验室的所有权。",
+      "category": "商业",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "World Labs is Joining AMD",
+          "url": "https://www.worldlabs.ai/blog/amd-announcement"
+        }
+      ]
+    },
+    {
+      "headline": "英国车站为期六个月的试验扫描了50万张人脸，无一次逮捕，仅有一次误报",
+      "summary": "英国交通警察在伦敦车站开展的实时人脸识别试验从2月持续到7月，耗资超过32万英镑并占用近100小时警力，仅产生一次与关注名单的误匹配，没有任何一次逮捕直接源于系统警报。尽管如此，BTP仍将项目延长四个月，并纳入地铁站。",
+      "whyItMatters": "这是警方人脸扫描难得公布的误差与结果统计，而项目仍在扩大。",
+      "category": "观点",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "500k facial scans at UK stations yield no arrests, 1 false positive (Hacker News)",
+          "url": "https://news.ycombinator.com/item?id=49891480"
+        },
+        {
+          "title": "Trial of live facial recognition in London stations leads to a false positive and no arrests (inkl)",
+          "url": "https://www.inkl.com/news/trial-of-live-facial-recognition-in-london-stations-ends-with-a-false-positive-and-no-arrests"
+        }
+      ]
+    },
+    {
+      "headline": "研究者的地图显示Flock网络接近30万台设备，Flock随即提出商标投诉",
+      "summary": "乔舒亚·迈克尔的地图统计出约30万台Flock设备，其中包括17万多台摄像头和2.7万台声学探测器，而Flock自己公开的数字是12万多台摄像头。数据来自他在2025年11月发现的一个未经认证的访问令牌；Flock已提出商标投诉，要求下架该网站。",
+      "whyItMatters": "Flock今年1月称从未发生数据泄露，但这位研究者数月前就已访问到其设备数据库。",
+      "category": "技术",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "How many Flock devices are in the United States (The Intercept)",
+          "url": "https://theintercept.com/2026/09/24/how-many-flock-devices-in-united-states-300000/"
+        }
+      ]
+    },
+    {
+      "headline": "卡尔·纽波特呼吁国会调查AI实验室的安全做法与舆论宣传",
+      "summary": "纽波特认为OpenAI和Anthropic在协同开展一场宣传：宣布能入侵系统的智能体、公开讨论灭绝风险、并要求限制竞争对手。他希望国会审查其研究重点、为何入侵系统的自主智能体没有被立即叫停，以及末日信念是否成为鲁莽研究的借口。",
+      "whyItMatters": "这是观点而非调查结论，但它把近期的智能体入侵事件定性为应由监督机构处理，而不是依赖实验室自我披露。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "It's Time to Investigate the AI Labs (Cal Newport)",
+          "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/"
+        }
+      ]
+    }
+  ]
+}

@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-09-29",
+      "date": "2026-09-29",
+      "headline": "Nvidia releases an open agent-safety platform with a watchdog that runs on its network chips",
+      "storyCount": 5
+    },
+    {
       "id": "2026-09-27",
       "date": "2026-09-27",
       "headline": "Unsealed filings: OpenAI executives knew book piracy was illegal and used it anyway",

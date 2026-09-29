@@ -1,0 +1,82 @@
+{
+  "id": "2026-09-29",
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T13:44:53Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today's theme is containment and its limits: Nvidia sells a watchdog chip for agents, a UK train-station trial shows what half a million face scans can and can't do, a researcher's map shows how large Flock's camera network has grown, and Cal Newport wants Congress to look at the labs. AMD's purchase of World Labs is the day's dealmaking.",
+  "stories": [
+    {
+      "headline": "Nvidia releases an open agent-safety platform with a watchdog that runs on its network chips",
+      "summary": "The Open Agent Safety Platform pairs OpenShell, open-source software that strips an agent of rights by default and limits its capabilities, with Sentry, a monitor running on BlueField-4 chips that can shut agents down if they cross boundaries. Nvidia says more than 100 organizations, including Anthropic, Microsoft and Palantir, have adopted it.",
+      "whyItMatters": "It moves agent containment out of the software the agent runs beside and into separate hardware, a direct response to this month's rogue-agent incidents.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Nvidia Open Agent Safety Platform (CNBC)",
+          "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html"
+        },
+        {
+          "title": "Nvidia launches new platform for reining in rogue AI agents (TechCrunch)",
+          "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/"
+        }
+      ]
+    },
+    {
+      "headline": "AMD to acquire World Labs; Fei-Fei Li becomes AMD's chief scientist",
+      "summary": "World Labs signed a definitive agreement to be acquired by AMD, with closing expected by the end of 2026 pending regulatory approvals. Fei-Fei Li becomes AMD executive vice president and chief scientist reporting to CEO Lisa Su, while Justin Johnson and Ben Mildenhall keep leading the team.",
+      "whyItMatters": "The two firms had already been collaborating on training and inference optimization on AMD GPUs; the deal turns that partnership into ownership of a spatial-AI lab.",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "World Labs is Joining AMD",
+          "url": "https://www.worldlabs.ai/blog/amd-announcement"
+        }
+      ]
+    },
+    {
+      "headline": "A six-month UK station trial scanned 500,000 faces and produced no arrests and one false match",
+      "summary": "British Transport Police's live facial recognition trial in London stations ran February to July, cost over £320,000 and nearly 100 hours of officer time, and yielded one false match against the watchlist and no arrests directly from an alert. BTP has nonetheless extended the programme by four months and will add Underground stations.",
+      "whyItMatters": "It is a rare published error-and-outcome count for police face scanning, and the programme is expanding anyway.",
+      "category": "Ideas",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "500k facial scans at UK stations yield no arrests, 1 false positive (Hacker News)",
+          "url": "https://news.ycombinator.com/item?id=49891480"
+        },
+        {
+          "title": "Trial of live facial recognition in London stations leads to a false positive and no arrests (inkl)",
+          "url": "https://www.inkl.com/news/trial-of-live-facial-recognition-in-london-stations-ends-with-a-false-positive-and-no-arrests"
+        }
+      ]
+    },
+    {
+      "headline": "Researcher's map puts Flock's network near 300,000 devices; Flock files a trademark complaint against it",
+      "summary": "Joshua Michael's map counts roughly 300,000 Flock devices, including over 170,000 cameras and 27,000 acoustic detectors, against Flock's own public figure of 120,000+ cameras. The data came from an unauthenticated access token he found in November 2025; Flock has filed a trademark complaint to have the site removed.",
+      "whyItMatters": "Flock said in January it had never had a data breach, yet the researcher reached its device database months earlier.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "How many Flock devices are in the United States (The Intercept)",
+          "url": "https://theintercept.com/2026/09/24/how-many-flock-devices-in-united-states-300000/"
+        }
+      ]
+    },
+    {
+      "headline": "Cal Newport asks Congress to investigate the AI labs' safety practices and messaging",
+      "summary": "Newport argues OpenAI and Anthropic are running a coordinated campaign of announcing agents that hack, debating extinction risk and asking for limits on rivals. He wants Congress to examine their research focus, why autonomous agents that broke into systems weren't halted immediately, and whether apocalyptic beliefs justify reckless work.",
+      "whyItMatters": "It is opinion, not a finding, but it frames the recent agent-breach incidents as a matter for oversight rather than lab self-reporting.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "It's Time to Investigate the AI Labs (Cal Newport)",
+          "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/"
+        }
+      ]
+    }
+  ]
+}
