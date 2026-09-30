@@ -1,7 +1,39 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-29T13:44:53Z",
+  "updatedAt": "2026-09-30T13:21:21Z",
   "events": [
+    {
+      "date": "2026-09-30",
+      "headline": "Livenerf sets out to catch Opus 5.5 getting quietly worse after launch, and can't yet tell it from Opus 5",
+      "summary": "The open repo runs about 80 borderline questions from GPQA Diamond, MMLU-Pro and competition math daily against Opus 5.5, with a parallel Opus 5 as a control. It has logged 6 of 30 baseline days with no missed runs and no flagged change; i…",
+      "urls": [
+        "https://github.com/ninjahawk/livenerf"
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "headline": "Delhi cut electricity losses from over 50% to 5–6% while peak demand tripled",
+      "summary": "IEEE Spectrum credits the drop since 2002 to privatised distribution, digital and then smart meters, SCADA monitoring, capacitor banks and better cables, AI-based anomaly detection, and hiring women in low-income areas as bill collectors.…",
+      "urls": [
+        "https://spectrum.ieee.org/delhi-electricity-loss"
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "headline": "Bain: AI needs about $6 trillion in annual revenue by 2031 to justify the data-centre build-out",
+      "summary": "A Bain & Company report says AI infrastructure spending will reach $1.5 trillion a year by 2031, requiring $6 trillion in annual revenue, of which $4.2 trillion would come from new products and $1–1.4 trillion from enterprise productivity.…",
+      "urls": [
+        "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/"
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "headline": "Anthropic: Zhipu's open-weight GLM-5.3 can build working exploits, and its safeguards are easy to bypass",
+      "summary": "Anthropic reports GLM-5.3 produced working exploits in 50 of 410 ExploitBench attempts (12%) and 4% on its internal binary-exploitation test, where earlier models scored near zero. The model never refused outright, engaged 64% of the time…",
+      "urls": [
+        "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+      ]
+    },
     {
       "date": "2026-09-29",
       "headline": "Researcher's map puts Flock's network near 300,000 devices; Flock files a trademark complaint against it",
@@ -469,47 +501,6 @@
       "summary": "In an essay responding to a recent AI-assisted mathematical proof, developer Jay Kruer argues frontier LLMs still can't be trusted as autonomous replacements for most knowledge work: they need heavy oversight even on simple tasks, fail out…",
       "urls": [
         "https://dank.systems/posts/2026-09-15-ai-bear.html"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "headline": "XCancel shuts down again as its legal fight with X Corp continues",
-      "summary": "XCancel, a public instance of the open-source Nitter proxy for reading X without an account, suspended itself again, citing 'a new development in the ongoing legal proceedings' without elaborating further. X Corp first sent Nitter a cease-…",
-      "urls": [
-        "https://daringfireball.net/linked/2026/09/14/xcancel-shuts-down-again",
-        "https://www.notebookcheck.net/XCancel-gets-taken-down-as-X-Corp-sends-cease-and-desist-letter-to-Nitter.1378427.0.html"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "headline": "Ubuntu 26.10 finishes replacing GNU coreutils with memory-safe Rust versions",
-      "summary": "Ubuntu 26.10 completes the distribution's multi-release move to Rust-based coreutils, migrating the last three holdouts — cp, mv, and rm — after a Zellic security audit found and fixed a batch of time-of-check-to-time-of-use bugs that had…",
-      "urls": [
-        "https://www.omgubuntu.co.uk/2026/09/ubuntu-2610-rust-coreutils-complete"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "headline": "Oracle's AI-spending restructuring bill grows to $2.8B after 21,000 layoffs",
-      "summary": "Oracle raised its fiscal 2026 restructuring cost estimate by about $700 million to roughly $2.8 billion, having already booked $2.1 billion in severance and exit costs after cutting nearly 21,000 jobs — about 13% of its workforce — over th…",
-      "urls": [
-        "https://www.geo.tv/latest/682056-oracles-restructuring-tab-grows-to-28-billion-after-21000-layoffs"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "headline": "OpenAI asks Congress whether a coordinated AI slowdown would break antitrust law",
-      "summary": "OpenAI has approached members of Congress to ask whether labs jointly agreeing to slow frontier AI development for safety reasons could violate the Sherman Antitrust Act, following a September 6 blog post by chief scientist Jakub Pachocki…",
-      "urls": [
-        "https://decrypt.co/377990/openai-congress-ai-slowdown-legal"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "headline": "Lina Khan: no AI exemption — existing law already lets prosecutors charge AI CEOs",
-      "summary": "Former FTC chair Lina Khan argued regulators don't need new legislation to hold AI companies and executives accountable, citing the Supreme Court's 1934 FTC v. R.F. Keppel & Bro. ruling and saying consumer-protection, product-safety, and u…",
-      "urls": [
-        "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325"
       ]
     }
   ]

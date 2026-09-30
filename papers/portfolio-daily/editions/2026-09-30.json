@@ -1,0 +1,52 @@
+{
+  "id": "2026-09-30",
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T14:00:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Gold's September slide and a security breach at a major exchange frame the day, while bitcoin heads for a monthly gain. Two of the three items are market data; the third is a disclosure from Bitget that its own account of the attack is still being filled in.",
+  "stories": [
+    {
+      "headline": "Gold rebounds 1.4% to about $4,185 after Monday's 3.1% drop, but yields and the dollar cap the bounce",
+      "summary": "Gold rose 1.39% to US$4,184.97 an ounce on Tuesday after falling 3.12% on Monday; weak job-openings and consumer-confidence data cut the odds of an October Fed hike from 70.9% to about 51.5%. The 10-year yield held at 5.25% and the dollar index reached a two-month high of 101.37.",
+      "whyItMatters": "Gold regained only a fraction of Monday's losses, with high yields and a stronger dollar still weighing on it.",
+      "category": "Commodities",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Gold, silver, precious metals — Wednesday, September 30, 2026 (Rio Times)",
+          "url": "https://www.riotimesonline.com/gold-silver-precious-metals-wednesday-september-30-2026"
+        }
+      ]
+    },
+    {
+      "headline": "Bitget resumes withdrawals in phases after a $387.5 million hack it blames on North Korean actors",
+      "summary": "Bitget says $387.5 million was moved to attacker-controlled addresses across several blockchains on September 25, via a zero-day flaw in third-party security products, and its CEO attributes the attack to North Korean hackers. Bitcoin withdrawals are back, USDT is due September 30, and other tokens and fiat by October 2; a 5% recovery bounty is on offer.",
+      "whyItMatters": "The exchange says user balances are unaffected and its Protection Fund covers the loss, but the attribution and root cause are Bitget's and its investigators' claims.",
+      "category": "Crypto",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist (BleepingComputer)",
+          "url": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/"
+        },
+        {
+          "title": "Bitget hacked via zero-day in third-party security products (BleepingComputer)",
+          "url": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin sits near $83,800 as it heads for a September gain of about 7%, ending a 'Red September' pattern",
+      "summary": "Bitcoin traded at $83,767 and ether at $2,686.56 on the morning of September 30, up 6.9% and 8.9% for the month. Bitcoin has now finished September higher four years running, though it is still down 26.9% from a year ago.",
+      "whyItMatters": "September has closed in the red in eight of the last 13 years, and bitcoin remains well below its 2025 all-time high.",
+      "category": "Crypto",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin and ethereum prices today, Wednesday, September 30, 2026 (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-30-2026-red-september-a-thing-of-the-past-monthly-gains-holding-for-crypto-113317483.html"
+        }
+      ]
+    }
+  ]
+}

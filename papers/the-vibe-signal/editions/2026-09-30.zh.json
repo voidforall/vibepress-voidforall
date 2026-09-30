@@ -1,0 +1,61 @@
+{
+  "id": "2026-09-30",
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T14:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天有两条消息关乎衡量模型而非发布模型：Anthropic对一款开放权重模型网络攻击能力的评估，以及一位爱好者试图捕捉模型悄然退化的项目。贝恩的营收测算和德里的电网改造则让这一天以数据而非发布会为主。",
+  "stories": [
+    {
+      "headline": "Anthropic：智谱开放权重模型GLM-5.3能写出可用的漏洞利用代码，且安全防护易被绕过",
+      "summary": "Anthropic报告称，GLM-5.3在ExploitBench的410次尝试中有50次（12%）生成了可用的漏洞利用，在其内部二进制利用测试中成功率为4%，而此前的模型接近零。该模型从未直接拒绝；在虚假掩护说法下有64%的情况配合，在去除安全对齐（abliterated）的版本上为100%。",
+      "whyItMatters": "Anthropic认为，与其受限的Mythos Preview相当的网络攻击能力如今以更弱的防护形式出现，并呼吁政府开展测试、扩大防御方的使用权限。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "GLM-5.3 and the spread of advanced cyber capabilities (Anthropic)",
+          "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+        }
+      ]
+    },
+    {
+      "headline": "贝恩：到2031年AI每年需要约6万亿美元收入，才能证明数据中心投资合理",
+      "summary": "贝恩公司报告称，到2031年AI基础设施年支出将达1.5万亿美元，需要每年6万亿美元收入，其中4.2万亿来自新产品，1至1.4万亿来自企业生产力提升。报告称数据中心规模和成本每12至16个月翻一番；Meta在俄亥俄州的站点从2025年的600兆瓦、240亿美元，预计到2030年增至9吉瓦、2,000亿美元。",
+      "whyItMatters": "这只是一家咨询公司的估算，但它量化了当前支出速度所隐含的收入需求。",
+      "category": "商业",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "AI industry needs to earn $6 trillion by 2031 to justify data centres (The National)",
+          "url": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/"
+        }
+      ]
+    },
+    {
+      "headline": "Livenerf试图捕捉Opus 5.5发布后的悄然退化，但目前还无法区分它与Opus 5",
+      "summary": "这个开源项目每天用GPQA Diamond、MMLU-Pro和竞赛数学中约80道处于临界难度的题目测试Opus 5.5，并以并行运行的Opus 5作为对照。项目已记录30天基线期中的6天，无遗漏，也未标记任何变化；其自身验证在99%置信度下无法区分Opus 5与Opus 5.5。",
+      "whyItMatters": "第20天之后才会有结果，作者称该设计每10天窗口约可检测到7.5个百分点的准确率变化。",
+      "category": "技术",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "livenerf: Has Opus 5.5 been nerfed yet? (GitHub)",
+          "url": "https://github.com/ninjahawk/livenerf"
+        }
+      ]
+    },
+    {
+      "headline": "德里将电力损耗从50%以上降至5%至6%，同期峰值需求增长两倍",
+      "summary": "《IEEE Spectrum》将2002年以来的下降归功于配电私有化、数字及智能电表、SCADA监控、电容器组和更好的电缆、基于AI的异常检测，以及雇用低收入地区女性担任收费员。电网可靠性从约70%升至99.9%以上。",
+      "whyItMatters": "目前损耗率已可与法国和比利时相比，技术、计费和社会层面的组合措施是其他电力公司可借鉴之处。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "How Delhi cut electricity loss from 50 to 5 percent (IEEE Spectrum)",
+          "url": "https://spectrum.ieee.org/delhi-electricity-loss"
+        }
+      ]
+    }
+  ]
+}

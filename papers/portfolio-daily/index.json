@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-09-30",
+      "date": "2026-09-30",
+      "headline": "Gold rebounds 1.4% to about $4,185 after Monday's 3.1% drop, but yields and the dollar cap the bounce",
+      "storyCount": 3
+    },
+    {
       "id": "2026-09-29",
       "date": "2026-09-29",
       "headline": "Gold opens at its lowest level since August 5 as rate-hike bets and Treasury yields weigh",

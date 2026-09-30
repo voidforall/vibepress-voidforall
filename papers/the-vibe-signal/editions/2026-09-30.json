@@ -1,0 +1,61 @@
+{
+  "id": "2026-09-30",
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T14:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Two of today's items are about measuring models rather than shipping them: Anthropic's read on an open-weight model's cyber skills and a hobbyist's attempt to catch a quiet regression. Bain's revenue arithmetic and Delhi's grid round out a day of numbers over announcements.",
+  "stories": [
+    {
+      "headline": "Anthropic: Zhipu's open-weight GLM-5.3 can build working exploits, and its safeguards are easy to bypass",
+      "summary": "Anthropic reports GLM-5.3 produced working exploits in 50 of 410 ExploitBench attempts (12%) and 4% on its internal binary-exploitation test, where earlier models scored near zero. The model never refused outright, engaged 64% of the time with a false cover story and 100% with an abliterated version.",
+      "whyItMatters": "Anthropic argues cyber capability comparable to its restricted Mythos Preview is now available with weaker safeguards, and calls for government testing and wider defender access.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "GLM-5.3 and the spread of advanced cyber capabilities (Anthropic)",
+          "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+        }
+      ]
+    },
+    {
+      "headline": "Bain: AI needs about $6 trillion in annual revenue by 2031 to justify the data-centre build-out",
+      "summary": "A Bain & Company report says AI infrastructure spending will reach $1.5 trillion a year by 2031, requiring $6 trillion in annual revenue, of which $4.2 trillion would come from new products and $1–1.4 trillion from enterprise productivity. It says data-centre size and cost double every 12–16 months; Meta's Ohio site goes from 600MW and $24 billion in 2025 to a projected 9GW and $200 billion in 2030.",
+      "whyItMatters": "It is a consultancy's estimate, but it puts a number on how much revenue the current spending pace implies.",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "AI industry needs to earn $6 trillion by 2031 to justify data centres (The National)",
+          "url": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/"
+        }
+      ]
+    },
+    {
+      "headline": "Livenerf sets out to catch Opus 5.5 getting quietly worse after launch, and can't yet tell it from Opus 5",
+      "summary": "The open repo runs about 80 borderline questions from GPQA Diamond, MMLU-Pro and competition math daily against Opus 5.5, with a parallel Opus 5 as a control. It has logged 6 of 30 baseline days with no missed runs and no flagged change; its own validation could not distinguish Opus 5 from Opus 5.5 at 99% confidence.",
+      "whyItMatters": "Results are not expected until after day 20, and the author says the design can detect roughly a 7.5-point accuracy shift per 10-day window.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "livenerf: Has Opus 5.5 been nerfed yet? (GitHub)",
+          "url": "https://github.com/ninjahawk/livenerf"
+        }
+      ]
+    },
+    {
+      "headline": "Delhi cut electricity losses from over 50% to 5–6% while peak demand tripled",
+      "summary": "IEEE Spectrum credits the drop since 2002 to privatised distribution, digital and then smart meters, SCADA monitoring, capacitor banks and better cables, AI-based anomaly detection, and hiring women in low-income areas as bill collectors. Grid reliability rose from about 70% to over 99.9%.",
+      "whyItMatters": "The loss rate is now comparable to France and Belgium, and the mix of technical, billing and social fixes is the part other utilities can copy.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "How Delhi cut electricity loss from 50 to 5 percent (IEEE Spectrum)",
+          "url": "https://spectrum.ieee.org/delhi-electricity-loss"
+        }
+      ]
+    }
+  ]
+}

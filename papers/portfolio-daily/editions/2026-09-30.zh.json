@@ -1,0 +1,52 @@
+{
+  "id": "2026-09-30",
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T14:00:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "黄金在9月的下跌与一家大型交易所的安全事件构成了今日主线，而比特币有望录得月度上涨。三条消息中两条是市场数据，第三条则是Bitget对这次攻击的披露仍在补充之中。",
+  "stories": [
+    {
+      "headline": "黄金在周一下跌3.1%后反弹1.4%至约4,185美元，收益率和美元限制了涨幅",
+      "summary": "周二黄金上涨1.39%至每盎司4,184.97美元，此前周一下跌3.12%；职位空缺和消费者信心数据疲弱，使10月美联储加息概率从70.9%降至约51.5%。10年期美债收益率维持在5.25%，美元指数升至两个月高点101.37。",
+      "whyItMatters": "黄金仅收复了周一跌幅的一小部分，高收益率和走强的美元仍在压制金价。",
+      "category": "大宗商品",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Gold, silver, precious metals — Wednesday, September 30, 2026 (Rio Times)",
+          "url": "https://www.riotimesonline.com/gold-silver-precious-metals-wednesday-september-30-2026"
+        }
+      ]
+    },
+    {
+      "headline": "Bitget分阶段恢复提款，称遭朝鲜黑客盗走3.875亿美元",
+      "summary": "Bitget表示，9月25日有3.875亿美元通过第三方安全产品中的零日漏洞被转入攻击者控制的地址，涉及多条区块链，其CEO将攻击归因于朝鲜黑客。比特币提款已恢复，USDT预计9月30日恢复，其他代币和法币将于10月2日前恢复；平台提供5%的追回赏金。",
+      "whyItMatters": "该交易所称用户账户余额未受影响，损失由保护基金承担，但攻击归因和根本原因均为Bitget及其调查方的说法。",
+      "category": "加密货币",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist (BleepingComputer)",
+          "url": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/"
+        },
+        {
+          "title": "Bitget hacked via zero-day in third-party security products (BleepingComputer)",
+          "url": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/"
+        }
+      ]
+    },
+    {
+      "headline": "比特币在8.38万美元附近，9月有望上涨约7%，打破“红色九月”规律",
+      "summary": "9月30日上午，比特币报83,767美元，以太币报2,686.56美元，本月分别上涨6.9%和8.9%。比特币已连续四年在9月收涨，但较一年前仍下跌26.9%。",
+      "whyItMatters": "过去13年中有8年9月收跌，比特币目前仍远低于2025年创下的历史高点。",
+      "category": "加密货币",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin and ethereum prices today, Wednesday, September 30, 2026 (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-30-2026-red-september-a-thing-of-the-past-monthly-gains-holding-for-crypto-113317483.html"
+        }
+      ]
+    }
+  ]
+}
