@@ -1,0 +1,115 @@
+{
+  "id": "2026-10-01",
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T14:14:09Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "Today's dispatch is a mix of arrivals and firsts: Starship finally reached orbit, a fresh crew is headed for the station, and astronomers pinned down both the first radio signal from a planet outside our solar system and a galaxy with an unusually long jet history.",
+  "stories": [
+    {
+      "headline": "Starship reaches orbit for the first time and deploys 26 Starlink V3 satellites, then comes home early after an engine shutdown",
+      "summary": "On its 14th flight on September 28, Starship deployed 26 next-generation Starlink satellites at roughly 269 km. One of its six Raptor engines shut down early during ascent, so SpaceX cut a planned 10-hour mission to about three hours and brought the ship down in the Pacific.",
+      "whyItMatters": "This is the first time Starship has reached orbit, following the orbital attempt this paper reported SpaceX was setting for September 22, though the engine problem trimmed the flight.",
+      "category": "Launches",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "SpaceX's Starship Makes Orbital Debut Deploying Starlinks Before Early Ending (U.S. News)",
+          "url": "https://www.usnews.com/news/world/articles/2026-09-28/spacexs-starship-launches-on-14th-flight-first-headed-to-orbit"
+        },
+        {
+          "title": "Starship finally makes orbit but engine trouble cuts the victory lap short (The Register)",
+          "url": "https://www.theregister.com/offbeat/2026/09/29/starship-finally-makes-orbit-but-engine-trouble-cuts-the-victory-lap-short/5299708"
+        },
+        {
+          "title": "Starship Reaches Orbit for the First Time, Deploys 26 Starlink V3 Satellites (SpaceWatch.GLOBAL)",
+          "url": "https://spacewatch.global/2026/09/starship-reaches-orbit-for-the-first-time-deploys-26-starlink-v3-satellites/"
+        }
+      ]
+    },
+    {
+      "headline": "First radio signal from an exoplanet: β Pictoris b's auroras, heard by MeerKAT",
+      "summary": "Astronomers led by Kevin Ortiz Ceballos at the Center for Astrophysics | Harvard & Smithsonian report faint, repeating radio bursts from the gas giant β Pictoris b, about 64 light-years away, using South Africa's MeerKAT array. The emission is an aurora, produced as charged particles interact with the planet's upper atmosphere, not a sign of anything artificial.",
+      "whyItMatters": "It is the first direct radio detection of an exoplanet, and it yields the first direct measurement of an exoplanet's magnetic field: at least 1,250 gauss where the waves originate, far stronger than Jupiter's. The result is a preprint on arXiv.",
+      "category": "Discovery",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Astronomers detect radio signals coming from an exoplanet for the first time (Phys.org)",
+          "url": "https://phys.org/news/2026-09-astronomers-radio-exoplanet.html"
+        },
+        {
+          "title": "Astronomers detected radio signals coming from an exoplanet for the first time (Live Science)",
+          "url": "https://www.livescience.com/space/exoplanets/astronomers-detected-radio-signals-coming-from-an-exoplanet-for-the-first-time-spoiler-alert-its-not-aliens"
+        }
+      ]
+    },
+    {
+      "headline": "Crew-13 launches Thursday: four astronauts bound for the space station on a Falcon 9",
+      "summary": "NASA's Crew-13 mission lifts off at 11:10 a.m. EDT on Thursday from Cape Canaveral aboard a SpaceX Dragon. Commander Jessica Watkins and pilot Luke Delaney of NASA, Joshua Kutryk of the Canadian Space Agency and Roscosmos's Sergey Teteryatnikov are due to dock at the Harmony module's forward port around 7 p.m.",
+      "whyItMatters": "It begins a six-month crew rotation, and the arriving four join the seven people already aboard Expedition 75.",
+      "category": "Launches",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Station Prepares to Welcome Crew-13 while Continuing Space Research (NASA)",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/09/30/station-prepares-to-welcome-crew-13-while-continuing-space-research/"
+        },
+        {
+          "title": "SpaceX Crew-13 NASA launch live updates (Space.com)",
+          "url": "https://www.space.com/news/live/spacex-nasa-crew-13-astronauts-launch-to-iss-october-1-2026"
+        }
+      ]
+    },
+    {
+      "headline": "NASA and Boeing set Starliner's next step: an uncrewed flight no earlier than December",
+      "summary": "NASA and Boeing say the thruster problems that caused loss of control on the Crew Flight Test traced to thermal conditions and design features that pushed the reaction control thrusters outside their qualification. An uncrewed Starliner-1 flight to the station is targeted for no earlier than December 2026, with astronauts on Starliner-2 by 2028 and Woody Hoburg assigned to command it.",
+      "whyItMatters": "It gives the troubled capsule a concrete test sequence; NASA expects to pay an additional $359 million for the upgrades and Vulcan rocket certification.",
+      "category": "Missions",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "NASA, Boeing Share Update on Commercial Starliner Development Plans (NASA via GlobalSecurity)",
+          "url": "https://www.globalsecurity.org/space/library/news/2026/space-260928-nasa01.htm"
+        },
+        {
+          "title": "NASA reveals new plan for Boeing's troubled Starliner spacecraft (CNN)",
+          "url": "https://www.cnn.com/2026/09/28/science/nasa-boeing-starliner-iss-update"
+        }
+      ]
+    },
+    {
+      "headline": "A microblazar in the Milky Way: a black hole's jet points almost straight at Earth",
+      "summary": "Astronomers report IRAS 18293−0941, about 12,000 light-years away, as the Milky Way's first microblazar: a stellar-mass black hole feeding on a massive companion star it orbits every 11.4 days, with one near-light-speed jet aimed almost directly at us. The system hid behind thick gas and dust and was first catalogued by the IRAS satellite in 1983.",
+      "whyItMatters": "Blazars are usually supermassive black holes in distant galaxies, so one with a stellar-mass black hole in our own galaxy offers a nearby, smaller-scale version to study.",
+      "category": "Deep Space",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Astronomers discover the 1st black hole powered 'microquasar' in the Milky Way (Space.com)",
+          "url": "https://www.space.com/astronomy/black-holes/astronomers-discover-the-1st-black-hole-powered-microquasar-in-the-milky-way"
+        },
+        {
+          "title": "Astronomers Discover the Milky Way's First Microblazar (Tech Explorist)",
+          "url": "https://www.techexplorist.com/astronomer-discover-milky-way-first-microblazar/105572/"
+        }
+      ]
+    },
+    {
+      "headline": "A radio galaxy shows four separate jet outbursts, a first",
+      "summary": "Using the upgraded GMRT with MeerKAT and VLA data, a team led by Pavan Vijay Khadekar found four symmetric pairs of radio structures around the galaxy J023721.13−010528.5 at redshift 0.372. They propose it as the prototype of a \"quadruple-double\" radio galaxy.",
+      "whyItMatters": "Roughly 192 double-double and only seven triple-double radio galaxies are known or suspected, so a fourth episode extends how many times a black hole's jets can switch on and off.",
+      "category": "Astronomy",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Astronomers discover a radio galaxy with evidence of four separate jet outbursts (Phys.org)",
+          "url": "https://phys.org/news/2026-09-astronomers-radio-galaxy-evidence-jet.html"
+        },
+        {
+          "title": "J023721.13-010528.5: A Giant S-shaped Radio Galaxy Showing Four Episodes of Jet Activity (arXiv)",
+          "url": "https://arxiv.org/abs/2609.08506"
+        }
+      ]
+    }
+  ]
+}

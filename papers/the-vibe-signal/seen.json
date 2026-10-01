@@ -1,7 +1,49 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-30T13:21:21Z",
+  "updatedAt": "2026-10-01T14:14:10Z",
   "events": [
+    {
+      "date": "2026-10-01",
+      "headline": "Netlify moves Edge Functions from V8 isolates to Firecracker microVMs and cuts median latency to about 5–6 ms",
+      "summary": "Netlify rebuilt Edge Functions to run in Firecracker microVMs inside its own network rather than on an external isolate service, keeping the developer API unchanged. It reports median latency of about 5–6 ms versus 25–40 ms before, 47.4% f…",
+      "urls": [
+        "https://www.netlify.com/blog/edge-functions-firecracker-microvms/"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "Magnitude, an open-source inference engine, claims up to 2x faster than llama.cpp by tuning kernels to your hardware",
+      "summary": "Magnitude compiles and tunes kernels on the user's own machine and runs on Apple Silicon, NVIDIA, AMD or CPU-only systems, under Apache 2.0. Its repository claims 92% faster decode on Metal and 19% faster on CUDA than llama.cpp, and models…",
+      "urls": [
+        "https://github.com/magnitudedev/magnitude"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "Google unveils Gemini 4 Argon: $2/$10 per million tokens, 1M output limit, cyber-defender access first",
+      "summary": "Google says Argon scores 77.9% on DeepSWE v1.1 and 91.7% on LVBench, with a one-million-token output limit up from 64K. It rolls out first to trusted cyber defenders through the Fairwind Program, including a version without cyber guardrail…",
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+        "https://venturebeat.com/technology/google-unveils-gemini-4-argon-retaking-benchmark-lead-over-openai-and-anthropic-but-in-limited-release"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "A brief history of the Bloomberg terminal: from a $30M Merrill Lynch bet to $32,000 a year",
+      "summary": "IEEE Spectrum traces how Michael Bloomberg launched Innovative Market Systems in 1981 with a $10 million Salomon Brothers severance, delivered the first 22 terminals to Merrill Lynch in 1982, and sold Merrill 30% for $30 million. Its color…",
+      "urls": [
+        "https://spectrum.ieee.org/bloomberg-terminal"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "A Miami immigration advocate sues the government for data taken from his phone at the border",
+      "summary": "Thomas Kennedy of the Florida Immigrant Coalition says federal agents detained him for over two hours at Miami International Airport on September 6, returning from Egypt and Turkey, and may have copied emails, texts and contacts from his p…",
+      "urls": [
+        "https://www.miaminewtimes.com/news/miami-immigrant-advocate-sues-federal-government-over-phone-seizure-40587572/",
+        "https://reason.com/2026/08/19/border-agents-searched-his-phone-5-times-without-a-warrant-hes-asking-the-supreme-court-to-put-a-stop-to-it/"
+      ]
+    },
     {
       "date": "2026-09-30",
       "headline": "Livenerf sets out to catch Opus 5.5 getting quietly worse after launch, and can't yet tell it from Opus 5",
@@ -453,54 +495,6 @@
       "summary": "Developer Rohan Bansal fine-tuned and then reinforcement-learned a distilled 4B-parameter model to propose PostgreSQL query hints, testing candidate plans against real Postgres containers. Across 113 join-heavy queries, the model's plans r…",
       "urls": [
         "https://rohanbansal.com/qorl"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "headline": "TypeSafe AI launches Jev, a model that skips text for calibrated structured output",
-      "summary": "TypeSafe AI, founded by former OpenAI researcher Diogo Almeida, emerged from two years of stealth with Jev, the first release in a category it calls 'System One Models' — built for automation inside software rather than conversation. Train…",
-      "urls": [
-        "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "headline": "Prior Labs' TabPFN-3.5 claims the top spot on two tabular-data benchmarks",
-      "summary": "Prior Labs, the SAP-owned tabular-AI research team, released TabPFN-3.5, a foundation model that predicts directly from raw tabular data, handling missing values, mixed types and free text without preprocessing. The company reports a 99% w…",
-      "urls": [
-        "https://priorlabs.ai/tabpfn-3-5"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "headline": "Mistral and Mozilla bring an AI browsing assistant to Firefox",
-      "summary": "Mistral and Mozilla launched Firefox Smart Window in beta, an AI assistant built on Mistral's open-source models that helps users navigate complex searches and recall previously visited pages across tabs. It launches now in France and Nort…",
-      "urls": [
-        "https://mistral.ai/news/mistral-x-mozilla/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "headline": "Google ships Gemini 3.8 Live, with an 'Extended Thinking' tier for real-time voice reasoning",
-      "summary": "Google released Gemini 3.8 Live, a lower-cost model for scaled voice interactions across 97 languages, alongside Gemini 3.8 Live Extended Thinking, which reasons through multi-step tasks while continuing to speak naturally. The Extended Th…",
-      "urls": [
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "headline": "Apple builds a cryptographic chain of custody for iPhone photos",
-      "summary": "Apple detailed Reference Image, a feature debuting on the iPhone 18 Pro's main camera that cryptographically signs pixel data the instant a photo is captured and bundles it with a trusted timestamp; photographers can later 'develop' that s…",
-      "urls": [
-        "https://security.apple.com/blog/apple-reference-image/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "headline": "A developer's case for why LLMs' Navier-Stokes win doesn't generalize to real work",
-      "summary": "In an essay responding to a recent AI-assisted mathematical proof, developer Jay Kruer argues frontier LLMs still can't be trusted as autonomous replacements for most knowledge work: they need heavy oversight even on simple tasks, fail out…",
-      "urls": [
-        "https://dank.systems/posts/2026-09-15-ai-bear.html"
       ]
     }
   ]

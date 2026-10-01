@@ -1,7 +1,62 @@
 {
   "windowDays": 21,
-  "updatedAt": "2026-09-17T12:29:06Z",
+  "updatedAt": "2026-10-01T14:14:10Z",
   "events": [
+    {
+      "date": "2026-10-01",
+      "headline": "Starship reaches orbit for the first time and deploys 26 Starlink V3 satellites, then comes home early after an engine shutdown",
+      "summary": "On its 14th flight on September 28, Starship deployed 26 next-generation Starlink satellites at roughly 269 km. One of its six Raptor engines shut down early during ascent, so SpaceX cut a planned 10-hour mission to about three hours and b…",
+      "urls": [
+        "https://www.usnews.com/news/world/articles/2026-09-28/spacexs-starship-launches-on-14th-flight-first-headed-to-orbit",
+        "https://www.theregister.com/offbeat/2026/09/29/starship-finally-makes-orbit-but-engine-trouble-cuts-the-victory-lap-short/5299708",
+        "https://spacewatch.global/2026/09/starship-reaches-orbit-for-the-first-time-deploys-26-starlink-v3-satellites/"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "NASA and Boeing set Starliner's next step: an uncrewed flight no earlier than December",
+      "summary": "NASA and Boeing say the thruster problems that caused loss of control on the Crew Flight Test traced to thermal conditions and design features that pushed the reaction control thrusters outside their qualification. An uncrewed Starliner-1…",
+      "urls": [
+        "https://www.globalsecurity.org/space/library/news/2026/space-260928-nasa01.htm",
+        "https://www.cnn.com/2026/09/28/science/nasa-boeing-starliner-iss-update"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "First radio signal from an exoplanet: β Pictoris b's auroras, heard by MeerKAT",
+      "summary": "Astronomers led by Kevin Ortiz Ceballos at the Center for Astrophysics | Harvard & Smithsonian report faint, repeating radio bursts from the gas giant β Pictoris b, about 64 light-years away, using South Africa's MeerKAT array. The emissio…",
+      "urls": [
+        "https://phys.org/news/2026-09-astronomers-radio-exoplanet.html",
+        "https://www.livescience.com/space/exoplanets/astronomers-detected-radio-signals-coming-from-an-exoplanet-for-the-first-time-spoiler-alert-its-not-aliens"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "Crew-13 launches Thursday: four astronauts bound for the space station on a Falcon 9",
+      "summary": "NASA's Crew-13 mission lifts off at 11:10 a.m. EDT on Thursday from Cape Canaveral aboard a SpaceX Dragon. Commander Jessica Watkins and pilot Luke Delaney of NASA, Joshua Kutryk of the Canadian Space Agency and Roscosmos's Sergey Teteryat…",
+      "urls": [
+        "https://www.nasa.gov/blogs/spacestation/2026/09/30/station-prepares-to-welcome-crew-13-while-continuing-space-research/",
+        "https://www.space.com/news/live/spacex-nasa-crew-13-astronauts-launch-to-iss-october-1-2026"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "A radio galaxy shows four separate jet outbursts, a first",
+      "summary": "Using the upgraded GMRT with MeerKAT and VLA data, a team led by Pavan Vijay Khadekar found four symmetric pairs of radio structures around the galaxy J023721.13−010528.5 at redshift 0.372. They propose it as the prototype of a \"quadruple-…",
+      "urls": [
+        "https://phys.org/news/2026-09-astronomers-radio-galaxy-evidence-jet.html",
+        "https://arxiv.org/abs/2609.08506"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "A microblazar in the Milky Way: a black hole's jet points almost straight at Earth",
+      "summary": "Astronomers report IRAS 18293−0941, about 12,000 light-years away, as the Milky Way's first microblazar: a stellar-mass black hole feeding on a massive companion star it orbits every 11.4 days, with one near-light-speed jet aimed almost di…",
+      "urls": [
+        "https://www.space.com/astronomy/black-holes/astronomers-discover-the-1st-black-hole-powered-microquasar-in-the-milky-way",
+        "https://www.techexplorist.com/astronomer-discover-milky-way-first-microblazar/105572/"
+      ]
+    },
     {
       "date": "2026-09-17",
       "headline": "Webb's widest star-forming panorama turns up impossibly small brown dwarfs",

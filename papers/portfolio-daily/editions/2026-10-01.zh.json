@@ -1,0 +1,81 @@
+{
+  "id": "2026-10-01",
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T14:14:09Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今日自选股中，Alphabet与Rocket Lab分别因新模型发布和创纪录的发射合同领涨；黄金在通胀数据偏软后徘徊于4,150–4,190美元，花旗上调了比特币目标价。以上均为已披露事实或注明出处的分析师预测，不构成投资建议。",
+  "stories": [
+    {
+      "headline": "谷歌发布Gemini 4 Argon，Alphabet盘前上涨约2%",
+      "summary": "谷歌周三发布Gemini 4 Argon，推广期定价为每百万输入token 2美元、每百万输出token 10美元，输出上限为一百万token。Alphabet A类股盘后上涨约1.5%，周四盘前上涨约2%。",
+      "whyItMatters": "在投资者等待旗舰模型期间，股价较5月18日高点下跌16%；杰富瑞提醒，基准测试成绩仍需实际使用来验证。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Gemini 4 Argon: our next era of frontier intelligence (Google)",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "title": "Alphabet Shares Rise After Google Launches Gemini 4 Argon AI Model (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-shares-rise-google-launches-102136709.html"
+        },
+        {
+          "title": "Alphabet Rises as Google Debuts Low-Cost Gemini 4 Argon (Tradingpedia)",
+          "url": "https://www.tradingpedia.com/2026/10/01/alphabet-rises-as-google-debuts-low-cost-gemini-4-argon/"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab与Synspective签下20次Electron发射协议，盘前涨逾5%",
+      "summary": "Rocket Lab将在2028至2031年间从1号发射场为日本Synspective发射20颗StriX雷达成像卫星，使Synspective的Electron订单总数达到47次。公司发射积压订单现已超过100次。",
+      "whyItMatters": "这是Rocket Lab公布的最大Electron商业合同，CEO彼得·贝克称其是对Electron发射频率和可靠性的信任。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab's 20-Launch Synspective Deal Pushes Backlog Above 100 Missions (Benzinga)",
+          "url": "https://www.benzinga.com/news/space/26/10/62105681/rocket-labs-20-launch-synspective-deal-pushes-backlog-above-100-missions"
+        },
+        {
+          "title": "Rocket Lab Signs 20-Launch Electron Deal With Synspective Through 2031 (SpaceWatch.GLOBAL)",
+          "url": "https://spacewatch.global/2026/10/rocket-lab-signs-20-launch-electron-deal-with-synspective-through-2031/"
+        }
+      ]
+    },
+    {
+      "headline": "PCE通胀偏软，但油价和美债收益率抵消利好，黄金维持在4,150–4,190美元附近",
+      "summary": "现货黄金周四早盘约4,190美元，随后回吐日内涨幅，下探至4,150美元附近。核心PCE环比上涨0.2%，低于预期的0.3%；截至8月的12个月PCE通胀为2.6%。",
+      "whyItMatters": "市场计入10月加息的概率约为39%，低于数据公布前的约45%，但高油价和高收益率使黄金难以走强。",
+      "category": "大宗商品",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Gold price today, Thursday, October 1, 2026 (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-october-1-2026-gold-prices-rather-muted-after-softer-than-expected-inflation-data-110549847.html"
+        },
+        {
+          "title": "Gold rises after cooler inflation data, but monthly decline looms (CNBC)",
+          "url": "https://www.cnbc.com/amp/2026/09/30/gold-on-track-for-monthly-decline-as-investors-await-us-inflation-data.html"
+        }
+      ]
+    },
+    {
+      "headline": "花旗将12个月比特币目标价从8.2万美元上调至11.3万美元，比特币在约8.4万美元附近交易",
+      "summary": "花旗同时将以太坊目标价从2,240美元上调至3,028美元，理由是加密市场活跃度提高、宏观环境有利以及ETF资金重新流入；该行预测未来12个月将有50亿美元流入。比特币和以太坊过去三个月分别上涨近40%和68%。",
+      "whyItMatters": "这只是分析师预测而非既成事实；比特币年内跌幅已收窄至约4%，以太坊约9%。",
+      "category": "加密货币",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Citi raises bitcoin, ether forecasts on strong crypto activity (Reuters via LSE.co.uk)",
+          "url": "https://www.lse.co.uk/news/citi-raises-bitcoin-ether-forecasts-on-strong-crypto-activity-9qrf76m7q2b0o4f.html"
+        },
+        {
+          "title": "Bitcoin Price Tests $85,000 as Citi Raises Target to $113K (CryptoNews)",
+          "url": "https://cryptonews.com/news/bitcoin-price-forecast-citi-target/"
+        }
+      ]
+    }
+  ]
+}

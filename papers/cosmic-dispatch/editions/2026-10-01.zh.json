@@ -1,0 +1,115 @@
+{
+  "id": "2026-10-01",
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T14:14:09Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "本期快讯有抵达也有首次：星舰终于入轨，新一批乘组正前往空间站，天文学家还首次确认了来自太阳系外行星的射电信号，并发现了一个喷流历史异常漫长的星系。",
+  "stories": [
+    {
+      "headline": "星舰首次入轨并部署26颗星链V3卫星，发动机提前关机后提前返回",
+      "summary": "9月28日的第14次飞行中，星舰在约269公里高度部署了26颗新一代星链卫星。六台猛禽发动机中有一台在上升阶段提前关机，SpaceX因此把原定10小时的任务缩短至约3小时，并让飞船在太平洋溅落。",
+      "whyItMatters": "这是星舰首次入轨，此前本报曾报道SpaceX将轨道尝试定在9月22日；不过发动机故障缩短了飞行。",
+      "category": "发射",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "SpaceX's Starship Makes Orbital Debut Deploying Starlinks Before Early Ending (U.S. News)",
+          "url": "https://www.usnews.com/news/world/articles/2026-09-28/spacexs-starship-launches-on-14th-flight-first-headed-to-orbit"
+        },
+        {
+          "title": "Starship finally makes orbit but engine trouble cuts the victory lap short (The Register)",
+          "url": "https://www.theregister.com/offbeat/2026/09/29/starship-finally-makes-orbit-but-engine-trouble-cuts-the-victory-lap-short/5299708"
+        },
+        {
+          "title": "Starship Reaches Orbit for the First Time, Deploys 26 Starlink V3 Satellites (SpaceWatch.GLOBAL)",
+          "url": "https://spacewatch.global/2026/09/starship-reaches-orbit-for-the-first-time-deploys-26-starlink-v3-satellites/"
+        }
+      ]
+    },
+    {
+      "headline": "首个系外行星射电信号：MeerKAT听到了β Pictoris b的极光",
+      "summary": "哈佛-史密森天体物理中心的Kevin Ortiz Ceballos等人利用南非MeerKAT阵列，探测到约64光年外气态巨行星β Pictoris b发出的微弱、重复的射电爆发。这种辐射是带电粒子与行星高层大气相互作用产生的极光，并非人造信号。",
+      "whyItMatters": "这是首次直接探测到系外行星的射电信号，也首次直接测得系外行星的磁场强度：辐射产生处至少1,250高斯，远强于木星。该成果目前为arXiv预印本。",
+      "category": "发现",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Astronomers detect radio signals coming from an exoplanet for the first time (Phys.org)",
+          "url": "https://phys.org/news/2026-09-astronomers-radio-exoplanet.html"
+        },
+        {
+          "title": "Astronomers detected radio signals coming from an exoplanet for the first time (Live Science)",
+          "url": "https://www.livescience.com/space/exoplanets/astronomers-detected-radio-signals-coming-from-an-exoplanet-for-the-first-time-spoiler-alert-its-not-aliens"
+        }
+      ]
+    },
+    {
+      "headline": "Crew-13周四发射：四名航天员乘猎鹰9号前往空间站",
+      "summary": "NASA的Crew-13任务定于周四美东时间上午11:10从卡纳维拉尔角搭乘SpaceX龙飞船发射。指令长Jessica Watkins、驾驶员Luke Delaney（均为NASA）、加拿大航天局的Joshua Kutryk和俄航的Sergey Teteryatnikov预计于晚7点前后与“和谐号”节点舱前向端口对接。",
+      "whyItMatters": "这标志着为期六个月的乘组轮换开始，抵达的四人将与已在轨的Expedition 75成员会合。",
+      "category": "发射",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Station Prepares to Welcome Crew-13 while Continuing Space Research (NASA)",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/09/30/station-prepares-to-welcome-crew-13-while-continuing-space-research/"
+        },
+        {
+          "title": "SpaceX Crew-13 NASA launch live updates (Space.com)",
+          "url": "https://www.space.com/news/live/spacex-nasa-crew-13-astronauts-launch-to-iss-october-1-2026"
+        }
+      ]
+    },
+    {
+      "headline": "NASA与波音确定星际客机下一步：最早12月执行无人飞行",
+      "summary": "NASA与波音表示，载人飞行测试中导致失控的推进器问题，源于热环境和设计特点使反推进器工作超出鉴定范围。无人版Starliner-1最早定于2026年12月飞往空间站，宇航员最迟于2028年乘Starliner-2飞行，Woody Hoburg被指派担任指令长。",
+      "whyItMatters": "这为一再出问题的飞船给出了具体的测试路线；NASA预计将为升级和火神火箭认证额外支付3.59亿美元。",
+      "category": "任务",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "NASA, Boeing Share Update on Commercial Starliner Development Plans (NASA via GlobalSecurity)",
+          "url": "https://www.globalsecurity.org/space/library/news/2026/space-260928-nasa01.htm"
+        },
+        {
+          "title": "NASA reveals new plan for Boeing's troubled Starliner spacecraft (CNN)",
+          "url": "https://www.cnn.com/2026/09/28/science/nasa-boeing-starliner-iss-update"
+        }
+      ]
+    },
+    {
+      "headline": "银河系首个“微型耀变体”：黑洞喷流几乎正对地球",
+      "summary": "天文学家报告，约12,000光年外的IRAS 18293−0941是银河系首个“微型耀变体”：一个恒星级黑洞吞噬着与其每11.4天互绕一周的大质量伴星，其中一条近光速喷流几乎正对地球。该系统隐藏在浓厚气体和尘埃之后，1983年由IRAS卫星首次编目。",
+      "whyItMatters": "耀变体通常是遥远星系中的超大质量黑洞，而银河系内出现恒星级黑洞版本，为研究提供了更近、更小尺度的对象。",
+      "category": "深空",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Astronomers discover the 1st black hole powered 'microquasar' in the Milky Way (Space.com)",
+          "url": "https://www.space.com/astronomy/black-holes/astronomers-discover-the-1st-black-hole-powered-microquasar-in-the-milky-way"
+        },
+        {
+          "title": "Astronomers Discover the Milky Way's First Microblazar (Tech Explorist)",
+          "url": "https://www.techexplorist.com/astronomer-discover-milky-way-first-microblazar/105572/"
+        }
+      ]
+    },
+    {
+      "headline": "一个射电星系呈现出四次独立的喷流爆发，尚属首例",
+      "summary": "由Pavan Vijay Khadekar领衔的团队结合升级后的GMRT以及MeerKAT和VLA数据，在红移0.372的星系J023721.13−010528.5周围发现四对对称的射电结构，并提出它是“四重双瓣”射电星系的原型。",
+      "whyItMatters": "已知或疑似的双瓣-双瓣射电星系约192个，三重双瓣仅7个，第四次喷流活动表明黑洞喷流可以反复开关的次数更多。",
+      "category": "天文",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Astronomers discover a radio galaxy with evidence of four separate jet outbursts (Phys.org)",
+          "url": "https://phys.org/news/2026-09-astronomers-radio-galaxy-evidence-jet.html"
+        },
+        {
+          "title": "J023721.13-010528.5: A Giant S-shaped Radio Galaxy Showing Four Episodes of Jet Activity (arXiv)",
+          "url": "https://arxiv.org/abs/2609.08506"
+        }
+      ]
+    }
+  ]
+}

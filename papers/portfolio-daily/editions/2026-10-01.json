@@ -1,0 +1,81 @@
+{
+  "id": "2026-10-01",
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T14:14:09Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Alphabet and Rocket Lab lead today's watchlist moves on a model launch and a record launch contract, while gold hovers near $4,150–$4,190 after softer inflation data and Citi lifts its bitcoin target. Everything above is reported fact or attributed analyst forecast, not advice.",
+  "stories": [
+    {
+      "headline": "Alphabet rises about 2% premarket after Google unveils Gemini 4 Argon",
+      "summary": "Google launched Gemini 4 Argon on Wednesday, with an introductory price of $2 per million input and $10 per million output tokens and a one-million-token output limit. Alphabet Class A shares gained about 1.5% after hours and about 2% in Thursday premarket trading.",
+      "whyItMatters": "Shares had fallen 16% from their May 18 peak while investors awaited a flagship model; Jefferies cautioned that real-world use is needed to confirm the benchmark results.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Gemini 4 Argon: our next era of frontier intelligence (Google)",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "title": "Alphabet Shares Rise After Google Launches Gemini 4 Argon AI Model (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-shares-rise-google-launches-102136709.html"
+        },
+        {
+          "title": "Alphabet Rises as Google Debuts Low-Cost Gemini 4 Argon (Tradingpedia)",
+          "url": "https://www.tradingpedia.com/2026/10/01/alphabet-rises-as-google-debuts-low-cost-gemini-4-argon/"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab shares rise more than 5% premarket on a 20-launch Electron deal with Synspective",
+      "summary": "Rocket Lab will launch 20 StriX radar-imaging satellites for Japan's Synspective from Launch Complex 1 between 2028 and 2031, taking Synspective's total Electron bookings to 47 missions. The company's launch backlog now exceeds 100 missions.",
+      "whyItMatters": "It is the largest commercial Electron contract Rocket Lab has announced, and CEO Peter Beck called it a vote of confidence in Electron's cadence and reliability.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab's 20-Launch Synspective Deal Pushes Backlog Above 100 Missions (Benzinga)",
+          "url": "https://www.benzinga.com/news/space/26/10/62105681/rocket-labs-20-launch-synspective-deal-pushes-backlog-above-100-missions"
+        },
+        {
+          "title": "Rocket Lab Signs 20-Launch Electron Deal With Synspective Through 2031 (SpaceWatch.GLOBAL)",
+          "url": "https://spacewatch.global/2026/10/rocket-lab-signs-20-launch-electron-deal-with-synspective-through-2031/"
+        }
+      ]
+    },
+    {
+      "headline": "Gold holds near $4,150–$4,190 as softer PCE inflation is offset by oil and Treasury yields",
+      "summary": "Spot gold was about $4,190 early Thursday and slipped toward $4,150 after giving back intraday gains. Core PCE rose 0.2% month over month, below the 0.3% expected, and PCE inflation was 2.6% in the 12 months through August.",
+      "whyItMatters": "Markets price about a 39% chance of an October rate hike, down from about 45% before the data, but elevated oil and yields kept gold from rallying.",
+      "category": "Commodities",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Gold price today, Thursday, October 1, 2026 (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-october-1-2026-gold-prices-rather-muted-after-softer-than-expected-inflation-data-110549847.html"
+        },
+        {
+          "title": "Gold rises after cooler inflation data, but monthly decline looms (CNBC)",
+          "url": "https://www.cnbc.com/amp/2026/09/30/gold-on-track-for-monthly-decline-as-investors-await-us-inflation-data.html"
+        }
+      ]
+    },
+    {
+      "headline": "Citi raises its 12-month bitcoin target to $113,000 from $82,000 as bitcoin trades near $84,000",
+      "summary": "Citigroup also lifted its ether target to $3,028 from $2,240, citing stronger crypto activity, a supportive macro backdrop and a resumption of ETF inflows; it forecasts $5 billion of inflows over 12 months. Bitcoin and ether have risen nearly 40% and 68% over three months.",
+      "whyItMatters": "This is an analyst forecast, not an outcome; bitcoin's year-to-date loss has narrowed to about 4% and ether's to about 9%.",
+      "category": "Crypto",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Citi raises bitcoin, ether forecasts on strong crypto activity (Reuters via LSE.co.uk)",
+          "url": "https://www.lse.co.uk/news/citi-raises-bitcoin-ether-forecasts-on-strong-crypto-activity-9qrf76m7q2b0o4f.html"
+        },
+        {
+          "title": "Bitcoin Price Tests $85,000 as Citi Raises Target to $113K (CryptoNews)",
+          "url": "https://cryptonews.com/news/bitcoin-price-forecast-citi-target/"
+        }
+      ]
+    }
+  ]
+}

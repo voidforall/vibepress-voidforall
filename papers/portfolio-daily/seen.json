@@ -1,7 +1,44 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-09-30T13:21:21Z",
+  "updatedAt": "2026-10-01T14:14:10Z",
   "events": [
+    {
+      "date": "2026-10-01",
+      "headline": "Rocket Lab shares rise more than 5% premarket on a 20-launch Electron deal with Synspective",
+      "summary": "Rocket Lab will launch 20 StriX radar-imaging satellites for Japan's Synspective from Launch Complex 1 between 2028 and 2031, taking Synspective's total Electron bookings to 47 missions. The company's launch backlog now exceeds 100 mission…",
+      "urls": [
+        "https://www.benzinga.com/news/space/26/10/62105681/rocket-labs-20-launch-synspective-deal-pushes-backlog-above-100-missions",
+        "https://spacewatch.global/2026/10/rocket-lab-signs-20-launch-electron-deal-with-synspective-through-2031/"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "Gold holds near $4,150–$4,190 as softer PCE inflation is offset by oil and Treasury yields",
+      "summary": "Spot gold was about $4,190 early Thursday and slipped toward $4,150 after giving back intraday gains. Core PCE rose 0.2% month over month, below the 0.3% expected, and PCE inflation was 2.6% in the 12 months through August.",
+      "urls": [
+        "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-october-1-2026-gold-prices-rather-muted-after-softer-than-expected-inflation-data-110549847.html",
+        "https://www.cnbc.com/amp/2026/09/30/gold-on-track-for-monthly-decline-as-investors-await-us-inflation-data.html"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "Citi raises its 12-month bitcoin target to $113,000 from $82,000 as bitcoin trades near $84,000",
+      "summary": "Citigroup also lifted its ether target to $3,028 from $2,240, citing stronger crypto activity, a supportive macro backdrop and a resumption of ETF inflows; it forecasts $5 billion of inflows over 12 months. Bitcoin and ether have risen nea…",
+      "urls": [
+        "https://www.lse.co.uk/news/citi-raises-bitcoin-ether-forecasts-on-strong-crypto-activity-9qrf76m7q2b0o4f.html",
+        "https://cryptonews.com/news/bitcoin-price-forecast-citi-target/"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "Alphabet rises about 2% premarket after Google unveils Gemini 4 Argon",
+      "summary": "Google launched Gemini 4 Argon on Wednesday, with an introductory price of $2 per million input and $10 per million output tokens and a one-million-token output limit. Alphabet Class A shares gained about 1.5% after hours and about 2% in T…",
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+        "https://finance.yahoo.com/technology/ai/articles/alphabet-shares-rise-google-launches-102136709.html",
+        "https://www.tradingpedia.com/2026/10/01/alphabet-rises-as-google-debuts-low-cost-gemini-4-argon/"
+      ]
+    },
     {
       "date": "2026-09-30",
       "headline": "Gold rebounds 1.4% to about $4,185 after Monday's 3.1% drop, but yields and the dollar cap the bounce",
@@ -294,38 +331,6 @@
       "summary": "Bitcoin opened Thursday at $76,144, up 0.7% from Wednesday, and continued climbing toward $76,265 in early trading; ether moved in step, opening at $2,416. The gains came even as US spot bitcoin ETFs saw $296 million in net outflows and sp…",
       "urls": [
         "https://www.byteseu.com/2373821/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "headline": "Gold enters Fed decision day still down 21% from this year's record high",
-      "summary": "Spot gold traded near $4,275-$4,340 an ounce Wednesday, stabilizing after touching a six-week low around $4,263 but still well off the record above $5,500 it hit earlier this year. A rate hike would typically pressure gold by lifting yield…",
-      "urls": [
-        "https://www.cbsnews.com/news/what-fed-rate-hike-means-for-gold-silver-prices-september-2026/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "headline": "Fed decision lands today as economists reverse to expect a hike",
-      "summary": "The Federal Reserve announces its rate decision this afternoon. In a Reuters poll taken after last Friday's hot inflation report, 86 of 101 economists now expect a quarter-point hike to 3.75%-4.00% — the first increase since 2023 — reversi…",
-      "urls": [
-        "https://www.kitco.com/news/off-the-wire/2026-09-14/fed-rate-hike-wednesday-now-likely-say-economists-and-least-one-more"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "headline": "Bitcoin drops as CLARITY Act fails Senate cloture vote, ending 2026's crypto market-structure push",
-      "summary": "The Digital Asset Market Clarity Act fell short of the 60 votes needed to advance in the Senate on Tuesday evening, with more than 40 senators opposed after Democrats' demands for enforceable crypto-ethics rules went unresolved. Bitcoin fe…",
-      "urls": [
-        "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "headline": "Alphabet's 15% Anthropic stake sets up for a windfall as IPO targets $2 trillion valuation",
-      "summary": "Anthropic is targeting a fall IPO at a reported $2 trillion valuation and up to $100 billion raised — both would top SpaceX's $1.77 trillion, $86 billion offering in June. Alphabet holds roughly 15% of Anthropic and booked $99 billion in n…",
-      "urls": [
-        "https://www.fool.com/investing/2026/09/16/what-anthropic-ipo-means-amazon-alphabet/"
       ]
     }
   ]

@@ -1,0 +1,82 @@
+{
+  "id": "2026-10-01",
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T14:14:09Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "一款定价低廉、优先面向网络防御者发布的前沿模型，一个更快的边缘运行时，一个声称能自我调优的本地推理引擎，还有两则提醒：边境搜查手机与彭博终端这些老东西依然牢牢掌握着局面。",
+  "stories": [
+    {
+      "headline": "谷歌发布Gemini 4 Argon：每百万token 2/10美元，输出上限一百万，优先开放给网络防御者",
+      "summary": "谷歌称Argon在DeepSWE v1.1上得分77.9%，在LVBench上得分91.7%，输出上限从6.4万提升到一百万token。它先通过Fairwind计划向受信任的网络防御者开放（包括不设网络安全护栏的版本），之后再扩大供应。",
+      "whyItMatters": "推广期价格为每百万token输入2美元、输出10美元，之后升至4美元和20美元；基准数据均来自谷歌自身。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Gemini 4 Argon: our next era of frontier intelligence (Google)",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "title": "Google unveils Gemini 4 Argon, retaking benchmark lead over OpenAI and Anthropic — but in limited release (VentureBeat)",
+          "url": "https://venturebeat.com/technology/google-unveils-gemini-4-argon-retaking-benchmark-lead-over-openai-and-anthropic-but-in-limited-release"
+        }
+      ]
+    },
+    {
+      "headline": "Netlify将边缘函数从V8隔离环境迁至Firecracker微虚拟机，中位延迟降至约5–6毫秒",
+      "summary": "Netlify重建了边缘函数，改为在自家网络内的Firecracker微虚拟机中运行，而非外部的隔离环境服务，开发者API保持不变。其报告中位延迟约5–6毫秒（此前为25–40毫秒），p99快47.4%，约1.2%的调用出现约9毫秒的冷启动。",
+      "whyItMatters": "该公司称每天处理约十亿次调用，并实现了客户间真正的进程隔离；数据为Netlify自报，且其也承认运维复杂度有所增加。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "5x faster Edge Functions: V8 isolates to Firecracker MicroVMs (Netlify)",
+          "url": "https://www.netlify.com/blog/edge-functions-firecracker-microvms/"
+        }
+      ]
+    },
+    {
+      "headline": "开源推理引擎Magnitude称通过针对硬件调优内核，速度最高可达llama.cpp的2倍",
+      "summary": "Magnitude在用户本机上编译并调优内核，支持Apple Silicon、NVIDIA、AMD或纯CPU系统，采用Apache 2.0许可。其仓库称在Metal上解码快92%、在CUDA上快19%（相对llama.cpp），且模型与提示词保留在本地。",
+      "whyItMatters": "这是一个Launch HN项目，其速度数据为项目自述，尚未经独立验证。",
+      "category": "科技",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "magnitudedev/magnitude (GitHub)",
+          "url": "https://github.com/magnitudedev/magnitude"
+        }
+      ]
+    },
+    {
+      "headline": "一名迈阿密移民权益倡导者起诉政府，要求归还边境被取走的手机数据",
+      "summary": "佛罗里达移民联盟的Thomas Kennedy称，9月6日从埃及和土耳其返回时，他在迈阿密国际机场被联邦探员扣留两个多小时，探员可能复制了其手机中的邮件、短信和联系人。他起诉要求归还这些数据。",
+      "whyItMatters": "法院曾依据边境搜查例外认可无搜查令的边境手机搜查，因此这起诉讼检验的是该权力的边界。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Miami immigrant advocate sues federal government over phone seizure (Miami New Times)",
+          "url": "https://www.miaminewtimes.com/news/miami-immigrant-advocate-sues-federal-government-over-phone-seizure-40587572/"
+        },
+        {
+          "title": "Border agents searched his phone 5 times without a warrant (Reason)",
+          "url": "https://reason.com/2026/08/19/border-agents-searched-his-phone-5-times-without-a-warrant-hes-asking-the-supreme-court-to-put-a-stop-to-it/"
+        }
+      ]
+    },
+    {
+      "headline": "彭博终端简史：从美林3,000万美元的押注到每年超过3.2万美元",
+      "summary": "IEEE Spectrum回顾了迈克尔·彭博如何在1981年用所罗门兄弟1,000万美元的遣散费创办Innovative Market Systems，1982年向美林交付首批22台终端，并以3,000万美元向美林出让30%股权。其彩色功能键键盘在互联网出现之前就运行于专用网络。",
+      "whyItMatters": "价格已从1999年每月1,600美元（最短两年合同）升至每年超过3.2万美元；这是一篇历史回顾，而非新闻。",
+      "category": "商业",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "A brief history of the Bloomberg terminal (IEEE Spectrum)",
+          "url": "https://spectrum.ieee.org/bloomberg-terminal"
+        }
+      ]
+    }
+  ]
+}

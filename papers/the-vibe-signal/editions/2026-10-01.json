@@ -1,0 +1,82 @@
+{
+  "id": "2026-10-01",
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T14:14:09Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A frontier model with a cheap price and a cyber-defender-first rollout, a faster edge runtime, a local inference engine that claims to tune itself, and two reminders that old things — border phone searches and the Bloomberg terminal — keep their grip.",
+  "stories": [
+    {
+      "headline": "Google unveils Gemini 4 Argon: $2/$10 per million tokens, 1M output limit, cyber-defender access first",
+      "summary": "Google says Argon scores 77.9% on DeepSWE v1.1 and 91.7% on LVBench, with a one-million-token output limit up from 64K. It rolls out first to trusted cyber defenders through the Fairwind Program, including a version without cyber guardrails, before broader availability.",
+      "whyItMatters": "Introductory pricing is $2 input and $10 output per million tokens, rising to $4 and $20 later; the benchmark figures are Google's own.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Gemini 4 Argon: our next era of frontier intelligence (Google)",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "title": "Google unveils Gemini 4 Argon, retaking benchmark lead over OpenAI and Anthropic — but in limited release (VentureBeat)",
+          "url": "https://venturebeat.com/technology/google-unveils-gemini-4-argon-retaking-benchmark-lead-over-openai-and-anthropic-but-in-limited-release"
+        }
+      ]
+    },
+    {
+      "headline": "Netlify moves Edge Functions from V8 isolates to Firecracker microVMs and cuts median latency to about 5–6 ms",
+      "summary": "Netlify rebuilt Edge Functions to run in Firecracker microVMs inside its own network rather than on an external isolate service, keeping the developer API unchanged. It reports median latency of about 5–6 ms versus 25–40 ms before, 47.4% faster p99, and about 9 ms cold starts on roughly 1.2% of invocations.",
+      "whyItMatters": "The company says it handles about a billion invocations a day and gains true process isolation between customers; the numbers are Netlify's own, and it notes added operational complexity.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "5x faster Edge Functions: V8 isolates to Firecracker MicroVMs (Netlify)",
+          "url": "https://www.netlify.com/blog/edge-functions-firecracker-microvms/"
+        }
+      ]
+    },
+    {
+      "headline": "Magnitude, an open-source inference engine, claims up to 2x faster than llama.cpp by tuning kernels to your hardware",
+      "summary": "Magnitude compiles and tunes kernels on the user's own machine and runs on Apple Silicon, NVIDIA, AMD or CPU-only systems, under Apache 2.0. Its repository claims 92% faster decode on Metal and 19% faster on CUDA than llama.cpp, and models and prompts stay local.",
+      "whyItMatters": "It is a Launch HN project whose speed figures are its own claims and not independently verified.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "magnitudedev/magnitude (GitHub)",
+          "url": "https://github.com/magnitudedev/magnitude"
+        }
+      ]
+    },
+    {
+      "headline": "A Miami immigration advocate sues the government for data taken from his phone at the border",
+      "summary": "Thomas Kennedy of the Florida Immigrant Coalition says federal agents detained him for over two hours at Miami International Airport on September 6, returning from Egypt and Turkey, and may have copied emails, texts and contacts from his phone. He is suing to demand the return of that data.",
+      "whyItMatters": "Courts have upheld warrantless border phone searches under the border search exception, so the suit tests how far that authority reaches.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Miami immigrant advocate sues federal government over phone seizure (Miami New Times)",
+          "url": "https://www.miaminewtimes.com/news/miami-immigrant-advocate-sues-federal-government-over-phone-seizure-40587572/"
+        },
+        {
+          "title": "Border agents searched his phone 5 times without a warrant (Reason)",
+          "url": "https://reason.com/2026/08/19/border-agents-searched-his-phone-5-times-without-a-warrant-hes-asking-the-supreme-court-to-put-a-stop-to-it/"
+        }
+      ]
+    },
+    {
+      "headline": "A brief history of the Bloomberg terminal: from a $30M Merrill Lynch bet to $32,000 a year",
+      "summary": "IEEE Spectrum traces how Michael Bloomberg launched Innovative Market Systems in 1981 with a $10 million Salomon Brothers severance, delivered the first 22 terminals to Merrill Lynch in 1982, and sold Merrill 30% for $30 million. Its color-coded keyboard ran over a private network before the internet.",
+      "whyItMatters": "Pricing has climbed from $1,600 a month on a two-year minimum in 1999 to over $32,000 a year, a history piece rather than news.",
+      "category": "Business",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "A brief history of the Bloomberg terminal (IEEE Spectrum)",
+          "url": "https://spectrum.ieee.org/bloomberg-terminal"
+        }
+      ]
+    }
+  ]
+}

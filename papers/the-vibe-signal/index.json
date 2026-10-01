@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-10-01",
+      "date": "2026-10-01",
+      "headline": "Google unveils Gemini 4 Argon: $2/$10 per million tokens, 1M output limit, cyber-defender access first",
+      "storyCount": 5
+    },
+    {
       "id": "2026-09-30",
       "date": "2026-09-30",
       "headline": "Anthropic: Zhipu's open-weight GLM-5.3 can build working exploits, and its safeguards are easy to bypass",
