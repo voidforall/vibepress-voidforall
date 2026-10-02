@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-02",
+      "date": "2026-10-02",
+      "headline": "Alphabet slips about 2% to $338.85 after the Gemini 4 Argon launch, against a stronger tech sector",
+      "storyCount": 5
+    },
+    {
       "id": "2026-10-01",
       "date": "2026-10-01",
       "headline": "Alphabet rises about 2% premarket after Google unveils Gemini 4 Argon",

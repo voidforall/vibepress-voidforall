@@ -1,7 +1,47 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-01T14:14:10Z",
+  "updatedAt": "2026-10-02T13:34:42Z",
   "events": [
+    {
+      "date": "2026-10-02",
+      "headline": "turbopuffer's v3 plan makes vector search 'just another' index",
+      "summary": "The company says its vector-primary index causes storage and write amplification and limits query-plan block sizes to 100–200 documents. In v3, vector search becomes a secondary index; it cites a reworked full-text engine with 10x smaller…",
+      "urls": [
+        "https://turbopuffer.com/blog/rip-vector-database"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "headline": "GitButler's Chacon: Git 3.0's SHA-256 default will be a costly mistake",
+      "summary": "Scott Chacon argues the move from SHA-1 to SHA-256 will break interoperability, signatures and historical links for little practical security gain, noting Git has gone 20 years without an accidental collision. He proposes signing commits w…",
+      "urls": [
+        "https://blog.gitbutler.com/git-3-sha-256"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "headline": "Earendil ships Pi 1.0, a minimal MIT-licensed agent harness, with MCP and deferred tool loading",
+      "summary": "Pi 1.0, released October 1, adds native Codemode and MCP support, extensions for virtual models, deferred tool loading, cache warming for Anthropic models, mid-conversation system messages and a full-screen TUI by default. Earendil says it…",
+      "urls": [
+        "https://earendil.com/posts/pi-1-0/"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "headline": "DeepSeek releases Harness, an open-source plugin-based agent app for macOS and Windows",
+      "summary": "DeepSeek Harness is an MIT-licensed agent platform available as a desktop app for Apple-silicon Mac and 64-bit Windows, or a web UI via npx. Everything is a plugin, and it covers coding, research with citations, scheduled tasks and a mode…",
+      "urls": [
+        "https://www.deepseek.com/en/harness/"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "headline": "Cloudflare open-sources Clef decision models and offers RL fine-tuning",
+      "summary": "Clef (built on Qwen 27B) and Clef-flash (Qwen 9B) are Apache 2.0 classifiers that return structured outputs with probabilities. Cloudflare claims 2.2-second classification versus 4.7 seconds for comparable LLMs, and is offering RL fine-tun…",
+      "urls": [
+        "https://blog.cloudflare.com/clef-decision-models/"
+      ]
+    },
     {
       "date": "2026-10-01",
       "headline": "Netlify moves Edge Functions from V8 isolates to Firecracker microVMs and cuts median latency to about 5–6 ms",
@@ -447,54 +487,6 @@
       "summary": "Alibaba released Qwen3.8-Omni-Flash, a native omnimodal model taking text, image, audio and video in a single request with a 1M-token context window, which it says beats predecessor Qwen3.5-Omni-Plus by over 26% on average across 30 benchm…",
       "urls": [
         "https://www.marktechpost.com/2026/09/18/alibaba-qwen-releases-qwen3-8-omni-flash/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "Researchers claim to beat the 'information-theoretic' storage limit for ternary LLMs",
-      "summary": "A paper from Intel researchers introduces BITCOS, a weight-packing layout that exploits how many zeros actually appear in ternary (-1/0/+1) model weights — up to 51.5% in the 29 models they tested — to store weights below the commonly cite…",
-      "urls": [
-        "https://arxiv.org/abs/2609.16338"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "Nvidia opens two paths to writing GPU kernels directly in Rust",
-      "summary": "Nvidia released cutile-rs (stable, on crates.io, needs Rust 1.89+ and CUDA 13.3) and cuda-oxide (early alpha, pinned nightly toolchain, CUDA 12+), giving Rust two ways to write GPU kernel code natively rather than launching kernels written…",
-      "urls": [
-        "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "AWS tells customers it can't restore two Gulf data center regions, six months after Iranian strikes",
-      "summary": "AWS said it has 'exhausted every option' for restoring data centers in Bahrain and the UAE that were hit by Iranian drone strikes in March, with damage spanning multiple availability zones — beyond what its regional and multi-AZ redundancy…",
-      "urls": [
-        "https://www.cnbc.com/2026/09/15/aws-cant-restore-service-to-bahrain-uae-6-months-after-iran-strikes.html"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "A year of paid maintenance work later, Servo has eight new co-maintainers",
-      "summary": "One year into donation-funded, part-time maintenance of the Servo browser engine, Josh Bowman-Matthews reports having nominated eight new maintainers, reviewed over 1,100 pull requests, and written up 114 contributor-friendly issues, 92% o…",
-      "urls": [
-        "https://servo.org/blog/2026/09/15/one-year-of-sponsorship/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "A researcher found the signing keys meant to stop fake driver's licenses — barely anyone uses them",
-      "summary": "Security researcher Ryan Fahey built a tool that decodes the PDF417 barcodes on US driver's licenses and checks them against public P-256 keys that can catch even a single altered character. Of the 31 US jurisdictions whose cards are made…",
-      "urls": [
-        "https://ryan.science/blog/keys-not-included"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "A $1,200 weekend project trained a 4B model to beat Postgres's own query planner",
-      "summary": "Developer Rohan Bansal fine-tuned and then reinforcement-learned a distilled 4B-parameter model to propose PostgreSQL query hints, testing candidate plans against real Postgres containers. Across 113 join-heavy queries, the model's plans r…",
-      "urls": [
-        "https://rohanbansal.com/qorl"
       ]
     }
   ]

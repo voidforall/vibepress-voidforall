@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-02",
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T14:30:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "智能体工具占据主角：Pi 1.0、DeepSeek Harness 和 Cloudflare Clef 接连登场，turbopuffer 重新思考向量索引，Git 的哈希迁移则遭到批评。",
+  "stories": [
+    {
+      "headline": "Earendil 发布 Pi 1.0：支持 MCP 与延迟工具加载的极简 MIT 许可智能体框架",
+      "summary": "10 月 1 日发布的 Pi 1.0 新增原生 Codemode 与 MCP 支持、虚拟模型扩展、延迟工具加载、针对 Anthropic 模型的缓存预热、对话中系统消息以及默认全屏 TUI。Earendil 称其基于每周数十万用户的反馈，并同步发布了面向长时间运行应用的实验性扩展 Pi Durable。",
+      "whyItMatters": "一个广泛使用的开源编程智能体框架宣布进入稳定的 1.0，并承诺只在新功能经受检验后才采纳。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Pi 1.0 (Earendil)",
+          "url": "https://earendil.com/posts/pi-1-0/"
+        }
+      ]
+    },
+    {
+      "headline": "Cloudflare 开源 Clef 决策模型并提供强化学习微调服务",
+      "summary": "Clef（基于 Qwen 27B）和 Clef-flash（基于 Qwen 9B）是采用 Apache 2.0 许可的分类器，输出带概率的结构化结果。Cloudflare 称其分类耗时 2.2 秒，而同类 LLM 为 4.7 秒；目前提供由前线工程师参与的强化学习微调，自助平台稍后推出。",
+      "whyItMatters": "Cloudflare 主推用于智能体工作流的小型确定性分类器；速度和基准数据均为其自述。",
+      "category": "技术",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Clef: Open-weight decision models, and new RL fine-tuning platform (Cloudflare)",
+          "url": "https://blog.cloudflare.com/clef-decision-models/"
+        }
+      ]
+    },
+    {
+      "headline": "DeepSeek 发布 Harness：面向 macOS 与 Windows 的开源插件式智能体应用",
+      "summary": "DeepSeek Harness 是采用 MIT 许可的智能体平台，提供适用于 Apple 芯片 Mac 和 64 位 Windows 的桌面应用，也可通过 npx 启动网页界面。一切皆为插件，涵盖编程、带引用的研究、定时任务，以及通过聊天创建插件的模式。",
+      "whyItMatters": "DeepSeek 不再只发布模型，也开始提供自己的智能体前端；页面未列出定价。",
+      "category": "技术",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "DeepSeek Harness Desktop (DeepSeek)",
+          "url": "https://www.deepseek.com/en/harness/"
+        }
+      ]
+    },
+    {
+      "headline": "turbopuffer 的 v3 计划让向量搜索成为“普通的”二级索引",
+      "summary": "该公司称以向量为主的索引会造成存储和写入放大，并把查询计划的块大小限制在 100–200 个文档。在 v3 中，向量搜索成为二级索引；它引用重做后的全文引擎（索引缩小 10 倍、查询最多快 20 倍）以及可处理逾 1 万亿文档的系统。",
+      "whyItMatters": "一家向量搜索厂商主张，向量索引不应成为通用搜索数据库的主结构。",
+      "category": "商业",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "RIP, vector database (turbopuffer)",
+          "url": "https://turbopuffer.com/blog/rip-vector-database"
+        }
+      ]
+    },
+    {
+      "headline": "GitButler 的 Chacon：Git 3.0 默认改用 SHA-256 将是代价高昂的错误",
+      "summary": "Scott Chacon 认为从 SHA-1 转向 SHA-256 会破坏互操作性、签名与历史链接，而实际安全收益有限，并指出 Git 20 年来从未出现意外碰撞。他建议通过树哈希头同时用两种哈希为提交签名，而非全面迁移。",
+      "whyItMatters": "这是一篇观点文章，但针对的是 Git 3.0 计划中的一项具体默认值变更。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake (GitButler)",
+          "url": "https://blog.gitbutler.com/git-3-sha-256"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-02",
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T14:30:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Agent tooling dominates: Pi 1.0, DeepSeek's Harness and Cloudflare's Clef all landed, while turbopuffer rethinks the vector index and Git's hash migration draws a critic.",
+  "stories": [
+    {
+      "headline": "Earendil ships Pi 1.0, a minimal MIT-licensed agent harness, with MCP and deferred tool loading",
+      "summary": "Pi 1.0, released October 1, adds native Codemode and MCP support, extensions for virtual models, deferred tool loading, cache warming for Anthropic models, mid-conversation system messages and a full-screen TUI by default. Earendil says it builds on feedback from hundreds of thousands of weekly users and released an experimental Pi Durable extension for longer-running apps alongside it.",
+      "whyItMatters": "A widely used open-source coding-agent harness has declared a stable 1.0, with a pledge to adopt features only once they have proven themselves.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Pi 1.0 (Earendil)",
+          "url": "https://earendil.com/posts/pi-1-0/"
+        }
+      ]
+    },
+    {
+      "headline": "Cloudflare open-sources Clef decision models and offers RL fine-tuning",
+      "summary": "Clef (built on Qwen 27B) and Clef-flash (Qwen 9B) are Apache 2.0 classifiers that return structured outputs with probabilities. Cloudflare claims 2.2-second classification versus 4.7 seconds for comparable LLMs, and is offering RL fine-tuning with forward-deployed engineers now, with a self-serve platform to follow.",
+      "whyItMatters": "Cloudflare is pitching small, deterministic classifiers for agent workflows; the speed and benchmark figures are its own claims.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Clef: Open-weight decision models, and new RL fine-tuning platform (Cloudflare)",
+          "url": "https://blog.cloudflare.com/clef-decision-models/"
+        }
+      ]
+    },
+    {
+      "headline": "DeepSeek releases Harness, an open-source plugin-based agent app for macOS and Windows",
+      "summary": "DeepSeek Harness is an MIT-licensed agent platform available as a desktop app for Apple-silicon Mac and 64-bit Windows, or a web UI via npx. Everything is a plugin, and it covers coding, research with citations, scheduled tasks and a mode where users build plugins through chat.",
+      "whyItMatters": "DeepSeek now ships its own agent front end rather than only models; the page lists no pricing.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "DeepSeek Harness Desktop (DeepSeek)",
+          "url": "https://www.deepseek.com/en/harness/"
+        }
+      ]
+    },
+    {
+      "headline": "turbopuffer's v3 plan makes vector search 'just another' index",
+      "summary": "The company says its vector-primary index causes storage and write amplification and limits query-plan block sizes to 100–200 documents. In v3, vector search becomes a secondary index; it cites a reworked full-text engine with 10x smaller indexes and up to 20x faster queries, and a system handling 1T+ documents.",
+      "whyItMatters": "A vector-search vendor is arguing that the vector index should not be the primary structure of a general search database.",
+      "category": "Business",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "RIP, vector database (turbopuffer)",
+          "url": "https://turbopuffer.com/blog/rip-vector-database"
+        }
+      ]
+    },
+    {
+      "headline": "GitButler's Chacon: Git 3.0's SHA-256 default will be a costly mistake",
+      "summary": "Scott Chacon argues the move from SHA-1 to SHA-256 will break interoperability, signatures and historical links for little practical security gain, noting Git has gone 20 years without an accidental collision. He proposes signing commits with both hashes via tree hash headers instead of a full migration.",
+      "whyItMatters": "It is an opinion piece, but it targets a concrete planned default change in Git 3.0.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake (GitButler)",
+          "url": "https://blog.gitbutler.com/git-3-sha-256"
+        }
+      ]
+    }
+  ]
+}

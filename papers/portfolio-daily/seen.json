@@ -1,7 +1,50 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-01T14:14:10Z",
+  "updatedAt": "2026-10-02T13:34:41Z",
   "events": [
+    {
+      "date": "2026-10-02",
+      "headline": "With the Clarity Act stalled in the Senate, the SEC proposes crypto custody rules for advisers and funds",
+      "summary": "The SEC proposed a framework for how registered investment advisers, investment companies and business development companies hold crypto assets, allowing self-custody in certain circumstances and state trust companies as custodians. CNBC n…",
+      "urls": [
+        "https://www.cnbc.com/2026/10/02/sec-bitcoin-crypto-proposal.html"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "headline": "Gold climbs about 1% to $4,218 an ounce ahead of the September jobs report",
+      "summary": "Spot gold traded at $4,218 an ounce at 9 a.m. ET on Friday, up $41, or 0.98%, from $4,177 the day before, according to Fortune. That is 8.46% above a year earlier, when gold was $3,889.",
+      "urls": [
+        "https://fortune.com/article/current-price-of-gold-10-02-2026/"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "headline": "Bitcoin tops $86,000 for the second time in about two weeks, ahead of the jobs report",
+      "summary": "Bitcoin traded at $86,459.67 at 7:25 a.m. ET, up 1.6% from Thursday's open and 2.9% over 24 hours; ether rose to $2,747.05. Yahoo Finance cites short liquidations, easing Treasury yields and Citigroup's new $113,000 bitcoin target.",
+      "urls": [
+        "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-october-2-2026-crypto-prices-surging-ahead-of-september-jobs-report-112959413.html",
+        "https://www.newsbytesapp.com/news/business/bitcoin-surges-past-86-000-amidst-market-optimism/story"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "headline": "Alphabet slips about 2% to $338.85 after the Gemini 4 Argon launch, against a stronger tech sector",
+      "summary": "A day after shares rose premarket on Google's Gemini 4 Argon unveiling, Alphabet fell about 2% on Thursday to $338.85 while the Technology Select Sector SPDR ETF gained 1%. 24/7 Wall St. ties the drop to a restricted rollout: Argon is goin…",
+      "urls": [
+        "https://247wallst.com/investing/2026/10/01/alphabet-slips-after-gemini-4-argon-launch-as-tech-sector-rises-microsoft-holds-steady-amazon-dips/",
+        "https://finance.yahoo.com/technology/ai/articles/alphabet-shares-rise-google-launches-102136709.html"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "headline": "Alibaba reportedly in talks with Spain's Solaria to power a data center",
+      "summary": "Bloomberg reports Alibaba has held talks with Solaria Energía y Medio Ambiente about renewable power for a data center in Spain, with the Puertollano plant, about 240 km south of Madrid, under consideration. The talks are at an earlier sta…",
+      "urls": [
+        "https://www.bloomberg.com/news/articles/2026-10-02/alibaba-solaria-in-talks-for-spanish-data-center-power-supply",
+        "https://www.investing.com/news/stock-market-news/alibaba-in-talks-with-spains-solaria-to-power-data-center--report-93CH-4929511"
+      ]
+    },
     {
       "date": "2026-10-01",
       "headline": "Rocket Lab shares rise more than 5% premarket on a 20-launch Electron deal with Synspective",
@@ -290,47 +333,6 @@
       "summary": "US spot bitcoin ETFs attracted about $159 million in net inflows Thursday as bitcoin rose over 1% to roughly $77,200, even as ether ETFs posted a third straight day of outflows (about $39 million) and XRP funds lost roughly $5 million. Zca…",
       "urls": [
         "https://www.coindesk.com/markets/2026/09/18/ether-and-xrp-etfs-post-outflows-as-bitcoin-moves-above-usd77-000"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "Judge orders Google to loosen ad-auction rules and accept a monitor, stops short of a breakup",
-      "summary": "Judge Leonie Brinkema's final remedies order in the DOJ's ad tech case requires Google to share data with rival ad servers, integrate its exchange with competitors' publisher ad servers, ban discriminatory bidding, and accept an outside mo…",
-      "urls": [
-        "https://www.courthousenews.com/monopolist-google-gets-behavioral-guardrails-and-a-monitoring-plan/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "Google backs its biggest carbon-removal deal yet, betting on Brazilian rock dust and rice paddies",
-      "summary": "Google agreed to a deal with developer Terradot spanning more than 200,000 hectares in Rio Grande do Sul, Brazil, combining methane-cutting rice-paddy techniques with enhanced rock weathering to pull CO2 from the air. The agreement targets…",
-      "urls": [
-        "https://www.investing.com/news/stock-market-news/google-agrees-biggest-carbonremoval-deal-yet-aims-to-scale-new-model-4903605"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "Gold holds near $4,300 as the Fed hike lands roughly as priced in",
-      "summary": "Gold opened Thursday around $4,301 an ounce, down about 2% from Wednesday's close, after spiking toward $4,360 in the immediate aftermath of the Fed's rate decision before easing back. The metal has held in the $4,300 range for most of the…",
-      "urls": [
-        "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-september-17-2026-gold-prices-relatively-stable-following-fed-rate-increase-110852391.html"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "Fed raises rates for the first time since 2023, signals more ahead",
-      "summary": "The Fed's rate-setting committee voted unanimously to raise its benchmark rate by 25 basis points to a target range of 3.75%-4%, its first hike since 2023. Updated projections put the median year-end rate at 4.1%, up from 3.8% previously,…",
-      "urls": [
-        "https://www.cnn.com/2026/09/16/business/live-news/federal-reserve-interest-rate-september",
-        "https://www.theblock.co/news/markets/2026-09-16-bitcoin-ether-swing-unanimous-quarter-point-fed-rate-hike-warsh-aim-inflation-415307"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "Bitcoin and ether tick up after the Fed's rate hike, despite ETF outflows",
-      "summary": "Bitcoin opened Thursday at $76,144, up 0.7% from Wednesday, and continued climbing toward $76,265 in early trading; ether moved in step, opening at $2,416. The gains came even as US spot bitcoin ETFs saw $296 million in net outflows and sp…",
-      "urls": [
-        "https://www.byteseu.com/2373821/"
       ]
     }
   ]

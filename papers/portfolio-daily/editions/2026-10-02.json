@@ -1,0 +1,86 @@
+{
+  "id": "2026-10-02",
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T14:30:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Alphabet gives back its Gemini 4 Argon gains, gold and bitcoin both rise into Friday's jobs report, the SEC moves on crypto custody as Congress stalls, and Alibaba explores Spanish power for a data center. Everything above is reported fact, not advice.",
+  "stories": [
+    {
+      "headline": "Alphabet slips about 2% to $338.85 after the Gemini 4 Argon launch, against a stronger tech sector",
+      "summary": "A day after shares rose premarket on Google's Gemini 4 Argon unveiling, Alphabet fell about 2% on Thursday to $338.85 while the Technology Select Sector SPDR ETF gained 1%. 24/7 Wall St. ties the drop to a restricted rollout: Argon is going first to a limited group of trusted cybersecurity specialists, with broader enterprise access pending further safeguards.",
+      "whyItMatters": "This reverses Wednesday's premarket gain and leaves the revenue timing of the new model unresolved; Wall Street ratings reported by Yahoo Finance and others remain Buy/Overweight.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Alphabet Slips After Gemini 4 Argon Launch as Tech Sector Rises (24/7 Wall St.)",
+          "url": "https://247wallst.com/investing/2026/10/01/alphabet-slips-after-gemini-4-argon-launch-as-tech-sector-rises-microsoft-holds-steady-amazon-dips/"
+        },
+        {
+          "title": "Alphabet Shares Rise After Google Launches Gemini 4 Argon AI Model (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-shares-rise-google-launches-102136709.html"
+        }
+      ]
+    },
+    {
+      "headline": "Gold climbs about 1% to $4,218 an ounce ahead of the September jobs report",
+      "summary": "Spot gold traded at $4,218 an ounce at 9 a.m. ET on Friday, up $41, or 0.98%, from $4,177 the day before, according to Fortune. That is 8.46% above a year earlier, when gold was $3,889.",
+      "whyItMatters": "The move lifts gold above the $4,150–$4,190 range reported yesterday, with the September nonfarm payrolls report due the same day.",
+      "category": "Commodities",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Current price of gold, Oct. 2, 2026 (Fortune)",
+          "url": "https://fortune.com/article/current-price-of-gold-10-02-2026/"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin tops $86,000 for the second time in about two weeks, ahead of the jobs report",
+      "summary": "Bitcoin traded at $86,459.67 at 7:25 a.m. ET, up 1.6% from Thursday's open and 2.9% over 24 hours; ether rose to $2,747.05. Yahoo Finance cites short liquidations, easing Treasury yields and Citigroup's new $113,000 bitcoin target.",
+      "whyItMatters": "Bitcoin had not been at $86,000 since January before this recent run; it is still 28.5% below a year earlier but up 9.6% over the past month.",
+      "category": "Crypto",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin and ethereum prices today, Oct. 2, 2026 (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-october-2-2026-crypto-prices-surging-ahead-of-september-jobs-report-112959413.html"
+        },
+        {
+          "title": "Bitcoin crosses $86,000 mark (NewsBytes)",
+          "url": "https://www.newsbytesapp.com/news/business/bitcoin-surges-past-86-000-amidst-market-optimism/story"
+        }
+      ]
+    },
+    {
+      "headline": "With the Clarity Act stalled in the Senate, the SEC proposes crypto custody rules for advisers and funds",
+      "summary": "The SEC proposed a framework for how registered investment advisers, investment companies and business development companies hold crypto assets, allowing self-custody in certain circumstances and state trust companies as custodians. CNBC notes it comes after the Clarity Act fell 10 votes short of the 60 needed to advance in the Senate.",
+      "whyItMatters": "Regulators are writing crypto rules on their own while the legislative route is blocked; the custody framework is a proposal, not a final rule.",
+      "category": "Regulatory",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Washington's big crypto bill is stuck. The SEC is pushing ahead anyway (CNBC)",
+          "url": "https://www.cnbc.com/2026/10/02/sec-bitcoin-crypto-proposal.html"
+        }
+      ]
+    },
+    {
+      "headline": "Alibaba reportedly in talks with Spain's Solaria to power a data center",
+      "summary": "Bloomberg reports Alibaba has held talks with Solaria Energía y Medio Ambiente about renewable power for a data center in Spain, with the Puertollano plant, about 240 km south of Madrid, under consideration. The talks are at an earlier stage than its announced European data centers, and it has spoken with other potential suppliers.",
+      "whyItMatters": "It follows last week's announcement of Alibaba's first cloud regions in Finland and the Netherlands, while Spain prepares rules requiring domestic data centers to be run by EU-based companies.",
+      "category": "Company",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Alibaba, Solaria in Talks for Spanish Data Center Power Supply (Bloomberg)",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-02/alibaba-solaria-in-talks-for-spanish-data-center-power-supply"
+        },
+        {
+          "title": "Alibaba in talks with Spain's Solaria to power data center (Investing.com)",
+          "url": "https://www.investing.com/news/stock-market-news/alibaba-in-talks-with-spains-solaria-to-power-data-center--report-93CH-4929511"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "2026-10-02",
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T14:30:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Alphabet 回吐 Gemini 4 Argon 带来的涨幅，黄金和比特币在周五就业报告前双双上涨，国会受阻之际 SEC 推进加密托管规则，阿里巴巴则探索为西班牙数据中心获取电力。以上均为已报道的事实，不构成投资建议。",
+  "stories": [
+    {
+      "headline": "Gemini 4 Argon 发布后 Alphabet 股价下跌约 2% 至 338.85 美元，科技板块则走强",
+      "summary": "在 Google 发布 Gemini 4 Argon 后股价盘前上涨一天，Alphabet 周四下跌约 2% 至 338.85 美元，同期科技精选行业 SPDR ETF 上涨 1%。24/7 Wall St. 将下跌归因于受限的发布方式：Argon 首先只向一小批受信任的网络安全专家开放，更广泛的企业使用须待进一步的安全保障到位。",
+      "whyItMatters": "这抹去了周三的盘前涨幅，新模型的收入时间点仍不明朗；据 Yahoo Finance 等报道，华尔街评级仍为买入/增持。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Alphabet Slips After Gemini 4 Argon Launch as Tech Sector Rises (24/7 Wall St.)",
+          "url": "https://247wallst.com/investing/2026/10/01/alphabet-slips-after-gemini-4-argon-launch-as-tech-sector-rises-microsoft-holds-steady-amazon-dips/"
+        },
+        {
+          "title": "Alphabet Shares Rise After Google Launches Gemini 4 Argon AI Model (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-shares-rise-google-launches-102136709.html"
+        }
+      ]
+    },
+    {
+      "headline": "九月就业报告公布前，黄金上涨约 1% 至每盎司 4,218 美元",
+      "summary": "据《财富》报道，周五东部时间上午 9 点现货黄金报每盎司 4,218 美元，较前一日的 4,177 美元上涨 41 美元，涨幅 0.98%；比一年前的 3,889 美元高 8.46%。",
+      "whyItMatters": "金价升至昨日报道的 4,150–4,190 美元区间上方，九月非农就业报告将于同日公布。",
+      "category": "大宗商品",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Current price of gold, Oct. 2, 2026 (Fortune)",
+          "url": "https://fortune.com/article/current-price-of-gold-10-02-2026/"
+        }
+      ]
+    },
+    {
+      "headline": "比特币第二次在约两周内突破 86,000 美元，就业报告公布在即",
+      "summary": "东部时间上午 7:25 比特币报 86,459.67 美元，较周四开盘上涨 1.6%，24 小时涨 2.9%；以太币升至 2,747.05 美元。Yahoo Finance 称推动因素包括空头平仓、美债收益率回落以及花旗新的 113,000 美元比特币目标价。",
+      "whyItMatters": "此轮上涨之前比特币自 1 月以来未触及 86,000 美元；目前仍比一年前低 28.5%，但过去一个月上涨 9.6%。",
+      "category": "加密货币",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin and ethereum prices today, Oct. 2, 2026 (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-october-2-2026-crypto-prices-surging-ahead-of-september-jobs-report-112959413.html"
+        },
+        {
+          "title": "Bitcoin crosses $86,000 mark (NewsBytes)",
+          "url": "https://www.newsbytesapp.com/news/business/bitcoin-surges-past-86-000-amidst-market-optimism/story"
+        }
+      ]
+    },
+    {
+      "headline": "《Clarity 法案》在参议院受阻，SEC 提出面向投顾和基金的加密资产托管规则",
+      "summary": "SEC 提出了注册投资顾问、投资公司和商业发展公司持有加密资产的监管框架，允许在特定情形下自行托管，州信托公司也可担任托管人。CNBC 指出，此前《Clarity 法案》在参议院差 10 票未达到推进所需的 60 票。",
+      "whyItMatters": "在立法路径受阻之际，监管机构自行制定加密规则；该托管框架仅为提案，并非最终规则。",
+      "category": "监管",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Washington's big crypto bill is stuck. The SEC is pushing ahead anyway (CNBC)",
+          "url": "https://www.cnbc.com/2026/10/02/sec-bitcoin-crypto-proposal.html"
+        }
+      ]
+    },
+    {
+      "headline": "据报道阿里巴巴正与西班牙 Solaria 洽谈为数据中心供电",
+      "summary": "彭博社报道，阿里巴巴已与 Solaria Energía y Medio Ambiente 就西班牙一座数据中心的可再生能源供电进行接洽，考虑中的是马德里以南约 240 公里的 Puertollano 电站。谈判阶段早于其已宣布的欧洲数据中心，且公司还与其他潜在供应商接触。",
+      "whyItMatters": "此前一周阿里巴巴刚宣布将在芬兰和荷兰设立首批云区域，而西班牙正筹备规则，要求境内数据中心由欧盟企业运营。",
+      "category": "公司",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Alibaba, Solaria in Talks for Spanish Data Center Power Supply (Bloomberg)",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-02/alibaba-solaria-in-talks-for-spanish-data-center-power-supply"
+        },
+        {
+          "title": "Alibaba in talks with Spain's Solaria to power data center (Investing.com)",
+          "url": "https://www.investing.com/news/stock-market-news/alibaba-in-talks-with-spains-solaria-to-power-data-center--report-93CH-4929511"
+        }
+      ]
+    }
+  ]
+}
