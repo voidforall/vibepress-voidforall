@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-03",
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T12:14:42Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A day of cheap compute and expensive constraints: an AI trained for under $8,000 beats a Stratego champion, local inference squeezes frontier models onto laptops, and a court reminds legislators that geolocation is not magic.",
+  "stories": [
+    {
+      "headline": "AI 'Ataraxos' beats the best Stratego player 15–1–4 on a sub-$8,000 training budget",
+      "summary": "Researchers from CMU, NYU, Stanford and MIT report in Nature that Ataraxos beat Dutch champion Pim Niemeijer in a 20-game series. Training cost under $8,000 on H100s, versus an estimated $3–4.5 million for DeepMind's DeepNash.",
+      "whyItMatters": "A hidden-information game that resisted AI was cracked at a small fraction of earlier cost.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "The Decoder: AI beats Stratego's greatest player",
+          "url": "https://the-decoder.com/ai-beats-strategos-greatest-player-ending-one-of-the-last-human-strongholds-in-board-games/"
+        },
+        {
+          "title": "Ars Technica",
+          "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/"
+        }
+      ]
+    },
+    {
+      "headline": "Supabase acquires Turso, the Rust rewrite of SQLite",
+      "summary": "Supabase says it will keep building around Postgres while Turso continues its SQLite work, with deeper integration planned. Terms were not disclosed; the pitch is cheap, on-demand databases for AI agents, as Supabase says it launches over a million databases a week.",
+      "whyItMatters": "Two open-source database companies consolidate around the bet that agents will create databases at scale.",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Supabase: Supabase is acquiring Turso",
+          "url": "https://supabase.com/blog/supabase-is-acquiring-turso"
+        }
+      ]
+    },
+    {
+      "headline": "Federal court blocks Utah's VPN provisions, calling them 'a technical impossibility'",
+      "summary": "In Aylo v. Utah Division of Consumer Protection, Judge Barlow preliminarily enjoined SB 73's VPN rules, which required adult sites to block VPN users or locate them. The court said 'geolocation perfection is not presently possible' and the law likely burdens people outside Utah.",
+      "whyItMatters": "A court has found a state age-verification law demanded something the technology cannot deliver.",
+      "category": "Ideas",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "EFF: Court agrees with EFF, Utah's VPN law demands a technical impossibility",
+          "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility"
+        }
+      ]
+    },
+    {
+      "headline": "DwarfStar 4 (ds4) runs 2-bit-quantized DeepSeek V4 Flash and GLM 5.x locally in C",
+      "summary": "The inference engine, shown on HN as from Redis's creator, targets 64GB+ Apple Silicon, CUDA and ROCm machines. It compresses routed experts to 2 bits and claims 39.4 tokens/s generation on an M5 Max with 128GB.",
+      "whyItMatters": "It is a narrow, purpose-built alternative to generic runners for people who want frontier open models on their own hardware.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "DwarfStar 4",
+          "url": "https://dwarfstar.sh/"
+        }
+      ]
+    },
+    {
+      "headline": "Black Forest Labs releases FLUX 3 Image with bounding-box layout control",
+      "summary": "The model places elements by 0–1000 grid coordinates, supports region-limited edits, up to 10 reference images and native output beyond 4K. BFL pitches it as agent-ready; the page lists no pricing.",
+      "whyItMatters": "Explicit layout control lets people or LLM agents specify composition instead of hoping the prompt lands.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Black Forest Labs: FLUX 3 Image",
+          "url": "https://bfl.ai/models/flux-3-image"
+        }
+      ]
+    },
+    {
+      "headline": "Linux now boots on all cores of Apple's M4 after a fix for a CPU that 'forgets' its registers",
+      "summary": "Yureka Lilian reports the M4's WFI idle instruction zeroes registers x0–x31, crashing cores. The workaround disables WFI idle via a bootarg, now merged into mainline Linux and m1n1, and also works on M4 Pro/Max and M5.",
+      "whyItMatters": "A hardware quirk that blocked Asahi-style support for new Macs now has an upstream workaround.",
+      "category": "Technology",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Yureka: The Forgetful CPU (Linux on M4)",
+          "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html"
+        }
+      ]
+    }
+  ]
+}

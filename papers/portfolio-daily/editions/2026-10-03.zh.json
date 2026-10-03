@@ -1,0 +1,103 @@
+{
+  "id": "2026-10-03",
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T12:14:42Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "自选股的一天：疲软的非农数据影响了黄金，分析师上调评级让火箭实验室再受关注，阿里巴巴的算力版图进一步扩大。仅陈述已披露的事实，不构成任何投资建议。",
+  "stories": [
+    {
+      "headline": "疲软的非农数据降温加息预期，黄金升至约4,192美元",
+      "summary": "9月非农就业人数为2.9万，预期为8.9万，前值为13.3万。据USAGOLD报告，现货黄金升至约每盎司4,192.30美元，当日上涨约0.4%。",
+      "whyItMatters": "就业数据不及预期，削弱了市场对10月美联储加息的预期，而加息预期此前一直压制金价。",
+      "category": "大宗商品",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "USAGOLD daily precious metals report, Oct 2 2026",
+          "url": "https://www.usagold.com/daily-precious-metals-market-report-october-2-2026/"
+        }
+      ]
+    },
+    {
+      "headline": "花旗将火箭实验室评级上调至买入，目标价105美元",
+      "summary": "花旗分析师John Godyn上调RKLB评级，称其为“太空多头的核心持仓”，此前公司刚与Synspective签下20次电子号发射合同。MarketBeat显示该股开盘价73.92美元，52周区间为37.57至151.00美元。",
+      "whyItMatters": "一家大型银行将该股评级上调至买入；MarketBeat统计显示24位分析师的共识评级为“适度买入”，平均目标价107.20美元。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "MarketBeat: Rocket Lab upgraded at Citigroup",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-rocket-lab-nasdaq-rklb-upgraded-at-citigroup-2026-10-03/"
+        },
+        {
+          "title": "Financial Modeling Prep: Citigroup upgrade",
+          "url": "https://site.financialmodelingprep.com/market-news/rocket-lab-stock-soars-citigroup-upgrade-buy"
+        }
+      ]
+    },
+    {
+      "headline": "比特币出现“金叉”，为历史上第六次",
+      "summary": "CNBC报道，比特币30日均线本周上穿365日均线。过往信号结果不一：两次短期信号分别持续30天和45天后转跌，而历史上三轮最大涨势均始于金叉。",
+      "whyItMatters": "金叉是市场广泛关注的技术指标，但历史显示它并不能可靠预示后市走向。",
+      "category": "加密货币",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "CNBC: Bitcoin just formed a 'golden cross' pattern",
+          "url": "https://www.cnbc.com/2026/10/02/bitcoin-just-formed-a-golden-cross-pattern-the-crypto-is-setting-up-for-a-big-fourth-quarter.html"
+        }
+      ]
+    },
+    {
+      "headline": "伦敦金银市场协会将因“负责任黄金”认证在高等法院受审",
+      "summary": "伦敦金银市场协会将自10月7日起在伦敦高等法院应诉。两名坦桑尼亚男子2019年在北马拉金矿遇害，其家属称该协会在认证该矿黄金为“负责任”时负有注意义务。",
+      "whyItMatters": "此案检验为全球最大场外黄金市场制定规则的机构，是否需对供应链中的侵害行为承担法律责任。",
+      "category": "监管",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Bloomberg: London Gold Body's Legal Fight Exposes Threat to Bullion Market",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-03/london-gold-body-s-legal-fight-exposes-threat-to-bullion-market"
+        },
+        {
+          "title": "HRW: UK trial challenges 'responsible gold' certification",
+          "url": "https://hrw.org/news/2026/10/01/uk-trial-challenges-gold-industrys-responsible-gold-certification"
+        }
+      ]
+    },
+    {
+      "headline": "据报道，月之暗面Kimi使用阿里提供的约2万颗英伟达芯片集群",
+      "summary": "彭博报道，月之暗面的Kimi模型（含新发布的K3）使用阿里的算力协议，规模约2万颗英伟达芯片。阿里称H200供应的说法“毫无根据”，但未否认2万颗芯片的数字。",
+      "whyItMatters": "这表明阿里云在为一家领先的中国模型开发商提供算力；芯片类型仍有争议。",
+      "category": "公司",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Bloomberg via Yahoo Finance: Moonshot's Kimi uses 20,000 Nvidia chip cluster from Alibaba",
+          "url": "https://sg.finance.yahoo.com/news/moonshots-kimi-uses-20-000-064807232.html"
+        },
+        {
+          "title": "Stocktwits: BABA near two-month highs",
+          "url": "https://stocktwits.com/news-articles/markets/equity/kimi-ai-moonshot-power-agreement-with-alibaba/cZN4SWWRJPy"
+        }
+      ]
+    },
+    {
+      "headline": "多邻国与塔可钟推出多语种Duo辣椒酱，庆祝全国塔可日",
+      "summary": "绿色酱料包印有九种语言的塔可主题用语，10月6日随Doritos Locos Tacos发售，加购每包0.20美元。10月1日至6日，塔可钟会员可获赠一个月Super Duolingo。",
+      "whyItMatters": "这是一次品牌联名，让多邻国吉祥物触达塔可钟客群；未报道任何财务条款。",
+      "category": "公司",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Fox 8: Taco Bell and Duolingo teaming up for National Taco Day",
+          "url": "https://fox8.com/news/taco-bell-and-duolingo-teaming-up-for-national-taco-day/"
+        },
+        {
+          "title": "Parade: Taco Bell's Duolingo collab",
+          "url": "https://parade.com/food/taco-bells-new-duolingo-collab-includes-a-limited-edition-habanero-sauce"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-03",
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T12:14:42Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天的主题是廉价算力与昂贵的约束：不到8,000美元训练的AI击败了Stratego冠军，本地推理把前沿模型塞进笔记本，而法院提醒立法者：地理定位并非魔法。",
+  "stories": [
+    {
+      "headline": "AI“Ataraxos”以15胜1负4平击败最强Stratego棋手，训练预算不足8,000美元",
+      "summary": "来自卡内基梅隆、纽约大学、斯坦福和麻省理工的研究者在《自然》发文称，Ataraxos在20局比赛中击败荷兰冠军Pim Niemeijer。H100训练成本不到8,000美元，而DeepMind的DeepNash估计需300万至450万美元。",
+      "whyItMatters": "这款长期难倒AI的隐藏信息游戏，如今以远低于以往的成本被攻克。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "The Decoder: AI beats Stratego's greatest player",
+          "url": "https://the-decoder.com/ai-beats-strategos-greatest-player-ending-one-of-the-last-human-strongholds-in-board-games/"
+        },
+        {
+          "title": "Ars Technica",
+          "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/"
+        }
+      ]
+    },
+    {
+      "headline": "Supabase收购Turso，后者以Rust重写了SQLite",
+      "summary": "Supabase表示将继续围绕Postgres开发，Turso继续SQLite工作，并计划深度整合。交易条款未披露；其理由是为AI智能体提供廉价、按需的数据库，Supabase称其每周新建超过一百万个数据库。",
+      "whyItMatters": "两家开源数据库公司整合，押注智能体将大规模创建数据库。",
+      "category": "商业",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Supabase: Supabase is acquiring Turso",
+          "url": "https://supabase.com/blog/supabase-is-acquiring-turso"
+        }
+      ]
+    },
+    {
+      "headline": "联邦法院叫停犹他州VPN条款，称其“技术上不可能”",
+      "summary": "在Aylo诉犹他州消费者保护司一案中，Barlow法官初步禁止执行SB 73的VPN条款，该条款要求成人网站屏蔽VPN用户或确定其位置。法院称“目前无法做到完美的地理定位”，且该法可能给犹他州以外的人造成负担。",
+      "whyItMatters": "法院认定，一项州级年龄验证法要求了技术无法提供的东西。",
+      "category": "观点",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "EFF: Court agrees with EFF, Utah's VPN law demands a technical impossibility",
+          "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility"
+        }
+      ]
+    },
+    {
+      "headline": "DwarfStar 4（ds4）用C语言在本地运行2比特量化的DeepSeek V4 Flash和GLM 5.x",
+      "summary": "这款推理引擎面向64GB以上的Apple Silicon、CUDA和ROCm设备，将路由专家压缩到2比特，并称在128GB的M5 Max上生成速度为每秒39.4个token。",
+      "whyItMatters": "对想在自有硬件上运行前沿开源模型的人来说，它是通用运行器之外的专用选择。",
+      "category": "科技",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "DwarfStar 4",
+          "url": "https://dwarfstar.sh/"
+        }
+      ]
+    },
+    {
+      "headline": "Black Forest Labs发布FLUX 3 Image，支持边界框布局控制",
+      "summary": "该模型通过0–1000网格坐标放置元素，支持局部编辑、最多10张参考图和超4K原生输出。BFL称其适配智能体；页面未列出价格。",
+      "whyItMatters": "显式布局控制让用户或LLM智能体可以直接指定构图，而不必指望提示词碰运气。",
+      "category": "科技",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Black Forest Labs: FLUX 3 Image",
+          "url": "https://bfl.ai/models/flux-3-image"
+        }
+      ]
+    },
+    {
+      "headline": "针对会“遗忘”寄存器的CPU给出修复，Linux现可在苹果M4全核启动",
+      "summary": "Yureka Lilian报告称，M4的WFI空闲指令会清零x0–x31寄存器，导致核心崩溃。解决办法是通过启动参数禁用WFI空闲，已合入主线Linux和m1n1，并对M4 Pro/Max及M5同样有效。",
+      "whyItMatters": "阻碍新款Mac获得Asahi式支持的硬件怪癖，如今有了上游解决方案。",
+      "category": "科技",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Yureka: The Forgetful CPU (Linux on M4)",
+          "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html"
+        }
+      ]
+    }
+  ]
+}

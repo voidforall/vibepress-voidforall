@@ -1,7 +1,56 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-02T13:34:42Z",
+  "updatedAt": "2026-10-03T12:14:42Z",
   "events": [
+    {
+      "date": "2026-10-03",
+      "headline": "Supabase acquires Turso, the Rust rewrite of SQLite",
+      "summary": "Supabase says it will keep building around Postgres while Turso continues its SQLite work, with deeper integration planned. Terms were not disclosed; the pitch is cheap, on-demand databases for AI agents, as Supabase says it launches over…",
+      "urls": [
+        "https://supabase.com/blog/supabase-is-acquiring-turso"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "headline": "Linux now boots on all cores of Apple's M4 after a fix for a CPU that 'forgets' its registers",
+      "summary": "Yureka Lilian reports the M4's WFI idle instruction zeroes registers x0–x31, crashing cores. The workaround disables WFI idle via a bootarg, now merged into mainline Linux and m1n1, and also works on M4 Pro/Max and M5.",
+      "urls": [
+        "https://yuka.dev/blog-2026-10-02-linux-m4.html"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "headline": "Federal court blocks Utah's VPN provisions, calling them 'a technical impossibility'",
+      "summary": "In Aylo v. Utah Division of Consumer Protection, Judge Barlow preliminarily enjoined SB 73's VPN rules, which required adult sites to block VPN users or locate them. The court said 'geolocation perfection is not presently possible' and the…",
+      "urls": [
+        "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "headline": "DwarfStar 4 (ds4) runs 2-bit-quantized DeepSeek V4 Flash and GLM 5.x locally in C",
+      "summary": "The inference engine, shown on HN as from Redis's creator, targets 64GB+ Apple Silicon, CUDA and ROCm machines. It compresses routed experts to 2 bits and claims 39.4 tokens/s generation on an M5 Max with 128GB.",
+      "urls": [
+        "https://dwarfstar.sh/"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "headline": "Black Forest Labs releases FLUX 3 Image with bounding-box layout control",
+      "summary": "The model places elements by 0–1000 grid coordinates, supports region-limited edits, up to 10 reference images and native output beyond 4K. BFL pitches it as agent-ready; the page lists no pricing.",
+      "urls": [
+        "https://bfl.ai/models/flux-3-image"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "headline": "AI 'Ataraxos' beats the best Stratego player 15–1–4 on a sub-$8,000 training budget",
+      "summary": "Researchers from CMU, NYU, Stanford and MIT report in Nature that Ataraxos beat Dutch champion Pim Niemeijer in a 20-game series. Training cost under $8,000 on H100s, versus an estimated $3–4.5 million for DeepMind's DeepNash.",
+      "urls": [
+        "https://the-decoder.com/ai-beats-strategos-greatest-player-ending-one-of-the-last-human-strongholds-in-board-games/",
+        "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/"
+      ]
+    },
     {
       "date": "2026-10-02",
       "headline": "turbopuffer's v3 plan makes vector search 'just another' index",
@@ -439,54 +488,6 @@
       "summary": "A US Special Operations Command analyst used an AI chatbot to fuse open-source and classified intelligence into a report claiming a Chinese vessel in the Middle East carried nuclear-weapons components; the claim was false. Military aircraf…",
       "urls": [
         "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "headline": "Unsealed filings show a Microsoft exec called AI scraping 'the largest theft of labor in human history'",
-      "summary": "Newly unsealed documents from The New York Times' copyright lawsuit against OpenAI and Microsoft reveal a January 2023 internal message in which Microsoft's director of applied science, Brent Hecht, called the companies' data-scraping prac…",
-      "urls": [
-        "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "headline": "Researcher chains a decade-old image bug with an SSO flaw to reach OpenAI's internal repos",
-      "summary": "Security researchers exploited an unpatched heap buffer overflow in the libheif image library — reachable by uploading a malicious HEIC file to OpenAI's Discourse-based community forum — for remote code execution, then used an SSO misconfi…",
-      "urls": [
-        "https://www.hacktron.ai/blog/hacking-openai"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "headline": "OpenAI launches Astra for Law, wiring GPT-6 Astra to a 230-million-document legal search index",
-      "summary": "OpenAI introduced Astra for Law, combining its GPT-6 Astra model with a search index covering more than 230 million linked US cases, statutes, regulations and administrative decisions, plus 26 new ecosystem plugins connecting to tools like…",
-      "urls": [
-        "https://www.artificiallawyer.com/2026/09/18/openai-launches-astra-for-law/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "headline": "OpenAI commits to disclosing model misalignment within 6-12 business days",
-      "summary": "OpenAI published a new framework for tracking and disclosing model misalignment, promising public reports within six business days for incidents ready for disclosure and twelve for ones needing further investigation. Alongside the framewor…",
-      "urls": [
-        "https://openai.com/index/model-misalignment-reporting-framework/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "headline": "Bend proposes making 'merging a bug' mathematically impossible for AI-written code",
-      "summary": "Bend is a new language built on dependent type theory where developers declare invariants in a LAWS.bend file that a proof checker mathematically verifies before AI-generated code can ship, turning 'don't make mistakes' into a checked theo…",
-      "urls": [
-        "https://bend-lang.com/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "headline": "Alibaba's Qwen3.8-Omni-Flash cuts audio input costs 98%, adds a 1M-token context window",
-      "summary": "Alibaba released Qwen3.8-Omni-Flash, a native omnimodal model taking text, image, audio and video in a single request with a 1M-token context window, which it says beats predecessor Qwen3.5-Omni-Plus by over 26% on average across 30 benchm…",
-      "urls": [
-        "https://www.marktechpost.com/2026/09/18/alibaba-qwen-releases-qwen3-8-omni-flash/"
       ]
     }
   ]

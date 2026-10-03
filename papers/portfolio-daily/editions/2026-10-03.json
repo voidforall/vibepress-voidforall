@@ -1,0 +1,103 @@
+{
+  "id": "2026-10-03",
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T12:14:42Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A quiet-but-busy tape for the watchlist: a soft payrolls print moved gold, an analyst upgrade lifted attention on Rocket Lab, and Alibaba's compute footprint widened. Reported facts only; none of it is advice.",
+  "stories": [
+    {
+      "headline": "Gold firms to about $4,192 as a weak payrolls print cools October rate-hike bets",
+      "summary": "September nonfarm payrolls came in at 29,000 against a 89,000 forecast and 133,000 the prior month. Spot gold rose to about $4,192.30 an ounce, up roughly 0.4% on the day, according to USAGOLD's market report.",
+      "whyItMatters": "The jobs miss reduced expectations for an October Fed rate hike, the factor that had been weighing on gold.",
+      "category": "Commodities",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "USAGOLD daily precious metals report, Oct 2 2026",
+          "url": "https://www.usagold.com/daily-precious-metals-market-report-october-2-2026/"
+        }
+      ]
+    },
+    {
+      "headline": "Citigroup upgrades Rocket Lab to Buy with a $105 price target",
+      "summary": "Citi analyst John Godyn upgraded RKLB, calling it a 'core holding for space bulls', after the company's 20-launch Electron deal with Synspective. MarketBeat lists the stock opening at $73.92, within a 52-week range of $37.57 to $151.00.",
+      "whyItMatters": "A major bank moved to a Buy rating on the stock; MarketBeat's analyst tally shows a consensus 'Moderate Buy' with a $107.20 average target across 24 analysts.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "MarketBeat: Rocket Lab upgraded at Citigroup",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-rocket-lab-nasdaq-rklb-upgraded-at-citigroup-2026-10-03/"
+        },
+        {
+          "title": "Financial Modeling Prep: Citigroup upgrade",
+          "url": "https://site.financialmodelingprep.com/market-news/rocket-lab-stock-soars-citigroup-upgrade-buy"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin forms a 'golden cross', the sixth in its history",
+      "summary": "CNBC reports bitcoin's 30-day moving average crossed above its 365-day average this week. Past signals had mixed results: two short ones lasted 30 and 45 days before turning lower, while three of the biggest runs began with a golden cross.",
+      "whyItMatters": "The crossover is a widely watched technical marker; the history shows it is not a reliable guide to what happens next.",
+      "category": "Crypto",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "CNBC: Bitcoin just formed a 'golden cross' pattern",
+          "url": "https://www.cnbc.com/2026/10/02/bitcoin-just-formed-a-golden-cross-pattern-the-crypto-is-setting-up-for-a-big-fourth-quarter.html"
+        }
+      ]
+    },
+    {
+      "headline": "London's gold-standard body faces a High Court trial over 'responsible gold' certification",
+      "summary": "The London Bullion Market Association will defend itself in London's High Court from October 7 against a claim by families of two Tanzanian men shot in 2019 at the North Mara mine, who say the LBMA owed a duty of care when it certified the mine's gold as responsible.",
+      "whyItMatters": "The case tests whether the body that sets the rules for the world's largest over-the-counter gold market can be held legally responsible for supply-chain abuses.",
+      "category": "Regulatory",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Bloomberg: London Gold Body's Legal Fight Exposes Threat to Bullion Market",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-03/london-gold-body-s-legal-fight-exposes-threat-to-bullion-market"
+        },
+        {
+          "title": "HRW: UK trial challenges 'responsible gold' certification",
+          "url": "https://hrw.org/news/2026/10/01/uk-trial-challenges-gold-industrys-responsible-gold-certification"
+        }
+      ]
+    },
+    {
+      "headline": "Moonshot's Kimi reportedly runs on a roughly 20,000-chip Nvidia cluster from Alibaba",
+      "summary": "Bloomberg reports Moonshot AI's Kimi models, including the new K3, use a compute deal with Alibaba worth about 20,000 Nvidia chips. Alibaba called reports of H200 supply 'completely groundless' but did not deny the 20,000-chip figure.",
+      "whyItMatters": "It points to Alibaba's cloud supplying a leading Chinese model developer; the chip type remains disputed.",
+      "category": "Company",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Bloomberg via Yahoo Finance: Moonshot's Kimi uses 20,000 Nvidia chip cluster from Alibaba",
+          "url": "https://sg.finance.yahoo.com/news/moonshots-kimi-uses-20-000-064807232.html"
+        },
+        {
+          "title": "Stocktwits: BABA near two-month highs",
+          "url": "https://stocktwits.com/news-articles/markets/equity/kimi-ai-moonshot-power-agreement-with-alibaba/cZN4SWWRJPy"
+        }
+      ]
+    },
+    {
+      "headline": "Duolingo and Taco Bell launch a multilingual Duo Habanero Sauce for National Taco Day",
+      "summary": "The green sauce packets carry taco-themed phrases in nine languages and arrive October 6 with Doritos Locos Tacos, with extra packets at $0.20. Taco Bell Rewards members get a free month of Super Duolingo from October 1 to 6.",
+      "whyItMatters": "A brand tie-up that exposes Duolingo's mascot to Taco Bell's customer base; no financial terms were reported.",
+      "category": "Company",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Fox 8: Taco Bell and Duolingo teaming up for National Taco Day",
+          "url": "https://fox8.com/news/taco-bell-and-duolingo-teaming-up-for-national-taco-day/"
+        },
+        {
+          "title": "Parade: Taco Bell's Duolingo collab",
+          "url": "https://parade.com/food/taco-bells-new-duolingo-collab-includes-a-limited-edition-habanero-sauce"
+        }
+      ]
+    }
+  ]
+}

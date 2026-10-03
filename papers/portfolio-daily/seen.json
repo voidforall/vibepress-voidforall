@@ -1,7 +1,59 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-02T13:34:41Z",
+  "updatedAt": "2026-10-03T12:14:42Z",
   "events": [
+    {
+      "date": "2026-10-03",
+      "headline": "Moonshot's Kimi reportedly runs on a roughly 20,000-chip Nvidia cluster from Alibaba",
+      "summary": "Bloomberg reports Moonshot AI's Kimi models, including the new K3, use a compute deal with Alibaba worth about 20,000 Nvidia chips. Alibaba called reports of H200 supply 'completely groundless' but did not deny the 20,000-chip figure.",
+      "urls": [
+        "https://sg.finance.yahoo.com/news/moonshots-kimi-uses-20-000-064807232.html",
+        "https://stocktwits.com/news-articles/markets/equity/kimi-ai-moonshot-power-agreement-with-alibaba/cZN4SWWRJPy"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "headline": "London's gold-standard body faces a High Court trial over 'responsible gold' certification",
+      "summary": "The London Bullion Market Association will defend itself in London's High Court from October 7 against a claim by families of two Tanzanian men shot in 2019 at the North Mara mine, who say the LBMA owed a duty of care when it certified the…",
+      "urls": [
+        "https://www.bloomberg.com/news/articles/2026-10-03/london-gold-body-s-legal-fight-exposes-threat-to-bullion-market",
+        "https://hrw.org/news/2026/10/01/uk-trial-challenges-gold-industrys-responsible-gold-certification"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "headline": "Gold firms to about $4,192 as a weak payrolls print cools October rate-hike bets",
+      "summary": "September nonfarm payrolls came in at 29,000 against a 89,000 forecast and 133,000 the prior month. Spot gold rose to about $4,192.30 an ounce, up roughly 0.4% on the day, according to USAGOLD's market report.",
+      "urls": [
+        "https://www.usagold.com/daily-precious-metals-market-report-october-2-2026/"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "headline": "Duolingo and Taco Bell launch a multilingual Duo Habanero Sauce for National Taco Day",
+      "summary": "The green sauce packets carry taco-themed phrases in nine languages and arrive October 6 with Doritos Locos Tacos, with extra packets at $0.20. Taco Bell Rewards members get a free month of Super Duolingo from October 1 to 6.",
+      "urls": [
+        "https://fox8.com/news/taco-bell-and-duolingo-teaming-up-for-national-taco-day/",
+        "https://parade.com/food/taco-bells-new-duolingo-collab-includes-a-limited-edition-habanero-sauce"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "headline": "Citigroup upgrades Rocket Lab to Buy with a $105 price target",
+      "summary": "Citi analyst John Godyn upgraded RKLB, calling it a 'core holding for space bulls', after the company's 20-launch Electron deal with Synspective. MarketBeat lists the stock opening at $73.92, within a 52-week range of $37.57 to $151.00.",
+      "urls": [
+        "https://www.marketbeat.com/instant-alerts/analyst-rocket-lab-nasdaq-rklb-upgraded-at-citigroup-2026-10-03/",
+        "https://site.financialmodelingprep.com/market-news/rocket-lab-stock-soars-citigroup-upgrade-buy"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "headline": "Bitcoin forms a 'golden cross', the sixth in its history",
+      "summary": "CNBC reports bitcoin's 30-day moving average crossed above its 365-day average this week. Past signals had mixed results: two short ones lasted 30 and 45 days before turning lower, while three of the biggest runs began with a golden cross.",
+      "urls": [
+        "https://www.cnbc.com/2026/10/02/bitcoin-just-formed-a-golden-cross-pattern-the-crypto-is-setting-up-for-a-big-fourth-quarter.html"
+      ]
+    },
     {
       "date": "2026-10-02",
       "headline": "With the Clarity Act stalled in the Senate, the SEC proposes crypto custody rules for advisers and funds",
@@ -309,30 +361,6 @@
       "summary": "A Form 4 filing shows Duolingo co-founder and CEO Luis von Ahn sold 28,292 Class A shares on September 16 for roughly $4.25 million, at prices between about $150 and $152.55, under a Rule 10b5-1 plan adopted in June. The same filing shows…",
       "urls": [
         "https://www.stocktitan.net/sec-filings/DUOL/form-4-duolingo-inc-insider-trading-activity-a3e304072451.html"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "headline": "Treasury sanctions Iranian exchange BitBank over bitcoin payments to the IRGC",
-      "summary": "The US Treasury's OFAC designated Iranian crypto exchange BitBank, its controlling financier Babak Zanjani, its software developer, and three associates, alleging BitBank moved hundreds of millions of dollars in bitcoin collected by the Ho…",
-      "urls": [
-        "https://decrypt.co/378604/treasury-sanctions-crypto-exchange-behind-irans-bitcoin-tolls-on-hormuz-ships"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "headline": "Gold extends its rise toward $4,400 as falling oil eases inflation pressure",
-      "summary": "Gold traded near $4,360 an ounce Friday, adding to Thursday's near-2% gain, as oil prices fell for a third straight session and the 10-year Treasury yield retreated to 4.93% after briefly topping 5%. Markets still price a roughly 53% chanc…",
-      "urls": [
-        "https://www.fxstreet.com/analysis/gold-prices-rise-as-falling-oil-prices-provide-support-202609180653"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "headline": "Bitcoin ETFs draw $159M as ether and XRP funds keep bleeding",
-      "summary": "US spot bitcoin ETFs attracted about $159 million in net inflows Thursday as bitcoin rose over 1% to roughly $77,200, even as ether ETFs posted a third straight day of outflows (about $39 million) and XRP funds lost roughly $5 million. Zca…",
-      "urls": [
-        "https://www.coindesk.com/markets/2026/09/18/ether-and-xrp-etfs-post-outflows-as-bitcoin-moves-above-usd77-000"
       ]
     }
   ]

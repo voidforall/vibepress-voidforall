@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-10-03",
+      "date": "2026-10-03",
+      "headline": "AI 'Ataraxos' beats the best Stratego player 15–1–4 on a sub-$8,000 training budget",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-02",
       "date": "2026-10-02",
       "headline": "Earendil ships Pi 1.0, a minimal MIT-licensed agent harness, with MCP and deferred tool loading",
