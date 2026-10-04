@@ -275,6 +275,11 @@ a { color: var(--link); }
   text-transform: uppercase;
   color: var(--ink-faint);
 }
+.paper-card-video {
+  margin-left: 0.6rem;
+  font-weight: 700;
+  color: var(--card-accent, var(--accent));
+}
 .paper-card-cta {
   font-weight: 600;
   color: var(--card-accent, var(--accent));
@@ -318,6 +323,11 @@ a { color: var(--link); }
 .nav-current { display: inline-flex; gap: 0.5rem; align-items: baseline; }
 .nav-current .nav-count { color: var(--ink-faint); font-size: 0.7rem; }
 .nav-older, .nav-newer { min-width: 4.75rem; }
+/* Phones: the full date + count + both buttons overflow ~375px, clipping "‹ Older". */
+@media (max-width: 30rem) {
+  .nav-older, .nav-newer { min-width: 0; }
+  .nav-current .nav-count { display: none; }
+}
 
 .nav-open-icon { color: var(--ink-faint); }
 
@@ -466,6 +476,46 @@ a { color: var(--link); }
   text-transform: uppercase;
   font-size: 0.72rem;
 }
+
+/* Video briefing (videos.json): an embedded 16:9 HTML video above the stories, with a
+   lazily loaded transcript in the same disclosure style as Reactions. */
+.briefing { margin: 0 0 2rem; }
+.briefing-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin: 0 0 0.5rem;
+  font-family: var(--sans);
+}
+.briefing-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.briefing-len { font-size: 0.75rem; color: var(--ink-faint); }
+.briefing-frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: #15140f;
+  box-shadow: var(--shadow-card);
+}
+.briefing-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.briefing-transcript { margin: 0.7rem 0 0; }
+.briefing-transcript-body { max-height: 22rem; overflow-y: auto; }
+.briefing-transcript-body p { margin: 0 0 0.6rem; color: var(--ink); line-height: 1.55; }
+.briefing-chapter {
+  margin: 0.8rem 0 0.25rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.briefing-chapter:first-child { margin-top: 0.3rem; }
+.briefing-loading { color: var(--ink-faint); }
 
 /* Optional enrichment (config.enrich): background + community discussion.
    Rendered as secondary matter so it never competes with the story itself. */
@@ -710,6 +760,7 @@ a { color: var(--link); }
 @media (max-width: 40rem) {
   [data-template="classic"] .edition { column-count: 1; }
 }
+[data-template="classic"] .briefing { column-span: all; }
 [data-template="classic"] .editor-note {
   column-span: all;
   border-top: 1px solid var(--ink);
@@ -746,7 +797,7 @@ a { color: var(--link); }
    Print — make either template come out as a clean paper
    ============================================================ */
 @media print {
-  #vp-controls, #vp-langbar, .timeline, .colophon, .skip-link { display: none !important; }
+  #vp-controls, #vp-langbar, .timeline, .colophon, .skip-link, .briefing { display: none !important; }
   body { background: #fff !important; background-image: none !important; color: #000; }
   .masthead { background: #fff !important; background-image: none !important; }
   .edition { column-count: 3; column-gap: 1.6rem; column-rule: 1px solid #999; }

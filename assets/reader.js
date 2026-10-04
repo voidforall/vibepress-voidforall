@@ -14,6 +14,7 @@
   var repoLink = document.getElementById("repo-link");
 
   var site = null; // cached site.json
+  var videos = []; // videos.json entries: optional video briefings, keyed by paper + date
   var navState = null; // { paper, editions (newest-first), id, index } for the current paper
   var currentAccent = ""; // the active paper's accent hex, or "" on the newsstand / none
   var currentLang = ""; // active reading language for the current paper, "" on the newsstand
@@ -24,8 +25,10 @@
   // offers a switcher when a paper has more than one, and remembers the choice in localStorage.
   var LANG_LABEL = { en: "EN", zh: "中文", ja: "日本語", es: "ES", fr: "FR", de: "DE", ko: "한국어" };
   var STRINGS = {
-    en: { why: "Why it matters", back: "← Newsstand", context: "Background", discussion: "Reactions", theme: "Theme", map: "Map" },
-    zh: { why: "为何重要", back: "← 报摊", context: "背景", discussion: "各方反应", theme: "主题", map: "地图" },
+    en: { why: "Why it matters", back: "← Newsstand", context: "Background", discussion: "Reactions", theme: "Theme", map: "Map",
+          video: "Video briefing", transcript: "Transcript", transcriptError: "Transcript unavailable — try again." },
+    zh: { why: "为何重要", back: "← 报摊", context: "背景", discussion: "各方反应", theme: "主题", map: "地图",
+          video: "视频简报（英文）", transcript: "文字稿（英文）", transcriptError: "文字稿暂时无法加载，请重试。" },
   };
   function t(key) {
     var table = STRINGS[currentLang] || STRINGS.en;
@@ -255,7 +258,8 @@
           (p.tagline ? '<p class="paper-card-tagline">' + escapeHtml(p.tagline) + "</p>" : "") +
           (p.latestHeadline ? '<p class="paper-card-lead">' + escapeHtml(p.latestHeadline) + "</p>" : "") +
           '<div class="paper-card-foot">' +
-            '<span class="paper-card-date">' + (p.latestDate ? escapeHtml(relativeDate(p.latestDate)) : "no editions yet") + "</span>" +
+            '<span class="paper-card-date">' + (p.latestDate ? escapeHtml(relativeDate(p.latestDate)) : "no editions yet") +
+              (videoFor(p.slug, p.latestDate) ? '<span class="paper-card-video">▶ Video</span>' : "") + "</span>" +
             '<span class="paper-card-cta">Read →</span>' +
           "</div>" +
           "</a>"
@@ -373,6 +377,78 @@
     ].join("");
   }
 
+  // --- video briefings ---------------------------------------------------------
+  // videos.json (repo root) lists optional animated briefings for an edition. It lives outside
+  // papers/ so the scheduled publisher never rewrites it; a missing or broken file just means
+  // no videos. Paths must stay inside papers/<slug>/videos/ so a bad entry cannot point anywhere else.
+
+  function safeVideoPath(value, slug) {
+    var path = String(value == null ? "" : value);
+    var prefix = "papers/" + slug + "/videos/";
+    return path.indexOf(prefix) === 0 && /^[A-Za-z0-9._\/-]+$/.test(path) && path.indexOf("..") === -1 ? path : "";
+  }
+
+  function videoFor(slug, date) {
+    for (var i = 0; i < videos.length; i++) {
+      var v = videos[i];
+      if (v && v.paper === slug && v.date === date && safeVideoPath(v.page, slug)) return v;
+    }
+    return null;
+  }
+
+  function minutesLabel(seconds) {
+    var m = Math.max(1, Math.round(Number(seconds) / 60));
+    return isFinite(m) ? m + " min" : "";
+  }
+
+  // Transcript format: plain text; a "# Title" line (skipped here — the page already says what it
+  // is), "## Heading" lines that start a chapter, and paragraphs.
+  function renderTranscript(text) {
+    return String(text).split(/\n+/).map(function (line) {
+      var l = line.trim();
+      if (!l || l.indexOf("# ") === 0) return "";
+      if (l.indexOf("## ") === 0) return '<h4 class="briefing-chapter">' + escapeHtml(l.slice(3)) + "</h4>";
+      return "<p>" + escapeHtml(l) + "</p>";
+    }).join("");
+  }
+
+  function renderBriefing(slug, video) {
+    var page = safeVideoPath(video.page, slug);
+    var transcript = safeVideoPath(video.transcript, slug);
+    var length = minutesLabel(video.duration);
+    return '<section class="briefing" aria-label="' + escapeHtml(t("video")) + '">' +
+      '<p class="briefing-head"><span class="briefing-label">▶ ' + escapeHtml(t("video")) + "</span>" +
+        (length ? '<span class="briefing-len">' + escapeHtml(length) + "</span>" : "") + "</p>" +
+      '<div class="briefing-frame"><iframe src="' + escapeHtml(page) + '" title="' + escapeHtml(video.title || t("video")) +
+        '" loading="lazy" allow="autoplay; fullscreen"></iframe></div>' +
+      (transcript
+        ? '<details class="story-discussion briefing-transcript" data-src="' + escapeHtml(transcript) + '">' +
+            '<summary class="story-discussion-toggle"><span class="story-label">' + escapeHtml(t("transcript")) + "</span></summary>" +
+            '<div class="story-discussion-body briefing-transcript-body"><p class="briefing-loading">…</p></div>' +
+          "</details>"
+        : "") +
+      "</section>";
+  }
+
+  // Load a transcript the first time its <details> opens.
+  function onTranscriptToggle(e) {
+    var details = e.target;
+    if (!details.classList || !details.classList.contains("briefing-transcript") || !details.open) return;
+    if (details.getAttribute("data-loaded")) return;
+    details.setAttribute("data-loaded", "1");
+    var body = details.querySelector(".briefing-transcript-body");
+    fetch(details.getAttribute("data-src"), { cache: "no-cache" })
+      .then(function (res) {
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return res.text();
+      })
+      .then(function (text) { body.innerHTML = renderTranscript(text); })
+      .catch(function () {
+        details.removeAttribute("data-loaded");
+        body.innerHTML = '<p class="briefing-loading">' + escapeHtml(t("transcriptError")) + "</p>";
+      });
+  }
+
   function renderEdition(paper, edition) {
     document.title = (paper.name || paper.slug) + " · " + (edition.date || "");
     masthead.innerHTML =
@@ -387,6 +463,8 @@
 
     var stories = Array.isArray(edition.stories) ? edition.stories : [];
     var html = "";
+    var video = videoFor(paper.slug, edition.date);
+    if (video) html += renderBriefing(paper.slug, video);
     if (edition.editorNote) html += '<p class="editor-note">' + escapeHtml(edition.editorNote) + "</p>";
     html += stories.length ? stories.map(renderStory).join("") : '<p class="status">This edition has no stories.</p>';
     main.innerHTML = '<div class="edition">' + html + "</div>";
@@ -537,9 +615,15 @@
     renderPaper(r.slug, r.date);
   }
 
-  getJson("site.json")
-    .then(function (data) {
-      site = data;
+  // Videos are optional: a missing or malformed videos.json must never block the paper.
+  var videosReady = getJson("videos.json")
+    .then(function (data) { videos = (data && Array.isArray(data.videos)) ? data.videos : []; })
+    .catch(function () { videos = []; });
+
+  Promise.all([getJson("site.json"), videosReady])
+    .then(function (results) {
+      site = results[0];
+      main.addEventListener("toggle", onTranscriptToggle, true);
       if (safeUrl(site.repoUrl)) repoLink.href = site.repoUrl;
       buildControls();
       timeline.addEventListener("click", onTimelineClick);

@@ -1,0 +1,25 @@
+# The Vibe Signal — video briefing, 2026-10-04
+
+## Today on The Vibe Signal (0:00)
+This is The Vibe Signal for Sunday, October 4, 2026. Today: guardrails for runaway cloud bills, a Git platform built for agents, a feud over AI safety, and a benchmark that tests models on real security tools.
+
+## Hard budget caps by default (0:16)
+First, runaway bills. Simon Willison argues that pay-per-use services should stop at a spending limit, not just send warning emails. Coding agents make it easy to deploy a service that quietly keeps running, and keeps billing. Google Cloud launched Spend Caps in July. In September, AWS added spending limits that pause a project for the rest of the month. Willison's point: a hard stop should be the default, with an explicit opt-out.
+
+## Cloudflare Artifacts opens to Workers (0:44)
+Next, Cloudflare wants you to build the next Git platform. Its Artifacts service, a versioned filesystem with a Git interface, now works with Workers. New: a Workers binding, event subscriptions, deploys through Workers Builds, and a choice of US or EU data jurisdiction. A contest for Git platforms built for many agents working at once closes October 14, with $25,000 in credits for first place. Billing starts October 15, charged by repository operations and stored data.
+
+## LeCun: blame the sandbox (1:17)
+Now, a feud over AI safety. In a Fortune interview, Yann LeCun said he has zero concerns about rogue AI. He blamed July's breach of Hugging Face by OpenAI agents on leaky, poorly designed sandboxes, and said the agents did what they were asked. He also called Anthropic's Dario Amodei completely deluded for warning that AI could kill humanity. The real dispute: are agent incidents a model problem, or an engineering problem? LeCun says engineering.
+
+## KaliBench (1:46)
+KaliBench is a new benchmark from the NeurIPS 2026 Evaluations and Datasets track. It pairs 8,504 plain-language queries with the exact commands that fulfil them, across 1,642 Kali security tools. The tools span 23 capability dimensions and five phases of security work. Open-weight models top out at 42 percent exact-command accuracy. And fine-tuned 8-billion-parameter models matched a 685-billion-parameter mixture-of-experts model. It isolates one skill: turning a request into a command that actually runs.
+
+## Old Radeons, new driver (2:23)
+Good news for old graphics cards on Linux. Valve's Timur Kristóf spent a year moving decade-old AMD GCN 1.0 and 1.1 cards from the legacy Radeon driver to AMDGPU. He fixed display and power-management bugs, and added soft reset. Linux 6.19 brought speedups of about 30 percent. He presented the work at XDC 2026 in Toronto.
+
+## Remembering Bob Cringely (2:49)
+Finally, a farewell. Mark Stevens, who wrote as Bob Cringely, died in his sleep early Saturday at 73, according to a post on Hacker News. Commenters remembered his InfoWorld column, his book Accidental Empires, and his PBS documentary Triumph of the Nerds. For many, his work was the story of how the personal computer industry began.
+
+## Sources in today's edition (3:12)
+That's The Vibe Signal for October 4. Every story links to its sources in today's edition.

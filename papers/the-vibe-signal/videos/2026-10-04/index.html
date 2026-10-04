@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Vibe Signal · Video briefing · October 4, 2026</title>
+<link rel="stylesheet" href="../../../../assets/briefing/player.css" />
+<style>
+  .vis { position: absolute; left: 72px; right: 72px; top: 178px; height: 430px; }
+  .col-l, .col-r { position: absolute; top: 0; bottom: 0; }
+  svg text { font-family: var(--sans); }
+
+  /* intro */
+  [data-scene="intro"] { display: flex; flex-direction: column; align-items: center; padding-top: 70px; text-align: center; }
+  .waves { width: 220px; height: 120px; }
+  .waves .arc { fill: none; stroke: var(--accent); stroke-width: 7; stroke-linecap: round; opacity: 0.35; animation: pulse 2.4s infinite var(--ease); }
+  .waves .arc:nth-child(2) { animation-delay: 0.25s; }
+  .waves .arc:nth-child(3) { animation-delay: 0.5s; }
+  @keyframes pulse { 0% { opacity: 0.35; } 25% { opacity: 1; } 70%, 100% { opacity: 0.2; } }
+  .mast { margin: 14px 0 6px; font-family: var(--serif); font-size: 92px; line-height: 1; font-weight: 700; letter-spacing: -0.015em; }
+  .mast-date { margin: 0 0 6px; font-size: 22px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--ink-soft); }
+  .mast-rule { width: 520px; height: 0; border-top: 3px double var(--rule); margin: 18px 0 30px; }
+  .chips { display: grid; grid-template-columns: repeat(3, 330px); gap: 14px 18px; }
+  .chip { display: flex; align-items: center; gap: 14px; padding: 14px 18px; text-align: left; font-size: 22px; font-weight: 600; }
+  .chip b { flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; background: var(--accent-deep); font-size: 17px; }
+
+  /* 01 caps */
+  .chart { position: absolute; left: 0; top: 0; width: 650px; height: 430px; }
+  .chart .axis { stroke: var(--rule); stroke-width: 2; fill: none; }
+  .chart .runaway { stroke: var(--warn); stroke-width: 5; fill: none; stroke-linecap: round; }
+  .chart .capped { stroke: var(--accent); stroke-width: 6; fill: none; stroke-linecap: round; }
+  .chart .capline { stroke: var(--warn); stroke-width: 2.5; stroke-dasharray: 10 8; }
+  .chart .ghost.on { opacity: 0.22; }
+  .chart .ghost:not(.on) { opacity: 1; }
+  .alert { position: absolute; width: 230px; padding: 10px 14px; font-size: 18px; border-left: 4px solid var(--gold); }
+  .alert small { display: block; color: var(--ink-faint); font-size: 14px; margin-top: 2px; }
+  .agent-tag { position: absolute; left: 600px; top: 120px; padding: 8px 14px; font-size: 18px; font-weight: 600; border-color: var(--warn); color: #ffd9cf; }
+  .paused-tag { position: absolute; left: 345px; top: 220px; padding: 6px 12px; font-size: 16px; font-weight: 800; letter-spacing: 0.12em; background: var(--accent); color: #0d1f1d; border-radius: 6px; }
+  .caps-r { left: 700px; right: 0; display: flex; flex-direction: column; gap: 16px; }
+  .when { display: flex; gap: 18px; align-items: center; padding: 16px 20px; }
+  .when .date { flex: none; width: 84px; text-align: center; font-weight: 800; font-size: 15px; letter-spacing: 0.1em; color: var(--accent); border-right: 1px solid var(--rule); padding-right: 16px; }
+  .when .date big { display: block; font-size: 32px; color: var(--ink); letter-spacing: 0; }
+  .when h3 { margin: 0 0 3px; font-size: 24px; }
+  .when p { margin: 0; font-size: 18px; color: var(--ink-soft); line-height: 1.35; }
+  .toggle-card { display: flex; align-items: center; gap: 20px; padding: 18px 20px; border-color: var(--accent); }
+  .toggle { flex: none; width: 76px; height: 40px; border-radius: 20px; background: var(--panel-2); position: relative; transition: background 0.4s; }
+  .toggle::after { content: ""; position: absolute; left: 5px; top: 5px; width: 30px; height: 30px; border-radius: 50%; background: var(--ink-faint); transition: transform 0.5s var(--ease), background 0.4s; }
+  .toggle.on { background: var(--accent-deep); }
+  .toggle.on::after { transform: translateX(36px); background: #fff; }
+  .toggle-card h3 { margin: 0; font-size: 24px; }
+  .toggle-card p { margin: 2px 0 0; font-size: 18px; color: var(--ink-soft); }
+
+  /* 02 artifacts */
+  .net { position: absolute; left: 0; top: 0; width: 620px; height: 430px; }
+  .net .link { stroke: var(--rule); stroke-width: 2; stroke-dasharray: 4 6; }
+  .net .agent circle { fill: var(--panel-2); stroke: var(--ink-faint); stroke-width: 2; }
+  .net .agent text { font-size: 15px; font-weight: 700; fill: var(--ink-soft); text-anchor: middle; }
+  .net .packet { fill: var(--accent); }
+  .net .repo rect { fill: var(--panel); stroke: var(--accent); stroke-width: 3; }
+  .net .repo .t1 { font-size: 26px; font-weight: 800; fill: var(--ink); text-anchor: middle; }
+  .net .repo .t2 { font-size: 15px; fill: var(--ink-soft); text-anchor: middle; }
+  .net .branch { stroke: var(--accent); stroke-width: 3.5; fill: none; }
+  .net .branch-dot { fill: var(--accent); }
+  .art-r { left: 670px; right: 0; display: flex; flex-direction: column; gap: 14px; }
+  .feats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .feat { padding: 12px 14px; font-size: 17px; white-space: nowrap; font-weight: 600; display: flex; gap: 10px; align-items: center; }
+  .feat::before { content: "+"; color: var(--accent); font-weight: 900; font-size: 22px; }
+  .prize { color: var(--gold); font-weight: 800; }
+
+  /* 03 feud */
+  .feud-l { left: 0; width: 470px; display: flex; flex-direction: column; gap: 18px; }
+  .who { padding: 18px 22px; }
+  .who .name { font-size: 16px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-faint); margin: 0 0 6px; }
+  .who blockquote { margin: 0; font-family: var(--serif); font-size: 27px; line-height: 1.2; }
+  .who blockquote q { color: var(--accent); }
+  .who.amodei blockquote { font-size: 24px; color: var(--ink-soft); }
+  .who.amodei .retort { margin-top: 10px; font-size: 20px; font-weight: 700; color: var(--warn); }
+  .sandbox { position: absolute; left: 520px; top: 0; width: 616px; height: 300px; }
+  .sandbox .wall { fill: rgba(63, 179, 164, 0.06); stroke: var(--accent); stroke-width: 4; }
+  .sandbox .crack { stroke: var(--warn); stroke-width: 4; fill: none; stroke-linejoin: round; }
+  .sandbox .bot { fill: var(--ink-soft); }
+  .sandbox .leak { fill: var(--warn); }
+  .sandbox .hf rect { fill: var(--panel-2); stroke: var(--gold); stroke-width: 2.5; }
+  .sandbox .hf text { fill: var(--ink); font-size: 18px; font-weight: 700; text-anchor: middle; }
+  .wander { animation: wander 3.2s ease-in-out infinite alternate; }
+  .wander.b { animation-duration: 2.6s; animation-delay: -1s; }
+  .wander.c { animation-duration: 3.8s; animation-delay: -2s; }
+  @keyframes wander { from { transform: translate(0, 0); } to { transform: translate(34px, -18px); } }
+  .meter { position: absolute; left: 520px; right: 0; top: 330px; height: 96px; padding: 16px 24px; }
+  .meter .ends { display: flex; justify-content: space-between; font-size: 19px; font-weight: 700; }
+  .meter .ends span:last-child { color: var(--accent); }
+  .meter .bar { position: relative; height: 6px; margin-top: 14px; border-radius: 3px; background: linear-gradient(90deg, var(--warn), var(--rule) 50%, var(--accent)); }
+  .meter .pin { position: absolute; top: -13px; width: 32px; height: 32px; margin-left: -16px; border-radius: 50%; background: var(--ink); color: var(--bg); font-size: 12px; font-weight: 900; display: grid; place-items: center; box-shadow: 0 2px 10px rgba(0,0,0,0.5); }
+
+  /* 04 kali */
+  .kali-l { left: 0; width: 560px; display: flex; flex-direction: column; gap: 18px; }
+  .term { padding: 0; overflow: hidden; transition: border-color 0.5s, box-shadow 0.5s; }
+  .term.glow { border-color: var(--accent); box-shadow: 0 0 0 4px rgba(63, 179, 164, 0.18); }
+  .term-bar { display: flex; gap: 8px; padding: 12px 16px; background: var(--panel-2); align-items: center; }
+  .term-bar i { width: 12px; height: 12px; border-radius: 50%; background: var(--rule); }
+  .term-bar span { margin-left: 10px; font-size: 14px; color: var(--ink-faint); letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700; }
+  .term-body { padding: 18px 22px 22px; }
+  .q { font-size: 21px; color: var(--ink-soft); margin: 0 0 14px; }
+  .q b { color: var(--ink); }
+  .cmd { font-family: var(--mono); font-size: 27px; color: var(--accent); margin: 0; min-height: 36px; }
+  .cmd::before { content: "$ "; color: var(--ink-faint); }
+  .cmd .caret { display: inline-block; width: 13px; height: 28px; background: var(--accent); vertical-align: -4px; margin-left: 2px; animation: blink 1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  .score { padding: 18px 22px; }
+  .score .track { position: relative; height: 34px; margin: 12px 0 6px; border-radius: 6px; background: var(--panel-2); overflow: hidden; }
+  .score .fillbar { position: absolute; left: 0; top: 0; bottom: 0; width: 0; background: var(--gold); }
+  .score .val { position: absolute; top: 0; bottom: 0; display: flex; align-items: center; padding-left: 12px; font-size: 22px; font-weight: 800; color: var(--gold); }
+  .score .scale { display: flex; justify-content: space-between; font-size: 14px; color: var(--ink-faint); }
+  .kali-r { left: 610px; right: 0; }
+  .tiles { position: absolute; inset: 0 0 auto 0; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .tile { padding: 18px 22px; height: 150px; }
+  .tile .n { font-family: var(--serif); font-size: 60px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+  .tile p { margin: 8px 0 0; font-size: 19px; color: var(--ink-soft); }
+  .sizes { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 30px; }
+  .sz { text-align: center; }
+  .sz .ball { margin: 0 auto 12px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; }
+  .sz.small .ball { width: 92px; height: 92px; background: var(--accent-deep); font-size: 26px; }
+  .sz.big .ball { width: 270px; height: 270px; background: var(--panel-2); border: 2px solid var(--rule); font-size: 40px; }
+  .sz p { margin: 0; font-size: 18px; color: var(--ink-soft); line-height: 1.3; }
+  .eq { font-family: var(--serif); font-size: 72px; line-height: 1; color: var(--gold); text-align: center; }
+  .eq small { display: block; font-family: var(--sans); font-size: 15px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; }
+
+  /* 05 gpu */
+  .lanes { position: absolute; left: 0; top: 0; width: 660px; height: 430px; }
+  .lanes .lane { fill: var(--panel); stroke: var(--rule); stroke-width: 2; }
+  .lanes .lane.new { stroke: var(--accent); }
+  .lanes .lane-t { font-size: 20px; font-weight: 800; fill: var(--ink-faint); letter-spacing: 0.06em; }
+  .lanes .lane-t.new { fill: var(--accent); }
+  .lanes .lane-s { font-size: 15px; fill: var(--ink-faint); }
+  .lanes .route { stroke: var(--ink-faint); stroke-width: 2; stroke-dasharray: 6 7; fill: none; }
+  .gpu-card rect.pcb { fill: #2e3a2f; stroke: #5f7a62; stroke-width: 2; }
+  .gpu-card .fan { fill: #1b1f1b; stroke: #6d7a6e; stroke-width: 2; }
+  .gpu-card .blade { fill: #6d7a6e; transform-box: fill-box; transform-origin: center; animation: spin 0.9s linear infinite; }
+  .gpu-card text { font-size: 15px; font-weight: 800; fill: #e8f0e6; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .gpu-r { left: 710px; right: 0; display: flex; flex-direction: column; gap: 14px; }
+  .who-tag { padding: 12px 18px; font-size: 19px; }
+  .who-tag b { color: var(--accent); }
+  .checks { padding: 12px 18px; display: flex; flex-direction: column; gap: 8px; }
+  .check { font-size: 19px; display: flex; gap: 12px; align-items: center; }
+  .check::before { content: "✓"; flex: none; width: 26px; height: 26px; border-radius: 50%; background: var(--accent-deep); color: #fff; font-weight: 900; font-size: 15px; display: grid; place-items: center; }
+  .speed { padding: 14px 18px; }
+  .speed .row { display: grid; grid-template-columns: 100px 1fr; align-items: center; gap: 12px; margin-top: 8px; font-size: 16px; color: var(--ink-soft); }
+  .speed .b { height: 22px; border-radius: 4px; background: var(--ink-faint); width: 0; }
+  .speed .b.after { background: var(--accent); display: flex; justify-content: flex-end; align-items: center; padding-right: 8px; font-size: 14px; font-weight: 900; color: #0d1f1d; overflow: hidden; white-space: nowrap; }
+  .pin-tag { font-size: 18px; color: var(--ink-soft); padding-left: 4px; }
+  .pin-tag b { color: var(--gold); }
+
+  /* 06 cringely */
+  [data-scene="cringely"] { background: radial-gradient(ellipse at 30% 50%, #24211a, var(--bg) 70%); }
+  .pc { position: absolute; left: 0; top: 0; width: 430px; height: 430px; }
+  .pc .case { fill: #d8cfb8; }
+  .pc .bezel { fill: #bdb39a; }
+  .pc .screen { fill: #0f1a12; }
+  .pc .vent { stroke: #a69b82; stroke-width: 3; }
+  .pc .crt { font-family: var(--mono); font-size: 19px; fill: #8fe0a0; }
+  .bio { position: absolute; left: 480px; right: 0; top: 0; }
+  .bio .nm { margin: 0; font-family: var(--serif); font-size: 64px; font-weight: 700; line-height: 1.05; }
+  .bio .sub { margin: 6px 0 24px; font-size: 22px; color: var(--ink-soft); }
+  .works { display: flex; gap: 14px; }
+  .work { flex: 1; padding: 16px 18px; }
+  .work .k { font-size: 13px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); }
+  .work .v { margin-top: 6px; font-family: var(--serif); font-size: 25px; font-weight: 700; line-height: 1.15; }
+  .epitaph { margin: 26px 0 0; font-family: var(--serif); font-style: italic; font-size: 28px; color: var(--ink-soft); line-height: 1.3; }
+
+  /* outro */
+  [data-scene="outro"] { display: flex; flex-direction: column; align-items: center; padding-top: 74px; text-align: center; }
+  .recap { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 40px; margin: 28px 0 30px; text-align: left; }
+  .recap li { font-size: 22px; color: var(--ink-soft); list-style: none; display: flex; gap: 12px; }
+  .recap li::before { content: "✓"; color: var(--accent); font-weight: 900; }
+  .recap { padding: 0; }
+  .url { font-size: 22px; font-weight: 700; color: var(--accent); padding: 12px 22px; border: 2px solid var(--accent); border-radius: 999px; }
+</style>
+</head>
+<body>
+<div id="bp-stage">
+
+  <!-- INTRO -->
+  <section class="scene" data-scene="intro">
+    <svg class="waves rise" data-at="0" viewBox="0 0 220 120" aria-hidden="true">
+      <path class="arc" d="M85 80a30 30 0 0 1 50 0" />
+      <path class="arc" d="M62 64a58 58 0 0 1 96 0" />
+      <path class="arc" d="M38 48a88 88 0 0 1 144 0" />
+      <circle cx="110" cy="96" r="10" fill="var(--accent)" />
+    </svg>
+    <h1 class="mast rise" data-at="0.2">The Vibe Signal</h1>
+    <p class="mast-date rise" data-at="0.6">Sunday · October 4, 2026 · Video briefing</p>
+    <div class="mast-rule rise" data-at="0.8"></div>
+    <div class="chips">
+      <div class="chip panel pop" data-at="s1+0.4"><b>1</b>Hard budget caps</div>
+      <div class="chip panel pop" data-at="s1+1.8"><b>2</b>Git built for agents</div>
+      <div class="chip panel pop" data-at="s1+3.4"><b>3</b>A safety feud</div>
+      <div class="chip panel pop" data-at="s1+5.2"><b>4</b>KaliBench</div>
+      <div class="chip panel pop" data-at="s1+5.8"><b>5</b>Old GPUs, new driver</div>
+      <div class="chip panel pop" data-at="s1+6.4"><b>6</b>Bob Cringely</div>
+    </div>
+  </section>
+
+  <!-- 01 CAPS -->
+  <section class="scene" data-scene="caps">
+    <p class="kicker rise" data-at="0"><span class="num">01</span>Ideas · Simon Willison</p>
+    <h2 class="title rise" data-at="0.15">Hard budget caps, on by default</h2>
+    <div class="vis">
+      <svg class="chart" viewBox="0 0 650 430" aria-hidden="true">
+        <path class="axis" d="M50 20V385H630" />
+        <text x="58" y="30" fill="var(--ink-faint)" font-size="16" font-weight="700" letter-spacing="2">SPEND</text>
+        <text x="630" y="412" fill="var(--ink-faint)" font-size="16" font-weight="700" letter-spacing="2" text-anchor="end">TIME</text>
+        <text x="58" y="412" fill="var(--ink-faint)" font-size="14" font-style="italic">Illustration</text>
+        <g class="ghost" data-at="s3">
+          <path class="runaway" id="cap-runaway" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" d="M50 378 C 280 372, 440 320, 615 34" />
+          <circle id="cap-runaway-dot" r="9" fill="var(--warn)" opacity="0" />
+        </g>
+        <g data-at="s3">
+          <line class="capline" x1="50" y1="200" x2="630" y2="200" />
+          <text x="60" y="190" fill="var(--warn)" font-size="17" font-weight="800" letter-spacing="1.5">HARD CAP</text>
+        </g>
+        <path class="capped" id="cap-capped" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" d="M50 378 C 250 372, 340 300, 405 200 L 615 200" />
+        <circle id="cap-capped-dot" r="9" fill="var(--accent)" opacity="0" />
+      </svg>
+      <div class="agent-tag panel pop" data-at="s2" data-off="s3">🤖 Agent-deployed service: still running</div>
+      <div class="alert panel slide-l" data-at="s1+2.4" data-off="s3" style="left:80px;top:70px">⚠ Budget alert<small>email · 80% of budget</small></div>
+      <div class="alert panel slide-l" data-at="s1+3.6" data-off="s3" style="left:110px;top:150px">⚠ Budget alert<small>email · 100% of budget</small></div>
+      <div class="alert panel slide-l" data-at="s1+4.8" data-off="s3" style="left:140px;top:230px">⚠ Budget alert<small>email · 150% · still billing</small></div>
+      <div class="paused-tag pop" data-at="s4+2.4">⏸ PAUSED FOR THE MONTH</div>
+      <div class="col-r caps-r">
+        <div class="when panel slide-r" data-at="s3">
+          <div class="date">JUL<big>’26</big></div>
+          <div><h3>Google Cloud</h3><p>launches Spend Caps</p></div>
+        </div>
+        <div class="when panel slide-r" data-at="s4">
+          <div class="date">SEP<big>’26</big></div>
+          <div><h3>AWS</h3><p>adds spending limits that pause a project for the month</p></div>
+        </div>
+        <div class="toggle-card panel rise" data-at="s5">
+          <div class="toggle" data-at="s5+1.2"></div>
+          <div><h3>Hard stop by default</h3><p>Opting out should be explicit</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 ARTIFACTS -->
+  <section class="scene" data-scene="artifacts">
+    <p class="kicker rise" data-at="0"><span class="num">02</span>Business · Cloudflare</p>
+    <h2 class="title rise" data-at="0.15">Cloudflare wants the next Git platform</h2>
+    <div class="vis">
+      <svg class="net" viewBox="0 0 620 430" aria-hidden="true">
+        <g id="art-links"></g>
+        <g id="art-packets"></g>
+        <g id="art-agents"></g>
+        <g class="repo pop" data-at="s1" style="transform-origin: 310px 215px">
+          <rect x="200" y="150" width="220" height="130" rx="16" />
+          <path class="branch" d="M250 186v58M250 214c0-14 22-14 22-28" />
+          <circle class="branch-dot" cx="250" cy="182" r="6" /><circle class="branch-dot" cx="250" cy="248" r="6" /><circle class="branch-dot" cx="272" cy="182" r="6" />
+          <text class="t1" x="340" y="208">Artifacts</text>
+          <text class="t2" x="340" y="234">versioned filesystem</text>
+          <text class="t2" x="340" y="254">· Git interface ·</text>
+        </g>
+      </svg>
+      <div class="col-r art-r">
+        <div class="feats">
+          <div class="feat panel pop" data-at="s2+0.6">Workers binding</div>
+          <div class="feat panel pop" data-at="s2+1.6">Event subscriptions</div>
+          <div class="feat panel pop" data-at="s2+2.8">Workers Builds deploys</div>
+          <div class="feat panel pop" data-at="s2+4.4">US / EU jurisdiction</div>
+        </div>
+        <div class="when panel slide-r" data-at="s3">
+          <div class="date">OCT<big>14</big></div>
+          <div><h3>Contest closes</h3><p>Git platforms for many concurrent agents · <span class="prize">$25,000</span> in credits for 1st</p></div>
+        </div>
+        <div class="when panel slide-r" data-at="s4">
+          <div class="date">OCT<big>15</big></div>
+          <div><h3>Billing begins</h3><p>per repo operation and stored data</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 FEUD -->
+  <section class="scene" data-scene="feud">
+    <p class="kicker rise" data-at="0"><span class="num">03</span>Ideas · Fortune</p>
+    <h2 class="title rise" data-at="0.15">LeCun: blame the sandbox, not the model</h2>
+    <div class="vis">
+      <div class="col-l feud-l">
+        <div class="who panel slide-l" data-at="s1">
+          <p class="name">Yann LeCun</p>
+          <blockquote><q>Zero concerns</q> about rogue AI</blockquote>
+        </div>
+        <div class="who amodei panel slide-l" data-at="s3">
+          <p class="name">Dario Amodei · Anthropic</p>
+          <blockquote>Has warned AI could kill humanity</blockquote>
+          <p class="retort">LeCun: “completely deluded”</p>
+        </div>
+      </div>
+      <svg class="sandbox rise" data-at="s2" viewBox="0 0 616 300" aria-hidden="true">
+        <rect class="wall" x="20" y="40" width="330" height="230" rx="12" />
+        <text x="38" y="30" fill="var(--accent)" font-size="17" font-weight="800" letter-spacing="2">SANDBOX</text>
+        <text x="38" y="256" fill="var(--ink-faint)" font-size="16">OpenAI agents · July</text>
+        <g class="bots">
+          <circle class="bot wander" cx="110" cy="130" r="13" />
+          <circle class="bot wander b" cx="170" cy="200" r="13" />
+          <circle class="bot wander c" cx="240" cy="120" r="13" />
+        </g>
+        <g data-at="s2+3">
+          <path class="crack" d="M350 92l-14 14 12 10-14 16 13 12" />
+          <path class="crack" d="M350 178l-12 12 14 12-12 14" />
+        </g>
+        <g id="feud-leaks"></g>
+        <g class="hf pop" data-at="s2+4.4" style="transform-origin: 520px 150px">
+          <rect x="440" y="110" width="160" height="80" rx="12" />
+          <text x="520" y="146">Hugging Face</text>
+          <text x="520" y="170" style="font-size:14px;font-weight:600;fill:var(--warn)">breached</text>
+        </g>
+      </svg>
+      <div class="meter panel rise" data-at="s4">
+        <div class="ends"><span>Model problem?</span><span>Engineering problem?</span></div>
+        <div class="bar"><div class="pin" id="feud-pin">YL</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 KALI -->
+  <section class="scene" data-scene="kali">
+    <p class="kicker rise" data-at="0"><span class="num">04</span>Technology · arXiv · NeurIPS 2026</p>
+    <h2 class="title rise" data-at="0.15">KaliBench: can a model write the command?</h2>
+    <div class="vis">
+      <div class="col-l kali-l">
+        <div class="term panel rise" id="kali-term" data-at="0.6">
+          <div class="term-bar"><i></i><i></i><i></i><span>Example query → command</span></div>
+          <div class="term-body">
+            <p class="q"><b>Query:</b> scan a host for open ports and service versions</p>
+            <p class="cmd"><span id="kali-cmd"></span><span class="caret"></span></p>
+          </div>
+        </div>
+        <div class="score panel rise" data-at="s3">
+          <div class="label">Best open-weight model · exact command</div>
+          <div class="track"><div class="fillbar" id="kali-fill"></div><div class="val" id="kali-val">0%</div></div>
+          <div class="scale"><span>0%</span><span>100%</span></div>
+        </div>
+      </div>
+      <div class="col-r kali-r">
+        <div class="tiles" data-at="0" data-off="s4">
+          <div class="tile panel pop" data-at="s1+0.3"><div class="n" data-count="8504" data-from="s1+0.3">0</div><p>query–command pairs</p></div>
+          <div class="tile panel pop" data-at="s1+4.2"><div class="n" data-count="1642" data-from="s1+4.2">0</div><p>Kali security tools</p></div>
+          <div class="tile panel pop" data-at="s2+0.4"><div class="n" data-count="23" data-from="s2+0.4">0</div><p>capability dimensions</p></div>
+          <div class="tile panel pop" data-at="s2+2.4"><div class="n" data-count="5" data-from="s2+2.4">0</div><p>security phases</p></div>
+        </div>
+        <div class="sizes">
+          <div class="sz small pop" data-at="s4+1">
+            <div class="ball">8B</div>
+            <p>fine-tuned</p>
+          </div>
+          <div class="eq pop" data-at="s4+3.4">≈<small>matched</small></div>
+          <div class="sz big pop" data-at="s4+2.2">
+            <div class="ball">685B</div>
+            <p>mixture-of-experts</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 GPU -->
+  <section class="scene" data-scene="gpu">
+    <p class="kicker rise" data-at="0"><span class="num">05</span>Technology · Phoronix</p>
+    <h2 class="title rise" data-at="0.15">Decade-old Radeons get a modern driver</h2>
+    <div class="vis">
+      <svg class="lanes" viewBox="0 0 660 430" aria-hidden="true">
+        <rect class="lane" x="0" y="20" width="660" height="150" rx="14" />
+        <text class="lane-t" x="24" y="56">radeon</text>
+        <text class="lane-s" x="24" y="80">legacy driver</text>
+        <rect class="lane new" x="0" y="250" width="660" height="150" rx="14" />
+        <text class="lane-t new" x="24" y="286">amdgpu</text>
+        <text class="lane-s" x="24" y="310">modern driver</text>
+        <path class="route" d="M330 170 C 330 205, 330 215, 330 250" data-at="s1" />
+        <g id="gpu-card" class="gpu-card">
+          <rect class="pcb" x="0" y="0" width="250" height="100" rx="8" />
+          <rect x="250" y="20" width="10" height="60" fill="#9a8a4c" />
+          <circle class="fan" cx="70" cy="50" r="34" /><path class="blade" d="M70 20 l8 26 -8 4 -8-4z M100 50 l-26 8 -4-8 4-8z M70 80 l-8-26 8-4 8 4z M40 50 l26-8 4 8-4 8z" />
+          <circle class="fan" cx="160" cy="50" r="34" /><path class="blade" d="M160 20 l8 26 -8 4 -8-4z M190 50 l-26 8 -4-8 4-8z M160 80 l-8-26 8-4 8 4z M130 50 l26-8 4 8-4 8z" />
+          <text x="284" y="44" style="fill:var(--ink);font-size:18px">GCN 1.0 / 1.1</text><text x="284" y="68" style="fill:var(--ink-faint);font-weight:600">decade-old cards</text>
+        </g>
+      </svg>
+      <div class="col-r gpu-r">
+        <div class="who-tag panel slide-r" data-at="s1"><b>Timur Kristóf</b> · Valve · a year of work</div>
+        <div class="checks panel">
+          <div class="check slide-r" data-at="s2+0.3">Display bugs fixed</div>
+          <div class="check slide-r" data-at="s2+1.3">Power management fixed</div>
+          <div class="check slide-r" data-at="s2+2.6">Soft reset added</div>
+        </div>
+        <div class="speed panel rise" data-at="s3">
+          <div class="label">Performance · Linux 6.19</div>
+          <div class="row"><span>before</span><div class="b" id="gpu-before"></div></div>
+          <div class="row"><span>6.19</span><div class="b after" id="gpu-after">≈ +30%</div></div>
+        </div>
+        <p class="pin-tag rise" data-at="s4">📍 Presented at <b>XDC 2026</b>, Toronto</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 06 CRINGELY -->
+  <section class="scene" data-scene="cringely">
+    <p class="kicker rise" data-at="0"><span class="num">06</span>Ideas · Hacker News</p>
+    <h2 class="title rise" data-at="0.15">Farewell to a chronicler of the PC</h2>
+    <div class="vis">
+      <svg class="pc rise" data-at="0.6" viewBox="0 0 430 430" aria-hidden="true">
+        <rect class="case" x="55" y="20" width="320" height="270" rx="18" />
+        <rect class="bezel" x="80" y="42" width="270" height="200" rx="10" />
+        <rect class="screen" x="96" y="56" width="238" height="172" rx="16" />
+        <text class="crt" x="112" y="92">C:\&gt; <tspan id="crt-line"></tspan></text>
+        <text class="crt" x="112" y="124" data-at="s2+3.2">TRIUMPH OF</text>
+        <text class="crt" x="112" y="150" data-at="s2+3.6">THE NERDS</text>
+        <line class="vent" x1="250" y1="266" x2="350" y2="266" /><line class="vent" x1="250" y1="276" x2="350" y2="276" />
+        <rect class="case" x="25" y="300" width="380" height="70" rx="10" />
+        <rect x="70" y="322" width="120" height="10" rx="3" fill="#a69b82" />
+        <circle cx="360" cy="336" r="7" fill="#7fc98f" />
+      </svg>
+      <div class="bio">
+        <p class="nm rise" data-at="s1">Bob Cringely</p>
+        <p class="sub rise" data-at="s1+1">Mark Stevens · died early Saturday, aged 73</p>
+        <div class="works">
+          <div class="work panel rise" data-at="s2+0.8"><div class="k">Column</div><div class="v">InfoWorld</div></div>
+          <div class="work panel rise" data-at="s2+2.2"><div class="k">Book</div><div class="v">Accidental Empires</div></div>
+          <div class="work panel rise" data-at="s2+3.6"><div class="k">PBS</div><div class="v">Triumph of the Nerds</div></div>
+        </div>
+        <p class="epitaph rise" data-at="s3">The popular story of how the PC industry began.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUTRO -->
+  <section class="scene" data-scene="outro">
+    <svg class="waves rise" data-at="0" viewBox="0 0 220 120" aria-hidden="true">
+      <path class="arc" d="M85 80a30 30 0 0 1 50 0" />
+      <path class="arc" d="M62 64a58 58 0 0 1 96 0" />
+      <path class="arc" d="M38 48a88 88 0 0 1 144 0" />
+      <circle cx="110" cy="96" r="10" fill="var(--accent)" />
+    </svg>
+    <h1 class="mast rise" data-at="0.2" style="font-size:70px">That’s the signal</h1>
+    <ul class="recap rise" data-at="0.8">
+      <li>Default hard budget caps</li><li>Cloudflare Artifacts</li>
+      <li>LeCun on agent risk</li><li>KaliBench</li>
+      <li>GCN cards move to AMDGPU</li><li>Bob Cringely, 73</li>
+    </ul>
+    <p class="url pop" data-at="s1">Sources for every story → today’s edition</p>
+  </section>
+
+</div>
+<script src="timeline.js"></script>
+<script src="scenes.js"></script>
+<script src="../../../../assets/briefing/player.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+{
+  "paper": "The Vibe Signal",
+  "date": "2026-10-04",
+  "voice": "Samantha",
+  "rate": 178,
+  "scenes": [
+    {"id": "intro", "title": "Today on The Vibe Signal", "lines": [
+      {"text": "This is The Vibe Signal for Sunday, October 4, 2026.", "say": "This is The Vibe Signal, for Sunday, October fourth, 2026."},
+      {"text": "Today: guardrails for runaway cloud bills, a Git platform built for agents, a feud over AI safety, and a benchmark that tests models on real security tools."}
+    ]},
+    {"id": "caps", "title": "Hard budget caps by default", "lines": [
+      {"text": "First, runaway bills."},
+      {"text": "Simon Willison argues that pay-per-use services should stop at a spending limit, not just send warning emails."},
+      {"text": "Coding agents make it easy to deploy a service that quietly keeps running, and keeps billing."},
+      {"text": "Google Cloud launched Spend Caps in July."},
+      {"text": "In September, AWS added spending limits that pause a project for the rest of the month."},
+      {"text": "Willison's point: a hard stop should be the default, with an explicit opt-out."}
+    ]},
+    {"id": "artifacts", "title": "Cloudflare Artifacts opens to Workers", "lines": [
+      {"text": "Next, Cloudflare wants you to build the next Git platform."},
+      {"text": "Its Artifacts service, a versioned filesystem with a Git interface, now works with Workers."},
+      {"text": "New: a Workers binding, event subscriptions, deploys through Workers Builds, and a choice of US or EU data jurisdiction."},
+      {"text": "A contest for Git platforms built for many agents working at once closes October 14, with $25,000 in credits for first place.", "say": "A contest for Git platforms built for many agents working at once closes October fourteenth, with twenty-five thousand dollars in credits for first place."},
+      {"text": "Billing starts October 15, charged by repository operations and stored data.", "say": "Billing starts October fifteenth, charged by repository operations and stored data."}
+    ]},
+    {"id": "feud", "title": "LeCun: blame the sandbox", "lines": [
+      {"text": "Now, a feud over AI safety."},
+      {"text": "In a Fortune interview, Yann LeCun said he has zero concerns about rogue AI."},
+      {"text": "He blamed July's breach of Hugging Face by OpenAI agents on leaky, poorly designed sandboxes, and said the agents did what they were asked."},
+      {"text": "He also called Anthropic's Dario Amodei completely deluded for warning that AI could kill humanity."},
+      {"text": "The real dispute: are agent incidents a model problem, or an engineering problem? LeCun says engineering."}
+    ]},
+    {"id": "kali", "title": "KaliBench", "lines": [
+      {"text": "KaliBench is a new benchmark from the NeurIPS 2026 Evaluations and Datasets track."},
+      {"text": "It pairs 8,504 plain-language queries with the exact commands that fulfil them, across 1,642 Kali security tools.", "say": "It pairs eight thousand, five hundred and four plain-language queries with the exact commands that fulfil them, across sixteen hundred and forty-two Kali security tools."},
+      {"text": "The tools span 23 capability dimensions and five phases of security work."},
+      {"text": "Open-weight models top out at 42 percent exact-command accuracy."},
+      {"text": "And fine-tuned 8-billion-parameter models matched a 685-billion-parameter mixture-of-experts model.", "say": "And fine-tuned, eight-billion-parameter models matched a six-hundred-eighty-five-billion-parameter mixture-of-experts model."},
+      {"text": "It isolates one skill: turning a request into a command that actually runs."}
+    ]},
+    {"id": "gpu", "title": "Old Radeons, new driver", "lines": [
+      {"text": "Good news for old graphics cards on Linux."},
+      {"text": "Valve's Timur Kristóf spent a year moving decade-old AMD GCN 1.0 and 1.1 cards from the legacy Radeon driver to AMDGPU.", "say": "Valve's Timur Kristof spent a year moving decade-old A M D, G C N one point oh and one point one cards, from the legacy Radeon driver to A M D G P U."},
+      {"text": "He fixed display and power-management bugs, and added soft reset."},
+      {"text": "Linux 6.19 brought speedups of about 30 percent.", "say": "Linux six point nineteen brought speedups of about thirty percent."},
+      {"text": "He presented the work at XDC 2026 in Toronto.", "say": "He presented the work at X D C 2026, in Toronto."}
+    ]},
+    {"id": "cringely", "title": "Remembering Bob Cringely", "lines": [
+      {"text": "Finally, a farewell."},
+      {"text": "Mark Stevens, who wrote as Bob Cringely, died in his sleep early Saturday at 73, according to a post on Hacker News."},
+      {"text": "Commenters remembered his InfoWorld column, his book Accidental Empires, and his PBS documentary Triumph of the Nerds."},
+      {"text": "For many, his work was the story of how the personal computer industry began."}
+    ]},
+    {"id": "outro", "title": "Sources in today's edition", "lines": [
+      {"text": "That's The Vibe Signal for October 4.", "say": "That's The Vibe Signal, for October fourth."},
+      {"text": "Every story links to its sources in today's edition."}
+    ]}
+  ]
+}
