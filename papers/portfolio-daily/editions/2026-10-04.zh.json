@@ -1,0 +1,69 @@
+{
+  "id": "2026-10-04",
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T13:04:46Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今日要点：黄金录得连续第二周下跌，SEC批准首批3倍杠杆加密产品，Alphabet达成芯片供应协议。",
+  "stories": [
+    {
+      "headline": "黄金跌至约4,140美元，本周下跌约3.4%：收益率与美元抵消了疲软的就业数据",
+      "summary": "周五现货黄金下跌0.9%，报每盎司4,140.06美元，有望连续第二周下跌，10年期和30年期美债收益率均处于2002年以来最高。9月非农就业仅增加2.9万人，预期为9万人，黄金一度上涨逾1%，随后回吐涨幅。",
+      "whyItMatters": "就业数据不及预期使CME FedWatch显示的10月加息概率从本周早些时候的约70%降至约22%，但黄金仍收低。",
+      "category": "大宗商品",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Gold heads for weekly drop as strong dollar, elevated Treasury yields weigh (Kitco)",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-10-02/gold-heads-weekly-drop-strong-dollar-elevated-treasury-yields-weigh"
+        }
+      ]
+    },
+    {
+      "headline": "SEC批准六只3倍杠杆产品（含比特币和以太坊）在Cboe BZX上市",
+      "summary": "SEC于10月2日批准一项规则修改，允许Cboe BZX上市六只Volatility Shares产品，分别追踪比特币、以太坊、黄金、白银、原油和天然气每日回报的三倍。比特币和以太坊产品通过期货获得敞口，在另一份S-1注册声明生效前不能开始交易。",
+      "whyItMatters": "这是美国首批获批的三倍杠杆加密ETP；每日重置意味着多日回报可能偏离标的涨跌幅的三倍。",
+      "category": "监管",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "SEC approves 3x leveraged Bitcoin and Ether ETPs, but trading has to wait (TradingView)",
+          "url": "https://www.tradingview.com/news/cryptobriefing:8abfe99ae094b:0-sec-approves-3x-leveraged-bitcoin-and-ether-etps-but-trading-has-to-wait/"
+        },
+        {
+          "title": "Bitcoin holds near $85,000 as SEC clears first 3x leveraged crypto ETPs (Investing.com)",
+          "url": "https://ph.investing.com/news/cryptocurrency-news/bitcoin-holds-near-85000-as-sec-clears-first-3x-leveraged-crypto-etps-2612940"
+        }
+      ]
+    },
+    {
+      "headline": "比特币稳在约8.5万美元附近，凯茜·伍德称比特币对黄金“拐点已现”",
+      "summary": "比特币交易于约8.5万美元附近，ARK的凯茜·伍德称比特币对黄金的拐点已现，并指出自8月中旬以来比特币上涨约33%，黄金下跌4.8%。ARK称两者的相关性已从约0.1转为负值。",
+      "whyItMatters": "所引数据显示自8月中旬以来比特币跑赢黄金；趋势将延续是伍德的观点，而非已报道的结果。",
+      "category": "加密货币",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Cathie Wood: Bitcoin's 'turn is in' against gold (Stocktwits)",
+          "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/cathie-wood-bitcoins-turn-is-in-against-gold-as-btc-reclaims-the-upper-hand/cZDFZEQRB1Z"
+        },
+        {
+          "title": "Bitcoin holds near $85,000 (Investing.com)",
+          "url": "https://ph.investing.com/news/cryptocurrency-news/bitcoin-holds-near-85000-as-sec-clears-first-3x-leveraged-crypto-etps-2612940"
+        }
+      ]
+    },
+    {
+      "headline": "Alphabet向一家未披露名称的软件开发商开放大批自研芯片；股价收涨1.6%",
+      "summary": "Alphabet于10月1日确认与一家未具名的先进软件系统开发商达成自研芯片供应协议，GOOGL收于343.50美元，上涨1.555%。同一报道提到联邦法院拒绝强制Alphabet剥离其广告交易平台。",
+      "whyItMatters": "交易对手未披露，因此协议规模和条款不明；这为Alphabet自研芯片增加了外部客户用途。",
+      "category": "公司",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Alphabet (NASDAQ:GOOGL) Lands Chip Pact, New Gemini (Kalkine Media)",
+          "url": "https://kalkinemedia.com/us/stocks/communication/alphabet-nasdaqgoogl-lands-chip-pact-new-gemini"
+        }
+      ]
+    }
+  ]
+}

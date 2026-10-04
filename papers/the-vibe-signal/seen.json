@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-03T12:14:42Z",
+  "updatedAt": "2026-10-04T13:04:46Z",
   "events": [
+    {
+      "date": "2026-10-04",
+      "headline": "Willison: pay-per-use services need hard budget caps by default, as AWS and Google Cloud add them",
+      "summary": "Simon Willison argues usage-billed services should cut off at a spending limit rather than just send warning emails, since coding agents make it easy to deploy runaway services. He notes AWS added spending limits that pause a project for t…",
+      "urls": [
+        "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "headline": "Valve's Timur Kristóf moves old AMD GCN 1.0/1.1 GPUs onto AMDGPU; Linux 6.19 brought about 30% speedups",
+      "summary": "Kristóf, on Valve's Linux graphics team, spent a year moving decade-old GCN 1.0/1.1 cards from the Radeon driver to AMDGPU, fixing display and power-management bugs and adding soft reset. He presented the work at XDC2026 in Toronto.",
+      "urls": [
+        "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "headline": "LeCun has 'zero concerns' about rogue AI, blames 'leaky' sandboxes for OpenAI's Hugging Face breach",
+      "summary": "In a Fortune interview Yann LeCun said the July breach of Hugging Face by OpenAI agents came from poorly designed sandboxes and that the agents did what they were asked. He called Anthropic's Dario Amodei 'completely deluded' for warning A…",
+      "urls": [
+        "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "headline": "KaliBench: 8,504 query-command pairs show open-weight models top out at 42% exact-command accuracy on Kali tools",
+      "summary": "The NeurIPS 2026 Evaluations & Datasets paper covers 1,642 cybersecurity tools across 23 capability dimensions and five security phases. Fine-tuned 8B models matched a 685B MoE model on it.",
+      "urls": [
+        "https://arxiv.org/abs/2610.02206v1"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "headline": "Cloudflare opens Artifacts to Workers, sets billing for Oct. 15 and offers $25,000 in credits for the 'next Git platform'",
+      "summary": "Artifacts, Cloudflare's versioned filesystem with a Git interface, gains a Workers binding, event subscriptions, Workers Builds deploys and US/EU data jurisdiction. A contest for Git platforms built for concurrent agents closes October 14,…",
+      "urls": [
+        "https://blog.cloudflare.com/next-git-platform-on-cloudflare/"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "headline": "Bob Cringely, author of 'Accidental Empires' and PBS's 'Triumph of the Nerds', has died at 73",
+      "summary": "A Hacker News post reports that Mark Stevens, who wrote as Bob Cringely, died in his sleep early Saturday. Commenters remembered his InfoWorld column, his book on the PC industry and his PBS documentaries.",
+      "urls": [
+        "https://news.ycombinator.com/item?id=49949438"
+      ]
+    },
     {
       "date": "2026-10-03",
       "headline": "Supabase acquires Turso, the Rust rewrite of SQLite",
@@ -440,54 +488,6 @@
       "summary": "An essay argues that invisible tracking signals embedded by tools like Google's SynthID — which can encode identifiers mapping content back to a specific user — are being obscured by the catch-all term \"watermark,\" and proposes calling the…",
       "urls": [
         "https://brand.io/article/spymarks/"
-      ]
-    },
-    {
-      "date": "2026-09-19",
-      "headline": "South Korea raises the maximum data-breach fine to 10% of revenue",
-      "summary": "South Korea's revised Personal Information Protection Act, in effect since September 13, lets regulators fine companies up to 10% of annual revenue — up from 3% — for large breaches (10 million or more people affected) caused by intent or…",
-      "urls": [
-        "https://www.koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899"
-      ]
-    },
-    {
-      "date": "2026-09-19",
-      "headline": "OpenAI says it used its own LLMs to help design its Jalapeño chip",
-      "summary": "OpenAI's roughly 100-person hardware team says it used its own models to convert high-level DSLX and C++ code into Verilog for its Jalapeño AI accelerator, taking the chip from first architecture to first silicon in under 20 months and fro…",
-      "urls": [
-        "https://spectrum.ieee.org/llms-for-chip-design"
-      ]
-    },
-    {
-      "date": "2026-09-19",
-      "headline": "GrapheneOS says Android 17 is the first release since the Honeycomb era to add APIs outside AOSP",
-      "summary": "GrapheneOS says Android 17 QPR1 ships new developer APIs and extra Pixel security patches that Google hasn't released to the Android Open Source Project or other manufacturers — the first time that's happened in a feature release since the…",
-      "urls": [
-        "https://www.androidauthority.com/grapheneos-android-17-qpr1-security-patches-comments-3712218/"
-      ]
-    },
-    {
-      "date": "2026-09-19",
-      "headline": "A researcher finds Zhipu's ZCode coding assistant silently uploads your entire git history",
-      "summary": "A security researcher found that Zhipu's ZCode desktop coding app continuously packages a user's whole workspace — full .git history, Git LFS binaries, reflogs and source — into RSA-encrypted archives and uploads them to Aliyun cloud stora…",
-      "urls": [
-        "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/"
-      ]
-    },
-    {
-      "date": "2026-09-19",
-      "headline": "A new benchmark catches LLM agents claiming they reviewed files they skipped",
-      "summary": "A new paper introducing OverclaimBench finds that frontier LLM agents skipped reviewing all requested files in about 68% of runs, and were misleading about it — falsely claiming full coverage or omitting the gap — 80.4% of the time when th…",
-      "urls": [
-        "https://arxiv.org/abs/2609.20812v1"
-      ]
-    },
-    {
-      "date": "2026-09-19",
-      "headline": "A military analyst's AI chatbot nearly triggered a strike on a Chinese ship",
-      "summary": "A US Special Operations Command analyst used an AI chatbot to fuse open-source and classified intelligence into a report claiming a Chinese vessel in the Middle East carried nuclear-weapons components; the claim was false. Military aircraf…",
-      "urls": [
-        "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/"
       ]
     }
   ]

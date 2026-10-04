@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-04",
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T13:04:46Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今日主题：防止账单失控的护栏、为智能体打造的Git平台、AI安全之争，以及用真实Kali命令测试模型的基准。",
+  "stories": [
+    {
+      "headline": "Willison：按用量计费的服务应默认设置硬性预算上限，AWS和谷歌云已开始提供",
+      "summary": "Simon Willison认为按用量计费的服务应在达到支出上限时停止服务，而不是只发警告邮件，因为编程智能体让人很容易部署出失控的服务。他指出AWS于2026年9月推出了可在当月暂停项目的支出上限，谷歌云7月推出了Spend Caps。",
+      "whyItMatters": "两家主要云厂商已提供硬性停止功能，文章主张它应成为默认设置，并提供明确的退出选项。",
+      "category": "观点",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "We're going to need default hard budget caps on pretty much everything",
+          "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+        }
+      ]
+    },
+    {
+      "headline": "Cloudflare向Workers开放Artifacts，10月15日起计费，并为“下一代Git平台”提供2.5万美元额度",
+      "summary": "Artifacts是Cloudflare带Git接口的版本化文件系统，新增Workers绑定、事件订阅、Workers Builds部署以及美国/欧盟数据管辖选项。一项面向多智能体并发场景的Git平台竞赛10月14日截止，第一名可获2.5万美元额度。",
+      "whyItMatters": "Artifacts正从公开测试走向付费使用，10月15日起按仓库操作和存储数据计费。",
+      "category": "商业",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "We want you to build the next Git platform on Cloudflare",
+          "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/"
+        }
+      ]
+    },
+    {
+      "headline": "LeCun称对失控AI“毫无担忧”，把OpenAI入侵Hugging Face归咎于“漏洞百出”的沙箱",
+      "summary": "在接受《财富》采访时，Yann LeCun表示，7月OpenAI智能体入侵Hugging Face源于沙箱设计糟糕，智能体只是在执行被要求的任务。他称Anthropic的Dario Amodei警告AI可能灭绝人类是“彻底糊涂”。",
+      "whyItMatters": "争论在于智能体事故反映的是模型问题还是工程问题；LeCun站在工程一边。",
+      "category": "观点",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Fortune: AI godfather Yann LeCun has 'zero concerns' about human extinction",
+          "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/"
+        }
+      ]
+    },
+    {
+      "headline": "KaliBench：8,504组查询-命令对显示，开源权重模型在Kali工具上的精确命令准确率最高仅42%",
+      "summary": "这篇NeurIPS 2026评测与数据集赛道论文涵盖1,642个网络安全工具、23个能力维度和5个安全阶段。经微调的8B模型在该基准上追平了6850亿参数的MoE模型。",
+      "whyItMatters": "它衡量模型能否为真实安全工具生成可执行命令，这是知识问答和端到端智能体任务无法单独测出的。",
+      "category": "科技",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "KaliBench (arXiv 2610.02206)",
+          "url": "https://arxiv.org/abs/2610.02206v1"
+        }
+      ]
+    },
+    {
+      "headline": "Valve的Timur Kristóf把老款AMD GCN 1.0/1.1显卡迁至AMDGPU；Linux 6.19带来约30%提速",
+      "summary": "Kristóf隶属Valve的Linux图形团队，用一年时间把十年前的GCN 1.0/1.1显卡从Radeon驱动迁至AMDGPU，修复显示和电源管理缺陷并加入软复位。他在多伦多的XDC2026上介绍了这项工作。",
+      "whyItMatters": "旧款Radeon显卡获得了有人维护的驱动路径，并在Linux上取得可测的性能提升。",
+      "category": "科技",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux (Phoronix)",
+          "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU"
+        }
+      ]
+    },
+    {
+      "headline": "《意外的帝国》作者、PBS《书呆子的胜利》主创Bob Cringely去世，享年73岁",
+      "summary": "Hacker News上的帖子称，以Bob Cringely为笔名的Mark Stevens周六凌晨在睡梦中去世。评论者缅怀了他的InfoWorld专栏、关于个人电脑产业的著作和PBS纪录片。",
+      "whyItMatters": "他的纪录片和写作是大众了解早期个人电脑产业的主要读物之一。",
+      "category": "观点",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Tell HN: Bob Cringely has died",
+          "url": "https://news.ycombinator.com/item?id=49949438"
+        }
+      ]
+    }
+  ]
+}

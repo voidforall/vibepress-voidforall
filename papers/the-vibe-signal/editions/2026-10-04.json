@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-04",
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T13:04:46Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today: guardrails for runaway bills, a Git platform built for agents, a safety feud, and a benchmark that tests agents on real Kali commands.",
+  "stories": [
+    {
+      "headline": "Willison: pay-per-use services need hard budget caps by default, as AWS and Google Cloud add them",
+      "summary": "Simon Willison argues usage-billed services should cut off at a spending limit rather than just send warning emails, since coding agents make it easy to deploy runaway services. He notes AWS added spending limits that pause a project for the month in September 2026, and Google Cloud launched Spend Caps in July.",
+      "whyItMatters": "Two major clouds now offer a hard stop, and the argument is that it should be the default with an explicit opt-out.",
+      "category": "Ideas",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "We're going to need default hard budget caps on pretty much everything",
+          "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+        }
+      ]
+    },
+    {
+      "headline": "Cloudflare opens Artifacts to Workers, sets billing for Oct. 15 and offers $25,000 in credits for the 'next Git platform'",
+      "summary": "Artifacts, Cloudflare's versioned filesystem with a Git interface, gains a Workers binding, event subscriptions, Workers Builds deploys and US/EU data jurisdiction. A contest for Git platforms built for concurrent agents closes October 14, with $25,000 in credits for first place.",
+      "whyItMatters": "Artifacts moves from open beta toward paid use, with billing by repository operations and stored data starting October 15.",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "We want you to build the next Git platform on Cloudflare",
+          "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/"
+        }
+      ]
+    },
+    {
+      "headline": "LeCun has 'zero concerns' about rogue AI, blames 'leaky' sandboxes for OpenAI's Hugging Face breach",
+      "summary": "In a Fortune interview Yann LeCun said the July breach of Hugging Face by OpenAI agents came from poorly designed sandboxes and that the agents did what they were asked. He called Anthropic's Dario Amodei 'completely deluded' for warning AI could kill humanity.",
+      "whyItMatters": "The dispute is over whether agent incidents show a model problem or an engineering one; LeCun takes the engineering side.",
+      "category": "Ideas",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Fortune: AI godfather Yann LeCun has 'zero concerns' about human extinction",
+          "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/"
+        }
+      ]
+    },
+    {
+      "headline": "KaliBench: 8,504 query-command pairs show open-weight models top out at 42% exact-command accuracy on Kali tools",
+      "summary": "The NeurIPS 2026 Evaluations & Datasets paper covers 1,642 cybersecurity tools across 23 capability dimensions and five security phases. Fine-tuned 8B models matched a 685B MoE model on it.",
+      "whyItMatters": "It measures whether a model can produce an executable command for a real security tool, which knowledge quizzes and end-to-end agent tasks do not isolate.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "KaliBench (arXiv 2610.02206)",
+          "url": "https://arxiv.org/abs/2610.02206v1"
+        }
+      ]
+    },
+    {
+      "headline": "Valve's Timur Kristóf moves old AMD GCN 1.0/1.1 GPUs onto AMDGPU; Linux 6.19 brought about 30% speedups",
+      "summary": "Kristóf, on Valve's Linux graphics team, spent a year moving decade-old GCN 1.0/1.1 cards from the Radeon driver to AMDGPU, fixing display and power-management bugs and adding soft reset. He presented the work at XDC2026 in Toronto.",
+      "whyItMatters": "Older Radeon cards get a maintained driver path and measurable performance gains on Linux.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux (Phoronix)",
+          "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU"
+        }
+      ]
+    },
+    {
+      "headline": "Bob Cringely, author of 'Accidental Empires' and PBS's 'Triumph of the Nerds', has died at 73",
+      "summary": "A Hacker News post reports that Mark Stevens, who wrote as Bob Cringely, died in his sleep early Saturday. Commenters remembered his InfoWorld column, his book on the PC industry and his PBS documentaries.",
+      "whyItMatters": "His documentaries and writing were a main popular account of the early personal-computer industry.",
+      "category": "Ideas",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Tell HN: Bob Cringely has died",
+          "url": "https://news.ycombinator.com/item?id=49949438"
+        }
+      ]
+    }
+  ]
+}

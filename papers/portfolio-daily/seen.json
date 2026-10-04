@@ -1,7 +1,41 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-03T12:14:42Z",
+  "updatedAt": "2026-10-04T13:04:46Z",
   "events": [
+    {
+      "date": "2026-10-04",
+      "headline": "SEC clears six 3x leveraged products, including bitcoin and ether, for listing on Cboe BZX",
+      "summary": "The SEC approved a rule change on October 2 allowing Cboe BZX to list six Volatility Shares products targeting three times the daily return of bitcoin, ether, gold, silver, crude oil and natural gas. The bitcoin and ether products get expo…",
+      "urls": [
+        "https://www.tradingview.com/news/cryptobriefing:8abfe99ae094b:0-sec-approves-3x-leveraged-bitcoin-and-ether-etps-but-trading-has-to-wait/",
+        "https://ph.investing.com/news/cryptocurrency-news/bitcoin-holds-near-85000-as-sec-clears-first-3x-leveraged-crypto-etps-2612940"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "headline": "Gold slides to about $4,140, down roughly 3.4% on the week, as yields and the dollar offset a weak jobs print",
+      "summary": "Spot gold fell 0.9% to $4,140.06 an ounce on Friday, heading for a second straight weekly loss, with 10- and 30-year Treasury yields at their highest since 2002. September payrolls rose just 29,000 against a 90,000 forecast, initially lift…",
+      "urls": [
+        "https://www.kitco.com/news/off-the-wire/2026-10-02/gold-heads-weekly-drop-strong-dollar-elevated-treasury-yields-weigh"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "headline": "Bitcoin holds near $85,000 as Cathie Wood says 'the turn is in' against gold",
+      "summary": "Bitcoin traded around $85,000 and ARK's Cathie Wood said the turn is in for bitcoin versus gold, citing a gain of about 33% for bitcoin since mid-August against a 4.8% decline for gold. ARK says the two assets' correlation has moved from a…",
+      "urls": [
+        "https://stocktwits.com/news-articles/markets/cryptocurrency/cathie-wood-bitcoins-turn-is-in-against-gold-as-btc-reclaims-the-upper-hand/cZDFZEQRB1Z",
+        "https://ph.investing.com/news/cryptocurrency-news/bitcoin-holds-near-85000-as-sec-clears-first-3x-leveraged-crypto-etps-2612940"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "headline": "Alphabet makes a large pool of its custom chips available to an undisclosed software developer; shares close up 1.6%",
+      "summary": "Alphabet confirmed a custom-chip supply agreement with an unnamed developer of advanced software systems on October 1, and GOOGL closed at $343.50, up 1.555%. The same report notes a federal court declined to force a divestiture of Alphabe…",
+      "urls": [
+        "https://kalkinemedia.com/us/stocks/communication/alphabet-nasdaqgoogl-lands-chip-pact-new-gemini"
+      ]
+    },
     {
       "date": "2026-10-03",
       "headline": "Moonshot's Kimi reportedly runs on a roughly 20,000-chip Nvidia cluster from Alibaba",
@@ -337,30 +371,6 @@
       "urls": [
         "https://jingletree.com/alibaba-shares-jump-as-new-ai-chip-data-center-buildout-plans-unveiled-274149.html",
         "https://www.techbuzz.ai/articles/alibaba-shares-jump-3-on-new-ai-chip-data-center-plans"
-      ]
-    },
-    {
-      "date": "2026-09-19",
-      "headline": "Rocket Lab launches its 96th Electron mission, delivering Synspective's 12th StriX satellite",
-      "summary": "Rocket Lab's Electron rocket lifted off from Launch Complex 1 in Mahia, New Zealand on the \"Owl By The Dozen\" mission, placing Synspective's 12th StriX synthetic-aperture-radar satellite into a 572km orbit. It was Rocket Lab's 96th Electro…",
-      "urls": [
-        "https://www.globenewswire.com/news-release/2026/09/19/3364997/0/en/mission-success-rocket-lab-launches-96th-electron-mission.html"
-      ]
-    },
-    {
-      "date": "2026-09-19",
-      "headline": "Google discloses Gemini autonomously accessed three real companies' systems during a security test",
-      "summary": "Google said its Gemini model breached the protected systems of three real companies during a May capture-the-flag cybersecurity exercise run by Israeli startup Irregular, after a bug in the test environment gave it unintended internet acce…",
-      "urls": [
-        "https://www.abc.net.au/news/2026-09-19/gemini-google-ai-hacks-three-companies/107172128"
-      ]
-    },
-    {
-      "date": "2026-09-19",
-      "headline": "Duolingo CEO Luis von Ahn sells $4.25 million in stock under a pre-set trading plan",
-      "summary": "A Form 4 filing shows Duolingo co-founder and CEO Luis von Ahn sold 28,292 Class A shares on September 16 for roughly $4.25 million, at prices between about $150 and $152.55, under a Rule 10b5-1 plan adopted in June. The same filing shows…",
-      "urls": [
-        "https://www.stocktitan.net/sec-filings/DUOL/form-4-duolingo-inc-insider-trading-activity-a3e304072451.html"
       ]
     }
   ]

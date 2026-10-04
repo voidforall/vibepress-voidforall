@@ -1,0 +1,69 @@
+{
+  "id": "2026-10-04",
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T13:04:46Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Gold's second weekly loss, a first-of-its-kind SEC approval for leveraged crypto products, and an Alphabet chip deal set the day.",
+  "stories": [
+    {
+      "headline": "Gold slides to about $4,140, down roughly 3.4% on the week, as yields and the dollar offset a weak jobs print",
+      "summary": "Spot gold fell 0.9% to $4,140.06 an ounce on Friday, heading for a second straight weekly loss, with 10- and 30-year Treasury yields at their highest since 2002. September payrolls rose just 29,000 against a 90,000 forecast, initially lifting gold more than 1% before the gains faded.",
+      "whyItMatters": "The jobs miss cut CME FedWatch odds of an October rate hike from about 70% earlier in the week to around 22%, yet gold still closed lower.",
+      "category": "Commodities",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Gold heads for weekly drop as strong dollar, elevated Treasury yields weigh (Kitco)",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-10-02/gold-heads-weekly-drop-strong-dollar-elevated-treasury-yields-weigh"
+        }
+      ]
+    },
+    {
+      "headline": "SEC clears six 3x leveraged products, including bitcoin and ether, for listing on Cboe BZX",
+      "summary": "The SEC approved a rule change on October 2 allowing Cboe BZX to list six Volatility Shares products targeting three times the daily return of bitcoin, ether, gold, silver, crude oil and natural gas. The bitcoin and ether products get exposure through futures, and trading cannot start until a separate Form S-1 takes effect.",
+      "whyItMatters": "These are the first triple-leveraged crypto ETPs approved in the US; the daily reset means multi-day returns can diverge from three times the underlying move.",
+      "category": "Regulatory",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "SEC approves 3x leveraged Bitcoin and Ether ETPs, but trading has to wait (TradingView)",
+          "url": "https://www.tradingview.com/news/cryptobriefing:8abfe99ae094b:0-sec-approves-3x-leveraged-bitcoin-and-ether-etps-but-trading-has-to-wait/"
+        },
+        {
+          "title": "Bitcoin holds near $85,000 as SEC clears first 3x leveraged crypto ETPs (Investing.com)",
+          "url": "https://ph.investing.com/news/cryptocurrency-news/bitcoin-holds-near-85000-as-sec-clears-first-3x-leveraged-crypto-etps-2612940"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin holds near $85,000 as Cathie Wood says 'the turn is in' against gold",
+      "summary": "Bitcoin traded around $85,000 and ARK's Cathie Wood said the turn is in for bitcoin versus gold, citing a gain of about 33% for bitcoin since mid-August against a 4.8% decline for gold. ARK says the two assets' correlation has moved from about 0.1 to negative.",
+      "whyItMatters": "The cited figures show bitcoin outperforming gold since mid-August; the view that the trend will continue is Wood's opinion, not a reported outcome.",
+      "category": "Crypto",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Cathie Wood: Bitcoin's 'turn is in' against gold (Stocktwits)",
+          "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/cathie-wood-bitcoins-turn-is-in-against-gold-as-btc-reclaims-the-upper-hand/cZDFZEQRB1Z"
+        },
+        {
+          "title": "Bitcoin holds near $85,000 (Investing.com)",
+          "url": "https://ph.investing.com/news/cryptocurrency-news/bitcoin-holds-near-85000-as-sec-clears-first-3x-leveraged-crypto-etps-2612940"
+        }
+      ]
+    },
+    {
+      "headline": "Alphabet makes a large pool of its custom chips available to an undisclosed software developer; shares close up 1.6%",
+      "summary": "Alphabet confirmed a custom-chip supply agreement with an unnamed developer of advanced software systems on October 1, and GOOGL closed at $343.50, up 1.555%. The same report notes a federal court declined to force a divestiture of Alphabet's ad exchange.",
+      "whyItMatters": "The counterparty was not disclosed, so the deal's size and terms are unknown; it adds an outside-customer use for Alphabet's in-house silicon.",
+      "category": "Company",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Alphabet (NASDAQ:GOOGL) Lands Chip Pact, New Gemini (Kalkine Media)",
+          "url": "https://kalkinemedia.com/us/stocks/communication/alphabet-nasdaqgoogl-lands-chip-pact-new-gemini"
+        }
+      ]
+    }
+  ]
+}
