@@ -1,0 +1,78 @@
+{
+  "id": "2026-10-05",
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T15:34:34Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今日看点：一个 1250 亿参数模型被塞进游戏硬件；丹麦人口登记库泄露源于一家企业的合法访问权限；Cloudflare 推出智能体基础设施。商业方面则有一家机器人独角兽，以及华为与高通的专利协议。",
+  "stories": [
+    {
+      "headline": "丹麦披露 880 万人的 CPR 记录遭未经授权访问",
+      "summary": "丹麦当局表示，一家私营企业对中央人口登记库的合法访问权限在 9 月被滥用，约 880 万条记录（含已故者和已移居国外者）的姓名、地址和身份号码被获取。管理方于 10 月 2 日发现异常，撤销了该公司的访问权限，并通知了数据保护机构。",
+      "whyItMatters": "薄弱环节是合法的第三方访问通道，而非外部入侵；该登记库总共约有 1,100 万条记录。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Denmark reports unauthorized access to 8.8 million people's CPR data - CyberInsider",
+          "url": "https://cyberinsider.com/denmark-reports-unauthorized-access-to-8-8-million-peoples-cpr-data/"
+        },
+        {
+          "title": "Denmark Data Breach Exposes 8.8 Million People's Personal Data - Insurance Journal",
+          "url": "https://www.insurancejournal.com/news/international/2026/10/05/887972.htm"
+        }
+      ]
+    },
+    {
+      "headline": "Strata 让 1250 亿参数的 Qwen 模型在单张消费级显卡上运行",
+      "summary": "开源引擎 Strata 通过把权重分布在 GPU、系统内存和 SSD 上，让 Qwen3.8-Flash-Next（125B）在显存 12 GB 以上、内存 32 GB 以上的游戏电脑上运行。其 README 报告在 RTX 5070 上输出速度为 53 token/秒，推测解码带来 1.6–1.8 倍加速。",
+      "whyItMatters": "它展示了内存分层能把本地推理推到多远，但 README 也提到加载时会卡顿 1–3 分钟，且默认一次只处理一个请求。",
+      "category": "技术",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Strata (GitHub)",
+          "url": "https://github.com/Niko1221/Strata"
+        }
+      ]
+    },
+    {
+      "headline": "Cloudflare 为智能体推出测试版网页搜索 API",
+      "summary": "该 API 让智能体和应用通过 REST 或 Workers AI 绑定搜索网页，请求经由 AI Gateway，带有日志记录并支持零数据留存。Ceramic.ai、Exa 和 Linkup 为首批提供商，按其标准费率计费，Cloudflare 不加价。",
+      "whyItMatters": "Cloudflare 现在把搜索接地纳入与 AI Gateway 流量相同的计费和日志路径。",
+      "category": "技术",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Web Search API - Cloudflare changelog",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/"
+        }
+      ]
+    },
+    {
+      "headline": "华为与高通签署多年期专利交叉许可协议",
+      "summary": "10 月 5 日公布的协议涵盖 5G、计算、AI 和网络领域的互惠许可，以及高通收购华为部分美国专利。双方均强调 FRAND 原则，交易在完成前需获得监管批准。",
+      "whyItMatters": "这是两家公司之间的正式许可安排，仍取决于监管机构的批准。",
+      "category": "商业",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Huawei and Qualcomm Announce Broad Patent License Agreement - Huawei",
+          "url": "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement"
+        }
+      ]
+    },
+    {
+      "headline": "德国 RobCo 通过员工股份出售估值突破 10 亿美元",
+      "summary": "这家慕尼黑机器人公司通过二级市场出售突破 10 亿美元估值，九个月内估值翻倍，参与者包括红杉、Lightspeed 等老股东，以及新投资者 Cherry Ventures 和 European Tech Collective。此前公司于 2026 年 1 月完成 1 亿美元 C 轮融资。",
+      "whyItMatters": "此次估值来自二级交易，而非新的一级资本。",
+      "category": "商业",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Europe's new robotics unicorn: Germany's RobCo hits $1B valuation - Tech Funding News",
+          "url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/"
+        }
+      ]
+    }
+  ]
+}

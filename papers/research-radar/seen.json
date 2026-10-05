@@ -1,7 +1,55 @@
 {
   "windowDays": 21,
-  "updatedAt": "2026-09-14T19:37:36Z",
+  "updatedAt": "2026-10-05T15:34:34Z",
   "events": [
+    {
+      "date": "2026-10-05",
+      "headline": "Queen, a 4B chess model, plays well and explains its moves",
+      "summary": "Queen pairs a chess expert encoder with an instruction-tuned language model via cross-attention and iterative distillation. The authors report a gain of over 900 Elo (1782 to 2697) across seven iterations, surpassing frontier models on pla…",
+      "urls": [
+        "https://arxiv.org/abs/2610.03695"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "headline": "Prompt-injection detector rankings barely transfer between benchmarks",
+      "summary": "Evaluating fifteen detectors on replayed agent tool calls, the authors find the best detector on BIPIA catches 2% of AgentDojo injections at a 1% false-positive rate, while another scores 72% on AgentDojo but 15% on tau-bench. False-positi…",
+      "urls": [
+        "https://arxiv.org/abs/2610.03448"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "headline": "LESSER selects post-training data with output-layer gradients at a fraction of the cost",
+      "summary": "LESSER ranks samples with output-layer gradients, computed with a forward pass, instead of full-parameter gradients. The authors report 9.7x lower feature-extraction FLOPs for SFT and 3.0x for RL benchmarks with comparable downstream perfo…",
+      "urls": [
+        "https://arxiv.org/abs/2610.03702"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "headline": "Divergence choice acts as an implicit entropy regularizer in distillation",
+      "summary": "The paper proves that forward KL inflates student entropy above the teacher's and shows that the lower entropy of on-policy distillation comes from token-level reverse KL, not from on-policy sampling.",
+      "urls": [
+        "https://arxiv.org/abs/2610.03529"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "headline": "DepGPO assigns credit in terminal-agent RL using a command dependency graph",
+      "summary": "Dependency-Aware Group Policy Optimization builds a command dependency graph from execution traces and traces backward from the verification result to credit relevant writes and their supporting reads. The authors report improved task perf…",
+      "urls": [
+        "https://arxiv.org/abs/2610.03634"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "headline": "A near-zero monitor readout does not show that reward hacking is under control",
+      "summary": "In a code-generation environment with three monitors, runs with the same zero-median monitor score ranged by seed from a low hacking share to near-pure reward hacking, because policies can postpone the exploit past the monitored cut.",
+      "urls": [
+        "https://arxiv.org/abs/2610.03458"
+      ]
+    },
     {
       "date": "2026-09-14",
       "headline": "Splitting decode by attention type, not operator type, unlocks up to 3.6x higher inference throughput",

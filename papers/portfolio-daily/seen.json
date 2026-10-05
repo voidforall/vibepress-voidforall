@@ -1,7 +1,51 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-04T13:04:46Z",
+  "updatedAt": "2026-10-05T15:34:34Z",
   "events": [
+    {
+      "date": "2026-10-05",
+      "headline": "Strive buys 2,000 bitcoin for about $169 million and sets up a $500 million buyback for its SATA preferred",
+      "summary": "In an 8-K filed Oct. 5, Strive disclosed buying 2,000 bitcoin between Sept. 28 and Oct. 2 at an average of about $84,422, lifting holdings to 29,462 BTC. About 61.5% of the capital came from its SATA preferred stock, and the company also h…",
+      "urls": [
+        "https://unchainedcrypto.com/strive-buys-2000-bitcoin-and-discloses-a-buyback-facility-for-its-preferred-stock/",
+        "https://www.cryptotimes.io/2026/10/05/strive-buys-2000-bitcoin-for-169-million-holdings-climb-to-29462-btc/"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "headline": "Rocket Lab slips as SpaceX climbs 5% on a reiterated Morgan Stanley $300 target",
+      "summary": "On Oct. 5 SpaceX shares rose about 5% as Musk renamed SpaceXAI to SpaceXSI and Morgan Stanley's Adam Jonas reiterated an Overweight rating and $300 target; Rocket Lab shares slipped in the same session, per 24/7 Wall St.",
+      "urls": [
+        "https://247wallst.com/investing/2026/10/05/spacex-climbs-5-as-musk-renames-spacexai-to-spacexsi-morgan-stanley-reiterates-300-target-rocket-lab-slips-ast-spacemobile-nudges-higher/"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "headline": "Poland's competition watchdog charges Google over publisher payment talks, a week after a US court tossed AI-summary suits",
+      "summary": "Poland's UOKiK charged Google with possibly abusing its dominant position by proposing payments to publishers without giving them the data to assess the rates; the maximum penalty is 10% of turnover. Separately, on Oct. 1 a US judge dismis…",
+      "urls": [
+        "https://www.tikr.com/blog/alphabet-won-in-washington-and-got-charged-in-warsaw-what-it-means-for-googl-stock"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "headline": "Gold sits near $4,135–$4,155, down about 6% over the past month",
+      "summary": "Spot gold traded around $4,134 per ounce at 10:33 a.m. ET on Oct. 5 per Kitco, with other quotes between about $4,138 and $4,158 depending on the venue and time. Trading Economics shows it down roughly 6% over the last month and 4.45% abov…",
+      "urls": [
+        "http://www.kitco.com/charts/gold",
+        "https://tradingeconomics.com/commodity/gold"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "headline": "Alibaba insider filings: director Joseph Tsai's RSUs vest, and the CFO's tax-related sale trims his stake",
+      "summary": "A Form 4 shows director Joseph Tsai acquired 3,334 and 7,500 ordinary shares on Oct. 1 as restricted share units vested. Separately, CFO Hong Xu sold 103,046 shares worth about $1.41 million on Sept. 25, shares withheld and sold in Hong Ko…",
+      "urls": [
+        "https://www.stocktitan.net/sec-filings/BABA/form-4-alibaba-group-holding-ltd-insider-trading-activity-d8df029ad756.html",
+        "https://www.gurufocus.com/news/9108966/alibaba-cfo-sells-14-million-in-stock-cuts-stake-by-nearly-9",
+        "https://www.benzinga.com/news/26/09/62053733/insider-selling-hong-xu-unloads-1-41m-alibaba-gr-hldgs-stock"
+      ]
+    },
     {
       "date": "2026-10-04",
       "headline": "SEC clears six 3x leveraged products, including bitcoin and ether, for listing on Cboe BZX",

@@ -1,0 +1,90 @@
+{
+  "id": "2026-10-05",
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T15:34:34Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今日监管是主线：波兰竞争监管机构对谷歌提出指控，同时谷歌在美国法院获胜；Strive 创下单周最大比特币买入，黄金则跌至 4,150 美元下方。以下仅为已披露事实，不构成投资建议。",
+  "stories": [
+    {
+      "headline": "Strive 以约 1.69 亿美元买入 2,000 枚比特币，并设立 5 亿美元 SATA 优先股回购机制",
+      "summary": "Strive 在 10 月 5 日提交的 8-K 中披露，9 月 28 日至 10 月 2 日间以平均约 84,422 美元买入 2,000 枚比特币，持仓增至 29,462 枚。约 61.5% 的资金来自 SATA 优先股，公司同时设立了最高 5 亿美元的 SATA 回购机制。",
+      "whyItMatters": "这是 Strive 迄今最大的单周比特币买入，新机制也使其既能增持比特币，也能回购优先股。",
+      "category": "加密货币",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Strive Buys 2,000 Bitcoin and Discloses a Buyback Facility for Its Preferred Stock - Unchained",
+          "url": "https://unchainedcrypto.com/strive-buys-2000-bitcoin-and-discloses-a-buyback-facility-for-its-preferred-stock/"
+        },
+        {
+          "title": "Strive Buys 2,000 Bitcoin for $169 Million, Holdings Climb to 29,462 BTC - Crypto Times",
+          "url": "https://www.cryptotimes.io/2026/10/05/strive-buys-2000-bitcoin-for-169-million-holdings-climb-to-29462-btc/"
+        }
+      ]
+    },
+    {
+      "headline": "波兰竞争监管机构就出版商付费谈判指控谷歌，此前美国法院驳回了 AI 摘要诉讼",
+      "summary": "波兰 UOKiK 指控谷歌可能滥用市场支配地位：在向出版商提议付费时未提供评估费率所需的数据，最高罚款为营业额的 10%。另外，10 月 1 日美国法官驳回了 Chegg 和 Penske Media 关于谷歌强迫出版商接受 AI 摘要的诉讼。",
+      "whyItMatters": "Alphabet 在欧洲被正式指控的同一新闻周期里，美国法院驳回了出版商关于 AI 摘要的主张；早盘股价约 345 美元，上涨约 0.4%。",
+      "category": "监管",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Alphabet Won in Washington and Got Charged in Warsaw. What It Means for GOOGL Stock - TIKR",
+          "url": "https://www.tikr.com/blog/alphabet-won-in-washington-and-got-charged-in-warsaw-what-it-means-for-googl-stock"
+        }
+      ]
+    },
+    {
+      "headline": "黄金徘徊在 4,135–4,155 美元附近，近一个月下跌约 6%",
+      "summary": "据 Kitco，10 月 5 日美东时间上午 10:33 现货黄金报约 4,134 美元/盎司，其他报价因平台和时间不同在约 4,138 至 4,158 美元之间。Trading Economics 显示其近一个月下跌约 6%，较一年前高 4.45%。",
+      "whyItMatters": "上周下跌后，黄金维持在 4,100 美元出头，不同数据提供方的报价相差数美元。",
+      "category": "大宗商品",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Gold Price Today - Kitco",
+          "url": "http://www.kitco.com/charts/gold"
+        },
+        {
+          "title": "Gold - Price - Chart - Historical Data - Trading Economics",
+          "url": "https://tradingeconomics.com/commodity/gold"
+        }
+      ]
+    },
+    {
+      "headline": "阿里巴巴内部人申报：蔡崇信的 RSU 归属，CFO 因税务出售股份小幅减持",
+      "summary": "Form 4 显示，董事蔡崇信在 10 月 1 日因限制性股票单位归属获得 3,334 股和 7,500 股普通股。另外，CFO 徐宏于 9 月 25 日出售 103,046 股，价值约 141 万美元，这些股份是为缴纳 229,000 股归属产生的税款而在香港扣留并出售的；其仍持有 1,064,020 股。",
+      "whyItMatters": "两者均为常规的股权奖励结算，而非公开市场的主动操作；申报文件补充了内部人持股的细节。",
+      "category": "公司",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Two stock awards vest for Alibaba director Tsai - Stock Titan (Form 4)",
+          "url": "https://www.stocktitan.net/sec-filings/BABA/form-4-alibaba-group-holding-ltd-insider-trading-activity-d8df029ad756.html"
+        },
+        {
+          "title": "Alibaba CFO Sells $1.4 Million in Stock, Cuts Stake by Nearly 9% - GuruFocus",
+          "url": "https://www.gurufocus.com/news/9108966/alibaba-cfo-sells-14-million-in-stock-cuts-stake-by-nearly-9"
+        },
+        {
+          "title": "Insider Selling: Hong Xu Unloads $1.41M Of Alibaba Stock - Benzinga",
+          "url": "https://www.benzinga.com/news/26/09/62053733/insider-selling-hong-xu-unloads-1-41m-alibaba-gr-hldgs-stock"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab 下滑，SpaceX 上涨 5%，摩根士丹利重申 300 美元目标价",
+      "summary": "据 24/7 Wall St. 报道，10 月 5 日 SpaceX 股价上涨约 5%，马斯克将 SpaceXAI 更名为 SpaceXSI，摩根士丹利分析师 Adam Jonas 重申增持评级和 300 美元目标价；同一交易日 Rocket Lab 股价下滑。",
+      "whyItMatters": "在规模更大的太空同行上涨之日，Rocket Lab 却走低，说明二者并非总是同向波动。",
+      "category": "市场",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "SpaceX Climbs 5% as Musk Renames SpaceXAI to SpaceXSI, Morgan Stanley Reiterates $300 Target; Rocket Lab Slips - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/10/05/spacex-climbs-5-as-musk-renames-spacexai-to-spacexsi-morgan-stanley-reiterates-300-target-rocket-lab-slips-ast-spacemobile-nudges-higher/"
+        }
+      ]
+    }
+  ]
+}

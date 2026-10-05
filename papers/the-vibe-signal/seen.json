@@ -1,7 +1,48 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-04T13:04:46Z",
+  "updatedAt": "2026-10-05T15:34:34Z",
   "events": [
+    {
+      "date": "2026-10-05",
+      "headline": "Strata runs a 125B Qwen model on a single consumer GPU",
+      "summary": "The open-source Strata engine runs Qwen3.8-Flash-Next (125B) on gaming PCs with 12 GB+ VRAM and 32 GB+ RAM by spreading weights across GPU, system RAM and SSD. Its README reports 53 tokens/s output on an RTX 5070, plus a 1.6–1.8x speedup f…",
+      "urls": [
+        "https://github.com/Niko1221/Strata"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "headline": "Huawei and Qualcomm sign a multi-year patent cross-license",
+      "summary": "The October 5 announcement covers reciprocal licenses across 5G, compute, AI and networking, plus Qualcomm's acquisition of select Huawei U.S. patents. Both sides cite FRAND principles, and the transaction needs regulatory approval before…",
+      "urls": [
+        "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "headline": "Germany's RobCo passes a $1 billion valuation in an employee share sale",
+      "summary": "The Munich robotics company crossed $1 billion through a secondary sale, doubling its valuation in nine months, with Sequoia, Lightspeed and others plus new investors Cherry Ventures and European Tech Collective. It follows a $100 million…",
+      "urls": [
+        "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "headline": "Denmark discloses unauthorized access to 8.8 million people's CPR records",
+      "summary": "Danish authorities said a private company's legitimate access to the Central Person Register was misused during September, exposing names, addresses and ID numbers for about 8.8 million records, including deceased people and those who have…",
+      "urls": [
+        "https://cyberinsider.com/denmark-reports-unauthorized-access-to-8-8-million-peoples-cpr-data/",
+        "https://www.insurancejournal.com/news/international/2026/10/05/887972.htm"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "headline": "Cloudflare launches a beta Web Search API for agents",
+      "summary": "The API lets agents and apps search the web through REST or a Workers AI binding, routed via AI Gateway with logging and Zero Data Retention support. Ceramic.ai, Exa and Linkup are the launch providers, billed at their standard rates with…",
+      "urls": [
+        "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/"
+      ]
+    },
     {
       "date": "2026-10-04",
       "headline": "Willison: pay-per-use services need hard budget caps by default, as AWS and Google Cloud add them",
