@@ -1,0 +1,81 @@
+{
+  "id": "2026-10-06",
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-06T14:30:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今日要闻：Alphabet 的核电采购协议、阿里巴巴的云业务数据、Strategy 最新的比特币买入，以及仍远低于 1 月高点的金价。以下仅为已披露事实，不构成投资建议。",
+  "stories": [
+    {
+      "headline": "谷歌与 Constellation Energy 签署 20 年协议新增 890 兆瓦核电容量，另签 15 年 2,700 兆瓦供电协议",
+      "summary": "Constellation 将投资逾 43 亿美元升级伊利诺伊、宾夕法尼亚和新泽西的 11 台核电机组，首批增容预计 2028 年前实现。消息公布后 Constellation 股价大涨。",
+      "whyItMatters": "这是与 Alphabet AI 建设相关的较大规模长期电力承诺之一，亚马逊和 Meta 此前也与 Constellation 签署了类似核电协议。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Google signs 20-year nuclear deal with Constellation Energy to power AI build-out - Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/article/google-signs-20-year-nuclear-deal-with-constellation-energy-to-power-ai-build-out-131104702.html"
+        },
+        {
+          "title": "Google Bets 20 Years On Constellation Reactors: Nuclear Stocks Rally - Benzinga",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62190391/google-constellation-energy-nuclear-deal-stocks-rally"
+        },
+        {
+          "title": "Google signs 20-year nuclear power deal with Constellation - Investing.com",
+          "url": "https://www.investing.com/news/company-news/google-signs-20year-nuclear-power-deal-with-constellation-93CH-4933906"
+        }
+      ]
+    },
+    {
+      "headline": "阿里巴巴股价上涨约 4%，6 月季度 AI 云收入 71 亿美元、同比增长 45% 重获关注",
+      "summary": "10 月 5 日阿里巴巴股价上涨约 4%，报 110.04 美元。其 6 月季度 AI 云与计算服务收入增长 45% 至 71 亿美元，调整后 EBITA 增长 133% 至 8.3 亿美元，同时季度资本开支接近 100 亿美元，同比增长 75%。",
+      "whyItMatters": "数据显示云业务增长与盈利提升的同时，基础设施支出也大幅增加。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Alibaba Stocks Jump 4% as AI Cloud Growth Reclaims the Narrative - GuruFocus",
+          "url": "https://www.gurufocus.com/news/9109743/alibaba-stocks-jump-4-as-ai-cloud-growth-reclaims-the-narrative"
+        },
+        {
+          "title": "Alibaba shares jump on AI cloud market - Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4612212-alibaba-shares-jump-ai-cloud-market-report"
+        }
+      ]
+    },
+    {
+      "headline": "Strategy 以 2,870 万美元买入 334 枚比特币，持仓升至约 84.8 万枚，比特币受阻于 8.7 万美元下方",
+      "summary": "根据 SEC 文件，Strategy 在 9 月 28 日至 10 月 4 日间以平均约 85,839 美元买入 334 枚比特币，资金来自出售 MSTR 股票和现金。比特币 10 月 5 日在略高于 8.7 万美元处受阻，该价位自 9 月 23 日以来多次压制上涨，10 月 6 日交易于约 8.6 万美元附近。",
+      "whyItMatters": "Strategy 持仓创历史新高，而价格尚未突破本月多次遇阻的区间。",
+      "category": "加密货币",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "'More orange than ever': Strategy buys 334 bitcoin for $28.7 million - The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-05-more-orange-than-ever-michael-saylor-strategy-bitcoin-417631"
+        },
+        {
+          "title": "BTC USD Price Stalls as Fresh Saylor Buy Fails to Clear $87K - 99Bitcoins",
+          "url": "https://99bitcoins.com/news/bitcoin-btc/btc-usd-price-87000-resistance-saylor-buy/"
+        }
+      ]
+    },
+    {
+      "headline": "金价小幅上涨至约每盎司 4,169 美元，仍比 1 月高点低约 26%",
+      "summary": "美东时间上午 7:41 现货金价约 4,169 美元，上涨 29 美元，12 月期货开盘约 4,169 美元。美元走强与美债收益率上升继续构成压力；金价 1 月曾触及约 5,595 美元的高点。",
+      "whyItMatters": "金价连续数个交易日在约 4,150 美元附近窄幅波动，且远低于 2026 年高点。",
+      "category": "大宗商品",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Gold price today, Tuesday, October 6, 2026 - Yahoo Finance",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-october-6-2026-gold-edges-higher-as-investors-monitor-domestic-and-global-conditions-111213149.html"
+        },
+        {
+          "title": "Gold is 26% below its 2026 peak - Business Standard",
+          "url": "https://www.business-standard.com/amp/finance/personal-finance/gold-is-26-below-its-2026-peak-buy-now-or-wait-what-investors-should-do-126100600129_1.html"
+        }
+      ]
+    }
+  ]
+}

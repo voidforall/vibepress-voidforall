@@ -1,7 +1,44 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-05T15:34:34Z",
+  "updatedAt": "2026-10-06T13:56:23Z",
   "events": [
+    {
+      "date": "2026-10-06",
+      "headline": "Strategy buys 334 bitcoin for $28.7 million, lifting holdings to about 848,000 BTC, as bitcoin stalls below $87,000",
+      "summary": "Per SEC filings, Strategy bought 334 BTC at an average of about $85,839 between Sept. 28 and Oct. 4, funded by MSTR stock sales and cash. Bitcoin hit resistance just above $87,000 on Oct. 5, a level that has capped rallies since Sept. 23,…",
+      "urls": [
+        "https://www.theblock.co/news/business/2026-10-05-more-orange-than-ever-michael-saylor-strategy-bitcoin-417631",
+        "https://99bitcoins.com/news/bitcoin-btc/btc-usd-price-87000-resistance-saylor-buy/"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "headline": "Google signs a 20-year deal with Constellation Energy to add 890 MW of nuclear capacity, plus a 15-year, 2,700 MW supply agreement",
+      "summary": "Constellation will invest more than $4.3 billion to upgrade 11 nuclear units in Illinois, Pennsylvania and New Jersey, with the first capacity increase expected by 2028. Constellation shares jumped on the news.",
+      "urls": [
+        "https://finance.yahoo.com/technology/article/google-signs-20-year-nuclear-deal-with-constellation-energy-to-power-ai-build-out-131104702.html",
+        "https://www.benzinga.com/markets/tech/26/10/62190391/google-constellation-energy-nuclear-deal-stocks-rally",
+        "https://www.investing.com/news/company-news/google-signs-20year-nuclear-power-deal-with-constellation-93CH-4933906"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "headline": "Gold edges up to about $4,169 an ounce, still roughly 26% below its January peak",
+      "summary": "Spot gold was about $4,169 at 7:41 a.m. ET, up $29, with December futures opening near $4,169. A firmer dollar and higher Treasury yields continue to weigh; the metal peaked near $5,595 in January.",
+      "urls": [
+        "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-october-6-2026-gold-edges-higher-as-investors-monitor-domestic-and-global-conditions-111213149.html",
+        "https://www.business-standard.com/amp/finance/personal-finance/gold-is-26-below-its-2026-peak-buy-now-or-wait-what-investors-should-do-126100600129_1.html"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "headline": "Alibaba rises about 4% as its June-quarter AI cloud revenue of $7.1 billion, up 45%, regains attention",
+      "summary": "Alibaba traded up about 4% at $110.04 on Oct. 5. Its June-quarter AI Cloud and Compute Services revenue rose 45% to $7.1 billion and adjusted EBITA climbed 133% to $830 million, while quarterly capex approached $10 billion, up 75%.",
+      "urls": [
+        "https://www.gurufocus.com/news/9109743/alibaba-stocks-jump-4-as-ai-cloud-growth-reclaims-the-narrative",
+        "https://seekingalpha.com/news/4612212-alibaba-shares-jump-ai-cloud-market-report"
+      ]
+    },
     {
       "date": "2026-10-05",
       "headline": "Strive buys 2,000 bitcoin for about $169 million and sets up a $500 million buyback for its SATA preferred",

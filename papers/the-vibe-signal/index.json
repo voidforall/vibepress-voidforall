@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-10-06",
+      "date": "2026-10-06",
+      "headline": "Mistral Large 4: 1.05T-parameter open-weight multimodal model with 1M-token context, in public preview",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-05",
       "date": "2026-10-05",
       "headline": "Denmark discloses unauthorized access to 8.8 million people's CPR records",

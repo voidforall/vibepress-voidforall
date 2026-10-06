@@ -1,0 +1,95 @@
+{
+  "id": "2026-10-06",
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-06T14:30:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天有两款大型开放权重模型、一项属于南极冰下中微子探测的诺贝尔奖，以及几项附带坦诚局限的成果：智能体提出尚未制备的材料，以及一种可行但尚无法与反向传播竞争的训练方法。",
+  "stories": [
+    {
+      "headline": "Mistral Large 4：1.05 万亿参数开放权重多模态模型，支持 100 万 token 上下文，进入公开预览",
+      "summary": "Mistral 文档显示该模型采用混合专家架构，总参数 1.05 万亿、激活参数 490 亿，并配有 16 亿参数视觉编码器。API 价格为每百万输入 token 0.68 美元、每百万输出 token 2.09 美元。",
+      "whyItMatters": "它新增了一款超大规模开放权重模型，具备长上下文和函数调用能力，并公布了按 token 计价。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Mistral Large 4 - Mistral docs",
+          "url": "https://docs.mistral.ai/models/mistral-large-4-0"
+        }
+      ]
+    },
+    {
+      "headline": "Reflection 发布 501B 开放权重模型 Beam，权重将于本月晚些时候发布",
+      "summary": "Beam 是激活参数 230 亿的稀疏混合专家模型，Reflection 称其在 SWE-Bench Verified 上得分 80.9%、GPQA Diamond 上得分 90.5%。模型仍在最终红队测试中，Apache 2.0 权重承诺于 10 月晚些时候发布。",
+      "whyItMatters": "这些基准数据为公司自报，权重尚未发布，目前无法独立验证。",
+      "category": "技术",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Introducing Beam - Reflection",
+          "url": "https://reflection.ai/blog/introducing-beam"
+        }
+      ]
+    },
+    {
+      "headline": "Francis Halzen 因 IceCube 及高能天体中微子的发现获诺贝尔物理学奖",
+      "summary": "获奖理由是 Halzen 对 IceCube 中微子天文台的决定性贡献。该探测器位于南极冰层，体积一立方公里，2011 年建成。IceCube 于 2013 年报告了 28 个太阳系外中微子，2018 年将一个中微子溯源至约 37 亿光年外的耀变体。",
+      "whyItMatters": "该奖项确认了中微子天文学已成为观测极端宇宙天体的成熟手段。",
+      "category": "观点",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Francis Halzen wins Nobel Prize in Physics - Physics World",
+          "url": "https://physicsworld.com/a/francis-halzen-wins-nobel-prize-in-physics/"
+        },
+        {
+          "title": "Press release: Nobel Prize in Physics 2026 - NobelPrize.org",
+          "url": "https://www.nobelprize.org/prizes/physics/2026/press-release/"
+        },
+        {
+          "title": "Francis Halzen wins Nobel Prize in physics - NPR",
+          "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics"
+        }
+      ]
+    },
+    {
+      "headline": "Vals 称 Opus 5.5 智能体提出两种室温磁性半导体候选材料，尚无实验测量",
+      "summary": "智能体通过密度泛函理论模拟设计了 YBaMnFeO₅（预测带隙 2.35 eV，磁有序温度约 420 K），并筛出 1999 年合成的 KV[Cr(CN)₆]（磁有序温度最高 376 K）。文章指出两者的带隙和自旋分选均未实测，且前者可能难以制备。",
+      "whyItMatters": "这些是针对完美干燥晶体的计算预测，实际样品可能不同，结论仍有待实验验证。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Room-temperature magnetic semiconductors - Vals AI",
+          "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors"
+        }
+      ]
+    },
+    {
+      "headline": "Dust 通过在每个 token 上扰动激活值，在不使用反向传播的情况下训练 Transformer 语言模型",
+      "summary": "这一零阶方法把每个 token 视为虚拟种群成员，作者称其所需种群规模比权重空间方法 EGGROLL 小 1,000 至 10,000 倍。在种群较大时，其在 1,000 万至 2,000 万 token 的预训练实验中接近或超过反向传播。",
+      "whyItMatters": "作者明确表示它目前的算力效率不足以取代反向传播；这一结果关乎扩展规律，而非替代方案。",
+      "category": "技术",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Dust: Pretraining Transformers Without Backpropagation - qlabs",
+          "url": "https://qlabs.sh/research/dust"
+        }
+      ]
+    },
+    {
+      "headline": "Polars 2.0 将流式引擎设为默认，并取消部分操作的行顺序保证",
+      "summary": "LazyFrame.collect() 现默认使用流式引擎，除非设置 maintain_order=True，否则 join、group_by 和 unpivot 不保证行顺序。此版本还默认启用溢写到磁盘（约 80% 内存时开始）、新增原生 Map 类型，并称在 TPC-H 和 TPC-DS 上领先 DataFusion 和 DuckDB。",
+      "whyItMatters": "依赖隐式行顺序的代码升级后输出可能悄然改变，这正是此次升级主版本号的原因。",
+      "category": "技术",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Release of Polars 2.0 - Polars",
+          "url": "https://pola.rs/posts/release-polars-2/"
+        }
+      ]
+    }
+  ]
+}
