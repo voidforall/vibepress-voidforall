@@ -1,0 +1,22 @@
+{
+  "id": "2026-10-07",
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T14:30:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A thin day for verifiable material: one primary filing tied to Alphabet's data-center build-out made it through. Disclosed facts only; nothing here is investment advice.",
+  "stories": [
+    {
+      "headline": "Black Hills signs agreements to power a planned Google data center in Cheyenne, with $1.8 billion of its own generation capex",
+      "summary": "Black Hills Corp. will provide up to 590 MW of grid-connected service and invest $1.8 billion in 2027–2029 to build 564 MW of company-owned generation. Google provided $399 million of refundable advances for equipment procurement, and the filing says Google bears all costs of serving the site.",
+      "whyItMatters": "The filing discloses who pays for new power capacity serving an Alphabet data center, with Black Hills projecting about $150 million of net income in 2030 from the project.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Black Hills Corp. Form 8-K exhibit 99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001130464/000119312526415597/bkh-ex99_1.htm"
+        }
+      ]
+    }
+  ]
+}

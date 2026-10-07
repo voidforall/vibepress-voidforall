@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-06T13:56:23Z",
+  "updatedAt": "2026-10-07T14:13:35Z",
   "events": [
+    {
+      "date": "2026-10-07",
+      "headline": "Strands releases Decider 2B, an open-source decision model that runs locally",
+      "summary": "Built on Qwen 3.5-2B with the language head replaced by a pointer head, it picks among predefined options, with median latency of about 115 ms on an RTX 3090. It ranks 3rd of 33 in the 2B class on JevBench; training data and scripts are pu…",
+      "urls": [
+        "https://strandsagents.com/blog/introducing-strands-decider/"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "headline": "OpenTPU: an open-source accelerator designed by AI agents runs Qwen3 on an old Kintex-7 FPGA",
+      "summary": "The repo bundles RTL, ISA, simulator, compiler and profiler; the four-column systolic design runs at 133.33 MHz and reaches 82–94% of DDR3 peak bandwidth in decoding.",
+      "urls": [
+        "https://github.com/FeSens/openTPU"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "headline": "OpenAI puts a Decisions API into public beta: typed answers about 10x faster than Responses, at $0.10 per million input tokens",
+      "summary": "The endpoint returns predicates, choices or scores for text and images, currently only on gpt-6-luna. General availability is promised in the coming weeks.",
+      "urls": [
+        "https://developers.openai.com/api/docs/guides/decisions"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "headline": "Google's EmbeddingGemma 2 maps text, images, audio and video into one embedding space",
+      "summary": "The 740M-parameter Apache 2.0 model needs about 191MB of RAM for text-only use and 567MB for the full multimodal version, and compresses vectors from 768 to 128 dimensions.",
+      "urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "headline": "Chrome 155 ships JPEG XL, decoded by a Rust implementation",
+      "summary": "Google says the jxl-rs decoder, claimed to offer 30–50% better compression than JPEG, has had zero memory-safety bugs in development. The team cites developer demand through the Interop Project.",
+      "urls": [
+        "https://developer.chrome.com/blog/jpeg-xl-in-chrome"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "headline": "A blog post explains 'codemode': letting the model run JavaScript inside the agent harness",
+      "summary": "The post shows codemode orchestrating concurrent work, persisting state and calling MCP servers, while noting MCP's lack of structured returns and weak tool discovery.",
+      "urls": [
+        "https://lucumr.pocoo.org/2026/10/6/codemode/"
+      ]
+    },
     {
       "date": "2026-10-06",
       "headline": "Vals reports Opus 5.5 agents proposed two room-temperature magnetic semiconductor candidates, with no lab measurements yet",
@@ -529,56 +577,6 @@
       "summary": "Anthropic's Opus 5.5 scores 66.4% on Terminal-Bench 4.0 versus 52.3% for Opus 5, generates output 30% faster, and cuts input/output token pricing to $4/$20 per million from $5/$25. Anthropic says it recorded the best alignment scores of an…",
       "urls": [
         "https://www.anthropic.com/claude-opus-5-5"
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "headline": "xAI ships Grok 4.7 with a new safeguard stack and longer task horizons",
-      "summary": "xAI released Grok 4.7, built on a larger base model with an extended reinforcement-learning run aimed at multi-hour coding and knowledge work; the company says it's its strongest model yet on jailbreak resistance, blocking 96.7% of risky c…",
-      "urls": [
-        "https://x.ai/news/grok-4-7",
-        "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot/"
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "headline": "Xiaomi open-sources MiMo-V2.6, its highest-scoring open-weight model yet",
-      "summary": "Xiaomi released MiMo-V2.6-Pro (1.02T total / 42B active parameters) and a cheaper Flash variant (310B / 15B active) under an MIT license, along with the technical report, RL training frameworks and over 7,000 RL task environments. Pro scor…",
-      "urls": [
-        "https://technode.com/2026/09/22/xiaomi-open-sources-mimo-v2-6-models-after-scaling-reinforcement-learning/",
-        "https://venturebeat.com/technology/better-than-deepseek-xiaomis-mimo-v2-6-pro-debuts-as-the-top-open-weights-model-in-the-world-alongside-cheaper-v2-6-flash"
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "headline": "Nine mathematicians form an independent group to advise on AI-generated proofs",
-      "summary": "After OpenAI asked some of them to form an advisory board, nine mathematicians — including Timothy Gowers, Terence Tao's peers Edward Witten and Ravi Vakil among them — instead created an independent Advisory Group on Mathematics and AI, h…",
-      "urls": [
-        "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/"
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "headline": "Linear rebuilds its CI pipeline after AI coding agents outran its test suite",
-      "summary": "Linear says AI agents made shipping code exponentially faster while validating it hadn't kept up, so it moved off GitHub Actions to faster third-party runners (34% faster job execution), cut checkout overhead by up to 87%, and doubled test…",
-      "urls": [
-        "https://linear.app/now/ci-bottleneck-reworked"
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "headline": "Cloudflare makes Python Workers generally available",
-      "summary": "Cloudflare says Python is now a first-class, fully supported language on its Developer Platform: FastAPI, Django and Flask run natively via built-in ASGI/WSGI connectors, Hyperdrive now supports Postgres and MySQL over new TCP socket funct…",
-      "urls": [
-        "https://blog.cloudflare.com/python-workers-ga/"
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "headline": "A privacy writer argues hidden AI content-tracking signals deserve a sharper name than \"watermark\"",
-      "summary": "An essay argues that invisible tracking signals embedded by tools like Google's SynthID — which can encode identifiers mapping content back to a specific user — are being obscured by the catch-all term \"watermark,\" and proposes calling the…",
-      "urls": [
-        "https://brand.io/article/spymarks/"
       ]
     }
   ]

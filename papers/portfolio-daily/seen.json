@@ -1,7 +1,15 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-06T13:56:23Z",
+  "updatedAt": "2026-10-07T14:13:34Z",
   "events": [
+    {
+      "date": "2026-10-07",
+      "headline": "Black Hills signs agreements to power a planned Google data center in Cheyenne, with $1.8 billion of its own generation capex",
+      "summary": "Black Hills Corp. will provide up to 590 MW of grid-connected service and invest $1.8 billion in 2027–2029 to build 564 MW of company-owned generation. Google provided $399 million of refundable advances for equipment procurement, and the…",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/0001130464/000119312526415597/bkh-ex99_1.htm"
+      ]
+    },
     {
       "date": "2026-10-06",
       "headline": "Strategy buys 334 bitcoin for $28.7 million, lifting holdings to about 848,000 BTC, as bitcoin stalls below $87,000",
@@ -418,40 +426,6 @@
       "summary": "ARK Invest's ETFs bought 359,612 Rocket Lab shares worth $25.1 million on Tuesday across ARKK, ARKQ and ARKX, while selling 16,422 Alphabet shares worth $5.8 million through ARKQ and ARKX.",
       "urls": [
         "https://www.investing.com/news/company-news/cathie-woods-ark-sells-alphabet-stock-buys-rocket-lab-93CH-4911908"
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "headline": "Rocket Lab's $1.94B share sale to fund Iridium works out to about 5% dilution",
-      "summary": "Rocket Lab's SEC filing confirms it raised roughly $1.944 billion by issuing 29.3 million new shares at about $66 each — below the stock's then-current price — to help fund its Iridium acquisition, and it terminated a $3.6 billion backup b…",
-      "urls": [
-        "https://www.fool.com/investing/2026/09/22/rocket-lab-sold-usd1-9-billion-of-new-stock-to-pay-for-iridium-here-s-the-dilution-math/",
-        "https://www.sec.gov/Archives/edgar/data/0001819994/000175392626001769/g085951_ex99-1.htm"
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "headline": "Gold holds near $4,380 as China's gold imports top 1,000 tons for the year",
-      "summary": "Gold futures opened flat at $4,382.50 per troy ounce, easing slightly to about $4,368 in early trading. Chinese customs data show gold imports through August already topped 1,000 tons, surpassing all of 2025, as a slump in international pr…",
-      "urls": [
-        "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-september-22-2026-gold-prices-holding-as-chinese-gold-imports-set-record-104326063.html"
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "headline": "Bitcoin hits an eight-month high above $85,000",
-      "summary": "Bitcoin rose as much as 5-7% to peak around $85,000-$87,000, its highest level since January, driven by renewed spot-ETF inflows, a short squeeze on bearish positions, and improved risk appetite ahead of an expected Trump-Xi summit. It rem…",
-      "urls": [
-        "https://www.thenationalnews.com/business/money/2026/09/21/bitcoin-jumps-to-highest-in-eight-months-to-cross-85000/"
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "headline": "Alibaba unveils Zhenwu V900 AI chip and a 20-gigawatt data center target for 2032",
-      "summary": "At its Apsara Conference in Hangzhou, Alibaba Cloud introduced the Zhenwu V900, a next-generation AI chip it says delivers three times the performance of its Zhenwu M890 (released in May) and is due for mass production in Q1 2027. The comp…",
-      "urls": [
-        "https://jingletree.com/alibaba-shares-jump-as-new-ai-chip-data-center-buildout-plans-unveiled-274149.html",
-        "https://www.techbuzz.ai/articles/alibaba-shares-jump-3-on-new-ai-chip-data-center-plans"
       ]
     }
   ]

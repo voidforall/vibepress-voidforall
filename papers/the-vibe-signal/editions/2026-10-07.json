@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-07",
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T14:30:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today's picks lean on small, fast models: OpenAI and an open-source project both ship decision models, Google shrinks embeddings, and Chrome finally ships JPEG XL, written in Rust. An AI-designed accelerator on a decade-old FPGA rounds out the list.",
+  "stories": [
+    {
+      "headline": "OpenAI puts a Decisions API into public beta: typed answers about 10x faster than Responses, at $0.10 per million input tokens",
+      "summary": "The endpoint returns predicates, choices or scores for text and images, currently only on gpt-6-luna. General availability is promised in the coming weeks.",
+      "whyItMatters": "Classification and routing get a dedicated, cheaper endpoint rather than free-form text generation.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "OpenAI Decisions API guide",
+          "url": "https://developers.openai.com/api/docs/guides/decisions"
+        }
+      ]
+    },
+    {
+      "headline": "Chrome 155 ships JPEG XL, decoded by a Rust implementation",
+      "summary": "Google says the jxl-rs decoder, claimed to offer 30–50% better compression than JPEG, has had zero memory-safety bugs in development. The team cites developer demand through the Interop Project.",
+      "whyItMatters": "A format Chrome had resisted is now supported, and with a memory-safe decoder.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Shipping JPEG XL in Chrome",
+          "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome"
+        }
+      ]
+    },
+    {
+      "headline": "Strands releases Decider 2B, an open-source decision model that runs locally",
+      "summary": "Built on Qwen 3.5-2B with the language head replaced by a pointer head, it picks among predefined options, with median latency of about 115 ms on an RTX 3090. It ranks 3rd of 33 in the 2B class on JevBench; training data and scripts are published.",
+      "whyItMatters": "Routing and guardrail decisions can run on a laptop instead of an API call.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Introducing Strands Decider",
+          "url": "https://strandsagents.com/blog/introducing-strands-decider/"
+        }
+      ]
+    },
+    {
+      "headline": "Google's EmbeddingGemma 2 maps text, images, audio and video into one embedding space",
+      "summary": "The 740M-parameter Apache 2.0 model needs about 191MB of RAM for text-only use and 567MB for the full multimodal version, and compresses vectors from 768 to 128 dimensions.",
+      "whyItMatters": "A sub-1B multimodal embedder that fits on a phone lowers the cost of on-device search.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "EmbeddingGemma 2",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
+        }
+      ]
+    },
+    {
+      "headline": "OpenTPU: an open-source accelerator designed by AI agents runs Qwen3 on an old Kintex-7 FPGA",
+      "summary": "The repo bundles RTL, ISA, simulator, compiler and profiler; the four-column systolic design runs at 133.33 MHz and reaches 82–94% of DDR3 peak bandwidth in decoding.",
+      "whyItMatters": "It is a concrete data point on agent-driven hardware design, modest in speed but fully inspectable.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "OpenTPU repository",
+          "url": "https://github.com/FeSens/openTPU"
+        }
+      ]
+    },
+    {
+      "headline": "A blog post explains 'codemode': letting the model run JavaScript inside the agent harness",
+      "summary": "The post shows codemode orchestrating concurrent work, persisting state and calling MCP servers, while noting MCP's lack of structured returns and weak tool discovery.",
+      "whyItMatters": "It frames a design choice for agent builders: compose work in code rather than one tool call at a time.",
+      "category": "Ideas",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "What is Codemode",
+          "url": "https://lucumr.pocoo.org/2026/10/6/codemode/"
+        }
+      ]
+    }
+  ]
+}

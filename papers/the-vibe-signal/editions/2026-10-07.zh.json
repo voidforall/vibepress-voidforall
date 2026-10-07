@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-07",
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T14:30:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天的精选偏向小而快的模型:OpenAI与一个开源项目都推出了决策模型,谷歌缩小了嵌入模型,Chrome终于用Rust实现发布了JPEG XL。一款由AI设计、运行在老旧FPGA上的加速器压轴。",
+  "stories": [
+    {
+      "headline": "OpenAI推出Decisions API公测版:类型化答案比Responses快约10倍,输入价格每百万token 0.10美元",
+      "summary": "该接口为文本和图像返回判断概率、选项或评分,目前仅支持gpt-6-luna。官方称将在未来几周内正式上线。",
+      "whyItMatters": "分类和路由有了专用且更便宜的接口,而不必生成自由文本。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "OpenAI Decisions API guide",
+          "url": "https://developers.openai.com/api/docs/guides/decisions"
+        }
+      ]
+    },
+    {
+      "headline": "Chrome 155发布JPEG XL支持,解码器由Rust实现",
+      "summary": "谷歌称jxl-rs解码器压缩率比JPEG高30%–50%,开发期间未出现内存安全漏洞。团队称这源于开发者通过Interop项目提出的需求。",
+      "whyItMatters": "Chrome此前不支持的格式如今得到支持,而且采用内存安全的解码器。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Shipping JPEG XL in Chrome",
+          "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome"
+        }
+      ]
+    },
+    {
+      "headline": "Strands发布可本地运行的开源决策模型Decider 2B",
+      "summary": "该模型基于Qwen 3.5-2B,将语言头替换为指针头,在预设选项中做选择;RTX 3090上的中位延迟约115毫秒。在JevBench的2B级别中排名33个模型中的第3;训练数据和脚本已公开。",
+      "whyItMatters": "路由和护栏决策可以在笔记本上运行,而无需调用API。",
+      "category": "科技",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Introducing Strands Decider",
+          "url": "https://strandsagents.com/blog/introducing-strands-decider/"
+        }
+      ]
+    },
+    {
+      "headline": "谷歌EmbeddingGemma 2将文本、图像、音频和视频映射到同一嵌入空间",
+      "summary": "这个7.4亿参数、Apache 2.0许可的模型仅文本使用约需191MB内存,完整多模态版本约567MB,并可将向量从768维压缩到128维。",
+      "whyItMatters": "可装进手机的10亿参数以下多模态嵌入模型,降低了端侧搜索的成本。",
+      "category": "科技",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "EmbeddingGemma 2",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
+        }
+      ]
+    },
+    {
+      "headline": "OpenTPU:由AI智能体设计的开源加速器,在老旧Kintex-7 FPGA上运行Qwen3",
+      "summary": "该仓库包含RTL、指令集、模拟器、编译器和性能分析器;四列脉动阵列设计运行在133.33 MHz,解码时达到DDR3峰值带宽的82%–94%。",
+      "whyItMatters": "这是智能体驱动硬件设计的具体案例,速度不高,但完全可检查。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "OpenTPU repository",
+          "url": "https://github.com/FeSens/openTPU"
+        }
+      ]
+    },
+    {
+      "headline": "一篇博文介绍“codemode”:让模型在智能体框架内运行JavaScript",
+      "summary": "文章展示了codemode如何编排并发任务、保存状态和调用MCP服务器,同时指出MCP缺乏结构化返回且工具发现能力较弱。",
+      "whyItMatters": "它为智能体开发者提出了一种设计选择:用代码组合工作,而不是一次一个工具调用。",
+      "category": "观点",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "What is Codemode",
+          "url": "https://lucumr.pocoo.org/2026/10/6/codemode/"
+        }
+      ]
+    }
+  ]
+}
