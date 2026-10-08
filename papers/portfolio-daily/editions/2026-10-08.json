@@ -1,0 +1,22 @@
+{
+  "id": "2026-10-08",
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T14:25:41Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A thin day for fresh disclosures on the watchlist; the one item with a firm primary-style account is a regulatory setback for Alphabet's Finnish AI build-out.",
+  "stories": [
+    {
+      "headline": "Finland orders Google to halt work at two planned data centre sites over forest clearing",
+      "summary": "Finland's Supervisory Agency (LVV) ordered Tuike Finland, acting for Google, to suspend preparatory work at Muhos and Kajaani by October 23 until environmental impact assessments are done; it is probing whether over 300 hectares were cleared without one. Google said it fell short of its own standards, and the company must explain its plans by October 14 or face possible enforcement.",
+      "whyItMatters": "The order touches the 13 billion euro Finnish investment Google announced in September, and the environment minister said the projects will likely be delayed.",
+      "category": "Regulatory",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Finland orders halt to work on Google's data centre sites (ARY News)",
+          "url": "https://arynews.tv/finland-orders-halt-to-work-on-googles-data-centre-sites"
+        }
+      ]
+    }
+  ]
+}

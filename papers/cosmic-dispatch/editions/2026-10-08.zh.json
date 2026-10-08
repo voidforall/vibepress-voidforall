@@ -1,0 +1,69 @@
+{
+  "id": "2026-10-08",
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T14:25:41Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "本期天空平静却不乏动静：一颗疑似由死亡恒星残骸形成的行星、创纪录的空间站快速对接、因捕捉深空中微子而获得的诺贝尔奖，以及一再推迟的军用卫星发射。",
+  "stories": [
+    {
+      "headline": "哈勃存档数据显示白矮星周围可能有“第二代行星”",
+      "summary": "华威大学团队重新分析1999年的哈勃数据，发现白矮星HS 0209+0832周围铌含量异常丰富，认为这指向一颗由垂死恒星抛出物质形成、约在370万英里外绕行的木星级行星。NASA称其为疑似而非确认。",
+      "whyItMatters": "若得到证实，这将是恒星死亡之后才形成的罕见行星；目前证据是化学层面的，形成过程仍属模型。",
+      "category": "天文",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Suspected Second-generation Planet Solves NASA Hubble Cold Case (NASA Science)",
+          "url": "https://science.nasa.gov/?p=1445445"
+        },
+        {
+          "title": "Astronomers Solve Cosmic Cold Case with NASA Hubble Data (NASA)",
+          "url": "https://www.nasa.gov/image-article/astronomers-solve-cosmic-cold-case-with-nasa-hubble-data/"
+        }
+      ]
+    },
+    {
+      "headline": "Crew-13发射后不到八小时即与空间站对接，创美国航天器最快纪录",
+      "summary": "继10月1日发射后，“龙”飞船不到八小时抵达国际空间站。NASA称这将是空间站历史上美国航天器最快的发射到对接。",
+      "whyItMatters": "四人乘组已抵达，交接期间空间站共有11人。",
+      "category": "任务",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "NASA's SpaceX Crew-13 Secured Inside Dragon, Ready for Hatch Closure (NASA)",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/10/01/nasas-spacex-crew-13-secured-inside-dragon-spacecraft-ready-for-hatch-closure/"
+        },
+        {
+          "title": "SpaceX Crew-13 astronauts dock at ISS less than 8 hours after launch (Space.com)",
+          "url": "https://space.com/space-exploration/launches-spacecraft/spacex-crew-13-astronaut-mission-docks-iss-fastest-trip-us-spacecraft"
+        }
+      ]
+    },
+    {
+      "headline": "Francis Halzen因IceCube与高能宇宙中微子研究获诺贝尔物理学奖",
+      "summary": "瑞典皇家科学院10月6日表彰Halzen对IceCube中微子天文台的决定性贡献，以及对天体物理来源高能中微子的发现。",
+      "whyItMatters": "这一奖项肯定了来自地球之外的中微子作为观测宇宙手段的价值。",
+      "category": "发现",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Nobel Prize in Physics 2026 awarded to Francis Halzen (Free Press Journal)",
+          "url": "https://www.freepressjournal.in/world/nobel-prize-in-physics-2026-awarded-to-francis-halzen-for-high-energy-neutrino-discoveries"
+        }
+      ]
+    },
+    {
+      "headline": "太空发展局第四批Tranche 1发射再度推迟，目标改为10月10日",
+      "summary": "10月5日，搭载21颗太空发展局数据传输卫星的猎鹰9号在范登堡起飞前自动中止，SpaceX称火箭与载荷状态良好。发射目标已从10月8日改到9日，现定于10月10日凌晨时段。",
+      "whyItMatters": "该发射属于军事通信与导弹预警星座，目前仍在发射台上等待。",
+      "category": "发射",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "SpaceX to launch SDA's fourth Tranche 1 data transport mission (KSBY)",
+          "url": "https://ksby.com/news/launch-tracker/spacex-to-launch-sdas-fourth-tranche-1-data-transport-mission-early-monday-morning"
+        }
+      ]
+    }
+  ]
+}

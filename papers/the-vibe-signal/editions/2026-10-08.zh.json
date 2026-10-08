@@ -1,0 +1,65 @@
+{
+  "id": "2026-10-08",
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T14:25:41Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "小模型更便宜，机器数学更大胆也挨了第一记闷棍，还有两款几乎不提要求的开源工具。",
+  "stories": [
+    {
+      "headline": "Anthropic发布Claude Haiku 5.5，每百万token输入0.10美元、输出0.50美元",
+      "summary": "Haiku 5.5于10月7日发布，100k以内提示的价格为每百万token输入0.10美元、输出0.50美元，Anthropic称运行成本比Haiku 4.5低约75%。其OSWorld 2.1（离线子集）得分72.4%，Haiku 4.5为15.7%，各项基准仍落后于Sonnet 5.5。",
+      "whyItMatters": "据厂商基准，小型档位大幅降价并明显接近Sonnet级的智能体能力；Sonnet 5.5的缓存读取价格也减半。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Claude Haiku 5.5 (Anthropic)",
+          "url": "https://www.anthropic.com/claude-haiku-5-5"
+        }
+      ]
+    },
+    {
+      "headline": "OpenAI批量发布的AI数学成果因符号错误撤回三篇论文",
+      "summary": "10月7日，OpenAI数学仓库撤回三篇与霍奇猜想相关的手稿：一处符号错误使一个稳定化迹抵消论证失效，其他论文也依赖该论证。Scott Aaronson曾把约372项成果的发布称为“数学末日”，并指出只有部分附带Lean证明，且模型约5%的尝试题目得到解决。",
+      "whyItMatters": "首次公开撤稿说明，AI生成证明的瓶颈已是验证而非生成。",
+      "category": "观点",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "OpenAI Math: history (GitHub)",
+          "url": "https://github.com/openai/math/blob/main/history.md"
+        },
+        {
+          "title": "The Mathocalypse (Shtetl-Optimized)",
+          "url": "https://scottaaronson.blog/?p=10169"
+        }
+      ]
+    },
+    {
+      "headline": "Docker Agent：声明式YAML多智能体运行时，Apache-2.0许可",
+      "summary": "Docker的开源智能体构建器用YAML定义智能体团队，支持任意MCP服务器及OpenAI、Anthropic、Gemini和本地模型，并可通过OCI注册表推送和拉取智能体。",
+      "whyItMatters": "它把智能体当作可版本化、可共享的制品，类似容器镜像。",
+      "category": "技术",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "docker/docker-agent (GitHub)",
+          "url": "https://github.com/docker/docker-agent"
+        }
+      ]
+    },
+    {
+      "headline": "ascii.rest提供208个无依赖的动画ASCII作品",
+      "summary": "该MIT许可的合集把每件作品做成小型TypeScript模块，可用于HTML、React、Next.js或Astro，也可用“npx ascii.rest donut”在终端播放。",
+      "whyItMatters": "纯装饰性，但是零依赖小部件的整洁范例。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "ascii.rest",
+          "url": "https://ascii.rest/"
+        }
+      ]
+    }
+  ]
+}

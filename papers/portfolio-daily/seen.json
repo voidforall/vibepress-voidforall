@@ -1,7 +1,15 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-07T14:13:34Z",
+  "updatedAt": "2026-10-08T14:25:41Z",
   "events": [
+    {
+      "date": "2026-10-08",
+      "headline": "Finland orders Google to halt work at two planned data centre sites over forest clearing",
+      "summary": "Finland's Supervisory Agency (LVV) ordered Tuike Finland, acting for Google, to suspend preparatory work at Muhos and Kajaani by October 23 until environmental impact assessments are done; it is probing whether over 300 hectares were clear…",
+      "urls": [
+        "https://arynews.tv/finland-orders-halt-to-work-on-googles-data-centre-sites"
+      ]
+    },
     {
       "date": "2026-10-07",
       "headline": "Black Hills signs agreements to power a planned Google data center in Cheyenne, with $1.8 billion of its own generation capex",
@@ -394,38 +402,6 @@
       "summary": "Block joined the x402 Foundation and added Bitcoin Lightning support to x402, an open payment standard that lets AI agents and web services autonomously pay for API access and digital services. Block joins Google, Microsoft, AWS, Coinbase…",
       "urls": [
         "https://cointelegraph.com/news/block-brings-bitcoin-lightning-payments-to-x402-for-ai-agents"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "headline": "US bitcoin ETFs pull in a record $999 million in a single day as price tops $86,000",
-      "summary": "US-listed spot bitcoin ETFs took in $998.95 million in net inflows Monday, their largest single-day haul of 2026, led by BlackRock's IBIT ($381M), ARK & 21Shares' ARKB ($289M), and Fidelity's FBTC ($239M), as bitcoin traded above $86,000 n…",
-      "urls": [
-        "https://news.bitcoin.com/market-updates/bitcoin-etfs-hit-2026-high-with-999m-inflow-as-bitcoin-price-tops-86k/"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "headline": "Ireland fines Google $463 million over unlawful location-data tracking",
-      "summary": "Ireland's Data Protection Commission fined Google €403 million ($463 million) after a six-year investigation found the company unlawfully processed location data in Web & App Activity, Location History, and Android's Location Accuracy feat…",
-      "urls": [
-        "https://techxplore.com/news/2026-09-google-million-fine-eu-breach.html"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "headline": "Gold holds near $4,350 as Trump-Xi summit and Iran talks ease investor nerves",
-      "summary": "Gold traded in the $4,350-$4,390 range Wednesday as investors weighed President Trump's Washington summit with Xi Jinping — the first Chinese presidential visit in 11 years — alongside easing US-Iran tensions after talks at the UN.",
-      "urls": [
-        "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-september-23-2026-gold-holds-as-investors-weigh-china-iran-relations-110649042.html"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "headline": "Cathie Wood's ARK buys $25 million of Rocket Lab, trims Alphabet stake",
-      "summary": "ARK Invest's ETFs bought 359,612 Rocket Lab shares worth $25.1 million on Tuesday across ARKK, ARKQ and ARKX, while selling 16,422 Alphabet shares worth $5.8 million through ARKQ and ARKX.",
-      "urls": [
-        "https://www.investing.com/news/company-news/cathie-woods-ark-sells-alphabet-stock-buys-rocket-lab-93CH-4911908"
       ]
     }
   ]

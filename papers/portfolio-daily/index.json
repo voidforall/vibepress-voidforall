@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-08",
+      "date": "2026-10-08",
+      "headline": "Finland orders Google to halt work at two planned data centre sites over forest clearing",
+      "storyCount": 1
+    },
+    {
       "id": "2026-10-07",
       "date": "2026-10-07",
       "headline": "Black Hills signs agreements to power a planned Google data center in Cheyenne, with $1.8 billion of its own generation capex",

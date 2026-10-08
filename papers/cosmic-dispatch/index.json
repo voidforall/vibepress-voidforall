@@ -7,6 +7,12 @@
   "emoji": "🪐",
   "editions": [
     {
+      "id": "2026-10-08",
+      "date": "2026-10-08",
+      "headline": "Hubble archive hints at a second-generation planet around a white dwarf",
+      "storyCount": 4
+    },
+    {
       "id": "2026-10-01",
       "date": "2026-10-01",
       "headline": "Starship reaches orbit for the first time and deploys 26 Starlink V3 satellites, then comes home early after an engine shutdown",

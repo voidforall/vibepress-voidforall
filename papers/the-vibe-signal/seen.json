@@ -1,7 +1,40 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-07T14:13:35Z",
+  "updatedAt": "2026-10-08T14:25:41Z",
   "events": [
+    {
+      "date": "2026-10-08",
+      "headline": "ascii.rest offers 208 dependency-free animated ASCII pieces for the web",
+      "summary": "The MIT-licensed collection ships each piece as a small TypeScript module usable in HTML, React, Next.js or Astro, and plays in a terminal via 'npx ascii.rest donut'.",
+      "urls": [
+        "https://ascii.rest/"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "headline": "OpenAI's batch of AI-written maths results loses three papers to a sign error",
+      "summary": "OpenAI's math repository withdrew three Hodge-conjecture-related manuscripts on October 7 after a sign error invalidated a stabilization-trace cancellation argument that the others also relied on. Scott Aaronson had called the release of r…",
+      "urls": [
+        "https://github.com/openai/math/blob/main/history.md",
+        "https://scottaaronson.blog/?p=10169"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "headline": "Docker Agent: declarative YAML multi-agent runtime, Apache-2.0",
+      "summary": "Docker's open-source agent builder defines agent teams in YAML, supports any MCP server and providers including OpenAI, Anthropic, Gemini and local models, and can push and pull agents via OCI registries.",
+      "urls": [
+        "https://github.com/docker/docker-agent"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "headline": "Anthropic ships Claude Haiku 5.5 at $0.10/$0.50 per million tokens",
+      "summary": "Haiku 5.5 launched October 7 at $0.10 input and $0.50 output per million tokens for prompts up to 100k, about 75% cheaper to run than Haiku 4.5 by Anthropic's account. It scores 72.4% on OSWorld 2.1 (offline subset) against 15.7% for Haiku…",
+      "urls": [
+        "https://www.anthropic.com/claude-haiku-5-5"
+      ]
+    },
     {
       "date": "2026-10-07",
       "headline": "Strands releases Decider 2B, an open-source decision model that runs locally",
@@ -528,55 +561,6 @@
       "summary": "A researcher found that ansi2html, the library builds.sr.ht uses to render ANSI codes in build logs as HTML, failed to sanitize OSC 8 hyperlink sequences, letting anyone inject JavaScript into logs via a patch or CI job and steal viewers'…",
       "urls": [
         "https://blog.arusekk.pl/posts/srht-account-takeover/"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "headline": "WordPress patches a critical unauthenticated path-traversal bug that can lead to RCE",
-      "summary": "A flaw in get_page_template() (CVE-2026-87902, CVSS 9.2) let an unauthenticated attacker include an arbitrary readable .php file from outside the active theme directory. It's exploitable on sites using a theme with a top-level 'page-' dire…",
-      "urls": [
-        "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "headline": "Pentagon probe: overreliance on Palantir's Maven AI contributed to a strike that killed 123 children",
-      "summary": "A Bloomberg investigation into the February 28 Tomahawk strike on Shajarah Tayyebeh Elementary School in Minab, Iran, found investigators concluded that outdated satellite imagery, rushed targeting procedures, and overreliance on Palantir'…",
-      "urls": [
-        "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-        "https://www.rt.com/news/646000-overreliance-on-ai-contributed-to/"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "headline": "OpenAI's GPT-6 Astra breaks a WWII Enigma message that resisted cryptanalysts since 2005",
-      "summary": "Researcher Carter Leffer set GPT-6 Astra loose on unsolved German Army Enigma traffic; it flagged message MVUEH (sent July 10, 1941) as the most promising target, wrote its own Enigma simulator in Python and C++, and used the repeated plac…",
-      "urls": [
-        "https://www.cryptocellar.org/bgac/the-mvueh-break.html"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "headline": "OpenAI ships GPT-6 Sol and Luna, cutting API prices in half",
-      "summary": "OpenAI released GPT-6 Sol, aimed at complex coding and professional work with roughly half the error rate of its predecessor, and GPT-6 Luna, tuned for high-volume clerical tasks. Sol now costs $2/$10 per million input/output tokens and Lu…",
-      "urls": [
-        "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "headline": "Hacking group ShinyHunters claims it stole personal data on all FBI employees",
-      "summary": "ShinyHunters told 404 Media it holds names, home addresses, phone numbers, and family details for FBI employees and applicants, and let the outlet review a sample of about 5,000 alleged agent records. Neither the FBI nor any other official…",
-      "urls": [
-        "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "headline": "Anthropic ships Claude Opus 5.5, 40% cheaper and faster than Opus 5",
-      "summary": "Anthropic's Opus 5.5 scores 66.4% on Terminal-Bench 4.0 versus 52.3% for Opus 5, generates output 30% faster, and cuts input/output token pricing to $4/$20 per million from $5/$25. Anthropic says it recorded the best alignment scores of an…",
-      "urls": [
-        "https://www.anthropic.com/claude-opus-5-5"
       ]
     }
   ]

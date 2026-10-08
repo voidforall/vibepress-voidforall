@@ -1,0 +1,65 @@
+{
+  "id": "2026-10-08",
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T14:25:41Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Cheaper small models, bigger machine mathematics and the first bruise on it, and a pair of open-source tools that ask little of you.",
+  "stories": [
+    {
+      "headline": "Anthropic ships Claude Haiku 5.5 at $0.10/$0.50 per million tokens",
+      "summary": "Haiku 5.5 launched October 7 at $0.10 input and $0.50 output per million tokens for prompts up to 100k, about 75% cheaper to run than Haiku 4.5 by Anthropic's account. It scores 72.4% on OSWorld 2.1 (offline subset) against 15.7% for Haiku 4.5, and trails Sonnet 5.5 across the listed benchmarks.",
+      "whyItMatters": "The small tier is now far cheaper and, per vendor benchmarks, much closer to Sonnet-class on agentic tasks; Sonnet 5.5 cache reads were also halved.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Claude Haiku 5.5 (Anthropic)",
+          "url": "https://www.anthropic.com/claude-haiku-5-5"
+        }
+      ]
+    },
+    {
+      "headline": "OpenAI's batch of AI-written maths results loses three papers to a sign error",
+      "summary": "OpenAI's math repository withdrew three Hodge-conjecture-related manuscripts on October 7 after a sign error invalidated a stabilization-trace cancellation argument that the others also relied on. Scott Aaronson had called the release of roughly 372 results a 'Mathocalypse', noting only some come with Lean certificates and that the model solved about 5% of problems attempted.",
+      "whyItMatters": "The first public retraction shows why verification, not generation, is now the bottleneck for AI-produced proofs.",
+      "category": "Ideas",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "OpenAI Math: history (GitHub)",
+          "url": "https://github.com/openai/math/blob/main/history.md"
+        },
+        {
+          "title": "The Mathocalypse (Shtetl-Optimized)",
+          "url": "https://scottaaronson.blog/?p=10169"
+        }
+      ]
+    },
+    {
+      "headline": "Docker Agent: declarative YAML multi-agent runtime, Apache-2.0",
+      "summary": "Docker's open-source agent builder defines agent teams in YAML, supports any MCP server and providers including OpenAI, Anthropic, Gemini and local models, and can push and pull agents via OCI registries.",
+      "whyItMatters": "It treats agents as versioned, shareable artefacts like container images.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "docker/docker-agent (GitHub)",
+          "url": "https://github.com/docker/docker-agent"
+        }
+      ]
+    },
+    {
+      "headline": "ascii.rest offers 208 dependency-free animated ASCII pieces for the web",
+      "summary": "The MIT-licensed collection ships each piece as a small TypeScript module usable in HTML, React, Next.js or Astro, and plays in a terminal via 'npx ascii.rest donut'.",
+      "whyItMatters": "Purely decorative, but a tidy example of the zero-dependency widget.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "ascii.rest",
+          "url": "https://ascii.rest/"
+        }
+      ]
+    }
+  ]
+}

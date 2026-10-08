@@ -1,0 +1,22 @@
+{
+  "id": "2026-10-08",
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T14:25:41Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今日自选股的新披露不多；唯一有较完整报道的是Alphabet在芬兰AI建设面临的监管挫折。",
+  "stories": [
+    {
+      "headline": "芬兰责令谷歌因砍伐森林暂停两处数据中心选址施工",
+      "summary": "芬兰监管局（LVV）责令代表谷歌的Tuike Finland在10月23日前暂停Muhos和Kajaani的前期工程，直至完成环评；该机构正调查是否未经环评就清除了逾300公顷森林。谷歌表示未达到自身标准，须在10月14日前说明计划，否则可能面临执法程序。",
+      "whyItMatters": "该命令涉及谷歌9月宣布的130亿欧元芬兰投资，环境部长表示项目很可能延期。",
+      "category": "监管",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Finland orders halt to work on Google's data centre sites (ARY News)",
+          "url": "https://arynews.tv/finland-orders-halt-to-work-on-googles-data-centre-sites"
+        }
+      ]
+    }
+  ]
+}

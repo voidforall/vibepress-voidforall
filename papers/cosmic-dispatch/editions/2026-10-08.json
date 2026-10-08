@@ -1,0 +1,69 @@
+{
+  "id": "2026-10-08",
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T14:25:41Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "A quiet-sky week with a lot of motion: a suspected planet built from a dead star's debris, a record-fast ride to the space station, a Nobel for catching neutrinos from deep space, and a military-satellite launch that keeps slipping.",
+  "stories": [
+    {
+      "headline": "Hubble archive hints at a second-generation planet around a white dwarf",
+      "summary": "Reanalysing 1999 Hubble data, a Warwick-led team found unusually abundant niobium around the white dwarf HS 0209+0832 and argues it points to a Jupiter-sized planet built from material the dying star shed, orbiting about 3.7 million miles out. NASA calls the planet suspected, not confirmed.",
+      "whyItMatters": "If it holds up, it would be a rare planet formed after its star died; for now the evidence is chemical and the formation story is a model.",
+      "category": "Astronomy",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Suspected Second-generation Planet Solves NASA Hubble Cold Case (NASA Science)",
+          "url": "https://science.nasa.gov/?p=1445445"
+        },
+        {
+          "title": "Astronomers Solve Cosmic Cold Case with NASA Hubble Data (NASA)",
+          "url": "https://www.nasa.gov/image-article/astronomers-solve-cosmic-cold-case-with-nasa-hubble-data/"
+        }
+      ]
+    },
+    {
+      "headline": "Crew-13 docks at the station less than eight hours after launch, the fastest for a U.S. spacecraft",
+      "summary": "Following the October 1 liftoff we reported, Dragon reached the International Space Station in under eight hours. NASA had billed the plan as the fastest launch-to-docking for a U.S. spacecraft in the station's history.",
+      "whyItMatters": "The four-person Crew-13 team is now aboard, bringing the station to 11 people during handover.",
+      "category": "Missions",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "NASA's SpaceX Crew-13 Secured Inside Dragon, Ready for Hatch Closure (NASA)",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/10/01/nasas-spacex-crew-13-secured-inside-dragon-spacecraft-ready-for-hatch-closure/"
+        },
+        {
+          "title": "SpaceX Crew-13 astronauts dock at ISS less than 8 hours after launch (Space.com)",
+          "url": "https://space.com/space-exploration/launches-spacecraft/spacex-crew-13-astronaut-mission-docks-iss-fastest-trip-us-spacecraft"
+        }
+      ]
+    },
+    {
+      "headline": "Francis Halzen wins the Nobel Prize in Physics for IceCube and high-energy cosmic neutrinos",
+      "summary": "The Royal Swedish Academy honoured Halzen on October 6 for decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin.",
+      "whyItMatters": "It recognises neutrinos from beyond Earth as a working way to observe the universe.",
+      "category": "Discovery",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Nobel Prize in Physics 2026 awarded to Francis Halzen (Free Press Journal)",
+          "url": "https://www.freepressjournal.in/world/nobel-prize-in-physics-2026-awarded-to-francis-halzen-for-high-energy-neutrino-discoveries"
+        }
+      ]
+    },
+    {
+      "headline": "SDA's fourth Tranche 1 launch slips again, now targeting October 10",
+      "summary": "A Falcon 9 carrying 21 Space Development Agency data-transport satellites auto-aborted just before liftoff from Vandenberg on October 5; SpaceX said vehicle and payload were healthy. The target has since moved from October 8 to 9 and now to a window early on October 10.",
+      "whyItMatters": "The launch is part of a military communications and missile-warning constellation, and it is still on the pad.",
+      "category": "Launches",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "SpaceX to launch SDA's fourth Tranche 1 data transport mission (KSBY)",
+          "url": "https://ksby.com/news/launch-tracker/spacex-to-launch-sdas-fourth-tranche-1-data-transport-mission-early-monday-morning"
+        }
+      ]
+    }
+  ]
+}

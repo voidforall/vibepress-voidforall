@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-10-08",
+      "date": "2026-10-08",
+      "headline": "Anthropic ships Claude Haiku 5.5 at $0.10/$0.50 per million tokens",
+      "storyCount": 4
+    },
+    {
       "id": "2026-10-07",
       "date": "2026-10-07",
       "headline": "OpenAI puts a Decisions API into public beta: typed answers about 10x faster than Responses, at $0.10 per million input tokens",
