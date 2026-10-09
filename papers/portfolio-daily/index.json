@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-09",
+      "date": "2026-10-09",
+      "headline": "Gold rallies toward $4,200 as US yields retreat, with a report of 'productive discussions' with Iran",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-08",
       "date": "2026-10-08",
       "headline": "Finland orders Google to halt work at two planned data centre sites over forest clearing",

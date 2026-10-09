@@ -1,7 +1,47 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-08T14:25:41Z",
+  "updatedAt": "2026-10-09T14:08:39Z",
   "events": [
+    {
+      "date": "2026-10-09",
+      "headline": "Deno's team is joining Cloudflare: Deno Deploy shuts in six months, the runtime gets one more year of fixes",
+      "summary": "Deno announced on October 9 that its entire team is joining Cloudflare. The Deno runtime gets monthly bug and security releases for a year, Deno Deploy runs for six months with migration help for paying customers, and JSR continues on Clou…",
+      "urls": [
+        "https://deno.com/blog/cloudflare"
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "headline": "Cactus's Whistle is a 16.9 MB speech-to-text model that runs on a device CPU",
+      "summary": "Whistle transcribes up to 30 seconds of audio in seven languages in a single file, with word timestamps. On an M4 Pro CPU it reports 1,319 tokens/s against 266 for Whisper base (145.3 MB), and wins on LibriSpeech, SPGISpeech, Earnings-22 a…",
+      "urls": [
+        "https://cactuscompute.com/blog/whistle"
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "headline": "Bevy 0.20 adds macOS support to its path-traced renderer and adopts the WESL shader language",
+      "summary": "Released October 8, Bevy 0.20 makes Solari more accurate and faster and brings it to macOS, adopts WESL in place of its custom WGSL dialect, simplifies BSN scene syntax, and adds new Feathers UI widgets and a CAD-style Pan Orbit Camera.",
+      "urls": [
+        "https://bevy.org/news/bevy-0-20/"
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "headline": "A statistical look at METR's AI time-horizon plot finds the difficulty curve is nearly flat between 2 and 30 minutes",
+      "summary": "A new arXiv paper relaxes METR's assumption that difficulty is linear in log human time, using splines and item-response theory. It finds a near-flat stretch from about 2 to 30 minutes, so going from 3 to 30 minutes is easier than from 30…",
+      "urls": [
+        "https://arxiv.org/abs/2610.12466v1"
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "headline": "A blogger asks why the industry isn't freaking out about DeepSeek 4.1 Flash",
+      "summary": "The author says the model is orders of magnitude cheaper than frontier models: about $0.003 versus roughly $1 for a desktop-file reorganisation, on a $10-a-month plan. They give no benchmark scores, and the claim of a roughly 437x smaller…",
+      "urls": [
+        "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/"
+      ]
+    },
     {
       "date": "2026-10-08",
       "headline": "ascii.rest offers 208 dependency-free animated ASCII pieces for the web",

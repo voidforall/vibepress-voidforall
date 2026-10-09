@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-09",
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T14:08:38Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A consolidation in the JavaScript runtime world, a speech model small enough for a microcontroller, a cheap-model evangelist, a game-engine release and a statistician poking at a famous AI chart.",
+  "stories": [
+    {
+      "headline": "Deno's team is joining Cloudflare: Deno Deploy shuts in six months, the runtime gets one more year of fixes",
+      "summary": "Deno announced on October 9 that its entire team is joining Cloudflare. The Deno runtime gets monthly bug and security releases for a year, Deno Deploy runs for six months with migration help for paying customers, and JSR continues on Cloudflare infrastructure.",
+      "whyItMatters": "A major non-Node JavaScript runtime moves to maintenance, with open-source continuation left to others; the post does not say what happens to Node compatibility.",
+      "category": "Business",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Deno Is Joining Cloudflare",
+          "url": "https://deno.com/blog/cloudflare"
+        }
+      ]
+    },
+    {
+      "headline": "Cactus's Whistle is a 16.9 MB speech-to-text model that runs on a device CPU",
+      "summary": "Whistle transcribes up to 30 seconds of audio in seven languages in a single file, with word timestamps. On an M4 Pro CPU it reports 1,319 tokens/s against 266 for Whisper base (145.3 MB), and wins on LibriSpeech, SPGISpeech, Earnings-22 and FLEURS but loses to Whisper base on TED-LIUM, AMI and MLS.",
+      "whyItMatters": "Usable on-device transcription shrinks to a size that fits phones and microcontrollers; the page states no license, and exact error rates appear only in charts.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Whistle: Speech to Text in 16.9 MB",
+          "url": "https://cactuscompute.com/blog/whistle"
+        }
+      ]
+    },
+    {
+      "headline": "A blogger asks why the industry isn't freaking out about DeepSeek 4.1 Flash",
+      "summary": "The author says the model is orders of magnitude cheaper than frontier models: about $0.003 versus roughly $1 for a desktop-file reorganisation, on a $10-a-month plan. They give no benchmark scores, and the claim of a roughly 437x smaller KV cache is theirs, not verified.",
+      "whyItMatters": "It is one practitioner's account, not a measurement, but it argues that 'good enough' cheap models handle unattended work a month or two behind the frontier.",
+      "category": "Ideas",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+          "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/"
+        }
+      ]
+    },
+    {
+      "headline": "Bevy 0.20 adds macOS support to its path-traced renderer and adopts the WESL shader language",
+      "summary": "Released October 8, Bevy 0.20 makes Solari more accurate and faster and brings it to macOS, adopts WESL in place of its custom WGSL dialect, simplifies BSN scene syntax, and adds new Feathers UI widgets and a CAD-style Pan Orbit Camera.",
+      "whyItMatters": "The Rust game engine swaps its shader language for a shared standard and widens its editor-style UI toolkit.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Bevy 0.20",
+          "url": "https://bevy.org/news/bevy-0-20/"
+        }
+      ]
+    },
+    {
+      "headline": "A statistical look at METR's AI time-horizon plot finds the difficulty curve is nearly flat between 2 and 30 minutes",
+      "summary": "A new arXiv paper relaxes METR's assumption that difficulty is linear in log human time, using splines and item-response theory. It finds a near-flat stretch from about 2 to 30 minutes, so going from 3 to 30 minutes is easier than from 30 minutes to 5 hours.",
+      "whyItMatters": "It cautions that equal multiples on the time-horizon axis do not mean equal capability gains, and says to read horizons with diagnostic plots as longer tasks arrive.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "On the estimation and validity of AI time horizons (arXiv)",
+          "url": "https://arxiv.org/abs/2610.12466v1"
+        }
+      ]
+    }
+  ]
+}

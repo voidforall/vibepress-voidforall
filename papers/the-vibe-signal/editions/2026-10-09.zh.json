@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-09",
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T14:08:38Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "JavaScript运行时领域迎来整合，一个小到能放进微控制器的语音模型，一位廉价模型的鼓吹者，一次游戏引擎发布，以及一位统计学者对一张著名AI图表的审视。",
+  "stories": [
+    {
+      "headline": "Deno团队加入Cloudflare：Deno Deploy六个月后关闭，运行时再获一年维护",
+      "summary": "Deno于10月9日宣布整个团队加入Cloudflare。Deno运行时将在一年内每月发布缺陷与安全更新；Deno Deploy再运行六个月，并为付费客户提供迁移支持；JSR将迁至Cloudflare基础设施继续运营。",
+      "whyItMatters": "一个重要的非Node JavaScript运行时转入维护状态，开源后续留给他人；文章未说明Node兼容性的去向。",
+      "category": "商业",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Deno Is Joining Cloudflare",
+          "url": "https://deno.com/blog/cloudflare"
+        }
+      ]
+    },
+    {
+      "headline": "Cactus的Whistle：仅16.9 MB、可在设备CPU上运行的语音转文字模型",
+      "summary": "Whistle可在单个文件内转录最长30秒、七种语言的音频，并给出词级时间戳。其在M4 Pro CPU上报告每秒1,319个token，而Whisper base（145.3 MB）为266；在LibriSpeech、SPGISpeech、Earnings-22和FLEURS上占优，在TED-LIUM、AMI和MLS上不及Whisper base。",
+      "whyItMatters": "可用的端侧转录缩小到能放进手机和微控制器的体积；页面未说明许可证，具体错误率仅见于图表。",
+      "category": "技术",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Whistle: Speech to Text in 16.9 MB",
+          "url": "https://cactuscompute.com/blog/whistle"
+        }
+      ]
+    },
+    {
+      "headline": "一位博主发问：业界为何对DeepSeek 4.1 Flash不以为意",
+      "summary": "作者称该模型比前沿模型便宜几个数量级：整理桌面文件约0.003美元，而前沿模型约1美元，订阅费每月10美元。文章未给出基准分数，KV缓存缩小约437倍的说法出自作者本人，未经核实。",
+      "whyItMatters": "这只是一位从业者的体验而非测量，但它主张“够用”的廉价模型能在落后前沿一两个月的水平上处理无人值守任务。",
+      "category": "观点",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+          "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/"
+        }
+      ]
+    },
+    {
+      "headline": "Bevy 0.20：路径追踪渲染器支持macOS，并采用WESL着色器语言",
+      "summary": "Bevy 0.20于10月8日发布，Solari更准确、更快并支持macOS，采用WESL取代其自定义WGSL方言，简化BSN场景语法，并新增Feathers UI控件和CAD风格的环绕相机。",
+      "whyItMatters": "这款Rust游戏引擎把着色器语言换成共享标准，并扩充了编辑器风格的UI工具包。",
+      "category": "技术",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Bevy 0.20",
+          "url": "https://bevy.org/news/bevy-0-20/"
+        }
+      ]
+    },
+    {
+      "headline": "对METR AI时间视野图的统计分析发现，难度曲线在2至30分钟之间几乎持平",
+      "summary": "一篇新的arXiv论文放宽了METR关于难度与人类用时对数成线性关系的假设，改用样条和项目反应理论。结果显示约2至30分钟之间近乎持平，因此从3分钟提升到30分钟比从30分钟提升到5小时更容易。",
+      "whyItMatters": "论文提醒，时间视野轴上同样的倍数并不意味着同等的能力提升，并建议随着更长任务加入，结合诊断图阅读时间视野。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "On the estimation and validity of AI time horizons (arXiv)",
+          "url": "https://arxiv.org/abs/2610.12466v1"
+        }
+      ]
+    }
+  ]
+}
