@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-10-10",
+      "date": "2026-10-10",
+      "headline": "Danish register breach: '123456' password and a 21-day window behind 8.8 million exposed CPR numbers",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-09",
       "date": "2026-10-09",
       "headline": "Deno's team is joining Cloudflare: Deno Deploy shuts in six months, the runtime gets one more year of fixes",

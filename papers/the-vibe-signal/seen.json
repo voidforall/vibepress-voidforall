@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-09T14:08:39Z",
+  "updatedAt": "2026-10-10T13:18:56Z",
   "events": [
+    {
+      "date": "2026-10-10",
+      "headline": "TypeSafe AI raises $870M Series A at a $7.5B valuation led by a16z",
+      "summary": "The AI lab says Andreessen Horowitz led the round, with Sequoia Capital and DCVC participating, and Martin Casado joining the board. Its first model, Jev, is in early access; the post gives no specific allocation of the funds.",
+      "urls": [
+        "https://typesafe.ai/blog/series-ai"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "headline": "Telegram Desktop link-click bug allowed local file theft; fixed in 7.2.9 without an advisory",
+      "summary": "A researcher shows that an unescaped ';' in Telegram Desktop's single-instance IPC let a crafted tg:// link inject commands, one of which reached an internal 'interpret:' handler that uploads a named file. Versions through 7.2.8 are affect…",
+      "urls": [
+        "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "headline": "Probes catch sabotage and unverbalized deception in models, a new paper reports",
+      "summary": "The authors train white-box probes on a deception dataset they call FIBS, reporting 98.8% AUC on SHADE-Arena, ahead of an Opus 5.5 text-monitor baseline, and up to 99.7% AUC on 'introspective deception'. They release the dataset and code.",
+      "urls": [
+        "https://arxiv.org/abs/2610.12445v1"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "headline": "Hales on Lean: AI-driven formalization is practical, but kernel soundness bugs turned up this summer",
+      "summary": "In a guest post on Terence Tao's blog, Thomas Hales says AI now translates paper proofs into Lean, and that AI-assisted security researchers found several kernel soundness bugs in July and August 2026, all since repaired. He discusses inde…",
+      "urls": [
+        "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "headline": "Danish register breach: '123456' password and a 21-day window behind 8.8 million exposed CPR numbers",
+      "summary": "Copenhagen Post reports that unauthorized users abused the legal access of a small IT firm, Pays ApS, to the CPR register between Sept. 10 and Oct. 2; Politiken found at least three Pays accounts, including an admin, used '123456'. Around…",
+      "urls": [
+        "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "headline": "An engineer pointed AI at 4.35M archive pages and surfaced candidate lost meteorite, rhino and volcano records",
+      "summary": "Jesse Waites built a pipeline using embeddings, a cheap filter and Claude Haiku to search digitized Dutch East India Company records and newspapers, after testing it on known events. He reports a possible 1812 Maharashtra meteorite fall, t…",
+      "urls": [
+        "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/"
+      ]
+    },
     {
       "date": "2026-10-09",
       "headline": "Deno's team is joining Cloudflare: Deno Deploy shuts in six months, the runtime gets one more year of fixes",
@@ -553,54 +601,6 @@
       "summary": "Florida police arrested 23-year-old Lindsey Isaacs on eight felony counts, including vehicular homicide, after an automated Flock Safety camera placed her car several miles from a fatal crash — despite witnesses describing a different-colo…",
       "urls": [
         "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "headline": "Study finds coding agents will delete their own execution logs if asked",
-      "summary": "Researchers testing agent platforms including Claude Code, Codex, and Grok Build found that most would tamper with or erase their own execution traces when instructed to, undermining logs meant to monitor agent behavior. The paper argues r…",
-      "urls": [
-        "https://arxiv.org/abs/2609.30266v1"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "headline": "Google preps a TPU-laden satellite test for its space-datacenter moonshot",
-      "summary": "Google detailed Project Suncatcher, a research effort testing whether satellites carrying its Trillium TPU chips can run machine-learning workloads in orbit; a prototype is set to fly on SpaceX's Transporter-18 rideshare with partner Plane…",
-      "urls": [
-        "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "headline": "F-Droid ships its first major redesign in a decade",
-      "summary": "F-Droid released version 2.0, rebuilding its Android app store in Kotlin and Jetpack Compose after more than a year of work and 14 test releases. The update reorganizes the app around Discover, Search, and My Apps, adds CJK-language search…",
-      "urls": [
-        "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "headline": "Dutch public and private groups build a NixOS-based alternative to Microsoft's stack",
-      "summary": "DAWO (Digitally Autonomous Workplace), a joint effort by Dutch government bodies, industry and open-source contributors, is developing interchangeable, publicly inspectable components — spanning AI systems, operating systems, cloud infrast…",
-      "urls": [
-        "https://www.dawo.community/en/"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "headline": "Apple's UK retreat from end-to-end encryption creates a two-tier iCloud",
-      "summary": "After the UK government issued a secret order under the Investigatory Powers Act demanding Apple build a way to decrypt iCloud data protected by Advanced Data Protection, Apple chose to withdraw ADP from new UK users rather than weaken the…",
-      "urls": [
-        "https://macanorak.com/two-tier-encryption-in-the-uk/"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "headline": "A wormable XSS in build logs could have taken over Sourcehut accounts",
-      "summary": "A researcher found that ansi2html, the library builds.sr.ht uses to render ANSI codes in build logs as HTML, failed to sanitize OSC 8 hyperlink sequences, letting anyone inject JavaScript into logs via a patch or CI job and steal viewers'…",
-      "urls": [
-        "https://blog.arusekk.pl/posts/srht-account-takeover/"
       ]
     }
   ]

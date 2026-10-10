@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-10",
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T13:18:55Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Security basics dominate: a Danish register undone by a '123456' password and a Telegram bug patched without notice, alongside research on catching deceptive models. Elsewhere, a $7.5 billion valuation for an early-access lab, Lean's soundness bugs and AI-assisted archive trawling, each with caveats.",
+  "stories": [
+    {
+      "headline": "Danish register breach: '123456' password and a 21-day window behind 8.8 million exposed CPR numbers",
+      "summary": "Copenhagen Post reports that unauthorized users abused the legal access of a small IT firm, Pays ApS, to the CPR register between Sept. 10 and Oct. 2; Politiken found at least three Pays accounts, including an admin, used '123456'. Around 8.8 million CPR numbers were exposed, roughly 970,000 people had registered credit warnings by Oct. 7, and an unverified anonymous hacker claim of responsibility is being investigated.",
+      "whyItMatters": "The follow-up shows the earlier disclosure traced to basic credential hygiene, and it has pushed Danish authorities to say CPR numbers alone should no longer verify identity.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "123456 password used in massive Danish CPR data breach - Copenhagen Post",
+          "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/"
+        }
+      ]
+    },
+    {
+      "headline": "TypeSafe AI raises $870M Series A at a $7.5B valuation led by a16z",
+      "summary": "The AI lab says Andreessen Horowitz led the round, with Sequoia Capital and DCVC participating, and Martin Casado joining the board. Its first model, Jev, is in early access; the post gives no specific allocation of the funds.",
+      "whyItMatters": "An $870 million first institutional round values a company whose only product is in early access at $7.5 billion.",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "TypeSafe AI Series A announcement",
+          "url": "https://typesafe.ai/blog/series-ai"
+        }
+      ]
+    },
+    {
+      "headline": "Telegram Desktop link-click bug allowed local file theft; fixed in 7.2.9 without an advisory",
+      "summary": "A researcher shows that an unescaped ';' in Telegram Desktop's single-instance IPC let a crafted tg:// link inject commands, one of which reached an internal 'interpret:' handler that uploads a named file. Versions through 7.2.8 are affected (CVSS 8.1, CVE-2026-107181) and 7.2.9 fixes it, though the changelog mentions only a rendering fix.",
+      "whyItMatters": "A single click could expose session data and enable account takeover, and the patch shipped on Sept. 17 without any security notice to users.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Telegram Desktop vulnerability writeup - beaksec",
+          "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/"
+        }
+      ]
+    },
+    {
+      "headline": "Probes catch sabotage and unverbalized deception in models, a new paper reports",
+      "summary": "The authors train white-box probes on a deception dataset they call FIBS, reporting 98.8% AUC on SHADE-Arena, ahead of an Opus 5.5 text-monitor baseline, and up to 99.7% AUC on 'introspective deception'. They release the dataset and code.",
+      "whyItMatters": "It is a reported case of inspecting a model's internals catching misbehavior that a transcript monitor misses, though results come from the authors' own benchmarks.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception (arXiv)",
+          "url": "https://arxiv.org/abs/2610.12445v1"
+        }
+      ]
+    },
+    {
+      "headline": "Hales on Lean: AI-driven formalization is practical, but kernel soundness bugs turned up this summer",
+      "summary": "In a guest post on Terence Tao's blog, Thomas Hales says AI now translates paper proofs into Lean, and that AI-assisted security researchers found several kernel soundness bugs in July and August 2026, all since repaired. He discusses independent kernels, a verified checker and gaps in Lean's type theory, and says humans must still audit that the statement matches the intended theorem.",
+      "whyItMatters": "As machine-checked proofs scale, trust shifts to the small kernel and to the human reading of the theorem statement.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "What mathematicians should know about the Lean Theorem Prover - Terence Tao's blog",
+          "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/"
+        }
+      ]
+    },
+    {
+      "headline": "An engineer pointed AI at 4.35M archive pages and surfaced candidate lost meteorite, rhino and volcano records",
+      "summary": "Jesse Waites built a pipeline using embeddings, a cheap filter and Claude Haiku to search digitized Dutch East India Company records and newspapers, after testing it on known events. He reports a possible 1812 Maharashtra meteorite fall, three rhinos shipped in 1738–1740 and three eruptions missing from the Smithsonian list, but calls them unreviewed candidates.",
+      "whyItMatters": "It shows cheap model triage can mine archives at scale, with the author stressing that novelty claims await confirmation from catalogue curators.",
+      "category": "Ideas",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "I pointed AI at 400 years of archives - Jesse Waites",
+          "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/"
+        }
+      ]
+    }
+  ]
+}

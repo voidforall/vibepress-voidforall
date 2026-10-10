@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-10",
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T13:18:55Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "安全基础问题占据主角：丹麦登记系统毁于“123456”密码，Telegram漏洞未经通告即被修复，同时还有关于发现欺骗性模型的研究。此外还有一家早期访问阶段实验室75亿美元的估值、Lean的可靠性漏洞，以及AI辅助的档案检索，各有其保留之处。",
+  "stories": [
+    {
+      "headline": "丹麦登记系统泄露：“123456”密码与21天窗口导致880万个CPR号码暴露",
+      "summary": "《哥本哈根邮报》报道，未授权用户在9月10日至10月2日期间滥用小型IT公司Pays ApS对CPR登记系统的合法访问权限；《政治报》发现Pays至少有三个账户（包括一个管理员账户）使用“123456”。约880万个CPR号码暴露，截至10月7日约有97万人登记了信用警示；一名匿名黑客声称负责，该说法尚未得到证实，调查仍在进行。",
+      "whyItMatters": "后续报道显示此前披露的泄露可追溯到基本的凭证管理问题，并促使丹麦当局表示不应再仅凭CPR号码验证身份。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "123456 password used in massive Danish CPR data breach - Copenhagen Post",
+          "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/"
+        }
+      ]
+    },
+    {
+      "headline": "TypeSafe AI完成8.7亿美元A轮融资，估值75亿美元，由a16z领投",
+      "summary": "这家AI实验室称，Andreessen Horowitz领投，Sequoia Capital和DCVC参投，Martin Casado将加入董事会。其首个模型Jev处于早期访问阶段；文章未给出资金的具体分配。",
+      "whyItMatters": "一轮8.7亿美元的A轮融资，使一家仅有早期访问产品的公司估值达到75亿美元。",
+      "category": "商业",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "TypeSafe AI Series A announcement",
+          "url": "https://typesafe.ai/blog/series-ai"
+        }
+      ]
+    },
+    {
+      "headline": "Telegram桌面版点击链接漏洞可导致本地文件被窃；7.2.9已修复但无安全公告",
+      "summary": "一位研究者指出，Telegram桌面版单实例IPC中未转义的“;”使精心构造的tg://链接得以注入命令，其中一条命令会触达上传指定文件的内部“interpret:”处理程序。7.2.8及以前版本受影响（CVSS 8.1，CVE-2026-107181），7.2.9已修复，但更新日志仅提到渲染修复。",
+      "whyItMatters": "一次点击就可能暴露会话数据并导致账户被接管，而补丁于9月17日发布时并未向用户发出任何安全通知。",
+      "category": "技术",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Telegram Desktop vulnerability writeup - beaksec",
+          "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/"
+        }
+      ]
+    },
+    {
+      "headline": "新论文称探针可发现模型的蓄意破坏与未言明的欺骗",
+      "summary": "作者在自建的FIBS欺骗数据集上训练白盒探针，报告在SHADE-Arena上AUC为98.8%，优于基于Opus 5.5的文本监控基线，在“内省式欺骗”上AUC最高达99.7%，并公开了数据集和代码。",
+      "whyItMatters": "这是一个通过检查模型内部状态发现文本监控遗漏的不当行为的案例，但结果来自作者自己的基准测试。",
+      "category": "技术",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception (arXiv)",
+          "url": "https://arxiv.org/abs/2610.12445v1"
+        }
+      ]
+    },
+    {
+      "headline": "黑尔斯谈Lean：AI驱动的形式化已可行，但今夏发现了内核可靠性漏洞",
+      "summary": "在陶哲轩博客的一篇客座文章中，托马斯·黑尔斯表示AI现已能将论文证明翻译为Lean，并称借助AI的安全研究者在2026年7月和8月发现了数个内核可靠性漏洞，均已修复。他讨论了独立内核、已验证的检查器以及Lean类型论中的空白，并指出仍需人工审核陈述是否与目标定理一致。",
+      "whyItMatters": "随着机器验证的证明规模扩大，信任转移到小型内核以及人工对定理陈述的审读上。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "What mathematicians should know about the Lean Theorem Prover - Terence Tao's blog",
+          "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/"
+        }
+      ]
+    },
+    {
+      "headline": "一位工程师用AI检索435万页档案，发现疑似遗失的陨石、犀牛和火山记录",
+      "summary": "Jesse Waites构建了一条使用嵌入检索、廉价过滤和Claude Haiku的流程，在用已知事件测试后，检索数字化的荷兰东印度公司记录和报纸。他报告了一次可能的1812年马哈拉施特拉邦陨石坠落、1738至1740年运送的三头犀牛，以及史密森尼名录中缺失的三次火山喷发，但称这些仅是尚未经专家审阅的候选发现。",
+      "whyItMatters": "这表明廉价模型分流可大规模挖掘档案，作者强调其新颖性主张仍有待目录管理者确认。",
+      "category": "观点",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "I pointed AI at 400 years of archives - Jesse Waites",
+          "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/"
+        }
+      ]
+    }
+  ]
+}

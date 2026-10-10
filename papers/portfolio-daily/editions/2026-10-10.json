@@ -1,0 +1,110 @@
+{
+  "id": "2026-10-10",
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T13:18:55Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A headline-only day: Rocket Lab's slide, Alibaba's regulatory backdrop, a Duolingo insider sale and lawsuit notices, gold's $4,100–$4,200 tug-of-war and bitcoin near $80,000. Article bodies could not be retrieved, so details are limited to what the titles state; Alphabet had no usable item.",
+  "stories": [
+    {
+      "headline": "Rocket Lab drops nearly 9% in two days as space stocks slide; Barclays upgrade headline surfaces",
+      "summary": "A TIKR headline says Rocket Lab lost nearly 9% over two days as space stocks slid, tying the move to SpaceX's spectrum moves and Iridium, while MarketBeat's headline says Barclays raised the stock to Strong-Buy. Only headlines were available; no article bodies were read.",
+      "whyItMatters": "Headlines point to a sharp two-day slide for a holding even as at least one broker rating change was reported.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab Lost Nearly 9% in Two Days as Space Stocks Slid. Here’s What SpaceX’s Spectrum Moves Mean for Iridium - TIKR.com",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPclMtSldfY0xhZFphd0lIZWtNbDVpY0gwdVE1RGctSXRJVE00MmNFQ0VjQ19sZDNPVVZfdmY2R3ZmQ2x2LUpDQU1STl9ESklRdE55Y0dGRzJXcVlnak5tb1VJT192SDlpUF9nWGdZbHQyem53Mm5oWTg3TVJ6ZWxDSGFzSy1oZnFZSGY4TWJyZ19yVHNaemRTWl9tNjVmQU01SHpjVEhtZEdicE9FYTJPRklBekdRV2lkX1RkRE8tbW1uVlRzNDFIbGpxYXFuQ0U?oc=5"
+        },
+        {
+          "title": "Rocket Lab (NASDAQ:RKLB) Raised to Strong-Buy at Barclays - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSU1rMTNMS3lEdFZVODYzVDQ1MkdjRzI3NndOR3VmZWVqMnhHdThmN0NFNU1tZG9nSWVqWE5OOEprMGdJZ3Q1N0VUaUpnY2ZzUjNzU1E3QVM3bExrMVZuOXRWY2xYMVlqWm1OOElvcEd1bEdPN3NSRjMwTzNBVFU1THM2dC1VYUhEaHZiWkJ5YXYtTTJtQk5NS3FDNURfSTJhU3FNWDFoTFEtNU1TV1lUdzBuVFowbVNz?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Alibaba is reported rising as China limits sell orders, but the stock is down 24% this year",
+      "summary": "A Benzinga headline says Alibaba stock rose as China limited sell orders; Stocktwits says BABA is headed for a fifth straight weekly loss amid a reported $1.5 billion bid for Pupu and regulatory scrutiny, and 24/7 Wall St. says the shares are down 24% this year. Only headlines were available.",
+      "whyItMatters": "Headlines describe a stock still down sharply for the year, with a reported acquisition bid and Chinese regulatory scrutiny in the background.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Alibaba Stock Rises as China Limits Sell Orders - Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaFFIS3JVd2l5U0pOQkNBN2tzV2IwNFVXUWNTNjh6aWpmNkVseWhqS1RJQUN4U3FfZ1g3UGNlWThaWlZsNUZPbDBBMU81cS0wbDJnWDdvblNpRmZYOW11a2dkaFRhSy1DbFdUQU03cmF3VHJFbTE2VFdZYU9HT3lTMktqb3VoLXp3eDRocVR6U2EzanVKRDZMbDh3emhhcHhJUmEzZTlUZl96Vmd6?oc=5"
+        },
+        {
+          "title": "BABA Stock Heads For Fifth Week Of Loss: Alibaba Reportedly Makes $1.5B Play For Pupu Amid China Regulatory Scrutiny - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNEtmbGttVzBrUVdvZGFvTmpNeVlNdXRZYnJ2Y1dINDJiX21fbERQRHJOdjV2ZlRsdldETm9UN0d6NnFPX2tsQW5fYVE5ME1LWEhnMXJwbTdnbHVzODVhZFhzWi1DeDVYTGFQMEFyVlU2dGFuWDFrd3JRcksxVERsN3V0MWJNbkNpOG81cTlPOGVLeWpXcE9jd3lid0hyODljTFZxN2xHMmw3a0tJZUJuYnAzLXlqUnNYWGU5eXM3NUlFbTd1LXZ2T21ra1RraF9CdHA5NkJvZkI?oc=5"
+        },
+        {
+          "title": "Alibaba Is Now Down 24% This Year: Did BABA Stock Just Find a Bottom? - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYjJpbWNWeXlNTHNkWklWRmhsRGoxelk5aFlaVU5uaml3RTlIMDBzWlR0THhySEZpR1lkRnE0dk9ldTAwYjBweExFRklTdXBTNmtvQVRHbHhEajNwMmU4OXhOYWxaQnBXMmRuTjNQdWlXM2M3UlliMHFsSmpaRjJtRVQ5M1VIQ3VLVG1oZl84NGw0WFMwY2tacS02RzhDTTdaRFpfUXMyUFJYRXZuTUhR?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Duolingo CEO Luis von Ahn sells $16.7 million in stock; class-action notices cite a Dec. 7 deadline",
+      "summary": "Investing.com's headline reports that Duolingo's president and CEO Luis von Ahn sold $16.7 million in stock, and Stock Titan's headline says the sale followed exercising options at $38.08. Law-firm notices carried by PR Newswire and the National Law Review cite a December 7, 2026 application deadline for a securities class action. Only headlines were available.",
+      "whyItMatters": "Headlines record an insider sale and a pending lead-plaintiff deadline in a securities lawsuit; they do not describe the merits of the claims.",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Duolingo president & CEO Luis von Ahn sells $16.7 million in stock By Investing.com - Investing.com South Africa",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU3c0SC05bXBzNUd5ZE0xOVpzRDFwN0ZJUG83U0xZQUh5RzRlVHo0WmxmRlJqaWFVYmJoLXozSHFPNHE2NWFWd1QyTm1WWkxQM21kXzB4MjItNkhrMjlIUWxkekRPLWZUdVd2Q1FVRlZKc2ZxZmtSRWNQOWlZVkNUWGVRZVpLc0FmTVR5YS1LSlNjbVoyVWlYTHFNZGcySEVxTzFOQmd2aXE1N25Xb1lRN0FJMHBDcGtNS2E3X0pEaGRRZw?oc=5"
+        },
+        {
+          "title": "After exercising $38.08 options, Duolingo (DUOL)'s CEO sells the resulting shares. - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUms2V2I3NFpZazh0ZmcxdFBJV3BxdUlRUi1nZlUtMF9LZmtWUUVlam5mOVFvaVBacW9VeWFxQ25GRUFFbHU4TkVTRTZfSHJyV1dUNC16YjI1SFFrM1BsOUtxUEE0Wm1TNV92Y2RIV3pZM0l0WnRzV0lNMmlaNVNpc2N5UEJEVTRKbi1uX3hVTWhMaTktWXhXRV9SSWxqRVRpVVNkcHZxV0w4QQ?oc=5"
+        },
+        {
+          "title": "Duolingo, Inc. Notice of December 7, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline - Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNa3FrY3JCWHU4SGY3VU1DM2R3dFE0SjRXZGdQWlFuMlpCQ0RrbElMSjNIaWNfTG91QTM0ZkhyaXd0emd4V2tPcllnMFZxTmhQRUZ3QTV5ZFdkbHRxeU8xZGtWVndRR2RETkVXQW9VR01MSUVGckM0aGN5ODYxUGNjWkNaenpyNFdRcmFudjBXMVVobllBVl92bVVTbjZQbDRQbDluWDZqMVJLR2FGa2tQeTN0ZVVtTzlMQnNDYmNzSE9fakpmcXVqLWJMQS1saFB0aGVST1VnRWRnaVdHV0RHQzItLURCdm12WVUzRGpxT1NRUkdyZEVNeHNjRDFFMmo2MUNVZDM1OWFKdVgwSGwwSTlZQUg2MGcwRTBDSE5XLUIwTG9jRHFtYjdBcW8yek1mVzRXeFI5M1pmZTlZZzBjZg?oc=5"
+        },
+        {
+          "title": "DUOL Investors Have Opportunity to Lead Duolingo, Inc. Securities Fraud Lawsuit - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOT0xzTW9JRkMtdFUtY083WDFYZXpmdzhWb2NUbWZTc0M2dm1PTDVBaURCU21PUWdmcG1kSEVtM1FCQXZLMmlfWVBKR0pJazVCbFJDdmtaYlZwc25qNHdUYWp6LTZJd1BUeHMzQzBUcE1ZT0plOXlXZk5PaV9HengyczRMNUlBanM0aHNMdUZFeFVlbUpQRC1hUXZIOGc2LVdsbHVQdTVhZUNaSjh6ZzNCTUtsQ0JzYlZSVXoyTjZ0c2s2ajM5a1ZSTHBRV1ZHQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Gold holds near $4,100 support while analysts debate a $4,200 breakout",
+      "summary": "Kitco's headline says gold is holding $4,100 support and asks whether it can break $4,200 as inflation risks loom; FXEmpire's headline cites a $4,226 breakout that could reverse the downtrend, and StoneX describes XAU/USD as hammered, stretched and vulnerable to a sharp rebound. Only headlines were available.",
+      "whyItMatters": "Headlines frame the $4,100–$4,226 range as the levels analysts are watching for spot gold.",
+      "category": "Commodities",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Gold price holds critical $4,100 support, but can it break $4,200 as inflation risks loom? - Kitco",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOU1A5V2Nxa1JkRlRFNlFCcExoMTVmckhkOHVKeHF5THdEMkFpMlRIbklpM2NBMHROWnllalFaSGFLS0JnR19iaDh1UnYxOFY4MERrUVlVZVI1ZmI4djN5dFZrQ2hVY0gxWkNkMVk0ZDY0Ml9lNlhjUHZHWXFOQTZVM19EZjM3TE1zNHJhM3N3RWlRZnpZUVNGOUdObzBNZFNNZWRCaDlqQmI3YXN6YTlHeHcxQmtBYnlhalE?oc=5"
+        },
+        {
+          "title": "Gold (XAU/USD) Price Forecast: $4,226 Breakout Could Reverse Downtrend - FXEmpire",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUlpvUzRHZ0tBbGFEcWhSUjcwYlR1VGs0eXpyUk9fTmhSWEQtVlo3MU9DejczN2dqTnUzOE9QLXBQcF9yOE1iUVNtcWRKam1pS2dhcWxRdlo3ZWVWaWJtVVZfNHlNaThSa3dFU3hsUUxnTVFuazM5WU9XVnZrOG1DWEw1bFphVWNqbGhPdlRoRnZOQnVrcVEwZUloTmRRLVg2QXJTdjRnbmJTbjA4cTFHWDhqTmpMblE?oc=5"
+        },
+        {
+          "title": "Gold outlook: XAU/USD hammered, stretched and vulnerable to a sharp rebound - StoneX",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQV0RvbFRMOHNvMDNYanZ6OWo5MEprb1BESzNtZnpmU3RRVjlwdTl3NEFSWHExd1RzcGQ3aHJYMWtwbU9UWEEzQW9tbXJCZzZtZ21aNUU2cWFRb3hubVJESDBVaFRjak9EallsTko1YU83enVwQXpiY09yckJVT1NLRmxINUdiVDhNQVlZcmhNZVlPOVprcFlnZ19kLUxTRFQxWTQ5S2NrOG83SUYxTHlncmpKQTJrN3RWRXV5UjNB?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin dips to $80,000 as the market slides; CoinDesk looks back on the $19 billion liquidation a year on",
+      "summary": "A 24/7 Wall St. headline says Bitcoin dipped to $80,000 and shows how other coins fared in the slide. CoinDesk's headline marks one year since a $19 billion event and asks whether crypto has learned anything. Only headlines were available.",
+      "whyItMatters": "Headlines show bitcoin trading near the $80,000 level, around the anniversary of a major leverage wipe-out.",
+      "category": "Crypto",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Dips to $80,000: How Other Coins Fared in the Market Slide - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYTlBNm9FT01MWDY2Tm5sc0tWUWJEZl9SZVBiUWNfLWQ5UnpyNGtmVlU1MzJFZXk2azJQMlJkSTdIanpuaDB6WWJJYk5TSWRrMzA4UzAybXFiOTZYbEFYWWMtUzlUS2UwVHFtaGRRUEU4X3BHNkQxQzZPa0FMRkRBWlByRVNrSWpyMm9TbEtaM09GRS1jX1lUTU93OW1iSnFHSVg0eUJ4dUd4WVhKOTAwSUplUTRTU3J0aWVuNTYtSQ?oc=5"
+        },
+        {
+          "title": "Bitcoin's $19 billion wake-up call: One-year later, has crypto learned anything? - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVmZvc0hicDBKYmo3ajc3dmNsdDF0V0JGTXJVQnNnbnVCNmhtRFYzZDVwelhKQlZOd1cyM3VWeXpzdjd3MkFhQnNnT0ZYcVJEbEJFUV90Zk40QUowZmhnTkRKenI3RXRzTDFfaUtWcDNCSzY1WUJDekQ1X3duOXBnbk9sVDF2TnRfT3hVVkVnS1N0bFpIbXQ1OW5LYXBQQkpPcFAtc1MtVHc2endMeFFPeU5NNEhVb0VsSXNmZGJ2clk?oc=5"
+        }
+      ]
+    }
+  ]
+}

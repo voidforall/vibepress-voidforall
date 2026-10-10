@@ -1,0 +1,110 @@
+{
+  "id": "2026-10-10",
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T13:18:55Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今天仅基于标题：Rocket Lab下滑、阿里巴巴的监管背景、多邻国内部人士卖出与诉讼通告、黄金在4,100至4,200美元间拉锯，以及比特币在8万美元附近。文章正文无法获取，细节仅限于标题所述；Alphabet没有可用条目。",
+  "stories": [
+    {
+      "headline": "Rocket Lab两日下跌近9%，太空板块走弱；巴克莱上调评级的标题出现",
+      "summary": "TIKR的标题称，Rocket Lab在两天内下跌近9%，太空股走低，并将此次走势与SpaceX的频谱举措及Iridium联系起来；MarketBeat的标题称巴克莱将其评级上调至“强力买入”。仅有标题可用，未读取文章正文。",
+      "whyItMatters": "标题显示该持仓股两日内大幅下滑，同时有报道称至少一家券商调整了评级。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab Lost Nearly 9% in Two Days as Space Stocks Slid. Here’s What SpaceX’s Spectrum Moves Mean for Iridium - TIKR.com",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPclMtSldfY0xhZFphd0lIZWtNbDVpY0gwdVE1RGctSXRJVE00MmNFQ0VjQ19sZDNPVVZfdmY2R3ZmQ2x2LUpDQU1STl9ESklRdE55Y0dGRzJXcVlnak5tb1VJT192SDlpUF9nWGdZbHQyem53Mm5oWTg3TVJ6ZWxDSGFzSy1oZnFZSGY4TWJyZ19yVHNaemRTWl9tNjVmQU01SHpjVEhtZEdicE9FYTJPRklBekdRV2lkX1RkRE8tbW1uVlRzNDFIbGpxYXFuQ0U?oc=5"
+        },
+        {
+          "title": "Rocket Lab (NASDAQ:RKLB) Raised to Strong-Buy at Barclays - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSU1rMTNMS3lEdFZVODYzVDQ1MkdjRzI3NndOR3VmZWVqMnhHdThmN0NFNU1tZG9nSWVqWE5OOEprMGdJZ3Q1N0VUaUpnY2ZzUjNzU1E3QVM3bExrMVZuOXRWY2xYMVlqWm1OOElvcEd1bEdPN3NSRjMwTzNBVFU1THM2dC1VYUhEaHZiWkJ5YXYtTTJtQk5NS3FDNURfSTJhU3FNWDFoTFEtNU1TV1lUdzBuVFowbVNz?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "据报阿里巴巴因中国限制卖单而上涨，但今年累计下跌24%",
+      "summary": "Benzinga的标题称，阿里巴巴股价因中国限制卖单而上涨；Stocktwits称BABA将连续第五周下跌，背景是据报15亿美元收购Pupu的报价及监管审查；24/7 Wall St.称该股今年以来下跌24%。仅有标题可用。",
+      "whyItMatters": "标题描述该股年内仍大幅下跌，背景包括据报的收购报价和中国监管审查。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Alibaba Stock Rises as China Limits Sell Orders - Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaFFIS3JVd2l5U0pOQkNBN2tzV2IwNFVXUWNTNjh6aWpmNkVseWhqS1RJQUN4U3FfZ1g3UGNlWThaWlZsNUZPbDBBMU81cS0wbDJnWDdvblNpRmZYOW11a2dkaFRhSy1DbFdUQU03cmF3VHJFbTE2VFdZYU9HT3lTMktqb3VoLXp3eDRocVR6U2EzanVKRDZMbDh3emhhcHhJUmEzZTlUZl96Vmd6?oc=5"
+        },
+        {
+          "title": "BABA Stock Heads For Fifth Week Of Loss: Alibaba Reportedly Makes $1.5B Play For Pupu Amid China Regulatory Scrutiny - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNEtmbGttVzBrUVdvZGFvTmpNeVlNdXRZYnJ2Y1dINDJiX21fbERQRHJOdjV2ZlRsdldETm9UN0d6NnFPX2tsQW5fYVE5ME1LWEhnMXJwbTdnbHVzODVhZFhzWi1DeDVYTGFQMEFyVlU2dGFuWDFrd3JRcksxVERsN3V0MWJNbkNpOG81cTlPOGVLeWpXcE9jd3lid0hyODljTFZxN2xHMmw3a0tJZUJuYnAzLXlqUnNYWGU5eXM3NUlFbTd1LXZ2T21ra1RraF9CdHA5NkJvZkI?oc=5"
+        },
+        {
+          "title": "Alibaba Is Now Down 24% This Year: Did BABA Stock Just Find a Bottom? - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYjJpbWNWeXlNTHNkWklWRmhsRGoxelk5aFlaVU5uaml3RTlIMDBzWlR0THhySEZpR1lkRnE0dk9ldTAwYjBweExFRklTdXBTNmtvQVRHbHhEajNwMmU4OXhOYWxaQnBXMmRuTjNQdWlXM2M3UlliMHFsSmpaRjJtRVQ5M1VIQ3VLVG1oZl84NGw0WFMwY2tacS02RzhDTTdaRFpfUXMyUFJYRXZuTUhR?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "多邻国CEO路易斯·冯·安出售1,670万美元股票；集体诉讼通告提及12月7日截止日",
+      "summary": "Investing.com的标题称，多邻国总裁兼CEO路易斯·冯·安出售了1,670万美元股票，Stock Titan的标题称此次出售发生在以38.08美元行权之后。PR Newswire和National Law Review刊载的律所通告提及证券集体诉讼的申请截止日为2026年12月7日。仅有标题可用。",
+      "whyItMatters": "标题记录了一笔内部人士卖出和证券诉讼中待定的首席原告申请截止日，并未描述诉讼请求的是非曲直。",
+      "category": "公司",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Duolingo president & CEO Luis von Ahn sells $16.7 million in stock By Investing.com - Investing.com South Africa",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU3c0SC05bXBzNUd5ZE0xOVpzRDFwN0ZJUG83U0xZQUh5RzRlVHo0WmxmRlJqaWFVYmJoLXozSHFPNHE2NWFWd1QyTm1WWkxQM21kXzB4MjItNkhrMjlIUWxkekRPLWZUdVd2Q1FVRlZKc2ZxZmtSRWNQOWlZVkNUWGVRZVpLc0FmTVR5YS1LSlNjbVoyVWlYTHFNZGcySEVxTzFOQmd2aXE1N25Xb1lRN0FJMHBDcGtNS2E3X0pEaGRRZw?oc=5"
+        },
+        {
+          "title": "After exercising $38.08 options, Duolingo (DUOL)'s CEO sells the resulting shares. - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUms2V2I3NFpZazh0ZmcxdFBJV3BxdUlRUi1nZlUtMF9LZmtWUUVlam5mOVFvaVBacW9VeWFxQ25GRUFFbHU4TkVTRTZfSHJyV1dUNC16YjI1SFFrM1BsOUtxUEE0Wm1TNV92Y2RIV3pZM0l0WnRzV0lNMmlaNVNpc2N5UEJEVTRKbi1uX3hVTWhMaTktWXhXRV9SSWxqRVRpVVNkcHZxV0w4QQ?oc=5"
+        },
+        {
+          "title": "Duolingo, Inc. Notice of December 7, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline - Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNa3FrY3JCWHU4SGY3VU1DM2R3dFE0SjRXZGdQWlFuMlpCQ0RrbElMSjNIaWNfTG91QTM0ZkhyaXd0emd4V2tPcllnMFZxTmhQRUZ3QTV5ZFdkbHRxeU8xZGtWVndRR2RETkVXQW9VR01MSUVGckM0aGN5ODYxUGNjWkNaenpyNFdRcmFudjBXMVVobllBVl92bVVTbjZQbDRQbDluWDZqMVJLR2FGa2tQeTN0ZVVtTzlMQnNDYmNzSE9fakpmcXVqLWJMQS1saFB0aGVST1VnRWRnaVdHV0RHQzItLURCdm12WVUzRGpxT1NRUkdyZEVNeHNjRDFFMmo2MUNVZDM1OWFKdVgwSGwwSTlZQUg2MGcwRTBDSE5XLUIwTG9jRHFtYjdBcW8yek1mVzRXeFI5M1pmZTlZZzBjZg?oc=5"
+        },
+        {
+          "title": "DUOL Investors Have Opportunity to Lead Duolingo, Inc. Securities Fraud Lawsuit - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOT0xzTW9JRkMtdFUtY083WDFYZXpmdzhWb2NUbWZTc0M2dm1PTDVBaURCU21PUWdmcG1kSEVtM1FCQXZLMmlfWVBKR0pJazVCbFJDdmtaYlZwc25qNHdUYWp6LTZJd1BUeHMzQzBUcE1ZT0plOXlXZk5PaV9HengyczRMNUlBanM0aHNMdUZFeFVlbUpQRC1hUXZIOGc2LVdsbHVQdTVhZUNaSjh6ZzNCTUtsQ0JzYlZSVXoyTjZ0c2s2ajM5a1ZSTHBRV1ZHQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "黄金守住4,100美元支撑，分析师讨论能否突破4,200美元",
+      "summary": "Kitco的标题称黄金守住4,100美元支撑，并询问在通胀风险笼罩下能否突破4,200美元；FXEmpire的标题提到4,226美元的突破可能逆转下行趋势；StoneX则称XAU/USD遭到重挫、涨跌幅过度，易出现大幅反弹。仅有标题可用。",
+      "whyItMatters": "标题显示分析师关注的现货黄金关键区间为4,100至4,226美元。",
+      "category": "大宗商品",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Gold price holds critical $4,100 support, but can it break $4,200 as inflation risks loom? - Kitco",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOU1A5V2Nxa1JkRlRFNlFCcExoMTVmckhkOHVKeHF5THdEMkFpMlRIbklpM2NBMHROWnllalFaSGFLS0JnR19iaDh1UnYxOFY4MERrUVlVZVI1ZmI4djN5dFZrQ2hVY0gxWkNkMVk0ZDY0Ml9lNlhjUHZHWXFOQTZVM19EZjM3TE1zNHJhM3N3RWlRZnpZUVNGOUdObzBNZFNNZWRCaDlqQmI3YXN6YTlHeHcxQmtBYnlhalE?oc=5"
+        },
+        {
+          "title": "Gold (XAU/USD) Price Forecast: $4,226 Breakout Could Reverse Downtrend - FXEmpire",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUlpvUzRHZ0tBbGFEcWhSUjcwYlR1VGs0eXpyUk9fTmhSWEQtVlo3MU9DejczN2dqTnUzOE9QLXBQcF9yOE1iUVNtcWRKam1pS2dhcWxRdlo3ZWVWaWJtVVZfNHlNaThSa3dFU3hsUUxnTVFuazM5WU9XVnZrOG1DWEw1bFphVWNqbGhPdlRoRnZOQnVrcVEwZUloTmRRLVg2QXJTdjRnbmJTbjA4cTFHWDhqTmpMblE?oc=5"
+        },
+        {
+          "title": "Gold outlook: XAU/USD hammered, stretched and vulnerable to a sharp rebound - StoneX",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQV0RvbFRMOHNvMDNYanZ6OWo5MEprb1BESzNtZnpmU3RRVjlwdTl3NEFSWHExd1RzcGQ3aHJYMWtwbU9UWEEzQW9tbXJCZzZtZ21aNUU2cWFRb3hubVJESDBVaFRjak9EallsTko1YU83enVwQXpiY09yckJVT1NLRmxINUdiVDhNQVlZcmhNZVlPOVprcFlnZ19kLUxTRFQxWTQ5S2NrOG83SUYxTHlncmpKQTJrN3RWRXV5UjNB?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "比特币跌至8万美元，市场下滑；CoinDesk回顾一年前的190亿美元清算",
+      "summary": "24/7 Wall St.的标题称比特币跌至8万美元，并列出其他币种在这轮下滑中的表现。CoinDesk的标题则回顾一年前的190亿美元事件，并询问加密行业是否吸取了教训。仅有标题可用。",
+      "whyItMatters": "标题显示比特币在8万美元附近交易，同时临近一次大规模杠杆清算的周年。",
+      "category": "加密货币",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Dips to $80,000: How Other Coins Fared in the Market Slide - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYTlBNm9FT01MWDY2Tm5sc0tWUWJEZl9SZVBiUWNfLWQ5UnpyNGtmVlU1MzJFZXk2azJQMlJkSTdIanpuaDB6WWJJYk5TSWRrMzA4UzAybXFiOTZYbEFYWWMtUzlUS2UwVHFtaGRRUEU4X3BHNkQxQzZPa0FMRkRBWlByRVNrSWpyMm9TbEtaM09GRS1jX1lUTU93OW1iSnFHSVg0eUJ4dUd4WVhKOTAwSUplUTRTU3J0aWVuNTYtSQ?oc=5"
+        },
+        {
+          "title": "Bitcoin's $19 billion wake-up call: One-year later, has crypto learned anything? - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVmZvc0hicDBKYmo3ajc3dmNsdDF0V0JGTXJVQnNnbnVCNmhtRFYzZDVwelhKQlZOd1cyM3VWeXpzdjd3MkFhQnNnT0ZYcVJEbEJFUV90Zk40QUowZmhnTkRKenI3RXRzTDFfaUtWcDNCSzY1WUJDekQ1X3duOXBnbk9sVDF2TnRfT3hVVkVnS1N0bFpIbXQ1OW5LYXBQQkpPcFAtc1MtVHc2endMeFFPeU5NNEhVb0VsSXNmZGJ2clk?oc=5"
+        }
+      ]
+    }
+  ]
+}
