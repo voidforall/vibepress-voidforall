@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-11",
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T13:47:05Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天偏重实用：一条附带数据的智能体流水线、一个让下载与计算重叠的数据库引擎、一个免费层个人智能体，以及两篇质疑指标与屏幕的观点文章。细节均来自已读取的链接页面。",
+  "stories": [
+    {
+      "headline": "Cockroach Labs运行“医院式”编程智能体流水线五个月：约13.5万美元token费用，落地逾百万行代码",
+      "summary": "Cockroach Labs称，其“MOLT Sinai”流水线把GitHub议题当作“病人”，依次经过分诊、评审和出院，于4月21日至9月11日在MOLT代码库上运行。据称消耗约13.5万美元的Claude token，落地逾百万行代码、仅7次回退，并在不到两天内以4172美元完成Db2支持。",
+      "whyItMatters": "这是厂商自述、附带数据的案例：智能体在人工把关下承担生产工作；Db2代码当时尚未人工审阅。",
+      "category": "商业",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Five months treating bugs like patients and coding agents like a medical team",
+          "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/"
+        }
+      ]
+    },
+    {
+      "headline": "DuckDB 2.0 alpha：异步I/O将S3 Parquet查询从18.8秒缩短至7.7秒",
+      "summary": "MotherDuck作者报告称，DuckDB 2.0 alpha使用独立的下载线程池提前拉取行组，对S3上2.2 GB的Parquet文件执行计数查询仅需7.7秒，而1.5.5需18.8秒。所有数据均来自一台笔记本电脑和家庭网络。",
+      "whyItMatters": "无需修改SQL即可获得约2.4倍提速，但作者建议读者自行基准测试。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Why DuckDB 2.0 is faster",
+          "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/"
+        }
+      ]
+    },
+    {
+      "headline": "Talorys：运行在Cloudflare免费套餐上的自托管个人AI智能体",
+      "summary": "这个MIT许可的开源项目通过一条npx命令部署到用户自己的Cloudflare账户，使用Workers、Pages和Durable Objects，聊天基于Workers AI的glm-4.7-flash。提供记忆、任务、笔记和提醒；免费每日AI额度用尽后聊天会暂停。",
+      "whyItMatters": "它提供了无需服务器、无需开发者账户的个人智能体方案，受免费套餐配额限制。",
+      "category": "科技",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+          "url": "https://github.com/rociiu/talorys"
+        }
+      ]
+    },
+    {
+      "headline": "新论文称METR的AI“时间视野”曲线与人类耗时对数并非线性关系",
+      "summary": "作者用样条和项目反应理论，对26个AI在228项任务上重新拟合，发现难度在约2至30分钟之间近乎平坦，其余区间更陡，因此从3分钟到30分钟的跃升比从30分钟到5小时更容易。他们建议结合诊断图解读估计值。",
+      "whyItMatters": "它对一项被广泛引用的能力指标的假定形状提出质疑；作者的修正估计在交叉验证中得分更好。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+          "url": "https://arxiv.org/abs/2610.12466v1"
+        }
+      ]
+    },
+    {
+      "headline": "灯泡电脑：投影仪加摄像头计算的概念设计",
+      "summary": "Guillaume Ardaud的设计把投影仪和计算机视觉装进可拧入爱迪生灯座的灯泡，响应语音和指向。他称演示来自真实但笨重的原型，消费级版本已不遥远但尚不可行。",
+      "whyItMatters": "它主张以投影取代屏幕和头显，作为共享的环境式界面，并提出物理摄像头遮盖等隐私保护措施。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "The Lightbulb Computer",
+          "url": "https://lightbulbcomputer.com/"
+        }
+      ]
+    }
+  ]
+}

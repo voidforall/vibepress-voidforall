@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-11",
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T13:47:05Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today's signal skews practical: an agent pipeline with receipts, a database engine that overlaps its downloads, a free-tier personal agent, and two ideas pieces that question a metric and a screen. Details come from the linked pages as fetched.",
+  "stories": [
+    {
+      "headline": "Cockroach Labs ran a hospital-style coding-agent pipeline for five months: ~$135K in tokens, 1M+ lines landed",
+      "summary": "Cockroach Labs says its 'MOLT Sinai' pipeline, which treats GitHub issues as patients moving through triage, review and discharge, ran on its MOLT repo from April 21 to September 11. It reports about $135,000 in Claude tokens, over a million lines landed with 7 reverts, and Db2 support built in under two days for $4,172.",
+      "whyItMatters": "A vendor's own account, with figures, of agents doing production work under human sign-off; the Db2 code had not yet been hand-reviewed.",
+      "category": "Business",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Five months treating bugs like patients and coding agents like a medical team",
+          "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/"
+        }
+      ]
+    },
+    {
+      "headline": "DuckDB 2.0 alpha: async I/O cuts an S3 Parquet query from 18.8s to 7.7s",
+      "summary": "MotherDuck's author reports that the DuckDB 2.0 alpha, using a separate download pool that fetches row groups ahead of time, ran a count query over a 2.2 GB Parquet file on S3 in 7.7 seconds versus 18.8 for 1.5.5. All numbers come from one laptop on a home connection.",
+      "whyItMatters": "A roughly 2.4× speedup with no SQL changes, though the author urges readers to run their own benchmarks.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Why DuckDB 2.0 is faster",
+          "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/"
+        }
+      ]
+    },
+    {
+      "headline": "Talorys: a self-hosted personal AI agent that runs on Cloudflare's free tier",
+      "summary": "The MIT-licensed open-source project deploys with one npx command into the user's own Cloudflare account, using Workers, Pages and Durable Objects, with chat on Workers AI's glm-4.7-flash. It offers memory, tasks, notes and reminders, and chat pauses when the free daily AI allocation runs out.",
+      "whyItMatters": "It is a no-server, no-vendor-account route to a personal agent, bounded by free-plan quotas.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+          "url": "https://github.com/rociiu/talorys"
+        }
+      ]
+    },
+    {
+      "headline": "A new paper says METR's AI 'time horizon' curve is not linear in log human time",
+      "summary": "Re-fitting 26 AIs on 228 tasks with splines and item-response theory, the authors find difficulty is nearly flat between about 2 and 30 minutes and steeper elsewhere, so a 3-to-30-minute jump is easier for AIs than 30 minutes to 5 hours. They recommend reading estimates alongside diagnostic plots.",
+      "whyItMatters": "It challenges a widely quoted capability metric's assumed shape; the authors' revised estimates score better under cross-validation.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+          "url": "https://arxiv.org/abs/2610.12466v1"
+        }
+      ]
+    },
+    {
+      "headline": "The Lightbulb Computer: a speculative design for projector-and-camera computing",
+      "summary": "Guillaume Ardaud's design puts a projector and computer vision in a bulb that screws into an Edison socket, responding to voice and pointing. He says the demos come from a real but bulky prototype and that a consumer version is close but not yet feasible.",
+      "whyItMatters": "It argues for projection over screens and headsets as a shared, ambient interface, with proposed privacy safeguards such as a physical camera cover.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "The Lightbulb Computer",
+          "url": "https://lightbulbcomputer.com/"
+        }
+      ]
+    }
+  ]
+}

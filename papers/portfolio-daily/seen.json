@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-10T13:18:56Z",
+  "updatedAt": "2026-10-11T13:47:05Z",
   "events": [
+    {
+      "date": "2026-10-11",
+      "headline": "Morgan Stanley says Rocket Lab is becoming more like SpaceX, Stocktwits reports",
+      "summary": "A Stocktwits headline says Rocket Lab shares rose overnight after Morgan Stanley said the company is becoming more like SpaceX. The article body could not be read, so the reasoning is not available.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxNN3hzNU0xcm1XTTBZVWE1aXZ5SUh5NWZ0Y2JIV29PNHdLY3JWZlY0aFdMRUhWUWM3TUduQzFwY1BpNWpqMzhCYTBscXpFN19BR2xhQnlGcklHWlJEcndzcFo4V3hIQWlLN1ZTaGpRaXFsYTFBS1ppVEdaU194bHg2TnZMRzFYYkxCeG5MNTJvTjRhY0tXSjdnM0loU1FCVHF0V3JqQWRTMkhHY2hJZkE?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "headline": "Jefferies backs Alibaba's AI cloud growth, Simply Wall Street reports",
+      "summary": "A Simply Wall Street headline says Alibaba stock is in focus as Jefferies backs its AI cloud growth. Only the headline was available; no article body was read, so the rating details are unknown.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdUdEdXZOdU5NcEdVUVNjUUhlbFhSUHpFdVR1UFBObDRNNlExc3R6bFRWOTMyeF9yRGJmLWRwVlZvdE9CVDNTcm4zSURiYU5RZjdWM1Z6Zl9XV1lMeEM1ZnMtZWRjMThnMUJscFRhM2ZkMEhVajdhcWRjV0JSUkJHVXMwZjdvYk04eGJfRWJrc1phNV9KdzVCbDBmT3N0QmwzeGlWV1pjUU5ib0xrTzEwM21PTThvcHVJd3lkTUZZT2M2WXFtZkpDaktVbFJGQdIB0wFBVV95cUxOYTEyNDhKNmFuY3ZYZTdVNjhuaDVqdWY1YWU1dlphSlVheWYwYzUtWFF4NVpHYl9saHpBMWxBMWxWZTJBaHZzVUN1b3dHb21lOHpjZ2JjUzg4c0dkWDNvdTBVbzVqRU9JWHNJM243T3FWdGFuZTdoWk5PSHhoUUtvbEl2U2RBWGxLUGFiNTBHNlVocXpraEdCdlBaS1RHLWRva2kxb0Z3ZTJ5UkNDSUZQaVNsZGRQU3F4T1dGRG1vV3RMdDZKQ05IT29sRklrTzd5QXFR?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "headline": "Gold 'hammered' and 'stretched', StoneX outlook says it is vulnerable to a sharp rebound",
+      "summary": "A StoneX outlook headline describes XAU/USD as hammered and stretched and vulnerable to a sharp rebound. Only the headline was available; no price levels could be read.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQV0RvbFRMOHNvMDNYanZ6OWo5MEprb1BESzNtZnpmU3RRVjlwdTl3NEFSWHExd1RzcGQ3aHJYMWtwbU9UWEEzQW9tbXJCZzZtZ21aNUU2cWFRb3hubVJESDBVaFRjak9EallsTko1YU83enVwQXpiY09yckJVT1NLRmxINUdiVDhNQVlZcmhNZVlPOVprcFlnZ19kLUxTRFQxWTQ5S2NrOG83SUYxTHlncmpKQTJrN3RWRXV5UjNB?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "headline": "Benzinga's weekly crypto roundup: a $500,000 bitcoin bet, Dogecoin ETF drama",
+      "summary": "Benzinga's This Week in Crypto headline lists Bitcoin's $500,000 bet, an Ethereum AI warning and Dogecoin ETF drama. Only the headline was available; no detail was read.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ3ZQeHE1ckNHQVNIWi04c3RIa3o2eDZ4bUJVRW4xTGd1RmR5cGR6LXZoYlFTX2ZKN3FQcmdrXzViaGxsakNaNVFlYVhkcUQ2T3VJeFFiQTJDOUk5YzREZGlRTW9VRzJvWGtVamI2V2dYVWN1WGxoX2NkZF94dzE5dWUtWGRaMXdJaVlGYkNWRzc1NFRpNjhQajYyQUlBbjZPU1NlYTA5dU5DSE80UUpMY1Z2U2tLMDNVZ0Z0NjlDbzhkUnMtdlN4Zy1lT3NfN3FD?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "headline": "Alphabet unit reportedly seeks a multibillion-dollar funding round",
+      "summary": "A Simply Wall Street headline says an Alphabet unit is seeking a multibillion-dollar funding round. The headline does not name the unit in the text available to us, and the article body could not be read.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY3JjWG1ZQnRoZmhYcE82SkVFcWt5Tk9nS3o3bmJMYjR1ZHItaTg1dndtV0t1NFd0WWxDcy1kWmpYc1B2QU9ONmx2WFoxX2tnaXJKUXlaWWIyeVZEWVlPRDJEQUpkZmFBREVXYkhMXzRlRUxEOVlYd251bGNoVEc3XzllUktjdzdGUmhWaFlwbVI1OWRIVzNLLXVzU2J1aGljUmhkLThwWFlsQmE2cDBSRkZJQlA1OE85ZFpuajN6UE9MQdIBxwFBVV95cUxPd3N3elljZlEyYjliTy1HNVBIXzBhM1JUM0JFekFCb0Y4WjVZVUJrMnpkTHhRT05ZN1FNMDNmaW5wVlFkc0E4OXhlMVpZeDZkcW9leXlRenB1V3laMXdLYS0xYzBWRFlxNHgyZlVCbUVXZkNSMW9TbklhUlVVVzJnM1JCRVBCUFdrNXczQzFuVHE0aWltVFFvdE8tTXNRQ3o4a241ZHprRkJCVS1HUjJ5Z1RKTDFwaFJuQ2ltWm9JVWJfRExaVnZN?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "headline": "Alphabet slides toward a third red day as capex outweighs cloud growth, per Stocktwits",
+      "summary": "A Stocktwits headline says Alphabet shares were heading for a third straight down day, with a surge in capital spending drowning out the cloud growth story while retail investors bought the dip. Only the headline was available; the article…",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMigwJBVV95cUxNZFdFTVN4TVh1VzAzT2UwN3JsbmdRdS1uRjdONWI0T04tWE1RcFNTTXdsMWloVEowNWxqTXF1Um9LOHpBSDFRYktVRnU3YmhTN3B0eFFhSkp4bjFvSEZIX1R6dkFJSzQtVnFJQjJVUS10YTB0ZS1JMkttNHhILUZveFlhVTViamlkN3pQVjBlRHFIbGxPNjlDV3hTSF9yUlRnLTdqSll6WThEUHZpc3NZeFJwYnU2REV5V0gwd1ZuT0tkX1IyZlRsSFE4X3IyUGFEZF94SExUdnR4Tm5XWDdISV8zMTJKUi1DclFkNHpSN2l3Q19iaFlyUGd0OEFpeGU5UTlZ?oc=5"
+      ]
+    },
     {
       "date": "2026-10-10",
       "headline": "Rocket Lab drops nearly 9% in two days as space stocks slide; Barclays upgrade headline surfaces",
@@ -450,30 +498,6 @@
       "urls": [
         "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
         "https://www.fool.com/investing/2026/09/24/google-is-taking-a-major-step-forward-toward-space-based-ai-data-centers/"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "headline": "Rocket Lab launches its 97th Electron mission, delivering Synspective's 13th StriX satellite",
-      "summary": "Rocket Lab's Electron rocket lifted off from Launch Complex 1 in Mahia, New Zealand on September 26, placing Synspective's 13th StriX synthetic-aperture-radar satellite into a 559km orbit. It was the company's 18th launch of the year and i…",
-      "urls": [
-        "https://www.globenewswire.com/news-release/2026/09/26/3369387/0/en/mission-success-rocket-lab-launches-97th-electron-mission.html"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "headline": "Cryptographers propose 'Shielded Bitcoin,' a Zcash-style privacy layer that needs no Bitcoin fork",
-      "summary": "Researchers Clara Shikhelman, Mikhail Komarov and Aleksei Moskvin of cryptography firm [alloc] init published a design that would encrypt Bitcoin transaction amounts, senders and recipients using zero-knowledge 'notes' and a double-spend-b…",
-      "urls": [
-        "https://www.coindesk.com/tech/2026/09/25/bitcoin-could-soon-get-zcash-style-shielded-privacy-without-changing-its-rules"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "headline": "Alphabet slides nearly 4% as Meta's Muse and rival AI price cuts squeeze Google's model business",
-      "summary": "Alphabet shares fell to $337.83 on September 23 — about 15% below their 2026 closing high — after Meta's new Muse assistant reached the top of Apple's App Store and OpenAI and Anthropic each cut their API prices roughly in half within the…",
-      "urls": [
-        "https://www.tikr.com/blog/alphabet-stock-fell-nearly-4-in-a-day-on-muse-and-ai-price-cuts-heres-what-googles-chip-math-says"
       ]
     }
   ]

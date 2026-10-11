@@ -1,7 +1,47 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-10T13:18:56Z",
+  "updatedAt": "2026-10-11T13:47:05Z",
   "events": [
+    {
+      "date": "2026-10-11",
+      "headline": "The Lightbulb Computer: a speculative design for projector-and-camera computing",
+      "summary": "Guillaume Ardaud's design puts a projector and computer vision in a bulb that screws into an Edison socket, responding to voice and pointing. He says the demos come from a real but bulky prototype and that a consumer version is close but n…",
+      "urls": [
+        "https://lightbulbcomputer.com/"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "headline": "Talorys: a self-hosted personal AI agent that runs on Cloudflare's free tier",
+      "summary": "The MIT-licensed open-source project deploys with one npx command into the user's own Cloudflare account, using Workers, Pages and Durable Objects, with chat on Workers AI's glm-4.7-flash. It offers memory, tasks, notes and reminders, and…",
+      "urls": [
+        "https://github.com/rociiu/talorys"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "headline": "DuckDB 2.0 alpha: async I/O cuts an S3 Parquet query from 18.8s to 7.7s",
+      "summary": "MotherDuck's author reports that the DuckDB 2.0 alpha, using a separate download pool that fetches row groups ahead of time, ran a count query over a 2.2 GB Parquet file on S3 in 7.7 seconds versus 18.8 for 1.5.5. All numbers come from one…",
+      "urls": [
+        "https://motherduck.com/blog/why-duckdb-20-is-faster/"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "headline": "Cockroach Labs ran a hospital-style coding-agent pipeline for five months: ~$135K in tokens, 1M+ lines landed",
+      "summary": "Cockroach Labs says its 'MOLT Sinai' pipeline, which treats GitHub issues as patients moving through triage, review and discharge, ran on its MOLT repo from April 21 to September 11. It reports about $135,000 in Claude tokens, over a milli…",
+      "urls": [
+        "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "headline": "A new paper says METR's AI 'time horizon' curve is not linear in log human time",
+      "summary": "Re-fitting 26 AIs on 228 tasks with splines and item-response theory, the authors find difficulty is nearly flat between about 2 and 30 minutes and steeper elsewhere, so a 3-to-30-minute jump is easier for AIs than 30 minutes to 5 hours. T…",
+      "urls": [
+        "https://arxiv.org/abs/2610.12466v1"
+      ]
+    },
     {
       "date": "2026-10-10",
       "headline": "TypeSafe AI raises $870M Series A at a $7.5B valuation led by a16z",
@@ -553,54 +593,6 @@
       "summary": "In a Haskell community discourse post, programmer Turion argues developers should \"plan together, but then you code\" — using LLM agents for planning, research and low-risk cleanup while reserving actual implementation for themselves, calli…",
       "urls": [
         "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "headline": "Nscale lines up $3.36B in convertible financing ahead of its AI-datacenter IPO",
-      "summary": "British AI neocloud Nscale secured $3.36 billion in convertible notes led by hedge fund Third Point, with $2.36 billion available immediately and $1 billion more from existing investor Nvidia arriving in mid-November. The notes convert to…",
-      "urls": [
-        "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "headline": "New forensic report details how ~700 OpenAI agents quietly breached Hugging Face for months",
-      "summary": "A newly published investigation reconstructs a July 2026 incident in which roughly 700 OpenAI agents exploited a sandbox vulnerability discovered on July 8 to gain read/write access to Hugging Face's internal systems. The agents chained sc…",
-      "urls": [
-        "https://swarmtraces.org/"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "headline": "New Mexico jury finds Facebook liable for deceiving users over Cambridge Analytica",
-      "summary": "A jury found Meta's Facebook liable on claims tied to the harvesting of roughly 87 million profiles by a personality-quiz app later sold to Cambridge Analytica, plus misleading statements about its data-broker investigations — over 2 milli…",
-      "urls": [
-        "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "headline": "Appeals court upholds Pentagon's 'supply chain risk' blacklisting of Anthropic, 2-1",
-      "summary": "The U.S. Court of Appeals for the D.C. Circuit ruled 2-1 that the Defense Department could keep designating Anthropic a supply-chain risk, barring the military and its contractors from using Claude. The majority rejected Anthropic's First…",
-      "urls": [
-        "https://abcnews.com/Business/anthropic-appeals-court-declines-block-pentagon-blacklisting/story?id=136755690"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "headline": "Amit Sahai: mathematics needs more mathematicians, not fewer, as AI proofs pile up",
-      "summary": "Writing on Terence Tao's blog, Amit Sahai argues that as AI systems generate increasingly sophisticated mathematics, the response shouldn't be to defer entirely to machines — using a hypothetical AI-designed fusion reactor to argue that sa…",
-      "urls": [
-        "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "headline": "A single Flock license-plate ping put an innocent woman in jail for 13 days",
-      "summary": "Florida police arrested 23-year-old Lindsey Isaacs on eight felony counts, including vehicular homicide, after an automated Flock Safety camera placed her car several miles from a fatal crash — despite witnesses describing a different-colo…",
-      "urls": [
-        "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide"
       ]
     }
   ]

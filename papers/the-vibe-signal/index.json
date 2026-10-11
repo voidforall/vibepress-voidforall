@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-10-11",
+      "date": "2026-10-11",
+      "headline": "Cockroach Labs ran a hospital-style coding-agent pipeline for five months: ~$135K in tokens, 1M+ lines landed",
+      "storyCount": 5
+    },
+    {
       "id": "2026-10-10",
       "date": "2026-10-10",
       "headline": "Danish register breach: '123456' password and a 21-day window behind 8.8 million exposed CPR numbers",
