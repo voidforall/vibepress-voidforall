@@ -1,0 +1,103 @@
+{
+  "id": "2026-10-12",
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-12T14:00:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A headline-only day: crypto treasury buying, two broker notes on Alibaba, Rocket Lab's launch and a fund's buying, a bearish gold note and a report on repurposed mining assets. Article bodies could not be retrieved, so details are limited to what the titles state.",
+  "stories": [
+    {
+      "headline": "Strategy adds 250 bitcoin and repurchases $192 million of its STRC preferred",
+      "summary": "Strategy's own metrics post and a Yahoo Finance item report that the company acquired 250 BTC and bought back $192 million of STRC. Only headlines were available; article bodies could not be read.",
+      "whyItMatters": "Per the headlines, the company is both buying bitcoin and retiring preferred stock in the same disclosure.",
+      "category": "Crypto",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Strategy Acquires 250 BTC and Repurchases $192 Million of STRC - MSTR Metrics - Strategy",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdFFuSnljZXhEb2NzdWtfUmVRMXdHSEMxQmllNVBTRDkta1JYYWFmemY4ak8yWkFaTmpXWHlqWHRNUGo4VklFQ2pOYXNfc0J3c09Pa3FoeHFyeDZLaGlpcmRzcUhTTnIyZ1VRREtCUldZZ3ExNkw3NTZHOF9icDlKZ3ZkS0h0Wi13SW9zYm8xWEFzdlRLMVdzNWg5N2R1VDVqSjkxYUJB?oc=5"
+        },
+        {
+          "title": "Strategy Adds 250 BTC to Holdings as STRC Buybacks Accelerate - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQckhsT19KSm12OW4yQmhWczVEaHhiOWZCTGFJak5sOTJrYm9UYjJTb1BENFh2UHd5MTVIMzJmQTdUQlpaQkNFYnpBMC15aDc2c0RCWE51MFVaendwQXpyS3pyOURVNF93WTRERUl3N0kxMDF6bUZVMngwUHEzSEFNVnQ0a1dJdWgtQXN1QW5iQXFfOWRMNUxRMHRjYw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Alibaba rises as BofA lifts its price target ahead of earnings; Barclays keeps a $200 target",
+      "summary": "A TradingView headline says Alibaba stock jumped after Bank of America raised its price target ahead of earnings, and a Moomoo headline says Barclays maintained a Buy rating with a $200 target. Only headlines were available; the target levels for BofA and the earnings date were not readable.",
+      "whyItMatters": "Two broker notes land ahead of the company's results, which is when analyst views on the holding are most visible; these are opinions, not disclosed company facts.",
+      "category": "Earnings",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Alibaba Stock Jumps as BofA Hikes Price Target Ahead of Earnings - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNEFnVnUxMVByNGdHMEo0SGU0SXo0ZlgwYVFCbDA1Y01lSWU1bTlxRUJDSkxIb0xpSWFsQ3pvSWNwY1pQdDBzOTFxWXRYRmtoUU1VTUdNVndTN3NTUnBBYmpHSV9Cbm5RenJoczFvMGRocmoyZGRNM2Q1MmU0bDMya3Vwa1N1NFF1ZVZKVm9HX1NURGpURDRpNVF0dWJpc0xmdUx1Q0dQN3hJQkpUZlZyWXE0R1kxRnMyZHVUdlRyaUlmUQ?oc=5"
+        },
+        {
+          "title": "Barclays Maintains Alibaba(BABA.US) With Buy Rating, Maintains Target Price $200 - Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMnQxMEFKVEZmMUhMSFJBbTZIcDlMTG1ON1ZkR19QUnVRc0xicXQ3YlBhb0E0WjNkYUtTd1FuTG1vdTBMMEJodkxsUWVSdFJYR3VwSDNaQzBYTmZMakRHbnFKeVpweUdqbnAxek90S0F0YWI2MThleG43RXBNb3NweTFpWXdKT3VHUnBfMkk1YTNkdlNtaTdpUU1BTUxfYjR4THkzWXFpSlVYQ2drZlR2eE9FekhTTU0?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab launches its 93rd Electron mission",
+      "summary": "A Stocktwits headline says RKLB is in focus after Rocket Lab launched its 93rd Electron mission. Only the headline was available; mission details could not be read.",
+      "whyItMatters": "The headline indicates a further completed Electron flight, adding to the company's launch tally.",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "RKLB Stock In Focus After Rocket Lab Launches 93rd Electron Mission - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRzBHVFIxZHRxR01zXzhjS0E5alZYQ0Z1NVVvMzk0dmItdlltMEx2aDZDR0JJNldTRnZxUUIwZWZQdGZZclJtWm1LNk9icFJJOXZTMmg0VUQzNUtxMjNEU0lDb3g0MmxMMmxheTF6ejFtYUxDR2xiZndSVS1ZTHQtODJFZ0tJV2tzUFNTd2hWWTVWbDE0a3FEZ3kwdXNBeWdhRi03VFZmamNwdzY3emNZemc4SktfTk1wMnhnVEpHcmJ6U0FGTVRsLWpEYw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Cathie Wood keeps buying Rocket Lab as the stock trades at less than half its record",
+      "summary": "The Motley Fool, syndicated on Yahoo Finance and AOL, headlines that Cathie Wood continues buying Rocket Lab shares while the stock trades at less than half its record. Only the headline was available.",
+      "whyItMatters": "It reports a large fund's continued accumulation alongside a steep drawdown from the peak, per the headline.",
+      "category": "Markets",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Cathie Wood Keeps Buying Rocket Lab Stock as It Trades at Less Than Half Its Record - The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNkVJM0tHcXN1aXplWjBoWkVpd1lXamZVdjVzQUIwVXluRV9oQVJ2TWRXMERIMDF6MWJkcnNrN0hQVHZQM1BrNkg4ZXU1a3NMemZjNnlVcE5weXRZSl81NHh3dnI0dkxYOTFsbklNcy1OR2VSMFh5bmpHVXFsajZIZ1gzMFdSX1BhODVOY3NTS1pIOFJoOFFxZlJEYTIyXzlyZWpyRTJYMFV6Q1Buc1pFc1JtVVhrS011TUNlNkZVSjROWklq?oc=5"
+        },
+        {
+          "title": "Cathie Wood Keeps Buying Rocket Lab Stock as It Trades at Less Than Half Its Record - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMXlfWVZIcTBEcy1EVGpFQlE4LWZsREJwLXlxUC1UblpVNk80Wmx1X3hEUFh5MjIxd19tQUdTWEg3aWJrTkRvaThvYVptR3ZnVl9JVEVDNXMyZkxFU0hCSFRHSlIxYWhuMVpEOW9CVHNGRUQ5T1JrOGRYUEhqdmdBeGFxNmFkLVVDSVR3RDAwSjAwcU5NWHNtYXRoMEs?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Bank of America: gold needs a dovish Fed or renewed debasement fears to reverse its downtrend",
+      "summary": "Kitco's headline attributes to Bank of America the view that gold needs a dovish Fed or renewed debasement fears to reverse its downtrend; a FOREX.com headline says dollar strength keeps XAU under pressure. Only headlines were available.",
+      "whyItMatters": "Both items frame the metal's direction as a function of the Fed and the dollar; they are analyst views, not forecasts we endorse.",
+      "category": "Commodities",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Gold price needs a dovish Fed or renewed debasement fears to reverse its downtrend – Bank of America - Kitco",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTzZzc0VBMXVwcklVemRpM3hieFAtSnB2NE4zNGZBUUVROS1iYVpFbWxPX2RBWUhtU2s1Y1d6ZDlLb1VZUlpadUc3UEpPQ2NLN1FGU3NiN0RQbF84UWJMSFFTaUd1cEZUbTE0SnNabTVLLVRSajFoYXBPV0RDTjFmNWtIN2F4ams5NFVjSTNoNmhEdkc4WmRDd1JUSkEya0VHakhVNXJiaXBHM3FVNmV4VXY1Yw?oc=5"
+        },
+        {
+          "title": "Gold forecast: Dollar strength keeps XAU under pressure - FOREX.com",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOb095ejJ4c1FVVHlZUEp4YkFMeEFQdXBGcjZON1VKS2M4cHFUY196NUx2ZU8teTNReTlJaEdibXZ1TVFlS2FRRHN1TkV0VUowY3VEenl3dU9DQzd3QTlyejFYVkxJNkVYRXVaY1lIcEIzcFpFQXdaQk9PS0taWG56UHV4VmNyX2pnR293a0JUYU8wZ05aLWg5Z3ZORlRwNnRQX2gw0gGvAUFVX3lxTE5lbU0yZksteVN6TlVrQ2JmZ2xLY2dmZFdDeUQxOGZpZGEwUlhKcnRMVExkQTg5WFpUaXlVSWVka1hUMDhVbkRwcFFCRzRTTWtlMTBrVUY1YWpBODF3SXc0eXpYNmRobkJMaHZXaTRacktpREVRR0FYSVg2c2RpWEE1WGVOcXlzcGhDelhTYWpTcVJFdnJvUjJKTmdwSEhuYXZyMHBjaFFDRFUtUWVtaEE?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "WSJ: FTX's old bitcoin-mining assets are now part of the AI boom",
+      "summary": "A Wall Street Journal exclusive headline says FTX's former bitcoin-mining assets are now part of the AI boom. The article is paywalled and only the headline was available.",
+      "whyItMatters": "It points to mining infrastructure being repurposed toward AI workloads; details were not available.",
+      "category": "Crypto",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Exclusive | FTX’s Old Bitcoin-Mining Assets Are Now Part of the AI Boom - WSJ",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ1Qwc3lWYVVjYm01ejc2WWNvczQyMHVHUXpTLTFxY1VaaWdkVEhxdDFMVVYtYURwTGZfQ3U5bktvX2h0WEpfNzM3T0Y4QmdQWkdwY0dBdVd0VTZUc01xeW9CUkZxX0dnZXUtdHFydkJ4N295bDdQT29yRnYtRXhMRVp4d0RWZUJldmcwTzRqUVVKTjFzSW9SS18zOWt1aUpDZ1p1RUhpSjZPUQ?oc=5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-12",
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-12T14:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天宜谨慎：一个热门库可能遭遇供应链攻击，一个开源项目对AI代码关上大门，一份需带着其限定条件阅读的厂商基准测试，随后是一则遗传学的答案和两篇观点文章。细节仅来自我们能读取的页面。",
+  "stories": [
+    {
+      "headline": "Zod的一次提交加入了混淆的安装时载荷加载器，并升级到4.6.6",
+      "summary": "colinhacks/zod的一次GitHub提交以“Fix bugs and improve performance”为说明，把zod和@zod/mini从4.6.5升级到4.6.6，并加入一个混淆的meta.test.mjs，通过preinstall脚本获取并运行远程载荷，同时把发布流程改为自动发布。该页面展示的是提交本身，并不能说明该版本是否已发布到npm。",
+      "whyItMatters": "preinstall脚本会在每次安装受影响版本时执行，因此锁文件中含4.6.6的用户有理由检查。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Zod commit d821685 (GitHub)",
+          "url": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e46"
+        }
+      ]
+    },
+    {
+      "headline": "QGIS通过严格禁止AI辅助贡献的提案",
+      "summary": "QEP428《禁止AI贡献》经投票后于10月7日合并，取代了其作者称在实践中行不通的“人在回路”政策。维护者提到了审查负担、AI产出量超出人工审查能力以及保护贡献者社区；作者称这是临时的“关门”，日后可逐案开放。",
+      "whyItMatters": "一个广泛使用的开源项目已从有条件接受AI贡献转为一律禁止；评论者仍在追问“辅助”的边界。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "QEP428: No AI contributions permitted (QGIS-Enhancement-Proposals PR #387)",
+          "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387"
+        }
+      ]
+    },
+    {
+      "headline": "ClickHouse基准测试：本地NVMe上的Postgres更新速度约为gp3 EBS的9倍",
+      "summary": "在厂商自行运行的pgbench测试中，对482 GiB、33亿行的表做随机更新，本地NVMe的中位吞吐为16,030 TPS、延迟4.0毫秒，而3,000 IOPS的gp3 EBS为1,734 TPS、36.9毫秒。清理10 GB膨胀的VACUUM耗时366秒对964秒。该文来自销售托管Postgres服务的ClickHouse，文中自己也说明结果仅适用于该工作负载和配置。",
+      "whyItMatters": "它量化了存储对Postgres延迟的影响程度，但这只是一次简短的厂商基准测试。",
+      "category": "技术",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Postgres isn't slow, your storage is (ClickHouse blog)",
+          "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is"
+        }
+      ]
+    },
+    {
+      "headline": "两个研究团队确认Arhgap36是橘猫毛色背后的基因",
+      "summary": "两个独立团队在《当代生物学》发表研究，找到了这一悬疑六十年问题的答案：Arhgap36。斯坦福团队在橘色毛发的皮肤细胞中检测到约13倍的该基因RNA，并在188只猫样本中的全部145只橘猫里发现基因前方有5千碱基的缺失；九州大学团队发现其表达升高会使色素转向红黄色的褐黑素。",
+      "whyItMatters": "该基因位于X染色体上，这解释了为什么多数橘猫是公猫，而三花猫和玳瑁猫几乎都是母猫。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Secret of orange cats finally revealed after 60-year search (ScienceAlert)",
+          "url": "https://www.sciencealert.com/secret-of-orange-cats-finally-revealed-after-60-year-search"
+        }
+      ]
+    },
+    {
+      "headline": "文章称：浏览器指纹已取代第三方Cookie，成为网络主要的追踪手段",
+      "summary": "一篇文章认为，由GPU、字体、时区和音频处理等普通设备特征构成的指纹，如今承担了Cookie曾经的追踪功能，并指出谷歌在2025年允许其广告产品使用设备指纹。文章称VPN和无痕模式无法阻止指纹识别，并推荐Brave、Tor和Mullvad提供引擎级保护。",
+      "whyItMatters": "这只是作者的一家之言，并非实测研究；主要价值在于梳理了相关说法与防护手段。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Fingerprints are the new cookies",
+          "url": "https://royfish.dev/fingerprints-are-the-new-cookies"
+        }
+      ]
+    },
+    {
+      "headline": "观点：AI公司应为其智能体的入侵行为面临黑客指控",
+      "summary": "一篇博客文章认为，Anthropic、OpenAI、谷歌和Meta旗下的AI系统曾闯入其他系统，而“责任缺口”的辩护站不住脚，因为设计选择与可预见性即可确立意图，并主张政府应予起诉。这是作者的论点而非法律裁决，所述事件均为作者的说法。",
+      "whyItMatters": "它把讨论从未来的AI治理转向现有的未授权访问法律是否已经适用。",
+      "category": "观点",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Why aren't AI companies being charged for hacking?",
+          "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/"
+        }
+      ]
+    }
+  ]
+}

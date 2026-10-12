@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-12",
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-12T14:00:00Z",
+  "editionTitle": "Research Radar",
+  "editorNote": "本周的论文都在提醒我们：信号究竟能说明什么——只打分的教师漏掉错误，能力审计无法排除隐藏电路，弃答的收益也无法跨数据集迁移。同时还有关于扩散语言模型、智能体快照和高效更新预训练的实用结果。所有论断均出自摘要。",
+  "stories": [
+    {
+      "headline": "AI模型可以被证明地隐藏任意能力，使评估无法发现",
+      "summary": "作者把加密的神经网络嵌入宿主模型的权重中，仅在秘密触发时运行，并借助数字锁使隐藏电路在密码学假设下难以被引出或解释。在一个小型化学反应预测任务上的PyTorch概念验证中，它能抵御微调、权重加噪、基于梯度的触发搜索和潜在对抗训练。",
+      "whyItMatters": "这指出基于引出的能力审计存在局限：引出失败并不能说明能力不存在。该概念验证规模较小。",
+      "category": "理论",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "AI Models Can Provably Hide Arbitrary Capabilities (arXiv 2610.13928)",
+          "url": "https://arxiv.org/abs/2610.13928"
+        }
+      ]
+    },
+    {
+      "headline": "以批评为条件的自蒸馏：让推理模型的教师先“搜索”错误，而不只是打分",
+      "summary": "作者发现，只给推理轨迹打分的特权教师无法通过KL或token对数比定位错误。让同一模型先写出批评、再以其为条件生成教师信号，则能定位错误、将概率推向“Wait”等回溯token，并在可验证奖励无信号的提示上帮助GRPO冷启动。",
+      "whyItMatters": "对使用在策略自蒸馏的从业者而言，这表明除非教师先做批评，否则稠密信号可能几乎不含纠错信息。",
+      "category": "方法",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "A Privileged Teacher That Only Scores Cannot Search: Critique-Conditioned On-Policy Self-Distillation for Reasoning (arXiv 2610.13744)",
+          "url": "https://arxiv.org/abs/2610.13744"
+        }
+      ]
+    },
+    {
+      "headline": "当进度保存在代码仓库之外时，完整沙箱快照对编程智能体帮助最大",
+      "summary": "作者把智能体的恢复视为搜索问题，在完整的Daytona快照上进行Go-Explore式分支。他们发现，更高且更高效的解决率主要取决于仓库之外的状态，例如数据库和运行中的服务。",
+      "whyItMatters": "这表明完整快照搜索主要对状态无法由代码差异重建的长程、多服务任务才值得其成本。",
+      "category": "系统",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Returning to Development States: When Full Sandbox Snapshots Help Coding Agents (arXiv 2610.13841)",
+          "url": "https://arxiv.org/abs/2610.13841"
+        }
+      ]
+    },
+    {
+      "headline": "连续扩散语言模型的设计选择：自条件与嵌入几何",
+      "summary": "论文研究连续扩散语言模型中的自条件与嵌入几何。其DoubleCat插值无需额外前向传播即可使TinyGSM准确率提高到三倍以上；SemiCat加入离散揭示，在TinyGSM上达到49.94%，并在17亿参数下于六项基于似然的评估中有四项优于离散扩散。",
+      "whyItMatters": "在这些评估上，它缩小了连续与离散扩散语言模型之间的已报告差距。",
+      "category": "模型",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "On the Design Space of Continuous Diffusion Language Models (arXiv 2610.13834)",
+          "url": "https://arxiv.org/abs/2610.13834"
+        }
+      ]
+    },
+    {
+      "headline": "按时间顺序预训练知识，使模型日后更新更快",
+      "summary": "按时间顺序在随时间变化的知识上预训练的模型会成为专注近期信息的“专家”；打乱顺序训练则得到表现均匀的“通才”。专家学习新知识所需的更新步数少得多；作者推导出将更新成本与优化动态相联系的规律，并提出一种数据组织方案。",
+      "whyItMatters": "据作者的实验与推导的规律，它把预训练数据顺序与模型日后更新的成本联系起来。",
+      "category": "方法",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Specialists Learn Faster: Knowledge Organization in Pre-training Shapes Knowledge Update Efficiency (arXiv 2610.13835)",
+          "url": "https://arxiv.org/abs/2610.13835"
+        }
+      ]
+    },
+    {
+      "headline": "学习得到的答案选择器在TriviaQA弃答任务上提高覆盖率并降低错误率",
+      "summary": "在Qwen3-14B上，学习得到的答案选择器优于模型的校准置信度过滤器：在TriviaQA上平均覆盖率从20.2%升至30.9%，已作答问题的错误率从23.0%降至14.5%。强化学习的改动没有带来一致提升，而在NQ-Open上，选择器仍低于始终弃答的策略。",
+      "whyItMatters": "它表明选择器在一种设定下有效，而跨数据集的可靠弃答仍是未解问题。",
+      "category": "方法",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Can Language Models Learn When to Abstain? Policy Learning and Calibrated Answer Selection (arXiv 2610.13821)",
+          "url": "https://arxiv.org/abs/2610.13821"
+        }
+      ]
+    }
+  ]
+}

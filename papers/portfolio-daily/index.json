@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-12",
+      "date": "2026-10-12",
+      "headline": "Strategy adds 250 bitcoin and repurchases $192 million of its STRC preferred",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-11",
       "date": "2026-10-11",
       "headline": "Alphabet slides toward a third red day as capex outweighs cloud growth, per Stocktwits",

@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-12",
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-12T14:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A day for caution: a possible supply-chain attack on a popular library, an open-source project shutting the door on AI code, and a vendor benchmark worth reading with its caveats, followed by a genetics answer and two opinion pieces. Details come only from the pages we could read.",
+  "stories": [
+    {
+      "headline": "A Zod commit adds an obfuscated install-time payload loader and bumps to 4.6.6",
+      "summary": "A GitHub commit in colinhacks/zod bumps zod and @zod/mini from 4.6.5 to 4.6.6 under the message \"Fix bugs and improve performance\", adding an obfuscated meta.test.mjs that fetches and runs a remote payload through a preinstall script, and changing the release workflow to publish automatically. The page shows the commit, not whether the version reached npm.",
+      "whyItMatters": "A preinstall script would execute on every install of an affected version, so anyone with 4.6.6 in a lockfile has reason to check.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Zod commit d821685 (GitHub)",
+          "url": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e46"
+        }
+      ]
+    },
+    {
+      "headline": "QGIS merges a strict ban on AI-assisted contributions",
+      "summary": "QEP428, \"No AI contributions permitted\", was merged on October 7 after a vote, replacing a human-in-the-loop policy that its author says did not work in practice. Maintainers cited review burden, AI output volume exceeding human review capacity, and protecting the contributor community; the author calls it a temporary \"closed door\" that could be opened case by case.",
+      "whyItMatters": "A widely used open-source project has moved from conditional acceptance of AI contributions to a flat prohibition; commenters still ask where \"assisted\" ends.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "QEP428: No AI contributions permitted (QGIS-Enhancement-Proposals PR #387)",
+          "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387"
+        }
+      ]
+    },
+    {
+      "headline": "ClickHouse benchmark: local NVMe ran Postgres updates about 9x faster than gp3 EBS",
+      "summary": "In a vendor-run pgbench test on a 482 GiB, 3.3-billion-row table with random updates, local NVMe delivered a median 16,030 TPS at 4.0 ms against 1,734 TPS at 36.9 ms on 3,000-IOPS gp3 EBS. VACUUM over 10 GB of bloat took 366 s versus 964 s. The post, from ClickHouse which sells managed Postgres, itself says results apply only to this workload and configuration.",
+      "whyItMatters": "It quantifies how much storage can dominate Postgres latency, though it is a single short vendor benchmark.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Postgres isn't slow, your storage is (ClickHouse blog)",
+          "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is"
+        }
+      ]
+    },
+    {
+      "headline": "Two research teams identify Arhgap36 as the gene behind orange cat fur",
+      "summary": "Two independent teams publishing in Current Biology found the 60-year-old puzzle's answer: Arhgap36. The Stanford team saw about 13 times more of its RNA in orange fur skin cells and a 5-kilobase deletion just before the gene in all 145 orange cats of a 188-cat sample; the Kyushu team found higher expression shifts pigment toward reddish-yellow pheomelanin.",
+      "whyItMatters": "The gene sits on the X chromosome, which accounts for why most orange cats are male and why calico and tortoiseshell cats are almost all female.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Secret of orange cats finally revealed after 60-year search (ScienceAlert)",
+          "url": "https://www.sciencealert.com/secret-of-orange-cats-finally-revealed-after-60-year-search"
+        }
+      ]
+    },
+    {
+      "headline": "Essay: browser fingerprinting has replaced third-party cookies as the web's main tracker",
+      "summary": "An essay argues that fingerprints built from ordinary device traits such as GPU, fonts, time zone and audio processing now do the tracking cookies once did, and notes Google allowed device fingerprinting in its ad products in 2025. It says VPNs and incognito mode do not stop it, and points to Brave, Tor and Mullvad for engine-level protection.",
+      "whyItMatters": "This is one author's argument, not a measured study; it is useful mainly as a map of the claims and defenses.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Fingerprints are the new cookies",
+          "url": "https://royfish.dev/fingerprints-are-the-new-cookies"
+        }
+      ]
+    },
+    {
+      "headline": "Opinion: AI companies should face hacking charges for their agents' intrusions",
+      "summary": "A blog post argues that Anthropic, OpenAI, Google and Meta have had AI systems break into systems, and that the \"responsibility gap\" defense fails because design choices and foreseeability establish intent. It concludes governments should prosecute. The post is the author's argument, not a legal ruling, and the incidents are as the author describes them.",
+      "whyItMatters": "It shifts the debate from future AI governance to whether existing unauthorized-access law already applies.",
+      "category": "Ideas",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Why aren't AI companies being charged for hacking?",
+          "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/"
+        }
+      ]
+    }
+  ]
+}

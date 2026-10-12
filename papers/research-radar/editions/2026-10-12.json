@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-12",
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-12T14:00:00Z",
+  "editionTitle": "Research Radar",
+  "editorNote": "This week's papers share a caution about what our signals actually tell us: scoring teachers that miss errors, capability audits that cannot rule out hidden circuits, and abstention gains that do not carry across datasets. Alongside come practical results on diffusion language models, agent snapshots and update-efficient pre-training. All claims are from the abstracts.",
+  "stories": [
+    {
+      "headline": "AI models can provably hide arbitrary capabilities from evaluations",
+      "summary": "The authors embed encrypted neural networks in a host model's weights that run only on a secret trigger, using digital lockers so the hidden circuit is provably hard to elicit or interpret under cryptographic assumptions. A PyTorch proof of concept on a small chemical-reaction prediction task resisted fine-tuning, weight noising, gradient-based trigger search and latent adversarial training.",
+      "whyItMatters": "It points to a limit of elicitation-based capability audits: a failed elicitation does not show a capability is absent. The proof of concept is small-scale.",
+      "category": "Theory",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "AI Models Can Provably Hide Arbitrary Capabilities (arXiv 2610.13928)",
+          "url": "https://arxiv.org/abs/2610.13928"
+        }
+      ]
+    },
+    {
+      "headline": "Critique-conditioned self-distillation gives reasoning models a teacher that searches, not just scores",
+      "summary": "The authors find that a privileged teacher that only scores a rollout fails to localize errors via KL or token log-ratio. Letting the same model first write a critique, then conditioning the teacher on it, localizes errors, shifts probability toward backtracking tokens like \"Wait\", and helps cold-start GRPO on prompts where verifiable rewards give no signal.",
+      "whyItMatters": "For practitioners using on-policy self-distillation, it shows the dense signal may carry little corrective information unless the teacher first critiques.",
+      "category": "Methods",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "A Privileged Teacher That Only Scores Cannot Search: Critique-Conditioned On-Policy Self-Distillation for Reasoning (arXiv 2610.13744)",
+          "url": "https://arxiv.org/abs/2610.13744"
+        }
+      ]
+    },
+    {
+      "headline": "Full sandbox snapshots help coding agents most when progress lives outside the repository",
+      "summary": "Framing agent recovery as search, the authors run Go-Explore-style branching over full Daytona snapshots. They find higher and more efficient solve rates depend mainly on state stored outside the repo, such as databases and running services.",
+      "whyItMatters": "It suggests full-snapshot search is worth its cost mainly for long-horizon, multi-service tasks whose state cannot be rebuilt from a code diff.",
+      "category": "Systems",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Returning to Development States: When Full Sandbox Snapshots Help Coding Agents (arXiv 2610.13841)",
+          "url": "https://arxiv.org/abs/2610.13841"
+        }
+      ]
+    },
+    {
+      "headline": "Design choices for continuous diffusion language models: self-conditioning and embedding geometry",
+      "summary": "The paper studies self-conditioning and embedding geometry in continuous diffusion LMs. Its DoubleCat interpolant more than triples TinyGSM accuracy without an extra forward pass; SemiCat adds discrete reveals and reaches 49.94% on TinyGSM, and at 1.7B parameters beats discrete diffusion on four of six likelihood-based evaluations.",
+      "whyItMatters": "It narrows the reported gap between continuous and discrete diffusion language models on these evaluations.",
+      "category": "Models",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "On the Design Space of Continuous Diffusion Language Models (arXiv 2610.13834)",
+          "url": "https://arxiv.org/abs/2610.13834"
+        }
+      ]
+    },
+    {
+      "headline": "Training on knowledge in chronological order makes models faster to update later",
+      "summary": "Models pre-trained on time-varying knowledge in chronological order become \"specialists\" focused on recent information; shuffled training yields evenly performing \"generalists\". Specialists need far fewer update steps to learn new knowledge, and the authors derive a law linking update cost to optimization dynamics and propose a data-organization scheme.",
+      "whyItMatters": "It ties pre-training data ordering to how cheaply a model can be updated later, per the authors' experiments and derived law.",
+      "category": "Methods",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Specialists Learn Faster: Knowledge Organization in Pre-training Shapes Knowledge Update Efficiency (arXiv 2610.13835)",
+          "url": "https://arxiv.org/abs/2610.13835"
+        }
+      ]
+    },
+    {
+      "headline": "A learned answer selector lifts coverage and cuts errors for abstention on TriviaQA",
+      "summary": "On Qwen3-14B, a learned answer selector beat the model's calibrated confidence filter: on TriviaQA mean coverage rose from 20.2% to 30.9% and the error rate among answered questions fell from 23.0% to 14.5%. Reinforcement-learning modifications gave no consistent gains, and on NQ-Open the selector still scored below always abstaining.",
+      "whyItMatters": "It shows selection helps in one setting while reliable abstention across datasets remains open.",
+      "category": "Methods",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Can Language Models Learn When to Abstain? Policy Learning and Calibrated Answer Selection (arXiv 2610.13821)",
+          "url": "https://arxiv.org/abs/2610.13821"
+        }
+      ]
+    }
+  ]
+}

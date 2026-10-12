@@ -7,6 +7,12 @@
   "emoji": "🔬",
   "editions": [
     {
+      "id": "2026-10-12",
+      "date": "2026-10-12",
+      "headline": "AI models can provably hide arbitrary capabilities from evaluations",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-05",
       "date": "2026-10-05",
       "headline": "Prompt-injection detector rankings barely transfer between benchmarks",

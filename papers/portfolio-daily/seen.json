@@ -1,7 +1,59 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-11T13:47:05Z",
+  "updatedAt": "2026-10-12T16:31:21Z",
   "events": [
+    {
+      "date": "2026-10-12",
+      "headline": "WSJ: FTX's old bitcoin-mining assets are now part of the AI boom",
+      "summary": "A Wall Street Journal exclusive headline says FTX's former bitcoin-mining assets are now part of the AI boom. The article is paywalled and only the headline was available.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ1Qwc3lWYVVjYm01ejc2WWNvczQyMHVHUXpTLTFxY1VaaWdkVEhxdDFMVVYtYURwTGZfQ3U5bktvX2h0WEpfNzM3T0Y4QmdQWkdwY0dBdVd0VTZUc01xeW9CUkZxX0dnZXUtdHFydkJ4N295bDdQT29yRnYtRXhMRVp4d0RWZUJldmcwTzRqUVVKTjFzSW9SS18zOWt1aUpDZ1p1RUhpSjZPUQ?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "headline": "Strategy adds 250 bitcoin and repurchases $192 million of its STRC preferred",
+      "summary": "Strategy's own metrics post and a Yahoo Finance item report that the company acquired 250 BTC and bought back $192 million of STRC. Only headlines were available; article bodies could not be read.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdFFuSnljZXhEb2NzdWtfUmVRMXdHSEMxQmllNVBTRDkta1JYYWFmemY4ak8yWkFaTmpXWHlqWHRNUGo4VklFQ2pOYXNfc0J3c09Pa3FoeHFyeDZLaGlpcmRzcUhTTnIyZ1VRREtCUldZZ3ExNkw3NTZHOF9icDlKZ3ZkS0h0Wi13SW9zYm8xWEFzdlRLMVdzNWg5N2R1VDVqSjkxYUJB?oc=5",
+        "https://news.google.com/rss/articles/CBMimwFBVV95cUxQckhsT19KSm12OW4yQmhWczVEaHhiOWZCTGFJak5sOTJrYm9UYjJTb1BENFh2UHd5MTVIMzJmQTdUQlpaQkNFYnpBMC15aDc2c0RCWE51MFVaendwQXpyS3pyOURVNF93WTRERUl3N0kxMDF6bUZVMngwUHEzSEFNVnQ0a1dJdWgtQXN1QW5iQXFfOWRMNUxRMHRjYw?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "headline": "Rocket Lab launches its 93rd Electron mission",
+      "summary": "A Stocktwits headline says RKLB is in focus after Rocket Lab launched its 93rd Electron mission. Only the headline was available; mission details could not be read.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRzBHVFIxZHRxR01zXzhjS0E5alZYQ0Z1NVVvMzk0dmItdlltMEx2aDZDR0JJNldTRnZxUUIwZWZQdGZZclJtWm1LNk9icFJJOXZTMmg0VUQzNUtxMjNEU0lDb3g0MmxMMmxheTF6ejFtYUxDR2xiZndSVS1ZTHQtODJFZ0tJV2tzUFNTd2hWWTVWbDE0a3FEZ3kwdXNBeWdhRi03VFZmamNwdzY3emNZemc4SktfTk1wMnhnVEpHcmJ6U0FGTVRsLWpEYw?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "headline": "Cathie Wood keeps buying Rocket Lab as the stock trades at less than half its record",
+      "summary": "The Motley Fool, syndicated on Yahoo Finance and AOL, headlines that Cathie Wood continues buying Rocket Lab shares while the stock trades at less than half its record. Only the headline was available.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNkVJM0tHcXN1aXplWjBoWkVpd1lXamZVdjVzQUIwVXluRV9oQVJ2TWRXMERIMDF6MWJkcnNrN0hQVHZQM1BrNkg4ZXU1a3NMemZjNnlVcE5weXRZSl81NHh3dnI0dkxYOTFsbklNcy1OR2VSMFh5bmpHVXFsajZIZ1gzMFdSX1BhODVOY3NTS1pIOFJoOFFxZlJEYTIyXzlyZWpyRTJYMFV6Q1Buc1pFc1JtVVhrS011TUNlNkZVSjROWklq?oc=5",
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMXlfWVZIcTBEcy1EVGpFQlE4LWZsREJwLXlxUC1UblpVNk80Wmx1X3hEUFh5MjIxd19tQUdTWEg3aWJrTkRvaThvYVptR3ZnVl9JVEVDNXMyZkxFU0hCSFRHSlIxYWhuMVpEOW9CVHNGRUQ5T1JrOGRYUEhqdmdBeGFxNmFkLVVDSVR3RDAwSjAwcU5NWHNtYXRoMEs?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "headline": "Bank of America: gold needs a dovish Fed or renewed debasement fears to reverse its downtrend",
+      "summary": "Kitco's headline attributes to Bank of America the view that gold needs a dovish Fed or renewed debasement fears to reverse its downtrend; a FOREX.com headline says dollar strength keeps XAU under pressure. Only headlines were available.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTzZzc0VBMXVwcklVemRpM3hieFAtSnB2NE4zNGZBUUVROS1iYVpFbWxPX2RBWUhtU2s1Y1d6ZDlLb1VZUlpadUc3UEpPQ2NLN1FGU3NiN0RQbF84UWJMSFFTaUd1cEZUbTE0SnNabTVLLVRSajFoYXBPV0RDTjFmNWtIN2F4ams5NFVjSTNoNmhEdkc4WmRDd1JUSkEya0VHakhVNXJiaXBHM3FVNmV4VXY1Yw?oc=5",
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxOb095ejJ4c1FVVHlZUEp4YkFMeEFQdXBGcjZON1VKS2M4cHFUY196NUx2ZU8teTNReTlJaEdibXZ1TVFlS2FRRHN1TkV0VUowY3VEenl3dU9DQzd3QTlyejFYVkxJNkVYRXVaY1lIcEIzcFpFQXdaQk9PS0taWG56UHV4VmNyX2pnR293a0JUYU8wZ05aLWg5Z3ZORlRwNnRQX2gw0gGvAUFVX3lxTE5lbU0yZksteVN6TlVrQ2JmZ2xLY2dmZFdDeUQxOGZpZGEwUlhKcnRMVExkQTg5WFpUaXlVSWVka1hUMDhVbkRwcFFCRzRTTWtlMTBrVUY1YWpBODF3SXc0eXpYNmRobkJMaHZXaTRacktpREVRR0FYSVg2c2RpWEE1WGVOcXlzcGhDelhTYWpTcVJFdnJvUjJKTmdwSEhuYXZyMHBjaFFDRFUtUWVtaEE?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "headline": "Alibaba rises as BofA lifts its price target ahead of earnings; Barclays keeps a $200 target",
+      "summary": "A TradingView headline says Alibaba stock jumped after Bank of America raised its price target ahead of earnings, and a Moomoo headline says Barclays maintained a Buy rating with a $200 target. Only headlines were available; the target lev…",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNEFnVnUxMVByNGdHMEo0SGU0SXo0ZlgwYVFCbDA1Y01lSWU1bTlxRUJDSkxIb0xpSWFsQ3pvSWNwY1pQdDBzOTFxWXRYRmtoUU1VTUdNVndTN3NTUnBBYmpHSV9Cbm5RenJoczFvMGRocmoyZGRNM2Q1MmU0bDMya3Vwa1N1NFF1ZVZKVm9HX1NURGpURDRpNVF0dWJpc0xmdUx1Q0dQN3hJQkpUZlZyWXE0R1kxRnMyZHVUdlRyaUlmUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMnQxMEFKVEZmMUhMSFJBbTZIcDlMTG1ON1ZkR19QUnVRc0xicXQ3YlBhb0E0WjNkYUtTd1FuTG1vdTBMMEJodkxsUWVSdFJYR3VwSDNaQzBYTmZMakRHbnFKeVpweUdqbnAxek90S0F0YWI2MThleG43RXBNb3NweTFpWXdKT3VHUnBfMkk1YTNkdlNtaTdpUU1BTUxfYjR4THkzWXFpSlVYQ2drZlR2eE9FekhTTU0?oc=5"
+      ]
+    },
     {
       "date": "2026-10-11",
       "headline": "Morgan Stanley says Rocket Lab is becoming more like SpaceX, Stocktwits reports",
@@ -473,31 +525,6 @@
       "urls": [
         "https://finance.yahoo.com/technology/ai/articles/alibaba-nyse-baba-nears-approval-020934628.html",
         "https://www.implicator.ai/china-signals-approval-for-bytedance-alibaba-purchases-of-nvidia-rtx-pro-5500/"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "headline": "Wall Street posts its first winning week in three as AI stocks lead a rebound",
-      "summary": "The S&P 500 closed Friday at 7,743.41 and the Nasdaq Composite at 27,068.72, each up 0.5% on the day and 1.2% and 2.1% for the week, as gains in AI and chip stocks and a pullback in oil below $98/barrel offset a Treasury-yield spike to 5.2…",
-      "urls": [
-        "https://www.stl.news/u-s-stocks-end-higher-after-volatile-week-sept-26/"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "headline": "US bitcoin ETFs pull in $2.4 billion in their best week of 2026",
-      "summary": "US spot bitcoin ETFs took in a combined $2.4 billion between September 21 and 25 — led by a $999 million single-day haul on the 21st that tapered to $134 million by Friday — their strongest week of the year, after entering the week roughly…",
-      "urls": [
-        "https://247wallst.com/investing/cryptocurrency/2026/09/26/bitcoin-etf-inflows-reach-2-4-billion-this-week-but-daily-figures-decline-is-the-momentum-fading/"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "headline": "Alphabet moves up its first orbital AI-satellite launch to October 1",
-      "summary": "Google says a prototype satellite carrying its TPU chips will launch October 1 aboard a SpaceX Falcon 9 rideshare mission for Project Suncatcher, gathering in-orbit data on how the chips handle launch vibration, radiation and thermal extre…",
-      "urls": [
-        "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
-        "https://www.fool.com/investing/2026/09/24/google-is-taking-a-major-step-forward-toward-space-based-ai-data-centers/"
       ]
     }
   ]

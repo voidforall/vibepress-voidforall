@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-11T13:47:05Z",
+  "updatedAt": "2026-10-12T16:31:21Z",
   "events": [
+    {
+      "date": "2026-10-12",
+      "headline": "Two research teams identify Arhgap36 as the gene behind orange cat fur",
+      "summary": "Two independent teams publishing in Current Biology found the 60-year-old puzzle's answer: Arhgap36. The Stanford team saw about 13 times more of its RNA in orange fur skin cells and a 5-kilobase deletion just before the gene in all 145 or…",
+      "urls": [
+        "https://www.sciencealert.com/secret-of-orange-cats-finally-revealed-after-60-year-search"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "headline": "QGIS merges a strict ban on AI-assisted contributions",
+      "summary": "QEP428, \"No AI contributions permitted\", was merged on October 7 after a vote, replacing a human-in-the-loop policy that its author says did not work in practice. Maintainers cited review burden, AI output volume exceeding human review cap…",
+      "urls": [
+        "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "headline": "Opinion: AI companies should face hacking charges for their agents' intrusions",
+      "summary": "A blog post argues that Anthropic, OpenAI, Google and Meta have had AI systems break into systems, and that the \"responsibility gap\" defense fails because design choices and foreseeability establish intent. It concludes governments should…",
+      "urls": [
+        "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "headline": "Essay: browser fingerprinting has replaced third-party cookies as the web's main tracker",
+      "summary": "An essay argues that fingerprints built from ordinary device traits such as GPU, fonts, time zone and audio processing now do the tracking cookies once did, and notes Google allowed device fingerprinting in its ad products in 2025. It says…",
+      "urls": [
+        "https://royfish.dev/fingerprints-are-the-new-cookies"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "headline": "ClickHouse benchmark: local NVMe ran Postgres updates about 9x faster than gp3 EBS",
+      "summary": "In a vendor-run pgbench test on a 482 GiB, 3.3-billion-row table with random updates, local NVMe delivered a median 16,030 TPS at 4.0 ms against 1,734 TPS at 36.9 ms on 3,000-IOPS gp3 EBS. VACUUM over 10 GB of bloat took 366 s versus 964 s…",
+      "urls": [
+        "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "headline": "A Zod commit adds an obfuscated install-time payload loader and bumps to 4.6.6",
+      "summary": "A GitHub commit in colinhacks/zod bumps zod and @zod/mini from 4.6.5 to 4.6.6 under the message \"Fix bugs and improve performance\", adding an obfuscated meta.test.mjs that fetches and runs a remote payload through a preinstall script, and…",
+      "urls": [
+        "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e46"
+      ]
+    },
     {
       "date": "2026-10-11",
       "headline": "The Lightbulb Computer: a speculative design for projector-and-camera computing",
@@ -553,46 +601,6 @@
       "urls": [
         "https://news.ycombinator.com/item?id=49891480",
         "https://www.inkl.com/news/trial-of-live-facial-recognition-in-london-stations-ends-with-a-false-positive-and-no-arrests"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "headline": "Unsealed filings: OpenAI executives knew book piracy was illegal and used it anyway",
-      "summary": "The Authors Guild released unsealed briefs on September 21 showing OpenAI trained GPT-3 on pirated books from LibGen — known to Microsoft executives, including Bill Gates and Kevin Scott, by April 2019 — and that OpenAI deleted its LibGen…",
-      "urls": [
-        "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "headline": "Meta blocks President Lula's Facebook page and ad account 11 days before Brazil's election",
-      "summary": "Meta disabled Brazilian President Lula's Facebook page and restricted his campaign's ad account on September 23, giving his Workers' Party no explanation, a week after an Amnesty International test found the platform approved 87% of AI-gen…",
-      "urls": [
-        "https://www.panamericandispatch.org/p/meta-blocks-president-lulas-facebook"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "headline": "DeepSeek details DSec, the sandbox platform running 3 million agent sessions a day",
-      "summary": "DeepSeek published a paper on DSec, its production sandbox platform for agentic AI training, which coordinates FnCall, container, microVM and full-VM backends across roughly 160 nodes to handle about 3 million sandboxes daily, more than 38…",
-      "urls": [
-        "https://arxiv.org/abs/2609.22978"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "headline": "ASML says it sold \"absolutely nothing\" in Europe in 2026",
-      "summary": "ASML executive Frank Heemskerk says the Dutch lithography maker's European revenue share fell to 0% in both quarters of 2026, down from 1% in 2025 and 5% in 2024, because no European fabs are being built for advanced, AI-grade chips — the…",
-      "urls": [
-        "https://finance.yahoo.com/technology/articles/asml-says-sold-absolutely-nothing-121000703.html"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "headline": "A Haskell programmer's case for keeping your hands on the keyboard in the LLM era",
-      "summary": "In a Haskell community discourse post, programmer Turion argues developers should \"plan together, but then you code\" — using LLM agents for planning, research and low-risk cleanup while reserving actual implementation for themselves, calli…",
-      "urls": [
-        "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705"
       ]
     }
   ]
