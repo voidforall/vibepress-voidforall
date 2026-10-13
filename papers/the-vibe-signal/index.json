@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-10-13",
+      "date": "2026-10-13",
+      "headline": "Rust issue #164250: an 11-year-old lifetime-soundness hole lets a struct hold a short-lived reference as 'static",
+      "storyCount": 5
+    },
+    {
       "id": "2026-10-12",
       "date": "2026-10-12",
       "headline": "A Zod commit adds an obfuscated install-time payload loader and bumps to 4.6.6",

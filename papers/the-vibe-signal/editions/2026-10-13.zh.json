@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-13",
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T14:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天的内容来自我们能读取的页面：Rust类型系统中的一个陈年安全漏洞、英特尔的大内存加速器、附带坦率说明的语音转文字技巧、Mozilla面向受监管客户的方案，以及仅知标题的冷柜攻击。",
+  "stories": [
+    {
+      "headline": "Rust议题#164250：存在11年的生命周期安全漏洞，可让结构体以'static持有短命引用",
+      "summary": "rust-lang/rust的新报告显示，带T: 'static约束的结构体可通过协变字段被赋予指向局部String的引用，再借助Drop实现将其泄露，程序能编译并打印悬垂内存。该问题在nightly及回溯至1.85.0的稳定版上均可复现；评论者找到更早的变体，Types团队成员称其已有11年。",
+      "whyItMatters": "该议题仍未关闭，标记为I-unsound和P-high，尚无修复或负责人；Types团队成员称利用它很可能需要刻意恶意的Drop实现。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "rust-lang/rust issue #164250",
+          "url": "https://github.com/rust-lang/rust/issues/164250"
+        }
+      ]
+    },
+    {
+      "headline": "英特尔D270 AI加速器：最高480 GB LPDDR5X，350 W风冷PCIe卡",
+      "summary": "英特尔产品页列出32个Xe3P核心、256个XMX矩阵引擎，每卡最高480 GB LPDDR5X、不含HBM，采用可装入现有服务器的PCIe 5.0规格。带宽、算力数据和上市时间均未给出，仅提供订阅更新入口。",
+      "whyItMatters": "卖点是容量而非速度：页面称内存容量相对RTX Pro 6000“带宽相当”，但两者均未量化。",
+      "category": "商业",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Intel D-Series data center GPU (D270)",
+          "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html"
+        }
+      ]
+    },
+    {
+      "headline": "一款Mac应用从EmbeddingGemma 2中“读出”文字，约13秒转写一小时音频",
+      "summary": "这款免费macOS应用将谷歌的嵌入模型EmbeddingGemma 2用于语音转文字：一个小型训练的“读取器”把音频片段映射到模型的文本空间，并选取约22.9万个英文单词中最接近的一个。页面列出在基础款M3 MacBook Air上耗时12.6秒，词错误率约5%，而领先语音模型为2–3%。",
+      "whyItMatters": "页面自己承认对比所用硬件与音频不同，因此288倍实时速度只是粗略参考，不是排名。",
+      "category": "技术",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "An hour of audio transcribed in about 13s on MacBook Air",
+          "url": "https://eg2.haku.sh/"
+        }
+      ]
+    },
+    {
+      "headline": "Mozilla推出Firefox Enterprise，面向受监管机构的本地部署托管浏览器",
+      "summary": "该产品提供集中策略管理、按域名的数据防泄漏、允许/限制/禁用AI工具的选项、SIEM导出、锁定模式以及面向内部应用的基于身份的访问，管理控制台运行在客户自己的基础设施上。页面未列价格；Thunderbird Enterprise标注为“即将推出”。",
+      "whyItMatters": "Mozilla现在销售面向DORA、GDPR、NIS2、SOC 2等合规制度的托管浏览器，并含技术支持。",
+      "category": "商业",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Firefox Enterprise",
+          "url": "https://www.firefox.com/en-US/enterprise/"
+        }
+      ]
+    },
+    {
+      "headline": "据报黑客在欧洲超市冷柜中触发自动除霜",
+      "summary": "Tom's Hardware的标题描述了一次针对欧洲超市制冷设备的“前所未有”的网络攻击，配送和门店价格也受影响。我们能读到的页面只有标题，因此规模、受害者、攻击者和手法在此均未证实。",
+      "whyItMatters": "若标题属实，这是针对冷链实体设备而非数据的攻击；细节尚未读到。",
+      "category": "技术",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Tom's Hardware: supermarket fridges cyberattack",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident"
+        }
+      ]
+    }
+  ]
+}

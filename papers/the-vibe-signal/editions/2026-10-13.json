@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-13",
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T14:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A mixed day built from pages we could read: an old soundness hole in Rust's type system, a memory-heavy accelerator from Intel, a speech-to-text trick with honest caveats, Mozilla's pitch to regulated buyers, and a fridge hack known only by its headline.",
+  "stories": [
+    {
+      "headline": "Rust issue #164250: an 11-year-old lifetime-soundness hole lets a struct hold a short-lived reference as 'static",
+      "summary": "A new report in rust-lang/rust shows a struct with a T: 'static bound can be assigned a reference to a local String through a covariant field, and a Drop impl can then leak it, so the program compiles and prints dangling memory. It reproduces on nightly and stable back to 1.85.0; commenters found variants dating further back, and a Types Team member called it 11 years old.",
+      "whyItMatters": "The issue is open, labelled I-unsound and P-high with no fix or assignee yet; the Types Team member said exploiting it likely needs a deliberately malicious Drop implementation.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "rust-lang/rust issue #164250",
+          "url": "https://github.com/rust-lang/rust/issues/164250"
+        }
+      ]
+    },
+    {
+      "headline": "Intel's D270 AI accelerator pairs up to 480 GB of LPDDR5X with a 350 W air-cooled PCIe card",
+      "summary": "Intel's product page lists 32 Xe3P cores, 256 XMX matrix engines and up to 480 GB of LPDDR5X per card with no HBM, in a PCIe 5.0 form factor that fits existing servers. Bandwidth, throughput figures and availability are not stated; only a sign-up for updates is offered.",
+      "whyItMatters": "Capacity, not speed, is the pitch: the page compares memory against an RTX Pro 6000 'at comparable bandwidth' but quantifies neither.",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Intel D-Series data center GPU (D270)",
+          "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html"
+        }
+      ]
+    },
+    {
+      "headline": "A Mac app transcribes an hour of audio in about 13 seconds by reading words out of EmbeddingGemma 2",
+      "summary": "The free macOS app repurposes Google's EmbeddingGemma 2, an embedding model, for speech-to-text: a small trained 'reader' maps audio slices into the model's text space and picks the nearest of about 229,000 English words. It lists 12.6 seconds on a base M3 MacBook Air, with a word error rate around 5% versus 2–3% for leading speech models.",
+      "whyItMatters": "The speed comparison mixes hardware and audio, as the page itself says, so the 288× real-time figure is a rough guide, not a ranking.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "An hour of audio transcribed in about 13s on MacBook Air",
+          "url": "https://eg2.haku.sh/"
+        }
+      ]
+    },
+    {
+      "headline": "Mozilla introduces Firefox Enterprise, an on-premises managed browser for regulated organizations",
+      "summary": "The offering adds central policy control, data loss prevention by domain, options to allow, restrict or disable AI tools, SIEM export, a Lockdown Mode and identity-based access to internal apps, with its management console running on the customer's infrastructure. Pricing is not listed; Thunderbird Enterprise is marked 'Coming Soon'.",
+      "whyItMatters": "Mozilla is now selling a managed browser aimed at compliance regimes such as DORA, GDPR, NIS2 and SOC 2, with support included.",
+      "category": "Business",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Firefox Enterprise",
+          "url": "https://www.firefox.com/en-US/enterprise/"
+        }
+      ]
+    },
+    {
+      "headline": "Hackers reportedly trigger automatic defrosting in supermarket fridges across Europe",
+      "summary": "Tom's Hardware's headline describes an 'unprecedented' cyberattack on supermarket refrigeration in Europe, with delivery and store prices also affected. The page we could read showed only the headline, so scale, victims, attackers and method are not confirmed here.",
+      "whyItMatters": "If accurate as headlined, it is an attack on physical cold-chain equipment rather than data; the details remain unread.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Tom's Hardware: supermarket fridges cyberattack",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident"
+        }
+      ]
+    }
+  ]
+}

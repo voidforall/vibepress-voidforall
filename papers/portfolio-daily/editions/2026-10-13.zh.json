@@ -1,0 +1,137 @@
+{
+  "id": "2026-10-13",
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T14:00:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今天仍只有标题：Rocket Lab内部人士减持、据称的Alphabet模型延期及随后的诉讼通知、Duolingo集体诉讼提醒、阿里巴巴的硬件布局与券商观点，以及黄金与比特币评论。无法读取正文，细节仅限于标题所述。",
+  "stories": [
+    {
+      "headline": "Rocket Lab首席财务官Adam Spice出售990万美元股票并行使期权",
+      "summary": "GuruFocus与Investing.com的标题称，首席财务官Adam Spice出售了价值990万美元的Rocket Lab股票并行使期权。仅能获取标题，无法读取正文。",
+      "whyItMatters": "据标题，这是一项内部人士披露；出售原因及是否属于交易计划均无法读取。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab CFO Dumps $9.9 Million in Stock - GuruFocus",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQT2RoZkdoUUlHVHE3ZWdiUUdpMkV4NFJod1gwSmUya1RmcWYyV3RYNXFXaG0zOS1Da2R0SGlwWjc2Vk9qOXUzQ0V2dHVRa0FNWWwzcU5IaWtpY1BFVHQxanVLbTk1ZnpKSm9fQXFqdWRyeGY2N3VBb1Qza1hKYW9BN09IMGJ6UQ?oc=5"
+        },
+        {
+          "title": "Rocket Lab CFO Adam Spice sells $9.9m in shares, exercises options - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbVJvZ0VybG1peDYwTTgzQlU0ZHZfdEk2MTBLWTY5UmVGdWN5S1l4d25YVGNuV1VIZVFPTGZfSWxEc0xIdFJFaHRZaWVKSVlVR1NUcnhSMENCb05ZY1BjYTZLc3BER1hINFBrdVhWRW5xdE9iN2ZZT09fa1NPMVRJYVMybHJmeFpIVWdUS2NONEl3VXRWVEpybi1ycmlicU1wX2R2N25WY0NrT0FVZThFc2RldHBfVEt6WldLN1huVkNZNkw3VVgw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "据Stocktwits报道，谷歌旗舰AI模型据称进度落后，Alphabet下跌5%",
+      "summary": "Stocktwits标题称，有报道称谷歌旗舰AI模型进度落后，GOOGL下跌5%，散户并不担心。仅能获取标题。",
+      "whyItMatters": "标题将单日股价波动与据称的模型延期联系起来；原始报道及细节无法读取。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "GOOGL Stock Falls 5% As Google’s Flagship AI Model Reportedly Runs Behind Schedule — Why Retail Traders Aren’t Worried - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPU2RCSy04MzlsSzRqMGRwa0kxS0d6OGhfY0pacTNXM19MU3RyeFoyWWtDTnRBS2dkMUxXTXI0N2NPdElBLVBZUlozaEdkV2ZVZzdBT1l1RU5Yd3RZd25uZ2hrRHBXS1k0a1VqRW5wM3JCb2pYV1BVVkI1ZjdPei1kbFpVdURoejY3a09TQ1JzcFlHd2R6cDFwNTcwYjlyTVNjZ1lEbFpPV1dpSWY5SndwMmFzV0tkUWdwTkNqX2V6V1FRcy1vXzMwb0h4SzdnQXQ4d1NPa1Q4YW8wS0dvbHhMZGJvenZPMVlJWEpZdGhmTi1LZ1ZDWnBJUkMwUkdvTzBf?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "针对“Alphabet AI问题”及4%股价下跌的证券集体诉讼公布",
+      "summary": "PR Newswire标题称，Alphabet的AI问题及随后4%的股价下跌引发证券欺诈集体诉讼，GlobeNewswire另有股东提醒。这些是律所公告，所述内容仅为指控，无法读取正文。",
+      "whyItMatters": "集体诉讼只是提出的指控，并非裁定；标题未说明所称的失实陈述内容。",
+      "category": "监管",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "GOOG, GOOGL Stock Alert: Alphabet AI Issues and Subsequent 4% Stock Drop Trigger Securities Fraud Class Action for Investors - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQUUhnN1Y0em1XRHNDVjhqN1ZsR0VXSTNmY3V5QzNZMHI3UVo3SkxwbWhuczdId0htLVllNTV1ZGNpT1hpZm56ZFd5VVlJS0kwbGVvRmZCb3dLdHcxSHhkSjNFX0Y0cFpRaVZVb1lZN0RSTVdZZGIwX2tuVjhYV1dHQVZiVzRJN2F1bjBnZWlSRGtna3l4SHJXNl9KSTF5ZmplUElKQW1KTTNhYmFCcEdzQndNWjZKUkx3SmVKNk1iODRBUG1VQU9KV1NhdTlxTVdDaWVnNGFHS0hCRDNTVmN2SmVPYUFNV2lIanNheGNMQngtYW41Ql9kYUJnRC1TTHdsa2NZZDRlOVU?oc=5"
+        },
+        {
+          "title": "ALPHABET INC. (GOOG, GOOGL) SHAREHOLDER ALERT Bernstein - GlobeNewswire",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOa211ZUh1RmVEcU9BcFZJeWV2TTd5VkxfMmVKaVRuYW4wc0hrbm9mdW9PWHZaMFdMNHp3NVd4dWlReURCM3h0WFpRTW1sOFNKU3V1X2RQZGpmdEZyS0dGdzZWVWJmckxWMDVLam0zMTdadFd2eEl6NEhNVWlvSnl5MVhtVW45NjdzWGRnYXZkV3JWQjktakVGQVRkZjdBblFpbEJ1MWxLa3JrY3lUU2lZQ1dCY0d0RlkyUGc2RzBPU05vY0VDM1oyMGltUFpBTzhNejRnYTdRR2p0QzNpb0ZqREF3LXVlWHJSUmZnQ2h0azJLOWVqY3o1cUhGRXh4Sm5UM3FwXzRtWVZQbVBXNEp2LVJleVZiTE0?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Duolingo面临新的集体诉讼，律所提醒投资者留意首席原告截止日",
+      "summary": "雅虎财经、GlobeNewswire等标题称，Duolingo面临集体诉讼，多家律所敦促投资者在首席原告截止日前联系。仅能获取标题。",
+      "whyItMatters": "据标题，针对该公司的股东诉讼正在进行；指控内容与截止日期在此无法读取。",
+      "category": "监管",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Duolingo (DUOL) Faces A 12% Fair Value Gap After New Class Action - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2hGTGRBUXlpMHBqTzlzVHAzMnFXandGT1RiMFVkbEo5YVYyTGZTcGdsWHU2T2plX1BjTW05NHJ6X0NLRENfWThFMDAxdW05MmphTl9RV3RIbmRveVdVbW50blJZNHZPOUtKcXl3U016aVM5OThOYXBLc2s1bHcwSVBoQ1oyd0tta2JQMzhDQ2c5MHhWZWJj?oc=5"
+        },
+        {
+          "title": "Kaplan Fox Encourages Investors of Duolingo, Inc. (NASDAQ: DUOL) to Contact the Firm Before Lead Plaintiff Deadline on December 7, 2026 - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNWVBBYVQyWmxJeUpjSjdoZmRJeGdHdWVObUgzX3hYOXB0VlRtempFaFhQcG1rblZzRVBqUGF2SlBOTUdNVkJlRnNDRkRJdWEyblY4WE1rNFZDdEtNVUFCT2J0ZVd1VmxXZUtRNmZhV0RiMWFUT2xEVktnQzRsdXJjUzhuZGZtOGplbzVpVXJQVWlVZHpTZjNhYm9ORUl2UllLSUdtc183aENSYmlUWFQ3elc2TjlQcXlWdTZIck03eE9Jd0VBVkd2RS1fZmZ1SVlxLXZ0Q3dMcVZqajIwSUR5RU5ZbGZEVEpER0lzdTEyNXlWUlpjZ3QxTUVmeUlmYVdPcU5tREVwWm1uVEhseGlMdEFaWTZwTzBwNjlKX2ZnU01vTS1BQmxGN05YNmVSRVN2c0xNNktiT3A?oc=5"
+        },
+        {
+          "title": "DUOL DEADLINE ALERT: Faruqi & Faruqi, LLP Reminds Duolingo - GlobeNewswire",
+          "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQd1V2Vjk3NFVielkxNDh1elFoTVlpWlRQblRONlJrYzZ0UGFsbWtQUEw3TXluZlU2NTZIdEp2LTY1YWVuRncycGdQLXdQYm9zcTRhTVQxNDQ1YmJtVHNOZ25VaEF6NXR2d3RnS0Z4TjVTMTdmME8wekFzVkpfRFdPTmgxUExVZURidGJJSkczRVZIZndYNnd5Z1c0RGpqMFdJR3Z1VV8xU2xNRk5RSFdWNmVnalNnYUV2TDFkYmlPYmQwXzRCTXZ6WjVkRGp6TE9qRmlIZ1FKUkV0SXdMRDJRRmY4emdUbkh3ZDdEMWppbW9adjFUVjFfVVUzNElYYlEzeFBPUXgyd0VyOTVyU2NFTldNM2t0SDFvem0tMlpCNzNWaEJoNUE?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "据雅虎财经报道，阿里巴巴推出售价450美元的AI眼镜，加码消费硬件",
+      "summary": "雅虎财经标题称，阿里巴巴推出450美元的AI眼镜，扩展至消费电子产品；Stocktwits标题称其新的机器人AI布局未能提振散户情绪，BABA盘前下滑。仅能获取标题。",
+      "whyItMatters": "据标题，阿里巴巴正将AI业务延伸到消费硬件；销量与上市情况无法读取。",
+      "category": "公司",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Alibaba Unveils $450 AI Glasses in Expanding Push Into Gadgets - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeWNFVXZud3ZqQVliYWlrekJOa3ByYy1FTmF1R0theGNUcGx2aHV2a0xDZjNVLWlaRHdiUWtSMVVnX1NBUS1QbFpRMWlZZW5vLUJSalJQYlYtalo3bHZWc0dmX01CTnBMUU5ZR0U2NDczSURuQ0ltaUZobnNiN3ZGb2M3YWFsSlhWd2h3VHFXaGdpSkpXdFV1TzNR?oc=5"
+        },
+        {
+          "title": "BABA Stock Slides Premarket: Alibaba's New AI Push Into Robotics Fails To Lift Retail Mood - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPb0JMY1pTRHI3Um5xM3ZIcWdIVGY2R0JoaWt6X3lXUGRRcEJIdkoxdWF1TjJQZnJYeWsybVNZZHVFRzZfbWFMNFdiR3RoMGM4NGxJbFNJMDJWd0pqVHhSLTJ5U1RmbTE0ek95VUd3UkhxcnBUVFRtdFpDWjBiMjV1bGxVRHAwcXBpWmJKbTZGZzhyTHBvOE41dkxvT05ZeTVMVkNLNWlFcnF4b0MxdHl4M1ZEbU5hN1RvdFlqTWhpSVJTMjZOc1BxWUZ3ZVFERzR0SmJaY2NPQ2FPdw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "StoneX重申阿里巴巴“买入”评级，称云业务强劲",
+      "summary": "Investing.com标题称，StoneX因云业务强劲重申对阿里巴巴的买入评级。仅能获取标题。",
+      "whyItMatters": "这是券商观点，并非公司披露；目标价与理由无法读取。",
+      "category": "财报",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "StoneX reiterates Alibaba stock buy rating on cloud strength - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTkFxUm9fQ3RBZlhtN1lha0pMSGxLVXdHQ1JnM2x2eHhUUGJOUFFuY2U2S0Jrb0ZBRW43aS1EUjJGRDNsQTgzU3djcWRZYmJNWHJGZDkyTGFxa09JVzM2QXFpakh3VVFQUjZZQlUxOGJxUDdObVRWVmQtcnd6UEdPbWFkZXZ4RG4wWkdzZ2hGZzBhQ1NPWW5jYU5kblZMaDZwREpia3Uzakcwck9lcHBTUnFCTmtZd2tvZXV3NQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "黄金：雅虎财经标题称金价走低“可能是下一个买入机会”",
+      "summary": "雅虎财经10月13日的每日金价文章采用此说法；Fortune和Kitco也列有现货价格页面。仅能获取标题，因此此处不报告具体价位。",
+      "whyItMatters": "该标题是对回调的评论而非披露事实，且我们未能读取任何价格数据。",
+      "category": "大宗商品",
+      "importance": 7,
+      "sourceLinks": [
+        {
+          "title": "Gold price today, Tuesday, October 13, 2026: Lower gold prices could be the next buying opportunity - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPOEpuVFhheWFzUXpoR3N0Mi1NLW9PTWFhTGN2ZW1MM2Y2NEV5T0RCejVNZzNYdVVjeW5vYk5aRC1xd3YzZGhsRHhhdC1mcERKbzJxTV9ZR19yckNReEhhWHc5aFFlSDNUdHozcFJtTmZpcFFrMGdacWtJdVhlQVlZeWdJbFhSWjVLTzRfaFVvdUYzUHlESElHUlNUbVJiUU1fejF0MHRMdzBtTVpSM3oyTG1PaFlMcmtSUU11YmlVNHlSYUE2SC1EVmNzSkJqTmNQMFItWnQ1bXZfTXBzdFhyRnFnamdzQjV4TUNtTkUyVnByYW5fb0pmVFNuZVJna0NP?oc=5"
+        },
+        {
+          "title": "Current price of gold as of October 13, 2026 - Fortune",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QcF9MX1d4VnFsYTV4OXZqbV9oR3pKWlJFT0JCQjluNV9KdVF0N1FiTU92TlpJVXhEaDNOMFdfT0trREx0Zzlac1BidnhaMDhqekNiUHRPVW5wVXd2bFRkSXFFVHk2VjI2SEwwRHJB?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "据CoinDesk报道，比特币反弹至8.3万美元上方，与下挫的韩国股市走势脱钩",
+      "summary": "CoinDesk标题称，在韩国股市下跌之际，比特币反弹至8.3万美元上方。仅能获取标题。",
+      "whyItMatters": "据标题，该时段比特币走势独立于韩国股市的抛售。",
+      "category": "加密货币",
+      "importance": 8,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin rebounds above $83,000, decoupling from tumbling Korean stocks - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNendGRHJlLVlnV2t4aUVVQlo5WnFmOS1tS29KcWRia0QwZnNaOFEyTFVhcldVQ2E3VEdiYnpfVl93UU5QRlhzOXlHdDFuTjV1d1FIbmhOcmZNaVNGZHM1ZGh1WDhaN3BTOVlIaWdUS0c1MmtFeXdUOXdRdlp3S0ZWbXNlMU5FYlVRSWQ4OVBfOWsxbVNRZlJhMkNJckpCelJKUTVrZmstWHhJY2hHLXM2eTRwY3VBUjU2c0hGTlE5dnlyWDFVcGNPblBlU2xmVHNRN0NDdGtn?oc=5"
+        }
+      ]
+    }
+  ]
+}

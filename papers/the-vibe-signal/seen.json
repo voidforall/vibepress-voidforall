@@ -1,7 +1,47 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-12T16:31:21Z",
+  "updatedAt": "2026-10-13T14:49:23Z",
   "events": [
+    {
+      "date": "2026-10-13",
+      "headline": "Rust issue #164250: an 11-year-old lifetime-soundness hole lets a struct hold a short-lived reference as 'static",
+      "summary": "A new report in rust-lang/rust shows a struct with a T: 'static bound can be assigned a reference to a local String through a covariant field, and a Drop impl can then leak it, so the program compiles and prints dangling memory. It reprodu…",
+      "urls": [
+        "https://github.com/rust-lang/rust/issues/164250"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "headline": "Mozilla introduces Firefox Enterprise, an on-premises managed browser for regulated organizations",
+      "summary": "The offering adds central policy control, data loss prevention by domain, options to allow, restrict or disable AI tools, SIEM export, a Lockdown Mode and identity-based access to internal apps, with its management console running on the c…",
+      "urls": [
+        "https://www.firefox.com/en-US/enterprise/"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "headline": "Intel's D270 AI accelerator pairs up to 480 GB of LPDDR5X with a 350 W air-cooled PCIe card",
+      "summary": "Intel's product page lists 32 Xe3P cores, 256 XMX matrix engines and up to 480 GB of LPDDR5X per card with no HBM, in a PCIe 5.0 form factor that fits existing servers. Bandwidth, throughput figures and availability are not stated; only a…",
+      "urls": [
+        "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "headline": "Hackers reportedly trigger automatic defrosting in supermarket fridges across Europe",
+      "summary": "Tom's Hardware's headline describes an 'unprecedented' cyberattack on supermarket refrigeration in Europe, with delivery and store prices also affected. The page we could read showed only the headline, so scale, victims, attackers and meth…",
+      "urls": [
+        "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "headline": "A Mac app transcribes an hour of audio in about 13 seconds by reading words out of EmbeddingGemma 2",
+      "summary": "The free macOS app repurposes Google's EmbeddingGemma 2, an embedding model, for speech-to-text: a small trained 'reader' maps audio slices into the model's text space and picks the nearest of about 229,000 English words. It lists 12.6 sec…",
+      "urls": [
+        "https://eg2.haku.sh/"
+      ]
+    },
     {
       "date": "2026-10-12",
       "headline": "Two research teams identify Arhgap36 as the gene behind orange cat fur",
