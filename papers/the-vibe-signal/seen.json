@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-13T14:49:23Z",
+  "updatedAt": "2026-10-14T12:40:29Z",
   "events": [
+    {
+      "date": "2026-10-14",
+      "headline": "OpenAI engineer arrested over a recording device hidden in an executive conference room",
+      "summary": "The San Francisco Standard reports that federal prosecutors arrested Abdulrahman Alfozan, 35, charged with using a device to intercept oral communications. A device hidden in a TV's USB port was found Sept. 30; a second turned up in a bag…",
+      "urls": [
+        "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/"
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "headline": "Ledger confirms a spy implant in resold hardware wallets behind crypto thefts",
+      "summary": "BleepingComputer reports Ledger confirmed tampered wallets sold via Malaysian reseller CryptoBilis; researchers say the implant captured screen output and button presses and sent the seed phrase over LTE via an eSIM. Ledger says affected v…",
+      "urls": [
+        "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/"
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "headline": "Google pitches Gemini 4 Argon as a general physical-reasoning model for robotics",
+      "summary": "Google's developer blog claims 87% on the ERQA embodied-reasoning benchmark and says a simple arm's pick-and-place time fell from 58.9s to 17.4s over three self-improvement iterations. It is available in AI Studio and Antigravity for AI Ul…",
+      "urls": [
+        "https://developers.googleblog.com/gemini-4-argon-for-robotics/"
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "headline": "Cyberattack halts construction of the Denmark–Germany Fehmarn Belt tunnel",
+      "summary": "UA.News, citing Danish media, reports an attack on contractor consortium FLC (about 2,800 workers): ID cards stopped working and vessels, cranes and platforms were immobilized, with work 'completely halted'. Nobody has been named responsib…",
+      "urls": [
+        "https://ua.news/en/world/kiberataka-zupinila-budivnitstvo-tuneliu-mizh-daniieiu-ta-nimechchinoiu-rmf24"
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "headline": "Anthropic replaces git with Scion, an in-house version control system, after merges hit 30,000 a day",
+      "summary": "Anthropic's engineering blog says it migrated its monorepo off git in about five months with a seven-person team, building Scion plus the Antique review tool. Merged changes rose from about 2,500 a day in May to over 30,000 in September, a…",
+      "urls": [
+        "https://www.anthropic.com/engineering/redesigning-source-control"
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "headline": "An MIT class project became Encora's FDA-cleared wristband for essential tremor",
+      "summary": "MIT News says the 2017 product-design class prototype became Encora Therapeutics, which won FDA 510(k) clearance in February 2026. The device vibrates the wrist; in 47- and 59-patient trials, over 70 percent reported meaningful improvement.",
+      "urls": [
+        "https://news.mit.edu/2026/mit-class-project-turns-into-fda-cleared-treatment-for-tremors-1002"
+      ]
+    },
     {
       "date": "2026-10-13",
       "headline": "Rust issue #164250: an 11-year-old lifetime-soundness hole lets a struct hold a short-lived reference as 'static",
@@ -599,48 +647,6 @@
       "summary": "Anthropic reports GLM-5.3 produced working exploits in 50 of 410 ExploitBench attempts (12%) and 4% on its internal binary-exploitation test, where earlier models scored near zero. The model never refused outright, engaged 64% of the time…",
       "urls": [
         "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "headline": "Researcher's map puts Flock's network near 300,000 devices; Flock files a trademark complaint against it",
-      "summary": "Joshua Michael's map counts roughly 300,000 Flock devices, including over 170,000 cameras and 27,000 acoustic detectors, against Flock's own public figure of 120,000+ cameras. The data came from an unauthenticated access token he found in…",
-      "urls": [
-        "https://theintercept.com/2026/09/24/how-many-flock-devices-in-united-states-300000/"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "headline": "Nvidia releases an open agent-safety platform with a watchdog that runs on its network chips",
-      "summary": "The Open Agent Safety Platform pairs OpenShell, open-source software that strips an agent of rights by default and limits its capabilities, with Sentry, a monitor running on BlueField-4 chips that can shut agents down if they cross boundar…",
-      "urls": [
-        "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
-        "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "headline": "Cal Newport asks Congress to investigate the AI labs' safety practices and messaging",
-      "summary": "Newport argues OpenAI and Anthropic are running a coordinated campaign of announcing agents that hack, debating extinction risk and asking for limits on rivals. He wants Congress to examine their research focus, why autonomous agents that…",
-      "urls": [
-        "https://calnewport.com/its-time-to-investigate-the-ai-labs/"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "headline": "AMD to acquire World Labs; Fei-Fei Li becomes AMD's chief scientist",
-      "summary": "World Labs signed a definitive agreement to be acquired by AMD, with closing expected by the end of 2026 pending regulatory approvals. Fei-Fei Li becomes AMD executive vice president and chief scientist reporting to CEO Lisa Su, while Just…",
-      "urls": [
-        "https://www.worldlabs.ai/blog/amd-announcement"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "headline": "A six-month UK station trial scanned 500,000 faces and produced no arrests and one false match",
-      "summary": "British Transport Police's live facial recognition trial in London stations ran February to July, cost over £320,000 and nearly 100 hours of officer time, and yielded one false match against the watchlist and no arrests directly from an al…",
-      "urls": [
-        "https://news.ycombinator.com/item?id=49891480",
-        "https://www.inkl.com/news/trial-of-live-facial-recognition-in-london-stations-ends-with-a-false-positive-and-no-arrests"
       ]
     }
   ]

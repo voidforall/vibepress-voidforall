@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-14",
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T12:40:29Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "来自我们能读取页面的六条：Anthropic自建的版本控制系统、OpenAI会议室窃听案、转售Ledger钱包中的间谍植入物、谷歌的机器人模型、被迫停工的隧道工程，以及一款源于课程项目的腕带。",
+  "stories": [
+    {
+      "headline": "Anthropic用自研版本控制系统Scion取代git，每日合并量达3万",
+      "summary": "Anthropic工程博客称，一个七人团队用约五个月将其单体仓库从git迁出，构建了Scion及Antique代码审查工具。每日合并的变更从5月的约2,500个增至9月的3万多个，并称相比旧的git镜像，CPU和内存用量约减少200倍。",
+      "whyItMatters": "Anthropic称Claude的编码速度使源代码管理成为瓶颈；其并不打算把Scion作为通用git替代品提供。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Redesigning source control at Anthropic",
+          "url": "https://www.anthropic.com/engineering/redesigning-source-control"
+        }
+      ]
+    },
+    {
+      "headline": "OpenAI工程师因高管会议室内隐藏录音设备被捕",
+      "summary": "旧金山标准报报道，联邦检察官逮捕了35岁的Abdulrahman Alfozan，指控其使用设备拦截口头通信。9月30日在电视USB接口发现一台隐藏设备，10月5日又在一个包中发现第二台。OpenAI已将其解雇，并称没有迹象表明他接触过模型权重、源代码或客户数据。",
+      "whyItMatters": "保释听证定于10月19日；指控尚未证实，若罪名成立最高可判五年监禁。",
+      "category": "商业",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "OpenAI engineer arrested in bugging of executive conference room - SF Standard",
+          "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/"
+        }
+      ]
+    },
+    {
+      "headline": "Ledger确认转售硬件钱包中的间谍植入物是加密盗窃源头",
+      "summary": "BleepingComputer报道，Ledger确认经马来西亚经销商CryptoBilis销售的钱包被篡改；研究人员称植入物捕获屏幕输出和按键，并通过eSIM经LTE发送助记词。Ledger称受影响数量有限，且若原安全芯片完好，其Genuine Check无法检测到植入物。",
+      "whyItMatters": "Ledger建议从该经销商购买的用户将资产转入使用新助记词的新设备，并仅通过授权渠道购买。",
+      "category": "技术",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Ledger confirms hardware wallet spy implant behind crypto thefts - BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/"
+        }
+      ]
+    },
+    {
+      "headline": "谷歌将Gemini 4 Argon定位为面向机器人的通用物理推理模型",
+      "summary": "谷歌开发者博客称Argon在ERQA具身推理基准上得分87%，并称一台简单机械臂的抓取放置时间经三轮自我改进从58.9秒降至17.4秒。AI Ultra订阅用户可在AI Studio和Antigravity中使用，也可通过付费Gemini API调用。",
+      "whyItMatters": "这些是谷歌自己的结果，并非独立基准测试。",
+      "category": "技术",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Gemini 4 Argon for Robotics - Google Developers Blog",
+          "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/"
+        }
+      ]
+    },
+    {
+      "headline": "网络攻击迫使丹麦—德国费马恩海峡隧道工程停工",
+      "summary": "UA.News援引丹麦媒体报道，承包商联合体FLC（约2,800名员工）遭到攻击：工牌失效，船只、起重机和平台无法运转，工程“完全停止”。目前尚无人被认定为责任方；一名官员不排除与混合战有关。",
+      "whyItMatters": "该工程耗资约70亿欧元，原定2029年通车，此前已有延误；攻击者和停工时长未知。",
+      "category": "商业",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Cyberattack halts construction of tunnel between Denmark and Germany - UA.News",
+          "url": "https://ua.news/en/world/kiberataka-zupinila-budivnitstvo-tuneliu-mizh-daniieiu-ta-nimechchinoiu-rmf24"
+        }
+      ]
+    },
+    {
+      "headline": "麻省理工课程项目变成Encora获FDA许可的特发性震颤腕带",
+      "summary": "麻省理工新闻称，2017年产品设计课的原型发展为Encora Therapeutics，并于2026年2月获得FDA 510(k)许可。该设备对手腕施加振动；在47人和59人的试验中，超过70%的患者报告有明显改善。",
+      "whyItMatters": "公司正在组建销售团队并寻求保险覆盖；结果为患者自述。",
+      "category": "理念",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "MIT class project turns into an FDA-cleared treatment for tremors - MIT News",
+          "url": "https://news.mit.edu/2026/mit-class-project-turns-into-fda-cleared-treatment-for-tremors-1002"
+        }
+      ]
+    }
+  ]
+}

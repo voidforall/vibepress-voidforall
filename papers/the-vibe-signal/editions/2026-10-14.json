@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-14",
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T12:40:29Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Six items from pages we could read: Anthropic's home-built version control, a bugged OpenAI conference room, a spy implant in resold Ledger wallets, Google's robotics model, a halted tunnel build and a wristband that began as a class project.",
+  "stories": [
+    {
+      "headline": "Anthropic replaces git with Scion, an in-house version control system, after merges hit 30,000 a day",
+      "summary": "Anthropic's engineering blog says it migrated its monorepo off git in about five months with a seven-person team, building Scion plus the Antique review tool. Merged changes rose from about 2,500 a day in May to over 30,000 in September, and it reports roughly 200x less CPU and memory than its old git mirrors.",
+      "whyItMatters": "Anthropic says Claude's coding speed made source control the bottleneck; it is not offering Scion as a general git replacement.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Redesigning source control at Anthropic",
+          "url": "https://www.anthropic.com/engineering/redesigning-source-control"
+        }
+      ]
+    },
+    {
+      "headline": "OpenAI engineer arrested over a recording device hidden in an executive conference room",
+      "summary": "The San Francisco Standard reports that federal prosecutors arrested Abdulrahman Alfozan, 35, charged with using a device to intercept oral communications. A device hidden in a TV's USB port was found Sept. 30; a second turned up in a bag on Oct. 5. OpenAI fired him and says it has no indication he accessed model weights, source code or customer data.",
+      "whyItMatters": "A detention hearing is set for Oct. 19; the allegations are unproven and he faces up to five years if convicted.",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "OpenAI engineer arrested in bugging of executive conference room - SF Standard",
+          "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/"
+        }
+      ]
+    },
+    {
+      "headline": "Ledger confirms a spy implant in resold hardware wallets behind crypto thefts",
+      "summary": "BleepingComputer reports Ledger confirmed tampered wallets sold via Malaysian reseller CryptoBilis; researchers say the implant captured screen output and button presses and sent the seed phrase over LTE via an eSIM. Ledger says affected volume is limited and that its Genuine Check cannot detect implants if the original Secure Element is intact.",
+      "whyItMatters": "Ledger tells buyers from this reseller to move assets to a new device with a new seed phrase and to buy only through authorized channels.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Ledger confirms hardware wallet spy implant behind crypto thefts - BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/"
+        }
+      ]
+    },
+    {
+      "headline": "Google pitches Gemini 4 Argon as a general physical-reasoning model for robotics",
+      "summary": "Google's developer blog claims 87% on the ERQA embodied-reasoning benchmark and says a simple arm's pick-and-place time fell from 58.9s to 17.4s over three self-improvement iterations. It is available in AI Studio and Antigravity for AI Ultra subscribers and via the paid Gemini API.",
+      "whyItMatters": "These are Google's own results, not independent benchmarks.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Gemini 4 Argon for Robotics - Google Developers Blog",
+          "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/"
+        }
+      ]
+    },
+    {
+      "headline": "Cyberattack halts construction of the Denmark–Germany Fehmarn Belt tunnel",
+      "summary": "UA.News, citing Danish media, reports an attack on contractor consortium FLC (about 2,800 workers): ID cards stopped working and vessels, cranes and platforms were immobilized, with work 'completely halted'. Nobody has been named responsible; an official did not rule out hybrid warfare.",
+      "whyItMatters": "The project, about €7 billion and once due in 2029, had already seen delays; the attacker and duration are unknown.",
+      "category": "Business",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Cyberattack halts construction of tunnel between Denmark and Germany - UA.News",
+          "url": "https://ua.news/en/world/kiberataka-zupinila-budivnitstvo-tuneliu-mizh-daniieiu-ta-nimechchinoiu-rmf24"
+        }
+      ]
+    },
+    {
+      "headline": "An MIT class project became Encora's FDA-cleared wristband for essential tremor",
+      "summary": "MIT News says the 2017 product-design class prototype became Encora Therapeutics, which won FDA 510(k) clearance in February 2026. The device vibrates the wrist; in 47- and 59-patient trials, over 70 percent reported meaningful improvement.",
+      "whyItMatters": "The company is now building a sales force and seeking insurer coverage; the results are patient-reported.",
+      "category": "Ideas",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "MIT class project turns into an FDA-cleared treatment for tremors - MIT News",
+          "url": "https://news.mit.edu/2026/mit-class-project-turns-into-fda-cleared-treatment-for-tremors-1002"
+        }
+      ]
+    }
+  ]
+}

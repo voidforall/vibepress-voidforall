@@ -1,0 +1,116 @@
+{
+  "id": "2026-10-14",
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T12:40:29Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今天仍以标题层面的报道为主，因为新闻链接背后的正文无法打开：阿里巴巴AI眼镜的芯片供应商、Rocket Lab关于Neutron发射档期的表态、谷歌面向欧洲研究人员的开放与机器人模型，以及黄金和比特币等待美国通胀数据。",
+  "stories": [
+    {
+      "headline": "TradingView：阿里巴巴选用Himax的WiseEye芯片打造下一代AI眼镜",
+      "summary": "TradingView称阿里巴巴已选择Himax的WiseEye芯片用于下一代AI眼镜；Investing.com另报道称，千问AI眼镜发布后阿里巴巴股价盘前上涨。仅能读取标题。",
+      "whyItMatters": "据标题，眼镜发布后已有明确的元件供应商；条款与数量无法读取。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Alibaba selects Himax’s WiseEye chip for next-generation AI glasses - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPN1RjU3FtamlpSWZBWWI4WDcyNmpxd29vbF9HRm50UmVRMGJxY0xBSlV3bU1lQjVKcXMwSHpvT0E1NjcycXVNcVBnTkQyYVpmbm40aUZyM25Sb3RMQVljaXZveXVSaGpHNG8zXy1Tbnp0WlFhU0VjMmQwWE1UaVVFMThJT3ZXTXA0bGV0ckVVMWFQNVJ1WnllUUloMk5kanBVZGZuRFdNLTZkekdFSkhmU1hZbmVUdDZxSGFXajA5dUhoZmMxOUJtMXB3?oc=5"
+        },
+        {
+          "title": "Alibaba shares rise in pre-market trade after Qwen AI glasses launch - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOENYTmdDQVl0WjdQb3VBNHpNMV9wR3M1V3hvQlRxVWdZRFUtX196emN2Ylg0R2pUbWVfSVM2Qi1BcWFIeTJiaGRQMVN5bnFEeHFxeVE4V3RmanExUlM3WmJ2SHhOU1doZWpKbjhiN2xESW82enBJYVdKbDJqU3Z6cG5lVE9VTk1lVEFDTUxqWUN0ckRxNllBdjJWa3lvMGtLdk9xcjZPdmNubHl0UjBkTmJJa0pab0ppaTVLWFN6Y3VDaVpKWDM1dg?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab称须对有限的Neutron档期“非常非常谨慎”，七连涨结束",
+      "summary": "Stocktwits标题称，Rocket Lab表示须对有限的Neutron发射档期“非常非常谨慎”，RKLB七连涨就此结束。仅能读取标题。",
+      "whyItMatters": "据标题，管理层将Neutron运力描述为稀缺；该表态的背景无法读取。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "RKLB Stock Snaps 7-Day Rally: Rocket Lab Says It Must Be ‘Very, Very Careful’ With Limited Neutron Slots - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWmR1RmhCdmd2d0hNU3p2VnR2anVLMWdmeTdzMHhUdXFjVjVUb0kwdFRfWTFPaE1BVGJWREFlbUs2akd2Qmg5NGlhWTY5ZlZuLUhLaWZoczVfS0ptdDNhV21YWWFwMmdIRTU0QXB3NmVqU0Vsak8zeGJQMXBXV2pyRURhNHBLY0hpNXc3SlBkQ0pwSFJYcHh1emlYVVQ1YzdDWC1IOVl1YVpCbERVUUNjTU92TQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "路透：谷歌DeepMind与谷歌云将向欧洲研究人员开放前沿模型",
+      "summary": "路透社标题称，谷歌DeepMind与谷歌云将允许欧洲研究人员使用前沿模型。仅能读取标题；模型、条款和时间未知。",
+      "whyItMatters": "据标题，Alphabet正在扩大其模型在欧洲的研究使用范围；具体范围无法读取。",
+      "category": "公司",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Google DeepMind, Google Cloud to allow European researchers access to frontier models - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQd3Npakc0UFloQXV1TGtRSDRIVDdreGhyV296RFRNb1BOVFAtSFhIc3FGTE1NQWVvSlJSYXNpV3BGODZNS2NtX1J4UnZ6bDc0RjdhOEtSUFNTQlA5TnM0ZjJnQ1VEWmhKTWIxVDl3Rk13OVhoeXRtSVpRZGhaekNnMHJhY2c4bE04bXQ5aThmc1BPVTdZa2tzMlp6QUlFOWQ0anBwd2h4V19ub1U1NUJCUEVNbXFOcWZ4TmRCbG1Odm5ZdVk?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "谷歌Gemini 4 Argon进军机器人：ERQA具身推理基准得分87%",
+      "summary": "谷歌开发者博客（10月13日）称Argon是一款物理推理模型，在ERQA基准上得分87%，并称其领先其他前沿模型。博客称仿真生成数据使真实场景成功率从56%提升至75%，并可通过Google AI Studio、Gemini API（付费层）及面向AI Ultra用户的Antigravity使用。Moomoo标题称Argon已全球开放。",
+      "whyItMatters": "这些数据是谷歌在博客中的自述；此举将10月1日发布的Argon延伸至机器人工具。",
+      "category": "公司",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Gemini 4 Argon for Robotics - Google Developers Blog",
+          "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/"
+        },
+        {
+          "title": "Google (GOOGL.US) Opens Gemini 4 Argon Globally: Refactoring Code and Robotics - Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVl9sakQzUTNtVDNPNUFEbFJPeHJjSHVETndNR2ZzNmpIRU5HYjQ4NUxwWXd4MUZKSGNzQ19CWGh0UVhwaE84a2NNZERsVlAza0dzOFdac2czVl9nc2hZVVlhNlJ5TDJNOGR2RVFZdVUxQURObDBja0pzcEtoNC1ndkJIYXJqZVhhRk9ZZU9pYUQzLUc0SVQxUnZnTWNhNDRTdEdYV25oMmZDanFMb3c?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "美国CPI公布前黄金走软，4,200美元被视为突破测试",
+      "summary": "雅虎财经10月14日标题称黄金在通胀数据公布前走软；FXStreet称XAU/USD在美国CPI和美联储官员讲话前小幅走低；investingLive称4,200美元是关键的突破测试。仅能读取标题。",
+      "whyItMatters": "据标题，黄金在CPI公布前交投谨慎；具体价位无法读取。",
+      "category": "大宗商品",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Gold price today, Wednesday, October 14, 2026: Gold prices losing ground ahead of inflation data - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOaDY1cDVETUVQa3FWTVV2c0I3TmlEa2pHeDI5UTNTLV9LenlvNE1jbmEydHdUdkMzQUMyelFiVUFnSmcxWDlPZ0lJOU80ei04YUV6U0lfUG5WdjVveXdkd0ZxaEMyQ1Bod3pmdHp3UVZYVkJxTldTNXkzOHphbktzdU43eldGWGZUS2s2Vzg1RUF6aDYteksxMWczcTZmMDY1UVNZZU1NY3NtTzRmaHB5N01SSHFsS0c5SDlMQkk1dGNFMS1tc3RjM2Q4d3hBdzFHNUJDbEJvSnZ2QkNiRlN6bTVHQWF0VEpuTmdlZnNHcXRCSUpSR2lVQlVLeGs?oc=5"
+        },
+        {
+          "title": "Gold Price Forecast: XAU/USD drifts lower with US CPI, Fed speakers in focus - FXStreet",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcFFXdUJNelpSTTBmQjlSaWpqRW1Jc1VNQngtTmRJSFo1Wmh0cHpLc2V6UHpxMHVVVFNudmx6WEMyemhvSmpURm1vTzB4eEE0c1N6OElrUUlzVnk2bElPT09YWkE1VzF0cU5SWC05MW40UjVYYTBqUnFRbk43VG5PSUhiTk82bWpVZWFnTVBwbzRNengwRDdTcXd2U3BOMWI3SUN5QUhRdkhOb1U5SU1adlc2RWRoR0hE?oc=5"
+        },
+        {
+          "title": "Chart of the day: Gold price faces crucial $4,200 breakout test as US CPI looms - investingLive",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSmtIOVQyWGdram5XSmE5OC01Z0R2T3dVaUxlWi1JMVZGbENVNEdJNWoyNWVSREg1QnFjMFpzT0JhZnZFaWFKSDFyZ1Iwd2FBWGZ4RHhHZVRjTWwxaEs0bWVja0RicWh2MWV3OGVib094dVBUcWhWemp0UWdlMlc4bXhiR2xfdjkyS2tEaXM5QnQzd25ZQk9BWk9PRnlXcV9kX3FQYzhCRkhxVF9GWmtlbmNJbGM5WjNFUmFYMW1VOFE?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "CoinDesk：美国CPI前比特币企稳，山寨币下跌",
+      "summary": "CoinDesk《今日加密市场》标题称，美国CPI报告公布前，山寨币下跌而比特币价格企稳。仅能读取标题。",
+      "whyItMatters": "据标题，加密市场在等待CPI数据；价格无法读取。",
+      "category": "加密货币",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Altcoins slip as bitcoin (BTC) price steadies before U.S. CPI report: Crypto Markets Today - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbkhIVjRGMU5mZmRCNWNGRXBTTE50OXU5UG9SSGxtYTBFQ2tBYlVoQm5TMTc2ekdzQmlEWEdJaEJhWjJMVXduYlFQbjhmTXBabHNLZnVjZHdzenlIWWtWMDNWR1c3SWRZZmRrbEwweXRmYWlXY0l0MS10REZ2QThDT3lleWN3TmMwSWx3SzFVSVFJTm9mcUtRXzhrakduR0FOSlh5c1lPWGpFM21lV0syOWU3VXhkZ2pB?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Benzinga发问：Saylor看好比特币破10万美元，Strategy为何愿意出售",
+      "summary": "Benzinga标题称，Saylor认为比特币将升至10万美元以上，并追问Strategy为何仍愿意出售。仅能读取标题。",
+      "whyItMatters": "据标题，问题聚焦于Strategy出售比特币的立场；其理由无法读取。",
+      "category": "加密货币",
+      "importance": 7,
+      "sourceLinks": [
+        {
+          "title": "Saylor Sees Bitcoin Above $100,000—So Why Is Strategy Willing to Sell? - Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYWZyR3p3aFRNQXlCSDl4eko0MUctc3JUeHVHaGtBbjBtS1B5czZkRjc2MTZZSUxySUhDYTE4VkhleG01U0dTT0RVTjBreGJ6Ymh4U2U1eTlkdkJucVQ4dzZFcm5wVkVoa1JucWlFajJSQklhRE5SOXNnOGRfSDZYSTdzUWY1OXpQbzA0ZnNaYkV6clp1ZUJzRkRkVWppUGJ1WWxfV3FXQXc3ZUV2VnVYSHV0VjVhZWxna2JNdUgyLTZmUHR0bHdNVQ?oc=5"
+        }
+      ]
+    }
+  ]
+}
