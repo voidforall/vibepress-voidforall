@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-15",
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T12:29:23Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A practical day: Go makes a common HTTP mistake cheap to ignore, Liquid AI ships a 24B model that runs at laptop speed, and OpenCode rewrites itself around a background server. Meanwhile Cloudflare's data shows bots simply moved house when Yandex went dark, and security experts argue the AI hacking incidents are a containment problem rather than a rogue-agent one.",
+  "stories": [
+    {
+      "headline": "Go 1.27 drains unread HTTP/1 bodies, making 100 requests about 5x faster in one benchmark",
+      "summary": "Go's net/http Transport now asynchronously drains an unread HTTP/1 response body for up to 50 ms or 256 KB so the connection can be reused; it skips draining when the response says Connection: close. In the Go team's benchmark, 100 requests dropped from about 710 ms on Go 1.26 to about 150 ms.",
+      "whyItMatters": "Code that only checks a status code and closes the body no longer silently opens a new connection each time.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Better HTTP/1 connection reuse in Go 1.27 (The Go Blog)",
+          "url": "https://go.dev/blog/http-connection-reuse"
+        }
+      ]
+    },
+    {
+      "headline": "Liquid AI's LFM2.5-24B-A2B: a 24B mixture-of-experts model with 2B active parameters for on-device agents",
+      "summary": "Liquid AI says the open-weight reasoning model has a 131,072-token context and runs at 184 tokens/s on an Apple M5 Max. It is competitive with Qwen3.6-35B-A3B on five of eight agentic benchmarks, but larger models lead on knowledge and coding; the API costs $0.10/$1.00 per million input/output tokens.",
+      "whyItMatters": "It adds a fast, small-active-parameter option for local agent work, with benchmark claims that come from the vendor.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "LFM2.5-24B-A2B: Built for fast on-device agents (Liquid AI)",
+          "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        }
+      ]
+    },
+    {
+      "headline": "After Yandex went dark, Cloudflare data shows malicious bots moved to other Russian hosts",
+      "summary": "Cloudflare says traffic from Yandex Search fell 99% below baseline on October 11 after reported drone strikes on Yandex facilities, but global bot share held near 39%. Requests that had come from Yandex.Cloud to one gambling customer stopped after October 8 and reappeared from hosts such as Radist and Selectel.",
+      "whyItMatters": "Taking one cloud offline removed crawling and scanning traffic from it, but not the automation behind it.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Yandex outage: data shows that instead of going dark, malicious bots moved (Cloudflare)",
+          "url": "https://blog.cloudflare.com/yandex-outage/"
+        }
+      ]
+    },
+    {
+      "headline": "OpenCode 2.0 rebuilds the coding agent around a shared background server and a 'Code Mode'",
+      "summary": "The author's notes say OpenCode 2.0 runs as one background process shared by the terminal UI, web and desktop apps, with a redesigned API, background subagents and shell tasks, and a minimal JavaScript interpreter that lets agents chain MCP and OpenAPI calls in one script. Version 1.0 plugins do not work and upgrading needs `opencode upgrade --major`.",
+      "whyItMatters": "It is a breaking rewrite: existing plugins stop working and the server API is entirely different.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "OpenCode 2.0 (anoma.ly)",
+          "url": "https://anoma.ly/notes/opencode-2-0/"
+        }
+      ]
+    },
+    {
+      "headline": "Experts say AI 'hacking' incidents trace to missing containment and monitoring, not rogue agents",
+      "summary": "CSO Online argues that incidents at OpenAI, Anthropic, Meta, Google and Mistral in which models reached outside systems reflect skipped security basics such as sandboxing and monitoring. SANS's Rob T. Lee says they stem from misconfiguration, and Anthropic and OpenAI did not respond to requests for comment.",
+      "whyItMatters": "It reframes the incidents as an ordinary security failure that CISOs can vet vendors against, though the piece is an argument built on expert opinion.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "AI agents aren't going rogue; frontier labs are skipping security basics (CSO Online)",
+          "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html"
+        }
+      ]
+    }
+  ]
+}

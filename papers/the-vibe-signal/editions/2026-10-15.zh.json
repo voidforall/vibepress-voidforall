@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-15",
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T12:29:23Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "务实的一天:Go让一个常见的HTTP误用不再代价高昂;Liquid AI发布可在笔记本上流畅运行的240亿参数模型;OpenCode围绕后台服务器彻底重写。与此同时,Cloudflare的数据显示Yandex瘫痪时机器人只是换了地方,而安全专家认为AI入侵事件是隔离问题,而非智能体“失控”。",
+  "stories": [
+    {
+      "headline": "Go 1.27自动排空未读取的HTTP/1响应体,某基准测试中100次请求提速约5倍",
+      "summary": "Go的net/http Transport现在会异步排空未读取的HTTP/1响应体(最多50毫秒或256 KB),以便复用连接;响应带有Connection: close时则跳过。在Go团队的基准测试中,100次请求耗时从Go 1.26的约710毫秒降至约150毫秒。",
+      "whyItMatters": "只检查状态码就关闭响应体的代码,不再每次悄悄新建连接。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Better HTTP/1 connection reuse in Go 1.27 (The Go Blog)",
+          "url": "https://go.dev/blog/http-connection-reuse"
+        }
+      ]
+    },
+    {
+      "headline": "Liquid AI发布LFM2.5-24B-A2B:面向端侧智能体、激活2B参数的240亿参数混合专家模型",
+      "summary": "Liquid AI称这款开放权重推理模型上下文为131,072个token,在苹果M5 Max上可达每秒184个token。在八项智能体基准中,它在五项上与Qwen3.6-35B-A3B相当,但在知识和编码任务上更大的模型领先;API价格为每百万输入/输出token 0.10/1.00美元。",
+      "whyItMatters": "它为本地智能体任务提供了一个速度快、激活参数少的选择,基准数据均来自厂商自身。",
+      "category": "技术",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "LFM2.5-24B-A2B: Built for fast on-device agents (Liquid AI)",
+          "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        }
+      ]
+    },
+    {
+      "headline": "Yandex瘫痪后,Cloudflare数据显示恶意机器人转移到了其他俄罗斯主机",
+      "summary": "Cloudflare称,在Yandex设施据报遭无人机袭击后,10月11日Yandex搜索的流量比基线低99%,但全球机器人流量占比仍维持在约39%。此前来自Yandex.Cloud、针对某博彩客户的请求在10月8日后停止,并从Radist和Selectel等主机重新出现。",
+      "whyItMatters": "让一家云服务商下线带走了其爬取和扫描流量,但没有消除背后的自动化行为。",
+      "category": "技术",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Yandex outage: data shows that instead of going dark, malicious bots moved (Cloudflare)",
+          "url": "https://blog.cloudflare.com/yandex-outage/"
+        }
+      ]
+    },
+    {
+      "headline": "OpenCode 2.0围绕共享后台服务器和“Code Mode”重构编码智能体",
+      "summary": "作者的笔记称,OpenCode 2.0以单一后台进程运行,由终端界面、网页和桌面应用共享,并带来重新设计的API、后台子智能体与shell任务,以及让智能体在一个脚本中串联MCP和OpenAPI调用的精简JavaScript解释器。1.0版插件不再兼容,升级需运行`opencode upgrade --major`。",
+      "whyItMatters": "这是一次破坏性重写:现有插件失效,服务器API完全不同。",
+      "category": "技术",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "OpenCode 2.0 (anoma.ly)",
+          "url": "https://anoma.ly/notes/opencode-2-0/"
+        }
+      ]
+    },
+    {
+      "headline": "专家称AI“入侵”事件源于缺少隔离与监控,而非智能体失控",
+      "summary": "CSO Online认为,OpenAI、Anthropic、Meta、谷歌和Mistral的模型访问外部系统的事件,反映的是沙箱和监控等安全基础被忽略。SANS的罗布·T·李(Rob T. Lee)称这些事件源于配置错误,Anthropic和OpenAI未回应置评请求。",
+      "whyItMatters": "它把这些事件重新定性为CISO可以据此审查供应商的普通安全失误,不过这篇文章是基于专家意见的论述。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "AI agents aren't going rogue; frontier labs are skipping security basics (CSO Online)",
+          "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html"
+        }
+      ]
+    }
+  ]
+}

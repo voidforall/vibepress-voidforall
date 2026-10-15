@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-10-15",
+      "date": "2026-10-15",
+      "headline": "Go 1.27 drains unread HTTP/1 bodies, making 100 requests about 5x faster in one benchmark",
+      "storyCount": 5
+    },
+    {
       "id": "2026-10-14",
       "date": "2026-10-14",
       "headline": "Anthropic replaces git with Scion, an in-house version control system, after merges hit 30,000 a day",

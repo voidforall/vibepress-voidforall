@@ -1,0 +1,115 @@
+{
+  "id": "2026-10-15",
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T12:29:23Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今天以个股波动为主:火箭实验室因Neutron首飞推迟至2027年而走低,多邻国因增长放缓的担忧承压,阿里巴巴则因内部人士增持成为焦点。黄金和比特币均围绕通胀数据谨慎交易。以下仅为新闻标题层面的信息,不构成投资建议。",
+  "stories": [
+    {
+      "headline": "火箭实验室将Neutron火箭首飞推迟至2027年,股价下挫",
+      "summary": "路透社报道,火箭实验室已将Neutron火箭的首飞推迟至2027年。雅虎财经称股价下跌15%,Trefis则称股价已连续六天下跌,累计跌幅21%。",
+      "whyItMatters": "此次推迟使火箭实验室的中型火箭首飞再度延后;股价数据来自二手媒体,各家说法不一。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab pushes Neutron rocket's debut flight to 2027, shares fall - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRU1rLTNKMnhFSW9Za3NhZDVQZFlOM3JMU0pXMGpGNGhtWXdURzIyNGpUNW54ZWxaSUVzaVFVMXdDUno2bGstYnVIRkt5Q3NiVDYwdEFTZXdCUDF2azhLR2E3SHJ1ZjN3ZWpBS3Y2c2NtXzM5TkpJZF94a21DeWJJenBVVldQc1VLN3RBNDNaMVpmNHdsMjd1M1V4bWwwM1kzSkJDb0NpMUpLdGpDT2FCTC1xbVBpVm83V09uQVdhUE5FOEoz?oc=5"
+        },
+        {
+          "title": "Rocket Lab Shares Slide 15% as Neutron Rocket Launch Delayed Until 2027 - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa2NfUzdzSVg1LUc0LWsyUnFWNUhvUnhTX2N5WWUyWldpc0k4bmZLdFVSU0FZUGZjdEkzVnpsd3ZXTkVqUWV6ZWJRVFloRW41ZmF3VThXbXpaaGFMdG45eEV3dEJRaC12UmN0VlE0R21wTG50Ty1PZzhNWUd5UHZ5a1NVRW0xZERNckVaLVh4bmlhTjhDMkE?oc=5"
+        },
+        {
+          "title": "A 6-Day Losing Streak Has Rocket Lab Stock Down 21% - Trefis",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY3ZsZkZ5MnNXMnAxU3pVbDFLVnp4VkRocEtvYUE1MlVYMTVCOXF2bHdMZ0lpN25nQjljYS1qa1NwZzRDTWR4M2xhNGdTWEg3OC1ac1NuNVRtWm9LNFNiejNDMUgxYW1TcnIwNGFRTklCZ1J6c2pvdnVBMlBDSTBHM2dZZVlaWWNPc2lJa1E4dEpRTXQ0U3F3azBoR3A2Szl3U2dXa3VhTkxONGFyTHBRVQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "多邻国股价迎来数月来最差一天,CEO提示增长放缓",
+      "summary": "Stocktwits报道,在CEO提示增长放缓后,多邻国股价正走向数月来最差的一天,并将部分跌幅与T-Mobile的AI翻译功能联系起来。文中引述的散户投资者称此次抛售“愚蠢”。",
+      "whyItMatters": "股价对增长预警和AI翻译竞争作出反应;因果关系是该媒体的解读,并非公司声明。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Duolingo Stock Heads For Worst Day In Months As CEO Flags Slower Growth — Retail Calls Selloff ‘Stupid’ - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQank2bUhPUi1Gd0pCUXZVZjVfVWpib21GV2VLWF95Z1JUTmY2VER1NWlZT2dQdnItak13SExnbEF4M3p4cEprcGx2S2N2NE40SkxndVdIeWpydFhMWGRoQ0dlSTVoR0phbm55Wi1CUnhWb1d2c0dvZ2x0LVFlemxrYkV1Z2wzZ3pTaXMtN0ZScGU3cnIyYXZleXZwX21OMDhLUERwSlU3U1F6aElBcG9rS2JuRWpDT01nZFp0a3MxQTZZVHpPYTkzTlRhalRqYzRf?oc=5"
+        },
+        {
+          "title": "DUOL Stock Tumbles On T-Mobile's AI Translation Feature — Retail Calls Selloff ‘Stupid’ - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRWJzNnAyNDZqM1EwS0xWMFhaZURZUzJDaUN2Zk9icTZIUUw2QlJkSkFFaXN2VHlSS2dtNENncHpyTGRqRDhvOVBDaHQtNVZlQUwzWXJYOFROTzg2bnJFR09NeWo2eWVPX1luZ2tHQ0cwcjlHVkRyUUtMNDVqeHZXS01NU3paNV9TR0JGQ2d5X3JnVE5TdHF4dkhKRjdpNUFUMUlGaGVTTkRYWEtuTXFaZURoNC1odXdv?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "据报道马云在阿里巴巴102亿美元配售后买入7700万美元股票",
+      "summary": "Stocktwits报道,在阿里巴巴完成102亿美元股份配售后,马云买入了约7700万美元的阿里巴巴股票。另有报道称,董事长蔡崇信和CEO吴泳铭也在交易所文件中披露了购股。",
+      "whyItMatters": "内部人士增持紧随一次折价配售之后,该配售用于为AI投入融资;金额依据报道,此处未独立核实。",
+      "category": "公司",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Alibaba Insider Buying Grows: Jack Ma Reportedly Bets $77M After $10.2B Share Sale - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMHlkelNHMnJlQnVqYzdhNzdTYzQ4WlV0Y3dXUzE2YkdhWFpMZGZfdi1qQWZFTnNDTTNQWG1CUk9sb3YxbEpnVGZoRXdtTDBwNWYyRHNTeW4tNDlRV2NadmZKcHBnNFlvYXhzR3hYcFBMVG5XZURMbC1CcEF0T2wtYmtwWDBQVU5CNFJzd3A0TGRrZ3M3NkFhOGRkNDFEaDVzWDRTOFFodGRUU25TRF9XVWhvZ3E4Wll2TmdNMXpHZnpGZw?oc=5"
+        },
+        {
+          "title": "Jack Ma Invests USD76 Million to Raise Stake in Alibaba, Source Says (Yicai Global)",
+          "url": "https://www.yicaiglobal.com/news/jack-ma-invests-usd76-million-to-raise-stake-in-alibaba-source-says"
+        }
+      ]
+    },
+    {
+      "headline": "黄金在PPI数据公布前跌至本周最低开盘价",
+      "summary": "雅虎财经10月15日的黄金报道称,金价在生产者价格数据公布前开于本周最低水平。FXEmpire称,在CPI数据偏热后美元走软,金价反弹;FXStreet则将反弹与一份关于中国买入美国国债、压低美债收益率的报道联系起来。",
+      "whyItMatters": "金价随通胀数据前后的美元和收益率波动而变化;各媒体对当日驱动因素的说法不一。",
+      "category": "大宗商品",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Gold price today, Thursday, October 15, 2026: Lowest open all week ahead of PPI data - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVUdyMEV0cGh6dkFmSnFOTm42QnhoMDl6TU95ZTJmLTJQTlNYWmxLOFQ4WHZDNUpjanF2a2l6NnB4Y3FUbWhUS21OSjhvdGp1aWRmNERjTS1LLTlseHU2MGNiNVJHd2toOHc5THRxcHpHRWk3a2hUNVRmYU9HalMwTXdrbHBfWnNydTFOUlI3TnVxT1k1VnB5eGF1dmdhUFhkWmU3UGFzUjc4c0djSGRrc1JfZklocUMwbG5mX2NjUVpLX2F2aWk3dzRhOURWOWZuazhKZzZJQl9OTE5JX3Y5ZXdhT2NPV2VTMzJHdQ?oc=5"
+        },
+        {
+          "title": "Gold Price Forecast: XAU/USD rebounds firmly as China Treasuries-buying report smashes US yields - FXStreet",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVjI5Nk00VFNmckdWLUtqRjJTazVYYldyMm5UT3B6b2tqLUJoTlhBTWVzY0hHZXpoVUxqN3haZEJObXVtc2MtbU05Sk13cGI5OHFnQm9lM3BNZlhHMjk2cFBxZUNTczFZNDR0QzdxYlB3YU5pbEZmVVNqUEszbS1sZDQ4ZUVpUi1hUVdKbXVKZWUxZEozTGlLSnpTS1ZaX0hIU0UyUUhvMzl3ajNXczlxN1BMLU5FNzRsb0NPc2RkaTFZeURXeDlNRkNBTlpJUGNhLXVsWHRRbGoyZw?oc=5"
+        },
+        {
+          "title": "Gold Price Forecast: Softer Dollar Fuels Rebound After Hot CPI - FXEmpire",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZnBxaDRUOW44alZHbmowQ1gybDVRQkxMUkU1a1duTTdHSDJpWXFpejZHTHluenhyUHRISms2Wk5ySVRDenNtWXRieGFwVjM2U2JCbi01QXlKTUllRzI2aHFubnAwOHNIdU9GQUE2TGppeEVWX2x0RTFDVjI2SzFsUlB3Nm4zRlItNVhDNzN2LTR2ajZyRVA2RUZfWHhQZVZEaWZFZ0IzM1d0YUFUNVZxbmVFLW9RQkR5OXd6eA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "比特币仍在8万至8.8万美元区间内震荡",
+      "summary": "Benzinga称比特币被困在8万至8.8万美元之间,并探讨哪个价位会先被突破。雅虎财经的汇总称,10月15日加密货币价格正陷入熟悉的走势。",
+      "whyItMatters": "价格仍处区间震荡,尚无向任一方向突破的报道。",
+      "category": "加密货币",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Stuck Between $80,000 and $88,000: Which Level Breaks First? - Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOEZhaklEc25hSkRVYm9uREVpYzZzSVgxLWdlWF8tdFNXUE1yLWZIc2xaNkxXajMtZTBPUXl4UVhsXzBleXdYYmgtV1lhd0VuYXFwVTlyZTlPREVSTlNEck9scjBrMHFfLURRQWY3Nzh1VFpYQXZfUnhJMlRHS2NHbEROSG95SjhRdzhOTURXUktSWXF0TDczNktfaFJmcjd1RWIyZEtuNVk3RjZmbTRXNDNxRDJfOWFsY3ZRakliaXl2dw?oc=5"
+        },
+        {
+          "title": "Bitcoin and ethereum prices today, Thursday, October 15, 2026: Crypto prices falling into a familiar pattern - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQYTU1TTl5UjBuUGZTbEVRWEhlTlM5aDF1Q0hPa3ZqbFZkN3dtOE8zYlhXZmR5MVNhVXZWdE5uU3NVSFA4WU55OXNnYXp3X3FITjV5SXBQN3BVT3FlWExubDhQekVzenRNM1ViU1FkRGJ4VkM1QnBrVkVzc0dTOUJDcTNacWMtWUhhbUEwYmd0bV9LNXRlbU1DeTZJTk9KMnpVM2RoX2oxQi13MGJxeUU4T2NaaFY2cWxyWkZ3YXB2Z3ljUnVrVE1ZMWViZ1pXTVFwbUtaVXFYZ0o5VDNzNVFnaFZ6dmhSQXFxTzc1YV9HNzhCUmVWV2dzeEFjX0laSGhCU0d5bjAyanhxdWN1?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "一个曾处理2.3%网络算力的比特币矿池在算力下降65%后关闭",
+      "summary": "CoinDesk报道,一个曾处理比特币网络2.3%算力的矿池在其算力下降65%后关闭。",
+      "whyItMatters": "挖矿正向更少的矿池集中;此处仅采用了报道标题中的信息。",
+      "category": "加密货币",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin mining pool once handling 2.3% of network shuts after hashrate falls 65% - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcFQ5S3FnSVhXb0FEdjRrX0hEd3dSMlgxU1FVTllUTnhucWVidElBRzAzNTVCbjduUFRmZDgtTjVGWUpjb0RiM1dKZldUNUZmOVZvcm5KYUpWc3c5S0JCUFI4Tkh3SFpnUWFCSnFTck5WR3B3SFlRc2JiWVg4T0Q1QVFGNUhURURhdWo0RGVIT2dSVGN2S0Q2Z3dYck9fcFo3el9oNklvanZiaTRsWkhKRG9fcDN6Y0JWVTI5X0g0dw?oc=5"
+        }
+      ]
+    }
+  ]
+}

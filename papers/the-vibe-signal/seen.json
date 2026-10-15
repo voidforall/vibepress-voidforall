@@ -1,7 +1,47 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-14T12:40:29Z",
+  "updatedAt": "2026-10-15T12:29:26Z",
   "events": [
+    {
+      "date": "2026-10-15",
+      "headline": "OpenCode 2.0 rebuilds the coding agent around a shared background server and a 'Code Mode'",
+      "summary": "The author's notes say OpenCode 2.0 runs as one background process shared by the terminal UI, web and desktop apps, with a redesigned API, background subagents and shell tasks, and a minimal JavaScript interpreter that lets agents chain MC…",
+      "urls": [
+        "https://anoma.ly/notes/opencode-2-0/"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "headline": "Liquid AI's LFM2.5-24B-A2B: a 24B mixture-of-experts model with 2B active parameters for on-device agents",
+      "summary": "Liquid AI says the open-weight reasoning model has a 131,072-token context and runs at 184 tokens/s on an Apple M5 Max. It is competitive with Qwen3.6-35B-A3B on five of eight agentic benchmarks, but larger models lead on knowledge and cod…",
+      "urls": [
+        "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "headline": "Go 1.27 drains unread HTTP/1 bodies, making 100 requests about 5x faster in one benchmark",
+      "summary": "Go's net/http Transport now asynchronously drains an unread HTTP/1 response body for up to 50 ms or 256 KB so the connection can be reused; it skips draining when the response says Connection: close. In the Go team's benchmark, 100 request…",
+      "urls": [
+        "https://go.dev/blog/http-connection-reuse"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "headline": "Experts say AI 'hacking' incidents trace to missing containment and monitoring, not rogue agents",
+      "summary": "CSO Online argues that incidents at OpenAI, Anthropic, Meta, Google and Mistral in which models reached outside systems reflect skipped security basics such as sandboxing and monitoring. SANS's Rob T. Lee says they stem from misconfigurati…",
+      "urls": [
+        "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "headline": "After Yandex went dark, Cloudflare data shows malicious bots moved to other Russian hosts",
+      "summary": "Cloudflare says traffic from Yandex Search fell 99% below baseline on October 11 after reported drone strikes on Yandex facilities, but global bot share held near 39%. Requests that had come from Yandex.Cloud to one gambling customer stopp…",
+      "urls": [
+        "https://blog.cloudflare.com/yandex-outage/"
+      ]
+    },
     {
       "date": "2026-10-14",
       "headline": "OpenAI engineer arrested over a recording device hidden in an executive conference room",
@@ -615,38 +655,6 @@
       "urls": [
         "https://www.miaminewtimes.com/news/miami-immigrant-advocate-sues-federal-government-over-phone-seizure-40587572/",
         "https://reason.com/2026/08/19/border-agents-searched-his-phone-5-times-without-a-warrant-hes-asking-the-supreme-court-to-put-a-stop-to-it/"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "headline": "Livenerf sets out to catch Opus 5.5 getting quietly worse after launch, and can't yet tell it from Opus 5",
-      "summary": "The open repo runs about 80 borderline questions from GPQA Diamond, MMLU-Pro and competition math daily against Opus 5.5, with a parallel Opus 5 as a control. It has logged 6 of 30 baseline days with no missed runs and no flagged change; i…",
-      "urls": [
-        "https://github.com/ninjahawk/livenerf"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "headline": "Delhi cut electricity losses from over 50% to 5–6% while peak demand tripled",
-      "summary": "IEEE Spectrum credits the drop since 2002 to privatised distribution, digital and then smart meters, SCADA monitoring, capacitor banks and better cables, AI-based anomaly detection, and hiring women in low-income areas as bill collectors.…",
-      "urls": [
-        "https://spectrum.ieee.org/delhi-electricity-loss"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "headline": "Bain: AI needs about $6 trillion in annual revenue by 2031 to justify the data-centre build-out",
-      "summary": "A Bain & Company report says AI infrastructure spending will reach $1.5 trillion a year by 2031, requiring $6 trillion in annual revenue, of which $4.2 trillion would come from new products and $1–1.4 trillion from enterprise productivity.…",
-      "urls": [
-        "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "headline": "Anthropic: Zhipu's open-weight GLM-5.3 can build working exploits, and its safeguards are easy to bypass",
-      "summary": "Anthropic reports GLM-5.3 produced working exploits in 50 of 410 ExploitBench attempts (12%) and 4% on its internal binary-exploitation test, where earlier models scored near zero. The model never refused outright, engaged 64% of the time…",
-      "urls": [
-        "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
       ]
     }
   ]

@@ -1,0 +1,111 @@
+{
+  "id": "2026-10-15",
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T12:29:23Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "本周有来有往:一艘载着空间站最后两组卷展式太阳翼的货运龙飞船升空,一组航天员在轨237天后返回地球;远方则有两项发现——距离创纪录的快速射电暴,以及一颗冷褐矮星上时聚时散的水云。回到近处,NASA与能源部为核动力探索签下了协议。",
+  "stories": [
+    {
+      "headline": "货运龙飞船将空间站最后的卷展式太阳翼送入轨道",
+      "summary": "10月13日,SpaceX猎鹰9号从卡纳维拉尔角发射CRS-35补给任务,携带约6300磅货物,包括最后两组卷展式太阳翼和支持40多项科学研究的设备。对接原定于10月15日美东时间上午11点左右。",
+      "whyItMatters": "空间站将获得其计划中的最后一批太阳翼升级,同时迎来新一批微重力实验。",
+      "category": "发射",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "SpaceX launching 6,300 pounds of cargo to the ISS on Oct. 13 (Space.com)",
+          "url": "https://www.space.com/space-exploration/international-space-station/spacex-crs-35-cargo-launch-international-space-station"
+        },
+        {
+          "title": "SpaceX launches NASA science and cargo to the International Space Station (Spaceflight Now)",
+          "url": "https://spaceflightnow.com/?p=74541"
+        }
+      ]
+    },
+    {
+      "headline": "韦布望远镜锁定迄今最遥远快速射电暴的宿主星系,距今约106亿光年",
+      "summary": "天文学家利用詹姆斯·韦布空间望远镜确定了FRB 20240304B的宿主星系,该射电暴由南非MeerKAT于2024年3月首次探测到。宿主星系红移为2.148(按NASA的数字约合106.3亿光年),是一个小而年轻、正在形成恒星的矮星系;成果于10月8日发表在《科学》杂志上。",
+      "whyItMatters": "这一结果使已知宿主的射电暴的距离纪录增加了一倍多,但这次射电暴的成因尚未确定。",
+      "category": "深空",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "James Webb telescope pinpoints the most distant 'fast radio burst' ever seen (Live Science)",
+          "url": "https://www.livescience.com/space/astronomy/james-webb-telescope-pinpoints-the-most-distant-fast-radio-burst-ever-seen-more-than-doubling-the-previous-record"
+        },
+        {
+          "title": "Record-Breaking Fast Radio Burst from Early Universe Traced to Tiny, Star-Forming Galaxy (Sci.News)",
+          "url": "https://www.sci.news/astronomy/most-distant-fast-radio-burst-15124.html"
+        }
+      ]
+    },
+    {
+      "headline": "韦布观测到冷褐矮星WISE 0855上的水云时厚时薄",
+      "summary": "亚利桑那大学布里特妮·迈尔斯(Brittany Miles)领导的团队对约7.5光年外的褐矮星WISE 0855,每15分钟获取一次JWST光谱,持续11小时。他们观测到高空云层厚度变化以及更深处的对流循环,团队称这是首次证实太阳系外的水云会发生变化。",
+      "whyItMatters": "太阳系外的水云最早于2016年被提出;这是它们随时间变化的首个迹象。",
+      "category": "天文",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Varying water clouds detected beyond the solar system for the first time (IFLScience)",
+          "url": "https://www.iflscience.com/varying-water-clouds-detected-beyond-the-solar-system-for-the-first-time-and-theyre-not-around-a-planet-84913"
+        },
+        {
+          "title": "First Detection of Water Clouds Outside Our Solar System (Universe Today)",
+          "url": "https://www.universetoday.com/articles/first-detection-of-water-clouds-outside-our-solar-system"
+        }
+      ]
+    },
+    {
+      "headline": "载人龙飞船“Crew-12”在轨237天后溅落加州外海",
+      "summary": "龙飞船“Freedom”于10月8日美东时间上午11点34分在洛杉矶外海太平洋溅落,乘员为杰西卡·梅尔、杰克·哈撒韦、ESA的索菲·阿德农和俄航天局的安德烈·费久耶夫。NASA称,自2月13日发射以来,乘组飞行超过1亿英里,绕地球超过3792圈。",
+      "whyItMatters": "Crew-12的返回完成了与10月1日抵达空间站的Crew-13的交接。",
+      "category": "任务",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Crew-12 astronauts returning to Earth: What to know about the splashdown (FOX 35 Orlando)",
+          "url": "https://www.fox35orlando.com/news/spacexs-crew-12-astronauts-returning-earth-splashdown"
+        },
+        {
+          "title": "NASA's Crew-12 splashed down after 237 days in orbit (NeoTeo)",
+          "url": "https://www.neoteo.com/en/nasas-crew-12-splashed-down-after-237-days-in-orbit"
+        }
+      ]
+    },
+    {
+      "headline": "NASA与能源部签署空间核动力与推进合作备忘录",
+      "summary": "NASA局长贾里德·艾萨克曼与能源部长克里斯·赖特签署备忘录,涵盖核燃料、测试、发射集成及月面反应堆,11月1日生效。NASA表示的计划包括在2028年底前向火星发射核电推进的“Space Reactor-1 Freedom”。",
+      "whyItMatters": "两家机构就月球反应堆和核推进的分工有了正式框架;火星和月球的时间表只是计划,尚非成果。",
+      "category": "任务",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "NASA aims for nuclear-powered Mars mission in 2028 (World Nuclear News)",
+          "url": "https://world-nuclear-news.org/articles/nasa-aims-for-nuclear-powered-mars-mission-in-2028"
+        },
+        {
+          "title": "US advances nuclear-powered Moon missions (Morung Express)",
+          "url": "https://morungexpress.com/us-advances-nuclear-powered-moon-missions"
+        }
+      ]
+    },
+    {
+      "headline": "SPHEREx首次观测37颗近邻褐矮星,温度跨度从2200摄氏度到冰点以下",
+      "summary": "NASA的SPHEREx望远镜以102种颜色测量了37颗近邻褐矮星的亮度,涵盖褐矮星从约2200摄氏度到零下20摄氏度的整个温度范围。目前仅有几十颗褐矮星在太空中得到详细研究,科学家正借助该巡天分析数千颗。",
+      "whyItMatters": "这为天文学家提供了可相互比较的一致光谱序列,后续还有数千个天体可供分析。",
+      "category": "发现",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "NASA's SPHEREx Telescope Sees Menagerie of Brown Dwarfs (NASA)",
+          "url": "https://nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs"
+        },
+        {
+          "title": "SPHEREx 0.75 to 5 μm Spectra for a Sequence of Nearby Brown Dwarfs (arXiv)",
+          "url": "https://arxiv.org/pdf/2607.00543"
+        }
+      ]
+    }
+  ]
+}

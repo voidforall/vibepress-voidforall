@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-15",
+      "date": "2026-10-15",
+      "headline": "Rocket Lab pushes Neutron's debut flight to 2027, and shares fall",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-14",
       "date": "2026-10-14",
       "headline": "Alibaba picks Himax's WiseEye chip for next-generation AI glasses, TradingView reports",

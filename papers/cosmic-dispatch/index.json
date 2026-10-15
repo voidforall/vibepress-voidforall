@@ -7,6 +7,12 @@
   "emoji": "🪐",
   "editions": [
     {
+      "id": "2026-10-15",
+      "date": "2026-10-15",
+      "headline": "A cargo Dragon carries the space station's final roll-out solar arrays to orbit",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-08",
       "date": "2026-10-08",
       "headline": "Hubble archive hints at a second-generation planet around a white dwarf",

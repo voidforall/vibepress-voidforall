@@ -1,0 +1,115 @@
+{
+  "id": "2026-10-15",
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T12:29:23Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A day of single-name moves: Rocket Lab is lower after pushing Neutron's debut into 2027, Duolingo is under pressure on slower-growth worries, and Alibaba's insiders are in the news for buying. Gold and bitcoin both trade cautiously around inflation data. Headlines only; nothing here is investment advice.",
+  "stories": [
+    {
+      "headline": "Rocket Lab pushes Neutron's debut flight to 2027, and shares fall",
+      "summary": "Reuters reports Rocket Lab has moved the first flight of its Neutron rocket into 2027. Yahoo Finance puts the share slide at 15%, and Trefis describes a six-day losing streak that has the stock down 21%.",
+      "whyItMatters": "The delay pushes Rocket Lab's medium-lift debut back again; the share-price figures come from secondary outlets and differ by outlet.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab pushes Neutron rocket's debut flight to 2027, shares fall - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRU1rLTNKMnhFSW9Za3NhZDVQZFlOM3JMU0pXMGpGNGhtWXdURzIyNGpUNW54ZWxaSUVzaVFVMXdDUno2bGstYnVIRkt5Q3NiVDYwdEFTZXdCUDF2azhLR2E3SHJ1ZjN3ZWpBS3Y2c2NtXzM5TkpJZF94a21DeWJJenBVVldQc1VLN3RBNDNaMVpmNHdsMjd1M1V4bWwwM1kzSkJDb0NpMUpLdGpDT2FCTC1xbVBpVm83V09uQVdhUE5FOEoz?oc=5"
+        },
+        {
+          "title": "Rocket Lab Shares Slide 15% as Neutron Rocket Launch Delayed Until 2027 - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa2NfUzdzSVg1LUc0LWsyUnFWNUhvUnhTX2N5WWUyWldpc0k4bmZLdFVSU0FZUGZjdEkzVnpsd3ZXTkVqUWV6ZWJRVFloRW41ZmF3VThXbXpaaGFMdG45eEV3dEJRaC12UmN0VlE0R21wTG50Ty1PZzhNWUd5UHZ5a1NVRW0xZERNckVaLVh4bmlhTjhDMkE?oc=5"
+        },
+        {
+          "title": "A 6-Day Losing Streak Has Rocket Lab Stock Down 21% - Trefis",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY3ZsZkZ5MnNXMnAxU3pVbDFLVnp4VkRocEtvYUE1MlVYMTVCOXF2bHdMZ0lpN25nQjljYS1qa1NwZzRDTWR4M2xhNGdTWEg3OC1ac1NuNVRtWm9LNFNiejNDMUgxYW1TcnIwNGFRTklCZ1J6c2pvdnVBMlBDSTBHM2dZZVlaWWNPc2lJa1E4dEpRTXQ0U3F3azBoR3A2Szl3U2dXa3VhTkxONGFyTHBRVQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Duolingo heads for its worst day in months as the CEO flags slower growth",
+      "summary": "Stocktwits reports Duolingo shares were heading for their worst day in months after its CEO flagged slower growth, and links part of the slide to T-Mobile's AI translation feature. Retail investors quoted in the piece call the selloff 'stupid'.",
+      "whyItMatters": "The stock is reacting to a growth warning and to AI-translation competition; the causal link is the outlet's framing, not a company statement.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Duolingo Stock Heads For Worst Day In Months As CEO Flags Slower Growth — Retail Calls Selloff ‘Stupid’ - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQank2bUhPUi1Gd0pCUXZVZjVfVWpib21GV2VLWF95Z1JUTmY2VER1NWlZT2dQdnItak13SExnbEF4M3p4cEprcGx2S2N2NE40SkxndVdIeWpydFhMWGRoQ0dlSTVoR0phbm55Wi1CUnhWb1d2c0dvZ2x0LVFlemxrYkV1Z2wzZ3pTaXMtN0ZScGU3cnIyYXZleXZwX21OMDhLUERwSlU3U1F6aElBcG9rS2JuRWpDT01nZFp0a3MxQTZZVHpPYTkzTlRhalRqYzRf?oc=5"
+        },
+        {
+          "title": "DUOL Stock Tumbles On T-Mobile's AI Translation Feature — Retail Calls Selloff ‘Stupid’ - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRWJzNnAyNDZqM1EwS0xWMFhaZURZUzJDaUN2Zk9icTZIUUw2QlJkSkFFaXN2VHlSS2dtNENncHpyTGRqRDhvOVBDaHQtNVZlQUwzWXJYOFROTzg2bnJFR09NeWo2eWVPX1luZ2tHQ0cwcjlHVkRyUUtMNDVqeHZXS01NU3paNV9TR0JGQ2d5X3JnVE5TdHF4dkhKRjdpNUFUMUlGaGVTTkRYWEtuTXFaZURoNC1odXdv?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Jack Ma reportedly buys $77 million of Alibaba shares after a $10.2 billion share sale",
+      "summary": "Stocktwits reports Jack Ma has bought about $77 million of Alibaba stock, following the company's $10.2 billion share sale. Separate coverage says Chairman Joe Tsai and CEO Eddie Wu also bought shares in an exchange filing.",
+      "whyItMatters": "Insider purchases came right after a discounted placement meant to fund AI spending; the amounts are as reported, not independently confirmed here.",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Alibaba Insider Buying Grows: Jack Ma Reportedly Bets $77M After $10.2B Share Sale - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMHlkelNHMnJlQnVqYzdhNzdTYzQ4WlV0Y3dXUzE2YkdhWFpMZGZfdi1qQWZFTnNDTTNQWG1CUk9sb3YxbEpnVGZoRXdtTDBwNWYyRHNTeW4tNDlRV2NadmZKcHBnNFlvYXhzR3hYcFBMVG5XZURMbC1CcEF0T2wtYmtwWDBQVU5CNFJzd3A0TGRrZ3M3NkFhOGRkNDFEaDVzWDRTOFFodGRUU25TRF9XVWhvZ3E4Wll2TmdNMXpHZnpGZw?oc=5"
+        },
+        {
+          "title": "Jack Ma Invests USD76 Million to Raise Stake in Alibaba, Source Says (Yicai Global)",
+          "url": "https://www.yicaiglobal.com/news/jack-ma-invests-usd76-million-to-raise-stake-in-alibaba-source-says"
+        }
+      ]
+    },
+    {
+      "headline": "Gold opens at its lowest of the week ahead of PPI data",
+      "summary": "Yahoo Finance's October 15 gold report says prices opened at the lowest level of the week ahead of producer-price data. FXEmpire says gold rebounded as a softer dollar followed a hot CPI print, and FXStreet links a bounce to a report of Chinese Treasury buying pushing US yields lower.",
+      "whyItMatters": "Gold is trading off dollar and yield moves around the inflation data; the outlets differ on the day's driver.",
+      "category": "Commodities",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Gold price today, Thursday, October 15, 2026: Lowest open all week ahead of PPI data - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVUdyMEV0cGh6dkFmSnFOTm42QnhoMDl6TU95ZTJmLTJQTlNYWmxLOFQ4WHZDNUpjanF2a2l6NnB4Y3FUbWhUS21OSjhvdGp1aWRmNERjTS1LLTlseHU2MGNiNVJHd2toOHc5THRxcHpHRWk3a2hUNVRmYU9HalMwTXdrbHBfWnNydTFOUlI3TnVxT1k1VnB5eGF1dmdhUFhkWmU3UGFzUjc4c0djSGRrc1JfZklocUMwbG5mX2NjUVpLX2F2aWk3dzRhOURWOWZuazhKZzZJQl9OTE5JX3Y5ZXdhT2NPV2VTMzJHdQ?oc=5"
+        },
+        {
+          "title": "Gold Price Forecast: XAU/USD rebounds firmly as China Treasuries-buying report smashes US yields - FXStreet",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVjI5Nk00VFNmckdWLUtqRjJTazVYYldyMm5UT3B6b2tqLUJoTlhBTWVzY0hHZXpoVUxqN3haZEJObXVtc2MtbU05Sk13cGI5OHFnQm9lM3BNZlhHMjk2cFBxZUNTczFZNDR0QzdxYlB3YU5pbEZmVVNqUEszbS1sZDQ4ZUVpUi1hUVdKbXVKZWUxZEozTGlLSnpTS1ZaX0hIU0UyUUhvMzl3ajNXczlxN1BMLU5FNzRsb0NPc2RkaTFZeURXeDlNRkNBTlpJUGNhLXVsWHRRbGoyZw?oc=5"
+        },
+        {
+          "title": "Gold Price Forecast: Softer Dollar Fuels Rebound After Hot CPI - FXEmpire",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZnBxaDRUOW44alZHbmowQ1gybDVRQkxMUkU1a1duTTdHSDJpWXFpejZHTHluenhyUHRISms2Wk5ySVRDenNtWXRieGFwVjM2U2JCbi01QXlKTUllRzI2aHFubnAwOHNIdU9GQUE2TGppeEVWX2x0RTFDVjI2SzFsUlB3Nm4zRlItNVhDNzN2LTR2ajZyRVA2RUZfWHhQZVZEaWZFZ0IzM1d0YUFUNVZxbmVFLW9RQkR5OXd6eA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin stays boxed between $80,000 and $88,000",
+      "summary": "Benzinga says bitcoin is stuck between $80,000 and $88,000 and asks which level breaks first. Yahoo Finance's roundup says crypto prices are falling into a familiar pattern on October 15.",
+      "whyItMatters": "Price is still range-bound; no breakout in either direction has been reported.",
+      "category": "Crypto",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Stuck Between $80,000 and $88,000: Which Level Breaks First? - Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOEZhaklEc25hSkRVYm9uREVpYzZzSVgxLWdlWF8tdFNXUE1yLWZIc2xaNkxXajMtZTBPUXl4UVhsXzBleXdYYmgtV1lhd0VuYXFwVTlyZTlPREVSTlNEck9scjBrMHFfLURRQWY3Nzh1VFpYQXZfUnhJMlRHS2NHbEROSG95SjhRdzhOTURXUktSWXF0TDczNktfaFJmcjd1RWIyZEtuNVk3RjZmbTRXNDNxRDJfOWFsY3ZRakliaXl2dw?oc=5"
+        },
+        {
+          "title": "Bitcoin and ethereum prices today, Thursday, October 15, 2026: Crypto prices falling into a familiar pattern - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQYTU1TTl5UjBuUGZTbEVRWEhlTlM5aDF1Q0hPa3ZqbFZkN3dtOE8zYlhXZmR5MVNhVXZWdE5uU3NVSFA4WU55OXNnYXp3X3FITjV5SXBQN3BVT3FlWExubDhQekVzenRNM1ViU1FkRGJ4VkM1QnBrVkVzc0dTOUJDcTNacWMtWUhhbUEwYmd0bV9LNXRlbU1DeTZJTk9KMnpVM2RoX2oxQi13MGJxeUU4T2NaaFY2cWxyWkZ3YXB2Z3ljUnVrVE1ZMWViZ1pXTVFwbUtaVXFYZ0o5VDNzNVFnaFZ6dmhSQXFxTzc1YV9HNzhCUmVWV2dzeEFjX0laSGhCU0d5bjAyanhxdWN1?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "A bitcoin mining pool that handled 2.3% of the network shuts after its hashrate falls 65%",
+      "summary": "CoinDesk reports that a bitcoin mining pool which once handled 2.3% of the network has shut down after its hashrate fell 65%.",
+      "whyItMatters": "Mining is consolidating around fewer pools; the headline is the only detail drawn from the report here.",
+      "category": "Crypto",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin mining pool once handling 2.3% of network shuts after hashrate falls 65% - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcFQ5S3FnSVhXb0FEdjRrX0hEd3dSMlgxU1FVTllUTnhucWVidElBRzAzNTVCbjduUFRmZDgtTjVGWUpjb0RiM1dKZldUNUZmOVZvcm5KYUpWc3c5S0JCUFI4Tkh3SFpnUWFCSnFTck5WR3B3SFlRc2JiWVg4T0Q1QVFGNUhURURhdWo0RGVIT2dSVGN2S0Q2Z3dYck9fcFo3el9oNklvanZiaTRsWkhKRG9fcDN6Y0JWVTI5X0g0dw?oc=5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "2026-10-15",
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T12:29:23Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "A week of arrivals and departures: a cargo Dragon carrying the station's last roll-out solar arrays, a crew home after 237 days, and a pair of far-off discoveries, a record-distance radio burst and clouds that come and go on a cold brown dwarf. Closer to home, NASA and the Energy Department put nuclear power on paper.",
+  "stories": [
+    {
+      "headline": "A cargo Dragon carries the space station's final roll-out solar arrays to orbit",
+      "summary": "SpaceX's Falcon 9 launched the CRS-35 resupply mission from Cape Canaveral on October 13 with about 6,300 pounds of cargo, including the last two Roll-Out Solar Arrays and gear for more than 40 science studies. Docking was planned for about 11 a.m. EDT on October 15.",
+      "whyItMatters": "The station gets the last of its planned solar-array upgrades, alongside a fresh batch of microgravity experiments.",
+      "category": "Launches",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "SpaceX launching 6,300 pounds of cargo to the ISS on Oct. 13 (Space.com)",
+          "url": "https://www.space.com/space-exploration/international-space-station/spacex-crs-35-cargo-launch-international-space-station"
+        },
+        {
+          "title": "SpaceX launches NASA science and cargo to the International Space Station (Spaceflight Now)",
+          "url": "https://spaceflightnow.com/?p=74541"
+        }
+      ]
+    },
+    {
+      "headline": "Webb pins down the host of the most distant fast radio burst yet, 10.6 billion light-years away",
+      "summary": "Using the James Webb Space Telescope, astronomers identified the host galaxy of FRB 20240304B, a burst first detected by South Africa's MeerKAT in March 2024. The host sits at a redshift of 2.148 (about 10.63 billion light-years by NASA's figure) and is a small, young, star-forming dwarf galaxy; the work was published in Science on October 8.",
+      "whyItMatters": "The result more than doubles the previous distance record for a burst with a known host, though the cause of this burst is not established.",
+      "category": "Deep Space",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "James Webb telescope pinpoints the most distant 'fast radio burst' ever seen (Live Science)",
+          "url": "https://www.livescience.com/space/astronomy/james-webb-telescope-pinpoints-the-most-distant-fast-radio-burst-ever-seen-more-than-doubling-the-previous-record"
+        },
+        {
+          "title": "Record-Breaking Fast Radio Burst from Early Universe Traced to Tiny, Star-Forming Galaxy (Sci.News)",
+          "url": "https://www.sci.news/astronomy/most-distant-fast-radio-burst-15124.html"
+        }
+      ]
+    },
+    {
+      "headline": "Webb sees water clouds thicken and thin on the cold brown dwarf WISE 0855",
+      "summary": "A University of Arizona team led by Brittany Miles took a JWST spectrum of WISE 0855, a brown dwarf about 7.5 light-years away, every 15 minutes for 11 hours. They saw high-altitude clouds change in thickness and convection cycles deeper down, which the team describes as the first confirmation that water clouds vary outside our solar system.",
+      "whyItMatters": "Water clouds beyond the solar system were first suggested in 2016; this is the first sign that they change over time.",
+      "category": "Astronomy",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Varying water clouds detected beyond the solar system for the first time (IFLScience)",
+          "url": "https://www.iflscience.com/varying-water-clouds-detected-beyond-the-solar-system-for-the-first-time-and-theyre-not-around-a-planet-84913"
+        },
+        {
+          "title": "First Detection of Water Clouds Outside Our Solar System (Universe Today)",
+          "url": "https://www.universetoday.com/articles/first-detection-of-water-clouds-outside-our-solar-system"
+        }
+      ]
+    },
+    {
+      "headline": "Crew-12 splashes down off California after 237 days in orbit",
+      "summary": "The Dragon \"Freedom\" landed in the Pacific off Los Angeles at 11:34 a.m. EDT on October 8 with Jessica Meir, Jack Hathaway, ESA's Sophie Adenot and Roscosmos's Andrey Fedyaev. NASA says the crew travelled more than 100 million miles and completed more than 3,792 orbits since launching on February 13.",
+      "whyItMatters": "Crew-12's return closes out the handover to Crew-13, which reached the station on October 1.",
+      "category": "Missions",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Crew-12 astronauts returning to Earth: What to know about the splashdown (FOX 35 Orlando)",
+          "url": "https://www.fox35orlando.com/news/spacexs-crew-12-astronauts-returning-earth-splashdown"
+        },
+        {
+          "title": "NASA's Crew-12 splashed down after 237 days in orbit (NeoTeo)",
+          "url": "https://www.neoteo.com/en/nasas-crew-12-splashed-down-after-237-days-in-orbit"
+        }
+      ]
+    },
+    {
+      "headline": "NASA and the Energy Department sign a pact on space nuclear power and propulsion",
+      "summary": "NASA Administrator Jared Isaacman and Energy Secretary Chris Wright signed a memorandum covering nuclear fuel, testing, launch integration and a lunar surface reactor; it takes effect November 1. NASA's stated plan includes sending the nuclear-electric Space Reactor-1 Freedom to Mars before the end of 2028.",
+      "whyItMatters": "The two agencies now have a formal framework to share work on a lunar reactor and nuclear propulsion; the Mars and Moon dates are plans, not results.",
+      "category": "Missions",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "NASA aims for nuclear-powered Mars mission in 2028 (World Nuclear News)",
+          "url": "https://world-nuclear-news.org/articles/nasa-aims-for-nuclear-powered-mars-mission-in-2028"
+        },
+        {
+          "title": "US advances nuclear-powered Moon missions (Morung Express)",
+          "url": "https://morungexpress.com/us-advances-nuclear-powered-moon-missions"
+        }
+      ]
+    },
+    {
+      "headline": "SPHEREx's first look at 37 nearby brown dwarfs spans 2,200 °C to below freezing",
+      "summary": "NASA's SPHEREx telescope measured the brightness of 37 nearby brown dwarfs in 102 colours, covering the full brown-dwarf temperature range from about 2,200 to minus 20 degrees Celsius. Only a few dozen brown dwarfs have been studied in detail from space, and scientists are analysing thousands more with the survey.",
+      "whyItMatters": "It gives astronomers a consistent spectral sequence to compare, with thousands more objects to follow.",
+      "category": "Discovery",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "NASA's SPHEREx Telescope Sees Menagerie of Brown Dwarfs (NASA)",
+          "url": "https://nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs"
+        },
+        {
+          "title": "SPHEREx 0.75 to 5 μm Spectra for a Sequence of Nearby Brown Dwarfs (arXiv)",
+          "url": "https://arxiv.org/pdf/2607.00543"
+        }
+      ]
+    }
+  ]
+}

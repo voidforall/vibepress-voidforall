@@ -1,7 +1,61 @@
 {
   "windowDays": 21,
-  "updatedAt": "2026-10-08T14:25:41Z",
+  "updatedAt": "2026-10-15T12:29:26Z",
   "events": [
+    {
+      "date": "2026-10-15",
+      "headline": "Webb sees water clouds thicken and thin on the cold brown dwarf WISE 0855",
+      "summary": "A University of Arizona team led by Brittany Miles took a JWST spectrum of WISE 0855, a brown dwarf about 7.5 light-years away, every 15 minutes for 11 hours. They saw high-altitude clouds change in thickness and convection cycles deeper d…",
+      "urls": [
+        "https://www.iflscience.com/varying-water-clouds-detected-beyond-the-solar-system-for-the-first-time-and-theyre-not-around-a-planet-84913",
+        "https://www.universetoday.com/articles/first-detection-of-water-clouds-outside-our-solar-system"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "headline": "Webb pins down the host of the most distant fast radio burst yet, 10.6 billion light-years away",
+      "summary": "Using the James Webb Space Telescope, astronomers identified the host galaxy of FRB 20240304B, a burst first detected by South Africa's MeerKAT in March 2024. The host sits at a redshift of 2.148 (about 10.63 billion light-years by NASA's…",
+      "urls": [
+        "https://www.livescience.com/space/astronomy/james-webb-telescope-pinpoints-the-most-distant-fast-radio-burst-ever-seen-more-than-doubling-the-previous-record",
+        "https://www.sci.news/astronomy/most-distant-fast-radio-burst-15124.html"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "headline": "SPHEREx's first look at 37 nearby brown dwarfs spans 2,200 °C to below freezing",
+      "summary": "NASA's SPHEREx telescope measured the brightness of 37 nearby brown dwarfs in 102 colours, covering the full brown-dwarf temperature range from about 2,200 to minus 20 degrees Celsius. Only a few dozen brown dwarfs have been studied in det…",
+      "urls": [
+        "https://nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs",
+        "https://arxiv.org/pdf/2607.00543"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "headline": "NASA and the Energy Department sign a pact on space nuclear power and propulsion",
+      "summary": "NASA Administrator Jared Isaacman and Energy Secretary Chris Wright signed a memorandum covering nuclear fuel, testing, launch integration and a lunar surface reactor; it takes effect November 1. NASA's stated plan includes sending the nuc…",
+      "urls": [
+        "https://world-nuclear-news.org/articles/nasa-aims-for-nuclear-powered-mars-mission-in-2028",
+        "https://morungexpress.com/us-advances-nuclear-powered-moon-missions"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "headline": "Crew-12 splashes down off California after 237 days in orbit",
+      "summary": "The Dragon \"Freedom\" landed in the Pacific off Los Angeles at 11:34 a.m. EDT on October 8 with Jessica Meir, Jack Hathaway, ESA's Sophie Adenot and Roscosmos's Andrey Fedyaev. NASA says the crew travelled more than 100 million miles and co…",
+      "urls": [
+        "https://www.fox35orlando.com/news/spacexs-crew-12-astronauts-returning-earth-splashdown",
+        "https://www.neoteo.com/en/nasas-crew-12-splashed-down-after-237-days-in-orbit"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "headline": "A cargo Dragon carries the space station's final roll-out solar arrays to orbit",
+      "summary": "SpaceX's Falcon 9 launched the CRS-35 resupply mission from Cape Canaveral on October 13 with about 6,300 pounds of cargo, including the last two Roll-Out Solar Arrays and gear for more than 40 science studies. Docking was planned for abou…",
+      "urls": [
+        "https://www.space.com/space-exploration/international-space-station/spacex-crs-35-cargo-launch-international-space-station",
+        "https://spaceflightnow.com/?p=74541"
+      ]
+    },
     {
       "date": "2026-10-08",
       "headline": "SDA's fourth Tranche 1 launch slips again, now targeting October 10",
@@ -89,57 +143,6 @@
       "urls": [
         "https://www.space.com/astronomy/black-holes/astronomers-discover-the-1st-black-hole-powered-microquasar-in-the-milky-way",
         "https://www.techexplorist.com/astronomer-discover-milky-way-first-microblazar/105572/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "Webb's widest star-forming panorama turns up impossibly small brown dwarfs",
-      "summary": "One of JWST's largest images to date, a survey of the star-forming region IC 348 some 1,000 light-years away, turned up brown dwarfs as small as twice Jupiter's mass — smaller than theory says they should be able to form. One of the lighte…",
-      "urls": [
-        "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "SpaceX sets Starship's first full orbital attempt for September 22",
-      "summary": "SpaceX has scheduled Starship Flight 14 to lift off from Starbase, Texas on September 22, aiming for the vehicle's first real trip to orbit after more than three years of suborbital test flights. The plan calls for deploying 26 next-genera…",
-      "urls": [
-        "https://www.techtimes.com/articles/327630/20260916/starship-flight-14-confirmed-sept-22-orbital-debut-carries-revenue-payload.htm",
-        "https://www.spacex.com/launches/starship-flight-14"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "Roman Space Telescope's instruments power on for the first time",
-      "summary": "Engineers began switching on the Nancy Grace Roman Space Telescope's Coronagraph and Wide Field instruments this month, cooling the Wide Field Instrument's detectors toward their -300°F operating temperature and calibrating the coronagraph…",
-      "urls": [
-        "https://www.space.com/space-exploration/missions/roman-space-telescope-starts-waking-up-as-nasa-powers-on-instruments-for-the-1st-time"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "Hubble finds a ten-sided wave forming around Saturn's south pole",
-      "summary": "Hubble images going back to 2023 reveal a 'decagon' — a ten-sided atmospheric wave encircling Saturn's south pole, sitting inside one of the planet's jet streams and extending through multiple atmospheric layers. It echoes the planet's fam…",
-      "urls": [
-        "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "Chandra spots a new class of X-ray objects unlike anything seen before",
-      "summary": "NASA's Chandra X-ray Observatory found 84 objects across six galaxies, including Andromeda and the Pinwheel Galaxy, that give off unusually low-energy X-rays alongside intense ultraviolet radiation — a combination not seen in known compact…",
-      "urls": [
-        "https://science.nasa.gov/missions/chandra/nasas-chandra-unveils-mysterious-x-ray-objects/",
-        "https://www.space.com/astronomy/galaxies/scientists-discover-mysterious-new-x-ray-objects-unlike-any-they-have-seen-before"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "headline": "Astronomers confirm the youngest planet ever found",
-      "summary": "Using archival W. M. Keck Observatory data, a team led by Andrea Bernardi identified Elias 2-24 b, a Jupiter-mass world less than a million years old that is still accreting material from its natal disk, sitting roughly 55 times farther fr…",
-      "urls": [
-        "https://science.nasa.gov/universe/newfound-baby-planet-smashes-record-for-youngest-known-world/",
-        "https://www.space.com/astronomy/exoplanets/scientists-find-youngest-exoplanet-on-record-a-newborn-named-elias"
       ]
     }
   ]
