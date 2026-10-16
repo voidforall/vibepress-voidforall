@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-16",
+      "date": "2026-10-16",
+      "headline": "Strategy's stock sinks as index exclusion may outweigh bitcoin prices, Barron's says",
+      "storyCount": 7
+    },
+    {
       "id": "2026-10-15",
       "date": "2026-10-15",
       "headline": "Rocket Lab pushes Neutron's debut flight to 2027, and shares fall",

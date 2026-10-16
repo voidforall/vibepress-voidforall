@@ -1,0 +1,100 @@
+{
+  "id": "2026-10-16",
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T12:07:18Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A crypto-heavy Friday: bitcoin held firm after two strong inflation reports while Strategy faces index questions, a quantum-risk alliance forms and CME adds futures. Gold rose as yields and the dollar eased. Alibaba and Google have product and market-structure items. Article bodies were largely unavailable, so most items rest on headlines.",
+  "stories": [
+    {
+      "headline": "Strategy's stock sinks as index exclusion may outweigh bitcoin prices, Barron's says",
+      "summary": "Barron's headline says Strategy shares fell and that a possible index exclusion could matter more than the price of bitcoin. The full article was not retrievable, so details are limited to the headline.",
+      "whyItMatters": "Index membership, not just bitcoin's price, is being flagged as a driver for the shares.",
+      "category": "Crypto",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Strategy Stock Sinks as Index Exclusion May Outweigh Bitcoin Prices - Barron's",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObWxmaktzQ2laUnEzMUJiRVlhR1pBNVlMX05ET0stVktuT3N2U3Zxbll3S1JsTlZMaG85dHM1S0w1czNiNVdwcVVLUVliaDlTMXJzZ1Uxb3Z3YWlVbVowdm5zaHJGOEg5b2c2ZHhzN1JlZmJKRnNBcU1tczAtZzBrQmQ1U2FBeTA0MVN4OVQzU0E1RE8zX3c?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Gold lifts as Treasury yields and the dollar fall back, Yahoo Finance reports",
+      "summary": "Yahoo Finance's Friday gold update says the metal rose as Treasury yields and the dollar eased. The article body could not be retrieved, so no price level is cited.",
+      "whyItMatters": "Lower yields and a softer dollar were the stated backdrop for gold's move.",
+      "category": "Commodities",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Gold price today, Friday, October 16, 2026 - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQYTdlYXpVRFE4a0pkTDdONG1yblhsX2RvOXphaHJwUkhVTkJlTUNhWEJXV19WMHpTMTZ5MkJON3dBRFVQcUxMR25ZX0libGpzT3B0bUxiSjd5MFNIUG5pQV9jR2tVTS1ZMmlhdW1vUDFxWDJ3MnVzOEF3eHZnM1dDVEFadUdwcDUtMFc1bU5RckpVVTBJRHhsWWYyUUVXOEp1VHQ4NGU4cXpRZ25ISVVPWFBQdHpEb1pFbTVJbWxVVDgwYTRPY0F3ODBFQjJqM2dGU3k5UjBZNGNFWnZNSlZrMlZUazMtMnF0TzQtVUctejRVQXZzdkZUbFh3?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin and ether firm despite two strong inflation reports, Yahoo Finance says",
+      "summary": "Yahoo Finance's Friday crypto update says bitcoin and ether prices held firm even after two strong inflation reports. Price levels were not retrievable from the article.",
+      "whyItMatters": "Crypto prices were reported steady, not lower, after the inflation data.",
+      "category": "Crypto",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin and ethereum prices today, Friday, October 16, 2026 - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOcExnQXgyOEJNcmFfYmw2djFSbGhyMWJKdXlnYzJ2RUliU3U1ZlVpdUQ0MWx4MzZ6QUhDOHlyelJGOEZxbGU0bFVIQmZocTNselllRzJCeFBXNlZocWI2eXFVaHlfZi0wclA4WGt0blJ0MlRkeVBJMlczVldLLXJGVXRTT1N1TkhNOW5UMGFmZFFWTG5McVZkdXc1a0Vjb3BHakpibVVWazdrSGdWekQ3MEVyUEl5blRIeFFIY3pHVkt6TW1FNG1PZHU1V0tUczIzT2w0a0lDREt1enhHVnZFMy10YUFzaEZmNDFHRlR6dDNYNThzd2ZkaGo3SG9taTN2OHlUbzdoOWwyUVZrV3pBckVwSFFJLTFFZmVIWHJmYmtod01Z?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "A 'Quantum Alliance' forms amid warnings that 6.4 million bitcoin face a future quantum threat, CoinDesk reports",
+      "summary": "CoinDesk's headline reports the formation of a Quantum Alliance alongside warnings that 6.4 million bitcoin could face a future quantum threat. Membership and goals were not retrievable.",
+      "whyItMatters": "The 6.4 million figure is a warning about future risk, not a current attack.",
+      "category": "Crypto",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUlZOWlZmWmhreU14R1dRLWg4R2xhclRQRUpZVHhWNE4tSWtxa1VucW5QQmV5TF8tZUFfdUJ5emRRaWgxVWRHUzFadTZkUFZnNlI5RVZLOGZnaXNVb2xTbkVQOTItTmh5S3NuazdTUVFFdnkwVU9JMTgzSkF0dU9sOEJBbFhPZWFtejlhNG5LeE1iV0pfVmNSekJuaXpldVk0S3BvZzc4Ulo1SFg4QnFPZWN3cEthbXBxb0pBdldMZEJoaDJrLTZSWkFYVQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "CME to launch Uniswap and Bitcoin Cash futures; 24/7 Wall St. asks whether futures move prices",
+      "summary": "A 24/7 Wall St. piece reports that CME is launching Uniswap and Bitcoin Cash futures and asks whether futures actually move prices. The article body was not retrievable.",
+      "whyItMatters": "More regulated-exchange crypto derivatives are coming to market; the price effect is posed as a question, not answered here.",
+      "category": "Regulatory",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "CME Is Launching Uniswap and Bitcoin Cash Futures. Do Futures Actually Move Prices? - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPV1E1eHgtUFRXWmpaNC1Rc3lCWlhKT1daVm9ZMm5LVXJpSkV1b0hXSENXU19Xd1VrOFZUWi1kLXJtdzd4SGdHQTA3YlNsTlJ2U1RHWFBuNHhQUUJ5a3o5SC1fb1UzWFVxSnB1LWZHUUlXdGllQldmdFRNd01vcUJ6SXMzU1hSTkdUMXNJMlMwemhSWGN0aXhENGc0eHBFOGoxZ1dyRW5ZblFUM1VWMmlzbzdvWTNld01XeFRCMWJhT0h5anNTckRwNGhBdzBJUklJRkY0Rlk4dw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Alibaba and TSMC are included as U.S. equity options trading hours expand next week",
+      "summary": "Futu and BigGo Finance report that extended trading hours for popular U.S. stock options launch next week, with Alibaba and Taiwan Semiconductor Manufacturing on the list. Only headlines were retrievable.",
+      "whyItMatters": "Alibaba's U.S. options will be among those trading over longer hours.",
+      "category": "Markets",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Alibaba and Taiwan Semiconductor Included as U.S. Equity Options Trading Hours Expand Next Week - 富途牛牛",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWl9EanR3MkFUVWhhOVpPeG5maUVlMDlXUGFwWWJPSkRfdlplZXNlOEtoYWJwSEtmRHcwTWJIYVRPZW1PWFhfZEpHbHJLQ0N3azQxQUpNVXI2M2dXbm5ZZmZ1Ty1LVk12b1RhSVBBcGRQMlh2MDhKSEpHTnhmVWNTMWV3MmV4U3d5dll1bjZpT251UzdOQVRxQWp6c25qbG5LVjFSa2MybjRSV3ZWSHJ6NE05OA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Google launches a universal cart in the U.S. for multi-store shopping, Newsquawk reports",
+      "summary": "Newsquawk reports that Google has launched a universal cart in the US for shopping across multiple stores. Details beyond the headline were not retrievable.",
+      "whyItMatters": "Google is extending its shopping products to a single cart across merchants.",
+      "category": "Company",
+      "importance": 7,
+      "sourceLinks": [
+        {
+          "title": "Google (GOOGL) launches universal cart in the US for multi-store shopping - Newsquawk",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYjE0Vzg1UndkRjU1WkxobzhzUjAyZndEMDZWZko1RnpOYk1MRWVBMUhsS0RSZEEtNWk5WWxodmhxdUNpLTVNWDAyVF8tdnNTODJnX3VpbUF4ck9EcmN4TXY2NUp3Y0w2aFI4MEZfV2JvRDNhLUVOWF9PZ19jZi1xSVdtREpFaGV1Qy05Ull1T24zSGN4Y2pkZjJOWjhJdk1OVlBFQkFOYm5hdw?oc=5"
+        }
+      ]
+    }
+  ]
+}

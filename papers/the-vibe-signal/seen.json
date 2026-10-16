@@ -1,7 +1,47 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-15T12:29:26Z",
+  "updatedAt": "2026-10-16T12:07:18Z",
   "events": [
+    {
+      "date": "2026-10-16",
+      "headline": "The BIPM's member states vote to stop adding leap seconds: continuous UTC from 20 May 2027",
+      "summary": "CGPM Resolution 5 (2026) sets continuous UTC to take effect 20 May 2027 and raises the permitted |UT1-UTC| maximum to 3,600 seconds. It asks the BIPM to work with ITU, IAU, IUGG and the IERS on implementation.",
+      "urls": [
+        "https://www.bipm.org/en/cgpm-2026/resolution-5"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "headline": "Meta releases Muse Spark Open: 816B-parameter open-weight model, 42B active, 1M-token context",
+      "summary": "Meta's October 15 release is natively multimodal and aimed at coding and agentic work. Weights ship under the Muse Model License with limited commercial terms, and are on Hugging Face, SageMaker, Google Cloud and Microsoft Foundry; the pag…",
+      "urls": [
+        "https://research.meta.ai/blog/muse-spark-open"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "headline": "LLM-driven evolutionary search finds quantum circuits that beat the state of the art on seven of eight tasks",
+      "summary": "A Harvard-affiliated arXiv paper (Gu, Kemeny, Yelin, Lukin) has LLMs propose circuits that an independent evaluator checks. It reports fewer Toffoli gates and qubits on seven of eight tasks, and a new reversible architecture for prime-fiel…",
+      "urls": [
+        "https://arxiv.org/abs/2610.22367v1"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "headline": "Goodfire essay argues neural networks are 'already clean', with far more interpretable neurons than past tools showed",
+      "summary": "The essay says apparent superposition mostly reflects weak tools and untraced generalization. It reports last-layer InceptionV1 neurons judged interpretable rising from about 5% to about 50-70% with better tools, and about 99% for a same-s…",
+      "urls": [
+        "https://already-clean.goodfire.com/"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "headline": "A GNOME developer used Claude Code to reverse-engineer a film scanner and a laptop camera for Linux",
+      "summary": "Christian Schaller built a SANE backend for the Plustek OpticFilm 8200i and kernel and libcamera patches for a ThinkPad's IMX471 camera, using a Windows VM to record vendor-driver behavior. The scanner test was on one unit, and upstream SA…",
+      "urls": [
+        "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/"
+      ]
+    },
     {
       "date": "2026-10-15",
       "headline": "OpenCode 2.0 rebuilds the coding agent around a shared background server and a 'Code Mode'",
@@ -613,48 +653,6 @@
       "summary": "Clef (built on Qwen 27B) and Clef-flash (Qwen 9B) are Apache 2.0 classifiers that return structured outputs with probabilities. Cloudflare claims 2.2-second classification versus 4.7 seconds for comparable LLMs, and is offering RL fine-tun…",
       "urls": [
         "https://blog.cloudflare.com/clef-decision-models/"
-      ]
-    },
-    {
-      "date": "2026-10-01",
-      "headline": "Netlify moves Edge Functions from V8 isolates to Firecracker microVMs and cuts median latency to about 5–6 ms",
-      "summary": "Netlify rebuilt Edge Functions to run in Firecracker microVMs inside its own network rather than on an external isolate service, keeping the developer API unchanged. It reports median latency of about 5–6 ms versus 25–40 ms before, 47.4% f…",
-      "urls": [
-        "https://www.netlify.com/blog/edge-functions-firecracker-microvms/"
-      ]
-    },
-    {
-      "date": "2026-10-01",
-      "headline": "Magnitude, an open-source inference engine, claims up to 2x faster than llama.cpp by tuning kernels to your hardware",
-      "summary": "Magnitude compiles and tunes kernels on the user's own machine and runs on Apple Silicon, NVIDIA, AMD or CPU-only systems, under Apache 2.0. Its repository claims 92% faster decode on Metal and 19% faster on CUDA than llama.cpp, and models…",
-      "urls": [
-        "https://github.com/magnitudedev/magnitude"
-      ]
-    },
-    {
-      "date": "2026-10-01",
-      "headline": "Google unveils Gemini 4 Argon: $2/$10 per million tokens, 1M output limit, cyber-defender access first",
-      "summary": "Google says Argon scores 77.9% on DeepSWE v1.1 and 91.7% on LVBench, with a one-million-token output limit up from 64K. It rolls out first to trusted cyber defenders through the Fairwind Program, including a version without cyber guardrail…",
-      "urls": [
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-        "https://venturebeat.com/technology/google-unveils-gemini-4-argon-retaking-benchmark-lead-over-openai-and-anthropic-but-in-limited-release"
-      ]
-    },
-    {
-      "date": "2026-10-01",
-      "headline": "A brief history of the Bloomberg terminal: from a $30M Merrill Lynch bet to $32,000 a year",
-      "summary": "IEEE Spectrum traces how Michael Bloomberg launched Innovative Market Systems in 1981 with a $10 million Salomon Brothers severance, delivered the first 22 terminals to Merrill Lynch in 1982, and sold Merrill 30% for $30 million. Its color…",
-      "urls": [
-        "https://spectrum.ieee.org/bloomberg-terminal"
-      ]
-    },
-    {
-      "date": "2026-10-01",
-      "headline": "A Miami immigration advocate sues the government for data taken from his phone at the border",
-      "summary": "Thomas Kennedy of the Florida Immigrant Coalition says federal agents detained him for over two hours at Miami International Airport on September 6, returning from Egypt and Turkey, and may have copied emails, texts and contacts from his p…",
-      "urls": [
-        "https://www.miaminewtimes.com/news/miami-immigrant-advocate-sues-federal-government-over-phone-seizure-40587572/",
-        "https://reason.com/2026/08/19/border-agents-searched-his-phone-5-times-without-a-warrant-hes-asking-the-supreme-court-to-put-a-stop-to-it/"
       ]
     }
   ]

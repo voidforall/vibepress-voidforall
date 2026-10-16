@@ -1,0 +1,100 @@
+{
+  "id": "2026-10-16",
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T12:07:18Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "周五以加密货币为主:两份强劲通胀数据后比特币依然坚挺,Strategy面临指数问题,量子风险联盟成立,CME新增期货。收益率和美元走弱,金价上扬。阿里巴巴和谷歌各有产品与市场结构消息。由于多数文章正文无法获取,大部分条目仅依据标题。",
+  "stories": [
+    {
+      "headline": "Barron's:指数剔除的影响可能超过比特币价格,Strategy股价下挫",
+      "summary": "Barron's的标题称Strategy股价下跌,且可能被剔除出指数的影响或许比比特币价格更重要。全文无法获取,因此细节仅限于标题。",
+      "whyItMatters": "指数成分资格而不仅是比特币价格,被指为影响该股的因素。",
+      "category": "加密货币",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Strategy Stock Sinks as Index Exclusion May Outweigh Bitcoin Prices - Barron's",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObWxmaktzQ2laUnEzMUJiRVlhR1pBNVlMX05ET0stVktuT3N2U3Zxbll3S1JsTlZMaG85dHM1S0w1czNiNVdwcVVLUVliaDlTMXJzZ1Uxb3Z3YWlVbVowdm5zaHJGOEg5b2c2ZHhzN1JlZmJKRnNBcU1tczAtZzBrQmQ1U2FBeTA0MVN4OVQzU0E1RE8zX3c?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Yahoo Finance:美债收益率和美元回落,金价上扬",
+      "summary": "Yahoo Finance周五的黄金行情称,随着美债收益率和美元走弱,金价走高。正文无法获取,因此未引用具体价位。",
+      "whyItMatters": "收益率走低、美元走软是报道给出的金价上涨背景。",
+      "category": "大宗商品",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Gold price today, Friday, October 16, 2026 - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQYTdlYXpVRFE4a0pkTDdONG1yblhsX2RvOXphaHJwUkhVTkJlTUNhWEJXV19WMHpTMTZ5MkJON3dBRFVQcUxMR25ZX0libGpzT3B0bUxiSjd5MFNIUG5pQV9jR2tVTS1ZMmlhdW1vUDFxWDJ3MnVzOEF3eHZnM1dDVEFadUdwcDUtMFc1bU5RckpVVTBJRHhsWWYyUUVXOEp1VHQ4NGU4cXpRZ25ISVVPWFBQdHpEb1pFbTVJbWxVVDgwYTRPY0F3ODBFQjJqM2dGU3k5UjBZNGNFWnZNSlZrMlZUazMtMnF0TzQtVUctejRVQXZzdkZUbFh3?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Yahoo Finance:两份强劲通胀数据发布后,比特币和以太坊价格依然坚挺",
+      "summary": "Yahoo Finance周五的加密货币行情称,即使在两份强劲的通胀报告之后,比特币和以太坊价格仍保持坚挺。正文中的具体价位无法获取。",
+      "whyItMatters": "据报道,通胀数据公布后加密货币价格保持稳定而非走低。",
+      "category": "加密货币",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin and ethereum prices today, Friday, October 16, 2026 - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOcExnQXgyOEJNcmFfYmw2djFSbGhyMWJKdXlnYzJ2RUliU3U1ZlVpdUQ0MWx4MzZ6QUhDOHlyelJGOEZxbGU0bFVIQmZocTNselllRzJCeFBXNlZocWI2eXFVaHlfZi0wclA4WGt0blJ0MlRkeVBJMlczVldLLXJGVXRTT1N1TkhNOW5UMGFmZFFWTG5McVZkdXc1a0Vjb3BHakpibVVWazdrSGdWekQ3MEVyUEl5blRIeFFIY3pHVkt6TW1FNG1PZHU1V0tUczIzT2w0a0lDREt1enhHVnZFMy10YUFzaEZmNDFHRlR6dDNYNThzd2ZkaGo3SG9taTN2OHlUbzdoOWwyUVZrV3pBckVwSFFJLTFFZmVIWHJmYmtod01Z?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "CoinDesk:“量子联盟”成立,同时有警告称640万枚比特币未来面临量子威胁",
+      "summary": "CoinDesk的标题称,一个量子联盟成立,同时有警告指640万枚比特币未来可能面临量子威胁。成员和目标无法获取。",
+      "whyItMatters": "640万枚的数字是对未来风险的警告,而非当前的攻击。",
+      "category": "加密货币",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUlZOWlZmWmhreU14R1dRLWg4R2xhclRQRUpZVHhWNE4tSWtxa1VucW5QQmV5TF8tZUFfdUJ5emRRaWgxVWRHUzFadTZkUFZnNlI5RVZLOGZnaXNVb2xTbkVQOTItTmh5S3NuazdTUVFFdnkwVU9JMTgzSkF0dU9sOEJBbFhPZWFtejlhNG5LeE1iV0pfVmNSekJuaXpldVk0S3BvZzc4Ulo1SFg4QnFPZWN3cEthbXBxb0pBdldMZEJoaDJrLTZSWkFYVQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "CME将推出Uniswap和比特币现金期货;24/7 Wall St.探讨期货是否影响价格",
+      "summary": "24/7 Wall St.的文章称CME将推出Uniswap和比特币现金期货,并探讨期货是否真的会影响价格。正文无法获取。",
+      "whyItMatters": "更多加密货币衍生品将在受监管交易所上市;价格影响在此只是一个问题,并无定论。",
+      "category": "监管",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "CME Is Launching Uniswap and Bitcoin Cash Futures. Do Futures Actually Move Prices? - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPV1E1eHgtUFRXWmpaNC1Rc3lCWlhKT1daVm9ZMm5LVXJpSkV1b0hXSENXU19Xd1VrOFZUWi1kLXJtdzd4SGdHQTA3YlNsTlJ2U1RHWFBuNHhQUUJ5a3o5SC1fb1UzWFVxSnB1LWZHUUlXdGllQldmdFRNd01vcUJ6SXMzU1hSTkdUMXNJMlMwemhSWGN0aXhENGc0eHBFOGoxZ1dyRW5ZblFUM1VWMmlzbzdvWTNld01XeFRCMWJhT0h5anNTckRwNGhBdzBJUklJRkY0Rlk4dw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "美国股票期权交易时段下周延长,阿里巴巴和台积电在列",
+      "summary": "富途牛牛和BigGo Finance报道,热门美国股票期权的延长交易时段将于下周启动,阿里巴巴和台积电在名单中。仅能获取标题。",
+      "whyItMatters": "阿里巴巴的美国期权将属于延长交易时段的品种之一。",
+      "category": "市场",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Alibaba and Taiwan Semiconductor Included as U.S. Equity Options Trading Hours Expand Next Week - 富途牛牛",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWl9EanR3MkFUVWhhOVpPeG5maUVlMDlXUGFwWWJPSkRfdlplZXNlOEtoYWJwSEtmRHcwTWJIYVRPZW1PWFhfZEpHbHJLQ0N3azQxQUpNVXI2M2dXbm5ZZmZ1Ty1LVk12b1RhSVBBcGRQMlh2MDhKSEpHTnhmVWNTMWV3MmV4U3d5dll1bjZpT251UzdOQVRxQWp6c25qbG5LVjFSa2MybjRSV3ZWSHJ6NE05OA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Newsquawk:谷歌在美国推出可跨多家商店购物的通用购物车",
+      "summary": "Newsquawk报道,谷歌在美国推出了可跨多家商店购物的通用购物车。标题之外的细节无法获取。",
+      "whyItMatters": "谷歌将其购物产品扩展为跨商家的单一购物车。",
+      "category": "公司",
+      "importance": 7,
+      "sourceLinks": [
+        {
+          "title": "Google (GOOGL) launches universal cart in the US for multi-store shopping - Newsquawk",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYjE0Vzg1UndkRjU1WkxobzhzUjAyZndEMDZWZko1RnpOYk1MRWVBMUhsS0RSZEEtNWk5WWxodmhxdUNpLTVNWDAyVF8tdnNTODJnX3VpbUF4ck9EcmN4TXY2NUp3Y0w2aFI4MEZfV2JvRDNhLUVOWF9PZ19jZi1xSVdtREpFaGV1Qy05Ull1T24zSGN4Y2pkZjJOWjhJdk1OVlBFQkFOYm5hdw?oc=5"
+        }
+      ]
+    }
+  ]
+}

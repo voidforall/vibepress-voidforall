@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-10-16",
+      "date": "2026-10-16",
+      "headline": "Meta releases Muse Spark Open: 816B-parameter open-weight model, 42B active, 1M-token context",
+      "storyCount": 5
+    },
+    {
       "id": "2026-10-15",
       "date": "2026-10-15",
       "headline": "Go 1.27 drains unread HTTP/1 bodies, making 100 requests about 5x faster in one benchmark",

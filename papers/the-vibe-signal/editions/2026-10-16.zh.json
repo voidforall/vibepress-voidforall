@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-16",
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T12:07:18Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Meta发布开放权重大模型,一项大胆的可解释性论断,闰秒走向终结,一个在AI协助下编写的驱动,以及一篇关于AI发现量子电路的预印本。其中多项为作者自述,来源已如实注明。",
+  "stories": [
+    {
+      "headline": "Meta发布Muse Spark Open:8160亿参数开放权重模型,激活420亿,上下文100万token",
+      "summary": "Meta于10月15日发布的这款模型原生多模态,面向编码和智能体任务。权重采用Muse模型许可证,商业条款有限,可在Hugging Face、SageMaker、Google Cloud和Microsoft Foundry获取;页面未列出基准分数,称评估报告“即将发布”。",
+      "whyItMatters": "这是一款可下载、可在vLLM和llama.cpp等常见引擎上运行的大型开放权重模型,但其许可证并非完全宽松。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Muse Spark Open (Meta)",
+          "url": "https://research.meta.ai/blog/muse-spark-open"
+        }
+      ]
+    },
+    {
+      "headline": "Goodfire文章称神经网络“本来就很干净”,可解释神经元远多于过去工具所显示",
+      "summary": "文章认为表面上的叠加现象多半源于工具薄弱和尚未追踪的泛化。据称InceptionV1最后一层被判定可解释的神经元比例从约5%升至约50–70%,同等规模的ConvNeXt约为99%;作者指出这些数字依赖阈值。",
+      "whyItMatters": "它挑战了稀疏自编码器路线的前提,但只是工作假说而非定论。",
+      "category": "观点",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Neural networks are clean (Goodfire)",
+          "url": "https://already-clean.goodfire.com/"
+        }
+      ]
+    },
+    {
+      "headline": "国际计量局成员国决定停止增加闰秒:2027年5月20日起采用连续UTC",
+      "summary": "第28届CGPM 2026年第5号决议规定,连续UTC自2027年5月20日起生效,并将|UT1-UTC|的允许最大值提高到3600秒。决议请BIPM与ITU、IAU、IUGG和IERS合作推进实施。",
+      "whyItMatters": "闰秒将被终止,1小时的UT1-UTC容差意在维持数个世纪。",
+      "category": "技术",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Resolution 5 (CGPM 2026), BIPM",
+          "url": "https://www.bipm.org/en/cgpm-2026/resolution-5"
+        }
+      ]
+    },
+    {
+      "headline": "一位GNOME开发者借助Claude Code为Linux逆向工程胶片扫描仪和笔记本摄像头",
+      "summary": "Christian Schaller为Plustek OpticFilm 8200i编写了SANE后端,并为ThinkPad的IMX471摄像头提交了内核和libcamera补丁,过程中借助Windows虚拟机记录厂商驱动行为。扫描仪仅在一台设备上测试,同时上游SANE也已支持该扫描仪。",
+      "whyItMatters": "这是AI辅助驱动开发的一个具体且附带限定条件的案例,他表示实体硬件测试仍然不可或缺。",
+      "category": "技术",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Using AI to reverse engineer hardware (Christian Schaller)",
+          "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/"
+        }
+      ]
+    },
+    {
+      "headline": "大模型驱动的进化搜索找到的量子电路在八项任务中的七项超越现有最佳水平",
+      "summary": "这篇arXiv论文(Gu、Kemeny、Yelin、Lukin)让大模型提出电路,由独立评估器验证。论文称在八项任务中的七项减少了Toffoli门和量子比特数,并为素数域模逆提出新的可逆架构;摘要未给出绝对数值。",
+      "whyItMatters": "这是一篇预印本的结论,称AI发现了电路改进;摘要未提供可衡量收益规模的数字。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Discovering state-of-the-art quantum circuits with large language models (arXiv)",
+          "url": "https://arxiv.org/abs/2610.22367v1"
+        }
+      ]
+    }
+  ]
+}

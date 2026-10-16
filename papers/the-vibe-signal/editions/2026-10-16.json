@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-16",
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T12:07:18Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "An open-weight giant from Meta, a bold interpretability claim, the end of leap seconds, a driver written with AI help, and a preprint on AI-found quantum circuits. Several are claims by their authors; the sources say so.",
+  "stories": [
+    {
+      "headline": "Meta releases Muse Spark Open: 816B-parameter open-weight model, 42B active, 1M-token context",
+      "summary": "Meta's October 15 release is natively multimodal and aimed at coding and agentic work. Weights ship under the Muse Model License with limited commercial terms, and are on Hugging Face, SageMaker, Google Cloud and Microsoft Foundry; the page lists no benchmark scores, pointing to a report 'available soon'.",
+      "whyItMatters": "A large open-weight model is downloadable and runnable on common engines such as vLLM and llama.cpp, though its license is not fully permissive.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Muse Spark Open (Meta)",
+          "url": "https://research.meta.ai/blog/muse-spark-open"
+        }
+      ]
+    },
+    {
+      "headline": "Goodfire essay argues neural networks are 'already clean', with far more interpretable neurons than past tools showed",
+      "summary": "The essay says apparent superposition mostly reflects weak tools and untraced generalization. It reports last-layer InceptionV1 neurons judged interpretable rising from about 5% to about 50-70% with better tools, and about 99% for a same-size ConvNeXt; the author calls the figures threshold-dependent.",
+      "whyItMatters": "It challenges the premise behind sparse-autoencoder approaches, as a working hypothesis rather than a settled result.",
+      "category": "Ideas",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Neural networks are clean (Goodfire)",
+          "url": "https://already-clean.goodfire.com/"
+        }
+      ]
+    },
+    {
+      "headline": "The BIPM's member states vote to stop adding leap seconds: continuous UTC from 20 May 2027",
+      "summary": "CGPM Resolution 5 (2026) sets continuous UTC to take effect 20 May 2027 and raises the permitted |UT1-UTC| maximum to 3,600 seconds. It asks the BIPM to work with ITU, IAU, IUGG and the IERS on implementation.",
+      "whyItMatters": "Leap seconds are scheduled to end, with a one-hour UT1-UTC tolerance meant to last several centuries.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Resolution 5 (CGPM 2026), BIPM",
+          "url": "https://www.bipm.org/en/cgpm-2026/resolution-5"
+        }
+      ]
+    },
+    {
+      "headline": "A GNOME developer used Claude Code to reverse-engineer a film scanner and a laptop camera for Linux",
+      "summary": "Christian Schaller built a SANE backend for the Plustek OpticFilm 8200i and kernel and libcamera patches for a ThinkPad's IMX471 camera, using a Windows VM to record vendor-driver behavior. The scanner test was on one unit, and upstream SANE added support for the same scanner meanwhile.",
+      "whyItMatters": "It is a concrete, caveated example of AI-assisted driver work, and he says physical hardware testing remained essential.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Using AI to reverse engineer hardware (Christian Schaller)",
+          "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/"
+        }
+      ]
+    },
+    {
+      "headline": "LLM-driven evolutionary search finds quantum circuits that beat the state of the art on seven of eight tasks",
+      "summary": "A Harvard-affiliated arXiv paper (Gu, Kemeny, Yelin, Lukin) has LLMs propose circuits that an independent evaluator checks. It reports fewer Toffoli gates and qubits on seven of eight tasks, and a new reversible architecture for prime-field modular inversion; the abstract gives no absolute counts.",
+      "whyItMatters": "It is a preprint claim of AI-found circuit improvements; the abstract offers no figures to size the gains.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Discovering state-of-the-art quantum circuits with large language models (arXiv)",
+          "url": "https://arxiv.org/abs/2610.22367v1"
+        }
+      ]
+    }
+  ]
+}
