@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-17",
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T11:23:12Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天内容混杂：密码学考古、厂商自报的基准提升、两篇关于AI如何被衡量和用于工作的文章，以及在家运行大模型的硬件。数据来自所链接的原始页面，厂商说法均已注明。",
+  "stories": [
+    {
+      "importance": 1,
+      "headline": "Anthropic称研究模型将NIST椭圆曲线种子追溯至lrand48与Unix时间戳",
+      "summary": "Anthropic报告称，一个内部研究模型在不到半小时内查明了标准化的P-192至P-521曲线种子的生成方式：并非哈希输出，而是以时间戳为种子的C库lrand48，时间介于1997年5月至1998年4月之间。若干基点及B-163种子仍无法解释。",
+      "whyItMatters": "Anthropic表示这不是密码学破解，并称简单且可复现的生成过程使后门的可能性大大降低。",
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "Anthropic: Claude reveals ECDSA curve origins",
+          "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "headline": "DeepSeek发布V4.1 Flash 1017：MIT许可、7630亿参数、100万token上下文",
+      "summary": "新检查点被称为面向推理、编程和智能体任务的小幅更新，输出更短。按DeepSeek自己的数据，Terminal-Bench 4.0从31.2升至42.3，无工具HLE从36.8升至42.6。",
+      "whyItMatters": "权重采用MIT许可；基准数据来自厂商自己，页面显示Opus 5在其他多数列出的基准上领先。",
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "DeepSeek-V4.1-Flash-1017 on Hugging Face",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "title": "OpenRouter listing",
+          "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "headline": "Claude Code团队：不再逐行阅读，在不增加回滚的前提下减少人工审查时间",
+      "summary": "Anthropic的Claude Code团队称，其约90%的代码由Claude编写；6月至9月合并的PR数量增加一倍以上，回滚比例下降逾40%。审查分层进行：自动化智能体、安全审查、CI，再按风险分级的人工批准。",
+      "whyItMatters": "这是Anthropic对自家团队成果的描述，但文章给出具体数字，包括需要五轮以上审查的内部PR从8.9%降至1.5%。",
+      "category": "商业",
+      "sourceLinks": [
+        {
+          "title": "How the Claude Code team does code review",
+          "url": "https://claude.dev/blog/solving-code-review-at-anthropic/"
+        }
+      ]
+    },
+    {
+      "importance": 4,
+      "headline": "Mercor估计约90%的美国工作时间花在AI基准几乎未覆盖的任务上",
+      "summary": "Mercor将29个基准映射到923个O*NET职业和18797项任务。其估计约90%的美国工作时间属于基准覆盖很少或没有覆盖的任务，六个职业大类没有覆盖充分的职业。",
+      "whyItMatters": "作者称结果仅为初步结论，并指出基准清单不完整可能使覆盖率估计偏低。",
+      "category": "观点",
+      "sourceLinks": [
+        {
+          "title": "Mercor: A benchmark map of the US economy",
+          "url": "https://www.mercor.com/research/labor-index/benchmark-map/"
+        }
+      ]
+    },
+    {
+      "importance": 5,
+      "headline": "苹果在通过雷雳5互联的四台M5 Ultra Mac Studio上测试8160亿参数的Muse Spark Open",
+      "summary": "苹果MLX团队报告称，在四台M5 Ultra上通过RDMA张量并行，在8192上下文下解码速度为36.73 token/秒；该模型以NVFP4计需约493GB。单台M5 Ultra的首token时间最高比M3 Ultra快4.6倍。",
+      "whyItMatters": "这些数据显示了此规模本地部署的能力；在长上下文预填充时，双机张量并行比流水线并行更慢。",
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "Apple ML Research: MLX distributed inference",
+          "url": "https://machinelearning.apple.com/research/mlx-distributed-inference"
+        }
+      ]
+    },
+    {
+      "importance": 6,
+      "headline": "Black Forest Labs发布FLUX 3 Image Klein：56亿参数图像模型，8GB显存即可运行",
+      "summary": "该模型支持文生图、编辑和最多10张参考图，具备原生4K和边界框控制。BFL称蒸馏版INT8在RTX 5090上约4秒生成一张100万像素图像。",
+      "whyItMatters": "免费商用仅限年收入低于500万美元者；更大的机构需自托管授权或使用API。",
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "Black Forest Labs: FLUX 3 Image Klein",
+          "url": "https://bfl.ai/blog/flux-3-image-klein"
+        }
+      ]
+    }
+  ]
+}

@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-17",
+      "date": "2026-10-17",
+      "headline": "Bitcoin holds above $81,000 as ETF outflows weigh on sentiment, Yahoo Finance reports",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-16",
       "date": "2026-10-16",
       "headline": "Strategy's stock sinks as index exclusion may outweigh bitcoin prices, Barron's says",

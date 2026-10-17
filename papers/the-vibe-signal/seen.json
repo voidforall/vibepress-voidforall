@@ -1,7 +1,56 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-16T12:07:18Z",
+  "updatedAt": "2026-10-17T11:23:14Z",
   "events": [
+    {
+      "date": "2026-10-17",
+      "headline": "Mercor estimates about 90% of US working hours go to tasks AI benchmarks barely cover",
+      "summary": "Mercor mapped 29 benchmarks onto 923 O*NET occupations and 18,797 tasks. It estimates about 90% of US working hours fall on tasks with little or no benchmark coverage, and six job families have no well-covered occupation.",
+      "urls": [
+        "https://www.mercor.com/research/labor-index/benchmark-map/"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "headline": "DeepSeek ships V4.1 Flash 1017, an MIT-licensed 763B-parameter update with a 1M-token context",
+      "summary": "The new checkpoint is billed as a minor update aimed at reasoning, coding and agentic tasks, with shorter outputs. By DeepSeek's own numbers, Terminal-Bench 4.0 rises from 31.2 to 42.3 and HLE without tools from 36.8 to 42.6.",
+      "urls": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "headline": "Claude Code team: stop reading every line, minimise human review time without raising reverts",
+      "summary": "Anthropic's Claude Code team says Claude writes about 90% of its code, merged PRs more than doubled from June to September while the revert share fell by more than 40%. Review is layered: automated agents, security review, CI, then risk-ti…",
+      "urls": [
+        "https://claude.dev/blog/solving-code-review-at-anthropic/"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "headline": "Black Forest Labs releases FLUX 3 Image Klein, a 5.6B image model that runs in 8GB of VRAM",
+      "summary": "The model handles text-to-image, editing and up to 10 reference images, with native 4K and bounding-box control. BFL says the distilled INT8 build makes a 1MP image in about 4 seconds on an RTX 5090.",
+      "urls": [
+        "https://bfl.ai/blog/flux-3-image-klein"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "headline": "Apple benchmarks 816B Muse Spark Open across four M5 Ultra Mac Studios linked by Thunderbolt 5",
+      "summary": "Apple's MLX team reports 36.73 tokens/s decode at 8,192 context on four M5 Ultra machines using tensor parallelism over RDMA, for a model needing about 493GB in NVFP4. A single M5 Ultra has up to 4.6x faster time to first token than an M3…",
+      "urls": [
+        "https://machinelearning.apple.com/research/mlx-distributed-inference"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "headline": "Anthropic says a research model traced the NIST elliptic-curve seeds to lrand48 and Unix timestamps",
+      "summary": "Anthropic reports an internal research model worked out, in under half an hour, how the standardised P-192 through P-521 seeds were generated: not as hash outputs but from the C library's lrand48 seeded with timestamps dated between May 19…",
+      "urls": [
+        "https://www.anthropic.com/research/ecdsa-curve-origins"
+      ]
+    },
     {
       "date": "2026-10-16",
       "headline": "The BIPM's member states vote to stop adding leap seconds: continuous UTC from 20 May 2027",
@@ -613,46 +662,6 @@
       "urls": [
         "https://the-decoder.com/ai-beats-strategos-greatest-player-ending-one-of-the-last-human-strongholds-in-board-games/",
         "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/"
-      ]
-    },
-    {
-      "date": "2026-10-02",
-      "headline": "turbopuffer's v3 plan makes vector search 'just another' index",
-      "summary": "The company says its vector-primary index causes storage and write amplification and limits query-plan block sizes to 100–200 documents. In v3, vector search becomes a secondary index; it cites a reworked full-text engine with 10x smaller…",
-      "urls": [
-        "https://turbopuffer.com/blog/rip-vector-database"
-      ]
-    },
-    {
-      "date": "2026-10-02",
-      "headline": "GitButler's Chacon: Git 3.0's SHA-256 default will be a costly mistake",
-      "summary": "Scott Chacon argues the move from SHA-1 to SHA-256 will break interoperability, signatures and historical links for little practical security gain, noting Git has gone 20 years without an accidental collision. He proposes signing commits w…",
-      "urls": [
-        "https://blog.gitbutler.com/git-3-sha-256"
-      ]
-    },
-    {
-      "date": "2026-10-02",
-      "headline": "Earendil ships Pi 1.0, a minimal MIT-licensed agent harness, with MCP and deferred tool loading",
-      "summary": "Pi 1.0, released October 1, adds native Codemode and MCP support, extensions for virtual models, deferred tool loading, cache warming for Anthropic models, mid-conversation system messages and a full-screen TUI by default. Earendil says it…",
-      "urls": [
-        "https://earendil.com/posts/pi-1-0/"
-      ]
-    },
-    {
-      "date": "2026-10-02",
-      "headline": "DeepSeek releases Harness, an open-source plugin-based agent app for macOS and Windows",
-      "summary": "DeepSeek Harness is an MIT-licensed agent platform available as a desktop app for Apple-silicon Mac and 64-bit Windows, or a web UI via npx. Everything is a plugin, and it covers coding, research with citations, scheduled tasks and a mode…",
-      "urls": [
-        "https://www.deepseek.com/en/harness/"
-      ]
-    },
-    {
-      "date": "2026-10-02",
-      "headline": "Cloudflare open-sources Clef decision models and offers RL fine-tuning",
-      "summary": "Clef (built on Qwen 27B) and Clef-flash (Qwen 9B) are Apache 2.0 classifiers that return structured outputs with probabilities. Cloudflare claims 2.2-second classification versus 4.7 seconds for comparable LLMs, and is offering RL fine-tun…",
-      "urls": [
-        "https://blog.cloudflare.com/clef-decision-models/"
       ]
     }
   ]

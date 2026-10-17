@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-10-17",
+      "date": "2026-10-17",
+      "headline": "Anthropic says a research model traced the NIST elliptic-curve seeds to lrand48 and Unix timestamps",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-16",
       "date": "2026-10-16",
       "headline": "Meta releases Muse Spark Open: 816B-parameter open-weight model, 42B active, 1M-token context",

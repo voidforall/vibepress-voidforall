@@ -1,0 +1,131 @@
+{
+  "id": "2026-10-17",
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T11:23:12Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "周五的报道以比特币、黄金和Rocket Lab的连续下跌为主；本期只呈现价格走势和分析师所引用的内容，不对后市作判断。标题取自已收集的信息源，文章正文无法获取。",
+  "stories": [
+    {
+      "importance": 1,
+      "headline": "雅虎财经报道：比特币在ETF资金流出拖累情绪之际守住8.1万美元",
+      "summary": "雅虎财经的标题称，比特币在ETF资金流出拖累市场情绪的情况下守住8.1万美元。其他报道称其测试8.2万美元，10月迄今下跌近4%；一份周度回顾称本周曾跌破8万美元。",
+      "whyItMatters": "10月并未出现部分交易者期待的季节性上涨：报道显示比特币本月下跌近4%。",
+      "category": "加密货币",
+      "sourceLinks": [
+        {
+          "title": "Bitcoin price holds above $81,000 as ETF outflows weigh on sentiment - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQjFaT1doRzdLTHJ0a29KcWZORDR3YTNxdTJOOGRHcDlHQmVxQktkU2pJVUdTLU5Gb0J1THByOUN5RGxuMDM1VGRRU19rYmpIYkhVcEtpaWRTM2kyYVYzM3A3bmNjMzhhU1hZV0h1bHJfSmpIN0JlT3JEWmtRYjVsLVJvZGU2YWdOM0VBYnZ2ajU3Q1I4c2QwcQ?oc=5"
+        },
+        {
+          "title": "Is Uptober Over for BTC? Bitcoin Is Down Nearly 4% So Far This October. - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMGVqR2pIVjlEc1JfdXBtYWZtbEVsX2J3b043V21HbUVCMWNOei1LWFFEeEI1WDE2SVdHMVJtZ3hZZ1FWeTEtTHVNQWNaYmtLdngxY3hJZlpfTGlOLVN1cHFhVk5mdVc0cU9MYTNzVnFMVUVfYS1ZNjdtbmN0ZnVkN3RDa0VYSzd0NmlNZFZEUzFibGQwbGZ3aHpGYmZHMFNwZDYzcHRCMGNLVjBhWFVSYlQtdExtRXp4MHlySlVTdVNEdjQxT0E?oc=5"
+        },
+        {
+          "title": "Bitcoin falls below $80k, Ledger changes sales, MSCI rules | Weekly recap - Crypto News",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHMlVoQnFiaHpnWnFMbVpCUUl3Y3ZOYm9wYU1HV1pMWHk0OUhIdUN0X3FRWWZzeU5XS2s5RklON3otVGFXN2FSM01Bem0zb1ZYTjBQTEV3ZFRnUXNjczZtbFVoN0djMzc3d0Y2N1VMUzRiVF9wVmI4QkZ5QWY?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "headline": "Trefis：Rocket Lab股价连续八个交易日下跌，累计跌幅32%",
+      "summary": "Trefis报道称，Rocket Lab股价已连续八天收跌，累计下跌32%。《洛杉矶时报》周五的标题称，该公司股价因再度推迟而大跌，此前公司已将Neutron首飞推迟至2027年。",
+      "whyItMatters": "这一连跌使股价远低于上周反弹期间的水平。",
+      "category": "市场",
+      "sourceLinks": [
+        {
+          "title": "8 Red Days In A Row: Rocket Lab Stock Is Down 32% - Trefis",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOV2dTSEtSNjU1MEJTMzgxM3JCQlMtOExLRXMzT1BhMk1wT1B2d3VTRTFCUzM4cXBYVnl4ZG1XbEVVeE5qNlZ3UFN1UmNjaEhPdnh0a2ZSNmNOaGFLSzZQd0x4VTJLUHdkZ0U5dGp0MkwwQmFGVEJtU2FmQ0dCaTZiRE1EdGMyN2ExT3Bma2VOWTNvMlBYbEtmbWU4SVJJUFJndWV6c0hlel9oY1Fa?oc=5"
+        },
+        {
+          "title": "Rocket Lab shares plunge on another delay - Los Angeles Times",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT0liN0NmSjBFZWFjbERRU3NRUGdFUzdObXVTWk9EdUpCMlBfUXRzVTRYQ090TUZlZ1Nqb0NmRm5iT3JOLWt5Yi11MGt2eFRsTEtleWNBcHFSN1F6NW9uUTBMV2tRMWlKVDVsNlpiOWJKQUtkV3VuWVU4MloyNUQ5MXJQNmNNV0FPaGw0X3pPRXdhQTN6R1E?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "headline": "阿里巴巴周五跌幅超过大盘",
+      "summary": "雅虎财经称阿里巴巴（BABA）跌幅大于大盘，MarketBeat给出的跌幅为1.9%。富途报道称，10月16日阿里巴巴期权成交13.506万张，未平仓合约236万张。",
+      "whyItMatters": "期权交投活跃伴随股价下跌，显示这只ADR的交易相当活跃。",
+      "category": "市场",
+      "sourceLinks": [
+        {
+          "title": "Alibaba (BABA) Falls More Steeply Than Broader Market: What Investors Need to Know - Yahoo! Finance Canada",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeWxBWGlDSDZweVJPRkJSV3dVQXp6U3cxU2Rsd0F2MGE5TWVCYlZ1bmlKT05CRWxMSjdXX3NuS2k5MWxkeFJ6X1JhSGhtTnZhaVpheUhLb2stXzRkZnR2RmZ1SUxPY3A1WkRaWUVnSDZYVFBDWC1kd0NxMXpISXlDbFhNRko4d2M?oc=5"
+        },
+        {
+          "title": "Alibaba Group (NYSE:BABA) Stock Price Down 1.9% - Here's Why - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOekE2ZENFTjhydHQ0YXdmOFRlVDJCYUZ1aGpxbGY4SjlpeTh3ekRIM2djYTlWT1NDNURyUm56T0FYOHNQQ0d3ZDNSUDhINy1uMmZZLWRjd0VrX3NxZlRUMVRLeV9ESmNuWEw4UXZMcXBBcnpyVmlpTFNNNVR6bmk0bUpELWlEZ0QtcEVDc1o4RmdldG1PSERNcGl6TUd4STdlMHh1ZVdfZ3d2SnoyTFlwdFdBTQ?oc=5"
+        },
+        {
+          "title": "Alibaba Options Spot-On: On October 16th, 135.06K Contracts Were Traded, With 2.36 Million Open Interest - 富途牛牛",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdE1qYmxLRDFXbkx0TWE1bHBMZXlKSm0xYzNFd0huOGg5QmFGY1FXRmJHWGo3OTFWaDdhcXpFRHdTb19wb0VRRUFSanhwd2NoX0xjcVU5VG56T0pKS0t1TGRkMzl1RTJFS3J2VjVBbHhiYTVnWk5ERVhFRGFKeXRxRDVVT0ZINkNVX2hORngxM3ZLak1Bd21icld4UGxGSnZzS1E?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 4,
+      "headline": "金价抛售测试支撑位，分析师关注4200和4226美元",
+      "summary": "StoneX称现货黄金/美元的抛售正在测试关键支撑。FXEmpire指出4226美元阻力位；investingLive称金价瞄准4200美元突破，但买方面临两大障碍；FOREX.com称本周收盘时没有明确趋势。",
+      "whyItMatters": "分析师对方向存在分歧，4200美元附近仍是他们关注的价位。",
+      "category": "大宗商品",
+      "sourceLinks": [
+        {
+          "title": "Gold Technical Outlook: XAU/USD Selloff Tests Critical Support - StoneX",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOVl5UnJabnRWTTRnaWRlc1dhRmtJTXJxM1ZmNHhKU1VPNXlKdE5RZ1RKbHg2bXcwNjFuWTZKMGZTaVFjSk42azNMRVl4RDJsZDlnU1dVZ3p3aWxDYmx1MlFFdWJsYzhmVVJJV09aODd4LU9ubFFndm0zdFBFMEdVN2NLbzJ4QjU2bnA0V0dQOFBJM0oyZjN0a0lkdjZSSUxjQ3dYdDU2SW9BcGNjRlE?oc=5"
+        },
+        {
+          "title": "Gold (XAU/USD) Price Forecast: Bulls Face Crucial $4,226 Resistance - FXEmpire",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOclZjeFpXT3Q2S1lPSHlZN3FGcHBEd1YwcW9ia2NrZGVUbXh6Q3Rvdy1COGVQLVRWc3ZPWVdmMTJSeVR2c2FDTTVTLVpfSnBCa0llUHQ0VUJRRDJNUGFwVkE0bV9jdEtEM084bnd0NHhva0JMMmlfTFU0MU82dnMydEVid1JnTjZtSVZiYTZaeGN5ZUNCVkgzMzdVX2JDMl81a2p3ZmFaZXhUU0pHd0VOUEZpcw?oc=5"
+        },
+        {
+          "title": "Chart of the day: Gold price eyes $4,200 breakout, but buyers still face two major hurdles - investingLive",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOER5UkJFZFQ0TFdXaXBaaW40TXNHYWFGeU9HQTlQcnlraURWQTFPZFJfY0pKZUVJdWZwSGpiS0hmMXFLT2xHX2xXX1kxVEtxMTZrR1VCQ21TclRBTFQwQTlvbFJGellfUkd1X0NTeFNHMmQ5dGtQMDZyOEJpX0lRSUM0a1NxYmJVREl3WWQzZDdHbUNMRjdYUF9zYTZDdWs0NXFVTGdlYWo3YjBYVEVoM0R4eFhnYkF5ZGVITlE4ejdBZFpDc1ZwYTlnQW94dw?oc=5"
+        },
+        {
+          "title": "Gold Analysis: XAU/USD Ends the Week Without a Clear Trend - FOREX.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRVZOYUNSNGhXMnVIYUxza1ozSThITHJVVnB2QWZTREZGVk41aU5NTlY3Y05uYkQzUHBwLVpBcU9rdjNGVEgxb2phS1dKb1AyRHBSQ1E3S18tSFZaWFRsc2VtU1huVW9MRVZONWtGZF92U0FhazFKaWVwMmVrOThsNlU3TWhqVXF6V0w1SDR1a0gyejNrbEczMVc4T01OT2pmMTBhamlvSWYtcHFNaTNHX1FQUdIBswFBVV95cUxNRVZOYUNSNGhXMnVIYUxza1ozSThITHJVVnB2QWZTREZGVk41aU5NTlY3Y05uYkQzUHBwLVpBcU9rdjNGVEgxb2phS1dKb1AyRHBSQ1E3S18tSFZaWFRsc2VtU1huVW9MRVZONWtGZF92U0FhazFKaWVwMmVrOThsNlU3TWhqVXF6V0w1SDR1a0gyejNrbEczMVc4T01OT2pmMTBhamlvSWYtcHFNaTNHX1FQUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 5,
+      "headline": "Investing.com：Alphabet在三季报前停滞于200日均线附近",
+      "summary": "Investing.com的分析称，Alphabet股价在第三季度财报前停滞于200日移动平均线附近。雅虎财经另文探讨Alphabet为何将Gemini 4 Argon推向企业工作流程。",
+      "whyItMatters": "三季度业绩是下一个确定的催化因素；股价正处于备受关注的技术位置。",
+      "category": "财报",
+      "sourceLinks": [
+        {
+          "title": "Alphabet stock analysis: stalled near 200-day average ahead of Q3 earnings - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSFB0ZzhjTVd5VDBvYllzdjZkOWxYSFdQREd5RHUycEp0UWlWZV9lTE1tMm5nZHVxMmdkSWNGcEZPdXFWZTJocE45Y2lMYkxEamt6eXVpWFltNWs2SDVfZUhPeF9WWHg2eWROZHhYcExINUZQU2hJVDQ1dWJtVkMwWDAxYnM0UWRNbGZUdl8yWFc0Q0VNcU10ZDVMVjZvbi1PM3BoVHUzbDRuOG1XS2xhdUJsd1pJZkNaN3NYblFTQjQxcm1PMHJORU1LV0NOeTQ?oc=5"
+        },
+        {
+          "title": "Why Is Alphabet (GOOGL) Pushing Gemini 4 Argon Into Enterprise Workflows Worldwide? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaDc2QklEbjJsbndOVWdoTDV3T1Q4VTZxdktnS3dMb3JiMUtHZE4zVlRWOGVUR01CdXVYUU8zN3MtbFRLZks4eDh5Vnk2WVJQM2N5T2Y3Qy1LelNTWC03WE1Xb3FPUU9wVzVuZ1NycXpycU81Qzh6cUZhMjU4aUVsWHBxLVlkSDNXejNXSnVrYXJyOTUxbnFQamZzTTZSQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 6,
+      "headline": "多邻国股价下跌4.8%，律所继续宣传证券集体诉讼",
+      "summary": "GuruFocus报道多邻国股价下跌4.8%。多家律师事务所继续发布有关证券欺诈诉讼及其首席原告申请截止日期的通知，通知称截止日期在12月。",
+      "whyItMatters": "诉讼通知仍在持续发布，并与股价下跌同时出现。",
+      "category": "监管",
+      "sourceLinks": [
+        {
+          "title": "Duolingo Inc (DUOL) Shares Fall 4.8% -- What GF Score of 75 Tells Investors - GuruFocus",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb00wN0FlU3AyWExVUWFmNzllem9JLUZCcVZaRHluSXl5NDdTeXhqUWk5UVJlby0tR2tLel9ETVp0NzJPVzlGdUVnaE40X0hmbEZHZlNtdmdaR2diZ0NrNVBaYkI3QVhPMTlORlBBelgtYWdtRGtvelZEdldIbEZaWHhiRk55N3NQQTVUQV9nQWJaNWNTbi1KZmlVYVpiS0NHR3pPQm8tQllyak0?oc=5"
+        },
+        {
+          "title": "Kaplan Fox Continues to Remind Duolingo, Inc. (NASDAQ: DUOL) Investors of the Lead Plaintiff Deadline on December 7, 2026 - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPZURoTkZHcWN0bFlTOXRZZldNQnRjdVZGa0ZsMW50OVQzWDZMcUZ6d3hoSHZ0SjZUV1lubmZBdVpDa29oVXVBVVFjYm5TOFNhYndJajdISnVWeHpZb29jUmg5bURXUzBKcU4zOFl1YU1WVXkzM2k1cFpDWVFEZ3YwZlpNa1Q1TjNMTV9pRElDZ1hTaF9aU1RrcEpJRC1QbG14Sk14TXEzV21WWFQwVUw4QW13ZDJzS1lNZUNxZ19rTHczS3U2M0k3NEhPZ3lYUkpELVR4V29TWERPMDhzZEFCQmlPM0RMRjNid19KRUZJMXVNM0R0UEstYTRJQVBiM1ozY001ODloYWpNUGpDZVFfNEVWbWlxaUNqZjZGWkRJUGxTSDJjdHBLeg?oc=5"
+        },
+        {
+          "title": "Duolingo Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Duolingo, Inc. - DUOL - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOQmxsSXhMX084M1VQNzVwTW9RTkM2OHh4ejVDaUg5bHFSWWVBaXoxSTA4U2dRZ3p2LU1rZ1p6dWFzcm55eEVVUVVLb1U0eEtNSndZQU9USmhPN0RJUkxQOFpTMHBMV2dWNlpOV2VvclJycHJQWFI5TTdpbGJzN3FVZkw1amNiN29PU3AweXJMbG9iUGZMaVRkODVHRGpxNUVsd21xRTVyUHo1QS1CYXZ2dGNnRlZQNkdnUXFYZEZ2VTdCR215T2x0ak8yU0F6Wm95X0VKOEVKUFA5c2lnTURkd0hVX3JtTFlPMjRual9fdkR2VEdmS3cyM3BZQi1nZjMwb3hLR1o5cFg4anBNbUg2WUZWTlJmN293VkxlRTBPemZ2Z0F1S3VNeTM1WmFrdnhBWmpCSVRfV1JKMGlQc0pvZkhZSXFkcHM?oc=5"
+        }
+      ]
+    }
+  ]
+}
