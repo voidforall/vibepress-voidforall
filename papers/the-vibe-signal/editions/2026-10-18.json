@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-18",
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T11:58:01Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today's signal is mostly infrastructure: a proof assistant that checks itself with several kernels, a priced search API for agents, and a measuring tool for local models, with one essay and one bill for variety.",
+  "stories": [
+    {
+      "importance": 1,
+      "headline": "Lean 4.35 ships verified-kernel tooling, including a Claude-built kernel proven consistent",
+      "summary": "Lean v4.35.0 adds `lake check` to re-verify projects with the official kernel in a sandbox, and `--paranoid` to recheck with four more kernels. One, con-leche, is a Lean kernel proven consistent against a set-theory model, implemented by Claude under Joachim Breitner's supervision; it checks Mathlib in about 100 seconds on eight threads.",
+      "whyItMatters": "Lean proofs can now be cross-checked by independent kernels, one of them formally verified, which narrows the room for kernel soundness bugs.",
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "Lean now ships with verified kernels",
+          "url": "https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/"
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "headline": "DeepSeek puts Search and Fetch APIs on the meter at $0.75 per 1,000 successful requests",
+      "summary": "DeepSeek's docs describe a Search API and a Fetch API, each billed at $0.75 per 1,000 requests that return usable results; failures and timeouts are free. Calls via DeepSeek Harness, Claude Code or Codex are free until billing starts on 1 November 2026.",
+      "whyItMatters": "Agent builders get a priced, first-party web-search tool from a model vendor, with a free period before charges start.",
+      "category": "Business",
+      "sourceLinks": [
+        {
+          "title": "DeepSeek Search and Fetch API docs",
+          "url": "https://api-docs.deepseek.com/guides/search/"
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "headline": "A blog post argues transformers are best read as associative memory, with attention storing about 1.2 million memories",
+      "summary": "Alex Wang's post frames linear layers, MLPs and self-attention as associative-memory stores whose capacity is set by interference. It puts plain outer-product storage near d_k memories, squared-ReLU MLPs near 2,700 at d_k=64, and softmax attention near 1.2 million.",
+      "whyItMatters": "It gives a capacity-based way to compare transformer components, as a post's argument rather than a peer-reviewed result.",
+      "category": "Ideas",
+      "sourceLinks": [
+        {
+          "title": "You could have invented transformers from memory",
+          "url": "https://alexwang.ai/posts/associative-memory/"
+        }
+      ]
+    },
+    {
+      "importance": 4,
+      "headline": "A New York lawmaker announces a bill to require game ownership rather than licensing",
+      "summary": "Tom's Hardware reports that a New York representative announced a bill that would require games to be sold as owned products rather than licenses, and require publishers to keep games functional after support ends. The retrievable text gave no committee or vote status.",
+      "whyItMatters": "The bill is announced only; it would target license-only sales and shutdown of games once support ends if it advances.",
+      "category": "Business",
+      "sourceLinks": [
+        {
+          "title": "NY announces game ownership bill (Tom's Hardware)",
+          "url": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends"
+        }
+      ]
+    },
+    {
+      "importance": 5,
+      "headline": "Llmspeed estimates how fast a local LLM will feel on a given device before you buy",
+      "summary": "The open-source site lets users browse by hardware or model and estimates speed for a short prompt on a single device. Measured figures come from community benchmarks; the rest are derived from similar setups or projected from specs.",
+      "whyItMatters": "Buyers can sanity-check hardware for local models, with the caveat that many numbers are projections.",
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "llmspeed",
+          "url": "https://llmspeed.dev/"
+        }
+      ]
+    }
+  ]
+}

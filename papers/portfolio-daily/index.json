@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-18",
+      "date": "2026-10-18",
+      "headline": "Bitcoin struggles to hold above $80,000 as whale transfers send mixed signals, Investing.com says",
+      "storyCount": 7
+    },
+    {
       "id": "2026-10-17",
       "date": "2026-10-17",
       "headline": "Bitcoin holds above $81,000 as ETF outflows weigh on sentiment, Yahoo Finance reports",

@@ -1,0 +1,100 @@
+{
+  "id": "2026-10-18",
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T11:58:01Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "周日收集到的标题集中在阿里巴巴内部人士增持、Rocket Lab市值缩水，以及围绕Gemini传闻的Alphabet盘前走高，比特币和黄金均处于区间震荡。由于无法获取文章正文，本期仅报道标题所述内容，不对走势作判断。",
+  "stories": [
+    {
+      "importance": 1,
+      "headline": "Investing.com称，比特币在8万美元上方挣扎，巨鲸转账信号不一",
+      "summary": "Investing.com的标题称，比特币在8万美元上方艰难维持，大额持有者（“巨鲸”）的转账指向不同方向。仅能获取标题，因此不报道更多细节。",
+      "whyItMatters": "比特币的价格正逼近8万美元，这也是此前几期所提到的近期区间下沿。",
+      "category": "加密货币",
+      "sourceLinks": [
+        {
+          "title": "Bitcoin struggles above $80K as whale transfers signal mixed outlook - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZEVpQVBiUHNsalFlQjQwNmY5ZTFVS1Z3d0RfVTdQN09kX3MyVHk0dm5lZkdHaGZWdmgtalF0MWs4YlZWRktMZU04bWNkQ0ZoYU5BRHdob2NyS1l3eWJqQnNURGRORDF3dEJvdUlBU0NiZ3hIUXREWWFqRm12M0xJRU9Demw1a3hTV3ZXVkhOekNfZlhZSVdmQzZXTjNEWV9fUFp0X3pNSmM0aWY3bDRudFJzai1tVlpLS29PRFAteE01QV9y?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "headline": "Stocktwits：阿里巴巴CEO及内部人士在100亿美元售股后增持逾100万股",
+      "summary": "Stocktwits的标题称，在导致股价走低的100亿美元售股之后，阿里巴巴CEO及其他内部人士买入了逾100万股。无法获取正文，因此不报道金额和价格。",
+      "whyItMatters": "售股后的内部人士买入，与此前关于马云大额买入阿里巴巴股票的报道相呼应。",
+      "category": "公司",
+      "sourceLinks": [
+        {
+          "title": "BABA Stock: Alibaba CEO, Insiders Buy Over 1M Shares After $10B Share Sale Sends Shares Lower - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQV3NvUUtXUG13YkhVRjlsdjI5M3RSVG51X0pWX1VkdTc4SEVJSzF2T1NtTUt6OEpHM2QwcV9vQTVhN2hmeTBLM3ZwNXRyNlFPY24xV3REOWl5WlczVnRsWHZ1MTRRZUNTcExGTFJ5a1B0UGFnZDhfajl2dk5KUjcxRGI0MFozNnpnSzJ6SkU4TXFKNnNyZVY0LW1rSWlxSjRnZUJTSlc1UUNER2VOb3BSSXYyblFxX3JMNnFxWkFGLTFsVjZXM21yODZNSElRaHJqZXMxTU5CcEx2bzBKcVBGazVBR0ItaUxMd0cxVA?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "headline": "Benzinga称，Rocket Lab市值已蒸发约570亿美元，逆风加剧",
+      "summary": "Benzinga的标题称，随着逆风加剧，Rocket Lab股票已蒸发570亿美元市值。无法获取正文；此前几期曾记录其连续八个交易日下跌以及Neutron首飞推迟至2027年。",
+      "whyItMatters": "该标题给出了一个美元数字，量化了此前几期逐日追踪的跌幅。",
+      "category": "公司",
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab Stock Erases $57 Billion in Value as Headwinds Mount - Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLU9ub1RSOWNaS3ZLVmRYMEdvUC1BS1p2aHVDUVI2T2hXM3lXMm1YczZMSExJb1R2TDIzUnpzR2UyZ1Z5QjJRYU1RazJHYXBCZXJvRmw1U3QyTFpweFg5NDJXSGdZeUlSWFBVZWhST2JjTzlxRVEtcTloeUxfc3VsNGNGa2xGV0hRbEd5YXB6VElTU0o3WUtIdE1ScVhGbDhNX0laSEJrR0pHTEs1dW5EdEppOHBFT0FLaVZCM1o1LXFBZGNVWVZ6MjA0N2c3ci0zLWJVbw?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 4,
+      "headline": "报道称谷歌最早周三发布新的Gemini 3.8 Flash模型；GOOGL盘后上涨",
+      "summary": "Stocktwits的标题援引报道称，谷歌最早可能在周三发布Gemini 3.8 Flash，并称GOOGL盘后走高。在已获取的材料中，该发布只是报道，尚未得到证实。",
+      "whyItMatters": "模型发布传闻与盘后上涨同时出现，此前几期曾提到Alphabet在三季度财报前裹足不前。",
+      "category": "公司",
+      "sourceLinks": [
+        {
+          "title": "Google Could Release New 3.8 Flash AI Model As Soon As Wednesday, Says Report — GOOGL Stock Gains After-Hours - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOWlJ2czZKbVNzNGtFd0RJOUwxSnp2NEUxQkhSM1pkSklFZlRrTTU3bWZpQjlIOEFTQ0xoc0d5djhOX0VsazQ1NHR2ckxHTGQ1MlFic29OWEU0aEV1Nm9UUXNCVWI2RDZlWVRuZHFRU2pGNWxIUERqcHpSa3pnSUZhd2xoQnhOZHFlYTdERS1QY0YtMVcwMG00TFRyUjNiYUxZeGVGWlY4UW9oRUsyWmFSY1RiaDEybi1yNXNGcUZ2MjhBOGtoREJrRmp6Q3E1alRzU0lYT1hJaTI3MFp1UXU5TkJ4U1RIMVllbEdGX2JoZWphQUJ6WWRBc3hn?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 5,
+      "headline": "TradingKey：美股三大指数期货上涨，油价跌破80美元，市场聚焦Palantir财报",
+      "summary": "TradingKey的盘前报道称，美股三大指数期货上涨，油价跌破80美元，亚马逊和Alphabet上涨，市场聚焦Palantir财报。",
+      "whyItMatters": "油价低于80美元、期货走高，构成了Alphabet盘前上涨的背景。",
+      "category": "市场",
+      "sourceLinks": [
+        {
+          "title": "【US Pre-Market】Three Major Index Futures Rise as Oil Falls Below $80; Amazon, Alphabet Gain as Market Focuses on PLTR Earnings - TradingKey",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQTmhlZGhVbnBTaWRBWjlkcThIdGVMNzNacUZTa2hsZG9QMEQzYWk2V3VMSXhRN3NEMnh6MExNeGN6bzlHd1ZtRWROQUc1ZzV1X0dfV29RZkEzc1cyV051ZDNkQ0N4ZkcyUUJOcll3Sm9hdTc3TXNxaWZ2R2dyUEJJbWV1dW5OaDVWU0g5NXBzZEZLUUZJX1F2YXZGWW5pT1JWWkd6Wk41UmgyNWwtc1ctcFFnT245VWhsZFJmQjAtUnVVM2lYUlVWd0d4TU16YUIyXzMtMXFrN205Ym5LWnoyU0R2WXEtaDNRZG9CUFZrY2V1VDZCQ05tQw?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 6,
+      "headline": "FOREX.com周度展望：现货黄金“进退两难”",
+      "summary": "FOREX.com的周度展望标题称，现货黄金处于进退两难的境地。无法获取正文，因此不引用具体价位。",
+      "whyItMatters": "分析师仍把黄金描述为在近期下跌之后的区间震荡。",
+      "category": "大宗商品",
+      "sourceLinks": [
+        {
+          "title": "Gold weekly outlook: XAU/USD remains stuck between a rock and a hard place - FOREX.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQS1V5d1FhYmpIUV9ZRDMyYU1PaEdlbHFacnpGSDVWX2UwcF9SRjczT2dJcTROQmdxekZFSFNyaGZtcG5Nb0ZtR1c2bm42OGJuUGlDTVJGYVExMlFQeFVtdzRLZEI3R0lJNWFhaWJkWDh0NF9FRjZQVEdZVm8zRzhUV3NIb1d1TUl3M09Rb05NQVpxT05Bc3dQYlNkTmVoOTlZSWc5NldPYTFybER6V2FJRFdmZ3lJWDZpQ2ZEcA?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 7,
+      "headline": "Simply Wall Street：Alphabet计划2028年前在多伦多推出自动驾驶出租车服务",
+      "summary": "Simply Wall Street的标题称，Alphabet计划在2028年前于多伦多推出自动驾驶出租车服务。无法获取更多细节。",
+      "whyItMatters": "该标题显示Alphabet为其自动驾驶出租车业务拓展至加拿大设定了目标时间。",
+      "category": "公司",
+      "sourceLinks": [
+        {
+          "title": "Alphabet (GOOGL) Plans Toronto Robotaxi Service By 2028 - Simply Wall Street",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWF9ZUUxETmlWdDF5VS1QVjZFbU5YUWp4bGlRTmpSWTJzTUtkZ0hSR3Ntcmt1R0JZVU45VkNXU0hHYk9TQXU0dERzeENqQ0FBY3JKbk45VmMzN01sWHg3MllVQ1JIamViNnFzUlZUbVNneGVCeG80WGtzZVhKampYOUptTWJIUTVRTmFwU0laczNUcXRLYnExYnlyX0ZFTkQ2R0ZFcTFmVGJGMjNkU1Q2NlprRF9NTWppRkHSAb8BQVVfeXFMTUdQaUJxbkkwMzNEbGFIVXRXN3lud0ZWbDVfczV6eEhST1ptaWhFQTVHVGdqUF9Pc0FnTlhvZGpBT1FaeHdoRUhBcUlSMmVucU1qSjB2c2JiMWx6X1hicFlHTUVCUEJJX1kwTHlVa0FvY082ZS1kMDRTV1gtQXpabXl0aXNGYjU3anl6TDNaXzlmQThRR1hOMm5tY2lSTkhwZl82cGd6Y1pBRkNTTGRTeGpCUUxJM3Z6b213bGhmRDA?oc=5"
+        }
+      ]
+    }
+  ]
+}

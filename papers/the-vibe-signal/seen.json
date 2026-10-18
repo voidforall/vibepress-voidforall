@@ -1,7 +1,47 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-17T11:23:14Z",
+  "updatedAt": "2026-10-18T11:58:02Z",
   "events": [
+    {
+      "date": "2026-10-18",
+      "headline": "Llmspeed estimates how fast a local LLM will feel on a given device before you buy",
+      "summary": "The open-source site lets users browse by hardware or model and estimates speed for a short prompt on a single device. Measured figures come from community benchmarks; the rest are derived from similar setups or projected from specs.",
+      "urls": [
+        "https://llmspeed.dev/"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "headline": "Lean 4.35 ships verified-kernel tooling, including a Claude-built kernel proven consistent",
+      "summary": "Lean v4.35.0 adds `lake check` to re-verify projects with the official kernel in a sandbox, and `--paranoid` to recheck with four more kernels. One, con-leche, is a Lean kernel proven consistent against a set-theory model, implemented by C…",
+      "urls": [
+        "https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "headline": "DeepSeek puts Search and Fetch APIs on the meter at $0.75 per 1,000 successful requests",
+      "summary": "DeepSeek's docs describe a Search API and a Fetch API, each billed at $0.75 per 1,000 requests that return usable results; failures and timeouts are free. Calls via DeepSeek Harness, Claude Code or Codex are free until billing starts on 1…",
+      "urls": [
+        "https://api-docs.deepseek.com/guides/search/"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "headline": "A blog post argues transformers are best read as associative memory, with attention storing about 1.2 million memories",
+      "summary": "Alex Wang's post frames linear layers, MLPs and self-attention as associative-memory stores whose capacity is set by interference. It puts plain outer-product storage near d_k memories, squared-ReLU MLPs near 2,700 at d_k=64, and softmax a…",
+      "urls": [
+        "https://alexwang.ai/posts/associative-memory/"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "headline": "A New York lawmaker announces a bill to require game ownership rather than licensing",
+      "summary": "Tom's Hardware reports that a New York representative announced a bill that would require games to be sold as owned products rather than licenses, and require publishers to keep games functional after support ends. The retrievable text gav…",
+      "urls": [
+        "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends"
+      ]
+    },
     {
       "date": "2026-10-17",
       "headline": "Mercor estimates about 90% of US working hours go to tasks AI benchmarks barely cover",
@@ -613,55 +653,6 @@
       "summary": "A Hacker News post reports that Mark Stevens, who wrote as Bob Cringely, died in his sleep early Saturday. Commenters remembered his InfoWorld column, his book on the PC industry and his PBS documentaries.",
       "urls": [
         "https://news.ycombinator.com/item?id=49949438"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "headline": "Supabase acquires Turso, the Rust rewrite of SQLite",
-      "summary": "Supabase says it will keep building around Postgres while Turso continues its SQLite work, with deeper integration planned. Terms were not disclosed; the pitch is cheap, on-demand databases for AI agents, as Supabase says it launches over…",
-      "urls": [
-        "https://supabase.com/blog/supabase-is-acquiring-turso"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "headline": "Linux now boots on all cores of Apple's M4 after a fix for a CPU that 'forgets' its registers",
-      "summary": "Yureka Lilian reports the M4's WFI idle instruction zeroes registers x0–x31, crashing cores. The workaround disables WFI idle via a bootarg, now merged into mainline Linux and m1n1, and also works on M4 Pro/Max and M5.",
-      "urls": [
-        "https://yuka.dev/blog-2026-10-02-linux-m4.html"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "headline": "Federal court blocks Utah's VPN provisions, calling them 'a technical impossibility'",
-      "summary": "In Aylo v. Utah Division of Consumer Protection, Judge Barlow preliminarily enjoined SB 73's VPN rules, which required adult sites to block VPN users or locate them. The court said 'geolocation perfection is not presently possible' and the…",
-      "urls": [
-        "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "headline": "DwarfStar 4 (ds4) runs 2-bit-quantized DeepSeek V4 Flash and GLM 5.x locally in C",
-      "summary": "The inference engine, shown on HN as from Redis's creator, targets 64GB+ Apple Silicon, CUDA and ROCm machines. It compresses routed experts to 2 bits and claims 39.4 tokens/s generation on an M5 Max with 128GB.",
-      "urls": [
-        "https://dwarfstar.sh/"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "headline": "Black Forest Labs releases FLUX 3 Image with bounding-box layout control",
-      "summary": "The model places elements by 0–1000 grid coordinates, supports region-limited edits, up to 10 reference images and native output beyond 4K. BFL pitches it as agent-ready; the page lists no pricing.",
-      "urls": [
-        "https://bfl.ai/models/flux-3-image"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "headline": "AI 'Ataraxos' beats the best Stratego player 15–1–4 on a sub-$8,000 training budget",
-      "summary": "Researchers from CMU, NYU, Stanford and MIT report in Nature that Ataraxos beat Dutch champion Pim Niemeijer in a 20-game series. Training cost under $8,000 on H100s, versus an estimated $3–4.5 million for DeepMind's DeepNash.",
-      "urls": [
-        "https://the-decoder.com/ai-beats-strategos-greatest-player-ending-one-of-the-last-human-strongholds-in-board-games/",
-        "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/"
       ]
     }
   ]

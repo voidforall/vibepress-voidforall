@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-18",
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T11:58:01Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天的信号多与基础设施有关：用多个内核自我检验的证明助手、为智能体定价的搜索API、衡量本地模型的工具，另有一篇文章和一项法案作为点缀。",
+  "stories": [
+    {
+      "importance": 1,
+      "headline": "Lean 4.35发布经验证的内核工具，包括由Claude构建、已证明一致的内核",
+      "summary": "Lean v4.35.0新增`lake check`，可在沙箱中用官方内核重新验证项目，`--paranoid`选项则再用另外四个内核复核。其中的con-leche是用Lean编写、已针对集合论模型证明一致的内核，由Claude在Joachim Breitner监督下实现；在八线程上约100秒即可检查完整的Mathlib。",
+      "whyItMatters": "Lean证明现在可由独立内核交叉检验，其中一个经过形式化验证，缩小了内核可靠性漏洞的空间。",
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "Lean now ships with verified kernels",
+          "url": "https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/"
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "headline": "DeepSeek推出搜索与抓取API，每千次成功请求0.75美元",
+      "summary": "DeepSeek文档介绍了搜索API和抓取API，每千次返回可用结果的请求各收费0.75美元；失败和超时不收费。通过DeepSeek Harness、Claude Code或Codex的调用在2026年11月1日开始计费前免费。",
+      "whyItMatters": "智能体开发者获得了模型厂商提供的、有明确定价的一方网页搜索工具，并有一段免费期。",
+      "category": "商业",
+      "sourceLinks": [
+        {
+          "title": "DeepSeek Search and Fetch API docs",
+          "url": "https://api-docs.deepseek.com/guides/search/"
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "headline": "一篇博文主张把Transformer视为联想记忆，注意力可存储约120万条记忆",
+      "summary": "Alex Wang的文章把线性层、MLP和自注意力视为联想记忆存储，其容量取决于干扰。文中估算：普通外积存储约为d_k条，平方ReLU的MLP在d_k=64时约2,700条，softmax注意力约120万条。",
+      "whyItMatters": "它提供了一种按容量比较Transformer组件的方法，但这是博文论证，并非同行评审的结果。",
+      "category": "观点",
+      "sourceLinks": [
+        {
+          "title": "You could have invented transformers from memory",
+          "url": "https://alexwang.ai/posts/associative-memory/"
+        }
+      ]
+    },
+    {
+      "importance": 4,
+      "headline": "纽约一位议员宣布法案，要求游戏实行所有权而非许可销售",
+      "summary": "Tom's Hardware报道，纽约一位议员宣布了一项法案，要求游戏作为所有权产品而非许可出售，并要求发行商在停止支持后仍保持游戏可用。可获取的文本未提及委员会或表决进度。",
+      "whyItMatters": "该法案目前仅为宣布阶段；若推进，将针对仅许可式销售以及停止支持后的游戏关停。",
+      "category": "商业",
+      "sourceLinks": [
+        {
+          "title": "NY announces game ownership bill (Tom's Hardware)",
+          "url": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends"
+        }
+      ]
+    },
+    {
+      "importance": 5,
+      "headline": "Llmspeed：购买前估算本地大模型在特定设备上的速度",
+      "summary": "这个开源网站可按硬件或模型浏览，估算单台设备上短提示词的速度。实测数据来自社区基准测试，其余则由相似配置推算或按硬件规格预测。",
+      "whyItMatters": "购买者可以在买硬件前粗略核对本地模型的表现，但需注意许多数字是推算值。",
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "llmspeed",
+          "url": "https://llmspeed.dev/"
+        }
+      ]
+    }
+  ]
+}
