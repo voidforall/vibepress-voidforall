@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-19",
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T14:22:55Z",
+  "editionTitle": "Research Radar",
+  "editorNote": "This week's picks lean toward measurement and honesty about results: a speculative-decoding paper argues that acceptance rate overstates speed, a medical-verification study finds models recognize duplicate trials yet still double count them, and a theory paper tracks how wide networks specialize. All claims here are drawn from the arXiv abstracts.",
+  "stories": [
+    {
+      "importance": 1,
+      "headline": "Higher acceptance in lossy speculative decoding does not mean faster decoding",
+      "summary": "Across twelve target-drafter pairs, the most relaxed settings averaged about 1.34× more accepted tokens per round but about 1.54× longer completions, mostly from longer reasoning traces. Rules that cut verifier rounds often lowered accuracy.",
+      "whyItMatters": "Acceptance rate alone can overstate speedup; the authors recommend reporting completion length and verifier rounds too.",
+      "category": "Benchmarks",
+      "sourceLinks": [
+        {
+          "title": "Acceptance Is Not Speed: Length Inflation in Training-Free Lossy Speculative Decoding (arXiv)",
+          "url": "https://arxiv.org/abs/2610.23818"
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "headline": "DLite drafts without history to keep speculative decoding fast for agents",
+      "summary": "The authors report that agentic workloads can cut existing draft models' acceptance length by up to 80%. DLite reuses target-model hidden states and predicts locally without tracking full history, reporting up to 70% improvement over DSpark.",
+      "whyItMatters": "It targets the long, multi-turn contexts where current draft models degrade and KV-cache upkeep adds overhead.",
+      "category": "Systems",
+      "sourceLinks": [
+        {
+          "title": "DLite: History-free Speculative Decoding for Agentic AI (arXiv)",
+          "url": "https://arxiv.org/abs/2610.23787"
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "headline": "Distillation traces built around the student, not just the answer",
+      "summary": "ReDiST builds student-specific reasoning traces by revising correct drafts and repairing incorrect ones, scoring candidates with a frozen student-matched reader. It reports gains on QA benchmarks over answer-only and original-trace baselines.",
+      "whyItMatters": "The authors note that method rankings can differ between source and transfer benchmarks.",
+      "category": "Methods",
+      "sourceLinks": [
+        {
+          "title": "Beyond the Answer: Student-Conditioned Trace Construction for Reasoning Distillation (arXiv)",
+          "url": "https://arxiv.org/abs/2610.23831"
+        }
+      ]
+    },
+    {
+      "importance": 4,
+      "headline": "LLMs recognize same-trial papers but still over-credit them as independent evidence",
+      "summary": "In 14 clinical families, GPT-5.5 reliably identified independent updates yet over-credited same-trial reports when aggregating; some other models showed a similar gap. A study-grouping instruction eliminated the over-crediting for GPT-5.5 in the later families.",
+      "whyItMatters": "The abstract's own line is 'Publication count is not study count': recognizing lineage does not guarantee correct aggregation.",
+      "category": "Applications",
+      "sourceLinks": [
+        {
+          "title": "Recognizing Study Lineage Is Not Enough: Over-Crediting Same-Trial Evidence in LLM-Based Medical Verification (arXiv)",
+          "url": "https://arxiv.org/abs/2610.23721"
+        }
+      ]
+    },
+    {
+      "importance": 5,
+      "headline": "Pixel diffusion transformers get an adaptive parameterization and a high-frequency fix",
+      "summary": "MFlow learns to interpolate between clean-image and velocity prediction, with larger models preferring velocity. A frozen-backbone ConvRefiner trained adversarially restores the high-frequency statistics that pixel diffusion transformers lack, preserving FID.",
+      "whyItMatters": "It evaluates on ImageNet, UCF-101 video and large-scale text-to-image generation with competitive or improved results.",
+      "category": "Models",
+      "sourceLinks": [
+        {
+          "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers (arXiv)",
+          "url": "https://arxiv.org/abs/2610.23854"
+        }
+      ]
+    },
+    {
+      "importance": 6,
+      "headline": "A Gaussian picture of how wide networks begin to specialize",
+      "summary": "For wide two-layer networks trained on same-architecture targets, the authors describe the distribution of overlaps between learned and target features. Early training reduces to a few collective variables, and a 'quadratic shielding' mechanism speeds specialization.",
+      "whyItMatters": "It also estimates when specialization begins and how the activation function shapes the pattern.",
+      "category": "Theory",
+      "sourceLinks": [
+        {
+          "title": "Mesoscopic learning dynamics of extensive-width neural networks (arXiv)",
+          "url": "https://arxiv.org/abs/2610.23779"
+        }
+      ]
+    }
+  ]
+}

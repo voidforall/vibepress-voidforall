@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-19",
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T14:22:55Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "平静的周一：一次内核发布、Mistral的时间序列模型、一篇报告大幅提效的智能体论文，以及两篇关于在缺少明确人类意志时软件会失去什么的文章。每条内容均仅依据来源页面。",
+  "stories": [
+    {
+      "importance": 1,
+      "headline": "Mistral发布Timestral，可在CPU上运行的时间序列预测模型",
+      "summary": "Timestral包含四种规模（5M至209M参数），可输出上下文长度为32,768步的概率预测。Mistral称209M模型在GIFT-Eval、TIME和fev-bench上位居预训练零样本模型第一。",
+      "whyItMatters": "在服务器CPU上，5M模型完成一天预测仅需10毫秒；权重以修改版MIT许可证发布在Hugging Face。",
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "Timestral (Mistral)",
+          "url": "https://mistral.ai/news/timestral/"
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "headline": "Linux 7.3发布，提交数创纪录达18,765次",
+      "summary": "Torvalds称此版本打破各项纪录：来自3,021名开发者的18,765个非合并提交，其中807人为首次贡献。新增内容包括fchroot()、BPF全局每CPU数据，以及完整的sched_ext子调度器。",
+      "whyItMatters": "此版本还加入failfs——一个所有操作都会失败的文件系统。",
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "Linux 7.3 Released (LWN)",
+          "url": "https://lwn.net/Articles/1101143/"
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "headline": "混合推理智能体在潜空间推理与文本工具调用之间切换",
+      "summary": "HybridAgents在一次生成中于潜空间推理与基于文本的工具调用之间切换。作者报告在11个基准上性能提升10.4%，token减少35.5%至54.7%，推理加快1.8至2.6倍。",
+      "whyItMatters": "该方法试图保留潜空间推理的效率，同时保留工具访问与透明性；结果为作者自报。",
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "Hybrid Reasoning Agents (arXiv)",
+          "url": "https://arxiv.org/abs/2610.18861"
+        }
+      ]
+    },
+    {
+      "importance": 4,
+      "headline": "一门专为难倒大模型而造的编程语言，以及表现不佳的模型",
+      "summary": "KillSwitch在规范中暗藏谎言，强制字母计数规则，并埋入会触发安全护栏的文字。基准最高分66.8，由Claude Opus 5取得；部分模型因安全护栏过于敏感而表现不佳。",
+      "whyItMatters": "作者提醒，这些分数并不能说明模型真正理解了这门语言。",
+      "category": "观点",
+      "sourceLinks": [
+        {
+          "title": "I built a programming language that LLMs can't use (Dominik Picheta)",
+          "url": "https://blog.picheta.me/post/killswitch-lang/"
+        }
+      ]
+    },
+    {
+      "importance": 5,
+      "headline": "Karri Saarinen：软件背后需要“有人”",
+      "summary": "文章认为好产品承载着创造者的经验与判断，即某种“灵魂”；近期产品显得杂乱，是因为功能不断堆叠，且常由AI智能体各自独立构建。",
+      "whyItMatters": "这是一篇观点文章，除作者论述外没有提供数据。",
+      "category": "观点",
+      "sourceLinks": [
+        {
+          "title": "Someone behind the software (Karri Saarinen)",
+          "url": "https://karrisaarinen.com/posts/someone-behind-the-software/"
+        }
+      ]
+    },
+    {
+      "importance": 6,
+      "headline": "RepRapMicron：可在桌面3D打印的微米级制造机器",
+      "summary": "开源项目μRepRap的PIKA V0.02在8毫米立方体内可实现约1微米重复定位精度和约10微米准确度，可沉积小至4微米的紫外树脂液滴。",
+      "whyItMatters": "它需要两台USB显微镜；薄的紫外树脂层在空气中固化不佳，因为氧气会抑制固化。",
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "RepRapMicron wiki (GitHub)",
+          "url": "https://github.com/VikOlliver/RepRapMicron/wiki"
+        }
+      ]
+    }
+  ]
+}

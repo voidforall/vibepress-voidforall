@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-19",
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T14:22:55Z",
+  "editionTitle": "Research Radar",
+  "editorNote": "本周精选偏重衡量方式与结果的诚实性：一篇推测解码论文指出接受率会高估速度；一项医学验证研究发现模型能识别重复试验却仍重复计数；一篇理论论文刻画了宽网络如何特化。此处所有论断均出自arXiv摘要。",
+  "stories": [
+    {
+      "importance": 1,
+      "headline": "有损推测解码中接受率更高并不意味着解码更快",
+      "summary": "在十二组目标模型—草稿模型组合中，最宽松设置平均每轮多接受约1.34倍的token，但完成长度增加约1.54倍，主要源于更长的推理轨迹。减少验证轮数的规则往往降低准确率。",
+      "whyItMatters": "仅看接受率可能高估加速效果；作者建议同时报告完成长度和验证轮数。",
+      "category": "基准",
+      "sourceLinks": [
+        {
+          "title": "Acceptance Is Not Speed: Length Inflation in Training-Free Lossy Speculative Decoding (arXiv)",
+          "url": "https://arxiv.org/abs/2610.23818"
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "headline": "DLite无需历史即可起草，使智能体场景下的推测解码保持高效",
+      "summary": "作者报告，智能体工作负载可使现有草稿模型的接受长度下降多达80%。DLite复用目标模型隐藏状态并在不跟踪完整历史的情况下做局部预测，称相比DSpark提升最高达70%。",
+      "whyItMatters": "它针对长上下文、多轮交互场景，这类场景中现有草稿模型性能下降，且维护KV缓存带来额外开销。",
+      "category": "系统",
+      "sourceLinks": [
+        {
+          "title": "DLite: History-free Speculative Decoding for Agentic AI (arXiv)",
+          "url": "https://arxiv.org/abs/2610.23787"
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "headline": "蒸馏轨迹围绕学生模型构建，而不只是答案",
+      "summary": "ReDiST通过修订正确草稿、修复错误草稿来构建针对学生模型的推理轨迹，并用冻结的、与学生匹配的读取器为候选打分。其在问答基准上优于仅答案和原始轨迹基线。",
+      "whyItMatters": "作者指出，方法排名在源任务和迁移任务基准之间可能不同。",
+      "category": "方法",
+      "sourceLinks": [
+        {
+          "title": "Beyond the Answer: Student-Conditioned Trace Construction for Reasoning Distillation (arXiv)",
+          "url": "https://arxiv.org/abs/2610.23831"
+        }
+      ]
+    },
+    {
+      "importance": 4,
+      "headline": "大模型能识别同一试验的论文，却仍将其当作独立证据重复计分",
+      "summary": "在14个临床系列中，GPT-5.5能可靠识别独立的更新，但在汇总时对同一试验的报告过度计分；其他一些模型也有类似差距。研究分组指令消除了GPT-5.5在后期系列中的过度计分。",
+      "whyItMatters": "摘要原话为“论文数量不等于研究数量”：识别出同源并不保证汇总正确。",
+      "category": "应用",
+      "sourceLinks": [
+        {
+          "title": "Recognizing Study Lineage Is Not Enough: Over-Crediting Same-Trial Evidence in LLM-Based Medical Verification (arXiv)",
+          "url": "https://arxiv.org/abs/2610.23721"
+        }
+      ]
+    },
+    {
+      "importance": 5,
+      "headline": "像素扩散Transformer获得自适应参数化与高频修复模块",
+      "summary": "MFlow学习在干净图像预测与速度预测之间插值，模型越大越偏好速度预测。在冻结主干上对抗训练的ConvRefiner可恢复像素扩散Transformer缺失的高频统计，同时保持FID。",
+      "whyItMatters": "其在ImageNet、UCF-101视频和大规模文生图上评估，结果具竞争力或有提升。",
+      "category": "模型",
+      "sourceLinks": [
+        {
+          "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers (arXiv)",
+          "url": "https://arxiv.org/abs/2610.23854"
+        }
+      ]
+    },
+    {
+      "importance": 6,
+      "headline": "用高斯图景刻画宽网络如何开始特化",
+      "summary": "针对在同架构目标上训练的宽两层网络，作者刻画了学得特征与目标特征之间重叠度的分布。早期训练可化约为少数集体变量，“二次屏蔽”机制会加速特化。",
+      "whyItMatters": "文章还估计了特化开始的时间，以及激活函数如何塑造特化模式。",
+      "category": "理论",
+      "sourceLinks": [
+        {
+          "title": "Mesoscopic learning dynamics of extensive-width neural networks (arXiv)",
+          "url": "https://arxiv.org/abs/2610.23779"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "2026-10-19",
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T14:22:55Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "周一的头条涵盖Alphabet关于Gemini 4发布时间的表态、对Duolingo与Rocket Lab的分析师动作、阿里巴巴的基石投资，以及美联储会议前区间震荡的黄金与比特币。无法获取文章正文，因此本期仅报道标题所述内容，不对走势作任何判断。",
+  "stories": [
+    {
+      "importance": 1,
+      "headline": "彭博社称比特币在油价回落提振风险情绪之际反弹至8.2万美元上方",
+      "summary": "彭博社的标题称，油价回落提振风险情绪，比特币反弹至82,000美元上方；雅虎财经的标题称BTC一度触及83,000美元但未能守住。仅能获取标题。",
+      "whyItMatters": "比特币在8万美元出头波动，仍处于此前几期所述的80,000至88,000美元区间内。",
+      "category": "加密货币",
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Rebounds Above $82,000 as Oil’s Retreat Lifts Risk Mood - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSjNOcnl1dkZVdVpHMDVrSzhVU2FpVFZiUGQ2Wmp4ZWlyd2RFQ0xqNkRlWjJGOHBCY1lIMDN2RXBHZkhtQzcxdklTQk90Um5iblpOTU1adHRNNTk3TWs3VjBucGdOcHN0NVNIaFY1RWVId3NTLXVNTTlHOU1mYnFmSGVmZ1pMWG1HVmRtQjFmdEFUZTVzQkZmRkc4a2FobGJXd1Fyc2I5bTZGcEgxSkotbUhsRQ?oc=5"
+        },
+        {
+          "title": "BTC USD Touched $83,000 With Everything Going Its Way, and Still Could Not Hold It - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOENmcjByMk1wMnJYVlpaX2lBTzVDbnoyYksyV045cmFUcWIwWWRtU1VqWlI2eEVtbXJVU1c0QWYyWWRGWVZkMVAwa3VtVUFmUGZlUGVBWjlNMjhxYmwwWWh5bzJ4VTZxd0M2dU1mYWN6QjZUT1dyZ0ZVNUFhZF9MUDlVLVYyMGZ5dGc0V3FNWTc?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "headline": "Stocktwits称谷歌DeepMind负责人表示Gemini 4将“更早得多”发布",
+      "summary": "Stocktwits的标题称，DeepMind负责人表示Gemini 4将“更早得多”发布，并将其视为对Meta的Muse AI的回应。仅能获取标题。",
+      "whyItMatters": "该表态涉及Alphabet旗舰模型的发布时间；此前几期提到该模型曾被报道进度落后。",
+      "category": "公司",
+      "sourceLinks": [
+        {
+          "title": "Google's Answer To Meta’s Muse AI? DeepMind Chief Says Gemini 4 Launch Is Coming 'Much Earlier' - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQcXJDc1N3VmNFZlpBQ2ZhREdsemZQaFlLZC1BTnNQX21mR1RuQW5GTDY2NHBwd05USzcyRXZ1QVFuVk1QZmhDcXlaeWEwV3lKbkhpa3NZQzlac2MtbVlQbEVTNVR3RGNudVE5aE1VTUdxUVhraDlZRkhUWVdmSmc3NGRWNzRyLTNHVENuQ1dsTkJtaDFOa0doaXBaUEFkQmE4SHI1V2NiUG1ZQnBWNXhnU0xkeHBUaFp3RTVRZGRHYVdENktwNHBnWFdXbGZLc3paVEJzREN3Q0xuRG9fXzBjSTBBUk9mVWx1VWpOTWxtTGQ3M1dWZnhtWTFMem8?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "headline": "美联储会议前黄金守在4,200美元下方，油价走低限制下行空间",
+      "summary": "路透社的标题称黄金在美联储会议前持稳，油价走低限制了下行空间；FXStreet的标题称现货黄金在平淡的一周开局中位于4,200美元下方。仅能获取标题。",
+      "whyItMatters": "黄金仍处于此前几期标出的4,100至4,200美元关键区域。",
+      "category": "大宗商品",
+      "sourceLinks": [
+        {
+          "title": "Gold steady ahead of Fed meeting, lower oil prices limit downside - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcHBoaXFtRmhELVpxR3BOYzNDX3IzS1Y1UHZaZUlWRnBiY0Y3WWxwa19vSlVRUENyTGtpZVJFSEFSLW9hVWhEaktYRTVhVWpObTFOYThBVXNRX19VY0phaUJjSkdSMjFZQ19FUFZGMm44UnNpZkZGSnNCeUc2SFZ4c1ZZUU9lV2tiUk1odm44Wmc2WGVjSG5pYUU3QnE2NGYx?oc=5"
+        },
+        {
+          "title": "Gold Price Forecast: XAU/USD bids its time below $4,200 in a dozy week opening - FXStreet",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaWR1ejhrTlJyT295cXBrNmQtdVZfYVVnODB1dElfbF9EUFRqT2xINV9ON1VBZmJDczJTMkNLM0pZbU1rMDZ6UVlQYjMwNGZ4NFZ1Yl9BcDB2LWJrQm5ITDhTTEdRM2wtSFlOVEtXbmNMMUJ6aFYyQnlEdFlMYUxZUzdOMXM2RDU0LUVCVEVOcWFGOWVuTnFsLXdPUlZaSlZUcDdhM1ZpTFUyMF85UjlNQWtGenljakt2ZFp3?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 4,
+      "headline": "Moomoo称杰富瑞上调Duolingo目标价",
+      "summary": "Moomoo的标题称杰富瑞上调了Duolingo的目标价。目标价位及理由无法获取。",
+      "whyItMatters": "分析师调整目标价属于公开的评级动作；此前10月15日曾报道其CEO关于增速放缓的表态。",
+      "category": "公司",
+      "sourceLinks": [
+        {
+          "title": "Duolingo, Inc. : Jefferies Raises Target Pric - Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcWJ2VUE0VmFVbVBJRkRhdUEwQkxsMm9ZSEJYMnJtM2Z6MXJfcS15ZXZISlhucWVyNmpjS0t4TGNLRjJxc3NtTWI4N3VuY08wWE90N2dUcXJBOGtEc1pYTXRXUVRLdDM0bXlGaXJqb2NOLUJZNXBib2t2Z0RZQkVnRmhfVk5aS3NWc0ZkWEI3ZGlKQWQ0MVRkZFRDUkFjblJZR1hwSDRB?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 5,
+      "headline": "Investing.com称Cantor Fitzgerald重申Rocket Lab“增持”评级，目标价122美元",
+      "summary": "Investing.com的标题称，Cantor Fitzgerald重申对Rocket Lab的“增持”评级，目标价122美元。仅能获取标题。",
+      "whyItMatters": "该评级重申出现在此前几期所报道的股价连续下跌之后。",
+      "category": "公司",
+      "sourceLinks": [
+        {
+          "title": "Cantor Fitzgerald reiterates Rocket Lab stock Overweight rating at $122 - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTWZXa0dxWE5ON3NOMU5MVWRERm1DMUJOY3ZDTkFqdGZnbjhIaFRIQXpfZE1zVzZqWmg1SU9HMjNrREhVWnVPZWJqdk1OOUM0QTFRSEhsd2ZzRlpnaTdwcy1fR0gxa0RBSEUtOVA2T3M2UXY2SnNjYnp1c0w2RUIyd2Q5Y0FPU2RoRWE5ZzlCUzFrelpRRzNZeW9RODFYaVl5WnhhUVI0emxrLXdOdmpYdGpqaU9xX2FGdWFFc1BMaktJMmhCQnIyamJR?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 6,
+      "headline": "MarketScreener称摩根大通与阿里巴巴为苏州东山精密即将发行的基石投资者",
+      "summary": "MarketScreener的标题称，摩根大通和阿里巴巴位列苏州东山精密制造即将发行的基石投资者之中。仅能获取标题。",
+      "whyItMatters": "这是阿里巴巴对第三方股票发行的公开投资；金额无法获取。",
+      "category": "市场",
+      "sourceLinks": [
+        {
+          "title": "JPMorgan Chase, Alibaba Among Cornerstone Investors in Suzhou Dongshan Precision Manufacturing's Upcoming Offering - marketscreener.com",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTjdhWEQ4LUFvd2h2MjZxY0phVS16aEFMcWlxblZjTUxmR1lFcUh0Xy1KRjhQbEVXTTE4UGpyeFJrdzJuaEFRbWFpQlhvSk1jMWRuYm9TN1lnRi1XZEI1SW5JbFVuSWRRT3pfaHV6elc0RS1ubGRRZkRkMG1JSXlVajRfSlY0WUJ0a3pqMnM4THdpc3JjQzQ3dHFMSG1GR0FKdmZqOTFoTFM0MV9pYVdISTR4d2t3Q1AzNUMzVGtDUUlxY29XZHk1RDY1dklUa1ZqNzhOTTEtUjc2dGpOM1NiZ050anZacWc?oc=5"
+        }
+      ]
+    }
+  ]
+}

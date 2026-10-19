@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-19",
+      "date": "2026-10-19",
+      "headline": "Bitcoin rebounds above $82,000 as oil's retreat lifts risk mood, Bloomberg reports",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-18",
       "date": "2026-10-18",
       "headline": "Bitcoin struggles to hold above $80,000 as whale transfers send mixed signals, Investing.com says",

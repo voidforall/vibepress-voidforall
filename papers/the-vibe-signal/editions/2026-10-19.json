@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-19",
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T14:22:55Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A quiet Monday: a kernel release, a time-series model from Mistral, and an agent paper reporting big efficiency gains, balanced by two pieces about what is lost when software and tooling are built without a clear human behind them. The source pages were the only basis for each item.",
+  "stories": [
+    {
+      "importance": 1,
+      "headline": "Mistral releases Timestral, time-series models that forecast on a CPU",
+      "summary": "Timestral is a family of four models (5M to 209M parameters) producing probabilistic forecasts with a 32,768-step context. Mistral says the 209M model ranks first among pre-trained zero-shot models on GIFT-Eval, TIME and fev-bench.",
+      "whyItMatters": "A one-day forecast takes 10 ms on the 5M model on a server CPU; weights are on Hugging Face under a modified MIT license.",
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "Timestral (Mistral)",
+          "url": "https://mistral.ai/news/timestral/"
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "headline": "Linux 7.3 ships with a record 18,765 commits",
+      "summary": "Torvalds called the release a record-breaker: 18,765 non-merge commits from 3,021 developers, 807 of them first-timers. Additions include fchroot(), global per-CPU data for BPF and a completed sched_ext subscheduler.",
+      "whyItMatters": "It also adds failfs, a filesystem on which every operation fails.",
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "Linux 7.3 Released (LWN)",
+          "url": "https://lwn.net/Articles/1101143/"
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "headline": "Hybrid Reasoning Agents switch between latent reasoning and text tool use",
+      "summary": "HybridAgents move between latent reasoning and text-based tool calls in one generation. Across 11 benchmarks the authors report 10.4% better performance, 35.5–54.7% fewer tokens and 1.8–2.6× faster inference.",
+      "whyItMatters": "The approach tries to keep latent reasoning's efficiency while retaining tool access and transparency; results are the authors' own.",
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "Hybrid Reasoning Agents (arXiv)",
+          "url": "https://arxiv.org/abs/2610.18861"
+        }
+      ]
+    },
+    {
+      "importance": 4,
+      "headline": "A programming language built to defeat LLMs, and the models that struggled",
+      "summary": "KillSwitch hides lies in its spec, enforces letter-count rules and plants guardrail-triggering text. The best benchmark score was 66.8 by Claude Opus 5; some models did poorly because of oversensitive safety guardrails.",
+      "whyItMatters": "The author cautions that the scores do not show real understanding of the language.",
+      "category": "Ideas",
+      "sourceLinks": [
+        {
+          "title": "I built a programming language that LLMs can't use (Dominik Picheta)",
+          "url": "https://blog.picheta.me/post/killswitch-lang/"
+        }
+      ]
+    },
+    {
+      "importance": 5,
+      "headline": "Karri Saarinen: software needs 'someone behind' it",
+      "summary": "The post argues good products carry the experience and judgment of their makers, a 'soul', and that recent products feel messy because features pile up, often built independently by AI agents.",
+      "whyItMatters": "It is an opinion piece; no data is offered beyond the author's argument.",
+      "category": "Ideas",
+      "sourceLinks": [
+        {
+          "title": "Someone behind the software (Karri Saarinen)",
+          "url": "https://karrisaarinen.com/posts/someone-behind-the-software/"
+        }
+      ]
+    },
+    {
+      "importance": 6,
+      "headline": "RepRapMicron: a desktop 3D-printed machine for micron-scale fabrication",
+      "summary": "The open-source μRepRap's PIKA V0.02 achieves about 1 μm repeatable positioning and roughly 10 μm accuracy in an 8 mm cube, depositing UV resin droplets down to 4 μm.",
+      "whyItMatters": "It needs two USB microscopes; thin UV resin layers cure poorly in air because oxygen inhibits curing.",
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "RepRapMicron wiki (GitHub)",
+          "url": "https://github.com/VikOlliver/RepRapMicron/wiki"
+        }
+      ]
+    }
+  ]
+}

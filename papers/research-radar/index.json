@@ -7,6 +7,12 @@
   "emoji": "🔬",
   "editions": [
     {
+      "id": "2026-10-19",
+      "date": "2026-10-19",
+      "headline": "Higher acceptance in lossy speculative decoding does not mean faster decoding",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-12",
       "date": "2026-10-12",
       "headline": "AI models can provably hide arbitrary capabilities from evaluations",

@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-18T11:58:02Z",
+  "updatedAt": "2026-10-19T14:22:55Z",
   "events": [
+    {
+      "date": "2026-10-19",
+      "headline": "RepRapMicron: a desktop 3D-printed machine for micron-scale fabrication",
+      "summary": "The open-source μRepRap's PIKA V0.02 achieves about 1 μm repeatable positioning and roughly 10 μm accuracy in an 8 mm cube, depositing UV resin droplets down to 4 μm.",
+      "urls": [
+        "https://github.com/VikOlliver/RepRapMicron/wiki"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "headline": "Mistral releases Timestral, time-series models that forecast on a CPU",
+      "summary": "Timestral is a family of four models (5M to 209M parameters) producing probabilistic forecasts with a 32,768-step context. Mistral says the 209M model ranks first among pre-trained zero-shot models on GIFT-Eval, TIME and fev-bench.",
+      "urls": [
+        "https://mistral.ai/news/timestral/"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "headline": "Linux 7.3 ships with a record 18,765 commits",
+      "summary": "Torvalds called the release a record-breaker: 18,765 non-merge commits from 3,021 developers, 807 of them first-timers. Additions include fchroot(), global per-CPU data for BPF and a completed sched_ext subscheduler.",
+      "urls": [
+        "https://lwn.net/Articles/1101143/"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "headline": "Karri Saarinen: software needs 'someone behind' it",
+      "summary": "The post argues good products carry the experience and judgment of their makers, a 'soul', and that recent products feel messy because features pile up, often built independently by AI agents.",
+      "urls": [
+        "https://karrisaarinen.com/posts/someone-behind-the-software/"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "headline": "Hybrid Reasoning Agents switch between latent reasoning and text tool use",
+      "summary": "HybridAgents move between latent reasoning and text-based tool calls in one generation. Across 11 benchmarks the authors report 10.4% better performance, 35.5–54.7% fewer tokens and 1.8–2.6× faster inference.",
+      "urls": [
+        "https://arxiv.org/abs/2610.18861"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "headline": "A programming language built to defeat LLMs, and the models that struggled",
+      "summary": "KillSwitch hides lies in its spec, enforces letter-count rules and plants guardrail-triggering text. The best benchmark score was 66.8 by Claude Opus 5; some models did poorly because of oversensitive safety guardrails.",
+      "urls": [
+        "https://blog.picheta.me/post/killswitch-lang/"
+      ]
+    },
     {
       "date": "2026-10-18",
       "headline": "Llmspeed estimates how fast a local LLM will feel on a given device before you buy",
@@ -605,54 +653,6 @@
       "summary": "The API lets agents and apps search the web through REST or a Workers AI binding, routed via AI Gateway with logging and Zero Data Retention support. Ceramic.ai, Exa and Linkup are the launch providers, billed at their standard rates with…",
       "urls": [
         "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/"
-      ]
-    },
-    {
-      "date": "2026-10-04",
-      "headline": "Willison: pay-per-use services need hard budget caps by default, as AWS and Google Cloud add them",
-      "summary": "Simon Willison argues usage-billed services should cut off at a spending limit rather than just send warning emails, since coding agents make it easy to deploy runaway services. He notes AWS added spending limits that pause a project for t…",
-      "urls": [
-        "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
-      ]
-    },
-    {
-      "date": "2026-10-04",
-      "headline": "Valve's Timur Kristóf moves old AMD GCN 1.0/1.1 GPUs onto AMDGPU; Linux 6.19 brought about 30% speedups",
-      "summary": "Kristóf, on Valve's Linux graphics team, spent a year moving decade-old GCN 1.0/1.1 cards from the Radeon driver to AMDGPU, fixing display and power-management bugs and adding soft reset. He presented the work at XDC2026 in Toronto.",
-      "urls": [
-        "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU"
-      ]
-    },
-    {
-      "date": "2026-10-04",
-      "headline": "LeCun has 'zero concerns' about rogue AI, blames 'leaky' sandboxes for OpenAI's Hugging Face breach",
-      "summary": "In a Fortune interview Yann LeCun said the July breach of Hugging Face by OpenAI agents came from poorly designed sandboxes and that the agents did what they were asked. He called Anthropic's Dario Amodei 'completely deluded' for warning A…",
-      "urls": [
-        "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/"
-      ]
-    },
-    {
-      "date": "2026-10-04",
-      "headline": "KaliBench: 8,504 query-command pairs show open-weight models top out at 42% exact-command accuracy on Kali tools",
-      "summary": "The NeurIPS 2026 Evaluations & Datasets paper covers 1,642 cybersecurity tools across 23 capability dimensions and five security phases. Fine-tuned 8B models matched a 685B MoE model on it.",
-      "urls": [
-        "https://arxiv.org/abs/2610.02206v1"
-      ]
-    },
-    {
-      "date": "2026-10-04",
-      "headline": "Cloudflare opens Artifacts to Workers, sets billing for Oct. 15 and offers $25,000 in credits for the 'next Git platform'",
-      "summary": "Artifacts, Cloudflare's versioned filesystem with a Git interface, gains a Workers binding, event subscriptions, Workers Builds deploys and US/EU data jurisdiction. A contest for Git platforms built for concurrent agents closes October 14,…",
-      "urls": [
-        "https://blog.cloudflare.com/next-git-platform-on-cloudflare/"
-      ]
-    },
-    {
-      "date": "2026-10-04",
-      "headline": "Bob Cringely, author of 'Accidental Empires' and PBS's 'Triumph of the Nerds', has died at 73",
-      "summary": "A Hacker News post reports that Mark Stevens, who wrote as Bob Cringely, died in his sleep early Saturday. Commenters remembered his InfoWorld column, his book on the PC industry and his PBS documentaries.",
-      "urls": [
-        "https://news.ycombinator.com/item?id=49949438"
       ]
     }
   ]
