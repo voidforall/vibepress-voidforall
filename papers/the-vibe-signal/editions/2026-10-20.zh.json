@@ -1,0 +1,61 @@
+{
+  "id": "2026-10-20",
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T12:32:42Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今日四条:一个带着常见保留条件的推理引擎开源、一个聊天机器人的隐藏指令、一款便宜又快的模型,以及提醒:开放权重不等于经过审计的权重。",
+  "stories": [
+    {
+      "importance": 1,
+      "headline": "DeepSeek开源DeepInfer,称其为支撑自家生产服务的推理引擎",
+      "summary": "该Apache-2.0仓库支持英伟达SM100 GPU和华为昇腾950 NPU上的DeepSeek-V4.1-Flash,含推测解码、专家并行和结构化输出。仅限离线推理:不含KV缓存系统、预填充/解码分离或副本负载均衡。",
+      "whyItMatters": "生产使用的说法和基准数据均为自报,不过仓库附带了可复现数字的测试脚本。",
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "deepseek-ai/DeepInfer",
+          "url": "https://github.com/deepseek-ai/DeepInfer"
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "headline": "WhatsApp帮助页面暗藏给客服聊天机器人的指令,包括不要引导用户联系监管机构",
+      "summary": "数据删除公司Redact在其阅读的545个帮助页面中发现80个含隐藏AI文本;其中一条据称要求机器人不要建议联系数据保护机构。WhatsApp对WIRED表示这是已修复的漏洞,机器人应避免提供法律建议;Redact称文本在10月18日前已被移除。",
+      "whyItMatters": "Redact读到的是指令而非机器人的实际回复,且其自身销售删除工具,因此立场并非中立。",
+      "category": "商业",
+      "sourceLinks": [
+        {
+          "title": "WhatsApp's help pages hid LLM instructions - Redact",
+          "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "headline": "MiniMax发布M3.1 Flash,每百万token输入0.15美元、输出0.60美元",
+      "summary": "MiniMax称这款面向智能体的模型速度比前代快近三倍,可达每秒200+ token,DeepSWE v1.1得分73.7%,CyberGym为82%。API现已可用,权重将稍后发布。",
+      "whyItMatters": "所有基准数字均来自MiniMax自身,开放权重仍只是承诺。",
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "MiniMax M3.1 Flash - MiniMax",
+          "url": "https://www.minimax.io/blog/minimax-m31f"
+        }
+      ]
+    },
+    {
+      "importance": 4,
+      "headline": "研究显示,经LoRA投毒的Qwen2.5-7B可通过干净基准测试,却在触发词出现时外传.env文件",
+      "summary": "该后门约耗费8美元算力,仅占约0.6%的参数,并从可事后更改的URL获取载荷。作者建议采用运行时沙箱并审查权重差异,而非依赖基准测试或扫描器。",
+      "whyItMatters": "研究认为,下载被编辑过的开放权重模型(包括abliterated版本)应与运行不受信任的代码一样谨慎。",
+      "category": "观点",
+      "sourceLinks": [
+        {
+          "title": "How abliterated models can get you pwned - ProjectDiscovery",
+          "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned"
+        }
+      ]
+    }
+  ]
+}

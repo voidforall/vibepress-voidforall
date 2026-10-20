@@ -1,0 +1,47 @@
+{
+  "id": "2026-10-20",
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T12:32:42Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A light Tuesday on verifiable material: Bitcoin's oldest overhang gets another year, and Alphabet heads toward earnings with heavy AI spending as the central question. Only items we could source are reported; no view on direction is offered.",
+  "stories": [
+    {
+      "importance": 1,
+      "headline": "Mt. Gox pushes its creditor repayment deadline to October 2027, with about 34,000 BTC still undistributed",
+      "summary": "Trustee Nobuaki Kobayashi moved the Base, Early Lump-Sum and Intermediate repayment deadline from Oct. 31, 2026 to Oct. 31, 2027, in a notice dated Oct. 16 and with court permission. The estate still holds 34,388 BTC (about $2.8 billion), and no distributions have been made since June.",
+      "whyItMatters": "This is the fourth one-year extension; the trustee cites creditors who have not completed required procedures and gives no timetable for further payouts.",
+      "category": "Crypto",
+      "sourceLinks": [
+        {
+          "title": "Mt. Gox Pushes Repayment Deadline to 2027 With $2.8B in Bitcoin Still to Distribute - Decrypt",
+          "url": "https://decrypt.co/381392/mt-gox-pushes-repayment-deadline-to-2027-with-2-8b-in-bitcoin-still-to-distribute"
+        },
+        {
+          "title": "Mt. Gox Pushes Its Repayment Deadline to October 2027 in Fourth Extension - Blockhead",
+          "url": "https://www.blockhead.co/2026/10/20/mt-gox-pushes-its-repayment-deadline-to-october-2027-in-fourth-extension/"
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "headline": "Alphabet is expected to report Q3 results on Oct. 28, after a quarter of record cloud growth and negative free cash flow",
+      "summary": "Calendar sites list Oct. 28 as the expected date, though some mark it unconfirmed. In Q2, revenue was $119.8 billion, Google Cloud grew 82% to $24.8 billion, 2026 capex guidance rose to $195–205 billion, and one report put free cash flow at -$5.9 billion.",
+      "whyItMatters": "Coverage frames the open question as whether heavy AI spending returns fast enough; Q2 shares fell after the report.",
+      "category": "Earnings",
+      "sourceLinks": [
+        {
+          "title": "Alphabet earnings date - Days.to",
+          "url": "https://days.to/alphabet-earnings"
+        },
+        {
+          "title": "Google plans to double capex spending as cloud growth soars 48% - Nasdaq",
+          "url": "https://www.nasdaq.com/articles/google-plans-double-capex-spending-cloud-growth-soars-48"
+        },
+        {
+          "title": "Alphabet post-Q2: AI growth accelerates as spending weighs on cash flow - S&P Global",
+          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/07/alphabet-postq-ai-growth-accelerates-as-spending-weighs-on-cash-flow"
+        }
+      ]
+    }
+  ]
+}

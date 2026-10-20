@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-20",
+      "date": "2026-10-20",
+      "headline": "Mt. Gox pushes its creditor repayment deadline to October 2027, with about 34,000 BTC still undistributed",
+      "storyCount": 2
+    },
+    {
       "id": "2026-10-19",
       "date": "2026-10-19",
       "headline": "Bitcoin rebounds above $82,000 as oil's retreat lifts risk mood, Bloomberg reports",

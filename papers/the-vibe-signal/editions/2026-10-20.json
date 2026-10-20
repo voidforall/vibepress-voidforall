@@ -1,0 +1,61 @@
+{
+  "id": "2026-10-20",
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T12:32:42Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Four items today, each worth the click: an inference engine published with the usual asterisks, a chatbot's hidden brief, a cheap fast model, and a reminder that open weights are not the same as audited weights.",
+  "stories": [
+    {
+      "importance": 1,
+      "headline": "DeepSeek open-sources DeepInfer, the inference engine it says runs its production services",
+      "summary": "The Apache-2.0 repo supports DeepSeek-V4.1-Flash on NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs, with speculative decoding, expert parallelism and structured outputs. It is offline inference only: no KV cache system, prefill/decode disaggregation or replica load balancing.",
+      "whyItMatters": "The production claim and the benchmarks are self-reported, though the repo ships a sweep script for reproducing the numbers.",
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "deepseek-ai/DeepInfer",
+          "url": "https://github.com/deepseek-ai/DeepInfer"
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "headline": "WhatsApp's help pages hid instructions for its support chatbot, including not to point users to regulators",
+      "summary": "Data-deletion firm Redact found hidden AI text on 80 of 545 help pages it read; one reportedly told the bot not to recommend contacting a data protection authority. WhatsApp told WIRED it was a bug, since fixed, and that the bot should avoid offering legal advice; Redact says the text was gone by Oct. 18.",
+      "whyItMatters": "Redact read the instructions, not the bot's actual replies, and sells deletion tools, so the framing is not neutral.",
+      "category": "Business",
+      "sourceLinks": [
+        {
+          "title": "WhatsApp's help pages hid LLM instructions - Redact",
+          "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "headline": "MiniMax releases M3.1 Flash, priced at $0.15 input and $0.60 output per million tokens",
+      "summary": "MiniMax says the agent-focused model is nearly three times faster than its predecessor, at 200+ tokens per second, and scores 73.7% on DeepSWE v1.1 and 82% on CyberGym. It is available through the API now; weights are promised later.",
+      "whyItMatters": "All benchmark figures are MiniMax's own, and open weights remain a promise.",
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "MiniMax M3.1 Flash - MiniMax",
+          "url": "https://www.minimax.io/blog/minimax-m31f"
+        }
+      ]
+    },
+    {
+      "importance": 4,
+      "headline": "Researchers show a LoRA-poisoned Qwen2.5-7B can pass clean benchmarks and still exfiltrate .env files on a trigger phrase",
+      "summary": "The backdoor took about $8 of compute, sits in roughly 0.6% of parameters, and fetches its payload from a URL that can be changed later. The authors suggest runtime sandboxing and vetting weight diffs rather than trusting benchmarks or scanners.",
+      "whyItMatters": "It argues that downloading edited open-weight models, abliterated ones included, deserves the same suspicion as running untrusted code.",
+      "category": "Ideas",
+      "sourceLinks": [
+        {
+          "title": "How abliterated models can get you pwned - ProjectDiscovery",
+          "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned"
+        }
+      ]
+    }
+  ]
+}

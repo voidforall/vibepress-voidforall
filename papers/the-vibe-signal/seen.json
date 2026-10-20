@@ -1,7 +1,39 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-19T14:22:55Z",
+  "updatedAt": "2026-10-20T12:32:42Z",
   "events": [
+    {
+      "date": "2026-10-20",
+      "headline": "WhatsApp's help pages hid instructions for its support chatbot, including not to point users to regulators",
+      "summary": "Data-deletion firm Redact found hidden AI text on 80 of 545 help pages it read; one reportedly told the bot not to recommend contacting a data protection authority. WhatsApp told WIRED it was a bug, since fixed, and that the bot should avo…",
+      "urls": [
+        "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "headline": "Researchers show a LoRA-poisoned Qwen2.5-7B can pass clean benchmarks and still exfiltrate .env files on a trigger phrase",
+      "summary": "The backdoor took about $8 of compute, sits in roughly 0.6% of parameters, and fetches its payload from a URL that can be changed later. The authors suggest runtime sandboxing and vetting weight diffs rather than trusting benchmarks or sca…",
+      "urls": [
+        "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "headline": "MiniMax releases M3.1 Flash, priced at $0.15 input and $0.60 output per million tokens",
+      "summary": "MiniMax says the agent-focused model is nearly three times faster than its predecessor, at 200+ tokens per second, and scores 73.7% on DeepSWE v1.1 and 82% on CyberGym. It is available through the API now; weights are promised later.",
+      "urls": [
+        "https://www.minimax.io/blog/minimax-m31f"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "headline": "DeepSeek open-sources DeepInfer, the inference engine it says runs its production services",
+      "summary": "The Apache-2.0 repo supports DeepSeek-V4.1-Flash on NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs, with speculative decoding, expert parallelism and structured outputs. It is offline inference only: no KV cache system, prefill/decode disagg…",
+      "urls": [
+        "https://github.com/deepseek-ai/DeepInfer"
+      ]
+    },
     {
       "date": "2026-10-19",
       "headline": "RepRapMicron: a desktop 3D-printed machine for micron-scale fabrication",
@@ -612,47 +644,6 @@
       "summary": "The zeroth-order method treats each token as a virtual population member, and the authors report it needs 1,000–10,000× less population than the weight-space method EGGROLL. At large populations it approaches or exceeds backprop on their p…",
       "urls": [
         "https://qlabs.sh/research/dust"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "headline": "Strata runs a 125B Qwen model on a single consumer GPU",
-      "summary": "The open-source Strata engine runs Qwen3.8-Flash-Next (125B) on gaming PCs with 12 GB+ VRAM and 32 GB+ RAM by spreading weights across GPU, system RAM and SSD. Its README reports 53 tokens/s output on an RTX 5070, plus a 1.6–1.8x speedup f…",
-      "urls": [
-        "https://github.com/Niko1221/Strata"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "headline": "Huawei and Qualcomm sign a multi-year patent cross-license",
-      "summary": "The October 5 announcement covers reciprocal licenses across 5G, compute, AI and networking, plus Qualcomm's acquisition of select Huawei U.S. patents. Both sides cite FRAND principles, and the transaction needs regulatory approval before…",
-      "urls": [
-        "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "headline": "Germany's RobCo passes a $1 billion valuation in an employee share sale",
-      "summary": "The Munich robotics company crossed $1 billion through a secondary sale, doubling its valuation in nine months, with Sequoia, Lightspeed and others plus new investors Cherry Ventures and European Tech Collective. It follows a $100 million…",
-      "urls": [
-        "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "headline": "Denmark discloses unauthorized access to 8.8 million people's CPR records",
-      "summary": "Danish authorities said a private company's legitimate access to the Central Person Register was misused during September, exposing names, addresses and ID numbers for about 8.8 million records, including deceased people and those who have…",
-      "urls": [
-        "https://cyberinsider.com/denmark-reports-unauthorized-access-to-8-8-million-peoples-cpr-data/",
-        "https://www.insurancejournal.com/news/international/2026/10/05/887972.htm"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "headline": "Cloudflare launches a beta Web Search API for agents",
-      "summary": "The API lets agents and apps search the web through REST or a Workers AI binding, routed via AI Gateway with logging and Zero Data Retention support. Ceramic.ai, Exa and Linkup are the launch providers, billed at their standard rates with…",
-      "urls": [
-        "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/"
       ]
     }
   ]
