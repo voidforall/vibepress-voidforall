@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-21",
+      "date": "2026-10-21",
+      "headline": "ByteDance, Alibaba and Tencent reportedly order over $35 billion of Nvidia RTX PRO 5500 cards, but supply may fall far short",
+      "storyCount": 4
+    },
+    {
       "id": "2026-10-20",
       "date": "2026-10-20",
       "headline": "Mt. Gox pushes its creditor repayment deadline to October 2027, with about 34,000 BTC still undistributed",

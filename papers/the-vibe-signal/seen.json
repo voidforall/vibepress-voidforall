@@ -1,7 +1,56 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-20T12:32:42Z",
+  "updatedAt": "2026-10-21T12:45:34Z",
   "events": [
+    {
+      "date": "2026-10-21",
+      "headline": "eMudhra's intermediate CA keys were single-byte numbers, crackable in under a second; Mozilla and Chrome are removing the root",
+      "summary": "Security researcher Scott Helme says private keys for eight eMudhra intermediate certificates were tiny values such as 4, 56 or 115, so at most 255 guesses recover one. Chrome and Firefox blocked the intermediates within hours of the Oct.…",
+      "urls": [
+        "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+        "https://emudhra.we-have-a-problem.com/"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "headline": "UNEP: the Paris 1.5°C goal is no longer achievable; it now frames the aim as overshoot then return",
+      "summary": "The 2026 Emissions Gap Report says exceeding 1.5°C is imminent and calls for cuts of 18% by 2030, 45% by 2035 and 69% by 2040 versus 2025. Current pledges would deliver only 5–8% by 2030, and about 320 gigatons of CO2 would need removing b…",
+      "urls": [
+        "https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "headline": "Ofcom concedes it cannot collect every Online Safety Act fine abroad, per 4chan's lawyer",
+      "summary": "Ofcom chief Melanie Dawes told MPs 'we won't be able to recover every single fine on online safety'. Preston Byrne, counsel to 4chan, says a US court ruled against 4chan on sovereign immunity but suggested it would likely not enforce a UK…",
+      "urls": [
+        "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "headline": "Mistral ships Voxtral 3: transcription, realtime and text-to-speech models plus a voice-agent SDK",
+      "summary": "The family covers Small and Mini batch transcription (50+ languages), a realtime model with under 500 ms latency, and Mini TTS in 35+ languages. Batch transcription is priced from $0.0035 per minute, and Mistral's own FLEURS benchmark puts…",
+      "urls": [
+        "https://mistral.ai/news/voxtral-3/"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "headline": "Google open-sources TorchTPU, a PyTorch backend for TPUs, at version 0.2.0",
+      "summary": "The Apache-2.0 repo offers custom ATen kernels, torch.compile integration, a compilation cache and data and tensor parallelism, with example Llama, Qwen and UNet models. It requires Python 3.11+, and its dependencies section is still marke…",
+      "urls": [
+        "https://github.com/google-pytorch/torch_tpu"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "headline": "Feds suspect a ransom negotiator ran ShinyHunters' Shinywire extortion site",
+      "summary": "Krebs reports Canadian security executive Edward Dubrovsky has been charged with extortion-related offences, and prosecutors want him held pending trial. Shinywire listed nearly 100 victims between May and October; the FBI says the group h…",
+      "urls": [
+        "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/"
+      ]
+    },
     {
       "date": "2026-10-20",
       "headline": "WhatsApp's help pages hid instructions for its support chatbot, including not to point users to regulators",
@@ -594,56 +643,6 @@
       "summary": "The post shows codemode orchestrating concurrent work, persisting state and calling MCP servers, while noting MCP's lack of structured returns and weak tool discovery.",
       "urls": [
         "https://lucumr.pocoo.org/2026/10/6/codemode/"
-      ]
-    },
-    {
-      "date": "2026-10-06",
-      "headline": "Vals reports Opus 5.5 agents proposed two room-temperature magnetic semiconductor candidates, with no lab measurements yet",
-      "summary": "Agents ran density-functional-theory simulations to design YBaMnFeO₅ (predicted 2.35 eV gap, ordering near 420 K) and to flag KV[Cr(CN)₆], synthesised in 1999 with ordering up to 376 K. The write-up says neither gap nor spin sorting has be…",
-      "urls": [
-        "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors"
-      ]
-    },
-    {
-      "date": "2026-10-06",
-      "headline": "Reflection announces Beam, a 501B open-weight model; weights due later this month",
-      "summary": "Beam is a sparse mixture-of-experts model with 23B active parameters, which Reflection says scores 80.9% on SWE-Bench Verified and 90.5% on GPQA Diamond. It remains in final red-teaming; Apache 2.0 weights are promised for later in October.",
-      "urls": [
-        "https://reflection.ai/blog/introducing-beam"
-      ]
-    },
-    {
-      "date": "2026-10-06",
-      "headline": "Polars 2.0 makes the streaming engine the default and breaks row-order guarantees",
-      "summary": "LazyFrame.collect() now uses the streaming engine, which does not guarantee row order for joins, group_by and unpivot unless maintain_order=True is set. The release also enables spill-to-disk by default (from about 80% RAM), adds a native…",
-      "urls": [
-        "https://pola.rs/posts/release-polars-2/"
-      ]
-    },
-    {
-      "date": "2026-10-06",
-      "headline": "Mistral Large 4: 1.05T-parameter open-weight multimodal model with 1M-token context, in public preview",
-      "summary": "Mistral's docs list 1.05T total and 49B active parameters in a mixture-of-experts design with a 1.6B vision encoder. API pricing is $0.68 per million input tokens and $2.09 per million output.",
-      "urls": [
-        "https://docs.mistral.ai/models/mistral-large-4-0"
-      ]
-    },
-    {
-      "date": "2026-10-06",
-      "headline": "Francis Halzen wins the Nobel Prize in Physics for IceCube and the discovery of high-energy astrophysical neutrinos",
-      "summary": "The prize recognises Halzen's decisive contributions to the IceCube Neutrino Observatory, a cubic-kilometre detector in Antarctic ice finished in 2011. IceCube reported 28 extra-solar neutrinos in 2013 and in 2018 traced one to a blazar ab…",
-      "urls": [
-        "https://physicsworld.com/a/francis-halzen-wins-nobel-prize-in-physics/",
-        "https://www.nobelprize.org/prizes/physics/2026/press-release/",
-        "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics"
-      ]
-    },
-    {
-      "date": "2026-10-06",
-      "headline": "Dust trains transformer language models without backpropagation by perturbing activations at every token",
-      "summary": "The zeroth-order method treats each token as a virtual population member, and the authors report it needs 1,000–10,000× less population than the weight-space method EGGROLL. At large populations it approaches or exceeds backprop on their p…",
-      "urls": [
-        "https://qlabs.sh/research/dust"
       ]
     }
   ]

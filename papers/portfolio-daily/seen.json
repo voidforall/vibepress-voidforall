@@ -1,7 +1,39 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-20T12:32:42Z",
+  "updatedAt": "2026-10-21T12:45:34Z",
   "events": [
+    {
+      "date": "2026-10-21",
+      "headline": "Switzerland's FINMA approves a first spot bitcoin ETF for retail investors, with the usual diversification rules waived",
+      "summary": "FINMA announced on Oct. 20 that it classifies the fund as an 'other fund for alternative investments' and waived diversification requirements, citing bitcoin's longer trading history and higher volumes than other cryptocurrencies. Provider…",
+      "urls": [
+        "https://www.theblock.co/news/regulation/2026-10-20-swiss-regulator-finma-approves-countrys-first-spot-bitcoin-etf-for-retail-investors-421127"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "headline": "Rocket Lab rises 3.9% pre-market after a 20%-plus slide; Q3 results are set for Nov. 9",
+      "summary": "Shares were up 3.9% to $52.87 before the open on Oct. 21, after falling more than 20% between Oct. 13 and 20 when Neutron's debut was pushed to 2027. Rocket Lab will report Q3 results on Nov. 9 after the close, and Iridium shareholders app…",
+      "urls": [
+        "https://finance.yahoo.com/markets/stocks/articles/why-rocket-lab-stock-rising-101858148.html"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "headline": "Gold trades near $4,122 after three straight daily losses as rate-hike bets build",
+      "summary": "FXStreet reports spot gold fell about 0.43% on Tuesday even as Treasury yields and the dollar weakened. Markets price about a 14% chance of a Fed hike in October and nearly 90% for December, per Prime Terminal, and Fed Chair Kevin Warsh ho…",
+      "urls": [
+        "https://www.mitrade.com/au/insights/news/live-news/article-2-2178039-20261021"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "headline": "ByteDance, Alibaba and Tencent reportedly order over $35 billion of Nvidia RTX PRO 5500 cards, but supply may fall far short",
+      "summary": "Reuters, citing sources, reports the three firms ordered more than 3 million of the export-compliant cards at about $11,400 each, mainly for AI inference. Total Chinese orders reportedly exceed 6 million, and Nvidia has told partners some…",
+      "urls": [
+        "https://wsau.com/2026/10/20/exclusive-bytedance-alibaba-tencent-place-over-35-billion-worth-of-nvidia-chip-orders/"
+      ]
+    },
     {
       "date": "2026-10-20",
       "headline": "Mt. Gox pushes its creditor repayment deadline to October 2027, with about 34,000 BTC still undistributed",
@@ -645,43 +677,6 @@
       "summary": "Black Hills Corp. will provide up to 590 MW of grid-connected service and invest $1.8 billion in 2027–2029 to build 564 MW of company-owned generation. Google provided $399 million of refundable advances for equipment procurement, and the…",
       "urls": [
         "https://www.sec.gov/Archives/edgar/data/0001130464/000119312526415597/bkh-ex99_1.htm"
-      ]
-    },
-    {
-      "date": "2026-10-06",
-      "headline": "Strategy buys 334 bitcoin for $28.7 million, lifting holdings to about 848,000 BTC, as bitcoin stalls below $87,000",
-      "summary": "Per SEC filings, Strategy bought 334 BTC at an average of about $85,839 between Sept. 28 and Oct. 4, funded by MSTR stock sales and cash. Bitcoin hit resistance just above $87,000 on Oct. 5, a level that has capped rallies since Sept. 23,…",
-      "urls": [
-        "https://www.theblock.co/news/business/2026-10-05-more-orange-than-ever-michael-saylor-strategy-bitcoin-417631",
-        "https://99bitcoins.com/news/bitcoin-btc/btc-usd-price-87000-resistance-saylor-buy/"
-      ]
-    },
-    {
-      "date": "2026-10-06",
-      "headline": "Google signs a 20-year deal with Constellation Energy to add 890 MW of nuclear capacity, plus a 15-year, 2,700 MW supply agreement",
-      "summary": "Constellation will invest more than $4.3 billion to upgrade 11 nuclear units in Illinois, Pennsylvania and New Jersey, with the first capacity increase expected by 2028. Constellation shares jumped on the news.",
-      "urls": [
-        "https://finance.yahoo.com/technology/article/google-signs-20-year-nuclear-deal-with-constellation-energy-to-power-ai-build-out-131104702.html",
-        "https://www.benzinga.com/markets/tech/26/10/62190391/google-constellation-energy-nuclear-deal-stocks-rally",
-        "https://www.investing.com/news/company-news/google-signs-20year-nuclear-power-deal-with-constellation-93CH-4933906"
-      ]
-    },
-    {
-      "date": "2026-10-06",
-      "headline": "Gold edges up to about $4,169 an ounce, still roughly 26% below its January peak",
-      "summary": "Spot gold was about $4,169 at 7:41 a.m. ET, up $29, with December futures opening near $4,169. A firmer dollar and higher Treasury yields continue to weigh; the metal peaked near $5,595 in January.",
-      "urls": [
-        "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-october-6-2026-gold-edges-higher-as-investors-monitor-domestic-and-global-conditions-111213149.html",
-        "https://www.business-standard.com/amp/finance/personal-finance/gold-is-26-below-its-2026-peak-buy-now-or-wait-what-investors-should-do-126100600129_1.html"
-      ]
-    },
-    {
-      "date": "2026-10-06",
-      "headline": "Alibaba rises about 4% as its June-quarter AI cloud revenue of $7.1 billion, up 45%, regains attention",
-      "summary": "Alibaba traded up about 4% at $110.04 on Oct. 5. Its June-quarter AI Cloud and Compute Services revenue rose 45% to $7.1 billion and adjusted EBITA climbed 133% to $830 million, while quarterly capex approached $10 billion, up 75%.",
-      "urls": [
-        "https://www.gurufocus.com/news/9109743/alibaba-stocks-jump-4-as-ai-cloud-growth-reclaims-the-narrative",
-        "https://seekingalpha.com/news/4612212-alibaba-shares-jump-ai-cloud-market-report"
       ]
     }
   ]
