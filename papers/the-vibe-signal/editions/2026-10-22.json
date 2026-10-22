@@ -1,0 +1,61 @@
+{
+  "id": "2026-10-22",
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T12:48:49Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Supply-chain and memory-safety trouble dominates: a poisoned PyPI release and two PHP remote-code-execution bugs. DuckDB and Anthropic ship, with the usual migration notes and waitlists.",
+  "stories": [
+    {
+      "importance": 1,
+      "headline": "A compromised LiteLLM 1.107.0 on PyPI installed a credential stealer and backdoor",
+      "summary": "SafeDep says all seven wheels of 1.107.0 and the Docker tags latest and main-stable carried malicious files absent from the GitHub source; the attacker had used three developers' GitHub CLI credentials to bypass branch protection. PyPI pulled the release at 13:23 UTC.",
+      "whyItMatters": "The stealer targets SSH keys, cloud and CI credentials and LLM provider keys, and the backdoor can run downloaded code, so hosts that ran 1.107.0 should be treated as exposed.",
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor - SafeDep",
+          "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/"
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "headline": "PHP ships fixes for two remote-code-execution bugs, in 8.5.12, 8.4.27, 8.3.36 and 8.2.35",
+      "summary": "CVE-2026-109618 corrupts memory when a request hits the memory limit at the wrong moment, and CVE-2026-109619 leaves stale state pointing at freed memory after a fatal error. The PHP Foundation says unauthenticated requests could trigger the first on Apache mod_php.",
+      "whyItMatters": "The Foundation also describes new staff, tooling and decision rules for its security work, and asks companies and governments to fund it.",
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "Today's PHP security release, and how we're strengthening PHP security - The PHP Foundation",
+          "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/"
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "headline": "DuckDB 2.0.0 LTS adds a client-server protocol, async I/O and an agent-friendly CLI",
+      "summary": "The release adds the Quack protocol and a CONNECT statement, background reads for Parquet and CSV, a columnar VARIANT type and a PEG-based parser. The CLI detects coding agents and switches to compact Markdown output with JSON errors.",
+      "whyItMatters": "2.0 is supported until at least October 2027; files from 2.0 cannot be read by pre-2.0 versions, the single-arrow lambda syntax is off by default, and a C++17 compiler is now required.",
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "Announcing DuckDB 2.0.0 LTS \"Cinnamon Teal\" - DuckDB",
+          "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200"
+        }
+      ]
+    },
+    {
+      "importance": 4,
+      "headline": "Anthropic opens a waitlist for Claude Duet, a proactive background agent powered by Opus 5.5",
+      "summary": "Duet, in research preview, works on tasks in the background, sends morning briefs and asks before sensitive actions such as sending messages or paying. It connects to more than 6,000 connectors and runs on iOS, Android and the web.",
+      "whyItMatters": "Access is limited to Pro and Max subscribers in the US by waitlist, on shared plan usage limits; Team and Enterprise are not included, and Anthropic's page warns it may misjudge urgency.",
+      "category": "Business",
+      "sourceLinks": [
+        {
+          "title": "Claude Duet - Anthropic",
+          "url": "https://claude.com/product/claude-duet"
+        }
+      ]
+    }
+  ]
+}

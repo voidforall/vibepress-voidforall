@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-10-22",
+      "date": "2026-10-22",
+      "headline": "A compromised LiteLLM 1.107.0 on PyPI installed a credential stealer and backdoor",
+      "storyCount": 4
+    },
+    {
       "id": "2026-10-21",
       "date": "2026-10-21",
       "headline": "eMudhra's intermediate CA keys were single-byte numbers, crackable in under a second; Mozilla and Chrome are removing the root",

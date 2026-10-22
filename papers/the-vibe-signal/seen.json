@@ -1,7 +1,39 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-21T12:45:34Z",
+  "updatedAt": "2026-10-22T12:48:50Z",
   "events": [
+    {
+      "date": "2026-10-22",
+      "headline": "PHP ships fixes for two remote-code-execution bugs, in 8.5.12, 8.4.27, 8.3.36 and 8.2.35",
+      "summary": "CVE-2026-109618 corrupts memory when a request hits the memory limit at the wrong moment, and CVE-2026-109619 leaves stale state pointing at freed memory after a fatal error. The PHP Foundation says unauthenticated requests could trigger t…",
+      "urls": [
+        "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "DuckDB 2.0.0 LTS adds a client-server protocol, async I/O and an agent-friendly CLI",
+      "summary": "The release adds the Quack protocol and a CONNECT statement, background reads for Parquet and CSV, a columnar VARIANT type and a PEG-based parser. The CLI detects coding agents and switches to compact Markdown output with JSON errors.",
+      "urls": [
+        "https://duckdb.org/2026/10/21/announcing-duckdb-200"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "Anthropic opens a waitlist for Claude Duet, a proactive background agent powered by Opus 5.5",
+      "summary": "Duet, in research preview, works on tasks in the background, sends morning briefs and asks before sensitive actions such as sending messages or paying. It connects to more than 6,000 connectors and runs on iOS, Android and the web.",
+      "urls": [
+        "https://claude.com/product/claude-duet"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "A compromised LiteLLM 1.107.0 on PyPI installed a credential stealer and backdoor",
+      "summary": "SafeDep says all seven wheels of 1.107.0 and the Docker tags latest and main-stable carried malicious files absent from the GitHub source; the attacker had used three developers' GitHub CLI credentials to bypass branch protection. PyPI pul…",
+      "urls": [
+        "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/"
+      ]
+    },
     {
       "date": "2026-10-21",
       "headline": "eMudhra's intermediate CA keys were single-byte numbers, crackable in under a second; Mozilla and Chrome are removing the root",
@@ -595,54 +627,6 @@
       "summary": "Haiku 5.5 launched October 7 at $0.10 input and $0.50 output per million tokens for prompts up to 100k, about 75% cheaper to run than Haiku 4.5 by Anthropic's account. It scores 72.4% on OSWorld 2.1 (offline subset) against 15.7% for Haiku…",
       "urls": [
         "https://www.anthropic.com/claude-haiku-5-5"
-      ]
-    },
-    {
-      "date": "2026-10-07",
-      "headline": "Strands releases Decider 2B, an open-source decision model that runs locally",
-      "summary": "Built on Qwen 3.5-2B with the language head replaced by a pointer head, it picks among predefined options, with median latency of about 115 ms on an RTX 3090. It ranks 3rd of 33 in the 2B class on JevBench; training data and scripts are pu…",
-      "urls": [
-        "https://strandsagents.com/blog/introducing-strands-decider/"
-      ]
-    },
-    {
-      "date": "2026-10-07",
-      "headline": "OpenTPU: an open-source accelerator designed by AI agents runs Qwen3 on an old Kintex-7 FPGA",
-      "summary": "The repo bundles RTL, ISA, simulator, compiler and profiler; the four-column systolic design runs at 133.33 MHz and reaches 82–94% of DDR3 peak bandwidth in decoding.",
-      "urls": [
-        "https://github.com/FeSens/openTPU"
-      ]
-    },
-    {
-      "date": "2026-10-07",
-      "headline": "OpenAI puts a Decisions API into public beta: typed answers about 10x faster than Responses, at $0.10 per million input tokens",
-      "summary": "The endpoint returns predicates, choices or scores for text and images, currently only on gpt-6-luna. General availability is promised in the coming weeks.",
-      "urls": [
-        "https://developers.openai.com/api/docs/guides/decisions"
-      ]
-    },
-    {
-      "date": "2026-10-07",
-      "headline": "Google's EmbeddingGemma 2 maps text, images, audio and video into one embedding space",
-      "summary": "The 740M-parameter Apache 2.0 model needs about 191MB of RAM for text-only use and 567MB for the full multimodal version, and compresses vectors from 768 to 128 dimensions.",
-      "urls": [
-        "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
-      ]
-    },
-    {
-      "date": "2026-10-07",
-      "headline": "Chrome 155 ships JPEG XL, decoded by a Rust implementation",
-      "summary": "Google says the jxl-rs decoder, claimed to offer 30–50% better compression than JPEG, has had zero memory-safety bugs in development. The team cites developer demand through the Interop Project.",
-      "urls": [
-        "https://developer.chrome.com/blog/jpeg-xl-in-chrome"
-      ]
-    },
-    {
-      "date": "2026-10-07",
-      "headline": "A blog post explains 'codemode': letting the model run JavaScript inside the agent harness",
-      "summary": "The post shows codemode orchestrating concurrent work, persisting state and calling MCP servers, while noting MCP's lack of structured returns and weak tool discovery.",
-      "urls": [
-        "https://lucumr.pocoo.org/2026/10/6/codemode/"
       ]
     }
   ]

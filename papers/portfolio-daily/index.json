@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-22",
+      "date": "2026-10-22",
+      "headline": "Alibaba shares post their steepest drop in two months as China presses e-commerce platforms on quality standards",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-21",
       "date": "2026-10-21",
       "headline": "ByteDance, Alibaba and Tencent reportedly order over $35 billion of Nvidia RTX PRO 5500 cards, but supply may fall far short",

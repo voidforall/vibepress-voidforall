@@ -1,7 +1,31 @@
 {
   "windowDays": 21,
-  "updatedAt": "2026-10-15T12:29:26Z",
+  "updatedAt": "2026-10-22T12:48:49Z",
   "events": [
+    {
+      "date": "2026-10-22",
+      "headline": "NASA says Artemis II's heat shield performed as expected, with 9 char-loss spots versus 103 on Artemis I",
+      "summary": "After Navy diver imagery, inspections and X-ray scans, NASA says Orion's heat shield matched pre-flight predictions at about 39 times the speed of sound and above 4,000°F outside. A shorter downrange trajectory cut cracking and char loss r…",
+      "urls": [
+        "https://nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "Falcon 9 launches Bandwagon-5: SpaceX's Starfall capsule, Varda W-7 and 30 other payloads",
+      "summary": "After a weather scrub on Oct. 19, SpaceX launched the rideshare on Oct. 20 from Cape Canaveral with 32 payloads, including Starfall, a Varda capsule carrying a cancer-drug experiment, and Portal Space Systems' 260 kg Starburst-1.",
+      "urls": [
+        "https://spaceflightnow.com/?p=74581"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "Euclid finds its first comet, C/2026 S1, while hunting for galaxies",
+      "summary": "ESA's Euclid telescope turned up a comet in images taken Sept. 16–24; University of Helsinki PhD student Mikko Pöntinen's software flagged a streak, and it sits about 1.3 billion km away with a fuzzy cloud suggesting it is shedding dust an…",
+      "urls": [
+        "https://www.sci.news/astronomy/esas-euclid-space-telescope-first-comet-15139.html"
+      ]
+    },
     {
       "date": "2026-10-15",
       "headline": "Webb sees water clouds thicken and thin on the cold brown dwarf WISE 0855",

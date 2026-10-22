@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-22",
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T12:48:49Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "A quiet week of firsts and checkups: a galaxy-survey telescope stumbles onto a comet, Orion's heat shield gets its report card, and a rideshare rocket carries a crowd of small spacecraft.",
+  "stories": [
+    {
+      "importance": 1,
+      "headline": "Euclid finds its first comet, C/2026 S1, while hunting for galaxies",
+      "summary": "ESA's Euclid telescope turned up a comet in images taken Sept. 16–24; University of Helsinki PhD student Mikko Pöntinen's software flagged a streak, and it sits about 1.3 billion km away with a fuzzy cloud suggesting it is shedding dust and gas.",
+      "whyItMatters": "Euclid is built to study distant galaxies and avoids the planetary plane where most comets lie, so a comet discovery is a surprise; it is not a fit for ESA's Comet Interceptor but offers a test of how the teams would coordinate.",
+      "category": "Astronomy",
+      "sourceLinks": [
+        {
+          "title": "ESA's Euclid Space Telescope Discovers Its First Comet - Sci.News",
+          "url": "https://www.sci.news/astronomy/esas-euclid-space-telescope-first-comet-15139.html"
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "headline": "NASA says Artemis II's heat shield performed as expected, with 9 char-loss spots versus 103 on Artemis I",
+      "summary": "After Navy diver imagery, inspections and X-ray scans, NASA says Orion's heat shield matched pre-flight predictions at about 39 times the speed of sound and above 4,000°F outside. A shorter downrange trajectory cut cracking and char loss roughly tenfold.",
+      "whyItMatters": "The Artemis I heat shield problem was handled by changing the entry path, not the hardware; Artemis III upgrades aim for more uniform Avcoat permeability, with NASA planning an Artemis IV lunar landing in 2028.",
+      "category": "Missions",
+      "sourceLinks": [
+        {
+          "title": "Rigorous Analysis Confirms NASA's Artemis II Heat Shield Performance - NASA",
+          "url": "https://nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance"
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "headline": "Falcon 9 launches Bandwagon-5: SpaceX's Starfall capsule, Varda W-7 and 30 other payloads",
+      "summary": "After a weather scrub on Oct. 19, SpaceX launched the rideshare on Oct. 20 from Cape Canaveral with 32 payloads, including Starfall, a Varda capsule carrying a cancer-drug experiment, and Portal Space Systems' 260 kg Starburst-1.",
+      "whyItMatters": "It is Starfall's second flight; per an FAA assessment the capsule is about 3.1 m wide and can carry up to 1,000 kg of payload, though SpaceX did not say what it carried this time.",
+      "category": "Launches",
+      "sourceLinks": [
+        {
+          "title": "Live coverage: SpaceX to launch Starfall reentry capsule, 31 customer payloads on Bandwagon-5 rideshare mission - Spaceflight Now",
+          "url": "https://spaceflightnow.com/?p=74581"
+        }
+      ]
+    }
+  ]
+}

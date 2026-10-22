@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-22",
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T12:48:49Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "这一周有几个“头一回”和一次“体检”:一台星系巡天望远镜意外发现彗星,猎户座飞船的隔热罩拿到成绩单,一枚拼车火箭载着一批小型航天器升空。",
+  "stories": [
+    {
+      "importance": 1,
+      "headline": "欧几里得发现首颗彗星 C/2026 S1,当时它本在寻找星系",
+      "summary": "欧洲航天局的欧几里得望远镜在9月16日至24日拍摄的图像中发现了一颗彗星;赫尔辛基大学博士生米科·珀恩蒂宁的软件标出了一道拖痕,它距地球约13亿公里,周围模糊的云雾显示它正在抛出尘埃和气体。",
+      "whyItMatters": "欧几里得本为研究遥远星系而设计,并避开了多数彗星所在的行星轨道面,因此发现彗星出人意料;它不适合作为欧洲航天局“彗星拦截者”任务的目标,但可作为两个任务团队协调方式的试验。",
+      "category": "天文",
+      "sourceLinks": [
+        {
+          "title": "ESA's Euclid Space Telescope Discovers Its First Comet - Sci.News",
+          "url": "https://www.sci.news/astronomy/esas-euclid-space-telescope-first-comet-15139.html"
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "headline": "美国宇航局:阿尔忒弥斯二号隔热罩表现符合预期,炭化损失点9处,阿尔忒弥斯一号为103处",
+      "summary": "经潜水员影像、检查和X光扫描,美国宇航局表示猎户座隔热罩的表现与飞行前预测一致,当时速度约为39倍音速,外部温度超过4000华氏度。更短的下行航程使开裂和炭化损失减少了约十倍。",
+      "whyItMatters": "阿尔忒弥斯一号的隔热罩问题是通过改变再入路径而非硬件来解决的;阿尔忒弥斯三号的改进旨在使Avcoat材料的渗透性更均匀,美国宇航局计划在2028年进行阿尔忒弥斯四号登月任务。",
+      "category": "任务",
+      "sourceLinks": [
+        {
+          "title": "Rigorous Analysis Confirms NASA's Artemis II Heat Shield Performance - NASA",
+          "url": "https://nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance"
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "headline": "猎鹰9号发射拼车任务Bandwagon-5:搭载SpaceX“星落”返回舱、Varda W-7及另外30个有效载荷",
+      "summary": "10月19日因天气推迟后,SpaceX于10月20日从卡纳维拉尔角发射这次拼车任务,共搭载32个有效载荷,包括“星落”返回舱、搭载抗癌药物实验的Varda返回舱,以及Portal Space Systems重260公斤的Starburst-1。",
+      "whyItMatters": "这是“星落”的第二次飞行;据美国联邦航空管理局评估,该舱宽约3.1米,最多可载1000公斤有效载荷,但SpaceX未说明此次载荷内容。",
+      "category": "发射",
+      "sourceLinks": [
+        {
+          "title": "Live coverage: SpaceX to launch Starfall reentry capsule, 31 customer payloads on Bandwagon-5 rideshare mission - Spaceflight Now",
+          "url": "https://spaceflightnow.com/?p=74581"
+        }
+      ]
+    }
+  ]
+}

@@ -7,6 +7,12 @@
   "emoji": "🪐",
   "editions": [
     {
+      "id": "2026-10-22",
+      "date": "2026-10-22",
+      "headline": "Euclid finds its first comet, C/2026 S1, while hunting for galaxies",
+      "storyCount": 3
+    },
+    {
       "id": "2026-10-15",
       "date": "2026-10-15",
       "headline": "A cargo Dragon carries the space station's final roll-out solar arrays to orbit",

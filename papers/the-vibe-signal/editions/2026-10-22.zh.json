@@ -1,0 +1,61 @@
+{
+  "id": "2026-10-22",
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T12:48:49Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天供应链与内存安全问题居多:一个被投毒的PyPI版本,以及两个PHP远程代码执行漏洞。DuckDB和Anthropic发布新产品,照例附带迁移说明和候补名单。",
+  "stories": [
+    {
+      "importance": 1,
+      "headline": "PyPI上被入侵的LiteLLM 1.107.0安装了凭据窃取程序和后门",
+      "summary": "SafeDep称,1.107.0的全部七个wheel包以及Docker标签latest和main-stable都带有GitHub源码中没有的恶意文件;攻击者利用三名开发者的GitHub CLI凭据绕过了分支保护。PyPI于UTC 13:23下架该版本。",
+      "whyItMatters": "该窃取程序针对SSH密钥、云和CI凭据以及大模型服务商密钥,后门还能执行下载的代码,因此运行过1.107.0的主机应视为已暴露。",
+      "category": "科技",
+      "sourceLinks": [
+        {
+          "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor - SafeDep",
+          "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/"
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "headline": "PHP发布修复两个远程代码执行漏洞的版本:8.5.12、8.4.27、8.3.36和8.2.35",
+      "summary": "CVE-2026-109618会在请求恰好触及内存上限时破坏内存,CVE-2026-109619则会在致命错误后留下指向已释放内存的陈旧状态。PHP基金会称,在Apache mod_php上未经认证的请求即可触发前者。",
+      "whyItMatters": "基金会还介绍了安全工作的新增人员、工具和决策规则,并呼吁企业和政府提供资金支持。",
+      "category": "科技",
+      "sourceLinks": [
+        {
+          "title": "Today's PHP security release, and how we're strengthening PHP security - The PHP Foundation",
+          "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/"
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "headline": "DuckDB 2.0.0 LTS新增客户端-服务器协议、异步I/O和对智能体友好的命令行",
+      "summary": "此版本新增Quack协议和CONNECT语句、Parquet和CSV的后台读取、列式VARIANT类型以及基于PEG的解析器。命令行工具能识别编程智能体,并切换为紧凑的Markdown输出和JSON错误。",
+      "whyItMatters": "2.0至少获得支持到2027年10月;2.0创建的数据库文件无法被2.0之前的版本读取,单箭头lambda语法默认关闭,并且现在需要C++17编译器。",
+      "category": "科技",
+      "sourceLinks": [
+        {
+          "title": "Announcing DuckDB 2.0.0 LTS \"Cinnamon Teal\" - DuckDB",
+          "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200"
+        }
+      ]
+    },
+    {
+      "importance": 4,
+      "headline": "Anthropic开放Claude Duet候补名单,这是一款由Opus 5.5驱动的主动式后台智能体",
+      "summary": "Duet目前处于研究预览阶段,可在后台处理任务、发送晨间简报,并在发送消息或付款等敏感操作前征求同意。它支持6000多个连接器,可在iOS、Android和网页端使用。",
+      "whyItMatters": "仅限美国Pro和Max订阅用户通过候补名单使用,并与套餐共享用量上限;团队版和企业版暂不包含,Anthropic页面也提醒它可能误判紧急程度。",
+      "category": "商业",
+      "sourceLinks": [
+        {
+          "title": "Claude Duet - Anthropic",
+          "url": "https://claude.com/product/claude-duet"
+        }
+      ]
+    }
+  ]
+}

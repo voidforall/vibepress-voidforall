@@ -1,0 +1,111 @@
+{
+  "id": "2026-10-22",
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T12:48:49Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "自选股周四整体偏弱:阿里巴巴、黄金和比特币均下跌,火箭实验室和Alphabet则因火箭延期和分析师动作成为焦点。其中若干条目仅依据标题级别的报道。",
+  "stories": [
+    {
+      "importance": 1,
+      "headline": "阿里巴巴股价录得两个月来最大跌幅,中国就质量标准向电商平台施压",
+      "summary": "彭博、雅虎财经和Seeking Alpha的标题报道称,阿里巴巴股价因中国对电商平台质量标准的限制而下跌。文章正文无法获取,因此不提供具体数字。",
+      "whyItMatters": "据标题,此次跌幅为两个月来最大,并与监管压力有关。",
+      "category": "公司",
+      "sourceLinks": [
+        {
+          "title": "Alibaba Shares Post Steepest Drop in Two Months on China Curbs - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcjNQYUdPNm9tWmRpR3A3Y1FfaTI4NGg5OEFKTXlHNmVWNjNzMTd0bkQ4QWh3V3NiT3lQYTNBY0JlbTFkRFZUbjVxdFFVblgyWnZ0Q3JLYnV5bUotMjBEQ2RpZUx4R0dSVk1rNTJUUUc5REI3R25mNmM4cEpUVjdLZTlRdTA2WUp4eFpLVXM3V3N0YkZCVGJrcGlhRlZpVHk0SkZxT2VydzNCMElPX1BkZUNhcw?oc=5"
+        },
+        {
+          "title": "Alibaba shares tumble as China presses e-commerce platforms on quality standards (BABA:NYSE) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYmVqM0p6SGhseFU0MmNuMGg2Z1VrdUlCRVZFWC12LWV5ZUhMd0JhbW1qOGMxb0ZsbkJKZEJsWnZiWERwdnMwMmVTeFBnbS1OM0J2ZXRIcXJtNGhYTmJ3OGV5WXE4R1E3NmhNMGduczBSaHkwWEJ2VjgtUE8wLU9jTWpwRlVWUU9nMjJwOWswdTNiSnlOTUdMRjZOeHNJSTNGek5Ud0tnU3ZsamJaV3RhUW5DalU3ZEhXZEE?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "headline": "火箭实验室Neutron火箭推迟至2027年,方舟投资据报减持Alphabet、买入火箭实验室",
+      "summary": "TOP1markets的标题称Neutron发射推迟至2027年,Tech-Insider的标题称方舟投资在延期后减持Alphabet并买入火箭实验室。文章正文无法获取。",
+      "whyItMatters": "此次延期紧随本报10月21日报道的火箭实验室股价下跌;该公司第三季度业绩定于11月9日公布。",
+      "category": "公司",
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab’s Neutron Slips to 2027: How Much Does the Delay Really Cost RKLB? - TOP1markets",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9mSjMtcDhpdFUtekJ4MFRmYWIzby1WMHdMWnpfSkx1TUJtWlo1WU1oN0xjYVdEdTBjTDE5OHNoQ2M0STdWM3RDZ1NyYkM5dkJMdnNPWGp0dEpWUGh4WTdjVlZHdW1FUnlnUkJyWVJVc1F1UGhUZ0xjY1FHbDVfQQ?oc=5"
+        },
+        {
+          "title": "Ark Trims Alphabet, Buys Rocket Lab After Neutron Delay [2026] - https://tech-insider.org/",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbU1kLUVOaEVWYlpab0x3clRRRTlBYVdJWWliR2VmaUpYR254VFQ2U1pSTXpDWUhDaTJ2TU1PMGNNUnJ4WF94MnlYa25rNkgzT0pEdWExdHRQekQ0T0lXOWdOYWlvMjVJeFFrdzVjUkg2LVo0V2xYLXZVWTdxczJfcA?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "headline": "黄金跌破4100美元,创约两个月来最低",
+      "summary": "《经济时报》和investingLive的标题称黄金跌至两个月低点,低于4100美元,卖方可能再度推动下破。文章正文无法获取。",
+      "whyItMatters": "10月21日黄金在连续三个交易日下跌后报价约4122美元,因此这延续了跌势。",
+      "category": "大宗商品",
+      "sourceLinks": [
+        {
+          "title": "Gold price today: Gold rate crashes to lowest in 2 months, silver price drops. Here's what to expect - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQWkQwSlRXWnByNUl0VnVNQ0JTbWdEQU1kRWtlUnhQTnVGT295eVZyblJDU1E5VTQxMjZRdnBUMU5mNzZhaTc3RFlsbXNQMHE3bEk4Q3JVSXBzNWtpR0VNY0cwY2k0dXhhaExyd0JNczRwdmpfRFRUR29XUjhYRWozNnM1bG85clExb2NUSE93TWxWOGk0dGJhVkpJYUtxZU10T0R6YzJ6c1dmV0NpWHJNYm9LUlVuQVFFZ2pyR3N5bVJ5SzE3QUJKdlJPRXVsWFAtOWFTeTl4WnlhYlB4eXZpUjNvZ3RqRllJNVI0c1UtVGJpeW9vQ3V2M1k5VHJSTVlUSHfSAYcCQVVfeXFMTjhmWkFMenNTanRReUY5UHY0alNxQnhNRzZQSm85TzM5N0JGTUc0WktKcDZtRVJaUV9pRUpLV3V3bVFoY0tpaDJQRDA4R3ZvMUxnZnhLNmJSRjZUcmtTV0x5bDkzNmNLN2xSVTVBdHRLekpWU0xscFlXTVcwUGJWR1lVcXRXQ0lDOHRsZGI2RFFoenlmbW5FZU5HREJCVjd3QVZpMlRtSTdlWGRCZi01dUFHaTNlVy1WV2ZacHdfOFREN2FZaGE0MTduQ3hoblJTZ3plT2xLRFpjeVpoYzV0Q1hVQXI3WENpMnoybklJNDVkUHlmVlZqa3VfNHdteDU3dXEzVkQxeHc?oc=5"
+        },
+        {
+          "title": "Chart of the day: Gold price falls below $4,100 as sellers threaten another breakdown - investingLive",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQ2p2LWNZaDcyMmxYUkhJX3BsNFZHcEl0UEpoZzRNRm04RG1PT082NmFXZHFGbi0xeGJHZnZRZ3lsYlJpY3hVQlFUMnZqdUM1eVhWdHRfei0xNV9VTmdDTFUtejJkQzh4RnFyVzhCQkRkUXNTREFaaXpSQXA0TlR1MUdMSzFxTXBFdkN4UlJNQjI3WTBMVk9YcVQyUWhuOElTT1hzNERvTGVvVEh1NGxyT2d1RjBXRlR1c3F0TFNIa1JaUGVGMUtFdw?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 4,
+      "headline": "比特币因AI担忧跌破8.3万美元",
+      "summary": "彭博标题称比特币因人工智能相关担忧跌破8.3万美元;CoinDesk称DeFi代币领跌加密市场,雅虎财经称周三涨幅已被抹去,油价高于每桶111美元。文章正文无法获取。",
+      "whyItMatters": "比特币10月19日曾反弹至8.2万美元上方,因此短暂上涨后仍在相近区间交易。",
+      "category": "加密货币",
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Falls Below $83,000 as AI Jitters Weigh on Sentiment - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSEg5MlR0cUtacXN1aGtzX2FxMFdqYkhhSGNPQnhkZHNLb0FqSVNuQS1FdHViQi0xcVlpeUhHUFpYRHM5YUkxVWtfV1ZkTExvbUhDMm52eVFJYldwQ1hFUWNNeXVWVU8zcFJIWkZ4RTV1S3BTUEVNS0htMjVUaFU3cHNoUzZYSk4tWmJLSERYUm5kaElhdnBfQ1BSTFIwNHJWcXU0a3FBXy1nZDd6X2U4?oc=5"
+        },
+        {
+          "title": "DeFi tokens lead crypto lower as bitcoin (BTC) price gives up Wednesday’s surge - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSnRoM2Q1NklDRDh6eE5ydHVzV2FNbDlsbzRQeWRMM2RvT2h1U2pYUkNoN0dxRzJYZi1TeF9yd0JWaC1GbkRER1M5OERucFpwY05PbmRnei1uazJFZGpSYzk3WHFSeE80aFFOZS16RGctSTlYNDY4QndEbHlkTlJPaklwQ3F2TnJlcUJBb3FibDljblBYY09GNFFiNl93LURvZHhlRFNsd25kS0NGaVIyZ216Mi1od1JoeHduUzlyTGFiSC13clB3?oc=5"
+        },
+        {
+          "title": "Bitcoin and ethereum prices today, Thursday, October 22, 2026: Crypto gains wiped out as oil prices stay over $111 a barrel - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOYVJERHlwcFZYdnRNUzlnQmg4dmh5RVF3cDB3d29tNy1zMzBQdHBKOUxIc3ZYdzFha2Z2NnVEWV9JUUVqSURyOXZNUHZFaHJHUS1jeV93Y3JJa01PRXB0TmZmalhvbEZJOEc5eHdBOGVQVllPLWxSTkxhZ2VpdGptQm1QR09FNnk1VXRFUDZEU0wzNV9sNWJ2Z2M4c1RYVFdNbXoya2tpRjBDR1Q0ZGMzcUVqZmxVNFNWZGZxUERmbmZ2d1dKdVVZbjFVbGs5WWJQUEJhRUxiMDlYbjRRNHhxT0tvMndjRVdCdjZDLUVldlNxRnNqVU9RZkw0V0NCMzk1dXpZalFUY1R3TGpZUnZ1cTFOLTJnZTNudUtldmtFaw?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 5,
+      "headline": "多家律所宣传针对多邻国的证券集体诉讼,首席原告申请截止日为2026年12月7日",
+      "summary": "多家律所通过PR Newswire和GlobeNewswire发布公告,宣布针对多邻国的证券集体诉讼并邀请投资者联系。其中一则提到截止日期为2026年12月7日。公告正文无法获取。",
+      "whyItMatters": "这些是律所的招揽公告;标题并不能证明指控成立。",
+      "category": "监管",
+      "sourceLinks": [
+        {
+          "title": "Duolingo, Inc. Class Action Lawsuit Seeks Recovery for Investors; December 7, 2026 Deadline- Contact Kessler Topaz Meltzer & Check, LLP - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOMTQtU0JzNGJhcEFuYjhxdEd6Q1ZtMEFlSWJBMEVQT3ROMUtiUVdPMXBfVTNOT3RDU0djWnB2V1RZLU8wREZlMTFXX2VtYnlmdGpiZjliMldtbEpRTFBYOUVndEpVaUEzUm9yRFVLSE9va1hhMU8wRlFhZU0zMnJSZkw3TGNWMGg4c2FGMm5KNXNhS21RUGtpV3gtNjBBVGhPalNlUzhrbnJEQUNKaFdLM1U3UTduT0FYUTVTb1VNblBqdHR0TVJHUEdubHBfd0YtMlJ5LTFnaWdLcWpNUWhseWVNMXg2TFQ0UlNuUTdVcHFhWWpNR285c2hoOTN1N3BDNk12TGtBaEV0TW9vcXBsQkNoQQ?oc=5"
+        },
+        {
+          "title": "DUOL Shareholder Alert: Duolingo, Inc. Securities Class Action Lawsuit - Investors Should Contact Levi & Korsinsky - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNUC1lY1hDT0lGOW9nVmdJVWlxaVNmX2tpZEV0RVRLVThCd0I4WlBuLVlkMV9va3d6WG9UYnNhOENkNDkySEJqLUNjel9fOFF3bHpvZmdEbFJoaUxncTFjRGp4Z3BVSnlWMXRaUGJIVGxIUlh1SkJMa1BHTTVoSG5qQktXZTR4LXhaeEhrTTJqMTVONFpyM2lUR0Fua0pkYVhxWVY2cUxOcVhobzBfRVZaeVlQN3RCcmF2M3NPZHhocm53Mjd4Z0ZGdjNNLTVPUmdxdVZvLTZFcWxDNFZQUVBENVJzR05rYTIwVGdIdUFaZUdjYXJZQ3ZQcjhn?oc=5"
+        }
+      ]
+    },
+    {
+      "importance": 6,
+      "headline": "Citizens因搜索竞争风险下调Alphabet目标价",
+      "summary": "Investing.com的标题称,Citizens因搜索竞争风险下调了对Alphabet的目标价。文章正文无法获取,因此不提供新目标价。",
+      "whyItMatters": "此次下调发生在预计10月28日公布的Alphabet第三季度财报之前。",
+      "category": "市场",
+      "sourceLinks": [
+        {
+          "title": "Citizens cuts Alphabet stock price target on search competition risks - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNc0R4MEZRaTZneDBGM3U2TW11Z29RaHNSMWNPLVFQWk5vaUlQVVJ6bC1zVWVaRGI0WDB2RzdxcDdxVUJ3WWp3R29WeVgwVEE2dktqSHdUWWdHcjJYRnhRYzRpMkVCc2swcFcwdkV3MkZUSDVmd3VVZWVhRlNOV0xNbFJzQ3NOc3NHdVNJQXpGc19GLUQ2WXdzTC13bWNqclBXbm1ySGI5YVNxaUtnYjZhdUI3WWk2M2tFMTFfTHRLZWtDbThFYThlcw?oc=5"
+        }
+      ]
+    }
+  ]
+}
