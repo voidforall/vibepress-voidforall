@@ -1,7 +1,53 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-22T12:48:49Z",
+  "updatedAt": "2026-10-23T12:26:14Z",
   "events": [
+    {
+      "date": "2026-10-23",
+      "headline": "Rocket Lab launches its 98th Electron mission",
+      "summary": "Yahoo Finance's headline reads 'Mission Success: Rocket Lab Launches 98th Electron Mission', and Seeking Alpha carries the same news. Article text was not retrievable, so payload and site details are not given.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxNazFUZDY2bVlBYlJOOG1haWNqUklkTm5ScXp3MWtuVmV0MGdiOHNCaXg4T1dScno0YmJwYXN0MDJkSThXMmpQaGFzSGlmSTNaTW1xQk1ZSGFlMXdrdzY5enlEYmJReHdMbldiWEtBSzJEampya1lxN0V2N3FndG1JZzdRcEZEV1I1NjJ4dlB0clJiMllZcldoTUdwMTM?oc=5",
+        "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcDF1WjZoM2xSVUtRelFKZ0hfOXhoT3o0OVIwVzUzTFRmNUU4QUxhSkxoOFJmMXZ6QVBSSkllVzZWaU5ZT2F6dHdLUnRCZDNHTFJURFN3QU1KSzAzUlRTQ2JJVS04UmRTdUdRdXQ1aDlGNHFhY1lDM0ktTFJIZXcyNndVU3Fzdw?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "headline": "Gold opens at three-month lows as oil prices keep rising, Yahoo Finance reports",
+      "summary": "A Yahoo Finance headline dated Oct. 23 says gold opened at three-month lows while oil prices kept rising; other outlets' headlines describe a breakdown in XAU/USD, with FXStreet noting a pick-up from the $4,000 area with bears still in con…",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOZnp1ZFhreERCV0F0bEs4emx4WlVNdW40OGJhWThrY0pIazRJY1FiTkIxeTFIbVRQX1NmYWVSaktzbzhTdEhocjZMMzdMUHBmeXFJOXUyLXRBSm9OMkdDWnJuMmg0SXBuNUxsSEd4U2ZRbndoN243LVl4ZEFzc2JkdVRCWWFIell2SW5IdEFXZGZ4b3AzUjNQbU41bFBCNnhpNXFsUkUySU9FaUhXem8tTDJuU1pGakZYM3A1UzRTZHY0aDJiZlc1WTZpWWJ0ZW9MQml0Rkdta05KZTFQbFNqeGREQXlseVVhQXNmaDFnbzZMeFgzcHZzc0FTVXc?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQUpUbEtObkhna1NlSFEzQVB3WWZOV2U3ZHBMNHAwY1FQeXRSNXhaTkpUNzBoUTVSaHZCVjRhQjZTU0RvajkzU2I2SmdzSVBKVkJybW0xNnh4TnBmR2lGOTQxNGMtRmRmUEVNZW1mdWR1TmZHNk04SVVtdDk5Zk9GTUVQb2tYOURoU2ZHUFJZLURHN3ZkZUlKb3YyVlAtRTV1cWVNbkk4aXNHMWNGZjI2X2k2NXpNQTZOcXByLUxrQVppN3pnenc?oc=5",
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQUxNMkpqNDR0dktCVkx1NEVzdTUzY0o1M0dHSl9rRDg4R1BPcXBvdmtEbm90TUJmZ1JRMC1qeWV0R0N5RDVEYVZkNGRsdVVGTzNlbjZKTGw0TGh4bHJlZEVHSjh3ampYLUNTcVlUelo5cWVuTUdvaTRxRjY2ck05UGFBbGhEdGUzMjllVmNEcWNQVGhTNzIybFNnNTRjNGlVN2hhal9URXhJdGt5QTJtX3IxaExqSmZ4NVp4Yw?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "headline": "BlackRock's filing for an iShares Bitcoin Managed Protect ETF, built on IBIT, draws headlines",
+      "summary": "The Block reports that BlackRock filed with the SEC on Oct. 19 for the iShares Bitcoin Managed Protect ETF, which seeks upside exposure to IBIT and/or similar bitcoin exposure up to an approximate limit, along with 'a level of downside pro…",
+      "urls": [
+        "https://theblock.co/news/regulation/2026-10-19-blackrock-files-bitcoin-managed-protect-etf-downside-protection-ibit-421087",
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYXVZQzFiZDdoWVVQZ0hSZXRjNUJia19kZnJRajI3dkVTaDYxek9PYkl0a1VPc3hpaUZmaEpTR2IzV0xMeHZQWEYtTlY4MXJIRDlUM05qV1FzS1V3R2UxYzV6R0VvVGdvLVphVnZFeUxCWFY4RlRlVDExNjlibWhOVU95TW81YTd5VzhOVDRCZXM1UlZ0SThndkN6MlJKN1ZCc3R1SVJR?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "headline": "Bitcoin's volatility is above euro-dollar swings but has calmed to rival Nvidia's, CoinDesk says",
+      "summary": "A CoinDesk headline says bitcoin's volatility remains well above euro-dollar gyrations, though it has calmed to rival Nvidia's. Article text was not retrievable, so no volatility figures are given.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRkhNMW01RS1OdmJZQUlSRkZtQzFnZEIwR1cyekJlYXhZelFxZERsNkd5cVVqVGUzVGdscThsUEZDNXVOSXItbmhMU3RNa3k1MjdrTHZuempTdEZkVWtwZU9JaEhWZDFzX1dYYmlENDIyczdjOUZ0b0ZJd3V3QVdIbnZrZXNQdjRVaTJHNTF4MEYyVU9wWkRRNnNtSXVPcExsZ2lwcUJfcFJfZFltRVEwRVA0bl94MnViR2Fiamd2cHNFMWRsVWNod3RlbW9URjdBaGdQdDBXRVRjUQ?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "headline": "Alibaba leads a Chinese tech sell-off as regulatory pressure is renewed, Barron's and Moomoo report",
+      "summary": "Barron's headlines Alibaba stock slipping as China renews regulatory pressure, and Moomoo says Alibaba led a Chinese tech rout; TIKR puts the fall at 2.5%, citing scrutiny of e-commerce that 'feels like never ending'. Article text was not…",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMifEFVX3lxTE16cDgwaE52dWdqdm5zdHliWU1TTXcxc2ZiTVYyNm5scjRWdkdGOV9WMlRCbS11U0RnRXNDcEQzZHJpRTNJZE1uSUo2YnAxZ3g3Rk5TQ0d3dExnM01TbExIUG9keEZMX3JYUjdfdEJpREVseW04b2NwcUdQVVU?oc=5",
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYmxZVVE1VFFhbjFWdHhWOFNKcVppcFJzMHhpd3N0NlI5MnQ1cjNpdWw4cktWeTZZQWVta2Q5ZVU1T0tJMGJLTm9TMU1peEp5NFJ6MkdOWHBsSUZTcFJPR29tNFhPME1wUFlra2p6azNCdjhZUWdUcUYxYXBhOFZBQklPZjRfMHYxMzUtYUtvMnpJUHhjS2lTNWV5cWkxQ0pxdVhGU1hGd3M0TGMzX25NbEQ2TlF5Y1V4XzBvYQ?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxOck00NlhxTXVOYjJkNGpqMmRUSXNjaFkwNC14UWJEVkFfRUUxZ0Znd1FEcDgya3RVMkEzSWw3YWJESEVEdkZtVTk3VlZDUEU1bW1SbzR6QTV3c3A5T1J4Wmo0ZHdxQ2RWYjZGTm1JMmVtY0lMNHd1T1ZKS1BLSmo3ZTVpZjQ5akhSRlRfaFp1NWNiY3Q4RGI1eDdmQTdpbzdYaUNCMjlOQTU2X0xqblhn?oc=5"
+      ]
+    },
     {
       "date": "2026-10-22",
       "headline": "Rocket Lab's Neutron slips to 2027, and Ark Invest reportedly trims Alphabet to buy Rocket Lab",
@@ -715,14 +761,6 @@
         "https://news.google.com/rss/articles/CBMiogFBVV95cUxOV0RBSFZNeHBubFBhMjE1YlVVb1pfVG1OODF0dkYtZ0g4bk5NaXZEVE5talFjaW4zeUVZN1NrTEZGQU5tcENZc0tmSWdPUFRDNm5Fek54NmhvU0hXc0JELUFnVXYyZ29MZnhoSW4wVk1tNGQ1REFUdTl6Mll6cmhEN1NuN1NuMVhyQjhOWER5N2s1N1F0MWtMNUFreHdySW5hRkE?oc=5",
         "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSm5uZkNCTjRITWwzUmxZOUo3ZVdQZHpBWHZfa0pYbUNCXy01emRuaEEyMU1zOWxCMWV0VlRTQkp6WTkxQ2h1S215TVZjWDkxWHJzVEJFOGhsckwxV2NwWWRqaVhtaW5HcC1ISHJBSll6QzRoLXd5LWVQOW1OS1RzSFZENktZSnduQmtOcnlFU0wtTDBPT2N5MXJiSjM3aHdiSXdWdkJCU1g3Rm5jRnBnYmVLamR4Vnd2QXRDeWk1SF92NGFIdFhR?oc=5",
         "https://news.google.com/rss/articles/CBMitAFBVV95cUxNN2c0WHlIRG9MQTMzTnZHTW1mTTE0bTJtNnAySFlOQ0FHUzVtUVA5bEtLV3AzUFNoMms4UHp2TE1jMmZ3UENkdTkwNTJVTHNDendteHRhTEJZVV8zcHpUa3FTSlpub0o1ZHNHd21rUGluVmNIc2xWc2pUeGtzV2xvV3dWMmNHTUMxUENDWTJLUWE5MmQ2Skw1WE1vZWh1bUxYNUhhcTZaNFdQd0pTaUhpMGdXSXU?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-08",
-      "headline": "Finland orders Google to halt work at two planned data centre sites over forest clearing",
-      "summary": "Finland's Supervisory Agency (LVV) ordered Tuike Finland, acting for Google, to suspend preparatory work at Muhos and Kajaani by October 23 until environmental impact assessments are done; it is probing whether over 300 hectares were clear…",
-      "urls": [
-        "https://arynews.tv/finland-orders-halt-to-work-on-googles-data-centre-sites"
       ]
     }
   ]

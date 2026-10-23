@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-23",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T12:26:14Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天的主题是信任与隔离：一家证书机构退出TLS业务，一个DNS解析器退出一个国家，一次漏洞披露禁令被打破，而沙箱与形式化证明被当作应对不可信代码的方案。WorldTUI则是调剂——一个假装成终端的小模型。",
+  "stories": [
+    {
+      "headline": "Anthropic称Claude为123个开源库的239个入口点生成了机器可检验的内存安全证明",
+      "summary": "Anthropic称，Claude在RISC-V汇编层面证明这些程序对任何小于64 MB的输入都不会因内存安全错误或断言失败而崩溃，使用了约1.8亿行Rocq证明，并在过程中发现数百个漏洞。文章也列出局限：证明假设为RISC-V上使用musl的单线程静态二进制，且证明的可靠性取决于规约本身。",
+      "whyItMatters": "对生产环境二进制的形式化验证原本需要专家数年，如今只用了数周，但“已验证”仍不等于没有漏洞。",
+      "importance": 1,
+      "category": "科技",
+      "sourceLinks": [
+        {
+          "title": "LLMs are making formal software verification feasible at a much larger scale - Anthropic",
+          "url": "https://www.anthropic.com/research/formal-verification"
+        }
+      ]
+    },
+    {
+      "headline": "eMudhra在中间CA事件后将退出全球SSL/TLS证书业务",
+      "summary": "eMudhra在10月22日的声明中称，董事会决定退出全球SSL/TLS证书业务（约占其收入的1%），起因是其称已在14小时内吊销受影响CA的那起事件。客户将通过合作伙伴获得免费替换证书，吊销服务将持续到已签发证书到期或被替换；未给出完成日期。",
+      "whyItMatters": "此事紧随10月21日关于其单字节中间CA密钥及随之而来的浏览器不信任的报道：该公司选择退出而非重建。",
+      "importance": 2,
+      "category": "商业",
+      "sourceLinks": [
+        {
+          "title": "eMudhra to exit global SSL/TLS certificate business - eMudhra",
+          "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business"
+        }
+      ]
+    },
+    {
+      "headline": "Quad9将于11月24日停止在法国提供服务，而不执行法国法院的域名封锁令",
+      "summary": "这家瑞士非营利DNS解析服务称，法国法院在广播商beIN提起的案件中，责令其对法国用户封锁特定域名，日罚款由58万欧元降至1,000欧元。Quad9称，要遵守命令要么追踪用户所在司法辖区，要么全球封锁；上诉待决，另有约20起类似案件悬而未决。",
+      "whyItMatters": "一家公共解析服务选择退出一个国家而不是过滤DNS应答，显示出一份法院命令可能对开放互联网造成的影响。",
+      "importance": 3,
+      "category": "商业",
+      "sourceLinks": [
+        {
+          "title": "Quad9 to exit France - Quad9",
+          "url": "https://quad9.net/news/blog/au-revoir-france/"
+        }
+      ]
+    },
+    {
+      "headline": "一名Hacker News发帖者称，他提前发布PHP远程代码执行漏洞的帖子打破了一项他从未被告知的禁令",
+      "summary": "Pete Cooper发帖称，他在协调披露日期之前公布了PHP远程代码执行漏洞CVE-2026-109618和CVE-2026-109619的细节，并写道自己并不知道存在禁令。帖子下的评论者称，该帖使披露提前，漏洞在披露前已有被利用的报告，且多数人认为责任在信息传递链更早的环节；页面文本仅读取了部分。",
+      "whyItMatters": "这是对10月22日所报道PHP修复的后续，显示在一条根本不知道有禁令的传递链里，禁令是如何失效的。",
+      "importance": 4,
+      "category": "科技",
+      "sourceLinks": [
+        {
+          "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry. - Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50193416"
+        }
+      ]
+    },
+    {
+      "headline": "英伟达OpenShell：以Apache-2.0授权的运行时，在声明式策略下为自主智能体提供沙箱",
+      "summary": "OpenShell让每个智能体运行在内核级隔离的沙箱中，所有网络连接都要经过策略检查，凭据仅在发往获准端点的请求中注入，智能体本身看不到。仓库列出Python、TypeScript、Go和Rust的SDK，并称最近进入0.1.x发布节奏。",
+      "whyItMatters": "它把智能体的隔离、凭据代理和策略审查打包成开源运行时，而不是让各团队各自临时拼凑。",
+      "importance": 5,
+      "category": "科技",
+      "sourceLinks": [
+        {
+          "title": "OpenShell - NVIDIA (GitHub)",
+          "url": "https://github.com/NVIDIA/OpenShell"
+        }
+      ]
+    },
+    {
+      "headline": "WorldTUI：一个3.6亿参数、背后没有真实shell的终端模拟模型",
+      "summary": "作者基于Qwen2.5-Coder-0.5B微调，让模型根据按键预测屏幕变化，在ShellBench上得80/106分，提示基线为52和60分。它能编辑文件并运行vim和tmux，但作者承认它不是可靠的文件系统，权重将于日后发布。",
+      "whyItMatters": "它检验一个很小的模型能在“脑中”维持多少终端状态；作者自己的结果显示记忆是短板（13次文件回读答对9次）。",
+      "importance": 6,
+      "category": "观点",
+      "sourceLinks": [
+        {
+          "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+          "url": "https://simedw.com/2026/10/21/world-model-terminal/"
+        }
+      ]
+    }
+  ]
+}

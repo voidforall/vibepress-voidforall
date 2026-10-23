@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-23",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T12:26:14Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Trust and containment run through today's issue: a certificate authority quits the TLS business, a DNS resolver quits a country, a vulnerability embargo unravels, and sandboxes and proofs are pitched as the answer to untrusted code. WorldTUI is the palate cleanser, a small model pretending to be a terminal.",
+  "stories": [
+    {
+      "headline": "Anthropic says Claude produced machine-checked memory-safety proofs for 239 entry points across 123 open-source libraries",
+      "summary": "Anthropic reports Claude proved, at the RISC-V assembly level, that the programs never crash from memory-safety errors or failed assertions for any input under 64 MB, using about 180 million lines of Rocq proof and finding hundreds of bugs along the way. The post lists limits: the proofs assume a single-threaded static binary on RISC-V with musl, and a proof is only as good as its spec.",
+      "whyItMatters": "Formal verification of production binaries, long an expert-years job, was done in a few weeks, though 'verified' still does not mean bug-free.",
+      "importance": 1,
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "LLMs are making formal software verification feasible at a much larger scale - Anthropic",
+          "url": "https://www.anthropic.com/research/formal-verification"
+        }
+      ]
+    },
+    {
+      "headline": "eMudhra will exit the global SSL/TLS certificate business after its intermediate-CA incident",
+      "summary": "In an Oct. 22 release, eMudhra said its board decided to withdraw from global SSL/TLS certificates, which it says are about 1% of revenue, after the incident it says it handled by revoking the affected CAs within 14 hours. Customers will get free replacement certificates from partners, and revocation services continue until issued certificates expire or are replaced; no completion date was given.",
+      "whyItMatters": "This follows the Oct. 21 report on its single-byte intermediate CA keys and the browser distrust that came with it: the company chose to leave rather than rebuild.",
+      "importance": 2,
+      "category": "Business",
+      "sourceLinks": [
+        {
+          "title": "eMudhra to exit global SSL/TLS certificate business - eMudhra",
+          "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business"
+        }
+      ]
+    },
+    {
+      "headline": "Quad9 will stop serving France on Nov. 24 rather than block domains for a French court",
+      "summary": "The Swiss nonprofit DNS resolver says a French court, in a case brought by broadcaster beIN, ordered it to block certain domain names for users in France, with the daily penalty reduced from €580,000 to €1,000. Quad9 says it cannot comply without tracking users' jurisdictions or blocking globally, an appeal is pending, and about 20 similar cases are waiting.",
+      "whyItMatters": "A public resolver chose withdrawal from a country over filtering DNS answers, which shows where one court order can end up on the open internet.",
+      "importance": 3,
+      "category": "Business",
+      "sourceLinks": [
+        {
+          "title": "Quad9 to exit France - Quad9",
+          "url": "https://quad9.net/news/blog/au-revoir-france/"
+        }
+      ]
+    },
+    {
+      "headline": "A Hacker News poster says his early post on PHP RCE bugs broke an embargo he was never told about",
+      "summary": "Pete Cooper posted that he published details of PHP remote-code-execution bugs CVE-2026-109618 and CVE-2026-109619 before the coordinated disclosure date, writing that he knew of no embargo. Commenters in the thread say the post pushed disclosure forward, that exploitation was reported before disclosure, and that most blame lies earlier in the chain; the page text was only partly read.",
+      "whyItMatters": "It is a follow-up to the PHP fixes covered on Oct. 22, and shows how an embargo can fail in a chain of people who were never told it existed.",
+      "importance": 4,
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry. - Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50193416"
+        }
+      ]
+    },
+    {
+      "headline": "NVIDIA's OpenShell, an Apache-2.0 runtime, sandboxes autonomous agents under declared policies",
+      "summary": "OpenShell runs each agent in a kernel-isolated sandbox, checks every network connection against policy, and injects credentials only on requests to approved endpoints so agents never see them. The repository lists SDKs for Python, TypeScript, Go and Rust, and says it recently moved to a 0.1.x release cadence.",
+      "whyItMatters": "It packages isolation, credential brokering and policy review for agents as an open-source runtime rather than leaving each team to improvise.",
+      "importance": 5,
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "OpenShell - NVIDIA (GitHub)",
+          "url": "https://github.com/NVIDIA/OpenShell"
+        }
+      ]
+    },
+    {
+      "headline": "WorldTUI: a 360M-parameter model that simulates a terminal with no shell behind it",
+      "summary": "The author fine-tuned Qwen2.5-Coder-0.5B to predict screen changes from keypresses, scoring 80/106 on ShellBench against 52 and 60 for prompted baselines. It can edit files and run vim and tmux, but the author says it is not a reliable filesystem and weights are promised later.",
+      "whyItMatters": "It tests how much terminal state a very small model can hold in its head, with the author's own results showing memory is the weak spot (9 of 13 file readbacks correct).",
+      "importance": 6,
+      "category": "Ideas",
+      "sourceLinks": [
+        {
+          "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+          "url": "https://simedw.com/2026/10/21/world-model-terminal/"
+        }
+      ]
+    }
+  ]
+}

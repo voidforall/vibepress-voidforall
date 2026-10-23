@@ -1,0 +1,98 @@
+{
+  "id": "2026-10-23",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T12:25:44Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "周五自选股中商品与中国概念承压：黄金跌至三个月低位，阿里巴巴再度面临监管压力；火箭实验室又完成一次发射，贝莱德的比特币产品申请继续推动加密产品动态。由于无法获取文章正文，多数条目仅依据标题级报道。",
+  "stories": [
+    {
+      "headline": "雅虎财经：金价开盘触及三个月低位，油价持续上涨",
+      "summary": "雅虎财经10月23日的标题称，金价开盘触及三个月低位，同时油价持续上涨；其他媒体标题提到XAU/USD跌破支撑，FXStreet称金价从4,000美元附近回升，但空头仍占主导。因无法获取文章正文，不提供更多数据。",
+      "whyItMatters": "据标题，此次低点延续了本报10月22日跟踪的跌势——当时金价跌破4,100美元，创约两个月低位。",
+      "importance": 1,
+      "category": "大宗商品",
+      "sourceLinks": [
+        {
+          "title": "Gold price today, Friday, October 23, 2026: Gold opens at 3-month lows as oil prices keep rising - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOZnp1ZFhreERCV0F0bEs4emx4WlVNdW40OGJhWThrY0pIazRJY1FiTkIxeTFIbVRQX1NmYWVSaktzbzhTdEhocjZMMzdMUHBmeXFJOXUyLXRBSm9OMkdDWnJuMmg0SXBuNUxsSEd4U2ZRbndoN243LVl4ZEFzc2JkdVRCWWFIell2SW5IdEFXZGZ4b3AzUjNQbU41bFBCNnhpNXFsUkUySU9FaUhXem8tTDJuU1pGakZYM3A1UzRTZHY0aDJiZlc1WTZpWWJ0ZW9MQml0Rkdta05KZTFQbFNqeGREQXlseVVhQXNmaDFnbzZMeFgzcHZzc0FTVXc?oc=5"
+        },
+        {
+          "title": "Gold Price Forecast: XAU/USD picks up from the $4,000 area with bears still in control - FXStreet",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQUpUbEtObkhna1NlSFEzQVB3WWZOV2U3ZHBMNHAwY1FQeXRSNXhaTkpUNzBoUTVSaHZCVjRhQjZTU0RvajkzU2I2SmdzSVBKVkJybW0xNnh4TnBmR2lGOTQxNGMtRmRmUEVNZW1mdWR1TmZHNk04SVVtdDk5Zk9GTUVQb2tYOURoU2ZHUFJZLURHN3ZkZUlKb3YyVlAtRTV1cWVNbkk4aXNHMWNGZjI2X2k2NXpNQTZOcXByLUxrQVppN3pnenc?oc=5"
+        },
+        {
+          "title": "Gold Technical Outlook: XAU/USD Breakdown Threatens Deeper Selloff - FOREX.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQUxNMkpqNDR0dktCVkx1NEVzdTUzY0o1M0dHSl9rRDg4R1BPcXBvdmtEbm90TUJmZ1JRMC1qeWV0R0N5RDVEYVZkNGRsdVVGTzNlbjZKTGw0TGh4bHJlZEVHSjh3ampYLUNTcVlUelo5cWVuTUdvaTRxRjY2ck05UGFBbGhEdGUzMjllVmNEcWNQVGhTNzIybFNnNTRjNGlVN2hhal9URXhJdGt5QTJtX3IxaExqSmZ4NVp4Yw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "火箭实验室发射第98次“电子号”任务",
+      "summary": "雅虎财经标题为“任务成功：火箭实验室发射第98次电子号任务”，Seeking Alpha也报道了此事。因无法获取文章正文，未提供有效载荷和发射场细节。",
+      "whyItMatters": "此次发射增加了电子号的飞行次数，而该股仍在消化10月22日报道的中子号推迟至2027年的消息。",
+      "importance": 2,
+      "category": "公司",
+      "sourceLinks": [
+        {
+          "title": "MISSION SUCCESS: Rocket Lab Launches 98th Electron Mission - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNazFUZDY2bVlBYlJOOG1haWNqUklkTm5ScXp3MWtuVmV0MGdiOHNCaXg4T1dScno0YmJwYXN0MDJkSThXMmpQaGFzSGlmSTNaTW1xQk1ZSGFlMXdrdzY5enlEYmJReHdMbldiWEtBSzJEampya1lxN0V2N3FndG1JZzdRcEZEV1I1NjJ4dlB0clJiMllZcldoTUdwMTM?oc=5"
+        },
+        {
+          "title": "Rocket Lab launches 98th Electron mission (RKLB:NASDAQ) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcDF1WjZoM2xSVUtRelFKZ0hfOXhoT3o0OVIwVzUzTFRmNUU4QUxhSkxoOFJmMXZ6QVBSSkllVzZWaU5ZT2F6dHdLUnRCZDNHTFJURFN3QU1KSzAzUlRTQ2JJVS04UmRTdUdRdXQ1aDlGNHFhY1lDM0ktTFJIZXcyNndVU3Fzdw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "巴伦周刊、Moomoo：监管压力再度升温，阿里巴巴领跌中国科技股",
+      "summary": "巴伦周刊标题称，中国重启监管压力，阿里巴巴股价下滑；Moomoo称阿里巴巴领跌中国科技股；TIKR称跌幅为2.5%，并引述电商监管“似乎没完没了”。因无法获取文章正文。",
+      "whyItMatters": "这是10月22日所报道的监管推动下跌的延续——当日阿里巴巴录得两个月来最大跌幅。",
+      "importance": 3,
+      "category": "监管",
+      "sourceLinks": [
+        {
+          "title": "Alibaba Stock Slips as China Renews Regulatory Pressure - Barron's",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16cDgwaE52dWdqdm5zdHliWU1TTXcxc2ZiTVYyNm5scjRWdkdGOV9WMlRCbS11U0RnRXNDcEQzZHJpRTNJZE1uSUo2YnAxZ3g3Rk5TQ0d3dExnM01TbExIUG9keEZMX3JYUjdfdEJpREVseW04b2NwcUdQVVU?oc=5"
+        },
+        {
+          "title": "🚨 Alibaba - leads Chinese tech rout as regulatory hammer strikes...again - Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYmxZVVE1VFFhbjFWdHhWOFNKcVppcFJzMHhpd3N0NlI5MnQ1cjNpdWw4cktWeTZZQWVta2Q5ZVU1T0tJMGJLTm9TMU1peEp5NFJ6MkdOWHBsSUZTcFJPR29tNFhPME1wUFlra2p6azNCdjhZUWdUcUYxYXBhOFZBQklPZjRfMHYxMzUtYUtvMnpJUHhjS2lTNWV5cWkxQ0pxdVhGU1hGd3M0TGMzX25NbEQ2TlF5Y1V4XzBvYQ?oc=5"
+        },
+        {
+          "title": "Alibaba Fell 2.5% as China’s Regulatory Scrutiny of E-Commerce “Feels Like Never Ending” - TIKR.com",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOck00NlhxTXVOYjJkNGpqMmRUSXNjaFkwNC14UWJEVkFfRUUxZ0Znd1FEcDgya3RVMkEzSWw3YWJESEVEdkZtVTk3VlZDUEU1bW1SbzR6QTV3c3A5T1J4Wmo0ZHdxQ2RWYjZGTm1JMmVtY0lMNHd1T1ZKS1BLSmo3ZTVpZjQ5akhSRlRfaFp1NWNiY3Q4RGI1eDdmQTdpbzdYaUNCMjlOQTU2X0xqblhn?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "贝莱德基于IBIT申请iShares比特币管理保护ETF",
+      "summary": "The Block报道，贝莱德于10月19日向美国证交会提交iShares比特币管理保护ETF申请，该基金寻求对IBIT和/或类似比特币敞口的上行参与（至某一大致上限），并提供“一定程度的下行保护”。文章未说明保护幅度，该基金也未被报道获批或上市。",
+      "whyItMatters": "该申请是IBIT的后续产品，尚未完成美国证交会审批程序。",
+      "importance": 4,
+      "category": "加密货币",
+      "sourceLinks": [
+        {
+          "title": "BlackRock files for bitcoin ETF offering downside protection and upside exposure to IBIT - The Block",
+          "url": "https://theblock.co/news/regulation/2026-10-19-blackrock-files-bitcoin-managed-protect-etf-downside-protection-ibit-421087"
+        },
+        {
+          "title": "BlackRock (BLK) Files Bitcoin Protection ETF And Launches Active Robotics Fund - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYXVZQzFiZDdoWVVQZ0hSZXRjNUJia19kZnJRajI3dkVTaDYxek9PYkl0a1VPc3hpaUZmaEpTR2IzV0xMeHZQWEYtTlY4MXJIRDlUM05qV1FzS1V3R2UxYzV6R0VvVGdvLVphVnZFeUxCWFY4RlRlVDExNjlibWhOVU95TW81YTd5VzhOVDRCZXM1UlZ0SThndkN6MlJKN1ZCc3R1SVJR?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "CoinDesk：比特币波动率高于欧元兑美元，但已回落至与英伟达相当",
+      "summary": "CoinDesk标题称，比特币波动率仍远高于欧元兑美元，但已回落至与英伟达相当的水平。因无法获取文章正文，不提供具体波动率数据。",
+      "whyItMatters": "据标题，比特币波动率较此前报道的8万至8.8万美元区间震荡时有所缓和。",
+      "importance": 5,
+      "category": "加密货币",
+      "sourceLinks": [
+        {
+          "title": "Bitcoin's volatility is well above euro-dollar gyrations, though it has calmed to rival Nvidia's - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRkhNMW01RS1OdmJZQUlSRkZtQzFnZEIwR1cyekJlYXhZelFxZERsNkd5cVVqVGUzVGdscThsUEZDNXVOSXItbmhMU3RNa3k1MjdrTHZuempTdEZkVWtwZU9JaEhWZDFzX1dYYmlENDIyczdjOUZ0b0ZJd3V3QVdIbnZrZXNQdjRVaTJHNTF4MEYyVU9wWkRRNnNtSXVPcExsZ2lwcUJfcFJfZFltRVEwRVA0bl94MnViR2Fiamd2cHNFMWRsVWNod3RlbW9URjdBaGdQdDBXRVRjUQ?oc=5"
+        }
+      ]
+    }
+  ]
+}

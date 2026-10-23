@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-23",
+      "date": "2026-10-23",
+      "headline": "Gold opens at three-month lows as oil prices keep rising, Yahoo Finance reports",
+      "storyCount": 5
+    },
+    {
       "id": "2026-10-22",
       "date": "2026-10-22",
       "headline": "Alibaba shares post their steepest drop in two months as China presses e-commerce platforms on quality standards",

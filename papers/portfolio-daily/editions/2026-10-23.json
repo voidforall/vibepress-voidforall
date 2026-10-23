@@ -1,0 +1,98 @@
+{
+  "id": "2026-10-23",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T12:25:44Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A soft Friday for the commodity and China legs of the watchlist, with gold at three-month lows and Alibaba under renewed regulatory pressure, while Rocket Lab flew again and BlackRock's bitcoin filing kept crypto-product news moving. Most items rest on headline-level reporting, as the article text was not retrievable.",
+  "stories": [
+    {
+      "headline": "Gold opens at three-month lows as oil prices keep rising, Yahoo Finance reports",
+      "summary": "A Yahoo Finance headline dated Oct. 23 says gold opened at three-month lows while oil prices kept rising; other outlets' headlines describe a breakdown in XAU/USD, with FXStreet noting a pick-up from the $4,000 area with bears still in control. Article text was not retrievable, so no further figures are given.",
+      "whyItMatters": "Per the headlines, the low extends the slide this paper tracked on Oct. 22, when gold fell below $4,100 to a roughly two-month low.",
+      "importance": 1,
+      "category": "Commodities",
+      "sourceLinks": [
+        {
+          "title": "Gold price today, Friday, October 23, 2026: Gold opens at 3-month lows as oil prices keep rising - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOZnp1ZFhreERCV0F0bEs4emx4WlVNdW40OGJhWThrY0pIazRJY1FiTkIxeTFIbVRQX1NmYWVSaktzbzhTdEhocjZMMzdMUHBmeXFJOXUyLXRBSm9OMkdDWnJuMmg0SXBuNUxsSEd4U2ZRbndoN243LVl4ZEFzc2JkdVRCWWFIell2SW5IdEFXZGZ4b3AzUjNQbU41bFBCNnhpNXFsUkUySU9FaUhXem8tTDJuU1pGakZYM3A1UzRTZHY0aDJiZlc1WTZpWWJ0ZW9MQml0Rkdta05KZTFQbFNqeGREQXlseVVhQXNmaDFnbzZMeFgzcHZzc0FTVXc?oc=5"
+        },
+        {
+          "title": "Gold Price Forecast: XAU/USD picks up from the $4,000 area with bears still in control - FXStreet",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQUpUbEtObkhna1NlSFEzQVB3WWZOV2U3ZHBMNHAwY1FQeXRSNXhaTkpUNzBoUTVSaHZCVjRhQjZTU0RvajkzU2I2SmdzSVBKVkJybW0xNnh4TnBmR2lGOTQxNGMtRmRmUEVNZW1mdWR1TmZHNk04SVVtdDk5Zk9GTUVQb2tYOURoU2ZHUFJZLURHN3ZkZUlKb3YyVlAtRTV1cWVNbkk4aXNHMWNGZjI2X2k2NXpNQTZOcXByLUxrQVppN3pnenc?oc=5"
+        },
+        {
+          "title": "Gold Technical Outlook: XAU/USD Breakdown Threatens Deeper Selloff - FOREX.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQUxNMkpqNDR0dktCVkx1NEVzdTUzY0o1M0dHSl9rRDg4R1BPcXBvdmtEbm90TUJmZ1JRMC1qeWV0R0N5RDVEYVZkNGRsdVVGTzNlbjZKTGw0TGh4bHJlZEVHSjh3ampYLUNTcVlUelo5cWVuTUdvaTRxRjY2ck05UGFBbGhEdGUzMjllVmNEcWNQVGhTNzIybFNnNTRjNGlVN2hhal9URXhJdGt5QTJtX3IxaExqSmZ4NVp4Yw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab launches its 98th Electron mission",
+      "summary": "Yahoo Finance's headline reads 'Mission Success: Rocket Lab Launches 98th Electron Mission', and Seeking Alpha carries the same news. Article text was not retrievable, so payload and site details are not given.",
+      "whyItMatters": "The launch adds to Electron's flight count as the stock works through the Neutron delay to 2027 reported on Oct. 22.",
+      "importance": 2,
+      "category": "Company",
+      "sourceLinks": [
+        {
+          "title": "MISSION SUCCESS: Rocket Lab Launches 98th Electron Mission - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNazFUZDY2bVlBYlJOOG1haWNqUklkTm5ScXp3MWtuVmV0MGdiOHNCaXg4T1dScno0YmJwYXN0MDJkSThXMmpQaGFzSGlmSTNaTW1xQk1ZSGFlMXdrdzY5enlEYmJReHdMbldiWEtBSzJEampya1lxN0V2N3FndG1JZzdRcEZEV1I1NjJ4dlB0clJiMllZcldoTUdwMTM?oc=5"
+        },
+        {
+          "title": "Rocket Lab launches 98th Electron mission (RKLB:NASDAQ) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcDF1WjZoM2xSVUtRelFKZ0hfOXhoT3o0OVIwVzUzTFRmNUU4QUxhSkxoOFJmMXZ6QVBSSkllVzZWaU5ZT2F6dHdLUnRCZDNHTFJURFN3QU1KSzAzUlRTQ2JJVS04UmRTdUdRdXQ1aDlGNHFhY1lDM0ktTFJIZXcyNndVU3Fzdw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Alibaba leads a Chinese tech sell-off as regulatory pressure is renewed, Barron's and Moomoo report",
+      "summary": "Barron's headlines Alibaba stock slipping as China renews regulatory pressure, and Moomoo says Alibaba led a Chinese tech rout; TIKR puts the fall at 2.5%, citing scrutiny of e-commerce that 'feels like never ending'. Article text was not retrievable.",
+      "whyItMatters": "This continues the regulatory-driven drop reported on Oct. 22, when Alibaba posted its steepest fall in two months.",
+      "importance": 3,
+      "category": "Regulatory",
+      "sourceLinks": [
+        {
+          "title": "Alibaba Stock Slips as China Renews Regulatory Pressure - Barron's",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16cDgwaE52dWdqdm5zdHliWU1TTXcxc2ZiTVYyNm5scjRWdkdGOV9WMlRCbS11U0RnRXNDcEQzZHJpRTNJZE1uSUo2YnAxZ3g3Rk5TQ0d3dExnM01TbExIUG9keEZMX3JYUjdfdEJpREVseW04b2NwcUdQVVU?oc=5"
+        },
+        {
+          "title": "🚨 Alibaba - leads Chinese tech rout as regulatory hammer strikes...again - Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYmxZVVE1VFFhbjFWdHhWOFNKcVppcFJzMHhpd3N0NlI5MnQ1cjNpdWw4cktWeTZZQWVta2Q5ZVU1T0tJMGJLTm9TMU1peEp5NFJ6MkdOWHBsSUZTcFJPR29tNFhPME1wUFlra2p6azNCdjhZUWdUcUYxYXBhOFZBQklPZjRfMHYxMzUtYUtvMnpJUHhjS2lTNWV5cWkxQ0pxdVhGU1hGd3M0TGMzX25NbEQ2TlF5Y1V4XzBvYQ?oc=5"
+        },
+        {
+          "title": "Alibaba Fell 2.5% as China’s Regulatory Scrutiny of E-Commerce “Feels Like Never Ending” - TIKR.com",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOck00NlhxTXVOYjJkNGpqMmRUSXNjaFkwNC14UWJEVkFfRUUxZ0Znd1FEcDgya3RVMkEzSWw3YWJESEVEdkZtVTk3VlZDUEU1bW1SbzR6QTV3c3A5T1J4Wmo0ZHdxQ2RWYjZGTm1JMmVtY0lMNHd1T1ZKS1BLSmo3ZTVpZjQ5akhSRlRfaFp1NWNiY3Q4RGI1eDdmQTdpbzdYaUNCMjlOQTU2X0xqblhn?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "BlackRock's filing for an iShares Bitcoin Managed Protect ETF, built on IBIT, draws headlines",
+      "summary": "The Block reports that BlackRock filed with the SEC on Oct. 19 for the iShares Bitcoin Managed Protect ETF, which seeks upside exposure to IBIT and/or similar bitcoin exposure up to an approximate limit, along with 'a level of downside protection'. The article does not say how much protection, and the fund has not been reported approved or launched.",
+      "whyItMatters": "The filing is a follow-on product to IBIT that has yet to clear the SEC process.",
+      "importance": 4,
+      "category": "Crypto",
+      "sourceLinks": [
+        {
+          "title": "BlackRock files for bitcoin ETF offering downside protection and upside exposure to IBIT - The Block",
+          "url": "https://theblock.co/news/regulation/2026-10-19-blackrock-files-bitcoin-managed-protect-etf-downside-protection-ibit-421087"
+        },
+        {
+          "title": "BlackRock (BLK) Files Bitcoin Protection ETF And Launches Active Robotics Fund - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYXVZQzFiZDdoWVVQZ0hSZXRjNUJia19kZnJRajI3dkVTaDYxek9PYkl0a1VPc3hpaUZmaEpTR2IzV0xMeHZQWEYtTlY4MXJIRDlUM05qV1FzS1V3R2UxYzV6R0VvVGdvLVphVnZFeUxCWFY4RlRlVDExNjlibWhOVU95TW81YTd5VzhOVDRCZXM1UlZ0SThndkN6MlJKN1ZCc3R1SVJR?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin's volatility is above euro-dollar swings but has calmed to rival Nvidia's, CoinDesk says",
+      "summary": "A CoinDesk headline says bitcoin's volatility remains well above euro-dollar gyrations, though it has calmed to rival Nvidia's. Article text was not retrievable, so no volatility figures are given.",
+      "whyItMatters": "Per the headline, bitcoin's volatility has eased compared with recent weeks' swings between $80,000 and $88,000 reported earlier.",
+      "importance": 5,
+      "category": "Crypto",
+      "sourceLinks": [
+        {
+          "title": "Bitcoin's volatility is well above euro-dollar gyrations, though it has calmed to rival Nvidia's - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRkhNMW01RS1OdmJZQUlSRkZtQzFnZEIwR1cyekJlYXhZelFxZERsNkd5cVVqVGUzVGdscThsUEZDNXVOSXItbmhMU3RNa3k1MjdrTHZuempTdEZkVWtwZU9JaEhWZDFzX1dYYmlENDIyczdjOUZ0b0ZJd3V3QVdIbnZrZXNQdjRVaTJHNTF4MEYyVU9wWkRRNnNtSXVPcExsZ2lwcUJfcFJfZFltRVEwRVA0bl94MnViR2Fiamd2cHNFMWRsVWNod3RlbW9URjdBaGdQdDBXRVRjUQ?oc=5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-22T12:48:50Z",
+  "updatedAt": "2026-10-23T12:26:14Z",
   "events": [
+    {
+      "date": "2026-10-23",
+      "headline": "eMudhra will exit the global SSL/TLS certificate business after its intermediate-CA incident",
+      "summary": "In an Oct. 22 release, eMudhra said its board decided to withdraw from global SSL/TLS certificates, which it says are about 1% of revenue, after the incident it says it handled by revoking the affected CAs within 14 hours. Customers will g…",
+      "urls": [
+        "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "headline": "WorldTUI: a 360M-parameter model that simulates a terminal with no shell behind it",
+      "summary": "The author fine-tuned Qwen2.5-Coder-0.5B to predict screen changes from keypresses, scoring 80/106 on ShellBench against 52 and 60 for prompted baselines. It can edit files and run vim and tmux, but the author says it is not a reliable fil…",
+      "urls": [
+        "https://simedw.com/2026/10/21/world-model-terminal/"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "headline": "Quad9 will stop serving France on Nov. 24 rather than block domains for a French court",
+      "summary": "The Swiss nonprofit DNS resolver says a French court, in a case brought by broadcaster beIN, ordered it to block certain domain names for users in France, with the daily penalty reduced from €580,000 to €1,000. Quad9 says it cannot comply…",
+      "urls": [
+        "https://quad9.net/news/blog/au-revoir-france/"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "headline": "NVIDIA's OpenShell, an Apache-2.0 runtime, sandboxes autonomous agents under declared policies",
+      "summary": "OpenShell runs each agent in a kernel-isolated sandbox, checks every network connection against policy, and injects credentials only on requests to approved endpoints so agents never see them. The repository lists SDKs for Python, TypeScri…",
+      "urls": [
+        "https://github.com/NVIDIA/OpenShell"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "headline": "Anthropic says Claude produced machine-checked memory-safety proofs for 239 entry points across 123 open-source libraries",
+      "summary": "Anthropic reports Claude proved, at the RISC-V assembly level, that the programs never crash from memory-safety errors or failed assertions for any input under 64 MB, using about 180 million lines of Rocq proof and finding hundreds of bugs…",
+      "urls": [
+        "https://www.anthropic.com/research/formal-verification"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "headline": "A Hacker News poster says his early post on PHP RCE bugs broke an embargo he was never told about",
+      "summary": "Pete Cooper posted that he published details of PHP remote-code-execution bugs CVE-2026-109618 and CVE-2026-109619 before the coordinated disclosure date, writing that he knew of no embargo. Commenters in the thread say the post pushed dis…",
+      "urls": [
+        "https://news.ycombinator.com/item?id=50193416"
+      ]
+    },
     {
       "date": "2026-10-22",
       "headline": "PHP ships fixes for two remote-code-execution bugs, in 8.5.12, 8.4.27, 8.3.36 and 8.2.35",
@@ -594,39 +642,6 @@
       "summary": "The author says the model is orders of magnitude cheaper than frontier models: about $0.003 versus roughly $1 for a desktop-file reorganisation, on a $10-a-month plan. They give no benchmark scores, and the claim of a roughly 437x smaller…",
       "urls": [
         "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/"
-      ]
-    },
-    {
-      "date": "2026-10-08",
-      "headline": "ascii.rest offers 208 dependency-free animated ASCII pieces for the web",
-      "summary": "The MIT-licensed collection ships each piece as a small TypeScript module usable in HTML, React, Next.js or Astro, and plays in a terminal via 'npx ascii.rest donut'.",
-      "urls": [
-        "https://ascii.rest/"
-      ]
-    },
-    {
-      "date": "2026-10-08",
-      "headline": "OpenAI's batch of AI-written maths results loses three papers to a sign error",
-      "summary": "OpenAI's math repository withdrew three Hodge-conjecture-related manuscripts on October 7 after a sign error invalidated a stabilization-trace cancellation argument that the others also relied on. Scott Aaronson had called the release of r…",
-      "urls": [
-        "https://github.com/openai/math/blob/main/history.md",
-        "https://scottaaronson.blog/?p=10169"
-      ]
-    },
-    {
-      "date": "2026-10-08",
-      "headline": "Docker Agent: declarative YAML multi-agent runtime, Apache-2.0",
-      "summary": "Docker's open-source agent builder defines agent teams in YAML, supports any MCP server and providers including OpenAI, Anthropic, Gemini and local models, and can push and pull agents via OCI registries.",
-      "urls": [
-        "https://github.com/docker/docker-agent"
-      ]
-    },
-    {
-      "date": "2026-10-08",
-      "headline": "Anthropic ships Claude Haiku 5.5 at $0.10/$0.50 per million tokens",
-      "summary": "Haiku 5.5 launched October 7 at $0.10 input and $0.50 output per million tokens for prompts up to 100k, about 75% cheaper to run than Haiku 4.5 by Anthropic's account. It scores 72.4% on OSWorld 2.1 (offline subset) against 15.7% for Haiku…",
-      "urls": [
-        "https://www.anthropic.com/claude-haiku-5-5"
       ]
     }
   ]
