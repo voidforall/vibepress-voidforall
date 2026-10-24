@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-23T12:26:14Z",
+  "updatedAt": "2026-10-24T11:51:59Z",
   "events": [
+    {
+      "date": "2026-10-24",
+      "headline": "UUIDv7's timestamps are less trustworthy than advertised, one author argues",
+      "summary": "The post says only uniqueness is guaranteed: Python's uuid.uuid7() can run ahead of the clock without bound after a backward clock step (over an hour in the author's test), and ordering can break on restarts. It advises asking each impleme…",
+      "urls": [
+        "https://alexsci.com/blog/uuidv7-is-weird/"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "headline": "Moonshot ships Kimi K3.1 Pro, with open weights promised by Nov. 4",
+      "summary": "Moonshot's K3.1 Pro is a post-trained Kimi K3 with a 1M-token context, plus a Highspeed variant it says runs 2-3x faster. It reports 65.7% on Terminal-Bench 4.0 against 66.4% for Claude Opus 5.5, and an 8.3% claim-level hallucination rate…",
+      "urls": [
+        "https://www.kimi.ai/blog/kimi-k3-1-pro"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "headline": "EFF urges Canadians to oppose Bill C-22 as it reaches the Senate",
+      "summary": "EFF says the Lawful Access Act, passed by the House, would let the Public Safety Minister order backdoors short of 'systemic insecurity', require up to a year of metadata retention, and could widen data sharing with foreign police. The CCL…",
+      "urls": [
+        "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "headline": "Calif says it hacked the iPhone, showing demos at Hexacon",
+      "summary": "A short Oct. 16 post says the team 'hacked what we'd set out to hack: the iPhone', with demo captions mentioning a Signal 1-click and iMessage. It names no iOS version or technique and says everything 'will be released in due time'.",
+      "urls": [
+        "https://blog.calif.io/p/iphone"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "headline": "Block's Dessa is a full-duplex conversation model trained only on speech",
+      "summary": "Block's research lab says Dessa learned from human conversation audio alone, with no text or pretrained models, using one NVIDIA GB200 NVL72. It lists no benchmarks or parameter count; access is a waitlist plus an application for AI safety…",
+      "urls": [
+        "https://block.xyz/dessa"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "headline": "Astral previews 'uv check', wiring the ty type checker into uv",
+      "summary": "The experimental integration adds a uv check command that builds the environment and runs ty, with --package, --all-packages and --script options, and PEP 723 script support. It needs uv 0.12.3+ and ty 0.0.76+; Ruff is planned next.",
+      "urls": [
+        "https://astral.sh/blog/uv-ty-integration"
+      ]
+    },
     {
       "date": "2026-10-23",
       "headline": "eMudhra will exit the global SSL/TLS certificate business after its intermediate-CA incident",
@@ -602,46 +650,6 @@
       "summary": "Jesse Waites built a pipeline using embeddings, a cheap filter and Claude Haiku to search digitized Dutch East India Company records and newspapers, after testing it on known events. He reports a possible 1812 Maharashtra meteorite fall, t…",
       "urls": [
         "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "headline": "Deno's team is joining Cloudflare: Deno Deploy shuts in six months, the runtime gets one more year of fixes",
-      "summary": "Deno announced on October 9 that its entire team is joining Cloudflare. The Deno runtime gets monthly bug and security releases for a year, Deno Deploy runs for six months with migration help for paying customers, and JSR continues on Clou…",
-      "urls": [
-        "https://deno.com/blog/cloudflare"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "headline": "Cactus's Whistle is a 16.9 MB speech-to-text model that runs on a device CPU",
-      "summary": "Whistle transcribes up to 30 seconds of audio in seven languages in a single file, with word timestamps. On an M4 Pro CPU it reports 1,319 tokens/s against 266 for Whisper base (145.3 MB), and wins on LibriSpeech, SPGISpeech, Earnings-22 a…",
-      "urls": [
-        "https://cactuscompute.com/blog/whistle"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "headline": "Bevy 0.20 adds macOS support to its path-traced renderer and adopts the WESL shader language",
-      "summary": "Released October 8, Bevy 0.20 makes Solari more accurate and faster and brings it to macOS, adopts WESL in place of its custom WGSL dialect, simplifies BSN scene syntax, and adds new Feathers UI widgets and a CAD-style Pan Orbit Camera.",
-      "urls": [
-        "https://bevy.org/news/bevy-0-20/"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "headline": "A statistical look at METR's AI time-horizon plot finds the difficulty curve is nearly flat between 2 and 30 minutes",
-      "summary": "A new arXiv paper relaxes METR's assumption that difficulty is linear in log human time, using splines and item-response theory. It finds a near-flat stretch from about 2 to 30 minutes, so going from 3 to 30 minutes is easier than from 30…",
-      "urls": [
-        "https://arxiv.org/abs/2610.12466v1"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "headline": "A blogger asks why the industry isn't freaking out about DeepSeek 4.1 Flash",
-      "summary": "The author says the model is orders of magnitude cheaper than frontier models: about $0.003 versus roughly $1 for a desktop-file reorganisation, on a $10-a-month plan. They give no benchmark scores, and the claim of a roughly 437x smaller…",
-      "urls": [
-        "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/"
       ]
     }
   ]

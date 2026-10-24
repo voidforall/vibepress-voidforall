@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-24",
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T11:51:41Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A release-heavy Saturday: Moonshot's open-weight promise, an unsubstantiated iPhone claim, and tooling and standards details worth reading closely. Benchmarks and claims are the publishers' own.",
+  "stories": [
+    {
+      "headline": "Moonshot ships Kimi K3.1 Pro, with open weights promised by Nov. 4",
+      "summary": "Moonshot's K3.1 Pro is a post-trained Kimi K3 with a 1M-token context, plus a Highspeed variant it says runs 2-3x faster. It reports 65.7% on Terminal-Bench 4.0 against 66.4% for Claude Opus 5.5, and an 8.3% claim-level hallucination rate against K3's 23.4%.",
+      "whyItMatters": "All benchmarks are Moonshot's own, and the weights are a promise until Nov. 4; it is available now via API and apps.",
+      "importance": 1,
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed - Kimi",
+          "url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        }
+      ]
+    },
+    {
+      "headline": "Calif says it hacked the iPhone, showing demos at Hexacon",
+      "summary": "A short Oct. 16 post says the team 'hacked what we'd set out to hack: the iPhone', with demo captions mentioning a Signal 1-click and iMessage. It names no iOS version or technique and says everything 'will be released in due time'.",
+      "whyItMatters": "Claim without details so far; nothing is verifiable until the write-up lands, and the post does not say whether Apple was notified.",
+      "importance": 2,
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "Today, we hacked what we'd set out to hack: the iPhone - Calif",
+          "url": "https://blog.calif.io/p/iphone"
+        }
+      ]
+    },
+    {
+      "headline": "Astral previews 'uv check', wiring the ty type checker into uv",
+      "summary": "The experimental integration adds a uv check command that builds the environment and runs ty, with --package, --all-packages and --script options, and PEP 723 script support. It needs uv 0.12.3+ and ty 0.0.76+; Ruff is planned next.",
+      "whyItMatters": "Type checking now uses the lockfile's pinned ty version, so developers and CI run the same checker.",
+      "importance": 3,
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "Bringing uv and ty together - Astral",
+          "url": "https://astral.sh/blog/uv-ty-integration"
+        }
+      ]
+    },
+    {
+      "headline": "Block's Dessa is a full-duplex conversation model trained only on speech",
+      "summary": "Block's research lab says Dessa learned from human conversation audio alone, with no text or pretrained models, using one NVIDIA GB200 NVL72. It lists no benchmarks or parameter count; access is a waitlist plus an application for AI safety researchers.",
+      "whyItMatters": "'World's first' is the authors' claim, supported only by demo recordings; nothing is publicly downloadable yet.",
+      "importance": 4,
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "Dessa - Block",
+          "url": "https://block.xyz/dessa"
+        }
+      ]
+    },
+    {
+      "headline": "EFF urges Canadians to oppose Bill C-22 as it reaches the Senate",
+      "summary": "EFF says the Lawful Access Act, passed by the House, would let the Public Safety Minister order backdoors short of 'systemic insecurity', require up to a year of metadata retention, and could widen data sharing with foreign police. The CCLA and Citizen Lab want Part 2 withdrawn.",
+      "whyItMatters": "The bill now sits in the Senate; the EFF post gives no deadline.",
+      "importance": 5,
+      "category": "Business",
+      "sourceLinks": [
+        {
+          "title": "Canadians Are Running Out of Time to Oppose Dangerous C-22 Surveillance Bill - EFF",
+          "url": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill"
+        }
+      ]
+    },
+    {
+      "headline": "UUIDv7's timestamps are less trustworthy than advertised, one author argues",
+      "summary": "The post says only uniqueness is guaranteed: Python's uuid.uuid7() can run ahead of the clock without bound after a backward clock step (over an hour in the author's test), and ordering can break on restarts. It advises asking each implementation what it guarantees.",
+      "whyItMatters": "Code treating UUIDv7 as a creation time or strict sort key is relying on behaviour the RFC leaves to implementations.",
+      "importance": 6,
+      "category": "Ideas",
+      "sourceLinks": [
+        {
+          "title": "UUIDv7: Timestamps aren't time-ordered and other oddities - alexsci.com",
+          "url": "https://alexsci.com/blog/uuidv7-is-weird/"
+        }
+      ]
+    }
+  ]
+}

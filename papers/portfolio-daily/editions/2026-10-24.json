@@ -1,0 +1,73 @@
+{
+  "id": "2026-10-24",
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T11:51:41Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A Saturday edition built from headline-level reporting only, as article text was not retrievable: Rocket Lab's Iridium deal draws a challenge, gold probes $4,000, and Alibaba and bitcoin remain soft. Nothing here is investment advice.",
+  "stories": [
+    {
+      "headline": "Rocket Lab's worst week on record: an AST SpaceMobile partner challenges the Iridium deal",
+      "summary": "A Stocktwits headline says RKLB had its worst week ever after an AST SpaceMobile partner challenged Rocket Lab's planned Iridium purchase, claiming a rival uses the FCC to block competitors. A Motley Fool headline notes Iridium beat earnings. Article text was not retrievable, so no figures are given.",
+      "whyItMatters": "Per the headlines, the Iridium acquisition now faces a public challenge tied to FCC process, a new development beyond this paper's earlier coverage of the stock's slide.",
+      "importance": 1,
+      "category": "Company",
+      "sourceLinks": [
+        {
+          "title": "RKLB Stock Suffers Worst Week Ever: AST SpaceMobile Partner Challenges Iridium Deal — Claims Rival Uses FCC To Block Competitors - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdHRfUUNBVU84ZE4xcGx3WXRDX3o0cWVrY1FxdnppT0QzWjZqbmFLR2UxLUp4VGVhd0F5YXpsanVMbnRPai1nSWhFa1Azb2gwc21XR21YdVN1VUlrT2dEcHFwSm1wai1BRklFbHM2eWtYOGlMeVpfOEdtR0lmNEhENGNUS2NBS0FnVFBEaFUzN1NxUHAzSFVUWGlOaVFCNFRxT2t6X1R2OVhfWkNQYVpZbUdsZVRESDI5QVM2LTZjWVVFVG9GRWhZZkdKejJYQnJVNnZ2dzNn?oc=5"
+        },
+        {
+          "title": "Rocket Lab Is Buying Iridium, and Guess What? Iridium Just Beat Earnings! - The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbTdPRE5naEVFWGVnZmN3NklpYnpsdGpIU2ZwOG5hcmkzVnFwWHlmYW5TcXJQcTREcnRTX0xfR1Q0UW5KSXpETkdJQ0JMazFGYmc1YVlmR1ZJU1h5eWpXWFFOQTlxakozb1g4REVqNUl0VFRha0Fpa1hQUzhwQ2FLZXltc0JvVEQ0aDNlaUw0RFFudDZvZEQ2Vg?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Gold tests $4,000 support as bearish gaps point to downside risk, Investing.com says",
+      "summary": "An Investing.com headline dated Oct. 24 says gold is testing $4,000 support, with bearish gaps signalling further downside risks. Article text was not retrievable, so no further levels are reported.",
+      "whyItMatters": "Per the headline, the metal has slid further from the roughly $4,100 level this paper reported on Oct. 22.",
+      "importance": 2,
+      "category": "Commodities",
+      "sourceLinks": [
+        {
+          "title": "Gold Price Tests $4,000 Support as Bearish Gaps Signal Further Downside Risks - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbzBQSnVoSVpPT1VWQ2UtVDVDUTZqSGJKQnBxNUxmNzhtdlF3X3VUTHdRVG5wZmRYRW5SSGxPOTRqYS01TktUTkRiYlV2WDBITzNsbDd5MHlxWFZWYUpSQ1oxam1td3JJSHpEMHF1RVd4UXl5VHNiaUFBVHd3RUx0TUdid2o0V2lDdEhfYmdIcW9YeEN1MnBNTjB2c1FRb1NZYjYwSmRPWmN6b3JmeWRrMFQ5LUJpQXZTU3liWQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Alibaba ADR underperforms peers on Friday, MarketWatch reports",
+      "summary": "MarketWatch headlines dated Oct. 23 say Alibaba's ADR underperformed competitors on Friday; GuruFocus separately lists Alibaba as falling while TSMC rose among Chinese stocks. Article text was not retrievable, so no price figures are given.",
+      "whyItMatters": "Per the headlines, the weakness continues the China tech pressure covered earlier in the week.",
+      "importance": 3,
+      "category": "Markets",
+      "sourceLinks": [
+        {
+          "title": "Alibaba Group Holding Ltd. ADR underperforms Friday when compared to competitors - MarketWatch",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSkhFRmxlZGt0a0paQk1PVnBTUnBSSWdNYlBSUjBYaGhYNlBQc0Z0VjNBZUpVXzlINmR3WHpwYUlZTDQ5NmtTaGdBTlB2UE8yYm40cVJrYWRfeFpFaDRoZGwtcFlNQ1IzSFFfWFd3Sk5lSzk4VU1ZWThONWRZTjZiR1A2Ymhnako3cFFSWTdLUkRLRjF5ajd3UlZCOEhGRHNRekdzLVl3Ui1saS1BbmpfcGU2cHJ0eUx5MVNPZlpKOGk4NFd5V2ZHMmU3cFhiWi05a3U2VFh3?oc=5"
+        },
+        {
+          "title": "Chinese Stocks Mixed: TSMC (TSM) Rises While Alibaba (BABA) Falls - GuruFocus",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeExwQ2R3UC14WTQ0cnF5NnNyT1daTlFtTXlyR1B4RmZoZDJJRGtKdC1DT1hGSEhMZ051LW9rdUlGdTB4TTV2Y216X0lhUjB1RU9OMEs2T0NZQURaRnhWdFFWa2JGOVVXY0tJNDFnakEtalJUWFo0REZQWGlGdlh1V09TREx1TmFHVV8wYW14RUZnb1dzbHN5NUFZaEtPU0E4?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin is down in October despite 'Uptober' hopes, with a Motley Fool piece listing reasons for optimism",
+      "summary": "A Motley Fool headline says bitcoin may be down in October and offers three reasons to stay bullish; a Yahoo Finance headline asks what happens if this cycle breaks the pattern of bottoming after US midterm elections. Article text was not retrievable; the optimism is the outlets' opinion, not a forecast we endorse.",
+      "whyItMatters": "Per the headlines, bitcoin's October has fallen short of its seasonal reputation.",
+      "importance": 4,
+      "category": "Crypto",
+      "sourceLinks": [
+        {
+          "title": "What Happened to Uptober? Bitcoin May Be Down in October, But Here Are 3 Reasons to Remain Bullish on BTC. - The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZGdCdkViczFwTGVNd0R4NEdnUzZ1TG9CSEJjZ1FGRFBlNmVEdFBuMm90eFg1YjZBcU5Gcmw4UkczSHFEaDJZVno3eHhId2FFSjhqYTN1WGpVREwtT2Q4ZUFGNEFwRVFEVUp0NURzS3BxdmFwWGFpTXFFTzFIX3FsU014c0xFdnMycDlWSmw0bHdmdWdqOWlIdw?oc=5"
+        },
+        {
+          "title": "Bitcoin Usually Bottoms After Midterm Elections. What Happens if This Cycle Breaks the Pattern? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQmhCRDI1clFnSHpoaXV2em5xX1FLRlpBWDlSTlItWnE2eDhFbTRBV3BzNm1fRDF4Tlh1ZnQ5YXQ1bkkxSnRSNVhRNXZLMlR0cl9tQlEyRnlMQWQySTdodDFQWnVNVTBlVlBwNnlhUk1GOUtVczhDZXN1SGxwS1g3UktYTnFHb1l3UWVGczV0bUN1d2sxdHFJZ1Bka3FxTTMxWmpsWDZnTWhFdw?oc=5"
+        }
+      ]
+    }
+  ]
+}

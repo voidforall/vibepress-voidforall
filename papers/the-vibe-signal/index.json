@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-10-24",
+      "date": "2026-10-24",
+      "headline": "Moonshot ships Kimi K3.1 Pro, with open weights promised by Nov. 4",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-23",
       "date": "2026-10-23",
       "headline": "Anthropic says Claude produced machine-checked memory-safety proofs for 239 entry points across 123 open-source libraries",

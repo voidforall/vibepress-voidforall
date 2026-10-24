@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-24",
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T11:51:41Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "发布密集的周六:月之暗面承诺开源权重、一项缺乏细节的 iPhone 破解声明,以及值得细读的工具和标准细节。基准测试和各项声明均为发布方自述。",
+  "stories": [
+    {
+      "headline": "月之暗面发布 Kimi K3.1 Pro,承诺 11 月 4 日前开放权重",
+      "summary": "K3.1 Pro 是经过后训练的 Kimi K3,上下文为 100 万 token,另有据称快 2-3 倍的 Highspeed 版本。月之暗面称其 Terminal-Bench 4.0 得分 65.7%(Claude Opus 5.5 为 66.4%),声明级幻觉率 8.3%(K3 为 23.4%)。",
+      "whyItMatters": "所有基准均为月之暗面自测,权重在 11 月 4 日前仍只是承诺;目前可通过 API 和应用使用。",
+      "importance": 1,
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed - Kimi",
+          "url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        }
+      ]
+    },
+    {
+      "headline": "Calif 称已破解 iPhone,并在 Hexacon 展示演示",
+      "summary": "10 月 16 日的简短博文称团队“完成了我们要攻破的目标:iPhone”,演示说明提到 Signal 一键攻击和 iMessage。文中未给出 iOS 版本或技术,并称一切“将在适当时候发布”。",
+      "whyItMatters": "目前只有声明而无细节;在完整报告发布前无法验证,文中也未说明是否已通知苹果。",
+      "importance": 2,
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "Today, we hacked what we'd set out to hack: the iPhone - Calif",
+          "url": "https://blog.calif.io/p/iphone"
+        }
+      ]
+    },
+    {
+      "headline": "Astral 预览“uv check”,将 ty 类型检查器接入 uv",
+      "summary": "这一实验性集成新增 uv check 命令,可构建环境并运行 ty,支持 --package、--all-packages 和 --script 选项以及 PEP 723 脚本。需要 uv 0.12.3+ 和 ty 0.0.76+;下一步计划加入 Ruff。",
+      "whyItMatters": "类型检查使用锁文件中固定的 ty 版本,开发者和 CI 运行同一检查器。",
+      "importance": 3,
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "Bringing uv and ty together - Astral",
+          "url": "https://astral.sh/blog/uv-ty-integration"
+        }
+      ]
+    },
+    {
+      "headline": "Block 的 Dessa 是仅用语音训练的全双工对话模型",
+      "summary": "Block 的研究实验室称,Dessa 只从人类对话音频中学习,没有文本或预训练模型,使用一台 NVIDIA GB200 NVL72。文中未列出基准或参数量;可通过候补名单加入,AI 安全研究者可申请使用。",
+      "whyItMatters": "“全球首个”是作者的说法,仅有演示录音佐证;目前无法公开下载。",
+      "importance": 4,
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "Dessa - Block",
+          "url": "https://block.xyz/dessa"
+        }
+      ]
+    },
+    {
+      "headline": "EFF 呼吁加拿大人在 C-22 法案进入参议院之际表示反对",
+      "summary": "EFF 称,已通过众议院的《合法访问法》将允许公共安全部长在不造成“系统性不安全”的前提下下令设置后门,要求保留元数据长达一年,并可能扩大与外国警方的数据共享。CCLA 和 Citizen Lab 希望撤回第二部分。",
+      "whyItMatters": "该法案目前在参议院;EFF 文章未给出截止日期。",
+      "importance": 5,
+      "category": "商业",
+      "sourceLinks": [
+        {
+          "title": "Canadians Are Running Out of Time to Oppose Dangerous C-22 Surveillance Bill - EFF",
+          "url": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill"
+        }
+      ]
+    },
+    {
+      "headline": "有作者指出 UUIDv7 的时间戳不如宣传的那样可靠",
+      "summary": "文章称只有唯一性有保证:Python 的 uuid.uuid7() 在时钟回拨后可能无限超前于系统时钟(作者测试中超过一小时),重启也可能破坏顺序。建议询问各实现究竟保证什么。",
+      "whyItMatters": "把 UUIDv7 当作创建时间或严格排序键的代码,依赖的是 RFC 留给实现自行决定的行为。",
+      "importance": 6,
+      "category": "观点",
+      "sourceLinks": [
+        {
+          "title": "UUIDv7: Timestamps aren't time-ordered and other oddities - alexsci.com",
+          "url": "https://alexsci.com/blog/uuidv7-is-weird/"
+        }
+      ]
+    }
+  ]
+}
