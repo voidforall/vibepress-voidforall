@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-25",
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T12:21:14Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "周日版基于标题层面的报道，因文章正文无法获取：比特币跌破8万美元，杠杆加密基金获SEC批准，黄金关注支撑位，阿里巴巴和多邻国引发评论。以上内容不构成投资建议。",
+  "stories": [
+    {
+      "headline": "CoinDesk：中东局势再起担忧，比特币跌破8万美元",
+      "summary": "CoinDesk 的标题称，随着中东担忧再度浮现，比特币跌破8万美元。文章正文无法获取，故不提供更多数据。",
+      "whyItMatters": "据标题，推动价格跌破整数关口的是地缘政治消息，而非加密行业自身事件。",
+      "importance": 1,
+      "category": "加密货币",
+      "sourceLinks": [
+        {
+          "title": "Bitcoin price news: BTC falls below $80,000 on renewed Middle East worries - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOY2t0UU51ZnVfTTRnQm16dnpFQjY5SVl5MEg4eW5iU1YwYXF2NFRTUlUyMWxNWHlxc2xQdm1rS3k3YkFpVEhoSXhFRFJwQlRRVFBsTl9jNmY4SnZsR0tTUk9fZDI1ZXZ1dE5sdGdxbE8zajZOXzI5ZW1qbjZqYlpOR2hfUFNYYkUxTHZxUG1mcGhtMURUM294ZDhUdGk4R01FY2xRemxMWnVmS0ttOHFkWGdrYVBxSkE4b1VqS1hDRmVOdV8xM1FBTHpWS2hsVUo2?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Motley Fool：SEC批准杠杆比特币和以太坊基金上市交易",
+      "summary": "Motley Fool 的标题称，SEC 已批准杠杆比特币和以太坊基金交易，并探讨其是否值得购买。正文无法获取，故不提供基金名称和条款。",
+      "whyItMatters": "据标题，投资者现可通过获批基金获得这两大加密资产的杠杆敞口。",
+      "importance": 2,
+      "category": "监管",
+      "sourceLinks": [
+        {
+          "title": "SEC Approves Leveraged Bitcoin and Ethereum Funds for Trading. But Are These ETFs Worth Buying? - The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUnVqNFZtMWdtM21HSVg5VVlNanRuNU45bWJjRXhDaWZCekNRWEtmaFRkNFJqZXRPOHRGZG9vZFBJUWpqa0N4UUxJYnREdTVNXzdGY3hhUzg5RmV1TFBoa0dFMV8wcHNyV3p3YmU2X0VNU0V0TDFTcUJDVldVT0ZReU5lYllPQ1BBVjZ0d1FhQ3JaWXZsRTRF?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "雅虎财经：摩根大通预计未来十年比特币年回报约10%，但不建议买入",
+      "summary": "雅虎财经的标题称，摩根大通预计未来十年比特币年回报约10%，但并未建议买入。正文无法获取，预测依据此处不予说明。",
+      "whyItMatters": "据标题，大型银行发布了比特币的长期回报估计，但并未背书。",
+      "importance": 3,
+      "category": "加密货币",
+      "sourceLinks": [
+        {
+          "title": "JPMorgan projects 10% annual Bitcoin returns over the next decade — but won't recommend buying it - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU3EtWnZ6WHo2Zm83emc4RklNdVE1d3RYUWxYbUhvczVlQzRIajRxOTdKTnpPTXkwajUya0ZvWWFjY3VoSDlxRkxvdGVWbkxvZGxVNXZPUUt5ZWVkYjIzS214NmFmVm9CM052UnFOZE8yLUFmcEw2aGdlcmwwUTNIODlfZmVZd0hLajJUS0xORHVmMzNJejdRMTZJWDhHQURhS0E?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "黄金：StoneX称现货金守住关键支撑；《今日美国》探讨能否重返5000美元",
+      "summary": "StoneX 展望的标题称现货黄金守住关键支撑、突破临近；《今日美国》的标题则探讨黄金能否再次触及5000美元及专家对2027年的看法。正文无法获取，故不提供价位。",
+      "whyItMatters": "据标题，分析师在黄金近期下跌后关注支撑区间，讨论也转向更长期的目标。",
+      "importance": 4,
+      "category": "大宗商品",
+      "sourceLinks": [
+        {
+          "title": "Gold Price Short-term Outlook: XAU/USD Holds Critical Support as Breakout Nears - StoneX",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSXVHTFJfVEpSaGhVMFAtakNvaGxDVWNJUWx3enlfOE9hZ283MmMzWWJld3hVc01HWlozSWZEcjl6WUNHa20tOG1XdmZvbzB1eGNrckhCTUR2S3hOSUNRSk0zcE01RXA3U2RpZlZvM18yZVlUN3hidmd2bGhUay1faDJPaE51TUxldFRVanFsZFNoWWVieS1HYVUwSDZwYTcwQ3RQaVpVR1F4OWRKazdDX2pYOXlmZFptZUltUzAyaXJSelNN?oc=5"
+        },
+        {
+          "title": "Will gold hit $5,000 again? What experts expect for 2027 - USA Today",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRmNuRGNna3E1QVlPNDRRZjZhMDdpMUJVeXRfVHVyVXk3Z0xDc0M2b25hSVVkTjVwbWIwdG5xdlEybDRqdjBUMnhURnFTc2ZFdkQ4RWZFMG5OV3VOOVJOTDZnSmZZR3dUVVY2N3NRSnkyTkRHT1RoVDYxRGZOdFlSYXhaSzd3UndJTTBLMURNYXRZbmlycGJzdFFvMA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "雅虎财经：阿里巴巴员工持股计划股份申报引发59%低估估算",
+      "summary": "雅虎财经的标题称，在员工持股计划股份申报后，阿里巴巴可能被低估59%。该数字是分析观点；正文无法获取。",
+      "whyItMatters": "据标题，与阿里员工计划相关的股份申报引发估值评论；低估幅度只是估算，并非披露事实。",
+      "importance": 5,
+      "category": "公司",
+      "sourceLinks": [
+        {
+          "title": "Alibaba Group Holding (BABA) Could Be 59% Undervalued Following Its ESOP Share Filing - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNlhhNFd3eXowbjF1VVk0QkVlZ0VLUFlRaTJSMlg0R0QwX1YxcTRIdi1iZUljVGhiekJCYUZwY093OVNRcEFENGplcnhqVkstdDVXV2t0YVZsLWlrN0YwWlFxTV9Ha205bHlsdUZFZFQwUTY1Q1owQmFuQWk5R01aNFljU1RIcWNjQk9CVEhyVDdOOW50dURlYmUwWmI1dw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Stocktwits：多邻国盘前上涨",
+      "summary": "Stocktwits 的标题询问多邻国股价为何盘前上涨。正文无法获取，故不提供原因和涨幅。",
+      "whyItMatters": "据标题，DUOL 盘前走高；原因此处无法确认。",
+      "importance": 6,
+      "category": "公司",
+      "sourceLinks": [
+        {
+          "title": "Why Is DUOL Stock Rising Premarket? - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNWE1xRVRtQkJTVXhLQVh3b043aUtmelg3V0dUZXVfS0IwVDl1WDMyb0NOTUpRSTFKM3haaDB2YnNUQnpLRzJ5OGdVWnNvSXZxaW5kR2FPRTlNZ3pmNW9XLVZRSVNDekUtSlVtQzExQUs3U2c1S1RzNFJZTEJSWmpuenJqLU1qQXBzODRxYXdWa2JDbnRSUE9PR1h1NGRybFhIakZsbl9kU3lOcXdMOGtJamlxU2drNmEybGM0ek1KeXpIZFNXcVU5U3ltdEQtTjVIa3RIc1FzVExHaU5rUlU2V2U5UGtKeFhI?oc=5"
+        }
+      ]
+    }
+  ]
+}

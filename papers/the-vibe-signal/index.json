@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-10-25",
+      "date": "2026-10-25",
+      "headline": "Brotli bug 'Node2Shell' (CVSS 9.2) hits Node.js, Python HTTP clients and more; fixes are out",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-24",
       "date": "2026-10-24",
       "headline": "Moonshot ships Kimi K3.1 Pro, with open weights promised by Nov. 4",

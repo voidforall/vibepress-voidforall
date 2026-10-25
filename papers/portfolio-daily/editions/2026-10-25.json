@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-25",
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T12:21:14Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A Sunday edition built from headline-level reporting, as article text was not retrievable: bitcoin dips under $80,000, leveraged crypto funds win SEC approval, gold watches support, and Alibaba and Duolingo draw commentary. Nothing here is investment advice.",
+  "stories": [
+    {
+      "headline": "Bitcoin slips below $80,000 on renewed Middle East worries, CoinDesk reports",
+      "summary": "A CoinDesk headline says bitcoin fell below $80,000 as worries about the Middle East resurfaced. Article text was not retrievable, so no further figures are given.",
+      "whyItMatters": "Per the headline, geopolitical news rather than a crypto-specific event drove the move through a round-number level.",
+      "importance": 1,
+      "category": "Crypto",
+      "sourceLinks": [
+        {
+          "title": "Bitcoin price news: BTC falls below $80,000 on renewed Middle East worries - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOY2t0UU51ZnVfTTRnQm16dnpFQjY5SVl5MEg4eW5iU1YwYXF2NFRTUlUyMWxNWHlxc2xQdm1rS3k3YkFpVEhoSXhFRFJwQlRRVFBsTl9jNmY4SnZsR0tTUk9fZDI1ZXZ1dE5sdGdxbE8zajZOXzI5ZW1qbjZqYlpOR2hfUFNYYkUxTHZxUG1mcGhtMURUM294ZDhUdGk4R01FY2xRemxMWnVmS0ttOHFkWGdrYVBxSkE4b1VqS1hDRmVOdV8xM1FBTHpWS2hsVUo2?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "SEC approves leveraged bitcoin and ether funds for trading, per a Motley Fool headline",
+      "summary": "A Motley Fool headline says the SEC has approved leveraged Bitcoin and Ethereum funds for trading, and asks whether they are worth buying. Article text was not retrievable, so fund names and terms are not given.",
+      "whyItMatters": "Per the headline, leveraged exposure to the two largest crypto assets is now available through approved funds.",
+      "importance": 2,
+      "category": "Regulatory",
+      "sourceLinks": [
+        {
+          "title": "SEC Approves Leveraged Bitcoin and Ethereum Funds for Trading. But Are These ETFs Worth Buying? - The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUnVqNFZtMWdtM21HSVg5VVlNanRuNU45bWJjRXhDaWZCekNRWEtmaFRkNFJqZXRPOHRGZG9vZFBJUWpqa0N4UUxJYnREdTVNXzdGY3hhUzg5RmV1TFBoa0dFMV8wcHNyV3p3YmU2X0VNU0V0TDFTcUJDVldVT0ZReU5lYllPQ1BBVjZ0d1FhQ3JaWXZsRTRF?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "JPMorgan projects 10% annual bitcoin returns over the next decade but does not recommend buying, Yahoo Finance says",
+      "summary": "A Yahoo Finance headline says JPMorgan projects about 10% annual bitcoin returns over the next decade while stopping short of recommending a purchase. Article text was not retrievable; the basis for the projection is not given here.",
+      "whyItMatters": "Per the headline, a large bank has published a long-horizon return estimate for bitcoin without endorsing it.",
+      "importance": 3,
+      "category": "Crypto",
+      "sourceLinks": [
+        {
+          "title": "JPMorgan projects 10% annual Bitcoin returns over the next decade — but won't recommend buying it - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU3EtWnZ6WHo2Zm83emc4RklNdVE1d3RYUWxYbUhvczVlQzRIajRxOTdKTnpPTXkwajUya0ZvWWFjY3VoSDlxRkxvdGVWbkxvZGxVNXZPUUt5ZWVkYjIzS214NmFmVm9CM052UnFOZE8yLUFmcEw2aGdlcmwwUTNIODlfZmVZd0hLajJUS0xORHVmMzNJejdRMTZJWDhHQURhS0E?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Gold: StoneX sees XAU/USD holding critical support; USA Today asks whether $5,000 returns",
+      "summary": "A StoneX outlook headline says spot gold is holding critical support as a breakout nears, and a USA Today headline asks whether gold will reach $5,000 again, with expert views on 2027. Article text was not retrievable, so no price levels are given.",
+      "whyItMatters": "Per the headlines, analysts are watching a support zone after gold's recent slide, and the debate has moved to longer-term targets.",
+      "importance": 4,
+      "category": "Commodities",
+      "sourceLinks": [
+        {
+          "title": "Gold Price Short-term Outlook: XAU/USD Holds Critical Support as Breakout Nears - StoneX",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSXVHTFJfVEpSaGhVMFAtakNvaGxDVWNJUWx3enlfOE9hZ283MmMzWWJld3hVc01HWlozSWZEcjl6WUNHa20tOG1XdmZvbzB1eGNrckhCTUR2S3hOSUNRSk0zcE01RXA3U2RpZlZvM18yZVlUN3hidmd2bGhUay1faDJPaE51TUxldFRVanFsZFNoWWVieS1HYVUwSDZwYTcwQ3RQaVpVR1F4OWRKazdDX2pYOXlmZFptZUltUzAyaXJSelNN?oc=5"
+        },
+        {
+          "title": "Will gold hit $5,000 again? What experts expect for 2027 - USA Today",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRmNuRGNna3E1QVlPNDRRZjZhMDdpMUJVeXRfVHVyVXk3Z0xDc0M2b25hSVVkTjVwbWIwdG5xdlEybDRqdjBUMnhURnFTc2ZFdkQ4RWZFMG5OV3VOOVJOTDZnSmZZR3dUVVY2N3NRSnkyTkRHT1RoVDYxRGZOdFlSYXhaSzd3UndJTTBLMURNYXRZbmlycGJzdFFvMA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Alibaba: Yahoo Finance headline cites an ESOP share filing and a 59% undervaluation estimate",
+      "summary": "A Yahoo Finance headline says Alibaba could be 59% undervalued following an employee stock ownership plan share filing. The 59% figure is an analysis claim in the headline; article text was not retrievable.",
+      "whyItMatters": "Per the headline, a share filing tied to Alibaba's employee plan is drawing valuation commentary; the undervaluation figure is an estimate, not a disclosed fact.",
+      "importance": 5,
+      "category": "Company",
+      "sourceLinks": [
+        {
+          "title": "Alibaba Group Holding (BABA) Could Be 59% Undervalued Following Its ESOP Share Filing - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNlhhNFd3eXowbjF1VVk0QkVlZ0VLUFlRaTJSMlg0R0QwX1YxcTRIdi1iZUljVGhiekJCYUZwY093OVNRcEFENGplcnhqVkstdDVXV2t0YVZsLWlrN0YwWlFxTV9Ha205bHlsdUZFZFQwUTY1Q1owQmFuQWk5R01aNFljU1RIcWNjQk9CVEhyVDdOOW50dURlYmUwWmI1dw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Duolingo shares rise premarket, Stocktwits reports",
+      "summary": "A Stocktwits headline asks why Duolingo stock is rising premarket. Article text was not retrievable, so the cause and size of the move are not given.",
+      "whyItMatters": "Per the headline, DUOL moved higher in premarket trading; the reason is not established here.",
+      "importance": 6,
+      "category": "Company",
+      "sourceLinks": [
+        {
+          "title": "Why Is DUOL Stock Rising Premarket? - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNWE1xRVRtQkJTVXhLQVh3b043aUtmelg3V0dUZXVfS0IwVDl1WDMyb0NOTUpRSTFKM3haaDB2YnNUQnpLRzJ5OGdVWnNvSXZxaW5kR2FPRTlNZ3pmNW9XLVZRSVNDekUtSlVtQzExQUs3U2c1S1RzNFJZTEJSWmpuenJqLU1qQXBzODRxYXdWa2JDbnRSUE9PR1h1NGRybFhIakZsbl9kU3lOcXdMOGtJamlxU2drNmEybGM0ek1KeXpIZFNXcVU5U3ltdEQtTjVIa3RIc1FzVExHaU5rUlU2V2U5UGtKeFhI?oc=5"
+        }
+      ]
+    }
+  ]
+}

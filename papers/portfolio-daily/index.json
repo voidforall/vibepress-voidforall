@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-25",
+      "date": "2026-10-25",
+      "headline": "Bitcoin slips below $80,000 on renewed Middle East worries, CoinDesk reports",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-24",
       "date": "2026-10-24",
       "headline": "Rocket Lab's worst week on record: an AST SpaceMobile partner challenges the Iridium deal",

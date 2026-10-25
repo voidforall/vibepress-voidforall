@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-25",
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T12:21:14Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今日信号：一个已有补丁但扫描工具覆盖不全的严重 Brotli 漏洞，一套自报成绩的框架让开源模型逼近前沿模型，厂商对万亿参数部署的晶圆测算，两篇关于AI是否带来回报的分析，以及一篇呼吁软件更有雄心的文章。",
+  "stories": [
+    {
+      "headline": "Brotli漏洞“Node2Shell”（CVSS 9.2）波及Node.js、Python HTTP客户端等，修复版已发布",
+      "summary": "CVE-2026-111497 是 Google Brotli 解码器中的越界写入漏洞，未经认证的远程方可通过构造的数据流触发。受影响版本为 Brotli 1.0.3 至 1.2.0；修复版包括 Brotli 1.2.1（及 1.0.10、1.1.1）、Node.js 22.23.4、24.22.1、26.12.1，以及 Bun、Envoy、Istio 的更新。",
+      "whyItMatters": "据 Aikido，OpenAI 于2月报告此漏洞，此前没有任何发布版包含修复；截至10月23日，pip-audit、Dependabot 和 Safety 均未标记受影响的 PyPI 包。",
+      "importance": 1,
+      "category": "科技",
+      "sourceLinks": [
+        {
+          "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+          "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"
+        }
+      ]
+    },
+    {
+      "headline": "GVS5H作者称：五个Qwen3.8-27B模型在高难编程题上追平Fable 5",
+      "summary": "该仓库介绍了一种无需训练、基于账本的自编排框架：多个全新模型实例通过共享文件系统协作。在100道高难 LiveCodeBench 题目上，编排后的 Qwen3.8 Flash Next 达到 93.0% pass@1，Fable 5 为 90.4%，成本约为其9%；本地 Qwen3.8-27B 从 66.8% 升至 92.4%。",
+      "whyItMatters": "所有数据均为作者自报，提升并非普遍，Opus 5 使用的是早期版本框架；但仓库将提升归因于任务分解和持久上下文，而非更大的模型。",
+      "importance": 2,
+      "category": "科技",
+      "sourceLinks": [
+        {
+          "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+          "url": "https://github.com/slee-persis/GVS5H"
+        }
+      ]
+    },
+    {
+      "headline": "Cerebras阐述如何在59块晶圆上部署约3万亿参数模型",
+      "summary": "Cerebras 在10月22日的文章中以 Kimi K3（约3万亿参数、93层）为例：4位权重约1.5 TB，需要59块 WSE-3T 晶圆（线性注意力层35块、稠密层24块），每块有44 GB片上内存，以流水线连接，晶圆间跳转约2微秒。目标速度为每秒1000至2000+个token。",
+      "whyItMatters": "该文是厂商材料，建立在既定假设之上（256k请求、8位KV缓存），并主张每兆瓦每秒token数是更公平的效率指标。",
+      "importance": 3,
+      "category": "科技",
+      "sourceLinks": [
+        {
+          "title": "Cerebras Deploys Trillion-Parameter AI Models",
+          "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+        }
+      ]
+    },
+    {
+      "headline": "Apollo的斯洛克：科技行业之外尚无AI回报迹象",
+      "summary": "在10月24日的报告中，Apollo 首席经济学家 Torsten Slok 展示：七巨头的人均收入和利润率上升，而标普493家其余公司持平，全要素生产率也未见提升。他引用 Ramp 数据称AI支出集中在少数公司。",
+      "whyItMatters": "这是一位经济学家对五张图表的解读，但它把问题界定为：科技以外的主流企业是否出现收入或利润率提升。",
+      "importance": 4,
+      "category": "商业",
+      "sourceLinks": [
+        {
+          "title": "No signs of AI payoff outside the tech sector",
+          "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+        }
+      ]
+    },
+    {
+      "headline": "美国四年流失20万+媒体、影视和艺术岗位，其中多少归因于AI尚不明确",
+      "summary": "Apricitas Economics 发现创意产业四年间流失逾20万个岗位，过去一年约5万个；影视就业下降逾10万，报纸从业人数较峰值下降近85%。文中称艺术与娱乐业约32%的从业者使用生成式AI，全行业为62%。",
+      "whyItMatters": "作者指出行业整合、业务外包和社交媒体创作者同样是原因，因此无法将岗位流失单独归因于AI。",
+      "importance": 5,
+      "category": "商业",
+      "sourceLinks": [
+        {
+          "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+          "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
+        }
+      ]
+    },
+    {
+      "headline": "Dan Luu：我们应该对所构建的软件更有野心",
+      "summary": "Luu 认为，AI工具让过去不可行的项目（如 pgrust 的 Postgres 重写和他自己的定制工具）能以“对我有用”的质量实现，而许多人仍按AI出现之前的成本模型工作。他承认多数AI生成的软件质量不高，且野心需要充分测试来配合。",
+      "whyItMatters": "这是一种论点而非结果；文中还提到 Yossi Kreinin 的告诫：大多数人应该收敛自己的野心。",
+      "importance": 6,
+      "category": "观点",
+      "sourceLinks": [
+        {
+          "title": "We should be more ambitious with the software we build",
+          "url": "https://danluu.com/ambitious/"
+        }
+      ]
+    }
+  ]
+}

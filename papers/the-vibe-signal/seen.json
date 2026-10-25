@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-24T11:51:59Z",
+  "updatedAt": "2026-10-25T12:21:15Z",
   "events": [
+    {
+      "date": "2026-10-25",
+      "headline": "Five Qwen3.8-27B models match Fable 5 on hard coding problems, the authors of GVS5H say",
+      "summary": "The repo describes a training-free, ledger-based self-orchestration harness where fresh model instances coordinate through a shared filesystem. On 100 hard LiveCodeBench problems it reports an orchestrated Qwen3.8 Flash Next at 93.0% pass@…",
+      "urls": [
+        "https://github.com/slee-persis/GVS5H"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "headline": "Dan Luu: we should be more ambitious with the software we build",
+      "summary": "Luu argues AI tools make once-infeasible projects, such as the pgrust Postgres rewrite and his own custom tooling, achievable at 'works for me' quality, and that many people still work from a pre-AI cost model. He concedes most AI-generate…",
+      "urls": [
+        "https://danluu.com/ambitious/"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "headline": "Cerebras explains how it would serve a ~3-trillion-parameter model across 59 wafers",
+      "summary": "In an Oct. 22 post, Cerebras uses Kimi K3 (about 3T parameters, 93 layers) as its example: at 4-bit weights of about 1.5 TB, it needs 59 WSE-3T wafers (35 for linear-attention layers, 24 for dense), each with 44 GB of on-chip memory, linke…",
+      "urls": [
+        "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "headline": "Brotli bug 'Node2Shell' (CVSS 9.2) hits Node.js, Python HTTP clients and more; fixes are out",
+      "summary": "CVE-2026-111497 is an out-of-bounds write in Google's Brotli decoder, reachable by a crafted stream from an unauthenticated remote sender. Brotli 1.0.3 through 1.2.0 is affected; fixes are Brotli 1.2.1 (plus 1.0.10 and 1.1.1), Node.js 22.2…",
+      "urls": [
+        "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "headline": "Apollo's Slok: no sign of an AI payoff outside the tech sector",
+      "summary": "In an Oct. 24 note, Apollo chief economist Torsten Slok shows revenue per worker and profit margins rising for the Magnificent 7 but flat for the S&P 493, with no lift in total factor productivity. He cites Ramp data showing AI spending co…",
+      "urls": [
+        "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "headline": "America has lost 200k+ media, film and arts jobs in four years; how much is AI is unclear",
+      "summary": "Apricitas Economics finds more than 200k creative-industry jobs lost over four years, about 50k in the past year, with movie and TV employment down over 100k and newspaper payrolls down nearly 85% from peak. About 32% of arts and entertain…",
+      "urls": [
+        "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
+      ]
+    },
     {
       "date": "2026-10-24",
       "headline": "UUIDv7's timestamps are less trustworthy than advertised, one author argues",
@@ -602,54 +650,6 @@
       "summary": "Re-fitting 26 AIs on 228 tasks with splines and item-response theory, the authors find difficulty is nearly flat between about 2 and 30 minutes and steeper elsewhere, so a 3-to-30-minute jump is easier for AIs than 30 minutes to 5 hours. T…",
       "urls": [
         "https://arxiv.org/abs/2610.12466v1"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "headline": "TypeSafe AI raises $870M Series A at a $7.5B valuation led by a16z",
-      "summary": "The AI lab says Andreessen Horowitz led the round, with Sequoia Capital and DCVC participating, and Martin Casado joining the board. Its first model, Jev, is in early access; the post gives no specific allocation of the funds.",
-      "urls": [
-        "https://typesafe.ai/blog/series-ai"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "headline": "Telegram Desktop link-click bug allowed local file theft; fixed in 7.2.9 without an advisory",
-      "summary": "A researcher shows that an unescaped ';' in Telegram Desktop's single-instance IPC let a crafted tg:// link inject commands, one of which reached an internal 'interpret:' handler that uploads a named file. Versions through 7.2.8 are affect…",
-      "urls": [
-        "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "headline": "Probes catch sabotage and unverbalized deception in models, a new paper reports",
-      "summary": "The authors train white-box probes on a deception dataset they call FIBS, reporting 98.8% AUC on SHADE-Arena, ahead of an Opus 5.5 text-monitor baseline, and up to 99.7% AUC on 'introspective deception'. They release the dataset and code.",
-      "urls": [
-        "https://arxiv.org/abs/2610.12445v1"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "headline": "Hales on Lean: AI-driven formalization is practical, but kernel soundness bugs turned up this summer",
-      "summary": "In a guest post on Terence Tao's blog, Thomas Hales says AI now translates paper proofs into Lean, and that AI-assisted security researchers found several kernel soundness bugs in July and August 2026, all since repaired. He discusses inde…",
-      "urls": [
-        "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "headline": "Danish register breach: '123456' password and a 21-day window behind 8.8 million exposed CPR numbers",
-      "summary": "Copenhagen Post reports that unauthorized users abused the legal access of a small IT firm, Pays ApS, to the CPR register between Sept. 10 and Oct. 2; Politiken found at least three Pays accounts, including an admin, used '123456'. Around…",
-      "urls": [
-        "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "headline": "An engineer pointed AI at 4.35M archive pages and surfaced candidate lost meteorite, rhino and volcano records",
-      "summary": "Jesse Waites built a pipeline using embeddings, a cheap filter and Claude Haiku to search digitized Dutch East India Company records and newspapers, after testing it on known events. He reports a possible 1812 Maharashtra meteorite fall, t…",
-      "urls": [
-        "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/"
       ]
     }
   ]

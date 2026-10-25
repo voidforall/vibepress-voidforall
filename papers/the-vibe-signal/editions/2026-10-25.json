@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-25",
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T12:21:14Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today's signal: a critical Brotli flaw with patches but patchy scanner coverage, a self-reported harness that lifts open models near a frontier one, a vendor's wafer arithmetic for trillion-parameter serving, two looks at whether AI pays off, and a call for bigger software ambitions.",
+  "stories": [
+    {
+      "headline": "Brotli bug 'Node2Shell' (CVSS 9.2) hits Node.js, Python HTTP clients and more; fixes are out",
+      "summary": "CVE-2026-111497 is an out-of-bounds write in Google's Brotli decoder, reachable by a crafted stream from an unauthenticated remote sender. Brotli 1.0.3 through 1.2.0 is affected; fixes are Brotli 1.2.1 (plus 1.0.10 and 1.1.1), Node.js 22.23.4, 24.22.1 and 26.12.1, and updates for Bun, Envoy and Istio.",
+      "whyItMatters": "Per Aikido, OpenAI reported the flaw in February and no release carried the fix until now, and as of Oct. 23 pip-audit, Dependabot and Safety did not flag the vulnerable PyPI packages.",
+      "importance": 1,
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+          "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"
+        }
+      ]
+    },
+    {
+      "headline": "Five Qwen3.8-27B models match Fable 5 on hard coding problems, the authors of GVS5H say",
+      "summary": "The repo describes a training-free, ledger-based self-orchestration harness where fresh model instances coordinate through a shared filesystem. On 100 hard LiveCodeBench problems it reports an orchestrated Qwen3.8 Flash Next at 93.0% pass@1 versus 90.4% for Fable 5 at about 9% of the cost, and local Qwen3.8-27B rising from 66.8% to 92.4%.",
+      "whyItMatters": "All figures are self-reported, gains are not universal, and the Opus 5 run used an earlier scaffold, but the repo credits decomposition and persistent context rather than a bigger model.",
+      "importance": 2,
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+          "url": "https://github.com/slee-persis/GVS5H"
+        }
+      ]
+    },
+    {
+      "headline": "Cerebras explains how it would serve a ~3-trillion-parameter model across 59 wafers",
+      "summary": "In an Oct. 22 post, Cerebras uses Kimi K3 (about 3T parameters, 93 layers) as its example: at 4-bit weights of about 1.5 TB, it needs 59 WSE-3T wafers (35 for linear-attention layers, 24 for dense), each with 44 GB of on-chip memory, linked in a pipeline with roughly 2-microsecond hops. The target is 1,000 to 2,000+ tokens per second.",
+      "whyItMatters": "The post is vendor material built on stated assumptions (256k requests, 8-bit KV cache), and it argues tokens per second per megawatt is the fairer efficiency metric.",
+      "importance": 3,
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "Cerebras Deploys Trillion-Parameter AI Models",
+          "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+        }
+      ]
+    },
+    {
+      "headline": "Apollo's Slok: no sign of an AI payoff outside the tech sector",
+      "summary": "In an Oct. 24 note, Apollo chief economist Torsten Slok shows revenue per worker and profit margins rising for the Magnificent 7 but flat for the S&P 493, with no lift in total factor productivity. He cites Ramp data showing AI spending concentrated in few firms.",
+      "whyItMatters": "It is one economist's reading of five charts, but it frames the question as whether mainstream firms, not tech, see revenue or margin gains.",
+      "importance": 4,
+      "category": "Business",
+      "sourceLinks": [
+        {
+          "title": "No signs of AI payoff outside the tech sector",
+          "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+        }
+      ]
+    },
+    {
+      "headline": "America has lost 200k+ media, film and arts jobs in four years; how much is AI is unclear",
+      "summary": "Apricitas Economics finds more than 200k creative-industry jobs lost over four years, about 50k in the past year, with movie and TV employment down over 100k and newspaper payrolls down nearly 85% from peak. About 32% of arts and entertainment workers use generative AI versus 62% across industries, per the post.",
+      "whyItMatters": "The author says consolidation, offshoring and social-media creators also contribute, so the losses cannot be attributed to AI alone.",
+      "importance": 5,
+      "category": "Business",
+      "sourceLinks": [
+        {
+          "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+          "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
+        }
+      ]
+    },
+    {
+      "headline": "Dan Luu: we should be more ambitious with the software we build",
+      "summary": "Luu argues AI tools make once-infeasible projects, such as the pgrust Postgres rewrite and his own custom tooling, achievable at 'works for me' quality, and that many people still work from a pre-AI cost model. He concedes most AI-generated software is low quality and that ambition needs thorough testing.",
+      "whyItMatters": "It is an argument rather than a result, and Yossi Kreinin is cited cautioning that most people should temper their ambitions.",
+      "importance": 6,
+      "category": "Ideas",
+      "sourceLinks": [
+        {
+          "title": "We should be more ambitious with the software we build",
+          "url": "https://danluu.com/ambitious/"
+        }
+      ]
+    }
+  ]
+}
