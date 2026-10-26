@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-26",
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T13:54:43Z",
+  "editionTitle": "Research Radar",
+  "editorNote": "本周精选涵盖训练数值精度、rollout速度、LLM审计器如何信任工具、可解释微调、无数据自训练以及一项可学习性结果。每篇摘要均依据论文摘要页。",
+  "stories": [
+    {
+      "headline": "对齐BF16舍入发生的位置，可避免LLM强化学习崩溃",
+      "summary": "Ke、Cai和Wang在训练端将部分中间值保留为FP32，使舍入到BF16的位置与推理端一致，涉及RoPE、SwiGLU和残差RMSNorm。在四个Qwen系列模型上，三处全部对齐可避免默认BF16基线出现的崩溃，仅对齐RoPE也使所研究的运行保持稳定。",
+      "whyItMatters": "训练与推理的舍入方式不同，本应同策略的更新实际上会变成异策略；该方法无需改动内核、推理引擎或目标函数即可解决。",
+      "category": "方法",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "arXiv:2610.32951",
+          "url": "https://arxiv.org/abs/2610.32951v1"
+        }
+      ]
+    },
+    {
+      "headline": "NgramRL用按提示词的n-gram推测解码加速强化学习rollout",
+      "summary": "rollout生成可占强化学习后训练时间的70%以上。NgramRL利用同一提示词的近期rollout构建草稿器，无需辅助模型，在缓存预热状态下每次目标模型前向可提交3.60至7.77个token，最高为SuffixDecoding的1.99倍；预取器在Spider数据集、Qwen3-8B上将rollout吞吐提高1.38倍。",
+      "whyItMatters": "它针对结构化生成强化学习后训练的主要开销，同时目标模型验证保持了rollout分布不变。",
+      "category": "系统",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "arXiv:2610.32881",
+          "url": "https://arxiv.org/abs/2610.32881v1"
+        }
+      ]
+    },
+    {
+      "headline": "LLM漏洞审计器对虚假保证的服从多于对虚假警报的服从",
+      "summary": "在PrimeVul的916对函数、十一种模型配置和16,572次审计中，真实的静态分析证据仅使准确率提高约0.02，而伪造的“检查已存在”保证使真实漏洞的检出最多下降19个百分点。将每项声明在单独调用中核验并展示被驳斥的声明，在预先设定的检验中使虚假保证下的准确率提高12个百分点。",
+      "whyItMatters": "把工具输出交给LLM审计器的流程应先核验工具的保证，因为模型对声称的安全检查比对声称的缺陷更为信任。",
+      "category": "基准",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "arXiv:2610.32876",
+          "url": "https://arxiv.org/abs/2610.32876v1"
+        }
+      ]
+    },
+    {
+      "headline": "TopKLoRA的稀疏适配器使后门电路小到可被找到并消融",
+      "summary": "TopKLoRA每个token只激活最大的k个适配器潜变量，仅用下游损失训练。在gemma-2-2b、Qwen2.5-1.5B和Qwen2.5-7B的潜伏代理后门上，作者找到的必要且充分电路比稠密LoRA小至多一个数量级，移除该行为也不会显著损害指令遵循。",
+      "whyItMatters": "它提供了一条微调路径，分析单元在构造上即可解释，而不是事后用稀疏自编码器恢复。",
+      "category": "模型",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "arXiv:2610.32866",
+          "url": "https://arxiv.org/abs/2610.32866v1"
+        }
+      ]
+    },
+    {
+      "headline": "同策略自训练仅凭粗粒度主题描述即可提升LLM",
+      "summary": "论文将同策略自蒸馏重新表述为自训练：仅凭高层主题描述，模型自行生成查询和特权推理轨迹并据此训练。作者报告在多个领域取得提升，且未训练领域未退化，涵盖语言基准和视觉问答。",
+      "whyItMatters": "据作者报告的结果，这类后训练不再需要真实问答对或人工整理的题集。",
+      "category": "方法",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "arXiv:2610.32770",
+          "url": "https://arxiv.org/abs/2610.32770v1"
+        }
+      ]
+    },
+    {
+      "headline": "高斯输入下学习ReLU正系数线性组合的首个完全多项式时间算法",
+      "summary": "针对高斯输入、L2损失下R^d上k个任意ReLU的正线性组合的PAC学习，作者给出使用poly(d, k, 1/ε)样本与时间的算法，称其为首个完全多项式时间算法。此前方法需要关于k或1/ε的超多项式时间，或对权重矩阵作强条件数假设。",
+      "whyItMatters": "它在该设定下无需条件数假设，弥合了单隐层网络可学习性方面的一个缺口。",
+      "category": "理论",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "arXiv:2610.32940",
+          "url": "https://arxiv.org/abs/2610.32940v1"
+        }
+      ]
+    }
+  ]
+}

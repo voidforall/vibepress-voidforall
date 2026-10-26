@@ -7,6 +7,12 @@
   "emoji": "🔬",
   "editions": [
     {
+      "id": "2026-10-26",
+      "date": "2026-10-26",
+      "headline": "Aligning where BF16 rounding happens keeps LLM reinforcement learning from collapsing",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-19",
       "date": "2026-10-19",
       "headline": "Higher acceptance in lossy speculative decoding does not mean faster decoding",

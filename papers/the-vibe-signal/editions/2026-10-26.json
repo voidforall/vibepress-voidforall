@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-26",
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T13:54:43Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Anthropic's S-1 lands, IBM and a pricing essay both point at cheaper models, a small skin-cancer test is a reminder to read the caveats, and a talk tracks how context work moves into code.",
+  "stories": [
+    {
+      "headline": "Anthropic files its S-1 and applies to list on Nasdaq under 'ANT'",
+      "summary": "The registration statement, dated October 26, 2026, says Class A shares would list on the Nasdaq Global Select Market; the price range is blank. It discloses net losses of $42.0 billion for 2025 and $80.7 billion for the six months to June 30, 2026, and customers with $100,000+ trailing revenue rising from over 950 to over 11,900 in a year.",
+      "whyItMatters": "The company's finances are now in a public filing, and the share price range and run-rate revenue are still blank.",
+      "category": "Business",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Anthropic, PBC Form S-1 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+        }
+      ]
+    },
+    {
+      "headline": "An older fine-tuned CNN beats two frontier LLMs at diagnosing skin lesions, in one small test",
+      "summary": "Dermatologist Magnus Lynch tested 200 biopsy-proven lesions: an Inception v3 CNN got 125 right as first choice (62%), against 84 for GPT-6 Astra and 85 for Claude Fable 5.1. At the CNN's preset threshold it discharged 18 of 30 melanomas, versus 3 and 4 for the LLMs.",
+      "whyItMatters": "The author cautions that the sample is small, every lesion was biopsied, and the LLMs may have seen the public dataset, so it is one data point, not a verdict.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+          "url": "https://lynchlab.net/llm-skin-cancer"
+        }
+      ]
+    },
+    {
+      "headline": "IBM's Krishna: open-weight models cost 10–25% as much and are about 90% as effective",
+      "summary": "On IBM's Q3 earnings call, CEO Arvind Krishna said open-weight models cost 10 to 25 percent of frontier models' token cost while being about 90 percent as effective, and that most enterprise tasks do not need the top model. IBM expects on-prem AI demand to lift sales of its Spyre accelerator cards.",
+      "whyItMatters": "A large enterprise vendor is telling investors that open-weight on-prem is a sales driver, though the figures are the CEO's own.",
+      "category": "Business",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "IBM CEO says open-weight models are now irresistibly good and cheap on-prem - The Register",
+          "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640"
+        }
+      ]
+    },
+    {
+      "headline": "Max Woolf asks why OpenAI and Anthropic cut LLM prices by up to 80%",
+      "summary": "Woolf tallies cuts from June to September 2026, such as GPT-5.6 Luna falling from $1/$6 to $0.20/$1.20 per million tokens, and Opus 5.5 at $4/$20 versus $5/$25. He finds competitive pressure from open-weight models the most convincing explanation, with IPO optics and efficiency gains less certain.",
+      "whyItMatters": "The post is one blogger's analysis of public price lists, not a statement from either company.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why? - minimaxir",
+          "url": "https://minimaxir.com/2026/10/cheap-llms/"
+        }
+      ]
+    },
+    {
+      "headline": "Drew Breunig: context engineering's toolbox is stable, and the work is moving into harness code",
+      "summary": "The talk argues that six tactics (augmentation, tool loadout, subagent quarantine, pruning, summarization, offloading) have moved from the prompt into the harness. For long-horizon agents it names new failures, 'fighting the weights' and 'context inertia', and expects strategic forgetting to be the next challenge.",
+      "whyItMatters": "It frames the current practice as deciding what runs deterministically in code versus probabilistically in the model; the forgetting point is the speaker's prediction.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "The State of Context Engineering - Drew Breunig",
+          "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html"
+        }
+      ]
+    }
+  ]
+}

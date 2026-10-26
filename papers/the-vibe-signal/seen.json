@@ -1,7 +1,47 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-25T12:21:15Z",
+  "updatedAt": "2026-10-26T13:54:43Z",
   "events": [
+    {
+      "date": "2026-10-26",
+      "headline": "Max Woolf asks why OpenAI and Anthropic cut LLM prices by up to 80%",
+      "summary": "Woolf tallies cuts from June to September 2026, such as GPT-5.6 Luna falling from $1/$6 to $0.20/$1.20 per million tokens, and Opus 5.5 at $4/$20 versus $5/$25. He finds competitive pressure from open-weight models the most convincing expl…",
+      "urls": [
+        "https://minimaxir.com/2026/10/cheap-llms/"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "headline": "IBM's Krishna: open-weight models cost 10–25% as much and are about 90% as effective",
+      "summary": "On IBM's Q3 earnings call, CEO Arvind Krishna said open-weight models cost 10 to 25 percent of frontier models' token cost while being about 90 percent as effective, and that most enterprise tasks do not need the top model. IBM expects on-…",
+      "urls": [
+        "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "headline": "Drew Breunig: context engineering's toolbox is stable, and the work is moving into harness code",
+      "summary": "The talk argues that six tactics (augmentation, tool loadout, subagent quarantine, pruning, summarization, offloading) have moved from the prompt into the harness. For long-horizon agents it names new failures, 'fighting the weights' and '…",
+      "urls": [
+        "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "headline": "Anthropic files its S-1 and applies to list on Nasdaq under 'ANT'",
+      "summary": "The registration statement, dated October 26, 2026, says Class A shares would list on the Nasdaq Global Select Market; the price range is blank. It discloses net losses of $42.0 billion for 2025 and $80.7 billion for the six months to June…",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "headline": "An older fine-tuned CNN beats two frontier LLMs at diagnosing skin lesions, in one small test",
+      "summary": "Dermatologist Magnus Lynch tested 200 biopsy-proven lesions: an Inception v3 CNN got 125 right as first choice (62%), against 84 for GPT-6 Astra and 85 for Claude Fable 5.1. At the CNN's preset threshold it discharged 18 of 30 melanomas, v…",
+      "urls": [
+        "https://lynchlab.net/llm-skin-cancer"
+      ]
+    },
     {
       "date": "2026-10-25",
       "headline": "Five Qwen3.8-27B models match Fable 5 on hard coding problems, the authors of GVS5H say",
@@ -610,46 +650,6 @@
       "summary": "A GitHub commit in colinhacks/zod bumps zod and @zod/mini from 4.6.5 to 4.6.6 under the message \"Fix bugs and improve performance\", adding an obfuscated meta.test.mjs that fetches and runs a remote payload through a preinstall script, and…",
       "urls": [
         "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e46"
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "headline": "The Lightbulb Computer: a speculative design for projector-and-camera computing",
-      "summary": "Guillaume Ardaud's design puts a projector and computer vision in a bulb that screws into an Edison socket, responding to voice and pointing. He says the demos come from a real but bulky prototype and that a consumer version is close but n…",
-      "urls": [
-        "https://lightbulbcomputer.com/"
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "headline": "Talorys: a self-hosted personal AI agent that runs on Cloudflare's free tier",
-      "summary": "The MIT-licensed open-source project deploys with one npx command into the user's own Cloudflare account, using Workers, Pages and Durable Objects, with chat on Workers AI's glm-4.7-flash. It offers memory, tasks, notes and reminders, and…",
-      "urls": [
-        "https://github.com/rociiu/talorys"
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "headline": "DuckDB 2.0 alpha: async I/O cuts an S3 Parquet query from 18.8s to 7.7s",
-      "summary": "MotherDuck's author reports that the DuckDB 2.0 alpha, using a separate download pool that fetches row groups ahead of time, ran a count query over a 2.2 GB Parquet file on S3 in 7.7 seconds versus 18.8 for 1.5.5. All numbers come from one…",
-      "urls": [
-        "https://motherduck.com/blog/why-duckdb-20-is-faster/"
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "headline": "Cockroach Labs ran a hospital-style coding-agent pipeline for five months: ~$135K in tokens, 1M+ lines landed",
-      "summary": "Cockroach Labs says its 'MOLT Sinai' pipeline, which treats GitHub issues as patients moving through triage, review and discharge, ran on its MOLT repo from April 21 to September 11. It reports about $135,000 in Claude tokens, over a milli…",
-      "urls": [
-        "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/"
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "headline": "A new paper says METR's AI 'time horizon' curve is not linear in log human time",
-      "summary": "Re-fitting 26 AIs on 228 tasks with splines and item-response theory, the authors find difficulty is nearly flat between about 2 and 30 minutes and steeper elsewhere, so a 3-to-30-minute jump is easier for AIs than 30 minutes to 5 hours. T…",
-      "urls": [
-        "https://arxiv.org/abs/2610.12466v1"
       ]
     }
   ]

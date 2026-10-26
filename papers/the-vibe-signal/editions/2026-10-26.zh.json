@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-26",
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T13:54:43Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Anthropic的S-1出炉，IBM与一篇定价文章都指向更便宜的模型，一项小型皮肤癌测试提醒人们细读限定条件，一场演讲则追踪上下文工作如何转入代码。",
+  "stories": [
+    {
+      "headline": "Anthropic提交S-1，申请以“ANT”在纳斯达克上市",
+      "summary": "注册声明日期为2026年10月26日，称A类股将在纳斯达克全球精选市场上市；定价区间留空。文件披露2025年净亏损420亿美元、截至2026年6月30日的六个月净亏损807亿美元，年化收入超过10万美元的客户在一年内从950余家增至11,900余家。",
+      "whyItMatters": "公司财务现已见于公开文件，而定价区间和年化收入仍为空白。",
+      "category": "商业",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Anthropic, PBC Form S-1 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+        }
+      ]
+    },
+    {
+      "headline": "一项小规模测试中，较老的微调CNN在皮肤病变诊断上胜过两款前沿LLM",
+      "summary": "皮肤科医生Magnus Lynch测试了200个经活检证实的病变：Inception v3 CNN首选诊断正确125例（62%），GPT-6 Astra为84例，Claude Fable 5.1为85例。在CNN预设阈值下，它放行了30例黑色素瘤中的18例，而两款LLM分别为3例和4例。",
+      "whyItMatters": "作者提醒样本较小、所有病变均经活检，且LLM可能见过该公开数据集，因此这只是一个数据点，而非定论。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+          "url": "https://lynchlab.net/llm-skin-cancer"
+        }
+      ]
+    },
+    {
+      "headline": "IBM的克里希纳：开放权重模型成本仅为10–25%，效果约达90%",
+      "summary": "在IBM第三季度财报电话会上，CEO Arvind Krishna表示开放权重模型的token成本仅为前沿模型的10%至25%，效果约达90%，且多数企业任务并不需要顶级模型。IBM预计本地部署AI的需求将带动其Spyre加速卡的销售。",
+      "whyItMatters": "一家大型企业供应商向投资者表示开放权重本地部署是销售动力，不过这些数字出自CEO本人。",
+      "category": "商业",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "IBM CEO says open-weight models are now irresistibly good and cheap on-prem - The Register",
+          "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640"
+        }
+      ]
+    },
+    {
+      "headline": "Max Woolf追问：OpenAI和Anthropic为何把LLM价格最多下调80%",
+      "summary": "Woolf统计了2026年6月至9月的降价，例如GPT-5.6 Luna每百万token从1/6美元降至0.20/1.20美元，Opus 5.5为4/20美元，此前为5/25美元。他认为来自开放权重模型的竞争压力是最有说服力的解释，IPO考量与效率提升则较不确定。",
+      "whyItMatters": "该文是博主对公开价目表的分析，并非任何一家公司的表态。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why? - minimaxir",
+          "url": "https://minimaxir.com/2026/10/cheap-llms/"
+        }
+      ]
+    },
+    {
+      "headline": "Drew Breunig：上下文工程的工具箱趋于稳定，工作正转入harness代码",
+      "summary": "演讲认为六种策略（增强、工具装载、子代理隔离、裁剪、摘要、外部存储）已从提示词转入harness。针对长时程代理，他指出了“与权重对抗”和“上下文惯性”等新故障，并预计策略性遗忘将是下一个挑战。",
+      "whyItMatters": "它将当前实践描述为决定哪些在代码中确定性运行、哪些交给模型概率性处理；关于遗忘的说法是演讲者的预测。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "The State of Context Engineering - Drew Breunig",
+          "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html"
+        }
+      ]
+    }
+  ]
+}

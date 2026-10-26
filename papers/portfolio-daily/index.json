@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-26",
+      "date": "2026-10-26",
+      "headline": "Duolingo reportedly trades some bookings for user growth, and Goldman Sachs lifts its price target to $135",
+      "storyCount": 8
+    },
+    {
       "id": "2026-10-25",
       "date": "2026-10-25",
       "headline": "Bitcoin slips below $80,000 on renewed Middle East worries, CoinDesk reports",

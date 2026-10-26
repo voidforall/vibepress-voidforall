@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-26",
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T13:54:43Z",
+  "editionTitle": "Research Radar",
+  "editorNote": "This week's picks span training numerics, rollout speed, how LLM auditors trust tools, interpretable fine-tuning, data-free self-training and a learnability result. Each summary rests on the paper's abstract page.",
+  "stories": [
+    {
+      "headline": "Aligning where BF16 rounding happens keeps LLM reinforcement learning from collapsing",
+      "summary": "Ke, Cai and Wang keep selected intermediate values in FP32 on the training side so rounding to BF16 happens at the same points as in inference, in RoPE, SwiGLU and residual RMSNorm. On four Qwen-family models, aligning all three regions prevented the collapse seen under the default BF16 baseline, and aligning only RoPE also stabilized the studied runs.",
+      "whyItMatters": "If training and inference round differently, an update meant to be on-policy is effectively off-policy; this fixes that without touching the kernels, engine or objective.",
+      "category": "Methods",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "arXiv:2610.32951",
+          "url": "https://arxiv.org/abs/2610.32951v1"
+        }
+      ]
+    },
+    {
+      "headline": "NgramRL speeds up RL rollouts with per-prompt n-gram speculative decoding",
+      "summary": "Rollout generation can take over 70% of RL post-training time. NgramRL builds a drafter from recent rollouts for the same prompt, with no auxiliary model, and reports 3.60 to 7.77 tokens committed per target-model forward in the warm-cache regime, up to 1.99x more than SuffixDecoding. A prefetcher adds 1.38x rollout throughput on Spider with Qwen3-8B.",
+      "whyItMatters": "It targets the dominant cost of RL post-training for structured generation while target-model verification keeps the rollout distribution intact.",
+      "category": "Systems",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "arXiv:2610.32881",
+          "url": "https://arxiv.org/abs/2610.32881v1"
+        }
+      ]
+    },
+    {
+      "headline": "LLM vulnerability auditors defer more to false assurances than to false alarms",
+      "summary": "Across 916 function pairs from PrimeVul, eleven model configurations and 16,572 audits, true static-analysis evidence improved accuracy by only about 0.02, while fabricated assurances that a check exists cut detection of real vulnerabilities by up to 19 points. Verifying each claim in a separate call and showing refuted claims raised accuracy under false assurances by 12 points in a pre-specified test.",
+      "whyItMatters": "Pipelines that feed tool output to an LLM auditor should verify a tool's guarantees first, since the model trusts a claimed safety check more than a claimed flaw.",
+      "category": "Benchmarks",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "arXiv:2610.32876",
+          "url": "https://arxiv.org/abs/2610.32876v1"
+        }
+      ]
+    },
+    {
+      "headline": "TopKLoRA's sparse adapters make backdoor circuits small enough to find and ablate",
+      "summary": "TopKLoRA activates only the k largest adapter latents per token and is trained on downstream loss alone. On a sleeper-agent backdoor in gemma-2-2b, Qwen2.5-1.5B and Qwen2.5-7B, the authors find necessary-and-sufficient circuits up to an order of magnitude smaller than with dense LoRA, and removing the behavior does not significantly hurt instruction-following.",
+      "whyItMatters": "It offers a fine-tuning route where the unit of analysis is interpretable by construction rather than recovered afterwards with sparse autoencoders.",
+      "category": "Models",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "arXiv:2610.32866",
+          "url": "https://arxiv.org/abs/2610.32866v1"
+        }
+      ]
+    },
+    {
+      "headline": "On-policy self-training improves LLMs using only coarse topic descriptions",
+      "summary": "The paper recasts on-policy self-distillation as self-training: guided only by high-level topic descriptions, the model generates its own queries and privileged reasoning traces and trains on them. The authors report gains across multiple domains without degrading untrained ones, on language benchmarks and Visual Question Answering.",
+      "whyItMatters": "It removes the need for ground-truth question-answer pairs or curated problem sets in this style of post-training, per the authors' reported results.",
+      "category": "Methods",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "arXiv:2610.32770",
+          "url": "https://arxiv.org/abs/2610.32770v1"
+        }
+      ]
+    },
+    {
+      "headline": "First fully polynomial-time algorithm for learning positive sums of ReLUs under Gaussian inputs",
+      "summary": "For PAC learning of positive linear combinations of k arbitrary ReLUs on R^d under Gaussian inputs and L2 loss, the authors give an algorithm using poly(d, k, 1/ε) samples and time, which they describe as the first fully polynomial one. Earlier methods needed super-polynomial time in k or 1/ε, or strong conditioning assumptions on the weight matrix.",
+      "whyItMatters": "It closes a gap in the learnability of one-hidden-layer networks in this setting, without conditioning assumptions.",
+      "category": "Theory",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "arXiv:2610.32940",
+          "url": "https://arxiv.org/abs/2610.32940v1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,55 @@
 {
   "windowDays": 21,
-  "updatedAt": "2026-10-19T14:22:55Z",
+  "updatedAt": "2026-10-26T13:54:43Z",
   "events": [
+    {
+      "date": "2026-10-26",
+      "headline": "TopKLoRA's sparse adapters make backdoor circuits small enough to find and ablate",
+      "summary": "TopKLoRA activates only the k largest adapter latents per token and is trained on downstream loss alone. On a sleeper-agent backdoor in gemma-2-2b, Qwen2.5-1.5B and Qwen2.5-7B, the authors find necessary-and-sufficient circuits up to an or…",
+      "urls": [
+        "https://arxiv.org/abs/2610.32866v1"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "headline": "On-policy self-training improves LLMs using only coarse topic descriptions",
+      "summary": "The paper recasts on-policy self-distillation as self-training: guided only by high-level topic descriptions, the model generates its own queries and privileged reasoning traces and trains on them. The authors report gains across multiple…",
+      "urls": [
+        "https://arxiv.org/abs/2610.32770v1"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "headline": "NgramRL speeds up RL rollouts with per-prompt n-gram speculative decoding",
+      "summary": "Rollout generation can take over 70% of RL post-training time. NgramRL builds a drafter from recent rollouts for the same prompt, with no auxiliary model, and reports 3.60 to 7.77 tokens committed per target-model forward in the warm-cache…",
+      "urls": [
+        "https://arxiv.org/abs/2610.32881v1"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "headline": "LLM vulnerability auditors defer more to false assurances than to false alarms",
+      "summary": "Across 916 function pairs from PrimeVul, eleven model configurations and 16,572 audits, true static-analysis evidence improved accuracy by only about 0.02, while fabricated assurances that a check exists cut detection of real vulnerabiliti…",
+      "urls": [
+        "https://arxiv.org/abs/2610.32876v1"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "headline": "First fully polynomial-time algorithm for learning positive sums of ReLUs under Gaussian inputs",
+      "summary": "For PAC learning of positive linear combinations of k arbitrary ReLUs on R^d under Gaussian inputs and L2 loss, the authors give an algorithm using poly(d, k, 1/ε) samples and time, which they describe as the first fully polynomial one. Ea…",
+      "urls": [
+        "https://arxiv.org/abs/2610.32940v1"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "headline": "Aligning where BF16 rounding happens keeps LLM reinforcement learning from collapsing",
+      "summary": "Ke, Cai and Wang keep selected intermediate values in FP32 on the training side so rounding to BF16 happens at the same points as in inference, in RoPE, SwiGLU and residual RMSNorm. On four Qwen-family models, aligning all three regions pr…",
+      "urls": [
+        "https://arxiv.org/abs/2610.32951v1"
+      ]
+    },
     {
       "date": "2026-10-19",
       "headline": "Pixel diffusion transformers get an adaptive parameterization and a high-frequency fix",

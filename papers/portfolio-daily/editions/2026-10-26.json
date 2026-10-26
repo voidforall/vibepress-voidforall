@@ -1,0 +1,125 @@
+{
+  "id": "2026-10-26",
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T13:54:43Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A Monday edition built from headline-level reporting, as article text was not retrievable: Duolingo and Rocket Lab company news, caution on Chinese stocks, gold and bitcoin in the shadow of oil and the Fed, and Alphabet earnings ahead. Nothing here is investment advice.",
+  "stories": [
+    {
+      "headline": "Duolingo reportedly trades some bookings for user growth, and Goldman Sachs lifts its price target to $135",
+      "summary": "A Pluang headline says Duolingo is reversing monetization moves, giving up about $50M in bookings to target 100M daily users by 2028, and a TipRanks headline says Goldman Sachs raised its price target to $135 from $114. Article text was not retrievable, so no further detail is given.",
+      "whyItMatters": "Per the headlines, the company's stated priority is shifting toward user growth over near-term bookings, and an analyst target moved up the same day.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Duolingo reverses monetization to boost users, sacrificing $50M bookings to target 100M daily users by 2028 - Pluang",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWGpySm1RUFd2cm5zUGpKY0h1SExFSWtBc2p6NTNaTTJUQU16MHFtdkltZTY4NTVyLWJpbXF4THZXWnBUZk5UNEVHMkNtNC1yYXV2dzViOUNReFZUS0E1SFhoQ2VlZTVEb3JLTWxfQi0wcU02ei1VbHUwWmNSdHB1TnBfTFdJMXYxQy1EellQa3BzTkc3OWE2ZnZCdw?oc=5"
+        },
+        {
+          "title": "Duolingo price target raised to $135 from $114 at Goldman Sachs - TipRanks",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTE42dERuRUF5Z2RBLVZCVXctb0tuZXB5ZWdfT0RxQmdKYkRZS3JkNVhJa29nV2NZOFl4VGlqa3JiRTZ0clQyaW83NE45bzFBNnZPOGg4R0k5ZTdMRXN2QVBYdUdNX0JuNkNBblhIYVJxSFdnNHhlQVlPQTJhSlRwNklTOEQyTWdxdjJoSTNLRVpHU1RGNy1lRUl2OW5oWUZHQnhja3pUQkhOMlctYmFwWg?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab completes the US Space Force Victus Haze mission ahead of schedule, per Stocktwits",
+      "summary": "A Stocktwits headline says Rocket Lab finished the Victus Haze mission for the US Space Force ahead of schedule, with RKLB gaining after hours; an Investing.com headline says Cantor Fitzgerald reiterated its rating after the launch. Article text was not retrievable.",
+      "whyItMatters": "Per the headlines, a government mission wrapped early, giving the company a completed delivery to point to after a weak few weeks.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "RKLB Stock Gains After-Hours — Rocket Lab Completes US Space Force Victus Haze Mission Ahead Of Schedule - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNaHFrM1ZsRWwzM3ZmaGVnQVBReEI1RmdieU1Sd0NBakN1ZmEwRjRBX2lFSm9CcEduQ1lycXNMUDFLMUItc2RlV2hSdHY4OTV4ZmpGc2Q2Y3hzWjVQU2V2MFlsZmxtTkNvQ2x1LWpsYWVfR2w0bkJ3WUVtc29kREpZZmY0ZDl0NWZrdTlnRmFQYnR0Y3I0NHNZSm1NMW43TmtzdlNtUUZCQUJjbC1FUGZvalpBVzN4N09qYWFCazhiWlRSYjZCa0NtZXhHMzFmTGdCM01LUlZ4RXBqRXY5TGdMcWpfX1VYQQ?oc=5"
+        },
+        {
+          "title": "Cantor Fitzgerald reiterates Rocket Lab stock rating after launch By Investing.com - Investing.com UK",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUjNsZF94WHg4Wm85OUxPeUEyb1dsRDBWVFhxYmZabFJaM1Roblhhelp4aWtHVFhwb3g0OTNfYU9nMXBWcVBENG5zMHp5NmJuRF9obW9hcU1tM21kTEFUTVM4MHFVRTZsNVB6cVBfaHlzRWNRTDRCMUxwY1BsSTJUU3haS3dONDZNTkNINjNfeDFXOHN2cEkyTjY3bl9XLXR6b0xORi11YWZiT0RVdEhHMlo3Q2hSSzVpbUFkM0tPMkdjazFt?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Morgan Stanley sees more downside in Chinese stocks, with Alibaba in focus, TradingView reports",
+      "summary": "A TradingView headline, syndicated on Yahoo Finance, says Morgan Stanley sees more downside in Chinese stocks, naming BABA and BIDU, alongside a Goldman Sachs cut to its KOSPI target. Article text was not retrievable.",
+      "whyItMatters": "Per the headline, a major bank's cautious view on Chinese equities is the backdrop for Alibaba's recent weakness.",
+      "category": "Markets",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "BABA, BIDU, SKHY in Focus: Morgan Stanley Sees More Downside In Chinese Stocks, Goldman Sachs Cuts KOSPI Target - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPNDIzWEpCeUhWWW50RFBfZlRtWGU4SXN6YnlTdGN2NF9GLVRYZXBpM3c5S2VGSm8wOGZJSHlNSU11LU4tWlk0MGFfQzFpVmhiNHk2UkE5UkJYQnJ2XzUtS0htZDVlNUpQWFQ1M19yY00xekVoUXBnOUFrQk5QR0NRSk92aWZjVlVsLWJXN0xtWmt1RXplOUx1RjFzT0pkNnhyREhMTTNEeUotejN4elIzcE5CRzRWRnRPY1N2cS1QMlEyM01FVDNicDVQZ0lCWENhODBTempjaU5sYm10Mmh1RkFWT1R1YWEzVFpWWmRibVZac0ZJUDRqMHNuWEw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Gold gains as an oil price slide cools some inflation concerns, Reuters says",
+      "summary": "A Reuters headline says gold rose as falling oil prices eased some inflation worries. Article text was not retrievable, so no price levels are given.",
+      "whyItMatters": "Per the headline, oil is the channel through which inflation expectations are currently feeding into gold.",
+      "category": "Commodities",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Gold gains as oil price slide cools some inflation concerns - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZml1aC0yS2NrLUloeEFPZnYyeExpazhPVExTT1BLcV9HZGxEZWFzcHFUMTJFbDhUTjgyaE5EbGRja1BRX0p2UzlDSmEzUUpzTG9ZT2xKZEZMczFvb1pzU2xrdXlNT0dDUXYtQnhoLUFpT09xQmF5Q25FQXdKNGpjOERVdTB1UTk4NkhSd2k3cUNBSTJRMVVsUlpSWQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin slips ahead of Fed week and big-tech earnings; analysts are divided, Yahoo Finance says",
+      "summary": "A Yahoo Finance headline says bitcoin slipped ahead of a Fed decision and big-tech earnings, with analysts split on direction; a Forbes headline says Elon Musk stoked price-crash fears as bitcoin suddenly fell. Article text was not retrievable.",
+      "whyItMatters": "Per the headlines, the macro calendar rather than a crypto-specific event is framing this week's bitcoin move.",
+      "category": "Crypto",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Slips Ahead Of Fed Week, Big Tech Earnings: Analysts Divided On Where BTC Is Headed Next - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPalhwZV9xMk91ZzRiTkI3ZE40eUx3aFhFOGtCb1A4YkZDdE5HeWxaTU1xd2lUbkU4MlpNUGN5RG4yUWRNSlhzUGE2V0FvcmlvRlRRTFpwWldkYkpSQm5INzZuaE5TQXFIZF95czRPTmEtUzV5c2xsX01kMF94Z3A0N2h0bU5JY0h2QjNYNnktYXdrSmJSZWhlQQ?oc=5"
+        },
+        {
+          "title": "‘Guppy-Level Death’—Elon Musk Stokes Imminent Price Crash Fears As Bitcoin Suddenly Plummets - Forbes",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSUU1WjhqQVRuTU1vTDZsWWN1NDdnaVdidk94ZjhoQW9UT0pidlo5Mm9rcTFpTElzM19NTDNWX0NydDBQTFhmVmc2bmtzY0RfOXBJa2dIMmNZWTFEYnIxNFZSdXJRZk9XODdyUVlFc1dzZERaZzMxY3luOGFQbExjRWZ4aVR5enRhWDh6MGF2YmtPSkJYZFVVVGg0VnVFdG9ucUFHVlRMSnBvOGFpVV9VTWdkRnpraEJOQWhyNlJSUU1aTmhDTzEyNA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "US futures steady as oil retreats ahead of an earnings deluge and a Fed decision, Reuters reports",
+      "summary": "A Reuters headline says US stock futures were steady as oil retreated, ahead of a heavy slate of earnings and a Federal Reserve decision. Article text was not retrievable.",
+      "whyItMatters": "Per the headline, the week's earnings and the Fed are the main scheduled catalysts, including for names on this watchlist.",
+      "category": "Markets",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "US futures steady as oil retreats ahead of earnings deluge, Fed decision - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVVlfUU5UYnVIOHVRRHJCaWJNQ0NtM0V5aXdZUE5QSEhGVTAxWmdXcU1KeGVEaEtYTXlEal9YNjMwblR6bGZQcm5HODd6N2xnNUppZzdXMDVTSWwtZEc3a3p3Q0M4VzRtaHo3QTd1VDJpaGNPQmw0WjFNaEMyQ2JyOVpGcmZEbktIdk45OHp4blZxdzc5UllRT2V1cnllVTVVTjVYZm1IZ0VjWDlwTnc?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Morningstar weighs Alphabet's valuation ahead of earnings",
+      "summary": "A Morningstar headline asks whether Alphabet is a buy, a sell, or fairly valued ahead of its earnings report. Article text was not retrievable, so its conclusion is not reported here. This is not investment advice.",
+      "whyItMatters": "Per the headline, Alphabet's earnings report is imminent and is drawing valuation commentary.",
+      "category": "Earnings",
+      "importance": 7,
+      "sourceLinks": [
+        {
+          "title": "Ahead of Earnings, Is Alphabet Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPV1ZIYktJQlA3UzhUV0R2SmZCOWJvMlJPWDFqemlnTC1fY2NXd3V0T3lRUXdKMUxQTnlWVi05eWdlbXlQb1B4eFBZeDZKLUlfeUZ4Ykw3YUNlNW9YRmtCN2FFWVBlelpLV01vTG0yYWVHcEFMWFkyQkc1cnNUdGlmN3VWejA0UUpiazc1b2ZfTTVhWEtsTUYzb1g1Z0V2U1YzRnZKazJvYw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "CoinDesk: over 11 million BTC cannot be linked to any known owner",
+      "summary": "A CoinDesk headline says more than 11 million bitcoin cannot be linked to any known owner. Article text was not retrievable, so the method behind the figure is not described.",
+      "whyItMatters": "Per the headline, a large share of bitcoin's supply is unattributed, which bears on how ownership concentration is estimated.",
+      "category": "Crypto",
+      "importance": 8,
+      "sourceLinks": [
+        {
+          "title": "Over 11 million BTC can't be linked to any known owner - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcWxSckhpMG9CRTRWaGJvb2dwazlWRENWcThLUm1SaXk0THR3anNsR3BsMk5pNmpvT0t0OXdkQXNoc2EyUUlBRXVWNnVjZ3Q1R0Noc3ZXR3cwZEF1eFRKUXZsOTNNZjFOc1BwTmZoWUZNNGlfbWxQbmo1QnVqSjRSVHlNVWFOMHpSb2JoZ00yWVVyRUtqb3RPcHZScURSdzJjR2k5bHdsS0gtRWZ1RlhqRjd5Ml9BNlVjRERIREdrR3FmelVsSkY4?oc=5"
+        }
+      ]
+    }
+  ]
+}
