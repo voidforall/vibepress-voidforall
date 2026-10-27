@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-10-27",
+      "date": "2026-10-27",
+      "headline": "3D-model sites say a crawler tied to Roblox pulled 145 GB, adult and non-commercial content included, ignoring robots.txt",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-26",
       "date": "2026-10-26",
       "headline": "Anthropic files its S-1 and applies to list on Nasdaq under 'ANT'",

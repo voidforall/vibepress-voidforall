@@ -8,8 +8,8 @@ _Self-publishing dailies, made with vibepress_
 
 | Paper | Covers | Cadence | Latest edition |
 | --- | --- | --- | --- |
-| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “Anthropic files its S-1 and applies to list on Nasdaq under 'ANT'” · 2026-10-26 |
-| 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Duolingo reportedly trades some bookings for user growth, and Goldman…” · 2026-10-26 |
+| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “3D-model sites say a crawler tied to Roblox pulled 145 GB, adult and…” · 2026-10-27 |
+| 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Alibaba wins an injunction against Pentagon contract restrictions tie…” · 2026-10-27 |
 | 🔬 [Research Radar](https://voidforall.github.io/vibepress-voidforall/#/research-radar) | The week in AI research, distilled | Weekly (Mon) | “Aligning where BF16 rounding happens keeps LLM reinforcement learning…” · 2026-10-26 |
 | 🪐 [The Cosmic Dispatch](https://voidforall.github.io/vibepress-voidforall/#/cosmic-dispatch) | Space, astronomy, and the odd asteroid | Weekly (Thu) | “Euclid finds its first comet, C/2026 S1, while hunting for galaxies” · 2026-10-22 |
 | 🌸 [The Otaku Times](https://voidforall.github.io/vibepress-voidforall/#/otaku-times) | Anime & manga, and what to watch next | Monthly | “The Apothecary Diaries Season 3 starts October 2, with Yorushika and…” · 2026-10-01 |

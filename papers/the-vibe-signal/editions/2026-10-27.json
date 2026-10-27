@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-27",
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T13:00:33Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today's mix: a scraping accusation that tests how AI training data gets collected, a new iPad mini, helium joining the critical-materials list, and two reminders from the ideas desk, one about agents and Brooks's Law and one about a disappearing public archive. Plus a long course for anyone building reasoning models.",
+  "stories": [
+    {
+      "headline": "3D-model sites say a crawler tied to Roblox pulled 145 GB, adult and non-commercial content included, ignoring robots.txt",
+      "summary": "Open3DLab says a crawler identifying itself as '3D foundation model research' with a Roblox email address read 18,926 projects and downloaded 1,027 files (145.5 GB) between Oct. 15 and 20; 345 of 712 downloaded projects were adult and 423 were non-commercial-only. The attribution to Roblox rests on the user agent and is unconfirmed, and the authors say their emails went unanswered.",
+      "whyItMatters": "It is a concrete, one-sided account of scraping for model training that allegedly ignored robots.txt, terms of service and NonCommercial licences; Roblox has not been quoted.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Roblox downloaded 145GB models from us (including adult content) without asking - Open3DLab",
+          "url": "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/"
+        }
+      ]
+    },
+    {
+      "headline": "Apple's new iPad mini gets an A20 Pro chip and 8.5-inch OLED, from $699",
+      "summary": "Apple says the iPad mini runs the 2nm A20 Pro with an 8.5-inch OLED display, 5.4 mm thickness and IP67 rating. Wi-Fi models start at $699 ($849 with cellular); pre-orders open Oct. 28 and it ships Nov. 6.",
+      "whyItMatters": "Apple has set price and dates for the mini's first OLED screen and newest chip, with Siri AI in beta and unavailable in the EU.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Apple gives iPad mini its biggest update ever - Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/"
+        }
+      ]
+    },
+    {
+      "headline": "US Energy Department designates helium a critical material, citing semiconductors and supply risk",
+      "summary": "On Oct. 23 the Energy Department added helium to its critical materials list, its 20th item and, with fluorine, one of two gases. The move opens more federal financing for producers and closer monitoring; AP links the supply pressure to Qatar's exports being hit by the Strait of Hormuz closure and to Russian export controls in April.",
+      "whyItMatters": "Helium moves from being deemed secure to formally at-risk for US chip supply chains, with financing now available for producers.",
+      "category": "Business",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "US designates helium as critical material as Europe faces supply squeeze - Euronews",
+          "url": "https://www.euronews.com/2026/10/23/us-designates-helium-as-critical-material-as-europe-faces-supply-squeeze"
+        },
+        {
+          "title": "US designates helium as a critical material, citing its importance for semiconductors - KTAR (AP)",
+          "url": "https://ktar.com/national-news/us-designates-helium-as-a-critical-material-citing-its-importance-for-semiconductors"
+        }
+      ]
+    },
+    {
+      "headline": "Does Brooks's Law survive AI agents? One blogger proposes a 2026 version",
+      "summary": "The j11g.com post argues agents remove onboarding and meeting friction, but sequential dependencies still can't be parallelised and the overhead shifts to humans defining 'done', reviewing and integrating output. It proposes: 'Adding agents to a project with unclear requirements gets you the wrong answer faster.'",
+      "whyItMatters": "It is an opinion piece, but it names where coordination cost goes when the workers are agents.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "The Mythical Man-Month in the Age of AI - j11g.com",
+          "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai"
+        }
+      ]
+    },
+    {
+      "headline": "EPA will decommission its online web archive on Dec. 31, Mother Jones reports",
+      "summary": "The archive holds tens of thousands of public environmental documents, some 20+ years old, and a FOIA request showed it cost about $2 million a year. The EPA points to 'snapshot collections'; critics call them insufficient. The EPA did not respond to a request for comment.",
+      "whyItMatters": "A set of historical policy records, including pages removed during Trump's first term, loses its public home at the end of the year.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "The EPA Is Quietly Killing Its Web Archive - Mother Jones",
+          "url": "https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-le"
+        }
+      ]
+    },
+    {
+      "headline": "Sebastian Raschka releases an 11-hour video course on building reasoning models from scratch",
+      "summary": "The eight-video course starts from a pre-trained Qwen3 0.6B and covers MATH-500 evaluation, self-consistency, self-refinement, GRPO-based RLVR training and distillation from DeepSeek R1. Early work runs on a CPU; training is far more practical on a GPU.",
+      "whyItMatters": "It gives learners a hands-on, code-first path through the methods behind current reasoning models, with a companion book and GitHub code.",
+      "category": "Technology",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Building Reasoning Models from the Ground Up - Sebastian Raschka",
+          "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models"
+        }
+      ]
+    }
+  ]
+}

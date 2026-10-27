@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-27",
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T13:00:33Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今日内容：一项检验AI训练数据如何采集的抓取指控、新款iPad mini、氦被列入关键材料清单，以及观点版的两则提醒——智能体与布鲁克斯定律，和一座即将消失的公共档案库。另有一门适合构建推理模型者的长课程。",
+  "stories": [
+    {
+      "headline": "3D模型网站称，与Roblox有关的爬虫抓取了145 GB数据，其中含成人及非商业内容，并无视robots.txt",
+      "summary": "Open3DLab称，一个自称“3D基础模型研究”、带有Roblox邮箱的爬虫在10月15日至20日间读取了18,926个项目，下载了1,027个文件（145.5 GB）；712个被下载项目中345个为成人内容，423个仅限非商业使用。归因于Roblox仅基于用户代理字符串，尚未证实，作者称其邮件未获回复。",
+      "whyItMatters": "这是一份具体但单方面的说法：用于模型训练的抓取据称无视robots.txt、服务条款和非商业许可；Roblox尚未回应。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Roblox downloaded 145GB models from us (including adult content) without asking - Open3DLab",
+          "url": "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/"
+        }
+      ]
+    },
+    {
+      "headline": "苹果新款iPad mini搭载A20 Pro芯片和8.5英寸OLED屏幕，起售价699美元",
+      "summary": "苹果称新款iPad mini搭载2纳米A20 Pro芯片、8.5英寸OLED显示屏，机身厚5.4毫米，具备IP67防护。Wi-Fi版起售价699美元（蜂窝版849美元），10月28日开启预订，11月6日发售。",
+      "whyItMatters": "苹果公布了iPad mini首块OLED屏幕和最新芯片的价格与日期；Siri AI仍为测试版，且在欧盟不可用。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Apple gives iPad mini its biggest update ever - Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/"
+        }
+      ]
+    },
+    {
+      "headline": "美国能源部将氦列为关键材料，理由是半导体需求与供应风险",
+      "summary": "10月23日，能源部将氦加入关键材料清单，成为第20项，也是除氟之外仅有的另一种气体。此举为生产商带来更多联邦融资和更严密的监测；美联社称供应压力源于卡塔尔出口受霍尔木兹海峡关闭冲击以及俄罗斯4月实施的出口管制。",
+      "whyItMatters": "氦从被视为供应安全转为被正式列为芯片供应链的风险项，生产商可获得融资支持。",
+      "category": "商业",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "US designates helium as critical material as Europe faces supply squeeze - Euronews",
+          "url": "https://www.euronews.com/2026/10/23/us-designates-helium-as-critical-material-as-europe-faces-supply-squeeze"
+        },
+        {
+          "title": "US designates helium as a critical material, citing its importance for semiconductors - KTAR (AP)",
+          "url": "https://ktar.com/national-news/us-designates-helium-as-a-critical-material-citing-its-importance-for-semiconductors"
+        }
+      ]
+    },
+    {
+      "headline": "布鲁克斯定律在AI智能体时代还成立吗？一位博主提出2026版",
+      "summary": "j11g.com的文章认为，智能体消除了入职和会议的摩擦，但顺序依赖仍无法并行，开销转移到由人来定义“完成”、审查和整合产出。文章提出：“向需求不清的项目添加智能体，只会让你更快得到错误答案。”",
+      "whyItMatters": "这是一篇观点文章，但指出了当“员工”变成智能体后，协调成本转移到了哪里。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "The Mythical Man-Month in the Age of AI - j11g.com",
+          "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai"
+        }
+      ]
+    },
+    {
+      "headline": "《琼斯母亲》报道：美国环保署将于12月31日关闭其在线网络档案库",
+      "summary": "该档案库存有数万份公开环境文件，部分已超过20年；信息自由法请求显示其年成本约200万美元。环保署指向“快照合集”，批评者认为不足以替代。环保署未回应置评请求。",
+      "whyItMatters": "包括特朗普第一任期内被撤下的页面在内的历史政策记录，将在年底失去公开的存放处。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "The EPA Is Quietly Killing Its Web Archive - Mother Jones",
+          "url": "https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-le"
+        }
+      ]
+    },
+    {
+      "headline": "Sebastian Raschka发布11小时视频课程，从零构建推理模型",
+      "summary": "这套八集课程以预训练的Qwen3 0.6B为起点，涵盖MATH-500评测、自洽性、自我修正、基于GRPO的RLVR训练以及从DeepSeek R1蒸馏。早期工作可在CPU上运行，训练则更适合GPU。",
+      "whyItMatters": "它为学习者提供了一条以代码为主、动手实践当前推理模型方法的路径，并配有书籍和GitHub代码。",
+      "category": "科技",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Building Reasoning Models from the Ground Up - Sebastian Raschka",
+          "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models"
+        }
+      ]
+    }
+  ]
+}

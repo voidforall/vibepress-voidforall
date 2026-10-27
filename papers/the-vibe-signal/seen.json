@@ -1,7 +1,56 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-26T13:54:43Z",
+  "updatedAt": "2026-10-27T13:00:33Z",
   "events": [
+    {
+      "date": "2026-10-27",
+      "headline": "US Energy Department designates helium a critical material, citing semiconductors and supply risk",
+      "summary": "On Oct. 23 the Energy Department added helium to its critical materials list, its 20th item and, with fluorine, one of two gases. The move opens more federal financing for producers and closer monitoring; AP links the supply pressure to Qa…",
+      "urls": [
+        "https://www.euronews.com/2026/10/23/us-designates-helium-as-critical-material-as-europe-faces-supply-squeeze",
+        "https://ktar.com/national-news/us-designates-helium-as-a-critical-material-citing-its-importance-for-semiconductors"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "headline": "Sebastian Raschka releases an 11-hour video course on building reasoning models from scratch",
+      "summary": "The eight-video course starts from a pre-trained Qwen3 0.6B and covers MATH-500 evaluation, self-consistency, self-refinement, GRPO-based RLVR training and distillation from DeepSeek R1. Early work runs on a CPU; training is far more pract…",
+      "urls": [
+        "https://magazine.sebastianraschka.com/p/building-reasoning-models"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "headline": "EPA will decommission its online web archive on Dec. 31, Mother Jones reports",
+      "summary": "The archive holds tens of thousands of public environmental documents, some 20+ years old, and a FOIA request showed it cost about $2 million a year. The EPA points to 'snapshot collections'; critics call them insufficient. The EPA did not…",
+      "urls": [
+        "https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-le"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "headline": "Does Brooks's Law survive AI agents? One blogger proposes a 2026 version",
+      "summary": "The j11g.com post argues agents remove onboarding and meeting friction, but sequential dependencies still can't be parallelised and the overhead shifts to humans defining 'done', reviewing and integrating output. It proposes: 'Adding agent…",
+      "urls": [
+        "https://j11g.com/the-mythical-man-month-in-the-age-of-ai"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "headline": "Apple's new iPad mini gets an A20 Pro chip and 8.5-inch OLED, from $699",
+      "summary": "Apple says the iPad mini runs the 2nm A20 Pro with an 8.5-inch OLED display, 5.4 mm thickness and IP67 rating. Wi-Fi models start at $699 ($849 with cellular); pre-orders open Oct. 28 and it ships Nov. 6.",
+      "urls": [
+        "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "headline": "3D-model sites say a crawler tied to Roblox pulled 145 GB, adult and non-commercial content included, ignoring robots.txt",
+      "summary": "Open3DLab says a crawler identifying itself as '3D foundation model research' with a Roblox email address read 18,926 projects and downloaded 1,027 files (145.5 GB) between Oct. 15 and 20; 345 of 712 downloaded projects were adult and 423…",
+      "urls": [
+        "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/"
+      ]
+    },
     {
       "date": "2026-10-26",
       "headline": "Max Woolf asks why OpenAI and Anthropic cut LLM prices by up to 80%",
@@ -602,54 +651,6 @@
       "summary": "The free macOS app repurposes Google's EmbeddingGemma 2, an embedding model, for speech-to-text: a small trained 'reader' maps audio slices into the model's text space and picks the nearest of about 229,000 English words. It lists 12.6 sec…",
       "urls": [
         "https://eg2.haku.sh/"
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "headline": "Two research teams identify Arhgap36 as the gene behind orange cat fur",
-      "summary": "Two independent teams publishing in Current Biology found the 60-year-old puzzle's answer: Arhgap36. The Stanford team saw about 13 times more of its RNA in orange fur skin cells and a 5-kilobase deletion just before the gene in all 145 or…",
-      "urls": [
-        "https://www.sciencealert.com/secret-of-orange-cats-finally-revealed-after-60-year-search"
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "headline": "QGIS merges a strict ban on AI-assisted contributions",
-      "summary": "QEP428, \"No AI contributions permitted\", was merged on October 7 after a vote, replacing a human-in-the-loop policy that its author says did not work in practice. Maintainers cited review burden, AI output volume exceeding human review cap…",
-      "urls": [
-        "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387"
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "headline": "Opinion: AI companies should face hacking charges for their agents' intrusions",
-      "summary": "A blog post argues that Anthropic, OpenAI, Google and Meta have had AI systems break into systems, and that the \"responsibility gap\" defense fails because design choices and foreseeability establish intent. It concludes governments should…",
-      "urls": [
-        "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/"
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "headline": "Essay: browser fingerprinting has replaced third-party cookies as the web's main tracker",
-      "summary": "An essay argues that fingerprints built from ordinary device traits such as GPU, fonts, time zone and audio processing now do the tracking cookies once did, and notes Google allowed device fingerprinting in its ad products in 2025. It says…",
-      "urls": [
-        "https://royfish.dev/fingerprints-are-the-new-cookies"
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "headline": "ClickHouse benchmark: local NVMe ran Postgres updates about 9x faster than gp3 EBS",
-      "summary": "In a vendor-run pgbench test on a 482 GiB, 3.3-billion-row table with random updates, local NVMe delivered a median 16,030 TPS at 4.0 ms against 1,734 TPS at 36.9 ms on 3,000-IOPS gp3 EBS. VACUUM over 10 GB of bloat took 366 s versus 964 s…",
-      "urls": [
-        "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is"
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "headline": "A Zod commit adds an obfuscated install-time payload loader and bumps to 4.6.6",
-      "summary": "A GitHub commit in colinhacks/zod bumps zod and @zod/mini from 4.6.5 to 4.6.6 under the message \"Fix bugs and improve performance\", adding an obfuscated meta.test.mjs that fetches and runs a remote payload through a preinstall script, and…",
-      "urls": [
-        "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e46"
       ]
     }
   ]
