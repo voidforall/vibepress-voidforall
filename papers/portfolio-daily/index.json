@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-28",
+      "date": "2026-10-28",
+      "headline": "Alphabet shares rise on a report that OpenAI plans to buy Google's TPUs, Investing.com says",
+      "storyCount": 8
+    },
+    {
       "id": "2026-10-27",
       "date": "2026-10-27",
       "headline": "Alibaba wins an injunction against Pentagon contract restrictions tied to its China blacklist listing, Yahoo Finance reports",

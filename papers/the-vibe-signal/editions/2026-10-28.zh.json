@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-28",
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-28T13:50:37Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今日内容：仍会漂移的世界模型、多数仍处临床前的AI辅助药物研究、苹果新笔记本芯片、Python放弃实验性JIT、Tailscale的安全通告，以及一个在纸面证明中找出缺陷的超大型机器检查证明。",
+  "stories": [
+    {
+      "headline": "谷歌DeepMind发布Genie 4：带原生音频的实时世界模型，进入研究预览",
+      "summary": "DeepMind称，Genie 4可生成带音乐、环境音和对话的交互式模拟，可用自然语言实时调整，Gemini模型负责画面真实性与推理。目前仅限受信任测试者，输出带SynthID水印；DeepMind承认长时间使用中细节和物体恒存性会漂移。",
+      "whyItMatters": "世界模型正从演示走向更广泛的使用（接下来是AI Ultra订阅用户和Gemini API早期合作伙伴），但长时间一致性仍是未解难题。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Genie 4",
+          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+        }
+      ]
+    },
+    {
+      "headline": "Anthropic公布药物研发合作的早期成果，多数仍处临床前",
+      "summary": "Anthropic介绍了与六家药物研发机构的合作：Generate Biomedicines的CAR T设计缩短约70%，实验室测试中产生的受体约为10倍；Enveda审阅1,061页文件的时间减少89%。Anthropic还收购了Mithril Medicine，若结果保持，最早2028年底可进入人体试验。",
+      "whyItMatters": "这些数字来自公司自己的文章，且多为临床前，体现的是实验室和文书工作的提升，而非已获批药物。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Early progress on accelerating drug development with Claude",
+          "url": "https://www.anthropic.com/research/early-progress-drug-development"
+        }
+      ]
+    },
+    {
+      "headline": "苹果发布搭载M6芯片的14英寸MacBook Pro",
+      "summary": "苹果新闻中心称，M6机型配备12核CPU和GPU，图形性能最高提升30%，本地AI性能比M5最高提升25%，内存16GB起、可选32GB，续航最长24小时。10月28日开始预订，11月6日上市。",
+      "whyItMatters": "苹果笔记本产品线换代新芯片，公司强调本地AI性能。",
+      "category": "商业",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "New 14‑inch MacBook Pro with M6",
+          "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/"
+        }
+      ]
+    },
+    {
+      "headline": "LWN报道：PEP被撤回后，CPython实验性JIT将被移除",
+      "summary": "LWN报道，Python 3.13中以实验形式加入的JIT将从主分支移除，可能在3.16开发周期早期。指导委员会曾给出六个月时间要求提交可接受的PEP；作者于10月19日以精力不足为由撤回PEP 836。",
+      "whyItMatters": "一个以实验形式发布了两个版本的功能被放弃，原因是没有人在委员会的条件下承诺维护。",
+      "category": "科技",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Python's experimental JIT to be removed",
+          "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/"
+        }
+      ]
+    },
+    {
+      "headline": "Tailscale调查Tailscale SSH中的权限提升漏洞，修复正在测试",
+      "summary": "Tailscale称，多数发现使已获授权的用户能够超出其本地用户权限行事。公司不建议直接禁用Tailscale SSH，建议设置TS_SSH_DISABLE_FORWARDING=1作为缓解措施，并发布了四份公告（TS-2026-014至017）；补丁客户端目标为10月27日发布。",
+      "whyItMatters": "Tailscale SSH用户有了具体的临时缓解办法，但完整影响范围仍在核实中。",
+      "category": "科技",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Tailscale SSH: Investigation and remediation update",
+          "url": "https://tailscale.com/ssh-investigation-update"
+        }
+      ]
+    },
+    {
+      "headline": "有限单群分类的Lean形式化达到约4300万行",
+      "summary": "CFSG项目称，Lean内核检查了第一代证明的每一步，规模约4,310万行代码、205万条声明。项目报告在已发表的“不平衡群定理”论证中发现问题，并在arXiv论文中给出替代论证。",
+      "whyItMatters": "对一个以庞杂著称的证明进行机器检查，发现了文献中的缺陷，团队正以勘误处理。",
+      "category": "观点",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Classification of Finite Simple Groups Formalized in Lean",
+          "url": "https://cfsg.axiommath.ai/"
+        }
+      ]
+    }
+  ]
+}

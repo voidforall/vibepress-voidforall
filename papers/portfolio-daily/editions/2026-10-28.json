@@ -1,0 +1,129 @@
+{
+  "id": "2026-10-28",
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-28T13:50:37Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A Wednesday edition built from headline-level reporting, as article text was not retrievable: Alphabet's earnings day, Jio's debut, Rocket Lab's Neutron and defense news, Alibaba in Hong Kong, and gold and bitcoin ahead of the Fed. Nothing here is investment advice.",
+  "stories": [
+    {
+      "headline": "Alphabet shares rise on a report that OpenAI plans to buy Google's TPUs, Investing.com says",
+      "summary": "An Investing.com headline says Alphabet stock rose as OpenAI plans to buy Google's TPU chips. Article text was not retrievable, so no terms are given.",
+      "whyItMatters": "Per the headline, a report of chip demand from a rival AI lab accompanied the move in GOOGL on earnings day.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Alphabet stock rises as OpenAI plans to buy Google’s TPUs - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQk14NXZ0bTY0Yk9sR0FOWTJIMzJnUmJUOGFYR05MZ21Janc1bnJmdnNvWjJSMVZaNU9IQlVIZkYyamw2WlpZcmZzYVdLVGYtSjhaWVJaM3NIWm1IMmdFVlF3cnJkY3JXM1phczA5OUR2c29Id2ZFRndlSFMwa2w5cGk5anpMUFc3b3NHbHFBQ1FpcG5WTERqZXRvRG1GenpNR1JGRy1IWk41VTJaRUNyRHdDYw?oc=5"
+        },
+        {
+          "title": "Google to report Q3 results as investors focus on AI growth, weigh Meta Muse AI risk - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeFNCNzhFanV1OTduaTk2dkZ3VzcxSF9zcWl3NzJVdTIwUGNDLXZZMTNnVjA2S3A0eUpOQ1R1Qk1VS3dkbHpzaVBEQ1lMUUdhTExFUDFuRTEySGh1aGdzVXlWeGVrdy0ta1FDelc0NWVHal9GODJfdjJ0Qy1PMWJzQ3psLTNvZWJBWWJMdXVxdk9hZkFfVi1pLXpwdVFtU0pMZVRLalM0NlZnZlE4WUl2OXhXbGp5OWhtYUNiRjRuWVprQlNycjhlbTZQa21yZTV2bFVSY0hqWnVYU1k?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Meta- and Google-backed Jio Platforms soars over 21% on its trading debut after a record IPO, CNBC reports",
+      "summary": "CNBC's headline says Jio Platforms, backed by Meta and Google, rose more than 21% on its first day of trading after a record IPO. A TradingView headline puts its IPO valuation at $108 billion. Article text was not retrievable.",
+      "whyItMatters": "Per the headlines, an Alphabet-backed company listed at a large valuation and rose sharply on day one.",
+      "category": "Markets",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Meta- and Google-backed Jio Platforms’ shares soar over 21% on trading debut after record IPO - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9XZTZrLU5EVk95TWVhM1pNbHREcC1CUHR6dzJvY0FRREVPYzVFVndLSVF1Wng1TFdhVV96YkkzcEFMS01UZHctVXhPa2oxZ2hsdU1nR0hGT2RHYjVqVVpkeFhONkRsN2wweGQw0gFwQVVfeXFMTUZ1Qk4teUJ6dGxsT1BzNjdaa291aERheHRWYUFlX2FqOUJmV0xGSVZsR3I0VmJiclZ6Qlg5dEVnMnhnSzQyMGZ3bkJfeXFQSTk2TkhCMmQ0UHhNb1J3dWkzRXRiWEI5LWYwYW1fWGw3Yg?oc=5"
+        },
+        {
+          "title": "Jio valued at $108 billion in IPO, joins Meta, Alibaba and SpaceX club | All you need to know - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTUVaV3lsUDA4aGxNQlRRS080T2xyN3BBSmF6eFlCQzlDSHZQdFF0MERCZTkxUDl6eHZhVE9oZ3BUMEZ3Ml9RM3RBSjVoXzBTdGlvamJFQ044c3pTUi00R1FSOFd3RTRVTlFhWjdLNm5oSl9oR2plUDBUMmNxUWU5U0JacUhhQmdCVzdZbzhQMnlmR1d2UHpaS2piNk5MSlQ3c1NKU25wbDNxTEI5SktmbGx5RHV4MVJLSWU4eTlwTzdHcjBnZ2ZpQ0phekEwWFppa2MyZUFLTC1rSjJfZkE?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab shares rise after hours as Neutron advances, Benzinga reports",
+      "summary": "Benzinga's headline says Rocket Lab shares rose after hours as its Neutron rocket advanced. Article text was not retrievable, so the specific milestone is not stated here.",
+      "whyItMatters": "Per the headline, Neutron progress coincided with a share-price gain after the close.",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab Shares Rise After Hours as Neutron Advances - Rocket Lab (NASDAQ:RKLB) - Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdlI1c0JncnVFbTVOUGxWRzN5MnVyZ3NTNXE2VXFQX2Rfa3NfS2xaY2VKQU9HUHdVOGVfdzhGZ092bkRJQU1hYnBOUG8wSmd2UTVldFBoTno1bzRCTU5wZVVhZDlLQjRSenl4b1AtbnhpZktFRmFaT0E3MktwXzVNanhUNkZob0o1RVQyZGtrWEJyUUE2N0x2RWNZb2NfbDRPSnFsR2NXV2FBUm11T01r?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab touts a $515 million military push with 8 of 18 satellites in production, Stocktwits says",
+      "summary": "A Stocktwits headline says RKLB climbed overnight as Rocket Lab touted a $515 million military push, with 8 of 18 satellites in production. Article text was not retrievable.",
+      "whyItMatters": "Per the headline, Rocket Lab cited defense satellite work worth $515 million, with part of the fleet already being built.",
+      "category": "Company",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "RKLB Stock Climbs Overnight: Rocket Lab Touts $515M Military Push — 8 Of 18 Satellites In Production - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNVJPTW5Nb25pbm9PSHJCXzg3VlNCTE1WNkZBc2dZRW5XWEJVcElRaUlvem5nQzN1cVlxWFFpLVFjbUZDc0dsdk9MYV9BeS1YOUJXMVhuUDVTelp4ajMwZ0JIRVlEMHRiNmNYY1ZaVGlZVUF2YU1NWEFSenJ2c2piVnlYVmFtbFN5eFhlZnpTYTZHTkM3Nm44b0ZwLVhQcXVuQjExNjlmeU83dGlvdnduRlg4aWRvR0tWWUlfZlNlQ1laZVRzWV85Z0ZSeFI1eFBza01B?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Alibaba stock advances 2.0% in Hong Kong, Moomoo reports",
+      "summary": "Moomoo's headline says Alibaba Group Holding stock advanced 2.0% in Hong Kong. A Seeking Alpha headline says the market at $100 is pricing the bear case for BABA. Article text was not retrievable.",
+      "whyItMatters": "Per the headlines, Alibaba rose in Hong Kong trading while analysts debate how much negative sentiment is priced in.",
+      "category": "Markets",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Alibaba Group Holding Stock Advances 2.0% in Hong Kong - Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcV9SMjNfRTRqWVAyQmd4aUlLbG90RU1KTlVsZklRZV9zb05CaWlGWUV5cEhJXzlCdWxwaWhsSlRZMTVlalByLS1rSGg1MDFaaHNXZnJfNnBNeEp0N1ZUc1ZhcXhiVTZmR1pjV3BxTlRYSTYyMjlkS1RGTnY1a0I5OGhydXduOXFEWFV3VUVvdjVycmZIQ3FOZmp6V3k5dw?oc=5"
+        },
+        {
+          "title": "Alibaba: At $100, The Market Is Pricing The Bear Case (NYSE:BABA) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNlllQ3dVamZVdnRhWWZIbWE2Z1o1b0U0bFdoMmJBeVV2QWdMMy10a0V0Ym1kd3hCa1NFNTQ1Mmh5TTNvT21WLWQ2WTJ3ZVRBUi1NbGozUnVSdVRiLTUtNmp5d3RjNU4tb1pXV1V5aUpZVWczWWlndlJLZXFTN2QxLVBubHRZMWljdjE4WU1xaFZZMmg3OXc?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Gold stays below $4,100 and slips on higher oil ahead of the Fed decision, Yahoo Finance and Reuters say",
+      "summary": "Yahoo Finance's headline says gold prices remain below $4,100 ahead of the Fed rate decision, and Reuters says gold slipped on higher oil prices. Article text was not retrievable.",
+      "whyItMatters": "Per the headlines, gold is trading under $4,100 with the Fed decision pending, and oil is the cited pressure.",
+      "category": "Commodities",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Gold price today, Wednesday, October 28, 2026: Gold prices remain below $4,100 ahead of the Fed rate decision - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPQm51ZUp6UGU0ZzV3eXJESFRZdVEydS0zd2k0aDMwUXlUbXp3anhMMC1Jb1VwYi1wX0JMdlc1a3JCT2RINW5zY3lDTDNJX2tEWThWMzgyanFSUGkzZW1ETm50UTAxZVlCU3oyTURocENiMl9LT2phcjBsbV80RTlhRUhvYXJHSXdvOF84UGpjSU9PdnRxWFlOWHZFQUhURkpfUTVDQXZlNkFqUm9RMk9LRHJVOGZyTThxUXc0U2FDVzlRUURQN2xNSDNEYk1ZeWlwaW1qbng4cDVlNEh4OUc5bm1mbzE3dXlrdzZLaFk2TDNfUXB3R0pwMDFPa3dPQmJXWWVGb2hLT1lGRmM?oc=5"
+        },
+        {
+          "title": "Gold slips on higher oil prices ahead of Fed decision - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRUczTDEtcklEQks1UTM3TlZhanpWZ19RUUVMTnkzQTFXWHpmeEF0YWVST0gzamNJNG5KVFJIcUZMOUxnZnBRMkhXYjBkaGdER1Vkc2hQWmplZmluYkQ4YWNsbkwwY0N5ZzFDQldCTDJucHRZY3lOVHdPWEt0RnJmQVprXzBoQnFEZHM3OS13cGNrRFp6MjBuMXJrVTRpcGs3UkpN?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin tops $81,000 ahead of the Fed decision as memecoins lead altcoin gains, CoinDesk says",
+      "summary": "CoinDesk's headline says bitcoin rose above $81,000 ahead of the Fed decision, with memecoins leading altcoin gains. Article text was not retrievable.",
+      "whyItMatters": "Per the headline, BTC is above $81,000 going into the Fed announcement.",
+      "category": "Crypto",
+      "importance": 7,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin tops $81,000 ahead of Fed decision as memecoins lead altcoin gains - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUDNybUQtQnFUa2hNWGJUR2NNMGI5eVZEMmg3bWRYWnBaVGVPZGhQQWFvbXlwWk5NQTBwRnBLTTFWbXF3WkpVZEZTY0swNmwtTDFLa2sxekRnTjBuYlA1RENubmJlRHQyNWdzUF8wVGZxR0xYWC1idk1QMXFxeDJpRktITVlHc1dRVU4yQ253QldUQVZWZk5XX2Qxblh1bThia0QzckV2ZE44eTZ2bW1xS3VTdlFWWW1YSldBMHFhemw2YThIZ1cw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Datavault AI says it can't access its bitcoin holdings, Yahoo Finance reports",
+      "summary": "A Yahoo Finance headline says Datavault AI says it cannot access its bitcoin holdings. Article text was not retrievable, so the cause is not stated.",
+      "whyItMatters": "Per the headline, a listed company disclosed that it cannot reach its own bitcoin.",
+      "category": "Crypto",
+      "importance": 8,
+      "sourceLinks": [
+        {
+          "title": "Datavault AI Says It Can’t Access Its Bitcoin Holdings - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc2Vjekx4S2l4UGVYc0tTeW9obFlwYVpsc25RQ3pfZy1rQ3MtdklpQnZSX0xWY0hTS2Y5aFZ3ckFBN05tMXlNWTQzcUxaVXFBakFLcnpjSzJFLWhjS1N1SjluVnE1dnlFNDFsNFdIM0xreTNOc1IwSzFzN0JyRWQwTUxqb0dfaWFKdW43eFM4S2pJbEF3cUE?oc=5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-27T13:00:33Z",
+  "updatedAt": "2026-10-28T13:50:37Z",
   "events": [
+    {
+      "date": "2026-10-28",
+      "headline": "Tailscale investigates privilege-escalation flaws in Tailscale SSH; fixes are in testing",
+      "summary": "Tailscale says most findings let an already-authorized user act beyond their configured local user's permissions. It does not recommend disabling Tailscale SSH outright, suggests setting TS_SSH_DISABLE_FORWARDING=1 as a mitigation, and pub…",
+      "urls": [
+        "https://tailscale.com/ssh-investigation-update"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "headline": "Google DeepMind unveils Genie 4, a real-time world model with native audio, in research preview",
+      "summary": "DeepMind says Genie 4 generates interactive simulations with music, ambient sound and dialogue, steerable by natural language, with Gemini models handling grounding and reasoning. It is limited to trusted testers for now, with outputs wate…",
+      "urls": [
+        "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "headline": "CPython's experimental JIT is to be removed after its PEP was withdrawn, LWN reports",
+      "summary": "LWN reports the JIT, added experimentally in Python 3.13, will be removed from the main branch, likely early in the 3.16 cycle. The steering council had given six months to produce an acceptable PEP; the authors withdrew PEP 836 on October…",
+      "urls": [
+        "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "headline": "Apple introduces a 14-inch MacBook Pro with the M6 chip",
+      "summary": "Apple's newsroom says the M6 model has a 12-core CPU and GPU, up to 30% faster graphics and up to 25% faster on-device AI than M5, 16GB of memory configurable to 32GB, and up to 24 hours of battery. Pre-orders began October 28 with availab…",
+      "urls": [
+        "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "headline": "Anthropic reports early results from drug-development partnerships, mostly preclinical",
+      "summary": "Anthropic describes work with six drug developers: Generate Biomedicines saw a CAR T design about 70% shorter that made roughly 10 times as many receptors in lab tests, and Enveda cut review time on 1,061 pages by 89%. Anthropic also acqui…",
+      "urls": [
+        "https://www.anthropic.com/research/early-progress-drug-development"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "headline": "A Lean formalization of the classification of finite simple groups reaches about 43 million lines",
+      "summary": "The CFSG project says Lean's kernel checks every step of the first-generation proof, spanning about 43.1 million lines and 2.05 million declarations. It reports a problem in a published argument for the Unbalanced Group Theorem and offers…",
+      "urls": [
+        "https://cfsg.axiommath.ai/"
+      ]
+    },
     {
       "date": "2026-10-27",
       "headline": "US Energy Department designates helium a critical material, citing semiconductors and supply risk",
@@ -611,46 +659,6 @@
       "summary": "MIT News says the 2017 product-design class prototype became Encora Therapeutics, which won FDA 510(k) clearance in February 2026. The device vibrates the wrist; in 47- and 59-patient trials, over 70 percent reported meaningful improvement.",
       "urls": [
         "https://news.mit.edu/2026/mit-class-project-turns-into-fda-cleared-treatment-for-tremors-1002"
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "headline": "Rust issue #164250: an 11-year-old lifetime-soundness hole lets a struct hold a short-lived reference as 'static",
-      "summary": "A new report in rust-lang/rust shows a struct with a T: 'static bound can be assigned a reference to a local String through a covariant field, and a Drop impl can then leak it, so the program compiles and prints dangling memory. It reprodu…",
-      "urls": [
-        "https://github.com/rust-lang/rust/issues/164250"
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "headline": "Mozilla introduces Firefox Enterprise, an on-premises managed browser for regulated organizations",
-      "summary": "The offering adds central policy control, data loss prevention by domain, options to allow, restrict or disable AI tools, SIEM export, a Lockdown Mode and identity-based access to internal apps, with its management console running on the c…",
-      "urls": [
-        "https://www.firefox.com/en-US/enterprise/"
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "headline": "Intel's D270 AI accelerator pairs up to 480 GB of LPDDR5X with a 350 W air-cooled PCIe card",
-      "summary": "Intel's product page lists 32 Xe3P cores, 256 XMX matrix engines and up to 480 GB of LPDDR5X per card with no HBM, in a PCIe 5.0 form factor that fits existing servers. Bandwidth, throughput figures and availability are not stated; only a…",
-      "urls": [
-        "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html"
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "headline": "Hackers reportedly trigger automatic defrosting in supermarket fridges across Europe",
-      "summary": "Tom's Hardware's headline describes an 'unprecedented' cyberattack on supermarket refrigeration in Europe, with delivery and store prices also affected. The page we could read showed only the headline, so scale, victims, attackers and meth…",
-      "urls": [
-        "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident"
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "headline": "A Mac app transcribes an hour of audio in about 13 seconds by reading words out of EmbeddingGemma 2",
-      "summary": "The free macOS app repurposes Google's EmbeddingGemma 2, an embedding model, for speech-to-text: a small trained 'reader' maps audio slices into the model's text space and picks the nearest of about 229,000 English words. It lists 12.6 sec…",
-      "urls": [
-        "https://eg2.haku.sh/"
       ]
     }
   ]
