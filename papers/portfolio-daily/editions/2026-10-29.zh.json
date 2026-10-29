@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-29",
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T14:00:14Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今天自选股中只有一件已披露的大事：Alphabet 第三季度财报，云业务收入翻倍，但搜索增长疲软、自由现金流为负。其他自选标的今日没有可核实的当日资料。",
+  "stories": [
+    {
+      "headline": "Alphabet 营收 1276 亿美元、云业务翻倍；盘后股价下跌逾 11%",
+      "summary": "营收同比增长 25% 至 1276 亿美元，谷歌云增长 103% 至 307 亿美元，但搜索增长 12% 至 634 亿美元，低于分析师预期的约 15%。资本支出为 514 亿美元，自由现金流为负 91 亿美元。",
+      "whyItMatters": "据《财富》报道，盘后股价下跌逾 11%，蒸发市值超 2800 亿美元；Alphabet 确认 2026 年资本支出约 2000 亿美元，预计 2027 年约 3000 亿美元。每股收益 2.12 美元，受 87 亿美元股权投资账面亏损拖累。",
+      "category": "财报",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Alphabet's Google Cloud revenue doubles to $31 billion as cash flow stays deep red (Fortune)",
+          "url": "https://fortune.com/2026/10/28/alphabet-google-stock-drops-cloud-revenue-doubles-free-cash-flow-negative/"
+        },
+        {
+          "title": "Alphabet reports Q3 2026 revenue of $127.6 billion (9to5Google)",
+          "url": "https://9to5google.com/2026/10/28/alphabet-q3-2026-earnings/"
+        }
+      ]
+    }
+  ]
+}

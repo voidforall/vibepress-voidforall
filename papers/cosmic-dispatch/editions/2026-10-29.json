@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-29",
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T14:00:14Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "This week closes one long career and opens another: Swift is done after 22 years, while Roman begins the careful work of tuning its image quality. On the ground, NASA sets out how two commercial landers are meant to reach the Moon.",
+  "stories": [
+    {
+      "headline": "NASA ends Swift's science mission after 22 years; uncontrolled re-entry expected within weeks",
+      "summary": "Swift made its final observation on Oct. 20 after atmospheric drag pulled it below 171 miles (275 km), too low to hold steady on targets. A $30 million rescue attempt by Katalyst's LINK spacecraft was called off after control problems.",
+      "whyItMatters": "Swift watched more than 2,000 gamma-ray bursts and over 1,400 supernovae and supported about 7,000 papers. NASA says most of it will burn up and the risk of harm is unlikely.",
+      "category": "Missions",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "NASA ends Swift's mission at 171 miles; gamma-ray burst hunter heads to re-entry (Nature World News)",
+          "url": "https://www.natureworldnews.com/articles/73650/20261026/nasa-ends-swifts-mission-171-miles-gamma-ray-burst-hunter-heads-re-entry.htm"
+        }
+      ]
+    },
+    {
+      "headline": "Roman Space Telescope enters science commissioning, 'fully functional'",
+      "summary": "After checkout of the observatory and its main instrument, NASA says Roman can guide, expose and slew between targets, and tests in crowded star fields and dusty nebulae went well.",
+      "whyItMatters": "The team is now refining image quality, and some systems perform better than required.",
+      "category": "Missions",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "NASA's Roman Space Telescope Enters Final Commissioning Phase (NASA)",
+          "url": "https://science.nasa.gov/blogs/roman/2026/10/22/nasas-roman-space-telescope-enters-final-commissioning-phase/"
+        }
+      ]
+    },
+    {
+      "headline": "NASA lays out how SpaceX and Blue Origin landers will reach the Moon for 2028 missions",
+      "summary": "SpaceX will aggregate propellant across tanker Starships in orbit, while Blue Origin will skip propellant transfer and use three transfer stages. Landers and Orion will no longer meet in a near-rectilinear halo orbit.",
+      "whyItMatters": "Both firms must fly an uncrewed demonstration first, and Artemis III is now a low-Earth-orbit test with both providers rather than a landing.",
+      "category": "Launches",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions (NASA)",
+          "url": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/"
+        }
+      ]
+    }
+  ]
+}

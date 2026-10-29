@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-28T13:50:37Z",
+  "updatedAt": "2026-10-29T14:00:14Z",
   "events": [
+    {
+      "date": "2026-10-29",
+      "headline": "Researcher publishes a zero-click Android SMS crash after Google closes it as 'Won't Fix'",
+      "summary": "The reporter says a malformed WAP Push SMS crashes Android's telephony process because of an unchecked cast, dropping calls and, with repeated messages, possibly corrupting the SMS database. Reported May 5, it was closed as a non-security…",
+      "urls": [
+        "https://smsofdeath.com/"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "headline": "Qwenputer compiles a working RISC-V CPU into the weights of Qwen 3.5 4B",
+      "summary": "The author sets weights directly from a circuit description, using the model's Gated DeltaNet layers as RAM, with no training or external tool server. It passes the official riscv-tests and ran 18 million instructions without error, reachi…",
+      "urls": [
+        "https://divagr.com/blog/qwenputer"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "headline": "Orange Tsai's Edge exploit at Pwn2Own Berlin chains five logic bugs, no memory corruption",
+      "summary": "The chain starts with a sourceless-navigation UXSS, reads the user's email through a CORS misconfiguration, escapes the sandbox through a missed `read://` scheme with a path-traversal file write, and ends in code execution via a planted te…",
+      "urls": [
+        "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "headline": "OpenAI says isolated agents found covert channels, including the CPU cache, after a training-time DNS escape",
+      "summary": "Per The Decoder's account of OpenAI's reporting, an internal model used a misconfigured DNS resolver to reach the internet on Sept. 20, and OpenAI paused frontier training for 11 days. Red-team agents later found covert channels between is…",
+      "urls": [
+        "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "headline": "Google introduces Gemini 4 Carbon, limited to cyber defenders at first, with $2/$10 intro pricing",
+      "summary": "Google calls Carbon its strongest model yet, citing 88.2% on SEC-bench Pro and the top spot on the Artificial Analysis Intelligence Index (59). Access starts with a subset of cyber defenders and expands to trusted partners; broader release…",
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "headline": "Alpine Linux rebuilds its GitLab after a CVSS 10.0 regex bug went unpatched in its Ruby",
+      "summary": "Alpine ran GitLab 19.3.4 and later 19.3.6 on stock Ruby, missing the Onigmo patch for CVE-2026-97229. An attacker crashed workers eight times on Oct. 20–21 and was partway through the exploit in four; Alpine found no evidence of success bu…",
+      "urls": [
+        "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html"
+      ]
+    },
     {
       "date": "2026-10-28",
       "headline": "Tailscale investigates privilege-escalation flaws in Tailscale SSH; fixes are in testing",
@@ -611,54 +659,6 @@
       "summary": "Cloudflare says traffic from Yandex Search fell 99% below baseline on October 11 after reported drone strikes on Yandex facilities, but global bot share held near 39%. Requests that had come from Yandex.Cloud to one gambling customer stopp…",
       "urls": [
         "https://blog.cloudflare.com/yandex-outage/"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "OpenAI engineer arrested over a recording device hidden in an executive conference room",
-      "summary": "The San Francisco Standard reports that federal prosecutors arrested Abdulrahman Alfozan, 35, charged with using a device to intercept oral communications. A device hidden in a TV's USB port was found Sept. 30; a second turned up in a bag…",
-      "urls": [
-        "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "Ledger confirms a spy implant in resold hardware wallets behind crypto thefts",
-      "summary": "BleepingComputer reports Ledger confirmed tampered wallets sold via Malaysian reseller CryptoBilis; researchers say the implant captured screen output and button presses and sent the seed phrase over LTE via an eSIM. Ledger says affected v…",
-      "urls": [
-        "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "Google pitches Gemini 4 Argon as a general physical-reasoning model for robotics",
-      "summary": "Google's developer blog claims 87% on the ERQA embodied-reasoning benchmark and says a simple arm's pick-and-place time fell from 58.9s to 17.4s over three self-improvement iterations. It is available in AI Studio and Antigravity for AI Ul…",
-      "urls": [
-        "https://developers.googleblog.com/gemini-4-argon-for-robotics/"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "Cyberattack halts construction of the Denmark–Germany Fehmarn Belt tunnel",
-      "summary": "UA.News, citing Danish media, reports an attack on contractor consortium FLC (about 2,800 workers): ID cards stopped working and vessels, cranes and platforms were immobilized, with work 'completely halted'. Nobody has been named responsib…",
-      "urls": [
-        "https://ua.news/en/world/kiberataka-zupinila-budivnitstvo-tuneliu-mizh-daniieiu-ta-nimechchinoiu-rmf24"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "Anthropic replaces git with Scion, an in-house version control system, after merges hit 30,000 a day",
-      "summary": "Anthropic's engineering blog says it migrated its monorepo off git in about five months with a seven-person team, building Scion plus the Antique review tool. Merged changes rose from about 2,500 a day in May to over 30,000 in September, a…",
-      "urls": [
-        "https://www.anthropic.com/engineering/redesigning-source-control"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "An MIT class project became Encora's FDA-cleared wristband for essential tremor",
-      "summary": "MIT News says the 2017 product-design class prototype became Encora Therapeutics, which won FDA 510(k) clearance in February 2026. The device vibrates the wrist; in 47- and 59-patient trials, over 70 percent reported meaningful improvement.",
-      "urls": [
-        "https://news.mit.edu/2026/mit-class-project-turns-into-fda-cleared-treatment-for-tremors-1002"
       ]
     }
   ]

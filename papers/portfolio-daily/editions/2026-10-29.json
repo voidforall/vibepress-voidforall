@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-29",
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T14:00:14Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A single disclosed event dominates today's watchlist: Alphabet's third-quarter report, where doubled Cloud revenue sat alongside soft Search growth and negative free cash flow. Other watchlist items yielded no fetched, dated material today.",
+  "stories": [
+    {
+      "headline": "Alphabet reports $127.6B revenue as Cloud doubles; shares fall more than 11% after hours",
+      "summary": "Revenue rose 25% to $127.6B and Google Cloud grew 103% to $30.7B, but Search grew 12% to $63.4B, below the roughly 15% analysts expected. Capex was $51.4B and free cash flow was negative $9.1B.",
+      "whyItMatters": "Per Fortune, shares fell more than 11% after hours, erasing over $280B of market value; Alphabet confirmed about $200B of 2026 capex and expects roughly $300B in 2027. EPS of $2.12 was hit by an $8.7B paper loss on equity investments.",
+      "category": "Earnings",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Alphabet's Google Cloud revenue doubles to $31 billion as cash flow stays deep red (Fortune)",
+          "url": "https://fortune.com/2026/10/28/alphabet-google-stock-drops-cloud-revenue-doubles-free-cash-flow-negative/"
+        },
+        {
+          "title": "Alphabet reports Q3 2026 revenue of $127.6 billion (9to5Google)",
+          "url": "https://9to5google.com/2026/10/28/alphabet-q3-2026-earnings/"
+        }
+      ]
+    }
+  ]
+}

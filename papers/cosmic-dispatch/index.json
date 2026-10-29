@@ -7,6 +7,12 @@
   "emoji": "🪐",
   "editions": [
     {
+      "id": "2026-10-29",
+      "date": "2026-10-29",
+      "headline": "NASA ends Swift's science mission after 22 years; uncontrolled re-entry expected within weeks",
+      "storyCount": 3
+    },
+    {
       "id": "2026-10-22",
       "date": "2026-10-22",
       "headline": "Euclid finds its first comet, C/2026 S1, while hunting for galaxies",

@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-29",
+      "date": "2026-10-29",
+      "headline": "Alphabet reports $127.6B revenue as Cloud doubles; shares fall more than 11% after hours",
+      "storyCount": 1
+    },
+    {
       "id": "2026-10-28",
       "date": "2026-10-28",
       "headline": "Alphabet shares rise on a report that OpenAI plans to buy Google's TPUs, Investing.com says",

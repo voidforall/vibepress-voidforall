@@ -8,10 +8,10 @@ _Self-publishing dailies, made with vibepress_
 
 | Paper | Covers | Cadence | Latest edition |
 | --- | --- | --- | --- |
-| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “Google DeepMind unveils Genie 4, a real-time world model with native…” · 2026-10-28 |
-| 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Alphabet shares rise on a report that OpenAI plans to buy Google's TP…” · 2026-10-28 |
+| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “Google introduces Gemini 4 Carbon, limited to cyber defenders at firs…” · 2026-10-29 |
+| 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Alphabet reports $127.6B revenue as Cloud doubles; shares fall more t…” · 2026-10-29 |
 | 🔬 [Research Radar](https://voidforall.github.io/vibepress-voidforall/#/research-radar) | The week in AI research, distilled | Weekly (Mon) | “Aligning where BF16 rounding happens keeps LLM reinforcement learning…” · 2026-10-26 |
-| 🪐 [The Cosmic Dispatch](https://voidforall.github.io/vibepress-voidforall/#/cosmic-dispatch) | Space, astronomy, and the odd asteroid | Weekly (Thu) | “Euclid finds its first comet, C/2026 S1, while hunting for galaxies” · 2026-10-22 |
+| 🪐 [The Cosmic Dispatch](https://voidforall.github.io/vibepress-voidforall/#/cosmic-dispatch) | Space, astronomy, and the odd asteroid | Weekly (Thu) | “NASA ends Swift's science mission after 22 years; uncontrolled re-ent…” · 2026-10-29 |
 | 🌸 [The Otaku Times](https://voidforall.github.io/vibepress-voidforall/#/otaku-times) | Anime & manga, and what to watch next | Monthly | “The Apothecary Diaries Season 3 starts October 2, with Yorushika and…” · 2026-10-01 |
 | 🗓️ [The Agenda](https://voidforall.github.io/vibepress-voidforall/#/the-agenda) | What's worth your time — one city, one theme at a time | Daily | “Solaya: sunset dining 25 floors above Shoreditch” · 2026-07-28 |
 

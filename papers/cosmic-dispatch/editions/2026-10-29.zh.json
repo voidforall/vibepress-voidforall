@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-29",
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T14:00:14Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "本周一段漫长的职业生涯落幕，另一段刚刚开启：Swift 在服役 22 年后结束使命，而罗曼望远镜开始精细调校成像质量。在地面上，NASA 说明了两款商业着陆器预计如何抵达月球。",
+  "stories": [
+    {
+      "headline": "NASA 在 22 年后结束 Swift 科学任务，预计数周内非受控再入",
+      "summary": "阻力使 Swift 降至 171 英里（275 公里）以下，已无法稳定对准目标，10 月 20 日完成最后一次观测。Katalyst 的 LINK 飞船耗资 3000 万美元的救援尝试因控制问题被取消。",
+      "whyItMatters": "Swift 观测了 2000 多次伽马射线暴和 1400 多颗超新星，支撑了约 7000 篇论文。NASA 表示其大部分将烧毁，造成伤害的风险不大。",
+      "category": "任务",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "NASA ends Swift's mission at 171 miles; gamma-ray burst hunter heads to re-entry (Nature World News)",
+          "url": "https://www.natureworldnews.com/articles/73650/20261026/nasa-ends-swifts-mission-171-miles-gamma-ray-burst-hunter-heads-re-entry.htm"
+        }
+      ]
+    },
+    {
+      "headline": "罗曼太空望远镜进入科学调试阶段，“功能完备”",
+      "summary": "在完成观测台及主仪器检查后，NASA 称罗曼能够导星、曝光并在目标间转向，在拥挤星场和尘埃星云中的测试表现良好。",
+      "whyItMatters": "团队现正优化成像质量，部分系统的表现优于要求。",
+      "category": "任务",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "NASA's Roman Space Telescope Enters Final Commissioning Phase (NASA)",
+          "url": "https://science.nasa.gov/blogs/roman/2026/10/22/nasas-roman-space-telescope-enters-final-commissioning-phase/"
+        }
+      ]
+    },
+    {
+      "headline": "NASA 说明 SpaceX 与蓝色起源的着陆器将如何为 2028 年任务抵达月球",
+      "summary": "SpaceX 将通过多艘加注星舰在轨汇集推进剂，蓝色起源则跳过推进剂转移，使用三级转移级。着陆器与 Orion 将不再在近直线晕轨道会合。",
+      "whyItMatters": "两家公司都必须先完成无人演示任务，Artemis III 现为两家供应商参与的近地轨道测试，而非登月。",
+      "category": "发射",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions (NASA)",
+          "url": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/"
+        }
+      ]
+    }
+  ]
+}

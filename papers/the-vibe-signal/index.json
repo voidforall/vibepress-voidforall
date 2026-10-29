@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-10-29",
+      "date": "2026-10-29",
+      "headline": "Google introduces Gemini 4 Carbon, limited to cyber defenders at first, with $2/$10 intro pricing",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-28",
       "date": "2026-10-28",
       "headline": "Google DeepMind unveils Genie 4, a real-time world model with native audio, in research preview",

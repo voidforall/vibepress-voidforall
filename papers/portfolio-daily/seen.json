@@ -1,7 +1,16 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-28T13:50:37Z",
+  "updatedAt": "2026-10-29T14:00:14Z",
   "events": [
+    {
+      "date": "2026-10-29",
+      "headline": "Alphabet reports $127.6B revenue as Cloud doubles; shares fall more than 11% after hours",
+      "summary": "Revenue rose 25% to $127.6B and Google Cloud grew 103% to $30.7B, but Search grew 12% to $63.4B, below the roughly 15% analysts expected. Capex was $51.4B and free cash flow was negative $9.1B.",
+      "urls": [
+        "https://fortune.com/2026/10/28/alphabet-google-stock-drops-cloud-revenue-doubles-free-cash-flow-negative/",
+        "https://9to5google.com/2026/10/28/alphabet-q3-2026-earnings/"
+      ]
+    },
     {
       "date": "2026-10-28",
       "headline": "Rocket Lab touts a $515 million military push with 8 of 18 satellites in production, Stocktwits says",
@@ -716,66 +725,6 @@
       "summary": "CoinDesk reports that a bitcoin mining pool which once handled 2.3% of the network has shut down after its hashrate fell 65%.",
       "urls": [
         "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcFQ5S3FnSVhXb0FEdjRrX0hEd3dSMlgxU1FVTllUTnhucWVidElBRzAzNTVCbjduUFRmZDgtTjVGWUpjb0RiM1dKZldUNUZmOVZvcm5KYUpWc3c5S0JCUFI4Tkh3SFpnUWFCSnFTck5WR3B3SFlRc2JiWVg4T0Q1QVFGNUhURURhdWo0RGVIT2dSVGN2S0Q2Z3dYck9fcFo3el9oNklvanZiaTRsWkhKRG9fcDN6Y0JWVTI5X0g0dw?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "Rocket Lab says it must be 'very, very careful' with limited Neutron slots as its 7-day rally ends",
-      "summary": "A Stocktwits headline says RKLB snapped a seven-day rally after Rocket Lab said it must be 'very, very careful' with limited Neutron launch slots. Only the headline was readable.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWmR1RmhCdmd2d0hNU3p2VnR2anVLMWdmeTdzMHhUdXFjVjVUb0kwdFRfWTFPaE1BVGJWREFlbUs2akd2Qmg5NGlhWTY5ZlZuLUhLaWZoczVfS0ptdDNhV21YWWFwMmdIRTU0QXB3NmVqU0Vsak8zeGJQMXBXV2pyRURhNHBLY0hpNXc3SlBkQ0pwSFJYcHh1emlYVVQ1YzdDWC1IOVl1YVpCbERVUUNjTU92TQ?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "Google's Gemini 4 Argon for Robotics: 87% on the ERQA embodied-reasoning benchmark",
-      "summary": "Google's developer blog (Oct. 13) presents Argon as a physical-reasoning model, scoring 87% on ERQA, which it says tops other frontier models. It reports simulation-generated data lifting a real-world success rate from 56% to 75%, and avai…",
-      "urls": [
-        "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
-        "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVl9sakQzUTNtVDNPNUFEbFJPeHJjSHVETndNR2ZzNmpIRU5HYjQ4NUxwWXd4MUZKSGNzQ19CWGh0UVhwaE84a2NNZERsVlAza0dzOFdac2czVl9nc2hZVVlhNlJ5TDJNOGR2RVFZdVUxQURObDBja0pzcEtoNC1ndkJIYXJqZVhhRk9ZZU9pYUQzLUc0SVQxUnZnTWNhNDRTdEdYV25oMmZDanFMb3c?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "Google DeepMind and Google Cloud to give European researchers access to frontier models, Reuters reports",
-      "summary": "A Reuters headline says Google DeepMind and Google Cloud will allow European researchers access to frontier models. Only the headline was readable; models, terms and timing are not stated here.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQd3Npakc0UFloQXV1TGtRSDRIVDdreGhyV296RFRNb1BOVFAtSFhIc3FGTE1NQWVvSlJSYXNpV3BGODZNS2NtX1J4UnZ6bDc0RjdhOEtSUFNTQlA5TnM0ZjJnQ1VEWmhKTWIxVDl3Rk13OVhoeXRtSVpRZGhaekNnMHJhY2c4bE04bXQ5aThmc1BPVTdZa2tzMlp6QUlFOWQ0anBwd2h4V19ub1U1NUJCUEVNbXFOcWZ4TmRCbG1Odm5ZdVk?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "Gold drifts lower ahead of US CPI; $4,200 seen as the breakout test",
-      "summary": "Yahoo Finance's Oct. 14 headline says gold is losing ground ahead of inflation data; FXStreet says XAU/USD drifts lower with US CPI and Fed speakers in focus; investingLive's chart-of-the-day frames $4,200 as a crucial breakout test. Only…",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOaDY1cDVETUVQa3FWTVV2c0I3TmlEa2pHeDI5UTNTLV9LenlvNE1jbmEydHdUdkMzQUMyelFiVUFnSmcxWDlPZ0lJOU80ei04YUV6U0lfUG5WdjVveXdkd0ZxaEMyQ1Bod3pmdHp3UVZYVkJxTldTNXkzOHphbktzdU43eldGWGZUS2s2Vzg1RUF6aDYteksxMWczcTZmMDY1UVNZZU1NY3NtTzRmaHB5N01SSHFsS0c5SDlMQkk1dGNFMS1tc3RjM2Q4d3hBdzFHNUJDbEJvSnZ2QkNiRlN6bTVHQWF0VEpuTmdlZnNHcXRCSUpSR2lVQlVLeGs?oc=5",
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcFFXdUJNelpSTTBmQjlSaWpqRW1Jc1VNQngtTmRJSFo1Wmh0cHpLc2V6UHpxMHVVVFNudmx6WEMyemhvSmpURm1vTzB4eEE0c1N6OElrUUlzVnk2bElPT09YWkE1VzF0cU5SWC05MW40UjVYYTBqUnFRbk43VG5PSUhiTk82bWpVZWFnTVBwbzRNengwRDdTcXd2U3BOMWI3SUN5QUhRdkhOb1U5SU1adlc2RWRoR0hE?oc=5",
-        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSmtIOVQyWGdram5XSmE5OC01Z0R2T3dVaUxlWi1JMVZGbENVNEdJNWoyNWVSREg1QnFjMFpzT0JhZnZFaWFKSDFyZ1Iwd2FBWGZ4RHhHZVRjTWwxaEs0bWVja0RicWh2MWV3OGVib094dVBUcWhWemp0UWdlMlc4bXhiR2xfdjkyS2tEaXM5QnQzd25ZQk9BWk9PRnlXcV9kX3FQYzhCRkhxVF9GWmtlbmNJbGM5WjNFUmFYMW1VOFE?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "Bitcoin steadies and altcoins slip ahead of the US CPI report, CoinDesk says",
-      "summary": "CoinDesk's Crypto Markets Today headline says altcoins slipped while bitcoin's price steadied before the US CPI report. Only the headline was readable.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbkhIVjRGMU5mZmRCNWNGRXBTTE50OXU5UG9SSGxtYTBFQ2tBYlVoQm5TMTc2ekdzQmlEWEdJaEJhWjJMVXduYlFQbjhmTXBabHNLZnVjZHdzenlIWWtWMDNWR1c3SWRZZmRrbEwweXRmYWlXY0l0MS10REZ2QThDT3lleWN3TmMwSWx3SzFVSVFJTm9mcUtRXzhrakduR0FOSlh5c1lPWGpFM21lV0syOWU3VXhkZ2pB?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "Benzinga asks why Strategy is willing to sell bitcoin while Saylor sees it above $100,000",
-      "summary": "A Benzinga headline says Saylor sees bitcoin above $100,000 and asks why Strategy is nonetheless willing to sell. Only the headline was readable.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYWZyR3p3aFRNQXlCSDl4eko0MUctc3JUeHVHaGtBbjBtS1B5czZkRjc2MTZZSUxySUhDYTE4VkhleG01U0dTT0RVTjBreGJ6Ymh4U2U1eTlkdkJucVQ4dzZFcm5wVkVoa1JucWlFajJSQklhRE5SOXNnOGRfSDZYSTdzUWY1OXpQbzA0ZnNaYkV6clp1ZUJzRkRkVWppUGJ1WWxfV3FXQXc3ZUV2VnVYSHV0VjVhZWxna2JNdUgyLTZmUHR0bHdNVQ?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "Alibaba picks Himax's WiseEye chip for next-generation AI glasses, TradingView reports",
-      "summary": "TradingView carries a headline saying Alibaba has selected Himax's WiseEye chip for its next-generation AI glasses; Investing.com separately reports Alibaba shares rising pre-market after the Qwen AI glasses launch. Only headlines were rea…",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMiygFBVV95cUxPN1RjU3FtamlpSWZBWWI4WDcyNmpxd29vbF9HRm50UmVRMGJxY0xBSlV3bU1lQjVKcXMwSHpvT0E1NjcycXVNcVBnTkQyYVpmbm40aUZyM25Sb3RMQVljaXZveXVSaGpHNG8zXy1Tbnp0WlFhU0VjMmQwWE1UaVVFMThJT3ZXTXA0bGV0ckVVMWFQNVJ1WnllUUloMk5kanBVZGZuRFdNLTZkekdFSkhmU1hZbmVUdDZxSGFXajA5dUhoZmMxOUJtMXB3?oc=5",
-        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOENYTmdDQVl0WjdQb3VBNHpNMV9wR3M1V3hvQlRxVWdZRFUtX196emN2Ylg0R2pUbWVfSVM2Qi1BcWFIeTJiaGRQMVN5bnFEeHFxeVE4V3RmanExUlM3WmJ2SHhOU1doZWpKbjhiN2xESW82enBJYVdKbDJqU3Z6cG5lVE9VTk1lVEFDTUxqWUN0ckRxNllBdjJWa3lvMGtLdk9xcjZPdmNubHl0UjBkTmJJa0pab0ppaTVLWFN6Y3VDaVpKWDM1dg?oc=5"
       ]
     }
   ]
