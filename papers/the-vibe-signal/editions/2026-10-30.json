@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-30",
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T13:51:34Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A day of open weights and small models, set against agents that turn cautious and a policy fight over AI debt.",
+  "stories": [
+    {
+      "headline": "Mistral releases the weights of Mistral Large 4, a roughly 1-trillion-parameter multimodal model",
+      "summary": "Mistral's open-weight model is hybrid instruct/reasoning with three reasoning modes, priced at $0.70 per million input and $2.10 per million output tokens. It reports 19.7% on FrontierCode 2.0 and 41% on Terminal-Bench 4.0.",
+      "whyItMatters": "Weights are available on Hugging Face under a modified MIT licence, but businesses running a model-as-a-service need a separate commercial licence.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Mistral: Mistral Large 4",
+          "url": "https://mistral.ai/news/mistral-large-4-oss/"
+        }
+      ]
+    },
+    {
+      "headline": "A looped transformer 'world model' plays and generates games on a Raspberry Pi Pico 2 W",
+      "summary": "The tinyworldformer project pairs an int8 world model (26k–131k parameters) with a small actor network, running on 520 KB of SRAM. Held-out exact-frame accuracy ranges from 83.6% (Doom-lite) to 100% (Flappy Bird).",
+      "whyItMatters": "Agents trained only in the dream exploited model errors, scoring 210 in the dream but 28 in the real game, and the author has not yet measured frame rate on the Pico.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "GitHub: tinyworldformer",
+          "url": "https://github.com/SheepSeb/tinyworldformer"
+        }
+      ]
+    },
+    {
+      "headline": "50 Minecraft agents given one goal built a bureaucracy and grew more cautious",
+      "summary": "In Y Combinator's Agents in Games project, 50 agents told to 'build a thriving civilization' held no vote but deferred to the first name on the list, sent about 5,900 messages, and suffered 22 of its 34 deaths on the first night.",
+      "whyItMatters": "The colony trended toward caution rather than thriving, which the authors compare to coding agents that become overly careful.",
+      "category": "Ideas",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "YC Labs: AI agent swarms in Minecraft and Mindustry",
+          "url": "https://labs.ycombinator.com/projects/games/index.html"
+        }
+      ]
+    },
+    {
+      "headline": "House Democrats introduce a resolution opposing an AI-bubble bailout for Big Tech",
+      "summary": "Reps. Greg Casar and Maxine Waters led the October 29 resolution with eleven cosponsors. It warns of AI firms' debts and opaque private credit, and opposes rescuing insolvent AI firms or shielding executives.",
+      "whyItMatters": "It is a non-binding statement of position; it names no specific rescue under way.",
+      "category": "Business",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Congressional Progressive Caucus: resolution",
+          "url": "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead"
+        }
+      ]
+    },
+    {
+      "headline": "Pico CSS is no longer maintained, its author citing AI-generated HTML and CSS",
+      "summary": "The maintainer says v2.1.1 is the final release and the repositories are archived. Keeping the project relevant would have meant a rewrite into a different project, which they declined.",
+      "whyItMatters": "Existing installs keep working; npm, jsDelivr and picocss.com stay online, and forks are allowed under MIT.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "GitHub: Pico CSS is no longer maintained",
+          "url": "https://github.com/picocss/pico/discussions/754"
+        }
+      ]
+    },
+    {
+      "headline": "Martin Fowler: avoid 'LLM-Voice' and don't let an LLM write your drafts",
+      "summary": "Fowler argues the artificial prose style loses readers and that heavy editing rarely removes it. He makes exceptions for cases such as translation.",
+      "whyItMatters": "His case is that writing is a way of thinking, so outsourcing the prose outsources comprehension.",
+      "category": "Ideas",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Martin Fowler: LLM Voice",
+          "url": "https://martinfowler.com/bliki/LLM-Voice.html"
+        }
+      ]
+    }
+  ]
+}

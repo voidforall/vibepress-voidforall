@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-30",
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T13:51:34Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "这一天既有开放权重和小模型，也有趋于谨慎的智能体，以及围绕AI债务的政策之争。",
+  "stories": [
+    {
+      "headline": "Mistral发布Mistral Large 4权重，这是一个约1万亿参数的多模态模型",
+      "summary": "Mistral的开放权重模型为指令/推理混合，提供三种推理模式，输入每百万token 0.70美元，输出2.10美元。其报告在FrontierCode 2.0上得分19.7%，Terminal-Bench 4.0上41%。",
+      "whyItMatters": "权重以修改版MIT许可证在Hugging Face提供，但运营模型即服务的企业需另行获得商业许可。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Mistral: Mistral Large 4",
+          "url": "https://mistral.ai/news/mistral-large-4-oss/"
+        }
+      ]
+    },
+    {
+      "headline": "循环Transformer“世界模型”在树莓派Pico 2 W上生成并游玩游戏",
+      "summary": "tinyworldformer项目将int8世界模型（2.6万至13.1万参数）与小型执行网络结合，在520 KB SRAM上运行。留出集逐帧精确准确率从83.6%（Doom-lite）到100%（Flappy Bird）。",
+      "whyItMatters": "仅在梦境中训练的智能体利用了模型误差，梦境中得210分而真实游戏中仅28分，作者尚未测量Pico上的帧率。",
+      "category": "技术",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "GitHub: tinyworldformer",
+          "url": "https://github.com/SheepSeb/tinyworldformer"
+        }
+      ]
+    },
+    {
+      "headline": "获得同一目标的50个Minecraft智能体建立了官僚体系并日趋谨慎",
+      "summary": "在Y Combinator的Agents in Games项目中，50个被要求“建设繁荣文明”的智能体没有投票，却服从名单上第一位，发送了约5900条消息，34例死亡中有22例发生在第一夜。",
+      "whyItMatters": "殖民地趋于谨慎而非繁荣，作者将其比作过度小心的编码智能体。",
+      "category": "观点",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "YC Labs: AI agent swarms in Minecraft and Mindustry",
+          "url": "https://labs.ycombinator.com/projects/games/index.html"
+        }
+      ]
+    },
+    {
+      "headline": "众议院民主党人提出决议，反对为大型科技公司的AI泡沫提供救助",
+      "summary": "众议员Greg Casar和Maxine Waters于10月29日牵头提出该决议，另有11名共同提案人。决议警告AI企业债务和不透明的私募信贷风险，反对救助资不抵债的AI企业或庇护高管。",
+      "whyItMatters": "这是一份表明立场的声明；页面未指明正在进行的具体救助。",
+      "category": "商业",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Congressional Progressive Caucus: resolution",
+          "url": "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead"
+        }
+      ]
+    },
+    {
+      "headline": "Pico CSS不再维护，作者称原因是AI可生成HTML与CSS",
+      "summary": "维护者表示v2.1.1为最终版本，仓库已归档。要让项目保持意义需重写为另一个项目，对此他们选择不做。",
+      "whyItMatters": "现有使用不受影响；npm、jsDelivr和picocss.com将继续在线，MIT许可允许分叉。",
+      "category": "技术",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "GitHub: Pico CSS is no longer maintained",
+          "url": "https://github.com/picocss/pico/discussions/754"
+        }
+      ]
+    },
+    {
+      "headline": "Martin Fowler：避免“LLM腔”，不要让LLM写初稿",
+      "summary": "Fowler认为这种人造文风会让读者失去兴趣，大量编辑也很难去除。他对翻译等情形作出例外。",
+      "whyItMatters": "他的观点是写作是一种思考方式，把文字外包就等于把理解外包。",
+      "category": "观点",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Martin Fowler: LLM Voice",
+          "url": "https://martinfowler.com/bliki/LLM-Voice.html"
+        }
+      ]
+    }
+  ]
+}

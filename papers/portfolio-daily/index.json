@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-30",
+      "date": "2026-10-30",
+      "headline": "Alphabet suffers its worst day on record, with about $500 billion in value erased after Q3 results",
+      "storyCount": 7
+    },
+    {
       "id": "2026-10-29",
       "date": "2026-10-29",
       "headline": "Alphabet reports $127.6B revenue as Cloud doubles; shares fall more than 11% after hours",

@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-29T14:00:14Z",
+  "updatedAt": "2026-10-30T13:51:34Z",
   "events": [
+    {
+      "date": "2026-10-30",
+      "headline": "Pico CSS is no longer maintained, its author citing AI-generated HTML and CSS",
+      "summary": "The maintainer says v2.1.1 is the final release and the repositories are archived. Keeping the project relevant would have meant a rewrite into a different project, which they declined.",
+      "urls": [
+        "https://github.com/picocss/pico/discussions/754"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "headline": "Mistral releases the weights of Mistral Large 4, a roughly 1-trillion-parameter multimodal model",
+      "summary": "Mistral's open-weight model is hybrid instruct/reasoning with three reasoning modes, priced at $0.70 per million input and $2.10 per million output tokens. It reports 19.7% on FrontierCode 2.0 and 41% on Terminal-Bench 4.0.",
+      "urls": [
+        "https://mistral.ai/news/mistral-large-4-oss/"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "headline": "Martin Fowler: avoid 'LLM-Voice' and don't let an LLM write your drafts",
+      "summary": "Fowler argues the artificial prose style loses readers and that heavy editing rarely removes it. He makes exceptions for cases such as translation.",
+      "urls": [
+        "https://martinfowler.com/bliki/LLM-Voice.html"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "headline": "House Democrats introduce a resolution opposing an AI-bubble bailout for Big Tech",
+      "summary": "Reps. Greg Casar and Maxine Waters led the October 29 resolution with eleven cosponsors. It warns of AI firms' debts and opaque private credit, and opposes rescuing insolvent AI firms or shielding executives.",
+      "urls": [
+        "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "headline": "A looped transformer 'world model' plays and generates games on a Raspberry Pi Pico 2 W",
+      "summary": "The tinyworldformer project pairs an int8 world model (26k–131k parameters) with a small actor network, running on 520 KB of SRAM. Held-out exact-frame accuracy ranges from 83.6% (Doom-lite) to 100% (Flappy Bird).",
+      "urls": [
+        "https://github.com/SheepSeb/tinyworldformer"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "headline": "50 Minecraft agents given one goal built a bureaucracy and grew more cautious",
+      "summary": "In Y Combinator's Agents in Games project, 50 agents told to 'build a thriving civilization' held no vote but deferred to the first name on the list, sent about 5,900 messages, and suffered 22 of its 34 deaths on the first night.",
+      "urls": [
+        "https://labs.ycombinator.com/projects/games/index.html"
+      ]
+    },
     {
       "date": "2026-10-29",
       "headline": "Researcher publishes a zero-click Android SMS crash after Google closes it as 'Won't Fix'",
@@ -619,46 +667,6 @@
       "summary": "Christian Schaller built a SANE backend for the Plustek OpticFilm 8200i and kernel and libcamera patches for a ThinkPad's IMX471 camera, using a Windows VM to record vendor-driver behavior. The scanner test was on one unit, and upstream SA…",
       "urls": [
         "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "headline": "OpenCode 2.0 rebuilds the coding agent around a shared background server and a 'Code Mode'",
-      "summary": "The author's notes say OpenCode 2.0 runs as one background process shared by the terminal UI, web and desktop apps, with a redesigned API, background subagents and shell tasks, and a minimal JavaScript interpreter that lets agents chain MC…",
-      "urls": [
-        "https://anoma.ly/notes/opencode-2-0/"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "headline": "Liquid AI's LFM2.5-24B-A2B: a 24B mixture-of-experts model with 2B active parameters for on-device agents",
-      "summary": "Liquid AI says the open-weight reasoning model has a 131,072-token context and runs at 184 tokens/s on an Apple M5 Max. It is competitive with Qwen3.6-35B-A3B on five of eight agentic benchmarks, but larger models lead on knowledge and cod…",
-      "urls": [
-        "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "headline": "Go 1.27 drains unread HTTP/1 bodies, making 100 requests about 5x faster in one benchmark",
-      "summary": "Go's net/http Transport now asynchronously drains an unread HTTP/1 response body for up to 50 ms or 256 KB so the connection can be reused; it skips draining when the response says Connection: close. In the Go team's benchmark, 100 request…",
-      "urls": [
-        "https://go.dev/blog/http-connection-reuse"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "headline": "Experts say AI 'hacking' incidents trace to missing containment and monitoring, not rogue agents",
-      "summary": "CSO Online argues that incidents at OpenAI, Anthropic, Meta, Google and Mistral in which models reached outside systems reflect skipped security basics such as sandboxing and monitoring. SANS's Rob T. Lee says they stem from misconfigurati…",
-      "urls": [
-        "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "headline": "After Yandex went dark, Cloudflare data shows malicious bots moved to other Russian hosts",
-      "summary": "Cloudflare says traffic from Yandex Search fell 99% below baseline on October 11 after reported drone strikes on Yandex facilities, but global bot share held near 39%. Requests that had come from Yandex.Cloud to one gambling customer stopp…",
-      "urls": [
-        "https://blog.cloudflare.com/yandex-outage/"
       ]
     }
   ]
