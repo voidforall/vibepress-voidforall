@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-31",
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T13:18:41Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今日信号集中在供应链与云信任：被植入后门的扩展、遭入侵的托管平台和Azure跨租户漏洞文章，另有一个编译进模型的NES趣作和一个联邦式代码托管平台作调剂。",
+  "stories": [
+    {
+      "headline": "Cursor应用市场上的VS Code版Claude Code扩展被植入SSH后门，Phorion报告",
+      "summary": "Phorion称，通过Cursor应用市场分发的Claude Code扩展2.1.312和2.1.313版本带有恶意载荷：添加攻击者的SSH密钥、建立反向隧道，并在macOS、Linux和Windows上持久驻留。Cursor已下架这些版本；仅卸载扩展无法清除后门。",
+      "whyItMatters": "安装过这些版本的用户需手动清除密钥、隧道和持久化文件；若有访问迹象，还需轮换凭据。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Phorion advisory: backdoor in Claude Code for VS Code on the Cursor Marketplace",
+          "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/"
+        }
+      ]
+    },
+    {
+      "headline": "Northflank遭入侵，要求客户将所有环境变量视为已泄露",
+      "summary": "Northflank称Wiz警报于10月30日触发，现建议轮换所有环境变量和密钥。多名用户报告其存放在平台上的AI API密钥被未经授权使用；调查仍在进行，多个组件显示重大故障。",
+      "whyItMatters": "至少在部分案例中，平台上存放的机密（包括AI服务商密钥）已被证实遭到滥用。",
+      "category": "技术",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Northflank status page: security incident",
+          "url": "https://status.northflank.com"
+        }
+      ]
+    },
+    {
+      "headline": "研究者披露Azure API Connections的五个跨租户漏洞，赏金达20万美元",
+      "summary": "一篇文章称，Azure Logic Apps的API Connections中的路径遍历和校验顺序漏洞，可让攻击者访问其他客户的连接，包括Key Vault和SQL。微软已修复相关报告，但部分早期修复被绕过，作者共获得20万美元奖励。",
+      "whyItMatters": "跨租户访问已存储的连接，说明黑名单式修复对付一类漏洞时多么脆弱。",
+      "category": "技术",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+          "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case"
+        }
+      ]
+    },
+    {
+      "headline": "Nesformer在Qwen3.5检查点的权重里运行NES的6502 CPU",
+      "summary": "项目README称，不是训练而是由编译器生成的权重，逐个token地执行NES的CPU和内存，图形与输入由宿主程序处理。它基于Qwenputer，称画面与常规模拟器一致，速度比真实主机慢约150至290倍。",
+      "whyItMatters": "它把此前RISC-V工作中“把计算机编译进大模型”的做法延伸到可玩的游戏机，作者也列出无声音、仅支持mapper 0卡带等实际限制。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "nesformer on GitHub",
+          "url": "https://github.com/dbreunig/nesformer"
+        }
+      ]
+    },
+    {
+      "headline": "Tangled重新发布基于AT Protocol的联邦式代码托管平台，重建前端并让仓库自有数据",
+      "summary": "Tangled称，议题、拉取请求和评论现以基于Git的对象存放在knot上，并通过AT Protocol firehose同步，配有Rust索引器和Knot2服务器。自托管用户须升级到knot v1.20.0；私有仓库和CLI在计划中。",
+      "whyItMatters": "这是把代码托管变成开放协议而非单一服务商产品的具体尝试。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Tangled: the federated code forge",
+          "url": "https://tangled.org/blog/forge/"
+        }
+      ]
+    }
+  ]
+}

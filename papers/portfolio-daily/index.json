@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-10-31",
+      "date": "2026-10-31",
+      "headline": "Apple says Alibaba's Qwen-powered Apple Intelligence in China opens for testing on November 4, per a Futu report",
+      "storyCount": 6
+    },
+    {
       "id": "2026-10-30",
       "date": "2026-10-30",
       "headline": "Alphabet suffers its worst day on record, with about $500 billion in value erased after Q3 results",

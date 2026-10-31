@@ -1,0 +1,99 @@
+{
+  "id": "2026-10-31",
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T13:18:41Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A quieter Saturday: space stocks and gold slid, bitcoin news turned to a possible corporate sale and a new ETF launch, and Apple set a testing date for its Alibaba tie-up. Article bodies were not retrievable, so details are limited to what the linked outlets' headlines state.",
+  "stories": [
+    {
+      "headline": "Apple says Alibaba's Qwen-powered Apple Intelligence in China opens for testing on November 4, per a Futu report",
+      "summary": "A Futu Niuniu headline says Apple has officially announced that its intelligent access to Alibaba's Qwen will open for testing on November 4. The article body could not be retrieved.",
+      "whyItMatters": "If the headline is accurate, it sets a date for a testing phase of the Apple–Alibaba AI tie-up.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Apple officially announced: Apple's intelligent access to Alibaba Qwen will be open for testing on November 4. - 富途牛牛",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQemVab0FPVDhmZFBXcmlxRG4zVHZaQV9adVNYV3lOVjZKa3g0ZGxGZWVTdWdOZTQ1eEJiSkZybkVzUVpXUUY1Y2FWTm1yZHkyampKS2V3clp2QnBrYWFMaWh6YmtrNGVBUENDTW42ODhyMERqWmM5UGxycXRaSkJpOUhid0hUYWZrWWJaQVVWOXhDMWpWeVMwejF2S2pKSnBOTjVDM2J6c1dhVFVVbmVDdzlR?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab leads losses among space stocks, with GuruFocus citing a 7.4% share fall",
+      "summary": "Moomoo's trending-industry note says Rocket Lab led losses in space stocks, and a GuruFocus headline puts the share fall at 7.4%. Article bodies were not retrievable.",
+      "whyItMatters": "The move extends a volatile stretch for the stock, which this paper has tracked through its recent run and drawdown.",
+      "category": "Markets",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Trending Industry Today: Rocket Lab Leads Losses In Space Stocks - Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaE1KWXJZYS1PSTl1d3hUUUNaQkE3VHQzZGRyRXZtdXNHMEloUWprOGp3dUhpMXl4cVNuOEdtV01qeVBZcHlkTFJRUExKVUVORHdnbkFfS2R5SGlaOWh6dW1YMHh2Xy14Nk9LZVZmeW93UmxnemV2TWtqb3VJQk53SnlJbkttZzN3R245YW8xblJJNDRsNnFOT1RBb3V3Zjh5MGVPaEg4TWlocnM?oc=5"
+        },
+        {
+          "title": "Rocket Lab Corp (RKLB) Shares Fall 7.4% -- GF Value Says Still O - GuruFocus",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM3dfMENjQU5ZNDhJa2pJSV9VNmpxRHJsRFdNWmxuVDBTR0lQMGZjUEhrLXhQZjRSSlh6SmlhSDJ4c01qdWVQMnRqbnd5VnlycG9zUC0wVW95cVliRy0wMlNXMWRlYTFFNTZieVQ2YkNyNUc5bmdZMVItSUJvLXNuTGRZTlU5b3JRUUlCcGxWYjJCRUpjamRnSkFEaUxfd0pXdGhEV29WcEM?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Gold hits a yearly low, with StoneX and FXEmpire both flagging a technical breakdown",
+      "summary": "Yahoo Finance's headline says gold just hit a yearly low. StoneX's technical outlook says XAU/USD's breakdown threatens a deeper selloff, and FXEmpire puts $3,500 in focus. Bodies were not retrievable.",
+      "whyItMatters": "Spot gold, a watchlist holding, is now described by several outlets as trading at its lowest level of the year.",
+      "category": "Commodities",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Gold Price Just Hit a Yearly Low. What Are Analysts Saying? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPU0pPZHhycWdjRDdEQ3NfYlRNbXhlTGEtSHRfQlcwWWFxdl9KU1VZOGdvNHA0RnJ3WTVlaTNYZ0ctQUdUODJWSlhOOC1RT25LZXhPZW5oV2JaMk85aWxmR0FZaHhIVXl3cGt4cnA4MXJfWl8td244TGdoNGhfMEdUZVN3aWdsTVdRYWU5QW1mNVM2TDR6Z3d6Qlc1NVE?oc=5"
+        },
+        {
+          "title": "Gold Technical Outlook: XAU/USD Breakdown Threatens Deeper Selloff - StoneX",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd3NQUG9FcEFvTWtkdHpCejdVT3hTSHBRbVlyVlhkUVdFYVJFTlNwNzVvbGNBai00aFBYcHZ5TjVvMC1OT3pualptUDZDZ1M2VGtGSjZOcVpvSXh3b3pmQ2RuY1ZMaFV3dEVnOVNiNjJqX1c2MlpPT3dUTkp0SkhsSWNwU1V5SWdWdWFrdHR2eG53U0RQX1JOejE0NUk0UU9mcFJHZHl3QkFlSThsUnJzMmNUWQ?oc=5"
+        },
+        {
+          "title": "Gold (XAU/USD) Price Forecast: Breakdown Puts $3,500 in Focus - FXEmpire",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMUNQdlc3dFBVOTVwS2JBUW1nXzJaRV8xanJ1UDhtYW9lak4xczl6Ry1zTnlHWmdlMDVvQVNRalk4LVpyYUdKcnFwcnc5T2xYSGl4YmQteFFDdXFxMFpJU2JOMEdnQ0xROEZCWjQ2ZmtROXJtaWVZRExZRTdMT2J0ZzFVaVFVMklyaFAzRWxKcFRpSnlDbjVwTnNHNW5rZDBpMjlBZTdJZGRUSFk?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "A Nasdaq-listed company may sell $450 million of bitcoin, citing the Binance hack and quantum fears, CoinDesk reports",
+      "summary": "CoinDesk's headline says an unnamed-in-headline Nasdaq-listed company may sell $450 million of bitcoin, citing the Binance hack and quantum-computing concerns. The article body could not be retrieved.",
+      "whyItMatters": "It would be a corporate treasury sale tied to the hack that this paper covered yesterday, if it goes ahead.",
+      "category": "Crypto",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUHlNNlZ3YUdpaFcxZ1FDWnZhZnZtUzUwZXlTWEdtNFZxMW9pTnhObzhXazFCZEd4VDlKNGFGZHFuemxtMUY5anhRclZKWXBFQTVWQVJ2elViQW1RRXE4ckVvNjFmcV8wUUtuSTQ4MHVqZk04a3R0dHRSSnpYSERuYzlIc0NUZldleTZYS0N5Zng3Zjd6QkVkb3M3SlFKdzhTcDZXcGZzakJQdW8wNjllQWRCREZkN0F3eFo2Y3lnaUctUVU4VTF6c21obk94Q0lieThr?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Franklin Templeton launches two Bitcoin DRIP ETFs that turn dividends into bitcoin, Bitcoin Magazine reports",
+      "summary": "Bitcoin Magazine's headline says Franklin Templeton has officially launched two Bitcoin DRIP ETFs that convert dividends into bitcoin. The article body could not be retrieved.",
+      "whyItMatters": "The headline marks a move from filing to launch for a product that routes equity dividends into bitcoin exposure.",
+      "category": "Crypto",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Franklin Templeton Officially Launches 2 Bitcoin DRIP ETFs That Turn Dividends Into Bitcoin - Bitcoin Magazine",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UanBoeTJHMGc2UkdqSVZ1Vk05T2JfYmJRcDhqeE5EbzUzcFhJVlB0TkVlRVAycE5Jb0llU2dTaFR1QXc1LS1GSmlIYlJrRE1GRE9rc09wX2lYcUtDbi13RVMyczFhcFRwNFcwVHFmRFBQbjh5WGJLS3R5aEN1bWs?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Reuters: Reddit shares plunge as Google's AI search squeezes traffic",
+      "summary": "A Reuters headline, published Friday, says Reddit shares plunged as Google's AI search squeezes traffic. The article body could not be retrieved.",
+      "whyItMatters": "It ties Google's AI search features to a market reaction at another company, a thread relevant to Alphabet's search business.",
+      "category": "Markets",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Reddit shares plunge as Google's AI search squeezes traffic - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQks1Z3lNdGwyQnFsQ3NQTU1jWTMwNGRGV002QW5RaDhIOGRIRG9xZmFWTUpsYnpYWVhvbUE1N0ZRTXNlOVRJMjdIVE5nOU5tWEhWRGNORVZPUWxNZ2otUF9zUEQ1QkRlWjNNRm1keF95MFlJOUo3bXBmRTZJQ3ppdWxmOVlQbENUVXE3dXUwcTItTUNQTTJEQmJCdGJXeXNwckE?oc=5"
+        }
+      ]
+    }
+  ]
+}

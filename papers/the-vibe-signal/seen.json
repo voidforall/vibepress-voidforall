@@ -1,7 +1,47 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-30T13:51:34Z",
+  "updatedAt": "2026-10-31T13:18:41Z",
   "events": [
+    {
+      "date": "2026-10-31",
+      "headline": "Tangled relaunches its federated, AT Protocol-based code forge with a rebuilt frontend and repo-owned data",
+      "summary": "Tangled says issues, pull requests and comments now live on the knot as Git-based objects, synced via the AT Protocol firehose, with a Rust indexer and Knot2 server. Self-hosters must upgrade to knot v1.20.0; private repos and a CLI are pl…",
+      "urls": [
+        "https://tangled.org/blog/forge/"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "headline": "Northflank tells customers to treat all environment variables as exposed after a breach",
+      "summary": "Northflank says a Wiz alert fired on Oct. 30, and it now advises rotating all environment variables and secrets. Several users report their AI API keys stored on the platform were used without authorization; the investigation is ongoing an…",
+      "urls": [
+        "https://status.northflank.com"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "headline": "Nesformer runs a NES's 6502 CPU inside the weights of a Qwen3.5 checkpoint",
+      "summary": "The project's README says a compiler, not training, produced weights that execute a NES CPU and RAM token by token, with a host program handling graphics and input. It builds on Qwenputer, reports frames matching a conventional emulator, a…",
+      "urls": [
+        "https://github.com/dbreunig/nesformer"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "headline": "Claude Code for VS Code versions on the Cursor Marketplace shipped with an SSH backdoor, Phorion reports",
+      "summary": "Phorion says versions 2.1.312 and 2.1.313 of the Claude Code extension, as distributed through the Cursor Marketplace, carry a payload that adds an attacker's SSH key, opens a reverse tunnel and installs persistence on macOS, Linux and Win…",
+      "urls": [
+        "https://phorion.io/blog/offical-claude-code-vsx-compromise/"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "headline": "A researcher details five cross-tenant flaws in Azure API Connections, worth $200,000 in bounties",
+      "summary": "A write-up says path-traversal and validation-ordering bugs in Azure Logic Apps' API Connections let an attacker reach other customers' connections, including Key Vault and SQL. Microsoft fixed the reports, though some early fixes were byp…",
+      "urls": [
+        "https://www.binarysecurity.no/posts/2026/10/one-root-case"
+      ]
+    },
     {
       "date": "2026-10-30",
       "headline": "Pico CSS is no longer maintained, its author citing AI-generated HTML and CSS",
@@ -627,46 +667,6 @@
       "summary": "Anthropic reports an internal research model worked out, in under half an hour, how the standardised P-192 through P-521 seeds were generated: not as hash outputs but from the C library's lrand48 seeded with timestamps dated between May 19…",
       "urls": [
         "https://www.anthropic.com/research/ecdsa-curve-origins"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "headline": "The BIPM's member states vote to stop adding leap seconds: continuous UTC from 20 May 2027",
-      "summary": "CGPM Resolution 5 (2026) sets continuous UTC to take effect 20 May 2027 and raises the permitted |UT1-UTC| maximum to 3,600 seconds. It asks the BIPM to work with ITU, IAU, IUGG and the IERS on implementation.",
-      "urls": [
-        "https://www.bipm.org/en/cgpm-2026/resolution-5"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "headline": "Meta releases Muse Spark Open: 816B-parameter open-weight model, 42B active, 1M-token context",
-      "summary": "Meta's October 15 release is natively multimodal and aimed at coding and agentic work. Weights ship under the Muse Model License with limited commercial terms, and are on Hugging Face, SageMaker, Google Cloud and Microsoft Foundry; the pag…",
-      "urls": [
-        "https://research.meta.ai/blog/muse-spark-open"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "headline": "LLM-driven evolutionary search finds quantum circuits that beat the state of the art on seven of eight tasks",
-      "summary": "A Harvard-affiliated arXiv paper (Gu, Kemeny, Yelin, Lukin) has LLMs propose circuits that an independent evaluator checks. It reports fewer Toffoli gates and qubits on seven of eight tasks, and a new reversible architecture for prime-fiel…",
-      "urls": [
-        "https://arxiv.org/abs/2610.22367v1"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "headline": "Goodfire essay argues neural networks are 'already clean', with far more interpretable neurons than past tools showed",
-      "summary": "The essay says apparent superposition mostly reflects weak tools and untraced generalization. It reports last-layer InceptionV1 neurons judged interpretable rising from about 5% to about 50-70% with better tools, and about 99% for a same-s…",
-      "urls": [
-        "https://already-clean.goodfire.com/"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "headline": "A GNOME developer used Claude Code to reverse-engineer a film scanner and a laptop camera for Linux",
-      "summary": "Christian Schaller built a SANE backend for the Plustek OpticFilm 8200i and kernel and libcamera patches for a ThinkPad's IMX471 camera, using a Windows VM to record vendor-driver behavior. The scanner test was on one unit, and upstream SA…",
-      "urls": [
-        "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/"
       ]
     }
   ]

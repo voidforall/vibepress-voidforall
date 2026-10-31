@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-31",
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T13:18:41Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today's signal is mostly supply-chain and cloud trust: a backdoored extension, a breached hosting platform and an Azure cross-tenant write-up, with a compiled-NES curiosity and a federated forge for balance.",
+  "stories": [
+    {
+      "headline": "Claude Code for VS Code versions on the Cursor Marketplace shipped with an SSH backdoor, Phorion reports",
+      "summary": "Phorion says versions 2.1.312 and 2.1.313 of the Claude Code extension, as distributed through the Cursor Marketplace, carry a payload that adds an attacker's SSH key, opens a reverse tunnel and installs persistence on macOS, Linux and Windows. Cursor has removed the versions; uninstalling the extension alone does not remove the backdoor.",
+      "whyItMatters": "Anyone who installed those versions needs to clean up the key, tunnel and persistence files by hand, and rotate credentials if there is evidence of access.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Phorion advisory: backdoor in Claude Code for VS Code on the Cursor Marketplace",
+          "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/"
+        }
+      ]
+    },
+    {
+      "headline": "Northflank tells customers to treat all environment variables as exposed after a breach",
+      "summary": "Northflank says a Wiz alert fired on Oct. 30, and it now advises rotating all environment variables and secrets. Several users report their AI API keys stored on the platform were used without authorization; the investigation is ongoing and several components were listed in major outage.",
+      "whyItMatters": "Secrets stored on the platform, including AI provider keys, are confirmed in at least some cases to have been misused.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Northflank status page: security incident",
+          "url": "https://status.northflank.com"
+        }
+      ]
+    },
+    {
+      "headline": "A researcher details five cross-tenant flaws in Azure API Connections, worth $200,000 in bounties",
+      "summary": "A write-up says path-traversal and validation-ordering bugs in Azure Logic Apps' API Connections let an attacker reach other customers' connections, including Key Vault and SQL. Microsoft fixed the reports, though some early fixes were bypassed, and the author received $200,000 in rewards.",
+      "whyItMatters": "Cross-tenant access to stored connections shows how thin a blacklist-style fix can be against a flaw class.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+          "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case"
+        }
+      ]
+    },
+    {
+      "headline": "Nesformer runs a NES's 6502 CPU inside the weights of a Qwen3.5 checkpoint",
+      "summary": "The project's README says a compiler, not training, produced weights that execute a NES CPU and RAM token by token, with a host program handling graphics and input. It builds on Qwenputer, reports frames matching a conventional emulator, and runs about 150–290× slower than a real console.",
+      "whyItMatters": "It extends the compile-a-computer-into-an-LLM trick from earlier RISC-V work to a playable console, with the author listing real limits such as no sound and mapper-0 cartridges only.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "nesformer on GitHub",
+          "url": "https://github.com/dbreunig/nesformer"
+        }
+      ]
+    },
+    {
+      "headline": "Tangled relaunches its federated, AT Protocol-based code forge with a rebuilt frontend and repo-owned data",
+      "summary": "Tangled says issues, pull requests and comments now live on the knot as Git-based objects, synced via the AT Protocol firehose, with a Rust indexer and Knot2 server. Self-hosters must upgrade to knot v1.20.0; private repos and a CLI are planned.",
+      "whyItMatters": "It is a concrete attempt to make code hosting an open protocol rather than one provider's service.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Tangled: the federated code forge",
+          "url": "https://tangled.org/blog/forge/"
+        }
+      ]
+    }
+  ]
+}

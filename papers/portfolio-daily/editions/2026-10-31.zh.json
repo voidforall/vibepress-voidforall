@@ -1,0 +1,99 @@
+{
+  "id": "2026-10-31",
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T13:18:41Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "周六消息偏淡：太空股与黄金下行，比特币相关消息涉及一笔可能的企业出售和一只新ETF上市，苹果则确定了与阿里巴巴合作的测试日期。文章正文无法获取，细节仅限于所链接媒体标题所述。",
+  "stories": [
+    {
+      "headline": "苹果称接入阿里巴巴千问的智能功能将于11月4日开放测试，富途牛牛报道",
+      "summary": "富途牛牛的标题称，苹果已正式宣布其接入阿里巴巴千问的智能功能将于11月4日开放测试。文章正文无法获取。",
+      "whyItMatters": "若标题属实，苹果与阿里巴巴的AI合作已确定测试阶段的开始日期。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Apple officially announced: Apple's intelligent access to Alibaba Qwen will be open for testing on November 4. - 富途牛牛",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQemVab0FPVDhmZFBXcmlxRG4zVHZaQV9adVNYV3lOVjZKa3g0ZGxGZWVTdWdOZTQ1eEJiSkZybkVzUVpXUUY1Y2FWTm1yZHkyampKS2V3clp2QnBrYWFMaWh6YmtrNGVBUENDTW42ODhyMERqWmM5UGxycXRaSkJpOUhid0hUYWZrWWJaQVVWOXhDMWpWeVMwejF2S2pKSnBOTjVDM2J6c1dhVFVVbmVDdzlR?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "火箭实验室领跌太空概念股，GuruFocus称股价下跌7.4%",
+      "summary": "Moomoo的行业动态称火箭实验室领跌太空概念股，GuruFocus的标题称其股价下跌7.4%。文章正文无法获取。",
+      "whyItMatters": "此次下跌延续了该股近期的剧烈波动，本报此前已追踪其上涨与回撤。",
+      "category": "市场",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Trending Industry Today: Rocket Lab Leads Losses In Space Stocks - Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaE1KWXJZYS1PSTl1d3hUUUNaQkE3VHQzZGRyRXZtdXNHMEloUWprOGp3dUhpMXl4cVNuOEdtV01qeVBZcHlkTFJRUExKVUVORHdnbkFfS2R5SGlaOWh6dW1YMHh2Xy14Nk9LZVZmeW93UmxnemV2TWtqb3VJQk53SnlJbkttZzN3R245YW8xblJJNDRsNnFOT1RBb3V3Zjh5MGVPaEg4TWlocnM?oc=5"
+        },
+        {
+          "title": "Rocket Lab Corp (RKLB) Shares Fall 7.4% -- GF Value Says Still O - GuruFocus",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM3dfMENjQU5ZNDhJa2pJSV9VNmpxRHJsRFdNWmxuVDBTR0lQMGZjUEhrLXhQZjRSSlh6SmlhSDJ4c01qdWVQMnRqbnd5VnlycG9zUC0wVW95cVliRy0wMlNXMWRlYTFFNTZieVQ2YkNyNUc5bmdZMVItSUJvLXNuTGRZTlU5b3JRUUlCcGxWYjJCRUpjamRnSkFEaUxfd0pXdGhEV29WcEM?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "黄金触及年内低点，StoneX与FXEmpire均提示技术性破位",
+      "summary": "雅虎财经的标题称金价刚刚触及年内低点。StoneX的技术展望称XAU/USD破位可能引发更深跌势，FXEmpire则关注3500美元。文章正文无法获取。",
+      "whyItMatters": "多家媒体称，自选股中的现货黄金正处于年内最低水平。",
+      "category": "大宗商品",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Gold Price Just Hit a Yearly Low. What Are Analysts Saying? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPU0pPZHhycWdjRDdEQ3NfYlRNbXhlTGEtSHRfQlcwWWFxdl9KU1VZOGdvNHA0RnJ3WTVlaTNYZ0ctQUdUODJWSlhOOC1RT25LZXhPZW5oV2JaMk85aWxmR0FZaHhIVXl3cGt4cnA4MXJfWl8td244TGdoNGhfMEdUZVN3aWdsTVdRYWU5QW1mNVM2TDR6Z3d6Qlc1NVE?oc=5"
+        },
+        {
+          "title": "Gold Technical Outlook: XAU/USD Breakdown Threatens Deeper Selloff - StoneX",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd3NQUG9FcEFvTWtkdHpCejdVT3hTSHBRbVlyVlhkUVdFYVJFTlNwNzVvbGNBai00aFBYcHZ5TjVvMC1OT3pualptUDZDZ1M2VGtGSjZOcVpvSXh3b3pmQ2RuY1ZMaFV3dEVnOVNiNjJqX1c2MlpPT3dUTkp0SkhsSWNwU1V5SWdWdWFrdHR2eG53U0RQX1JOejE0NUk0UU9mcFJHZHl3QkFlSThsUnJzMmNUWQ?oc=5"
+        },
+        {
+          "title": "Gold (XAU/USD) Price Forecast: Breakdown Puts $3,500 in Focus - FXEmpire",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMUNQdlc3dFBVOTVwS2JBUW1nXzJaRV8xanJ1UDhtYW9lak4xczl6Ry1zTnlHWmdlMDVvQVNRalk4LVpyYUdKcnFwcnc5T2xYSGl4YmQteFFDdXFxMFpJU2JOMEdnQ0xROEZCWjQ2ZmtROXJtaWVZRExZRTdMT2J0ZzFVaVFVMklyaFAzRWxKcFRpSnlDbjVwTnNHNW5rZDBpMjlBZTdJZGRUSFk?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "CoinDesk：一家纳斯达克上市公司或出售4.5亿美元比特币，理由是币安被盗与量子风险",
+      "summary": "CoinDesk的标题称，一家纳斯达克上市公司可能出售4.5亿美元的比特币，理由是币安被盗事件和量子计算担忧。文章正文无法获取。",
+      "whyItMatters": "若成行，这将是与本报昨日报道的被盗事件相关的企业库存出售。",
+      "category": "加密货币",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUHlNNlZ3YUdpaFcxZ1FDWnZhZnZtUzUwZXlTWEdtNFZxMW9pTnhObzhXazFCZEd4VDlKNGFGZHFuemxtMUY5anhRclZKWXBFQTVWQVJ2elViQW1RRXE4ckVvNjFmcV8wUUtuSTQ4MHVqZk04a3R0dHRSSnpYSERuYzlIc0NUZldleTZYS0N5Zng3Zjd6QkVkb3M3SlFKdzhTcDZXcGZzakJQdW8wNjllQWRCREZkN0F3eFo2Y3lnaUctUVU4VTF6c21obk94Q0lieThr?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "富兰克林邓普顿推出两只比特币DRIP ETF，将股息转为比特币，Bitcoin Magazine报道",
+      "summary": "Bitcoin Magazine的标题称，富兰克林邓普顿已正式推出两只将股息转换为比特币的比特币DRIP ETF。文章正文无法获取。",
+      "whyItMatters": "标题显示，这一将股票股息转入比特币敞口的产品已从申报进入上市。",
+      "category": "加密货币",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Franklin Templeton Officially Launches 2 Bitcoin DRIP ETFs That Turn Dividends Into Bitcoin - Bitcoin Magazine",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UanBoeTJHMGc2UkdqSVZ1Vk05T2JfYmJRcDhqeE5EbzUzcFhJVlB0TkVlRVAycE5Jb0llU2dTaFR1QXc1LS1GSmlIYlJrRE1GRE9rc09wX2lYcUtDbi13RVMyczFhcFRwNFcwVHFmRFBQbjh5WGJLS3R5aEN1bWs?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "路透：Reddit股价暴跌，谷歌AI搜索挤压其流量",
+      "summary": "路透周五的标题称，Reddit股价暴跌，原因是谷歌的AI搜索挤压了流量。文章正文无法获取。",
+      "whyItMatters": "这将谷歌AI搜索功能与另一家公司的股价反应联系起来，与Alphabet的搜索业务相关。",
+      "category": "市场",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Reddit shares plunge as Google's AI search squeezes traffic - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQks1Z3lNdGwyQnFsQ3NQTU1jWTMwNGRGV002QW5RaDhIOGRIRG9xZmFWTUpsYnpYWVhvbUE1N0ZRTXNlOVRJMjdIVE5nOU5tWEhWRGNORVZPUWxNZ2otUF9zUEQ1QkRlWjNNRm1keF95MFlJOUo3bXBmRTZJQ3ppdWxmOVlQbENUVXE3dXUwcTItTUNQTTJEQmJCdGJXeXNwckE?oc=5"
+        }
+      ]
+    }
+  ]
+}

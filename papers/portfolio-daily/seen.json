@@ -1,7 +1,58 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-10-30T13:51:34Z",
+  "updatedAt": "2026-10-31T13:18:41Z",
   "events": [
+    {
+      "date": "2026-10-31",
+      "headline": "Rocket Lab leads losses among space stocks, with GuruFocus citing a 7.4% share fall",
+      "summary": "Moomoo's trending-industry note says Rocket Lab led losses in space stocks, and a GuruFocus headline puts the share fall at 7.4%. Article bodies were not retrievable.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaE1KWXJZYS1PSTl1d3hUUUNaQkE3VHQzZGRyRXZtdXNHMEloUWprOGp3dUhpMXl4cVNuOEdtV01qeVBZcHlkTFJRUExKVUVORHdnbkFfS2R5SGlaOWh6dW1YMHh2Xy14Nk9LZVZmeW93UmxnemV2TWtqb3VJQk53SnlJbkttZzN3R245YW8xblJJNDRsNnFOT1RBb3V3Zjh5MGVPaEg4TWlocnM?oc=5",
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM3dfMENjQU5ZNDhJa2pJSV9VNmpxRHJsRFdNWmxuVDBTR0lQMGZjUEhrLXhQZjRSSlh6SmlhSDJ4c01qdWVQMnRqbnd5VnlycG9zUC0wVW95cVliRy0wMlNXMWRlYTFFNTZieVQ2YkNyNUc5bmdZMVItSUJvLXNuTGRZTlU5b3JRUUlCcGxWYjJCRUpjamRnSkFEaUxfd0pXdGhEV29WcEM?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "headline": "Reuters: Reddit shares plunge as Google's AI search squeezes traffic",
+      "summary": "A Reuters headline, published Friday, says Reddit shares plunged as Google's AI search squeezes traffic. The article body could not be retrieved.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQks1Z3lNdGwyQnFsQ3NQTU1jWTMwNGRGV002QW5RaDhIOGRIRG9xZmFWTUpsYnpYWVhvbUE1N0ZRTXNlOVRJMjdIVE5nOU5tWEhWRGNORVZPUWxNZ2otUF9zUEQ1QkRlWjNNRm1keF95MFlJOUo3bXBmRTZJQ3ppdWxmOVlQbENUVXE3dXUwcTItTUNQTTJEQmJCdGJXeXNwckE?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "headline": "Gold hits a yearly low, with StoneX and FXEmpire both flagging a technical breakdown",
+      "summary": "Yahoo Finance's headline says gold just hit a yearly low. StoneX's technical outlook says XAU/USD's breakdown threatens a deeper selloff, and FXEmpire puts $3,500 in focus. Bodies were not retrievable.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPU0pPZHhycWdjRDdEQ3NfYlRNbXhlTGEtSHRfQlcwWWFxdl9KU1VZOGdvNHA0RnJ3WTVlaTNYZ0ctQUdUODJWSlhOOC1RT25LZXhPZW5oV2JaMk85aWxmR0FZaHhIVXl3cGt4cnA4MXJfWl8td244TGdoNGhfMEdUZVN3aWdsTVdRYWU5QW1mNVM2TDR6Z3d6Qlc1NVE?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd3NQUG9FcEFvTWtkdHpCejdVT3hTSHBRbVlyVlhkUVdFYVJFTlNwNzVvbGNBai00aFBYcHZ5TjVvMC1OT3pualptUDZDZ1M2VGtGSjZOcVpvSXh3b3pmQ2RuY1ZMaFV3dEVnOVNiNjJqX1c2MlpPT3dUTkp0SkhsSWNwU1V5SWdWdWFrdHR2eG53U0RQX1JOejE0NUk0UU9mcFJHZHl3QkFlSThsUnJzMmNUWQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMUNQdlc3dFBVOTVwS2JBUW1nXzJaRV8xanJ1UDhtYW9lak4xczl6Ry1zTnlHWmdlMDVvQVNRalk4LVpyYUdKcnFwcnc5T2xYSGl4YmQteFFDdXFxMFpJU2JOMEdnQ0xROEZCWjQ2ZmtROXJtaWVZRExZRTdMT2J0ZzFVaVFVMklyaFAzRWxKcFRpSnlDbjVwTnNHNW5rZDBpMjlBZTdJZGRUSFk?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "headline": "Franklin Templeton launches two Bitcoin DRIP ETFs that turn dividends into bitcoin, Bitcoin Magazine reports",
+      "summary": "Bitcoin Magazine's headline says Franklin Templeton has officially launched two Bitcoin DRIP ETFs that convert dividends into bitcoin. The article body could not be retrieved.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UanBoeTJHMGc2UkdqSVZ1Vk05T2JfYmJRcDhqeE5EbzUzcFhJVlB0TkVlRVAycE5Jb0llU2dTaFR1QXc1LS1GSmlIYlJrRE1GRE9rc09wX2lYcUtDbi13RVMyczFhcFRwNFcwVHFmRFBQbjh5WGJLS3R5aEN1bWs?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "headline": "Apple says Alibaba's Qwen-powered Apple Intelligence in China opens for testing on November 4, per a Futu report",
+      "summary": "A Futu Niuniu headline says Apple has officially announced that its intelligent access to Alibaba's Qwen will open for testing on November 4. The article body could not be retrieved.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxQemVab0FPVDhmZFBXcmlxRG4zVHZaQV9adVNYV3lOVjZKa3g0ZGxGZWVTdWdOZTQ1eEJiSkZybkVzUVpXUUY1Y2FWTm1yZHkyampKS2V3clp2QnBrYWFMaWh6YmtrNGVBUENDTW42ODhyMERqWmM5UGxycXRaSkJpOUhid0hUYWZrWWJaQVVWOXhDMWpWeVMwejF2S2pKSnBOTjVDM2J6c1dhVFVVbmVDdzlR?oc=5"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "headline": "A Nasdaq-listed company may sell $450 million of bitcoin, citing the Binance hack and quantum fears, CoinDesk reports",
+      "summary": "CoinDesk's headline says an unnamed-in-headline Nasdaq-listed company may sell $450 million of bitcoin, citing the Binance hack and quantum-computing concerns. The article body could not be retrieved.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUHlNNlZ3YUdpaFcxZ1FDWnZhZnZtUzUwZXlTWEdtNFZxMW9pTnhObzhXazFCZEd4VDlKNGFGZHFuemxtMUY5anhRclZKWXBFQTVWQVJ2elViQW1RRXE4ckVvNjFmcV8wUUtuSTQ4MHVqZk04a3R0dHRSSnpYSERuYzlIc0NUZldleTZYS0N5Zng3Zjd6QkVkb3M3SlFKdzhTcDZXcGZzakJQdW8wNjllQWRCREZkN0F3eFo2Y3lnaUctUVU4VTF6c21obk94Q0lieThr?oc=5"
+      ]
+    },
     {
       "date": "2026-10-30",
       "headline": "Rocket Lab stock is up 15% over a five-day winning streak, Trefis says",
@@ -681,62 +732,6 @@
         "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeWxBWGlDSDZweVJPRkJSV3dVQXp6U3cxU2Rsd0F2MGE5TWVCYlZ1bmlKT05CRWxMSjdXX3NuS2k5MWxkeFJ6X1JhSGhtTnZhaVpheUhLb2stXzRkZnR2RmZ1SUxPY3A1WkRaWUVnSDZYVFBDWC1kd0NxMXpISXlDbFhNRko4d2M?oc=5",
         "https://news.google.com/rss/articles/CBMiswFBVV95cUxOekE2ZENFTjhydHQ0YXdmOFRlVDJCYUZ1aGpxbGY4SjlpeTh3ekRIM2djYTlWT1NDNURyUm56T0FYOHNQQ0d3ZDNSUDhINy1uMmZZLWRjd0VrX3NxZlRUMVRLeV9ESmNuWEw4UXZMcXBBcnpyVmlpTFNNNVR6bmk0bUpELWlEZ0QtcEVDc1o4RmdldG1PSERNcGl6TUd4STdlMHh1ZVdfZ3d2SnoyTFlwdFdBTQ?oc=5",
         "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdE1qYmxLRDFXbkx0TWE1bHBMZXlKSm0xYzNFd0huOGg5QmFGY1FXRmJHWGo3OTFWaDdhcXpFRHdTb19wb0VRRUFSanhwd2NoX0xjcVU5VG56T0pKS0t1TGRkMzl1RTJFS3J2VjVBbHhiYTVnWk5ERVhFRGFKeXRxRDVVT0ZINkNVX2hORngxM3ZLak1Bd21icld4UGxGSnZzS1E?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "headline": "Strategy's stock sinks as index exclusion may outweigh bitcoin prices, Barron's says",
-      "summary": "Barron's headline says Strategy shares fell and that a possible index exclusion could matter more than the price of bitcoin. The full article was not retrievable, so details are limited to the headline.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMilgFBVV95cUxObWxmaktzQ2laUnEzMUJiRVlhR1pBNVlMX05ET0stVktuT3N2U3Zxbll3S1JsTlZMaG85dHM1S0w1czNiNVdwcVVLUVliaDlTMXJzZ1Uxb3Z3YWlVbVowdm5zaHJGOEg5b2c2ZHhzN1JlZmJKRnNBcU1tczAtZzBrQmQ1U2FBeTA0MVN4OVQzU0E1RE8zX3c?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "headline": "Google launches a universal cart in the U.S. for multi-store shopping, Newsquawk reports",
-      "summary": "Newsquawk reports that Google has launched a universal cart in the US for shopping across multiple stores. Details beyond the headline were not retrievable.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYjE0Vzg1UndkRjU1WkxobzhzUjAyZndEMDZWZko1RnpOYk1MRWVBMUhsS0RSZEEtNWk5WWxodmhxdUNpLTVNWDAyVF8tdnNTODJnX3VpbUF4ck9EcmN4TXY2NUp3Y0w2aFI4MEZfV2JvRDNhLUVOWF9PZ19jZi1xSVdtREpFaGV1Qy05Ull1T24zSGN4Y2pkZjJOWjhJdk1OVlBFQkFOYm5hdw?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "headline": "Gold lifts as Treasury yields and the dollar fall back, Yahoo Finance reports",
-      "summary": "Yahoo Finance's Friday gold update says the metal rose as Treasury yields and the dollar eased. The article body could not be retrieved, so no price level is cited.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQYTdlYXpVRFE4a0pkTDdONG1yblhsX2RvOXphaHJwUkhVTkJlTUNhWEJXV19WMHpTMTZ5MkJON3dBRFVQcUxMR25ZX0libGpzT3B0bUxiSjd5MFNIUG5pQV9jR2tVTS1ZMmlhdW1vUDFxWDJ3MnVzOEF3eHZnM1dDVEFadUdwcDUtMFc1bU5RckpVVTBJRHhsWWYyUUVXOEp1VHQ4NGU4cXpRZ25ISVVPWFBQdHpEb1pFbTVJbWxVVDgwYTRPY0F3ODBFQjJqM2dGU3k5UjBZNGNFWnZNSlZrMlZUazMtMnF0TzQtVUctejRVQXZzdkZUbFh3?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "headline": "CME to launch Uniswap and Bitcoin Cash futures; 24/7 Wall St. asks whether futures move prices",
-      "summary": "A 24/7 Wall St. piece reports that CME is launching Uniswap and Bitcoin Cash futures and asks whether futures actually move prices. The article body was not retrievable.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPV1E1eHgtUFRXWmpaNC1Rc3lCWlhKT1daVm9ZMm5LVXJpSkV1b0hXSENXU19Xd1VrOFZUWi1kLXJtdzd4SGdHQTA3YlNsTlJ2U1RHWFBuNHhQUUJ5a3o5SC1fb1UzWFVxSnB1LWZHUUlXdGllQldmdFRNd01vcUJ6SXMzU1hSTkdUMXNJMlMwemhSWGN0aXhENGc0eHBFOGoxZ1dyRW5ZblFUM1VWMmlzbzdvWTNld01XeFRCMWJhT0h5anNTckRwNGhBdzBJUklJRkY0Rlk4dw?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "headline": "Bitcoin and ether firm despite two strong inflation reports, Yahoo Finance says",
-      "summary": "Yahoo Finance's Friday crypto update says bitcoin and ether prices held firm even after two strong inflation reports. Price levels were not retrievable from the article.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMipAJBVV95cUxOcExnQXgyOEJNcmFfYmw2djFSbGhyMWJKdXlnYzJ2RUliU3U1ZlVpdUQ0MWx4MzZ6QUhDOHlyelJGOEZxbGU0bFVIQmZocTNselllRzJCeFBXNlZocWI2eXFVaHlfZi0wclA4WGt0blJ0MlRkeVBJMlczVldLLXJGVXRTT1N1TkhNOW5UMGFmZFFWTG5McVZkdXc1a0Vjb3BHakpibVVWazdrSGdWekQ3MEVyUEl5blRIeFFIY3pHVkt6TW1FNG1PZHU1V0tUczIzT2w0a0lDREt1enhHVnZFMy10YUFzaEZmNDFHRlR6dDNYNThzd2ZkaGo3SG9taTN2OHlUbzdoOWwyUVZrV3pBckVwSFFJLTFFZmVIWHJmYmtod01Z?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "headline": "Alibaba and TSMC are included as U.S. equity options trading hours expand next week",
-      "summary": "Futu and BigGo Finance report that extended trading hours for popular U.S. stock options launch next week, with Alibaba and Taiwan Semiconductor Manufacturing on the list. Only headlines were retrievable.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWl9EanR3MkFUVWhhOVpPeG5maUVlMDlXUGFwWWJPSkRfdlplZXNlOEtoYWJwSEtmRHcwTWJIYVRPZW1PWFhfZEpHbHJLQ0N3azQxQUpNVXI2M2dXbm5ZZmZ1Ty1LVk12b1RhSVBBcGRQMlh2MDhKSEpHTnhmVWNTMWV3MmV4U3d5dll1bjZpT251UzdOQVRxQWp6c25qbG5LVjFSa2MybjRSV3ZWSHJ6NE05OA?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "headline": "A 'Quantum Alliance' forms amid warnings that 6.4 million bitcoin face a future quantum threat, CoinDesk reports",
-      "summary": "CoinDesk's headline reports the formation of a Quantum Alliance alongside warnings that 6.4 million bitcoin could face a future quantum threat. Membership and goals were not retrievable.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUlZOWlZmWmhreU14R1dRLWg4R2xhclRQRUpZVHhWNE4tSWtxa1VucW5QQmV5TF8tZUFfdUJ5emRRaWgxVWRHUzFadTZkUFZnNlI5RVZLOGZnaXNVb2xTbkVQOTItTmh5S3NuazdTUVFFdnkwVU9JMTgzSkF0dU9sOEJBbFhPZWFtejlhNG5LeE1iV0pfVmNSekJuaXpldVk0S3BvZzc4Ulo1SFg4QnFPZWN3cEthbXBxb0pBdldMZEJoaDJrLTZSWkFYVQ?oc=5"
       ]
     }
   ]
