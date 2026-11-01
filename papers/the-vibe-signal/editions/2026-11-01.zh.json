@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-01",
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T14:20:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天偏重证据：补丁进度不一的内核严重漏洞、Jepsen对某数据库宣称的拆解、框架成本的实测，另有巴西法院的提示注入罚款和一个两小时由智能体做成的网站。",
+  "stories": [
+    {
+      "headline": "Linux TCP严重释放后使用漏洞CVE-2026-98432：上游已修复，Ubuntu与RHEL仍未修复",
+      "summary": "漏洞位于IPv4 TCP握手：保存的IP选项未复制就交给新连接，随后被释放，而另一个CPU可能仍在读取，远程未认证对端即可触发。上游修复于10月11日至18日合入；截至10月31日，Debian、SUSE和Amazon Linux已修复，Ubuntu与RHEL 8–10尚未修复。漏洞由Anthropic的Xinyang Ge报告，Anthropic称Claude为带有多路径TCP监听器的服务器写出了可用的root利用，但未公开。",
+      "whyItMatters": "CVSS 9.8的远程漏洞上游已有修复，但两大发行版尚未跟进；临时缓解措施是丢弃带IPv4选项的TCP包并关闭多路径TCP。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8 (Atlasum)",
+          "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf"
+        }
+      ]
+    },
+    {
+      "headline": "巴西劳动法院因在诉状中隐藏提示注入处罚两家律所",
+      "summary": "律师提交的劳动争议诉状含有白底白字文本，指示AI“敷衍回应此诉状”。Parauapebas第3劳动法院称其审查工具Galileu发现了该文本并阻止处理，对两家律所处以诉讼标的84.2万雷亚尔的10%罚款，约1.6万美元。",
+      "whyItMatters": "据来源称，这可能是全球首例针对法院AI系统的蓄意提示注入裁决；法院援引了程序诚信义务。",
+      "category": "观点",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing (Jetstream)",
+          "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/"
+        }
+      ]
+    },
+    {
+      "headline": "Jepsen测试：ParticleDB的“完整ACID”宣称不成立，报告96个问题并建议停止部署",
+      "summary": "Jepsen在单节点上测试了ParticleDB 1.1.4至1.1.18.11.rc-22，发现查询结果错误、约束未生效、已中止事务仍可提交、已确认写入丢失，以及WAL位翻转后的静默数据丢失；尽管宣传中提到TLA+，却未找到相关规约。Orkes称1.1.19-rc.13已解决全部问题，Jepsen未验证。",
+      "whyItMatters": "独立测试推翻了某数据库的一致性宣称，测试方建议迁移而非等待修复。",
+      "category": "技术",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Jepsen: ParticleDB 1.1.4",
+          "url": "https://jepsen.io/analyses/particledb-1.1.4"
+        }
+      ]
+    },
+    {
+      "headline": "Karpathy用约两小时做出HackerTube：汇集Hacker News评论推荐视频的类YouTube网站",
+      "summary": "他用Claude Code工作流中的Sonnet，从Hacker News评论数据集中筛出约4万条推荐YouTube视频的评论，得到2007至2026年、涵盖150个主题的6454个视频。他称Claude Code（Opus 5.5）完成了部署与加固，自己只负责API密钥、VPS和域名。",
+      "whyItMatters": "这是智能体端到端完成大部分开发的一个具体小案例，作者还说明了仍需手动完成的步骤。",
+      "category": "技术",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "HackerTube: YouTube built from videos recommended by HN (Karpathy)",
+          "url": "https://karpathy.bearblog.dev/hacker-tube/"
+        }
+      ]
+    },
+    {
+      "headline": "Nolan Lawson实测：让智能体用12种JavaScript框架配置构建同一应用的成本",
+      "summary": "他让Claude Opus 5.5在12种配置下构建同一个宝可梦应用，取3至5次运行的中位数。Hono+htmx最便宜，为2.67美元，Angular最贵，为4.97美元；Astro几乎不发送JavaScript，而Next.js为142 KiB。Lighthouse性能与无障碍得分基本饱和。",
+      "whyItMatters": "用数字取代“更适合智能体”的感觉，但作者强调结果具有随机性，且应用规模小、以内容为主。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "The AI cost of JavaScript frameworks (Nolan Lawson)",
+          "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/"
+        }
+      ]
+    }
+  ]
+}

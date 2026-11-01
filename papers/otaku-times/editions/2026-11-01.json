@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-01",
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T14:00:00Z",
+  "editionTitle": "The Otaku Times",
+  "editorNote": "A November opener with a sci-fi streak: Disney+'s Death Stranding series and Edgerunners 2's Night City scouting, plus a dark Murciélago cast reveal, a share-house comedy with a January date, and two manga news items.",
+  "stories": [
+    {
+      "headline": "Death Stranding Isolations drops its first teaser and staff list, bound for Disney+ in 2027",
+      "summary": "Kojima Productions released a teaser video and visual on October 30. The hand-drawn series is set in North America right after Sam reconnects the continent through the Chiral Network, following a girl who cut off ties with the world; its tagline is \"My mom became a crater.\" Takayuki Sano directs at E&H production, Tow Ubukata oversees scripts, and Ilya Kuvshinov did the original character designs.",
+      "whyItMatters": "For cyberpunk and sci-fi fans, a spoiler-free pick: a new story that stands apart from the games' plot, with a named creative team and a Disney+ slot in 2027.",
+      "category": "Sci-Fi",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Death Stranding Isolations Anime Reveals Teaser Trailer, More Staff (Anime News Network)",
+          "url": "https://www.animenewsnetwork.com/news/2026-10-30/death-stranding-isolations-anime-reveals-teaser-trailer-more-staff/.243353"
+        }
+      ]
+    },
+    {
+      "headline": "Murciélago's teaser trailer reveals its three lead voices ahead of a January 2027 premiere",
+      "summary": "Hitomi Ueda plays Kuroko Koumori, a former death-row inmate recruited to work as a state-sanctioned executioner, with Minori Suzuki as her watchdog and driver partner Hinako Tozakura and Sumire Uesaka as Chiyo Yanaoka. Matsuo Asami directs at Satelight and Staple Entertainment; HIDIVE streams it in the U.S., Canada, U.K., Australia and New Zealand.",
+      "whyItMatters": "A dark buddy-action pick for psychological and thriller fans, now with a cast, a January 2027 date and a streaming home.",
+      "category": "Psychological",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Murciélago TV Anime's Teaser Trailer Reveals Cast (Anime News Network)",
+          "url": "https://www.animenewsnetwork.com/news/2026-10-20/murcielago-tv-anime-teaser-trailer-reveals-cast/.243033"
+        }
+      ]
+    },
+    {
+      "headline": "Cyberpunk: Edgerunners 2's director scouted Night City with a virtual camera inside Cyberpunk 2077",
+      "summary": "Showrunner Bartosz Sztybor told GamesRadar+, as relayed by OtakuKart, that director Kai Ikarashi of Studio Trigger explored Night City in the game with a virtual camera to find real in-game locations for Season 2. Sztybor leaves place names out of his scripts and trusts the artists, whom he calls \"passionate fans.\" Season 2 premieres on Netflix on October 20, 2026.",
+      "whyItMatters": "A look at how the sequel's Night City was built, for readers who want cyberpunk anime grounded in the game's real map.",
+      "category": "Sci-Fi",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Cyberpunk: Edgerunners creator says Studio Trigger used a virtual camera (OtakuKart)",
+          "url": "https://otakukart.com/cyberpunk-edgerunners-creator-says-studio-trigger-used-a-virtual-camera-in-cyberpunk-2077-to-find-night-city-locations-for-season-2"
+        }
+      ]
+    },
+    {
+      "headline": "Charisma TV anime sets a January 7 debut, with a short series starting November 4",
+      "summary": "The main TV anime airs Thursdays at 11:56 p.m. from January 7 on TBS and 27 affiliate channels, while a separate short series starts November 4 on Wednesdays. It follows 2D characters who embody \"charisma,\" divinely gifted elemental traits, living together in a share house. Jōji Furuta directs at Pierrot Films, with Shū Matsubara overseeing and writing scripts.",
+      "whyItMatters": "A quirky share-house premise with a firm broadcast date and a short series to sample first.",
+      "category": "This Month",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Charisma TV Anime Reveals January 7 Debut in Teaser Video (Anime News Network)",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-01/charisma-tv-anime-reveals-january-7-debut-in-teaser-video/.243413"
+        }
+      ]
+    },
+    {
+      "headline": "Blobtopia, Shonen Jump+'s \"Hero vs. Society Life\" comedy, will end in three chapters",
+      "summary": "Jun Kirarazaka announced that the series ends in three more chapters, with the November 6 chapter being a side story. Per MANGA Plus, a former hero who failed to defeat the Demon King shuts himself away as the world floods with \"blobs.\" It launched March 13 and its second volume shipped September 4.",
+      "whyItMatters": "A short run reaching its finish: a finish line for readers who want to catch up on a compact series.",
+      "category": "Manga",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Jun Kirarazaka's Blobtopia Manga Ends in 3 Chapters (Anime News Network)",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-01/jun-kirarazaka-blobtopia-manga-ends-in-3-chapters/.243401"
+        }
+      ]
+    },
+    {
+      "headline": "Hiroshi Fukuda, creator of Rock is a Lady's Modesty, launches a new mystery manga on November 30",
+      "summary": "Koko wa Kagari no Territory begins in Nihonbungeisha's Comic Heaven on November 30, with the tagline \"The biggest mystery for me now is the girl who .... me.\" It is described as a story of identity and mystery. Fukuda's previous series began in Young Animal in October 2022 and has been on hiatus since July 2025.",
+      "whyItMatters": "A new series from an established creator lands on a fixed date, so there's a clear starting point.",
+      "category": "Manga",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Rock is a Lady's Modesty's Hiroshi Fukuda Launches New Manga (Anime News Network)",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-01/rock-is-a-lady-modesty-hiroshi-fukuda-launches-new-manga/.243399"
+        }
+      ]
+    }
+  ]
+}
