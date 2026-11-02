@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-02",
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T16:50:51Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天是金钱与基础设施日：Anthropic 的数据迎来新一轮审视，一家 SaaS 厂商披露入侵，而电网之谜原来是电池们同时看了表。",
+  "stories": [
+    {
+      "headline": "Anthropic 修订版 S-1：三季度营收 170 亿美元，增速放缓，算力承诺达 8950 亿美元",
+      "summary": "CNBC 报道，Anthropic 更新后的文件显示三季度营收约 170 亿美元，前九个月营收 332.4 亿美元，九个月净亏损 1040 亿美元，主要源于可转换票据和衍生品的公允价值变动。",
+      "whyItMatters": "三季度增速约 47%，低于二季度的 144% 和一季度的 132%；采购和租赁承诺约 8954 亿美元，几乎全部用于算力。",
+      "category": "商业",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "CNBC: Anthropic reports $17B in Q3 revenue in revised S-1",
+          "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+        }
+      ]
+    },
+    {
+      "headline": "Trigger.dev 称攻击者访问了客户环境变量",
+      "summary": "Trigger.dev 在 11 月 1 日的文章中称，攻击者利用一个现已封堵的漏洞，未经授权访问了部分组织的环境变量。",
+      "whyItMatters": "文章未说明受影响的组织数量或变量类型；受影响账户的所有者已收到缓解步骤邮件。",
+      "category": "技术",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Trigger.dev: security incident, November 2026",
+          "url": "https://trigger.dev/blog/security-incident-nov-2026"
+        }
+      ]
+    },
+    {
+      "headline": "电网每 60 秒频率波动之谜：源自电池储能系统",
+      "summary": "由于利希研究中心牵头的研究团队在《自然·能源》上报告，大型电池每分钟开始时检查荷电状态产生用电尖峰，导致规律的一分钟频率下降。",
+      "whyItMatters": "这些尖峰会增加水轮机磨损；爱尔兰一分钟信号幅度在 2016 至 2021 年间增至四倍；建议的解决办法是将检查时间随机化。",
+      "category": "观点",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Forschungszentrum Jülich: Mystery of 60-second fluctuations in power grids solved",
+          "url": "https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved"
+        }
+      ]
+    },
+    {
+      "headline": "实验性图像格式 Nibnib 每字节解码两个 RGB565 像素，面向小型微控制器",
+      "summary": "该仓库描述了一种 4 位每像素格式：每个字节索引含 256 项增量的调色板，为 RP2350 上的 DVI 输出而设计，每像素约有 6 个周期。",
+      "whyItMatters": "README 未给出基准数据，作者称这是一种基础可用的技术，不适合归档。",
+      "category": "技术",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "raphlinus/nibnib on GitHub",
+          "url": "https://github.com/raphlinus/nibnib"
+        }
+      ]
+    }
+  ]
+}

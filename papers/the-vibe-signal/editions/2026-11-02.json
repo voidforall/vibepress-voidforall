@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-02",
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T16:50:51Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A money-and-infrastructure day: Anthropic's numbers get a fresh look, a SaaS vendor discloses a breach, and a grid mystery turns out to be batteries all checking the clock at once.",
+  "stories": [
+    {
+      "headline": "Anthropic's amended S-1 shows $17B in Q3 revenue, growth slowing, and $895B in compute commitments",
+      "summary": "CNBC reports Anthropic's updated filing puts Q3 revenue near $17B and nine-month revenue at $33.24B, with a $104B nine-month net loss mostly from fair-value changes on convertible notes and derivatives.",
+      "whyItMatters": "Quarterly growth was about 47% in Q3, down from 144% in Q2 and 132% in Q1, against roughly $895.4B in purchase and lease commitments, substantially all for compute.",
+      "category": "Business",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "CNBC: Anthropic reports $17B in Q3 revenue in revised S-1",
+          "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+        }
+      ]
+    },
+    {
+      "headline": "Trigger.dev says an attacker accessed customer environment variables",
+      "summary": "In a post dated November 1, Trigger.dev says an attacker used an exploit, now blocked, to gain unauthorized access to environment variables for a subset of organizations.",
+      "whyItMatters": "The post does not say how many organizations or which variables were affected; owners of affected accounts were emailed mitigation steps.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Trigger.dev: security incident, November 2026",
+          "url": "https://trigger.dev/blog/security-incident-nov-2026"
+        }
+      ]
+    },
+    {
+      "headline": "Mystery of the 60-second power-grid frequency dips traced to battery storage systems",
+      "summary": "Jülich-led researchers report in Nature Energy that large batteries checking their state of charge at the start of every minute create consumption spikes behind the regular one-minute dips.",
+      "whyItMatters": "The spikes can add wear to hydro turbines, and in Ireland the one-minute signal's amplitude quadrupled between 2016 and 2021; the proposed fix is to randomize the checks.",
+      "category": "Ideas",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Forschungszentrum Jülich: Mystery of 60-second fluctuations in power grids solved",
+          "url": "https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved"
+        }
+      ]
+    },
+    {
+      "headline": "Nibnib, an experimental image format, decodes two RGB565 pixels per byte for tiny microcontrollers",
+      "summary": "Raph Levien's repository describes a 4-bits-per-pixel format where each byte indexes a 256-entry palette of deltas, built for DVI output on an RP2350 with about 6 cycles per pixel.",
+      "whyItMatters": "The README gives no benchmark numbers, and the author calls it a basic, working technique not meant for archiving.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "raphlinus/nibnib on GitHub",
+          "url": "https://github.com/raphlinus/nibnib"
+        }
+      ]
+    }
+  ]
+}

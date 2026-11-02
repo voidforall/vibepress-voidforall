@@ -1,0 +1,129 @@
+{
+  "id": "2026-11-02",
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T16:50:51Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "周一市场：中概股和 Alphabet 反弹，黄金自一年低点回升，第二起交易所黑客事件考验加密市场。内容基于所链接来源的标题与摘要，细节请点击原文。以上不构成投资建议。",
+  "stories": [
+    {
+      "headline": "阿里巴巴、京东和拼多多周一上涨，此前中国股市经历了糟糕的十月（Benzinga）",
+      "summary": "Benzinga 报道称，阿里巴巴、京东和拼多多股价周一上涨，此前中国股市在十月表现疲弱。",
+      "whyItMatters": "自选股阿里巴巴随上月走弱后美股上市中概股的普遍反弹而上涨。",
+      "category": "市场",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Alibaba, JD.com, PDD Stocks Climb Monday After Brutal October for Chinese Stocks: What’s Going On? - Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOa3p5djVyTTdvNmFWcEZJQzVlRzB6OTh6QU81cldrWHBGSy1FWlg4andxZUI1cjBpajVEMS1Yb0JmT0dGQ3cyMXBUZU9Ib0txbWI2aXY4NERIR0dXMldpZzJfb1ZabGdDd3RjdDF3alhWWlBlWnZYeEdZWXJLWm1WbmZLcFBoaEZ1LVRBS3loM09KRG5uVWJxY2xpVHUza2JyWGNrLU9kTW50OTVka2I5MUl2aklYLTFhYW5LeGk5TlNMQ0xXTUlUb2pZN1lUV0o3SE1PRXhpOVEzUGFlU1ZZZ0FzVVJYMnVibnc?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "路透：油价走软、美国中期选举临近，黄金自一年低点反弹逾1%",
+      "summary": "路透社报道，现货黄金自一年低点上涨逾1%，受油价走软支撑，市场关注美国中期选举。",
+      "whyItMatters": "此次反弹发生在一年来的最低金价附近。",
+      "category": "大宗商品",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Gold rises over 1% from one-year low on softer oil prices; US midterms in focus - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOXFkdElkaE5fVGZ6eUVZUFZnZjNuaUFoM2pPZ1ZJeEY4bmN0Wm9zSTRwLWpHcjNjLWRLRklsOV95a21mWjZWckhUam5qTVZVUzVDdWEwQXVOVWlpaHpCMktPLU41TGNkZjI3MFM1azNvSEtUai1pUGFpNi1mZFhISlB3TXFUSWtseGlhYmRISUpuWXdlVU5mLTJPRQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "巴西 Mercado Bitcoin 在 10 条链上被盗约 4000 万美元后暂停提现，称将自行承担损失",
+      "summary": "CoinDesk 报道，Mercado Bitcoin 在约 4000 万美元于 10 条区块链上被转走后暂停提现；彭博社报道该交易所表示将承担这 4000 万美元的损失。",
+      "whyItMatters": "继币安之后一周内又一家交易所遭黑客攻击，托管安全再次受到关注。",
+      "category": "加密货币",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcENWT1BWRnVFLTdzMDduUm5SbWM4QkI0WkZXSi0tcFhfOVFaUkVwYlFhaVlUSjNrUXc0U2h2cUtXV1d4LU5mTE9IUmk3OU02dVJueHNldWxFUUdoajJ3cWxaZHJxQU53ZmZSQlhaV3NJcnpkSHJVb25jNDlvc1ZET0tSNmgxbXV3bXFIel9Iem1HVlhEUzNfRXh3cmJnelZ5Q0RVWmVadGpyMlo2VFRiZEI0NkxnLXFnaU9acHl4WkZsMDE0Yk05bTM0RXI?oc=5"
+        },
+        {
+          "title": "Mercado Bitcoin Says It Will Absorb $40 Million Loss From Hack - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZEFEZlhWLURyQ0pldFJJVVdzUjZ4ZV9RZE5ERlNJcjZoRjEyWTZNN2NVSmtDVkRmal81ejRNQ1pWLWFHNHAwQ3NkYmJ5bmViM0pXM3dOTHQ5SkJWRWgtUUV6X2xMdVZha1E2WWdpdlU0QUJNckI1SHRxMGlVUHZFZjMwWDZSby1reEpiVG5sOF91RDRJUHpvVmR1RWlEQnVZdmxONU50UVFLaV92RWVRMlhn?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "币安被黑后比特币小幅上涨而 Coinbase 持续下跌；巴伦周刊探讨加密货币为何无视该事件",
+      "summary": "投资者商业日报报道，币安被黑后比特币小幅走高，而 Coinbase 股价继续下跌。巴伦周刊则发文探讨比特币、XRP 等为何对 60 亿美元黑客事件反应平淡。",
+      "whyItMatters": "目前现货价格对此次黑客事件的反应比与交易所相关的股票 Coinbase 更为平静。",
+      "category": "加密货币",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Edges Up After Binance Hack, But Coinbase Keeps Falling - Investor's Business Daily",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdjMyZURpT04xQmdZZllyUUtNTXl5cENwb3pCUlFIbXBBMFV5VTVKVk51OEk5aExqb1lUZWpxNzRGTklYTk9Nc2ZCRzAtZ3h3S2tCMHg4dURpN1gzZDJkYjFVSXFiejBSclBzS3FDYlVDb3pNdzZOVlR2aXJSYkJVcG9TWFdCcms2TlFVdA?oc=5"
+        },
+        {
+          "title": "Why Bitcoin, XRP, Cryptos Are Shrugging Off the $6 Billion Binance Hack - Barron's",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcE5kSkdFZUpEdzNfZk1zRWpSM3lVcVpyc0k5RWNuMi14YV9Pa181Zi1oUHJKNkF4R2o1dDZjektCTDEzWHlraTNPTjJDZDZJbTEzTS1hNXdmRF96ZFNGZW95VDlYZi1lcG0zMEtsR2Q5TTdYN0FqNnlpZGs2OWNVRTg1dXM2alJkX0V4Y1pDTzA4UQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Alphabet 周一股价上涨，晨星此前称上一次下跌为该股历史上最糟糕的一天",
+      "summary": "Investing.com 周一发文询问“Alphabet 股价今天为何上涨”；晨星市场简报称此前的下跌是 Alphabet 历史上最糟糕的一天，并指出 AI 交易出现压力迹象。",
+      "whyItMatters": "在此前创纪录的单日跌幅之后，Alphabet 周一走高。",
+      "category": "市场",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Why is Alphabet stock climbing today? - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVkJZTU1FTUlKUl9HQVJIbE1zWG1KclE3czFITHdEZE5Id2pnYlVtbnJFYlIwMGxBVG8wRXJBSW9TNl9TaDFZRFJNYk1QRjE0dUF1QXNQTndoVDdZSk00cUdGd1ljOHJTdzd3RUJvZmNKTTFuNmprWUQ2OUxmNWFRUGRSSUc4RlFwTXd4ZGRFMHBvOXA2bHJRbldVQjJJSVU?oc=5"
+        },
+        {
+          "title": "Markets Brief: Alphabet Stock’s Worst Day in History, Signs of Strain Across the AI Trade - Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRjZmc2JYckVQeTFGdHRENWhQS1hkSFFqdXBGVUk1T3ZsdXRyTGEzYk1LWnZkSDI2NDZiX08tZVJRZG1tU3UxNVN6d3R5eF9OMWJCUzJMeGNEWmMtSUs3YTAtVzJvbHRrelFpTXNZdFFsUW9DdjVxY1g2aEY3cUtKVWg0VnZwd004TGZKUkVoa0ZYX0U4VVhVRVdMUnY2SzBiZ1N2cm13OHozRUVkaU9YeGpR?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Citizens 重申对 Rocket Lab 的评级，理由是 Neutron 推迟",
+      "summary": "Investing.com 报道，Citizens 重申了对 Rocket Lab 股票的评级，并提到 Neutron 火箭的推迟。",
+      "whyItMatters": "此前报道的 Neutron 推迟至 2027 年，仍在影响分析师对 Rocket Lab 的评论。",
+      "category": "公司",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Citizens reiterates Rocket Lab stock rating citing Neutron delay - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaEtLTG81S0Fteld2UEQ0VHVPSFJ2Y2tEc2ItTFU4azJWdDNrSUJIVVJZZW1UaVRHc25XelJhdG8xOGVNdFI2SnhFUDRwTGJxbGpyaXhYczNlcmlQYWtXOTJlZDJ4ZGppLVdobWRXamtEOU5vZTJBTGU4OG9aa1JWNEQtRlVpbms5V3dwczBkMWo3NVZSOENmaHNLMWJRcElGMW56RDdESUt2UEJObDBVeTRKeXdNcXpwdTdySmtOWWNMQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Evercore ISI 在 Duolingo 三季报临近之际重申评级，理由是用户增长",
+      "summary": "Investing.com 报道，Evercore ISI 重申了对 Duolingo 的评级，并指出用户增长。GuruFocus 经雅虎财经将 Duolingo 2026 年第三季度财报列为值得关注的财报。",
+      "whyItMatters": "Duolingo 即将公布三季报，分析师评论集中于用户增长。",
+      "category": "财报",
+      "importance": 7,
+      "sourceLinks": [
+        {
+          "title": "Evercore ISI reiterates Duolingo stock rating on user growth - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeUh0Sk1fc3B3ZV9UcVpPMGE3OXREUmc2N3RNbGZ2N3ItaVFETWFvVy14LUFwZzBibmFXVVRaQ1pkcTYyWjFlV3E5S1hGdUludGtWcVRZRGdwZXRBbVAyLW1pM2oyTHZfVjdfZERoQVlJNWpjZk9rakhZS1k4RmFzWUZmcG1BcFEtTGoxVmpTX3ItTDd0NFloZWFYUkpFeXdMV1pSa2VQMy1ZUHZITzRTSm9Cb0JTSTdjZ2prag?oc=5"
+        },
+        {
+          "title": "Earnings To Watch: Duolingo Inc (DUOL) Q3 2026 -- GF Value Sees 250% Upside - GuruFocus",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc0dQalJtMU90TnJfdm45UVpha0tEczRfeklzSFZJN1BnaFA5M0pPa3RrWmJlUHlldkRkNkJMeDVUVDJuRUw4RWpleVhVYWVfY09MMDZYcVQ1T0p2ZXJfWEFIYVhEQmtXNENrOTByOENpYm5zMjgzOWZXN3BhTHZPNC1DdW55VnF3N2tMM0ZLM2UyU1Q1QTU5b3VPQUZ2THdxNUJCaTFZMzJyY1U?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "晨星：Kinross 财报显示，金价走强抵消了产量下降和单位成本上升",
+      "summary": "晨星对 Kinross 业绩的点评称，更强的金价足以弥补产量下降和单位成本上升。",
+      "whyItMatters": "这家黄金矿企的季度业绩显示，较高的平均金价抵消了较弱的运营指标。",
+      "category": "财报",
+      "importance": 8,
+      "sourceLinks": [
+        {
+          "title": "Kinross Earnings: Stronger Gold Price More Than Compensates for Lower Volumes and Higher Unit Costs - Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMW8yN1hqV29JWHRpV0ZWbzRqc1l6cWhmNEdjaG9RVmlTbm51emNhZ1RjLUNNcFVkRldveHNQM3BnNjhnWjRrVDc1cndVZklMeDVCaC1CaklxQmNYejJwTjV4V3VpMXhTVVRFMnpwSmRvRGNSbHhrRHJxVWdvMkJtT3E4cUJ4VEk5ckJoeGxaVzVzZGpKU25scDBtMUVoSHdvdEx5M3VJMWxQUk1jUmVYcjNqQjl3NW16b2xhNndyalRWUXBtZk5zVnpkRF9kVWs?oc=5"
+        }
+      ]
+    }
+  ]
+}

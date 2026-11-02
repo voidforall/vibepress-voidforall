@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-02",
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T16:50:51Z",
+  "editionTitle": "Research Radar",
+  "editorNote": "本周论文聚焦成本问题：额外推理算力何时值得、如何扩展蒸馏批评器、如何训练更稳定的推理模型。所有结论均来自 arXiv 摘要。",
+  "stories": [
+    {
+      "headline": "为已训练模型增加循环层，只有在小模型上才值得额外算力（Qwen 研究）",
+      "summary": "在 0.8B 至 9B 参数的 Qwen3 和 Qwen3.5 模型中，训练后加循环仅在 0.8B 模型上同时优于两个基线；在 4B 和 9B 上未能超过同参数量模型。",
+      "whyItMatters": "作者的结论是，事后加循环仅对参数预算固定的小模型有回报。",
+      "category": "理论",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "There Is No Free Loop: When Does Looping a Trained Model Pay for Its Inference Compute?",
+          "url": "https://arxiv.org/abs/2610.42030v1"
+        }
+      ]
+    },
+    {
+      "headline": "Zyphra 的分层注意力在 KV 缓存上构建树，实现次二次方长上下文注意力",
+      "summary": "ZHA 让查询自上而下遍历压缩键摘要树，只需对预训练模型做数十亿 token 的短 KL 蒸馏即可应用，并保持长上下文检索、推理、数学和智能体编程表现。",
+      "whyItMatters": "作者的性能模型预测在 100 万 token 以上有显著优势；这是基于模型的推测，而非实测结果。",
+      "category": "系统",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Subquadratic Attention with a Hierarchical Tree-Structured Indexer",
+          "url": "https://arxiv.org/abs/2610.42112v1"
+        }
+      ]
+    },
+    {
+      "headline": "CRoS 奖励模型对推理步骤顺序的依赖，提升域外准确率与忠实度",
+      "summary": "在不改变内容的前提下打乱推理步骤以构造因果依赖奖励；在 Reasoning Gym 上使用 Gemma-3-4B，五个未见数据集准确率为 46.8%，最强基线为 43.8%，提示承认率为 34.0%，基线为 20.2%。",
+      "whyItMatters": "它针对仅看答案的 RLVR 奖励的弱点，但结果仅来自一个 4B 模型。",
+      "category": "方法",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "CRoS: Causality Reward on Scrambled CoTs Improves Accuracy and Reasoning Faithfulness",
+          "url": "https://arxiv.org/abs/2610.42054v1"
+        }
+      ]
+    },
+    {
+      "headline": "批评器与教师联合扩展，加上步感知批评器，可稳定少步蒸馏",
+      "summary": "在分布匹配蒸馏中，较大教师搭配小型固定批评器可能降低学生质量并导致崩溃；随教师扩大批评器可避免这一问题，步感知批评器（STAC）在 ImageNet、SDXL、FLUX.2 和 Wan2.1 上进一步改进。",
+      "whyItMatters": "这为扩大 DMD 教师规模而不引发训练崩溃提供了具体方案。",
+      "category": "方法",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "A Better Critic Matters for Distribution Matching Distillation",
+          "url": "https://arxiv.org/abs/2610.42135v1"
+        }
+      ]
+    },
+    {
+      "headline": "精确的最坏情况分析给出光滑凸问题中最优且单调递减的 SGD 步长",
+      "summary": "当维度 d ≥ N+1 时，论文对 [0,1.5]^N 内任意 N 个步长给出末次迭代的精确最坏情况分析；当方差界至少为 Ω(1/√N) 时，极小极大最优步长唯一且递减。",
+      "whyItMatters": "递减的最优解排除了确定性情形中固定分形步长带来的加速。",
+      "category": "理论",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Exact Theory and Optimal Stepsizes for Stochastic Gradient Descent in Smooth Convex Minimization",
+          "url": "https://arxiv.org/abs/2610.42048v1"
+        }
+      ]
+    },
+    {
+      "headline": "随机环境可能加速强化学习的可塑性丧失，在最难设置中 TD 不稳定成为主因",
+      "summary": "在三个带可控噪声的 DeepMind Control 任务上训练 SAC，保持可塑性的方法在较难的两个任务上提升了稳健性；重置加层归一化在每个噪声水平上都不如单独重置。",
+      "whyItMatters": "作者发现在最具挑战的设置中，主要失败模式是 TD 不稳定，而非渐进的可塑性丧失。",
+      "category": "基准",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Towards Understanding the Impact of Plasticity Loss on Reinforcement Learning in Stochastic Environments",
+          "url": "https://arxiv.org/abs/2610.42100v1"
+        }
+      ]
+    }
+  ]
+}

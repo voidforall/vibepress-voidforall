@@ -1,7 +1,39 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-01T14:05:41Z",
+  "updatedAt": "2026-11-02T16:50:51Z",
   "events": [
+    {
+      "date": "2026-11-02",
+      "headline": "Trigger.dev says an attacker accessed customer environment variables",
+      "summary": "In a post dated November 1, Trigger.dev says an attacker used an exploit, now blocked, to gain unauthorized access to environment variables for a subset of organizations.",
+      "urls": [
+        "https://trigger.dev/blog/security-incident-nov-2026"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "headline": "Nibnib, an experimental image format, decodes two RGB565 pixels per byte for tiny microcontrollers",
+      "summary": "Raph Levien's repository describes a 4-bits-per-pixel format where each byte indexes a 256-entry palette of deltas, built for DVI output on an RP2350 with about 6 cycles per pixel.",
+      "urls": [
+        "https://github.com/raphlinus/nibnib"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "headline": "Mystery of the 60-second power-grid frequency dips traced to battery storage systems",
+      "summary": "Jülich-led researchers report in Nature Energy that large batteries checking their state of charge at the start of every minute create consumption spikes behind the regular one-minute dips.",
+      "urls": [
+        "https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "headline": "Anthropic's amended S-1 shows $17B in Q3 revenue, growth slowing, and $895B in compute commitments",
+      "summary": "CNBC reports Anthropic's updated filing puts Q3 revenue near $17B and nine-month revenue at $33.24B, with a $104B nine-month net loss mostly from fair-value changes on convertible notes and derivatives.",
+      "urls": [
+        "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+      ]
+    },
     {
       "date": "2026-11-01",
       "headline": "Nolan Lawson measures what 12 JavaScript framework setups cost when an agent builds the same app",
@@ -618,46 +650,6 @@
       "summary": "KillSwitch hides lies in its spec, enforces letter-count rules and plants guardrail-triggering text. The best benchmark score was 66.8 by Claude Opus 5; some models did poorly because of oversensitive safety guardrails.",
       "urls": [
         "https://blog.picheta.me/post/killswitch-lang/"
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "headline": "Llmspeed estimates how fast a local LLM will feel on a given device before you buy",
-      "summary": "The open-source site lets users browse by hardware or model and estimates speed for a short prompt on a single device. Measured figures come from community benchmarks; the rest are derived from similar setups or projected from specs.",
-      "urls": [
-        "https://llmspeed.dev/"
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "headline": "Lean 4.35 ships verified-kernel tooling, including a Claude-built kernel proven consistent",
-      "summary": "Lean v4.35.0 adds `lake check` to re-verify projects with the official kernel in a sandbox, and `--paranoid` to recheck with four more kernels. One, con-leche, is a Lean kernel proven consistent against a set-theory model, implemented by C…",
-      "urls": [
-        "https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/"
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "headline": "DeepSeek puts Search and Fetch APIs on the meter at $0.75 per 1,000 successful requests",
-      "summary": "DeepSeek's docs describe a Search API and a Fetch API, each billed at $0.75 per 1,000 requests that return usable results; failures and timeouts are free. Calls via DeepSeek Harness, Claude Code or Codex are free until billing starts on 1…",
-      "urls": [
-        "https://api-docs.deepseek.com/guides/search/"
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "headline": "A blog post argues transformers are best read as associative memory, with attention storing about 1.2 million memories",
-      "summary": "Alex Wang's post frames linear layers, MLPs and self-attention as associative-memory stores whose capacity is set by interference. It puts plain outer-product storage near d_k memories, squared-ReLU MLPs near 2,700 at d_k=64, and softmax a…",
-      "urls": [
-        "https://alexwang.ai/posts/associative-memory/"
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "headline": "A New York lawmaker announces a bill to require game ownership rather than licensing",
-      "summary": "Tom's Hardware reports that a New York representative announced a bill that would require games to be sold as owned products rather than licenses, and require publishers to keep games functional after support ends. The retrievable text gav…",
-      "urls": [
-        "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends"
       ]
     }
   ]

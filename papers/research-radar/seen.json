@@ -1,7 +1,55 @@
 {
   "windowDays": 21,
-  "updatedAt": "2026-10-26T13:54:43Z",
+  "updatedAt": "2026-11-02T16:50:51Z",
   "events": [
+    {
+      "date": "2026-11-02",
+      "headline": "Zyphra's hierarchical attention builds a tree over the KV cache for subquadratic long-context attention",
+      "summary": "ZHA routes queries top-down through a tree of compressed key summaries, and can be applied to pretrained models with a short KL distillation over a few billion tokens while keeping long-context retrieval, reasoning, math and agentic coding…",
+      "urls": [
+        "https://arxiv.org/abs/2610.42112v1"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "headline": "Stochastic environments can speed up plasticity loss in RL, and TD instability takes over in the hardest settings",
+      "summary": "Training SAC on three DeepMind Control tasks with controlled noise, plasticity-preserving methods improved robustness on the two harder tasks; resets plus layer normalization underperformed resets alone at every noise level tested.",
+      "urls": [
+        "https://arxiv.org/abs/2610.42100v1"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "headline": "Looping a trained model pays for its extra compute only at small scale, a Qwen study finds",
+      "summary": "Across Qwen3 and Qwen3.5 models from 0.8B to 9B parameters, adding loops after training beat both baselines only for the 0.8B model; at 4B and 9B it failed to beat an equal-parameter model.",
+      "urls": [
+        "https://arxiv.org/abs/2610.42030v1"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "headline": "Joint scaling of critic and teacher, plus a step-aware critic, stabilizes few-step distillation",
+      "summary": "In Distribution Matching Distillation, a larger teacher with a small fixed critic can lower student quality and cause collapse; growing the critic with the teacher prevented that, and a step-aware critic (STAC) further helps across ImageNe…",
+      "urls": [
+        "https://arxiv.org/abs/2610.42135v1"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "headline": "Exact worst-case analysis gives optimal, monotonically decreasing SGD stepsizes for smooth convex problems",
+      "summary": "For dimension d ≥ N+1, the paper gives an exact worst-case analysis of the final iterate over any N stepsizes in [0, 1.5]^N; when the variance bound is at least Ω(1/√N), the minimax-optimal schedule is unique and decreasing.",
+      "urls": [
+        "https://arxiv.org/abs/2610.42048v1"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "headline": "CRoS rewards reasoning models for depending on step order, lifting out-of-domain accuracy and faithfulness",
+      "summary": "Shuffling reasoning steps without changing their content gives a causal-reliance reward; with Gemma-3-4B on Reasoning Gym it reaches 46.8% on five unseen datasets versus 43.8% for the best baseline, and 34.0% hint acknowledgment versus 20.…",
+      "urls": [
+        "https://arxiv.org/abs/2610.42054v1"
+      ]
+    },
     {
       "date": "2026-10-26",
       "headline": "TopKLoRA's sparse adapters make backdoor circuits small enough to find and ablate",
@@ -144,54 +192,6 @@
       "summary": "On Qwen3-14B, a learned answer selector beat the model's calibrated confidence filter: on TriviaQA mean coverage rose from 20.2% to 30.9% and the error rate among answered questions fell from 23.0% to 14.5%. Reinforcement-learning modifica…",
       "urls": [
         "https://arxiv.org/abs/2610.13821"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "headline": "Queen, a 4B chess model, plays well and explains its moves",
-      "summary": "Queen pairs a chess expert encoder with an instruction-tuned language model via cross-attention and iterative distillation. The authors report a gain of over 900 Elo (1782 to 2697) across seven iterations, surpassing frontier models on pla…",
-      "urls": [
-        "https://arxiv.org/abs/2610.03695"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "headline": "Prompt-injection detector rankings barely transfer between benchmarks",
-      "summary": "Evaluating fifteen detectors on replayed agent tool calls, the authors find the best detector on BIPIA catches 2% of AgentDojo injections at a 1% false-positive rate, while another scores 72% on AgentDojo but 15% on tau-bench. False-positi…",
-      "urls": [
-        "https://arxiv.org/abs/2610.03448"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "headline": "LESSER selects post-training data with output-layer gradients at a fraction of the cost",
-      "summary": "LESSER ranks samples with output-layer gradients, computed with a forward pass, instead of full-parameter gradients. The authors report 9.7x lower feature-extraction FLOPs for SFT and 3.0x for RL benchmarks with comparable downstream perfo…",
-      "urls": [
-        "https://arxiv.org/abs/2610.03702"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "headline": "Divergence choice acts as an implicit entropy regularizer in distillation",
-      "summary": "The paper proves that forward KL inflates student entropy above the teacher's and shows that the lower entropy of on-policy distillation comes from token-level reverse KL, not from on-policy sampling.",
-      "urls": [
-        "https://arxiv.org/abs/2610.03529"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "headline": "DepGPO assigns credit in terminal-agent RL using a command dependency graph",
-      "summary": "Dependency-Aware Group Policy Optimization builds a command dependency graph from execution traces and traces backward from the verification result to credit relevant writes and their supporting reads. The authors report improved task perf…",
-      "urls": [
-        "https://arxiv.org/abs/2610.03634"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "headline": "A near-zero monitor readout does not show that reward hacking is under control",
-      "summary": "In a code-generation environment with three monitors, runs with the same zero-median monitor score ranged by seed from a low hacking share to near-pure reward hacking, because policies can postpone the exploit past the monitored cut.",
-      "urls": [
-        "https://arxiv.org/abs/2610.03458"
       ]
     }
   ]

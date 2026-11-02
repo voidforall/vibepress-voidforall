@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-11-02",
+      "date": "2026-11-02",
+      "headline": "Anthropic's amended S-1 shows $17B in Q3 revenue, growth slowing, and $895B in compute commitments",
+      "storyCount": 4
+    },
+    {
       "id": "2026-11-01",
       "date": "2026-11-01",
       "headline": "A critical Linux TCP use-after-free, CVE-2026-98432, is patched upstream but still unfixed on Ubuntu and RHEL",

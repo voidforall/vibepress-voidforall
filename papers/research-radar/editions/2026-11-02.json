@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-02",
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T16:50:51Z",
+  "editionTitle": "Research Radar",
+  "editorNote": "This week's papers lean on cost questions: when extra inference compute is worth it, how to scale a distillation critic, and how to train steadier reasoners. All claims come from the arXiv abstracts.",
+  "stories": [
+    {
+      "headline": "Looping a trained model pays for its extra compute only at small scale, a Qwen study finds",
+      "summary": "Across Qwen3 and Qwen3.5 models from 0.8B to 9B parameters, adding loops after training beat both baselines only for the 0.8B model; at 4B and 9B it failed to beat an equal-parameter model.",
+      "whyItMatters": "For post-hoc looping, the authors conclude it pays off only for small models with a fixed parameter budget.",
+      "category": "Theory",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "There Is No Free Loop: When Does Looping a Trained Model Pay for Its Inference Compute?",
+          "url": "https://arxiv.org/abs/2610.42030v1"
+        }
+      ]
+    },
+    {
+      "headline": "Zyphra's hierarchical attention builds a tree over the KV cache for subquadratic long-context attention",
+      "summary": "ZHA routes queries top-down through a tree of compressed key summaries, and can be applied to pretrained models with a short KL distillation over a few billion tokens while keeping long-context retrieval, reasoning, math and agentic coding performance.",
+      "whyItMatters": "The authors' performance model suggests large gains beyond 1M tokens of context; that is a model-based projection, not a measured result.",
+      "category": "Systems",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Subquadratic Attention with a Hierarchical Tree-Structured Indexer",
+          "url": "https://arxiv.org/abs/2610.42112v1"
+        }
+      ]
+    },
+    {
+      "headline": "CRoS rewards reasoning models for depending on step order, lifting out-of-domain accuracy and faithfulness",
+      "summary": "Shuffling reasoning steps without changing their content gives a causal-reliance reward; with Gemma-3-4B on Reasoning Gym it reaches 46.8% on five unseen datasets versus 43.8% for the best baseline, and 34.0% hint acknowledgment versus 20.2%.",
+      "whyItMatters": "It targets a weakness of answer-only RLVR rewards, though results are on one 4B model.",
+      "category": "Methods",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "CRoS: Causality Reward on Scrambled CoTs Improves Accuracy and Reasoning Faithfulness",
+          "url": "https://arxiv.org/abs/2610.42054v1"
+        }
+      ]
+    },
+    {
+      "headline": "Joint scaling of critic and teacher, plus a step-aware critic, stabilizes few-step distillation",
+      "summary": "In Distribution Matching Distillation, a larger teacher with a small fixed critic can lower student quality and cause collapse; growing the critic with the teacher prevented that, and a step-aware critic (STAC) further helps across ImageNet, SDXL, FLUX.2 and Wan2.1.",
+      "whyItMatters": "It gives a concrete recipe for scaling DMD teachers without training collapse.",
+      "category": "Methods",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "A Better Critic Matters for Distribution Matching Distillation",
+          "url": "https://arxiv.org/abs/2610.42135v1"
+        }
+      ]
+    },
+    {
+      "headline": "Exact worst-case analysis gives optimal, monotonically decreasing SGD stepsizes for smooth convex problems",
+      "summary": "For dimension d ≥ N+1, the paper gives an exact worst-case analysis of the final iterate over any N stepsizes in [0, 1.5]^N; when the variance bound is at least Ω(1/√N), the minimax-optimal schedule is unique and decreasing.",
+      "whyItMatters": "The decreasing optimum rules out acceleration from fixed fractal schedules of the kind seen in the deterministic case.",
+      "category": "Theory",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Exact Theory and Optimal Stepsizes for Stochastic Gradient Descent in Smooth Convex Minimization",
+          "url": "https://arxiv.org/abs/2610.42048v1"
+        }
+      ]
+    },
+    {
+      "headline": "Stochastic environments can speed up plasticity loss in RL, and TD instability takes over in the hardest settings",
+      "summary": "Training SAC on three DeepMind Control tasks with controlled noise, plasticity-preserving methods improved robustness on the two harder tasks; resets plus layer normalization underperformed resets alone at every noise level tested.",
+      "whyItMatters": "In the most challenging settings the authors find TD instability, not gradual plasticity loss, is the main failure mode.",
+      "category": "Benchmarks",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Towards Understanding the Impact of Plasticity Loss on Reinforcement Learning in Stochastic Environments",
+          "url": "https://arxiv.org/abs/2610.42100v1"
+        }
+      ]
+    }
+  ]
+}
