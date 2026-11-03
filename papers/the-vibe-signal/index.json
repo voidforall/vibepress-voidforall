@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-11-03",
+      "date": "2026-11-03",
+      "headline": "A 'Weight-Space Programming' post says a frontier model can read and edit network weights; a rebuttal says the framing misleads",
+      "storyCount": 6
+    },
+    {
       "id": "2026-11-02",
       "date": "2026-11-02",
       "headline": "Anthropic's amended S-1 shows $17B in Q3 revenue, growth slowing, and $895B in compute commitments",

@@ -1,0 +1,91 @@
+{
+  "id": "2026-11-03",
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T14:52:38Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天发布较少:一项有争议的模型权重编辑说法、一个奔腾时代的国际象棋思想实验,以及几份小型工具与指南。",
+  "stories": [
+    {
+      "headline": "一篇“权重空间编程”文章称前沿模型可读取并编辑网络权重;反驳文章称其表述有误导性",
+      "summary": "该文称GPT-6 Astra通过编辑约0.016%的权重(主要是消除推理循环),将Qwen3.5-0.8B在MATH-500上的得分从7.9%提高到48.1%。Honnibal回应称,Qwen结果依赖Python和练习批次而非直接读取权重,且一项游戏对比弱于摘要所暗示的程度。",
+      "whyItMatters": "它区分了已证明的内容(在一个小模型中释放已有能力的编辑)与更宽泛的主张;作者自己也表示Gemma 3 270M并未受益。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Astra can read and write weights to improve Qwen",
+          "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+        },
+        {
+          "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+          "url": "https://honnibal.dev/blog/astra-read-write-misleading"
+        }
+      ]
+    },
+    {
+      "headline": "Carlini将Stockfish移植到1996年的奔腾Pro上,估计其本可击败卡斯帕罗夫",
+      "summary": "在200 MHz、64 MB内存的奔腾Pro上,调优后的Stockfish 17移植版在每步10秒时约为3109 Elo,作者外推其在经典用时下约为3300。它以78胜5负17和击败了1996年原版Crafty。",
+      "whyItMatters": "作者将1996年以来提升的1,335 Elo中约720分归因于软件而非硬件。",
+      "category": "观点",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Could a modern chess engine on a Pentium have defeated Kasparov in 1996?",
+          "url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html"
+        }
+      ]
+    },
+    {
+      "headline": "YC F26初创公司Subvocal推出可将无声口型转为文字的眼镜",
+      "summary": "眼镜发射低功率无线电波,通过云端模型解码口型对其调制的变化,延迟通常低于500毫秒。公司正在接受500台预订,预计2027年第一季度发货。",
+      "whyItMatters": "评论者的主要顾虑是将内部语音发送到云端;创始人表示希望日后支持本地推理。",
+      "category": "科技",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Show HN: Subvocal – Talk to your computer without making noise",
+          "url": "https://news.ycombinator.com/item?id=50340088"
+        }
+      ]
+    },
+    {
+      "headline": "英伟达开源Auto Ontology,为智能体查询企业数据提供上下文层",
+      "summary": "该库采用Apache-2.0许可,可从元数据构建本体、统一指标定义,并将自然语言问题转换为面向Databricks、Postgres、Snowflake或DuckDB的SQL,通过MCP、CLI和API提供。",
+      "whyItMatters": "README提醒,若不启用可选的Vault,通过界面添加的凭据将以明文存储在Postgres中;项目目前不接受外部贡献。",
+      "category": "科技",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "NVIDIA/auto-ontology",
+          "url": "https://github.com/NVIDIA/auto-ontology"
+        }
+      ]
+    },
+    {
+      "headline": "ERICI发起非商业项目,为RISC-V工业计算机构建开放软件栈",
+      "summary": "该倡议由德国拉文斯堡的Yuri Zaporozhets发起,定义从固件到操作系统的接口,并将能在RVA23硬件上启动该软件栈的设备称为“ERICI兼容”。其称不销售产品、不收会员费。",
+      "whyItMatters": "该页面称RVA23芯片已经出现,但面向工业RISC-V设备的开放、分层软件尚不存在;页面未说明资金来源。",
+      "category": "商业",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "European RISC-V Industrial Computing Initiative",
+          "url": "https://erici.eu"
+        }
+      ]
+    },
+    {
+      "headline": "NIST发布面向个体经营者的通俗网络安全指南",
+      "summary": "11月2日发布的第50号白皮书从CSF 2.0中挑选了定期备份、软件更新、更改默认密码等措施,附有工作表和三个个体经营者示例。它更新了NISTIR 7621。",
+      "whyItMatters": "没有雇员的个体企业获得了一份面向零安全基础读者的指南。",
+      "category": "商业",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+          "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you"
+        }
+      ]
+    }
+  ]
+}
