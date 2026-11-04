@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-04",
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T15:07:09Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "多邻国财报和苹果在中国测试阿里巴巴通义千问是今日公司要闻;黄金和比特币则受利率与选举夜政治影响。数据来自下方链接的文件和文章。",
+  "stories": [
+    {
+      "headline": "多邻国第三季度日活用户增长29%至6,490万,全年预订额指引为12.96亿美元",
+      "summary": "多邻国第三季度财报显示,预订额3.161亿美元(增长12%),营收3.090亿美元(增长14%),净利润2,720万美元,调整后EBITDA为7,870万美元,利润率25.5%。付费订阅用户达1,310万;第四季度指引为预订额3.82亿美元、营收3.22亿美元。",
+      "whyItMatters": "日活用户增速加快,同时调整后EBITDA利润率由去年同期的29.5%降至25.5%,这正是公司此前所述的取舍。",
+      "category": "财报",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Duolingo Q3 2026 shareholder letter (SEC 8-K)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001562088/000162828026069474/q3fy26duolingo9-30x26share.htm"
+        }
+      ]
+    },
+    {
+      "headline": "苹果中国版通义千问驱动的Apple Intelligence今日进入开发者测试,12月更广泛发布",
+      "summary": "阿里巴巴表示,千问集成将自11月4日起进入最新iOS开发者测试版,并随iOS 27.3于12月面向中国用户推出。据CGTN报道,功能涵盖Siri、写作工具和视觉智能,用户可自行选择是否启用,阿里巴巴不会将用户请求或回复用于模型训练。",
+      "whyItMatters": "上周宣布的测试日期已到,阿里巴巴与苹果的合作由公告进入实际测试阶段。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Alibaba's Qwen to integrate into Apple Intelligence (CGTN)",
+          "url": "https://news.cgtn.com/news/2026-10-31/Alibaba-s-Qwen-to-integrate-into-Apple-Intelligence-in-landmark-deal-1RHilSeJsbK/p.html"
+        }
+      ]
+    },
+    {
+      "headline": "周二金价收于约3,924美元附近,强劲就业与工厂数据推高美债收益率,Kitco报道",
+      "summary": "Kitco晚间报道称现货黄金约为3,924.10美元,下跌0.55%;9月职位空缺752.3万个、工厂订单增长1.8%,将10年期美债收益率推至约4.95%。Kitco列出阻力位3,975和4,084美元、支撑位3,871和3,797美元,并指出美联储将利率维持在3.75%–4.00%,有两位官员倾向加息。",
+      "whyItMatters": "现货黄金(关注列表持仓)当前受加息预期而非避险需求驱动;Kitco的技术位仅代表一家机构的观点。",
+      "category": "大宗商品",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Gold, silver decline as strong U.S. jobs data lifts yields on election day (Kitco PM Report)",
+          "url": "https://www.kitco.com/news/article/2026-11-03/gold-silver-decline-strong-us-jobs-data-lifts-yields-election-day-kitco-pm"
+        }
+      ]
+    },
+    {
+      "headline": "早期开票显示民主党将控制国会,比特币跌破7.6万美元后回升至7.7万美元上方",
+      "summary": "雅虎财经报道,比特币隔夜跌至约7.5万美元,周三上午回升至7.7万美元上方。文章将下跌主要归因于科技股抛售——纳斯达克100指数自11月2日起进入调整区间——并指出CLARITY法案自9月参议院程序性投票失败后一直停滞。",
+      "whyItMatters": "文章预计民主党多数将为加密立法带来不同的委员会优先事项,可能延迟或修改市场结构法案;其引用的开票结果为早期数据,并非最终结果。",
+      "category": "加密货币",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Price Wobbles as Democrats Take Congress (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-wobbles-democrats-congress-082415022.html"
+        }
+      ]
+    }
+  ]
+}

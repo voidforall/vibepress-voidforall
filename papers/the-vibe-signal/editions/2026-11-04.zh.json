@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-04",
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T15:07:09Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "模型发布较少,但与信任相关的消息不少:一款桌面应用改动了用户的智能体配置,一项聊天政策细读后含义不同,还有一个标准机构投了反对票。每条均依据所附来源,其中数条仅有单方说法。",
+  "stories": [
+    {
+      "headline": "C++26在ISO投票中未获通过,因“契约”特性成为首个被否决的国际标准草案",
+      "summary": "WG21成员Andreas Fertig写道,ISO各国成员机构于10月23日对C++26草案投出“不批准”,未达到所需的三分之二多数,主要反对理由是“契约”特性尚未成熟。ISO的选项包括提交修订草案、发布技术规范或取消项目;WG21将于11月16日开会。",
+      "whyItMatters": "下一代C++标准陷入僵局;作者称,任何出路都需要WG21多数支持,而放弃“契约”的方案不太可能获得多数。投票数未公布,文中观点仅代表作者本人。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "C++26 Disapproved (Andreas Fertig)",
+          "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/"
+        }
+      ]
+    },
+    {
+      "headline": "GitHub议题称Postman桌面版悄悄安装了Codex和Claude Code插件,并自行批准其钩子",
+      "summary": "一位使用Postman桌面版12.33.4的用户报告称,日志显示10月24日安装了智能体插件,Codex和Claude Code的设置被修改,启动钩子还会要求智能体加载Postman技能。报告并未声称数据外泄,也未在干净的机器上验证复现步骤。",
+      "whyItMatters": "帖子中另有用户描述了类似现象,可见的讨论中没有Postman的回应。目前这只是单一用户的报告。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Postman issue #14370",
+          "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
+        }
+      ]
+    },
+    {
+      "headline": "IEEE Spectrum:PHP2Shell漏洞自2024年起一直未修复,直到AI辅助审计将其变为代码执行",
+      "summary": "2024年报告给PHP基金会的一个内存不足错误,被Calif在OpenAI赞助的审计中于约两周内证明可导致任意代码执行。安全研究员Matt Suiche认为数十年的遗留代码正在暴露:“现在是偿还技术债务的时候了。”",
+      "whyItMatters": "文章称发现漏洞的速度如今快于修复:四名工程师花了两个月才完成补丁,Matthew Green预计只有出现更严重事件后才会有资金投入。",
+      "category": "科技",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "AI is forcing us to pay off 40 years of technical debt (IEEE Spectrum)",
+          "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+        }
+      ]
+    },
+    {
+      "headline": "Tell HN帖子称Gemini会用已保存对话训练,付费订阅用户也不例外,部分对话保存三年",
+      "summary": "发帖者称,在个人版Google AI订阅中,避免被用于训练的办法只有关闭聊天记录(对话会在72小时后删除)或使用临时对话。他还称,谷歌表示经人工审核的对话与账号脱钩后最多保存三年。",
+      "whyItMatters": "评论者对此是否新鲜意见不一:有人指出Gemini企业版明确表示对话不用于改进模型,也有人指出谷歌未界定被审核的“子集”。这些说法是发帖者对谷歌条款的解读。",
+      "category": "商业",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Tell HN: Gemini trains on chat history, even for subscribers",
+          "url": "https://news.ycombinator.com/item?id=50363461"
+        }
+      ]
+    },
+    {
+      "headline": "一篇文章称英伟达RTX Spark笔记本在Linux上的本地推理速度仅为Windows的21–31%,归因于加密的功耗表",
+      "summary": "MindStudio的亲测报告称,GPT-OSS-120B在原生Linux上为13.9词元/秒,Windows上为65.4词元/秒,GPU频率停留在约780 MHz,而Windows约为2.2 GHz。作者将其归因于仅限Windows的控制器接收加密功耗表。",
+      "whyItMatters": "加密成因仅依据作者自己的测试,例如在Windows中禁用该控制器后速度由约83降至31词元/秒;文中未引用独立佐证。",
+      "category": "科技",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Linux on Nvidia RTX Spark laptop (MindStudio)",
+          "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop"
+        }
+      ]
+    },
+    {
+      "headline": "Simon Willison发现笔记本上的270亿参数Qwen能在四次测试中的三次里,从原始网络权重辨认出游戏",
+      "summary": "为检验“权重空间编程”的说法,Willison把四个小型游戏网络交给Qwen 3.8 27B,它以88%的把握认出打砖块、75%认出乒乓、72%认出吃豆人式游戏,每次耗时46至60分钟,但没认出Freeway。Kimi K3.1 Pro约9.5分钟认出打砖块。",
+      "whyItMatters": "本地模型能缓慢而不稳定地完成论文所述任务的某种版本;Willison认为外界评论过度解读,他“还不准备宣布源代码时代已经结束”。",
+      "category": "观点",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Qwen 3.8 27B on my laptop can interpret model weights, too (Simon Willison)",
+          "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+        }
+      ]
+    }
+  ]
+}

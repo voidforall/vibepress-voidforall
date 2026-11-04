@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-04",
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T15:07:09Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A quiet day for model launches and a busy one for trust: a desktop app that edits your agent configs, a chat policy that reads differently once you read it, and a standards body that said no. Each item rests on the linked source, and several rest on a single account.",
+  "stories": [
+    {
+      "headline": "C++26 fails its ISO ballot, the first Draft International Standard to be disapproved, over Contracts",
+      "summary": "Andreas Fertig, a WG21 member, writes that ISO national bodies voted 'Disapproved' on the C++26 draft on Oct. 23, short of the required two-thirds, mainly objecting that Contracts is not ready. ISO's options include a revised draft, a Technical Specification or cancelling the project; WG21 meets Nov. 16.",
+      "whyItMatters": "The next C++ standard is stalled, and any path forward needs a WG21 majority that the author says is unlikely to form around dropping Contracts. Vote counts were not published, and the author's view is his own.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "C++26 Disapproved (Andreas Fertig)",
+          "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/"
+        }
+      ]
+    },
+    {
+      "headline": "A GitHub issue says Postman Desktop silently installed Codex and Claude Code plugins and approved its own hook",
+      "summary": "A user on Postman Desktop 12.33.4 reports that logs show agent plugins installed on Oct. 24, with changes to Codex and Claude Code settings and a startup hook telling the agent to load a Postman skill. The report does not claim data exfiltration, and the reproduction on a clean machine was not verified.",
+      "whyItMatters": "Other users in the thread describe similar behavior, and the visible thread contains no response from Postman. The account is one user's report so far.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Postman issue #14370",
+          "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
+        }
+      ]
+    },
+    {
+      "headline": "IEEE Spectrum: the PHP2Shell bug sat unfixed since 2024 until AI-assisted auditing turned it into code execution",
+      "summary": "An out-of-memory bug reported to the PHP Foundation in 2024 was shown by Calif, in an OpenAI-sponsored audit, to allow arbitrary code execution within about two weeks. Security researcher Matt Suiche argues that decades of legacy code are now being exposed: 'Now it is time for the technical debt to be paid off.'",
+      "whyItMatters": "The article says finding bugs is now faster than fixing them: four engineers spent two months on the patch, and Matthew Green expects funding only after a much worse incident.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "AI is forcing us to pay off 40 years of technical debt (IEEE Spectrum)",
+          "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+        }
+      ]
+    },
+    {
+      "headline": "A Tell HN post says Gemini trains on saved chats even for paying subscribers, and some chats are kept for three years",
+      "summary": "The poster says that on personal Google AI subscriptions the only ways to avoid training are turning chat history off, which deletes chats after 72 hours, or using temporary chats. They add that Google says human-reviewed chats are kept for up to three years, disconnected from the account.",
+      "whyItMatters": "Commenters disagreed on how new this is: one noted that Gemini Enterprise states chats are not used to improve models, and another that Google does not define the reviewed 'subset'. The claims are the poster's reading of Google's terms.",
+      "category": "Business",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Tell HN: Gemini trains on chat history, even for subscribers",
+          "url": "https://news.ycombinator.com/item?id=50363461"
+        }
+      ]
+    },
+    {
+      "headline": "An article says Nvidia's RTX Spark laptops run local inference 21–31% as fast on Linux as on Windows, blaming an encrypted power table",
+      "summary": "MindStudio's first-hand test reports GPT-OSS-120B at 13.9 tokens/s on native Linux versus 65.4 on Windows, with the GPU clock stuck near 780 MHz against about 2.2 GHz. The author attributes this to a Windows-only controller that receives an encrypted power table.",
+      "whyItMatters": "The encryption cause rests on the author's own tests, such as a drop from about 83 to 31 tokens/s with the controller disabled in Windows; no independent confirmation is cited.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Linux on Nvidia RTX Spark laptop (MindStudio)",
+          "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop"
+        }
+      ]
+    },
+    {
+      "headline": "Simon Willison finds a 27B Qwen on his laptop can identify a game from raw network weights in three of four tests",
+      "summary": "Testing the 'Weight-Space Programming' claim, Willison gave four small game-playing networks to Qwen 3.8 27B, which named Breakout at 88% confidence, Pong at 75% and a Pac-Man-style game at 72%, taking 46 to 60 minutes each, and missed Freeway. Kimi K3.1 Pro identified Breakout in about 9.5 minutes.",
+      "whyItMatters": "A local model can do a version of what the paper described, slowly and unevenly; Willison says the wider commentary overreaches and he is 'not ready to declare that the age of source code is over'.",
+      "category": "Ideas",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Qwen 3.8 27B on my laptop can interpret model weights, too (Simon Willison)",
+          "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+        }
+      ]
+    }
+  ]
+}

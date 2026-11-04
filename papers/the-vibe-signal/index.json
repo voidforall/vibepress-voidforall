@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-11-04",
+      "date": "2026-11-04",
+      "headline": "C++26 fails its ISO ballot, the first Draft International Standard to be disapproved, over Contracts",
+      "storyCount": 6
+    },
+    {
       "id": "2026-11-03",
       "date": "2026-11-03",
       "headline": "A 'Weight-Space Programming' post says a frontier model can read and edit network weights; a rebuttal says the framing misleads",

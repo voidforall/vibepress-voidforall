@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-03T14:52:39Z",
+  "updatedAt": "2026-11-04T15:07:12Z",
   "events": [
+    {
+      "date": "2026-11-04",
+      "headline": "Simon Willison finds a 27B Qwen on his laptop can identify a game from raw network weights in three of four tests",
+      "summary": "Testing the 'Weight-Space Programming' claim, Willison gave four small game-playing networks to Qwen 3.8 27B, which named Breakout at 88% confidence, Pong at 75% and a Pac-Man-style game at 72%, taking 46 to 60 minutes each, and missed Fre…",
+      "urls": [
+        "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "headline": "IEEE Spectrum: the PHP2Shell bug sat unfixed since 2024 until AI-assisted auditing turned it into code execution",
+      "summary": "An out-of-memory bug reported to the PHP Foundation in 2024 was shown by Calif, in an OpenAI-sponsored audit, to allow arbitrary code execution within about two weeks. Security researcher Matt Suiche argues that decades of legacy code are…",
+      "urls": [
+        "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "headline": "C++26 fails its ISO ballot, the first Draft International Standard to be disapproved, over Contracts",
+      "summary": "Andreas Fertig, a WG21 member, writes that ISO national bodies voted 'Disapproved' on the C++26 draft on Oct. 23, short of the required two-thirds, mainly objecting that Contracts is not ready. ISO's options include a revised draft, a Tech…",
+      "urls": [
+        "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "headline": "An article says Nvidia's RTX Spark laptops run local inference 21–31% as fast on Linux as on Windows, blaming an encrypted power table",
+      "summary": "MindStudio's first-hand test reports GPT-OSS-120B at 13.9 tokens/s on native Linux versus 65.4 on Windows, with the GPU clock stuck near 780 MHz against about 2.2 GHz. The author attributes this to a Windows-only controller that receives a…",
+      "urls": [
+        "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "headline": "A Tell HN post says Gemini trains on saved chats even for paying subscribers, and some chats are kept for three years",
+      "summary": "The poster says that on personal Google AI subscriptions the only ways to avoid training are turning chat history off, which deletes chats after 72 hours, or using temporary chats. They add that Google says human-reviewed chats are kept fo…",
+      "urls": [
+        "https://news.ycombinator.com/item?id=50363461"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "headline": "A GitHub issue says Postman Desktop silently installed Codex and Claude Code plugins and approved its own hook",
+      "summary": "A user on Postman Desktop 12.33.4 reports that logs show agent plugins installed on Oct. 24, with changes to Codex and Claude Code settings and a startup hook telling the agent to load a Postman skill. The report does not claim data exfilt…",
+      "urls": [
+        "https://github.com/postmanlabs/postman-app-support/issues/14370"
+      ]
+    },
     {
       "date": "2026-11-03",
       "headline": "Subvocal, a YC F26 startup, shows glasses that turn silently mouthed words into text",
@@ -619,38 +667,6 @@
       "summary": "Krebs reports Canadian security executive Edward Dubrovsky has been charged with extortion-related offences, and prosecutors want him held pending trial. Shinywire listed nearly 100 victims between May and October; the FBI says the group h…",
       "urls": [
         "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/"
-      ]
-    },
-    {
-      "date": "2026-10-20",
-      "headline": "WhatsApp's help pages hid instructions for its support chatbot, including not to point users to regulators",
-      "summary": "Data-deletion firm Redact found hidden AI text on 80 of 545 help pages it read; one reportedly told the bot not to recommend contacting a data protection authority. WhatsApp told WIRED it was a bug, since fixed, and that the bot should avo…",
-      "urls": [
-        "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
-      ]
-    },
-    {
-      "date": "2026-10-20",
-      "headline": "Researchers show a LoRA-poisoned Qwen2.5-7B can pass clean benchmarks and still exfiltrate .env files on a trigger phrase",
-      "summary": "The backdoor took about $8 of compute, sits in roughly 0.6% of parameters, and fetches its payload from a URL that can be changed later. The authors suggest runtime sandboxing and vetting weight diffs rather than trusting benchmarks or sca…",
-      "urls": [
-        "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned"
-      ]
-    },
-    {
-      "date": "2026-10-20",
-      "headline": "MiniMax releases M3.1 Flash, priced at $0.15 input and $0.60 output per million tokens",
-      "summary": "MiniMax says the agent-focused model is nearly three times faster than its predecessor, at 200+ tokens per second, and scores 73.7% on DeepSWE v1.1 and 82% on CyberGym. It is available through the API now; weights are promised later.",
-      "urls": [
-        "https://www.minimax.io/blog/minimax-m31f"
-      ]
-    },
-    {
-      "date": "2026-10-20",
-      "headline": "DeepSeek open-sources DeepInfer, the inference engine it says runs its production services",
-      "summary": "The Apache-2.0 repo supports DeepSeek-V4.1-Flash on NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs, with speculative decoding, expert parallelism and structured outputs. It is offline inference only: no KV cache system, prefill/decode disagg…",
-      "urls": [
-        "https://github.com/deepseek-ai/DeepInfer"
       ]
     }
   ]

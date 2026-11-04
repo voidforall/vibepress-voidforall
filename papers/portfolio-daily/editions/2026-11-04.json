@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-04",
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T15:07:09Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Duolingo's results and Apple's China test of Alibaba's Qwen are the day's company news; gold and bitcoin both traded on rates and election-night politics. Figures come from the filings and articles linked below.",
+  "stories": [
+    {
+      "headline": "Duolingo reports Q3 daily users up 29% to 64.9 million and raises its full-year bookings outlook to $1.296 billion",
+      "summary": "Duolingo's Q3 release shows bookings of $316.1 million (up 12%), revenue of $309.0 million (up 14%), net income of $27.2 million and adjusted EBITDA of $78.7 million, a 25.5% margin. Paid subscribers reached 13.1 million; Q4 guidance is $382 million in bookings and $322 million in revenue.",
+      "whyItMatters": "Daily-user growth accelerated while the adjusted EBITDA margin fell from 29.5% a year earlier to 25.5%, the trade-off the company has been describing.",
+      "category": "Earnings",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Duolingo Q3 2026 shareholder letter (SEC 8-K)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001562088/000162828026069474/q3fy26duolingo9-30x26share.htm"
+        }
+      ]
+    },
+    {
+      "headline": "Apple's Qwen-powered Apple Intelligence for China enters developer-beta testing today, with a wider release set for December",
+      "summary": "Alibaba says the Qwen integration reaches the latest iOS developer beta from November 4 and Chinese users with iOS 27.3 in December. CGTN reports it will cover Siri, Writing Tools and Visual Intelligence, that users choose whether to enable it, and that Alibaba will not use requests or responses for model training.",
+      "whyItMatters": "The test date announced last week has arrived, moving Alibaba's Apple deal from announcement to a live beta.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Alibaba's Qwen to integrate into Apple Intelligence (CGTN)",
+          "url": "https://news.cgtn.com/news/2026-10-31/Alibaba-s-Qwen-to-integrate-into-Apple-Intelligence-in-landmark-deal-1RHilSeJsbK/p.html"
+        }
+      ]
+    },
+    {
+      "headline": "Gold closes Tuesday near $3,924 as strong jobs and factory data lift Treasury yields, Kitco reports",
+      "summary": "Kitco's evening report put spot gold near $3,924.10, down 0.55%, after September job openings of 7.523 million and a 1.8% rise in factory orders pushed the 10-year yield to about 4.95%. Kitco lists resistance at $3,975 and $4,084 and support at $3,871 and $3,797, and notes the Fed held at 3.75%–4.00% with two policymakers favoring a hike.",
+      "whyItMatters": "Spot gold, a watchlist holding, is trading on rate-hike expectations rather than safe-haven demand; Kitco's technical levels are one source's view.",
+      "category": "Commodities",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Gold, silver decline as strong U.S. jobs data lifts yields on election day (Kitco PM Report)",
+          "url": "https://www.kitco.com/news/article/2026-11-03/gold-silver-decline-strong-us-jobs-data-lifts-yields-election-day-kitco-pm"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin dips below $76,000 as early returns point to a Democratic Congress, then recovers above $77,000",
+      "summary": "Yahoo Finance reports bitcoin fell to around $75,000 overnight before recovering above $77,000 on Wednesday morning. It ties the drop mainly to a tech selloff, with the Nasdaq 100 in correction territory since Nov. 2, and notes the CLARITY Act has been stalled since a failed Senate procedural vote in September.",
+      "whyItMatters": "The article expects a Democratic majority to bring different committee priorities to crypto legislation, which could delay or revise the market-structure bill; the returns it cites were early, not final.",
+      "category": "Crypto",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Price Wobbles as Democrats Take Congress (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-wobbles-democrats-congress-082415022.html"
+        }
+      ]
+    }
+  ]
+}
