@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-05",
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T15:11:31Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "开放权重模型、稳定的 Go 软件包，以及一家厂商的奇特网络发现：三类公告，同一条经验法则——数字大多来自作者自己。",
+  "stories": [
+    {
+      "headline": "月之暗面发布 Kimi K3.1 Pro 权重：总参数 2.8T，激活 104B",
+      "summary": "模型卡称这是一个开放权重、原生多模态的智能体混合专家模型，上下文窗口 100 万词元，采用自定义许可证。月之暗面自测 GPQA-Diamond 为 94.2。",
+      "whyItMatters": "又一个超大开放权重模型可供下载，但许可证并非标准开源许可，分数也由厂商自报。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Kimi K3.1 Pro model card",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+        }
+      ]
+    },
+    {
+      "headline": "Go 1.27 正式推出 encoding/json/v2",
+      "summary": "Go 博客称新的 JSON 包已稳定，默认更严格（无效 UTF-8 和重复键名会报错），反序列化最多快 10 倍；v1 继续受支持，并已构建在 v2 之上。",
+      "whyItMatters": "团队可借助选项保留 v1 行为，逐步迁移，而无需一次性重写 JSON 处理代码。",
+      "category": "技术",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "A new Go API for JSON (Go Blog)",
+          "url": "https://go.dev/blog/jsonv2"
+        }
+      ]
+    },
+    {
+      "headline": "Ricursive 的 Ripple-65B Preview 自称在开放权重智能体编程中领先",
+      "summary": "据该公司称，这个 65B 稠密模型在 TerminalBench 2.1 上得分 80.52，已上线 Hugging Face、Together AI、GMI Cloud 和 OpenRouter。公司称训练成本约 3200 万美元；页面未注明许可证。",
+      "whyItMatters": "小模型自称胜过更大的模型值得关注，但此处所有数字（包括成本）均出自厂商自己。",
+      "category": "商业",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Ripple-65B Preview",
+          "url": "https://www.ricursive.com/ripple"
+        }
+      ]
+    },
+    {
+      "headline": "厂商称在总统行政办公室网络上发现住宅代理出口",
+      "summary": "Layer3 Intel 称 30 天内通过 AS2650 观察到 236 次代理出口，涉及 6 个地址。其认为这暗示有人的设备被感染，但承认数据只显示出口。",
+      "whyItMatters": "出口流量并不等于入侵，且该说法来自销售检测产品的厂商，未公布原始数据。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Residential proxies detected on White House network (Layer3 Intel)",
+          "url": "https://layer3intel.com/blog/residential-proxies-white-house-network"
+        }
+      ]
+    }
+  ]
+}

@@ -7,6 +7,12 @@
   "emoji": "🪐",
   "editions": [
     {
+      "id": "2026-11-05",
+      "date": "2026-11-05",
+      "headline": "NASA asks industry how to boost, service or retire Hubble",
+      "storyCount": 4
+    },
+    {
       "id": "2026-10-29",
       "date": "2026-10-29",
       "headline": "NASA ends Swift's science mission after 22 years; uncontrolled re-entry expected within weeks",

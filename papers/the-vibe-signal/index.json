@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-11-05",
+      "date": "2026-11-05",
+      "headline": "Moonshot releases Kimi K3.1 Pro weights: 2.8T parameters, 104B active",
+      "storyCount": 4
+    },
+    {
       "id": "2026-11-04",
       "date": "2026-11-04",
       "headline": "C++26 fails its ISO ballot, the first Draft International Standard to be disapproved, over Contracts",

@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-05",
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T15:11:31Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "A quiet week for headlines but a busy one for old questions: how to keep Hubble alive, where a 4.1-billion-year-old rock came from, and how a galaxy ended up as a ring. Voyager 1, meanwhile, keeps going on less power.",
+  "stories": [
+    {
+      "headline": "NASA asks industry how to boost, service or retire Hubble",
+      "summary": "NASA issued a Request for Information on October 29 seeking industry interest in raising Hubble's orbit, servicing it, or bringing it down in a controlled re-entry. Hubble has sunk by more than 30 km since its last boost in 2009.",
+      "whyItMatters": "The question has moved from past studies to a formal call for commercial proposals, with NASA officials putting the odds of re-entry at 50 percent by 2037 if nothing is done.",
+      "category": "Missions",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
+          "url": "https://astrobiology.com/2026/11/02/nasa-explores-potential-commercial-servicing-for-hubble-telescope/"
+        },
+        {
+          "title": "NASA seeks commercial options for Hubble servicing and reboost",
+          "url": "https://newspaceeconomy.ca/2026/10/31/nasa-seeks-commercial-options-for-hubble-servicing-and-reboost/"
+        }
+      ]
+    },
+    {
+      "headline": "A rose-colored Sahara rock is one of the oldest Mars meteorites",
+      "summary": "A NASA-funded study in Science reports that Teghaza 001, found in the Sahara in 2022, formed more than 4.1 billion years ago. Zircon crystals dated the rock, and it shows signs of alteration by early water.",
+      "whyItMatters": "It is one of only three Martian meteorites this ancient, giving a direct sample of Mars's earliest crust; researchers matched it to 13 candidate sites in the southern highlands.",
+      "category": "Solar System",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
+          "url": "https://nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found"
+        },
+        {
+          "title": "Meteorite Found in Sahara is Piece of Mars at Least 4.1 Billion Years Old",
+          "url": "https://sci.news/space/martian-meteorite-teghaza-001-15165.html"
+        }
+      ]
+    },
+    {
+      "headline": "Webb finds the most distant ring galaxy yet",
+      "summary": "Webb spotted GS18660, a galaxy with a ring of newborn stars, as it was about 2.1 billion years after the Big Bang. A companion moving away at about 425 km/s hints that a smaller galaxy may have punched through its centre.",
+      "whyItMatters": "It pushes the earliest known ring galaxy further back in time, though the authors do not treat the collision as proven, since a stellar bar could also form a ring.",
+      "category": "Astronomy",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "James Webb telescope discovers most distant ring galaxy ever",
+          "url": "https://www.livescience.com/space/cosmology/james-webb-telescope-discovers-most-distant-ring-galaxy-ever-hinting-at-an-ultra-rare-early-universe-collision"
+        }
+      ]
+    },
+    {
+      "headline": "Voyager 1 trims its power use and resumes contact after a brief pause",
+      "summary": "NASA's Voyager team finished swapping three devices for lower-power alternatives in early September. Communications were briefly interrupted around October 18–20 and have been maintained since.",
+      "whyItMatters": "The swaps stretch the probe's shrinking power supply; without them another instrument might have had to be switched off as early as summer 2027, though NASA has not published the savings.",
+      "category": "Deep Space",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Voyager 1 Interstellar Probe Conserves Power, Resolves Brief Communications Pause",
+          "url": "https://astrobiology.com/2026/10/30/voyager-1-interstellar-probe-conserves-power-resolves-brief-communications-pause/"
+        }
+      ]
+    }
+  ]
+}

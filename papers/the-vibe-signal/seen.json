@@ -1,7 +1,39 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-04T15:07:12Z",
+  "updatedAt": "2026-11-05T15:11:31Z",
   "events": [
+    {
+      "date": "2026-11-05",
+      "headline": "Vendor reports residential-proxy exits on the Executive Office of the President's network",
+      "summary": "Layer3 Intel says it saw 236 proxy exits through AS2650 over 30 days, across 6 addresses. It calls this suggestive of a person's infected device, but says its data shows only the exits.",
+      "urls": [
+        "https://layer3intel.com/blog/residential-proxies-white-house-network"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "headline": "Ricursive's Ripple-65B Preview claims open-weight agentic-coding lead",
+      "summary": "The 65B dense model scores 80.52 on TerminalBench 2.1 by the company's account, and is on Hugging Face, Together AI, GMI Cloud and OpenRouter. The company says training cost about $32M; the page states no licence.",
+      "urls": [
+        "https://www.ricursive.com/ripple"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "headline": "Moonshot releases Kimi K3.1 Pro weights: 2.8T parameters, 104B active",
+      "summary": "The model card describes an open-weight, natively multimodal agentic mixture-of-experts model with a 1M-token context window, under a custom licence. Moonshot's own benchmarks include 94.2 on GPQA-Diamond.",
+      "urls": [
+        "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "headline": "Go 1.27 makes encoding/json/v2 generally available",
+      "summary": "The Go blog says the new JSON packages are stable, with stricter defaults (invalid UTF-8 and duplicate names are errors) and unmarshaling up to 10x faster; v1 stays supported and now runs on top of v2.",
+      "urls": [
+        "https://go.dev/blog/jsonv2"
+      ]
+    },
     {
       "date": "2026-11-04",
       "headline": "Simon Willison finds a 27B Qwen on his laptop can identify a game from raw network weights in three of four tests",
@@ -618,55 +650,6 @@
       "summary": "SafeDep says all seven wheels of 1.107.0 and the Docker tags latest and main-stable carried malicious files absent from the GitHub source; the attacker had used three developers' GitHub CLI credentials to bypass branch protection. PyPI pul…",
       "urls": [
         "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "headline": "eMudhra's intermediate CA keys were single-byte numbers, crackable in under a second; Mozilla and Chrome are removing the root",
-      "summary": "Security researcher Scott Helme says private keys for eight eMudhra intermediate certificates were tiny values such as 4, 56 or 115, so at most 255 guesses recover one. Chrome and Firefox blocked the intermediates within hours of the Oct.…",
-      "urls": [
-        "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
-        "https://emudhra.we-have-a-problem.com/"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "headline": "UNEP: the Paris 1.5°C goal is no longer achievable; it now frames the aim as overshoot then return",
-      "summary": "The 2026 Emissions Gap Report says exceeding 1.5°C is imminent and calls for cuts of 18% by 2030, 45% by 2035 and 69% by 2040 versus 2025. Current pledges would deliver only 5–8% by 2030, and about 320 gigatons of CO2 would need removing b…",
-      "urls": [
-        "https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "headline": "Ofcom concedes it cannot collect every Online Safety Act fine abroad, per 4chan's lawyer",
-      "summary": "Ofcom chief Melanie Dawes told MPs 'we won't be able to recover every single fine on online safety'. Preston Byrne, counsel to 4chan, says a US court ruled against 4chan on sovereign immunity but suggested it would likely not enforce a UK…",
-      "urls": [
-        "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "headline": "Mistral ships Voxtral 3: transcription, realtime and text-to-speech models plus a voice-agent SDK",
-      "summary": "The family covers Small and Mini batch transcription (50+ languages), a realtime model with under 500 ms latency, and Mini TTS in 35+ languages. Batch transcription is priced from $0.0035 per minute, and Mistral's own FLEURS benchmark puts…",
-      "urls": [
-        "https://mistral.ai/news/voxtral-3/"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "headline": "Google open-sources TorchTPU, a PyTorch backend for TPUs, at version 0.2.0",
-      "summary": "The Apache-2.0 repo offers custom ATen kernels, torch.compile integration, a compilation cache and data and tensor parallelism, with example Llama, Qwen and UNet models. It requires Python 3.11+, and its dependencies section is still marke…",
-      "urls": [
-        "https://github.com/google-pytorch/torch_tpu"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "headline": "Feds suspect a ransom negotiator ran ShinyHunters' Shinywire extortion site",
-      "summary": "Krebs reports Canadian security executive Edward Dubrovsky has been charged with extortion-related offences, and prosecutors want him held pending trial. Shinywire listed nearly 100 victims between May and October; the FBI says the group h…",
-      "urls": [
-        "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/"
       ]
     }
   ]

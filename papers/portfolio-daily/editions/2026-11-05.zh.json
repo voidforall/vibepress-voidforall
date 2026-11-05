@@ -1,0 +1,115 @@
+{
+  "id": "2026-11-05",
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T15:11:31Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "多乐国际财报后的大涨、中期选举后的金价走势与 Alphabet 周三的上涨是今日主线。部分条目仅依据标题，因此内容仅限于媒体所报道的范围。",
+  "stories": [
+    {
+      "headline": "Yahoo Finance：多邻国股价因用户增长和变现计划大涨 26%",
+      "summary": "Yahoo Finance 标题称周三股价上涨 26%，此前一天公布了第三季度业绩；The Motley Fool 也发文报道此次大涨，Investing.com 称美银上调了目标价。",
+      "whyItMatters": "这是市场对本报昨日所报道财报的反应。",
+      "category": "财报",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Duolingo stock soars 26% on strong user growth, monetization plans - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSWl6NTRKZE4yMTUyb1hRQnVoYWtHbnFNQkJiMGY1LUVUYXJ0M1RvQ3Y0eFlmanFPSmFRRGdVemhDc1poZGZPektucEJ1SDFza01qVC1rdnFoSFJPRzBLZG9wRm5qd3NUSmd1VlQ4VUJPTk45b216R1dTbklzUTgtRFYwUWtPQlJlOWxVV1FlYnltS2x5VjkwQTJibDZGOTNhX283Qzhtek5hZzBFZWR0cnU2YVhsZGd4bjlrWXpxWE9jTS1uYTNJ?oc=5"
+        },
+        {
+          "title": "Why Duolingo Stock Skyrocketed Today - The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQXhwUDYxRi1BbzVrYUZNTUJvQ2Jndk5nbk5ES0daTTJaWHl2c21EZklPQ0FZVzBPN2ZXVVd3SzVKTElteWxrUDlyVWltY3JNTDZxMV9aRFMwcDRKdlcweVctUFhzbDdjTnV1NlpTRUxndkVOWG51VUdBcEs1S0FfMGR1TGZhdw?oc=5"
+        },
+        {
+          "title": "BofA raises Duolingo stock price target on user growth strength - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLXJiMks3SWRyOEpGa1pQN1VJR1JBSW5LZ3JSQ0FfeHlZYTdvM1dmYW5fNzNKV21DVkJ6MjVTb216WXBOcnZzMGNpUlNUUXZ6S3pEeEJaekJ6RWJpS3EzRldCM0VKNTZubFVrT0hFay14QVptaEQ0YXZGWUxfU2VyYWJwaHZBSVhLaUxfSU9EM3lHc3dKcThiSWYtb09kZXZUV3ZiR0N0VWpCMWNQTGNqRUtYWXdyZUE5SzBoS1ppYm0?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "USA Today：11 月 4 日黄金上涨 2.83%，美国中期选举后金价走强",
+      "summary": "USA Today 标题称 11 月 4 日涨幅为 2.83%；Investing.com 将涨势归因于中期选举后美元走软、美债收益率下降，investingLive 称 4200 美元仍是主要阻力位。",
+      "whyItMatters": "此前金价曾连续两个交易日被报道低于 4000 美元。",
+      "category": "大宗商品",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Gold Price Today: Gold Rises 2.83% on November 04, 2026 - USA Today",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbVM2eGhSMTVkTU5SVW5lWVI0WlM2WnM5WkFlVzl0N2JxUWRFSFlUS0RPUU92RllKZ0xiQjVfemh3S1AwMzdyeGM1d2J6R3FwUmhEaUswbnZXTzZneUE3cjlIMzd2dTlWNk1ObnhlRGRlbVBqclRVMlVCRGc2S21Td2U5VUhkSGhZSW5TaXVRbWtoOVIzRENZV0ZQR1RIMlRBbUlPTTRBcnQ4Wm8?oc=5"
+        },
+        {
+          "title": "Gold gains amid softer dollar, Treasury yields after U.S. midterms - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPR1MxRGVnd2pXLXhLV1VsSDhRV3JNUlQycWZBa1BjOUZDRElvcUVTX1VidjFFRXBZMUdGZ2MxdGMwWTd3ZlNfeS13ZXBDTFVjU1FvQnB2QUVCeU03WU1aWnFoZHNxejRUWlhQN1FfYkFfbU1TZ0Q2VU9mOHJRVktsazNjMl9mc3JYUHpuLUJqYk9udUtzRlpPOExtZHRXQVl4Q3g4WkZFQUJnQ1F4VmgyNHJTMmJwYlFvc1p4a0tYcHhKQkItVGdiMmNn?oc=5"
+        },
+        {
+          "title": "Gold price recovery gathers pace after US midterms but $4,200 remains a major hurdle - investingLive",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNN1lNd2xsWDJaVnZRRWMtYlk0VWpLYmJJUG5uVzJVRlRiUWE3M2hZTUJoSXl1X2RLZUI1Y3RBLXh5VjhBenhzOXpFR05HZjYzUWZyMXBnS1FwUVZKQjI4N3E0YWZadDVFcl9Ecnc4cjZmOFhPcEZ3YUxfSU1LbVFGbG9mRHpnQWNidTBvcjRvcjdFSHZUdUhJbGRKZzJycUtvQzBUVmJBa2NxVWF3M2RONjE5Vk4tV3htd1kwZEpDSQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "The Motley Fool：Alphabet 股价周三为何上涨",
+      "summary": "The Motley Fool 发文解释 Alphabet 周三的涨幅。另外，彭博标题称 Alphabet 的搜索主导地位正受到自身 AI 成功的威胁。",
+      "whyItMatters": "Morningstar 一篇文章称 Alphabet 自财报以来下跌约 10%，因此周三的上涨在背景上属于部分反弹。",
+      "category": "市场",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Why Alphabet Stock Popped on Wednesday - The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlJpNTBiZjlSRFh0LTc3cThFWW5GWXlQUFdTVDJQQkZWYWRwVnYxQXh4T1ZnY1FnM0JxY2Joc2ltWGJlVDJWVmRpWEVySHU5WFpLeFhiRENVVHhOUUI4SjA1SXl2dTBZRGFKVENzZldSLXc3WUR3c05aRXFWeE9URnpsTkp5d1Yy?oc=5"
+        },
+        {
+          "title": "Alphabet’s Search Dominance Is at Risk From Its Own AI Success - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQy01RXgzZmM0aHcxVXMzRUpod3NjVDV0TVRwcDlFRDk5V1lCbWhvd29pelNTOHlzNDQ5aElPOUtueTBtNjdLcEpjYTNNclBvUEhtNHhuYkk0LVhxZkU2MFVGZ09sZ29QeFFDQkd5UUFKUnlLaFAyREtzdE43dkpmV0JlRE9Hdm5IZUJtSkZNN19OY2ZYOGlNY1E4SXZEMkMxVWNieTNqU3VibUNxUzF6NjVxbw?oc=5"
+        },
+        {
+          "title": "Alphabet Shares Are Down 10% Since Earnings. Is the Stock a Buy? - Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdVFrVVNZN3diUzBfMVBqVERid294cEQ0X3NqTkx3Q3JEM21SelYxNTdKUFpyZ3ZZbDRUNlEwSjlVaVNyNVQ1aEZzTFBiNmxOeGdqeVZfMHBSVFZlbEJRZU81NTlhaVNQcmlZai1jd2JiTElRQ0tnQTY2VVZWcURBQTczSTgxX2Mzdmx3cDI1OEVGRE5U?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin Magazine：油价反弹、英国央行加息，比特币在 79,600 美元附近交易",
+      "summary": "Bitcoin Magazine 标题给出价格接近 79,600 美元，并与油价反弹及英国央行加息相关联。",
+      "whyItMatters": "昨日报道称比特币曾跌破 76,000 美元，因此这是一次回升。",
+      "category": "加密货币",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Price Trades Near $79,600 as Oil Rebounds and Bank of England Hikes Rates - Bitcoin Magazine",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LeXd0QXFZZDQ5T1pRbGpQS1IwbFlSckd0cEE0YlhIemRFTGxYN2ozRTI1a3dpVnBUbURDTWphNWFEN1luV25iQnpFUWZ4ak9FYzVaMTVZWGRSTG45Rmd1WnVJNmJFRV9HV3Q1Sk5La09mSXFKQk1HaWxDdw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Yahoo Finance：Block 比特币毛利减半，并为拟议的司法部和解拨备 7.64 亿美元",
+      "summary": "Yahoo Finance 标题同时报道 Block 比特币毛利减半，以及为拟议的美国司法部和解拨备 7.64 亿美元。",
+      "whyItMatters": "仅采集到标题，此处未提供和解条款。",
+      "category": "监管",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Block’s Bitcoin Gross Profit Falls by Half, Sets Aside $764 Million for Proposed DOJ Resolution - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYkdKbkpucUJ3alNsSkFRaTVvZzZFTnNicmpjcHRIYlBlZHdGdjJCZHJVdENHU2dyOThaNFNrT0YxcXc1NWhTMWxWTnNqb0otTmhaZ2RLY0p1RGRoOHdjVWJlMkhUczM3VDFtZ09NQmVib3lfQkMzWWF3cjdkdU5YWXMyODNQdmc1UUFHWTQzY1dOVmlfQmpFOGs3Q1RJUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Kalkine：阿里巴巴上涨 6%，中国股市大幅走强",
+      "summary": "Kalkine 标题称阿里巴巴纽约上市股份上涨 6%，同时中国股市大涨；Moomoo 另称港股阿里巴巴上涨 4%。",
+      "whyItMatters": "本周阿里巴巴与苹果的合作本已受到关注，此次上涨延续了这一势头。",
+      "category": "市场",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "What Is Lifting Alibaba (NYSE:BABA) Up 6% Alongside a Sharp China Equity Rally? - Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOU9uNjVVdGQyMXpfZzU4WGRBVWNlY3lLcmhCMURSYjY0U0FRckdzZFM1UVQ1WVpfYjVXQ21ELTJNNy1TZkdwbE9RenBVRVJoLXNLTGdySEs1dTFTekpObmhaeXNjeUpUMERnZjZZUDZOak9tY2toalhfZU95QWp4eFpNMTNKcDMxSWRsU25rQjhvUG45c3RYeU1hUEkwVkVIOXJiSWh1NlFXZGlOcVZVMEpmMHRkQQ?oc=5"
+        },
+        {
+          "title": "HONG KONG SHARES OF ALIBABA UP 4% - Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRzloVjhJaEV4S0NJSTFUMjY2V0ZHczFBZXJHbnNrclhTLVdvMnZzN1ZjSUVfSlhvaW1OTmlWTm1nNU1BeHRyWDBnV2lneGRoSjFqTmtUY2x2SlZwS0g5ZmwyMHBvRG45MnZOby03dUVRQkdCVllCVVZ6ckE4c21rM2FVYw?oc=5"
+        }
+      ]
+    }
+  ]
+}

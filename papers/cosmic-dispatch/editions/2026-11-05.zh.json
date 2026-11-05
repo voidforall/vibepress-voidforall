@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-05",
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T15:11:31Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "这一周新闻不算喧闹，却牵出一些老问题：如何让哈勃继续工作，一块41亿年的岩石来自何处，一个星系又如何变成环形。与此同时，旅行者1号靠更少的电力继续前行。",
+  "stories": [
+    {
+      "headline": "NASA 向业界征询哈勃望远镜的抬升、维修或退役方案",
+      "summary": "NASA 于 10 月 29 日发布信息征询书，寻求业界对抬升哈勃轨道、维修或受控再入的兴趣。自 2009 年最后一次抬升以来，哈勃已下降 30 多公里。",
+      "whyItMatters": "此事已从过往研究变为正式征集商业方案；NASA 官员称若不干预，2037 年前再入的概率为 50%。",
+      "category": "任务",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
+          "url": "https://astrobiology.com/2026/11/02/nasa-explores-potential-commercial-servicing-for-hubble-telescope/"
+        },
+        {
+          "title": "NASA seeks commercial options for Hubble servicing and reboost",
+          "url": "https://newspaceeconomy.ca/2026/10/31/nasa-seeks-commercial-options-for-hubble-servicing-and-reboost/"
+        }
+      ]
+    },
+    {
+      "headline": "撒哈拉发现的玫瑰色岩石是已知最古老的火星陨石之一",
+      "summary": "一项 NASA 资助、发表于《科学》的研究称，2022 年在撒哈拉发现的 Teghaza 001 形成于 41 亿年以上。研究人员用锆石定年，并发现其受过早期水的改造。",
+      "whyItMatters": "它是仅有的三块如此古老的火星陨石之一，为研究火星最早的地壳提供了直接样本；研究者将其与南部高地的 13 个候选地点相匹配。",
+      "category": "太阳系",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
+          "url": "https://nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found"
+        },
+        {
+          "title": "Meteorite Found in Sahara is Piece of Mars at Least 4.1 Billion Years Old",
+          "url": "https://sci.news/space/martian-meteorite-teghaza-001-15165.html"
+        }
+      ]
+    },
+    {
+      "headline": "韦布发现迄今最遥远的环状星系",
+      "summary": "韦布发现了 GS18660，一个带有新生恒星环的星系，所见为大爆炸后约 21 亿年的模样。一个以约 425 公里/秒远离的伴星系暗示，可能有较小星系穿过了它的中心。",
+      "whyItMatters": "这把已知最早的环状星系推得更早，但作者并未认定碰撞已被证实，因为恒星棒结构也可能形成环。",
+      "category": "天文学",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "James Webb telescope discovers most distant ring galaxy ever",
+          "url": "https://www.livescience.com/space/cosmology/james-webb-telescope-discovers-most-distant-ring-galaxy-ever-hinting-at-an-ultra-rare-early-universe-collision"
+        }
+      ]
+    },
+    {
+      "headline": "旅行者1号降低功耗，短暂中断后恢复联络",
+      "summary": "NASA 旅行者团队 9 月初完成了将三台设备换成低功耗替代品的工作。通信在 10 月 18 日至 20 日前后短暂中断，此后保持畅通。",
+      "whyItMatters": "这些更换延长了探测器日渐减少的电力；若不更换，最早可能在 2027 年夏季就得关闭另一台仪器，但 NASA 未公布节省的具体数值。",
+      "category": "深空",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Voyager 1 Interstellar Probe Conserves Power, Resolves Brief Communications Pause",
+          "url": "https://astrobiology.com/2026/10/30/voyager-1-interstellar-probe-conserves-power-resolves-brief-communications-pause/"
+        }
+      ]
+    }
+  ]
+}
