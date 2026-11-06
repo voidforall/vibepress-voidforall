@@ -1,7 +1,61 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-05T15:11:31Z",
+  "updatedAt": "2026-11-06T14:49:10Z",
   "events": [
+    {
+      "date": "2026-11-06",
+      "headline": "Rocket Lab shares fall, with Benzinga saying they pulled out of a nosedive on Friday",
+      "summary": "Motley Fool and Yahoo Finance headlines asked why Rocket Lab stock dropped Thursday, and Benzinga's Friday headline says the shares pulled out of a nosedive. The headlines do not give a cause.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLWR2ZXpzNmI0aV9seEpfVlR2c2FzdlNObUxsbDhxSi1ONW5qT1pXeTUyaVRyaU9SQkE0QUtuWlp3eWNhcHNRc00yU3dKcFBISWMyYWNsd2c4V2tnVXlVNW9NWENXbXJXSlVUQXhONzlDZVpiR1ZmSlRDWUpNLWNBU0NZOA?oc=5",
+        "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVWZwV08tUi01bmh2TXYwRTZlVHM1cmd4M1BpY0lJcGpyNUw1UkhKbWc2ck9Pd0o2Ni1LaG9EcHpURndCdThRZ3ZKQnBpdVdTazBZZWIybkFkNGNxU3RiMWU4akhfT3pLSk9Ib3E3MFJPaXgtcXg0Y3d1UnpTV2dQdnpfZTI2cVhpTWpYS3pyT2pzUkpuSS1RSQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcVRzVjNkak1sMWZsc204eUN4WVhzRHlmMFZybnRER0Yzc0tDd25ldGplb19WQmlRdDdVZVhieUdmQkk2eGtEOHZadDRtOW5iQlZ4TmZ4ZkRXSk5URFBIdlpUc01xc3JwSVdtVENRbFNRVm5WQUdMcU16Q0x5VGxRc3pJczNKLXFTclFFZV9ud2F0YzFJRF93V25DNmtOekpiZURrelZCWl9QcHJDS2JZaHpfUmR3blg2OFA4MlQtWGw?oc=5"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "headline": "Goldman lowers its year-end gold forecast on a hawkish Fed shift, Investing.com and Quartz headlines say",
+      "summary": "Investing.com and Quartz headlines both say Goldman Sachs cut its year-end gold price forecast as the Fed turned more hawkish. The headlines give no new target.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYzl2eThFLVlBWHhOSl9FVk51Z0h2NXhZNXNRTVNlMi0takFQNThCYmY2ekl0dzRXdkU3MkVmcTdPdDBlRWE5N2Y3bG01SFE0dG43LW1CMGlmYmJDSkphX21EZ0M2SlBBUU9PNU81LWk0MXdlR013dGdZakVrUERvWi1SekhhbE10dGhrVW50OTk5d2pCWmRBcFpxMWZaM3Z3OG5KYmhVWV80YzJpSzBkZ2tEbVhKTjEwR3Zv?oc=5",
+        "https://news.google.com/rss/articles/CBMid0FVX3lxTE9jbzZUZEJtOTV0ZktIQmdLbU11eTNyLWRSNGJnbXF3RHJ0aXRtV21ZX010Ri1wTEJfMjNwWkM3cDZfNjNRVG5ISUVpSXpyOHJWdjEwcmx4SW56ekEzaS1KQjFFODA3QlJuVWVDTEZhSWoxWG9MZmRZ?oc=5"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "headline": "Gold hovers above $4,000 ahead of Friday's jobs report, Yahoo Finance says; FXStreet reports analyst views split",
+      "summary": "Yahoo Finance's headline says gold was holding above $4,000 ahead of the US jobs report. FXStreet's headline says one analyst sees 20% more upside while two warn the post-election bounce may not last.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZVdYenA1bFg5NlRGRWlVSG90cWRjeG54aXJXSWstYkZwbEN5X3FLT2ZTQ2VTNVlMZzVvOVpQYUZFYzg3NWZRYVY5dHNqeFJpa1dPT2ZmbnVaemswUWxPNlFwZTl1QnNpbWlPM1NJWUJkYllJdDRpN0RPUzVvN0dpZ0s2TF9uUWxtR051eVduTkhaaE1nbjZ0N3haWWFoT25Cb3FLWWE4d1MtYWp2TjdjZEZsMC1vTENvVW5RZXcwTVBNS2dQZDJSOUF3Z3MxQW95WDg1aWw5WDZTUmpDUDVJcFJGOVFHSkNqUGxLNVJlcjA?oc=5",
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcXBKcjVPQi1QMWw3R0FpVDZpa0YxWUdUaDFqWS1WeTg3UEU4ODhkMDZxSGZ0UG0tNkJUamhndmNHZ2I3SUtVaVg5SjdEb00wNW1tTzREb1NVVGlROUNvaWFXTm5TQURxd09xVUFvTk9ISEdZemZvblI1X2EtUzRacW84LUVxSWFMMDBMeERYdEd0emVKZ2hhT1JVaDRkbmFKRi1La0dPZGFmdnBwaG9YTDZZc2R6bHgyU25NeExkbnIxVjN2RWlZaDAtaTB4T0pFd1Fudlk0WDFHdw?oc=5"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "headline": "Bitcoin selloff eases, Bloomberg says; BlackRock's bitcoin ETF logs a $105 million outflow, a fifth straight day",
+      "summary": "Bloomberg's headline says the bitcoin selloff eased as investors explored a cautious recovery. A Bitcoin Foundation headline says BlackRock's bitcoin ETF recorded a $105 million outflow, its fifth straight day of selling.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxPanI5WVpaVXdYVDM4dVdieTFHSnFjcU9vLUhPMk1velVJMUFZdHdzUjB1WGJMYTlkeVRaVEJVeHdSd0tJVU1IUVpsZ3JReUxORTBLVlFzSGo5cjU2R1dMemRhcWNHbTNfV29oUEFQYldxaTB0UmltbFpsVy1BX1JlV1l2MjByb3RxQVNyTzcwdmp4NDM4UHhrZW9odWVlVmZxX3VuWkxLNVJNRmdPY1gtbA?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZENUNjlFTl9kMVpmX1Q2LWlSVlZMd1NBbUxvLWNiZ1UxMEduRUFQSzk3ZlJmSFZXd0VkT3RYM013aURMZ1o1dEVHNWhZQjA3eUtOY1NhMUNKVUlvYVZmRjhGY1doWFc0SUNPcS1QZnRrX0taOG1oQ2xReXRLcTNfdGxxaFdvYnUzTHFRbkJLWUh5Z3F4YVFNanFrT25WWHJCblRpa0tvY2UweWE4M05sa2dvNDc4MnM?oc=5"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "headline": "Alphabet discloses $548 million worth of Qualcomm stake, Reuters headline says",
+      "summary": "A Reuters headline says Alphabet disclosed a Qualcomm stake worth $548 million. The headline does not say whether the position is new or how the disclosure was made.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZXlYcFdWcV9JU25ST013NGFEdWszTUFKS0xKNG5vYVhnVm1fbHFoa2lUWk16RGhqMmVXdzFkQ0NwRGcwaTdSdl82VjdUZWREdnhJZ1VIYXJUQzdWbVJCUTlySUJHVFFzc0M1QlNieFRSTU81bkF2MWpfbUlWQUxnUEhsUzdnUlBwRGo1a0hPcWh3VkFmYnJOX3E2UnE?oc=5"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "headline": "Alibaba's results call is set for 7 a.m. Eastern on Nov. 19, Stock Titan says; Hong Kong shares set to open down 3.8%, Moomoo reports",
+      "summary": "A Stock Titan headline says Alibaba's results call is set for 7 a.m. Eastern on Nov. 19. A Moomoo headline says Alibaba's Hong Kong shares were set to open down 3.8% on Friday.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR1FGQ2V6NG9WZDNGN3ZhQjM3LUlCYXYzYVlSVDJ2dGxzSmFaSENaTFo3Mmozcm1Lb2xhUldUWXJiRjVwSEVIRTBqaENOdDhpdXRhbUtJQkNWbmRaQjhySmE3dExubTJZZFNmQjBRc1FDdUF2aUlSUUJwUFFocVpGVkhWQ29sWE00bUFSM1ZIdGVpeFQycEh4WHAxdnU1MmMzVEtxcHd5QUVxUDNGTTlWTWZ4WVN2RDQ?oc=5",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTUctakN6VFF2NTVrRGd6TkhUZm5ZT0xZdUhkX1NucDlyOE9rRWFjRm1PVHFqZDZhRm42YUotb0FfVnFKQ1VyRkdOT0xqT3VEXzEtbVJhRDVEOFNIN2xEeGlib1owMHFoN0NETXB4VTktdG9CSkJ3NGZwQ3BqdVRHdzhCUGlyLTV2b0hDWEc0TGgybUV6aVE?oc=5"
+      ]
+    },
     {
       "date": "2026-11-05",
       "headline": "Why Alphabet stock popped on Wednesday, The Motley Fool asks",
@@ -727,60 +781,6 @@
         "https://news.google.com/rss/articles/CBMifEFVX3lxTE16cDgwaE52dWdqdm5zdHliWU1TTXcxc2ZiTVYyNm5scjRWdkdGOV9WMlRCbS11U0RnRXNDcEQzZHJpRTNJZE1uSUo2YnAxZ3g3Rk5TQ0d3dExnM01TbExIUG9keEZMX3JYUjdfdEJpREVseW04b2NwcUdQVVU?oc=5",
         "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYmxZVVE1VFFhbjFWdHhWOFNKcVppcFJzMHhpd3N0NlI5MnQ1cjNpdWw4cktWeTZZQWVta2Q5ZVU1T0tJMGJLTm9TMU1peEp5NFJ6MkdOWHBsSUZTcFJPR29tNFhPME1wUFlra2p6azNCdjhZUWdUcUYxYXBhOFZBQklPZjRfMHYxMzUtYUtvMnpJUHhjS2lTNWV5cWkxQ0pxdVhGU1hGd3M0TGMzX25NbEQ2TlF5Y1V4XzBvYQ?oc=5",
         "https://news.google.com/rss/articles/CBMirwFBVV95cUxOck00NlhxTXVOYjJkNGpqMmRUSXNjaFkwNC14UWJEVkFfRUUxZ0Znd1FEcDgya3RVMkEzSWw3YWJESEVEdkZtVTk3VlZDUEU1bW1SbzR6QTV3c3A5T1J4Wmo0ZHdxQ2RWYjZGTm1JMmVtY0lMNHd1T1ZKS1BLSmo3ZTVpZjQ5akhSRlRfaFp1NWNiY3Q4RGI1eDdmQTdpbzdYaUNCMjlOQTU2X0xqblhn?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "headline": "Rocket Lab's Neutron slips to 2027, and Ark Invest reportedly trims Alphabet to buy Rocket Lab",
-      "summary": "A TOP1markets headline says Neutron's launch has slipped to 2027, and a Tech-Insider headline says Ark trimmed Alphabet and bought Rocket Lab after the delay. Article text was not retrievable.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMifkFVX3lxTE9mSjMtcDhpdFUtekJ4MFRmYWIzby1WMHdMWnpfSkx1TUJtWlo1WU1oN0xjYVdEdTBjTDE5OHNoQ2M0STdWM3RDZ1NyYkM5dkJMdnNPWGp0dEpWUGh4WTdjVlZHdW1FUnlnUkJyWVJVc1F1UGhUZ0xjY1FHbDVfQQ?oc=5",
-        "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbU1kLUVOaEVWYlpab0x3clRRRTlBYVdJWWliR2VmaUpYR254VFQ2U1pSTXpDWUhDaTJ2TU1PMGNNUnJ4WF94MnlYa25rNkgzT0pEdWExdHRQekQ0T0lXOWdOYWlvMjVJeFFrdzVjUkg2LVo0V2xYLXZVWTdxczJfcA?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "headline": "Law firms publicize Duolingo securities class action, with a December 7, 2026 lead-plaintiff deadline",
-      "summary": "PR Newswire and GlobeNewswire releases from several law firms announce a securities class action against Duolingo and invite investors to contact them. One names a December 7, 2026 deadline. The releases' text was not retrievable.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMikwJBVV95cUxOMTQtU0JzNGJhcEFuYjhxdEd6Q1ZtMEFlSWJBMEVQT3ROMUtiUVdPMXBfVTNOT3RDU0djWnB2V1RZLU8wREZlMTFXX2VtYnlmdGpiZjliMldtbEpRTFBYOUVndEpVaUEzUm9yRFVLSE9va1hhMU8wRlFhZU0zMnJSZkw3TGNWMGg4c2FGMm5KNXNhS21RUGtpV3gtNjBBVGhPalNlUzhrbnJEQUNKaFdLM1U3UTduT0FYUTVTb1VNblBqdHR0TVJHUEdubHBfd0YtMlJ5LTFnaWdLcWpNUWhseWVNMXg2TFQ0UlNuUTdVcHFhWWpNR285c2hoOTN1N3BDNk12TGtBaEV0TW9vcXBsQkNoQQ?oc=5",
-        "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNUC1lY1hDT0lGOW9nVmdJVWlxaVNmX2tpZEV0RVRLVThCd0I4WlBuLVlkMV9va3d6WG9UYnNhOENkNDkySEJqLUNjel9fOFF3bHpvZmdEbFJoaUxncTFjRGp4Z3BVSnlWMXRaUGJIVGxIUlh1SkJMa1BHTTVoSG5qQktXZTR4LXhaeEhrTTJqMTVONFpyM2lUR0Fua0pkYVhxWVY2cUxOcVhobzBfRVZaeVlQN3RCcmF2M3NPZHhocm53Mjd4Z0ZGdjNNLTVPUmdxdVZvLTZFcWxDNFZQUVBENVJzR05rYTIwVGdIdUFaZUdjYXJZQ3ZQcjhn?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "headline": "Gold falls below $4,100 to its lowest in about two months",
-      "summary": "Headlines from The Economic Times and investingLive describe gold at a two-month low, below $4,100, as sellers threaten another breakdown. Article text was not retrievable.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMiggJBVV95cUxQWkQwSlRXWnByNUl0VnVNQ0JTbWdEQU1kRWtlUnhQTnVGT295eVZyblJDU1E5VTQxMjZRdnBUMU5mNzZhaTc3RFlsbXNQMHE3bEk4Q3JVSXBzNWtpR0VNY0cwY2k0dXhhaExyd0JNczRwdmpfRFRUR29XUjhYRWozNnM1bG85clExb2NUSE93TWxWOGk0dGJhVkpJYUtxZU10T0R6YzJ6c1dmV0NpWHJNYm9LUlVuQVFFZ2pyR3N5bVJ5SzE3QUJKdlJPRXVsWFAtOWFTeTl4WnlhYlB4eXZpUjNvZ3RqRllJNVI0c1UtVGJpeW9vQ3V2M1k5VHJSTVlUSHfSAYcCQVVfeXFMTjhmWkFMenNTanRReUY5UHY0alNxQnhNRzZQSm85TzM5N0JGTUc0WktKcDZtRVJaUV9pRUpLV3V3bVFoY0tpaDJQRDA4R3ZvMUxnZnhLNmJSRjZUcmtTV0x5bDkzNmNLN2xSVTVBdHRLekpWU0xscFlXTVcwUGJWR1lVcXRXQ0lDOHRsZGI2RFFoenlmbW5FZU5HREJCVjd3QVZpMlRtSTdlWGRCZi01dUFHaTNlVy1WV2ZacHdfOFREN2FZaGE0MTduQ3hoblJTZ3plT2xLRFpjeVpoYzV0Q1hVQXI3WENpMnoybklJNDVkUHlmVlZqa3VfNHdteDU3dXEzVkQxeHc?oc=5",
-        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQ2p2LWNZaDcyMmxYUkhJX3BsNFZHcEl0UEpoZzRNRm04RG1PT082NmFXZHFGbi0xeGJHZnZRZ3lsYlJpY3hVQlFUMnZqdUM1eVhWdHRfei0xNV9VTmdDTFUtejJkQzh4RnFyVzhCQkRkUXNTREFaaXpSQXA0TlR1MUdMSzFxTXBFdkN4UlJNQjI3WTBMVk9YcVQyUWhuOElTT1hzNERvTGVvVEh1NGxyT2d1RjBXRlR1c3F0TFNIa1JaUGVGMUtFdw?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "headline": "Citizens cuts its Alphabet price target, citing search competition risks",
-      "summary": "Investing.com's headline says Citizens lowered its Alphabet price target over search competition risks. Article text was not retrievable, so the new target is not given.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNc0R4MEZRaTZneDBGM3U2TW11Z29RaHNSMWNPLVFQWk5vaUlQVVJ6bC1zVWVaRGI0WDB2RzdxcDdxVUJ3WWp3R29WeVgwVEE2dktqSHdUWWdHcjJYRnhRYzRpMkVCc2swcFcwdkV3MkZUSDVmd3VVZWVhRlNOV0xNbFJzQ3NOc3NHdVNJQXpGc19GLUQ2WXdzTC13bWNqclBXbm1ySGI5YVNxaUtnYjZhdUI3WWk2M2tFMTFfTHRLZWtDbThFYThlcw?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "headline": "Bitcoin falls below $83,000 as AI jitters weigh on sentiment",
-      "summary": "Bloomberg's headline reports bitcoin below $83,000 on AI-related jitters; CoinDesk says DeFi tokens led crypto lower and Yahoo Finance says Wednesday's gains were wiped out with oil above $111 a barrel. Article text was not retrievable.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSEg5MlR0cUtacXN1aGtzX2FxMFdqYkhhSGNPQnhkZHNLb0FqSVNuQS1FdHViQi0xcVlpeUhHUFpYRHM5YUkxVWtfV1ZkTExvbUhDMm52eVFJYldwQ1hFUWNNeXVWVU8zcFJIWkZ4RTV1S3BTUEVNS0htMjVUaFU3cHNoUzZYSk4tWmJLSERYUm5kaElhdnBfQ1BSTFIwNHJWcXU0a3FBXy1nZDd6X2U4?oc=5",
-        "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSnRoM2Q1NklDRDh6eE5ydHVzV2FNbDlsbzRQeWRMM2RvT2h1U2pYUkNoN0dxRzJYZi1TeF9yd0JWaC1GbkRER1M5OERucFpwY05PbmRnei1uazJFZGpSYzk3WHFSeE80aFFOZS16RGctSTlYNDY4QndEbHlkTlJPaklwQ3F2TnJlcUJBb3FibDljblBYY09GNFFiNl93LURvZHhlRFNsd25kS0NGaVIyZ216Mi1od1JoeHduUzlyTGFiSC13clB3?oc=5",
-        "https://news.google.com/rss/articles/CBMinwJBVV95cUxOYVJERHlwcFZYdnRNUzlnQmg4dmh5RVF3cDB3d29tNy1zMzBQdHBKOUxIc3ZYdzFha2Z2NnVEWV9JUUVqSURyOXZNUHZFaHJHUS1jeV93Y3JJa01PRXB0TmZmalhvbEZJOEc5eHdBOGVQVllPLWxSTkxhZ2VpdGptQm1QR09FNnk1VXRFUDZEU0wzNV9sNWJ2Z2M4c1RYVFdNbXoya2tpRjBDR1Q0ZGMzcUVqZmxVNFNWZGZxUERmbmZ2d1dKdVVZbjFVbGs5WWJQUEJhRUxiMDlYbjRRNHhxT0tvMndjRVdCdjZDLUVldlNxRnNqVU9RZkw0V0NCMzk1dXpZalFUY1R3TGpZUnZ1cTFOLTJnZTNudUtldmtFaw?oc=5"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "headline": "Alibaba shares post their steepest drop in two months as China presses e-commerce platforms on quality standards",
-      "summary": "Headlines from Bloomberg, Yahoo Finance and Seeking Alpha report Alibaba's shares falling on China's curbs on e-commerce platforms over quality standards. Article text was not retrievable, so no figures are given.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcjNQYUdPNm9tWmRpR3A3Y1FfaTI4NGg5OEFKTXlHNmVWNjNzMTd0bkQ4QWh3V3NiT3lQYTNBY0JlbTFkRFZUbjVxdFFVblgyWnZ0Q3JLYnV5bUotMjBEQ2RpZUx4R0dSVk1rNTJUUUc5REI3R25mNmM4cEpUVjdLZTlRdTA2WUp4eFpLVXM3V3N0YkZCVGJrcGlhRlZpVHk0SkZxT2VydzNCMElPX1BkZUNhcw?oc=5",
-        "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYmVqM0p6SGhseFU0MmNuMGg2Z1VrdUlCRVZFWC12LWV5ZUhMd0JhbW1qOGMxb0ZsbkJKZEJsWnZiWERwdnMwMmVTeFBnbS1OM0J2ZXRIcXJtNGhYTmJ3OGV5WXE4R1E3NmhNMGduczBSaHkwWEJ2VjgtUE8wLU9jTWpwRlVWUU9nMjJwOWswdTNiSnlOTUdMRjZOeHNJSTNGek5Ud0tnU3ZsamJaV3RhUW5DalU3ZEhXZEE?oc=5"
       ]
     }
   ]

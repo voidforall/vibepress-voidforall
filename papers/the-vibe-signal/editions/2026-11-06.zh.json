@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-06",
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T14:49:03Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "一个把超长密码当作匹配的密码校验、藏在User-Agent头里的邮箱地址，以及一家银行的设备完整性门槛，构成了今天关于设备与登录控制权的主线。另外，一家实验室提到一次426美元的微调，另一家用约2.1万美元训练了图像模型。",
+  "stories": [
+    {
+      "headline": "“*sshole”：据一篇文章称，在基于musl的Linux上，257至1024个字符的密码可登录本不应接受密码的账户",
+      "summary": "Ozgun Kultekin的文章称，在Alpine、OpenWrt等musl系统上，若sshd未使用PAM，musl的crypt()在失败时返回“*”，而超长密码会失败，因此与密码字段为“*”的账户相匹配。文章称glibc、PAM、Dropbear和OpenBSD不受影响，建议升级到OpenSSH 10.6p2或关闭密码认证。",
+      "whyItMatters": "据称在默认设置下，仅限密钥登录或已锁定的账户（包括Alpine上的root）可被密码登录。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "sshole",
+          "url": "https://sshhole.com"
+        }
+      ]
+    },
+    {
+      "headline": "Thinking Machines发布Inkling 2 Small：5940亿参数MoE，170亿激活，承诺“下周”开放Apache 2.0权重",
+      "summary": "Thinking Machines称，11月5日发布的Inkling 2 Small支持图像输入，原生以NVFP4训练，目前通过其Tinker服务提供，权重暂不开放。其基准成绩为公司自行报告，并称Apache 2.0权重将在安全测试后发布。",
+      "whyItMatters": "若权重按期发布，将新增一个大型开放权重模型；目前只能通过Tinker访问。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Inkling 2 Small - Thinking Machines",
+          "url": "https://thinkingmachines.ai/news/inkling-2-small/"
+        }
+      ]
+    },
+    {
+      "headline": "GitHub议题称Claude Code把用户邮箱写入User-Agent头；Anthropic称有默认开启的隐私模块",
+      "summary": "报告者称，Claude Code（v2.1.318，macOS）在网络请求中把账户邮箱发给第三方网站，随后收到垃圾邮件。维护者称v2.1.317及更高版本带有默认开启的模块来阻止此行为；评论者质疑为何不直接从核心代码移除，并指出还有其他泄露途径。",
+      "whyItMatters": "该讨论显示修复以可开关的模块形式发布，议题仍未关闭。",
+      "category": "科技",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Claude Code sends your email address to websites - GitHub issue",
+          "url": "https://github.com/anthropics/claude-code/issues/107757"
+        }
+      ]
+    },
+    {
+      "headline": "马克·库班称Facebook明知故犯投放AI深度伪造诈骗广告；他引用路透报道称相关文件预计来自诈骗广告的收入达160亿美元",
+      "summary": "Moneywise报道了库班在8月《Pivot》播客中关于盗用其形象的深度伪造广告的言论，并回顾路透2025年关于Meta文件的报道：文件预计诈骗及违禁品广告约占2024年收入的10%，约160亿美元。Meta称这些文件是“选择性的视角”，该数字“粗略且过度包含”。",
+      "whyItMatters": "160亿美元这一数字来自路透2025年报道的内部文件；Meta对其表述提出异议。",
+      "category": "商业",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Mark Cuban says Facebook knowingly runs AI deepfake scam ads - Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html"
+        }
+      ]
+    },
+    {
+      "headline": "Linum发布Pyramid-JiT：20亿参数文生图模型，训练成本约2.1万美元，权重采用Apache 2.0",
+      "summary": "Linum称，这一像素空间扩散Transformer使用了8415个H100小时、每小时2.5美元，合计约21038美元。该公司称其收敛所需样本比早期v2少11倍，无法渲染文字，在全身人像和多人场景上较弱。",
+      "whyItMatters": "该文为一个可用的开放图像模型给出了公开的成本，并说明了其局限。",
+      "category": "科技",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "A decent text-to-image model trained for ~$20K - Linum",
+          "url": "https://www.linum.ai/field-notes/pjit-21k"
+        }
+      ]
+    },
+    {
+      "headline": "据报道荷兰ASN银行的Wero支付在GrapheneOS上失败，用户指向Play Integrity检查",
+      "summary": "一份社区兼容性报告称，自应用1.36.3版起，ASN在激活iDEAL | Wero时运行Google Play Integrity检查，并拒绝未通过更严格配置的设备。ASN回复称替代系统会绕过系统安全控制，无法承诺时间表；用户称Fortuneo和N26可在GrapheneOS上使用。",
+      "whyItMatters": "这是一个支付方式绑定谷歌设备认证、将其他安卓系统用户拒之门外的具体案例。",
+      "category": "观点",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Dutch bank ASN blocks non-Google Android - GitHub issue",
+          "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "2026-11-06",
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T14:49:03Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "周五黄金、比特币和火箭实验室股价出现波动，阿里巴巴的财报日期和Alphabet持有高通股份的消息也登上标题。本期各条目仅依据标题，细节仅限于媒体所报道的内容。",
+  "stories": [
+    {
+      "headline": "黄金在周五非农报告前徘徊于4000美元上方，雅虎财经称；FXStreet报道分析师观点分歧",
+      "summary": "雅虎财经的标题称，黄金在美国就业报告公布前守住4000美元上方。FXStreet的标题称，一位分析师看到20%的上行空间，两位则警告选举后的反弹可能难以持续。",
+      "whyItMatters": "本周早些时候黄金曾低于4000美元，标题中引述的分析师对反弹能否持续看法不一。",
+      "category": "大宗商品",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Gold price today, Friday, November 6, 2026: Gold hovers above $4,000 ahead of jobs report - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZVdYenA1bFg5NlRGRWlVSG90cWRjeG54aXJXSWstYkZwbEN5X3FLT2ZTQ2VTNVlMZzVvOVpQYUZFYzg3NWZRYVY5dHNqeFJpa1dPT2ZmbnVaemswUWxPNlFwZTl1QnNpbWlPM1NJWUJkYllJdDRpN0RPUzVvN0dpZ0s2TF9uUWxtR051eVduTkhaaE1nbjZ0N3haWWFoT25Cb3FLWWE4d1MtYWp2TjdjZEZsMC1vTENvVW5RZXcwTVBNS2dQZDJSOUF3Z3MxQW95WDg1aWw5WDZTUmpDUDVJcFJGOVFHSkNqUGxLNVJlcjA?oc=5"
+        },
+        {
+          "title": "Gold Price Today: One analyst sees 20% more upside, two warn the post-election bounce may not last - FXStreet",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcXBKcjVPQi1QMWw3R0FpVDZpa0YxWUdUaDFqWS1WeTg3UEU4ODhkMDZxSGZ0UG0tNkJUamhndmNHZ2I3SUtVaVg5SjdEb00wNW1tTzREb1NVVGlROUNvaWFXTm5TQURxd09xVUFvTk9ISEdZemZvblI1X2EtUzRacW84LUVxSWFMMDBMeERYdEd0emVKZ2hhT1JVaDRkbmFKRi1La0dPZGFmdnBwaG9YTDZZc2R6bHgyU25NeExkbnIxVjN2RWlZaDAtaTB4T0pFd1Fudlk0WDFHdw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "高盛下调年底黄金价格预期，因美联储转向鹰派，Investing.com和Quartz标题称",
+      "summary": "Investing.com和Quartz的标题均称，随着美联储转向鹰派，高盛下调了年底黄金价格预期。标题未给出新的目标价。",
+      "whyItMatters": "大型银行下调预期，是一个被广泛引用的黄金走势观点发生的公开变化。",
+      "category": "大宗商品",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Goldman lowers year-end gold price forecast on hawkish Fed shift - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYzl2eThFLVlBWHhOSl9FVk51Z0h2NXhZNXNRTVNlMi0takFQNThCYmY2ekl0dzRXdkU3MkVmcTdPdDBlRWE5N2Y3bG01SFE0dG43LW1CMGlmYmJDSkphX21EZ0M2SlBBUU9PNU81LWk0MXdlR013dGdZakVrUERvWi1SekhhbE10dGhrVW50OTk5d2pCWmRBcFpxMWZaM3Z3OG5KYmhVWV80YzJpSzBkZ2tEbVhKTjEwR3Zv?oc=5"
+        },
+        {
+          "title": "Goldman Sachs lowered its gold price forecast as Fed turns hawkish - Quartz",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9jbzZUZEJtOTV0ZktIQmdLbU11eTNyLWRSNGJnbXF3RHJ0aXRtV21ZX010Ri1wTEJfMjNwWkM3cDZfNjNRVG5ISUVpSXpyOHJWdjEwcmx4SW56ekEzaS1KQjFFODA3QlJuVWVDTEZhSWoxWG9MZmRZ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "路透标题称：Alphabet披露持有价值5.48亿美元的高通股份",
+      "summary": "路透的标题称，Alphabet披露持有价值5.48亿美元的高通股份。标题未说明该头寸是否为新建仓，也未说明披露方式。",
+      "whyItMatters": "该披露显示了Alphabet在这家芯片厂商中的持仓。",
+      "category": "公司",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Alphabet discloses $548 million worth of Qualcomm stake - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZXlYcFdWcV9JU25ST013NGFEdWszTUFKS0xKNG5vYVhnVm1fbHFoa2lUWk16RGhqMmVXdzFkQ0NwRGcwaTdSdl82VjdUZWREdnhJZ1VIYXJUQzdWbVJCUTlySUJHVFFzc0M1QlNieFRSTU81bkF2MWpfbUlWQUxnUEhsUzdnUlBwRGo1a0hPcWh3VkFmYnJOX3E2UnE?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "火箭实验室股价下跌，Benzinga称周五股价从急挫中回升",
+      "summary": "Motley Fool和雅虎财经的标题询问周四火箭实验室股价为何下跌，Benzinga周五的标题称股价从急挫中回升。标题未给出原因。",
+      "whyItMatters": "火箭实验室是自选股之一，标题显示股价先急跌、后部分回升。",
+      "category": "公司",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Why Rocket Lab Stock Dropped Today - The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLWR2ZXpzNmI0aV9seEpfVlR2c2FzdlNObUxsbDhxSi1ONW5qT1pXeTUyaVRyaU9SQkE0QUtuWlp3eWNhcHNRc00yU3dKcFBISWMyYWNsd2c4V2tnVXlVNW9NWENXbXJXSlVUQXhONzlDZVpiR1ZmSlRDWUpNLWNBU0NZOA?oc=5"
+        },
+        {
+          "title": "Why Rocket Lab Stock Dropped Today - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVWZwV08tUi01bmh2TXYwRTZlVHM1cmd4M1BpY0lJcGpyNUw1UkhKbWc2ck9Pd0o2Ni1LaG9EcHpURndCdThRZ3ZKQnBpdVdTazBZZWIybkFkNGNxU3RiMWU4akhfT3pLSk9Ib3E3MFJPaXgtcXg0Y3d1UnpTV2dQdnpfZTI2cVhpTWpYS3pyT2pzUkpuSS1RSQ?oc=5"
+        },
+        {
+          "title": "Rocket Lab Stock Pulls Out of a Nosedive Friday: What's Going On? - Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcVRzVjNkak1sMWZsc204eUN4WVhzRHlmMFZybnRER0Yzc0tDd25ldGplb19WQmlRdDdVZVhieUdmQkk2eGtEOHZadDRtOW5iQlZ4TmZ4ZkRXSk5URFBIdlpUc01xc3JwSVdtVENRbFNRVm5WQUdMcU16Q0x5VGxRc3pJczNKLXFTclFFZV9ud2F0YzFJRF93V25DNmtOekpiZURrelZCWl9QcHJDS2JZaHpfUmR3blg2OFA4MlQtWGw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "彭博称比特币抛售缓和；贝莱德比特币ETF流出1.05亿美元，连续第五日净卖出",
+      "summary": "彭博的标题称，投资者尝试谨慎复苏，比特币抛售有所缓和。Bitcoin Foundation的标题称，贝莱德比特币ETF流出1.05亿美元，连续第五个交易日遭到卖出。",
+      "whyItMatters": "据标题所述，价格企稳的同时ETF仍在流出，说明复苏尚未吸引基金资金回流。",
+      "category": "加密货币",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Selloff Eases as Investors Explore Cautious Recovery - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPanI5WVpaVXdYVDM4dVdieTFHSnFjcU9vLUhPMk1velVJMUFZdHdzUjB1WGJMYTlkeVRaVEJVeHdSd0tJVU1IUVpsZ3JReUxORTBLVlFzSGo5cjU2R1dMemRhcWNHbTNfV29oUEFQYldxaTB0UmltbFpsVy1BX1JlV1l2MjByb3RxQVNyTzcwdmp4NDM4UHhrZW9odWVlVmZxX3VuWkxLNVJNRmdPY1gtbA?oc=5"
+        },
+        {
+          "title": "BlackRock Bitcoin ETF Logs $105M Outflow in Fifth Straight Day of Selling - Bitcoin Foundation",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZENUNjlFTl9kMVpmX1Q2LWlSVlZMd1NBbUxvLWNiZ1UxMEduRUFQSzk3ZlJmSFZXd0VkT3RYM013aURMZ1o1dEVHNWhZQjA3eUtOY1NhMUNKVUlvYVZmRjhGY1doWFc0SUNPcS1QZnRrX0taOG1oQ2xReXRLcTNfdGxxaFdvYnUzTHFRbkJLWUh5Z3F4YVFNanFrT25WWHJCblRpa0tvY2UweWE4M05sa2dvNDc4MnM?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Stock Titan称阿里巴巴财报电话会议定于美东11月19日上午7点；Moomoo报道阿里港股开盘料跌3.8%",
+      "summary": "Stock Titan的标题称，阿里巴巴的业绩电话会议定于美东时间11月19日上午7点。Moomoo的标题称，阿里巴巴港股周五预计低开3.8%。",
+      "whyItMatters": "标题给出了阿里巴巴下一次业绩公布的报道时间；我们未能与阿里官方公告核实。",
+      "category": "财报",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Alibaba's results call is set for 7 a.m. Eastern on Nov. 19 - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR1FGQ2V6NG9WZDNGN3ZhQjM3LUlCYXYzYVlSVDJ2dGxzSmFaSENaTFo3Mmozcm1Lb2xhUldUWXJiRjVwSEVIRTBqaENOdDhpdXRhbUtJQkNWbmRaQjhySmE3dExubTJZZFNmQjBRc1FDdUF2aUlSUUJwUFFocVpGVkhWQ29sWE00bUFSM1ZIdGVpeFQycEh4WHAxdnU1MmMzVEtxcHd5QUVxUDNGTTlWTWZ4WVN2RDQ?oc=5"
+        },
+        {
+          "title": "HONG KONG SHARES OF ALIBABA SET TO OPEN DOWN 3.8% - Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTUctakN6VFF2NTVrRGd6TkhUZm5ZT0xZdUhkX1NucDlyOE9rRWFjRm1PVHFqZDZhRm42YUotb0FfVnFKQ1VyRkdOT0xqT3VEXzEtbVJhRDVEOFNIN2xEeGlib1owMHFoN0NETXB4VTktdG9CSkJ3NGZwQ3BqdVRHdzhCUGlyLTV2b0hDWEc0TGgybUV6aVE?oc=5"
+        }
+      ]
+    }
+  ]
+}

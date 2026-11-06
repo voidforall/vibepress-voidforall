@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-06",
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T14:49:03Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A password check that treats a very long password as a match, an email address in a User-Agent header, and a bank's phone-integrity gate headline a day about who controls the device and the login. Elsewhere, a lab cites a $426 fine-tuning session and another trained an image model for about $21K.",
+  "stories": [
+    {
+      "headline": "'*sshole': on musl-based Linux, a 257-to-1024-character password can log in to accounts that should never accept one, a write-up says",
+      "summary": "A write-up by Ozgun Kultekin says that on musl systems such as Alpine and OpenWrt, running sshd without PAM, musl's crypt() returns '*' on failure, and overlong passwords fail, so they match accounts whose password field is '*'. It lists glibc, PAM, Dropbear and OpenBSD as unaffected and recommends OpenSSH 10.6p2 or disabling password authentication.",
+      "whyItMatters": "Key-only and locked accounts, including root on Alpine, can reportedly be reached by password with default settings.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "sshole",
+          "url": "https://sshhole.com"
+        }
+      ]
+    },
+    {
+      "headline": "Thinking Machines' Inkling 2 Small is a 594B-parameter MoE with 17B active; Apache 2.0 weights promised 'next week'",
+      "summary": "Thinking Machines says Inkling 2 Small, announced Nov. 5, takes image input, was trained natively in NVFP4, and is available on its Tinker service with closed weights for now. Its benchmark figures are company-reported, and it says the Apache 2.0 weights will follow pending safety testing.",
+      "whyItMatters": "If the weights ship as promised, another large open-weight model joins the field; for now access is only through Tinker.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Inkling 2 Small - Thinking Machines",
+          "url": "https://thinkingmachines.ai/news/inkling-2-small/"
+        }
+      ]
+    },
+    {
+      "headline": "A GitHub issue says Claude Code put users' email addresses in the User-Agent header; Anthropic points to a default-on privacy mod",
+      "summary": "The reporter says Claude Code (v2.1.318, macOS) sent the account email to third-party sites in web requests and that scam email followed. A maintainer says v2.1.317 and later include a default-on mod that blocks it; commenters ask why it was not removed from core and note other leak paths.",
+      "whyItMatters": "The thread shows a fix shipped as a toggleable mod, with the issue still open.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Claude Code sends your email address to websites - GitHub issue",
+          "url": "https://github.com/anthropics/claude-code/issues/107757"
+        }
+      ]
+    },
+    {
+      "headline": "Mark Cuban says Facebook knowingly runs AI deepfake scam ads; he cites Reuters-reported documents projecting $16B from scam ads",
+      "summary": "Moneywise reports Cuban's August Pivot remarks about deepfake ads using his likeness, and recaps Reuters' 2025 report on Meta documents that projected about 10% of 2024 revenue, roughly $16 billion, from scam and prohibited-product ads. Meta called the documents a 'selective view' and the figure 'rough and overly-inclusive.'",
+      "whyItMatters": "The $16B figure comes from internal documents Reuters reported in 2025; Meta disputes how they are characterized.",
+      "category": "Business",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Mark Cuban says Facebook knowingly runs AI deepfake scam ads - Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html"
+        }
+      ]
+    },
+    {
+      "headline": "Linum releases Pyramid-JiT, a 2B-parameter text-to-image model trained for about $21,000, with Apache 2.0 weights",
+      "summary": "Linum says the pixel-space diffusion transformer used 8,415 H100-hours at $2.50 per hour, about $21,038. It says the model converges in 11 times fewer samples than its earlier v2, cannot render text, and is weak on full-body figures and multi-person scenes.",
+      "whyItMatters": "The post puts a published price on a usable open image model, with its limits stated.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "A decent text-to-image model trained for ~$20K - Linum",
+          "url": "https://www.linum.ai/field-notes/pjit-21k"
+        }
+      ]
+    },
+    {
+      "headline": "Dutch bank ASN's Wero payments reportedly fail on GrapheneOS, with users pointing to Play Integrity checks",
+      "summary": "A community compatibility report says that since app version 1.36.3, ASN runs Google Play Integrity checks when activating iDEAL | Wero and rejects devices that fail the stricter profile. ASN's replies say alternative systems bypass OS security controls and it cannot commit to a timeline; users say Fortuneo and N26 work on GrapheneOS.",
+      "whyItMatters": "It is a concrete case of a payment method tied to Google's device attestation, with customers on other Android builds shut out.",
+      "category": "Ideas",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Dutch bank ASN blocks non-Google Android - GitHub issue",
+          "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105"
+        }
+      ]
+    }
+  ]
+}
