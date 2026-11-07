@@ -1,0 +1,86 @@
+{
+  "id": "2026-11-07",
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T13:44:38Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "本周后段,Rocket Lab、阿里巴巴、黄金和比特币均有波动。本期所有条目仅依据标题,细节仅限于媒体所报道的内容。",
+  "stories": [
+    {
+      "headline": "Seeking Alpha 称 Rocket Lab 反弹上涨 13%;Stocktwits 称其正就蓝色起源 7 亿美元 NASA 火星合同提出异议",
+      "summary": "Seeking Alpha 的标题称 Rocket Lab 上涨 13%,从近期跌幅中反弹。Stocktwits 的标题称该公司对蓝色起源 7 亿美元的 NASA 火星合同提出异议,并称审查具有“惩罚性”。标题未提供更多细节。",
+      "whyItMatters": "Rocket Lab 是自选股之一;标题显示其单日大涨,同时据报道提出了合同异议。",
+      "category": "公司",
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab climbs 13%, rebounding from recent losses (RKLB:NASDAQ) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbzYyUmJ2bHVVRkFLempxM0h3MHBvYmdvaFVCQi1yRVlxNElEZnhnNVFxLWN2QVVsTER1dzNxSndidzRJOU9uVjdob2l6MlVTZXl0Y1lpQ0toRFl2LXJSX3o5YnNpd2tSWHRGVERuZ240X1E1V2s5ckRFS3N1UEU5Yk5MMTZpYTJ2WEhTY2s3WWdqUQ?oc=5"
+        },
+        {
+          "title": "RKLB Stock Slips Overnight: Rocket Lab Protests Blue Origin’s $700M NASA Mars Deal, Calls Review ‘Punitive’ - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbjMtSG1aVEJCTUR6dTdVUUVsY0lpNVhLNTNaTngyUFJhdVZobmQ5YkFfbDR4dEx1U1d2akhKaFFnNUx0cTFtN3JhMGFkNFlNUmptNXNHcnpHZnVpRDdvUGg1c0xRTTd1S3MzeUtYeWFUWGJ3Y2pvcjkwMlNFckhTUTNYSEEtRVlzU3NaN2Y5WjRqVk1TbHNBekt6Q1dvUDFmX3d2RTg3T0dFNXljWDlWVTdmZ1ZacEQ4djNabGpBWWZvUVBlQmdGN1g1V3lUVERfT3VR?oc=5"
+        }
+      ],
+      "importance": 1
+    },
+    {
+      "headline": "Kitco 称黄金守住 4,000 美元;StoneX 提示较高点下跌 17%",
+      "summary": "Kitco 的标题称,黄金守住 4,000 美元支撑,但强劲的美国就业数据和通胀风险威胁其回升。StoneX 的标题称 17% 的跌幅威胁多年上升趋势。",
+      "whyItMatters": "两家机构的标题都把 4,000 美元视为区分回调与更深跌破的分界线。",
+      "category": "大宗商品",
+      "sourceLinks": [
+        {
+          "title": "Gold price holds critical $4,000 support, but strong U.S. jobs data and inflation risks threaten recovery - Kitco",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMVFrY1hheExQaDduSlBRcndvS2FkcW84Y0UwRnVZUGRKSnJ5eW9keHNzemhJNEpadVQxRlJXMHNxYzhOVXVLakZNNTBBNmNsYTFadkpvN0Z4RnFwWUtYcVoxRlZjV3pNaWphd2FZRGt5eGp4Z20wc2xkeTN3dXFpa0xodkIwdGlQTHhCc05PQTBISkNjVjE1LTZSMUR0UV91SlFNR0x5STlSeEt6R2lOR0JsUXBURzk3V2c?oc=5"
+        },
+        {
+          "title": "Gold Price Forecast: XAU/USD 17% Plunge Threatens Multi-Year Uptrend - StoneX",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVc5VDAwZFdVZk0xR0l0MDcxSzl2OEtTQmcwMm5HVGptNi1RbU81RWdqclBpbHVzYi00c2J0bzE3dUUxeDNSRHlyRmRPMWdhQlFWUjNpNHhWNkdYVm83OTl6Q0tOR0QxQkVwNjY5OVZ1UzdjXzh4aGg5RFNtbHlZOGlPTzA4OVRSZ0hMWm5KemxDV296SUtZeTYwazJaUTJMUEpVSy1SN05xWnN0elM1YXBtMGhSNFYz?oc=5"
+        }
+      ],
+      "importance": 2
+    },
+    {
+      "headline": "StoneX 称比特币 12.5% 的跌幅逼近关键支撑",
+      "summary": "StoneX 的标题称,BTC/USD 12.5% 的跌幅正接近关键支撑。标题未给出具体价位。",
+      "whyItMatters": "该分析称比特币近期跌幅之大,已使分析师提示其可能测试支撑位。",
+      "category": "加密货币",
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Price Forecast: BTC/USD 12.5% Plunge Nears Critical Support - StoneX",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcThiSUg4MXJzYXZoM0Q3UFoyMjVJZmgwdm1JU1A4SWQwQklvVWVMSmJycXFEdzNlemRvWmh1ajFzSDIwc0ozbHBnXzJPWEtfcGZtZEE1MVAzTEQ5Rzd3elhPcEZ2a2FYY3Z0eF85V2dsUjFRaHgwNG1OLUZNMjJieVFTVjJjaHRjbXkweDVEaXFZQjhDbHpjZmthYzloRTducy1NU1haakxyVHFzaFE3MGxjd1RPd28?oc=5"
+        }
+      ],
+      "importance": 3
+    },
+    {
+      "headline": "MarketWatch 称阿里巴巴 ADR 周五强势跑赢大盘;雅虎财经称其一周上涨 12%",
+      "summary": "MarketWatch 的标题称阿里巴巴 ADR 在强势交易日跑赢市场。雅虎财经的标题称,在纳斯达克下跌之际,其一周上涨 12%。",
+      "whyItMatters": "据标题所述,阿里巴巴本周走势与纳斯达克大盘相反。",
+      "category": "市场",
+      "sourceLinks": [
+        {
+          "title": "Alibaba Group Holding Ltd. ADR outperforms market on strong trading day - MarketWatch",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWjc3VEVZWjV3aE5sQ2xGSjh1RlFtV1l6cmdPVmFjMXlFTkdXcU9ZV2xIQ2Z3eXkzRUZ5Y2ZxNkhXWVBoUXp5M2ZBWEVtTGhSUVlLa3ZSX0RFaUhPZHB6akZqcTJrbVEtcHBxM0otUDQ4bTNxWldMTm90MmJUNVdPa2p6c3F1YzFKazFqTVMyQmVJQXJHdWdTTDNuTDFVeUgtSW9Eb3BvUUROTmMzeVJjdG1tTGhkOWl2ZS1vaGVRM0szZnd1TGZBeEtCN0hSS1d0SWN1WG04eEdlZGpoRHFRRUVn?oc=5"
+        },
+        {
+          "title": "Alibaba Just Gained 12% in a Week as the Nasdaq Fell: Take Profits, or Buy More? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWGxwSG5ub0Q3RGhpMUhzaDVDemp0Z01ZSDVRVmNMd3Q5YXAzakhrV2xoZVpNZUFXMDAzWWRfQU5hRWZKdW91WFJWTGk0dGtGQk9tYkV0SkdmOTZFS0htMkxTQlFKRXlEQks0UVFXRE16VVlFTHkzYzB3akQtQ0hpczQxSzU1VmhydF9KY3dKTnNDem01QXRz?oc=5"
+        }
+      ],
+      "importance": 4
+    },
+    {
+      "headline": "Motley Fool 提问:谷歌新的加密货币举措是否是买入 Alphabet 的理由",
+      "summary": "Motley Fool 的文章(雅虎财经转载)探讨谷歌新的加密货币举措。我们只读到标题,因此此处未描述该举措的性质。",
+      "whyItMatters": "这表明自选股公司的加密相关动作引发评论;标题未报道任何已披露的财务影响。",
+      "category": "公司",
+      "sourceLinks": [
+        {
+          "title": "Is Google's New Cryptocurrency Push a Reason to Buy Alphabet Stock? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQVhMTUlUQjBId3RNNHJsVmtOU0t3Zy0xb0dodjVtR3FTUVFsRnFWZTI1LUhtRXVjLWJNUnpQTjl4ckhfeDBEMzhOU3ZjRHNHMHpydk80SWd1aXUwY1BnTU5nQnExdDA5SWwyajRJQmJvWW1vMmo5NXV5ZVRDNmdwLTFCYWE0Mkt5empvOW9fV2hQb2Z3U0ZQVmNYdy1ZRlVRVnVCTE1n?oc=5"
+        }
+      ],
+      "importance": 5
+    }
+  ]
+}

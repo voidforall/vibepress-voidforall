@@ -1,7 +1,47 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-06T14:49:10Z",
+  "updatedAt": "2026-11-07T13:44:58Z",
   "events": [
+    {
+      "date": "2026-11-07",
+      "headline": "Tesla to wind down Cybertruck production around mid-2027, Musk says",
+      "summary": "Musk said on X that Tesla will wind down Cybertruck output at its Texas factory around mid-2027 to free capacity for the Cybercab robotaxi. NBC reports it is unclear whether production moves elsewhere or ends.",
+      "urls": [
+        "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "headline": "RealPage rent-pricing case wraps with nearly $360M to renters",
+      "summary": "A Tennessee federal court approved settlements from landlords totaling nearly $360 million over claims that RealPage's software helped push rents up. The companies admitted no fault and agreed to stop feeding nonpublic data into its pricin…",
+      "urls": [
+        "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "headline": "Libghostty 1.0 ships with a stable C ABI; JetBrains terminals already run on it",
+      "summary": "Mitchell Hashimoto released libghostty-vt 1.0, an MIT-licensed C terminal-emulation library with semver and strict ABI promises. He lists JetBrains IDEs, KDE, and a pending Neovim switch among users.",
+      "urls": [
+        "https://mitchellh.com/writing/libghostty-1-0"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "headline": "Hightouch: a small model that escalates to Opus matched it at 4.4x lower cost on an easy test, 1.8x on a hard one",
+      "summary": "Hightouch tested identity-resolution judging on 1,000 synthetic identities. A hybrid of its Jev model and Claude Opus 5.5 scored 98.8% against Opus's 99.0% on the easy set, and 95.3% against 95.1% on the hard set.",
+      "urls": [
+        "https://hightouch.com/blog/llm-judges-identity-resolution"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "headline": "Gemini Omni 1.2 Flash generates 15-second videos at $0.07 per second for 720p",
+      "summary": "Google says Omni 1.2 Flash makes and edits clips up to 15 seconds, up from 10, with multi-turn edits, and costs about 30% less than 1.1. It is generally available in the Gemini API and Google Cloud.",
+      "urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+      ]
+    },
     {
       "date": "2026-11-06",
       "headline": "Thinking Machines' Inkling 2 Small is a 594B-parameter MoE with 17B active; Apache 2.0 weights promised 'next week'",
@@ -618,54 +658,6 @@
       "summary": "The experimental integration adds a uv check command that builds the environment and runs ty, with --package, --all-packages and --script options, and PEP 723 script support. It needs uv 0.12.3+ and ty 0.0.76+; Ruff is planned next.",
       "urls": [
         "https://astral.sh/blog/uv-ty-integration"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "headline": "eMudhra will exit the global SSL/TLS certificate business after its intermediate-CA incident",
-      "summary": "In an Oct. 22 release, eMudhra said its board decided to withdraw from global SSL/TLS certificates, which it says are about 1% of revenue, after the incident it says it handled by revoking the affected CAs within 14 hours. Customers will g…",
-      "urls": [
-        "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "headline": "WorldTUI: a 360M-parameter model that simulates a terminal with no shell behind it",
-      "summary": "The author fine-tuned Qwen2.5-Coder-0.5B to predict screen changes from keypresses, scoring 80/106 on ShellBench against 52 and 60 for prompted baselines. It can edit files and run vim and tmux, but the author says it is not a reliable fil…",
-      "urls": [
-        "https://simedw.com/2026/10/21/world-model-terminal/"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "headline": "Quad9 will stop serving France on Nov. 24 rather than block domains for a French court",
-      "summary": "The Swiss nonprofit DNS resolver says a French court, in a case brought by broadcaster beIN, ordered it to block certain domain names for users in France, with the daily penalty reduced from €580,000 to €1,000. Quad9 says it cannot comply…",
-      "urls": [
-        "https://quad9.net/news/blog/au-revoir-france/"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "headline": "NVIDIA's OpenShell, an Apache-2.0 runtime, sandboxes autonomous agents under declared policies",
-      "summary": "OpenShell runs each agent in a kernel-isolated sandbox, checks every network connection against policy, and injects credentials only on requests to approved endpoints so agents never see them. The repository lists SDKs for Python, TypeScri…",
-      "urls": [
-        "https://github.com/NVIDIA/OpenShell"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "headline": "Anthropic says Claude produced machine-checked memory-safety proofs for 239 entry points across 123 open-source libraries",
-      "summary": "Anthropic reports Claude proved, at the RISC-V assembly level, that the programs never crash from memory-safety errors or failed assertions for any input under 64 MB, using about 180 million lines of Rocq proof and finding hundreds of bugs…",
-      "urls": [
-        "https://www.anthropic.com/research/formal-verification"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "headline": "A Hacker News poster says his early post on PHP RCE bugs broke an embargo he was never told about",
-      "summary": "Pete Cooper posted that he published details of PHP remote-code-execution bugs CVE-2026-109618 and CVE-2026-109619 before the coordinated disclosure date, writing that he knew of no embargo. Commenters in the thread say the post pushed dis…",
-      "urls": [
-        "https://news.ycombinator.com/item?id=50193416"
       ]
     }
   ]

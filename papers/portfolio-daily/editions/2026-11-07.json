@@ -1,0 +1,86 @@
+{
+  "id": "2026-11-07",
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T13:44:38Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Rocket Lab, Alibaba, gold and bitcoin all moved late in the week. Every item rests on headlines alone, so details are limited to what the outlets reported.",
+  "stories": [
+    {
+      "headline": "Rocket Lab climbs 13% in a rebound, Seeking Alpha reports; Stocktwits says it is protesting Blue Origin's $700M NASA Mars award",
+      "summary": "A Seeking Alpha headline says Rocket Lab rose 13%, rebounding from recent losses. A Stocktwits headline says the company protested Blue Origin's $700 million NASA Mars deal and called the review 'punitive'. The headlines give no further detail.",
+      "whyItMatters": "Rocket Lab is a watchlist holding, and the headlines point to a sharp one-day rise alongside a reported contract protest.",
+      "category": "Company",
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab climbs 13%, rebounding from recent losses (RKLB:NASDAQ) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbzYyUmJ2bHVVRkFLempxM0h3MHBvYmdvaFVCQi1yRVlxNElEZnhnNVFxLWN2QVVsTER1dzNxSndidzRJOU9uVjdob2l6MlVTZXl0Y1lpQ0toRFl2LXJSX3o5YnNpd2tSWHRGVERuZ240X1E1V2s5ckRFS3N1UEU5Yk5MMTZpYTJ2WEhTY2s3WWdqUQ?oc=5"
+        },
+        {
+          "title": "RKLB Stock Slips Overnight: Rocket Lab Protests Blue Origin’s $700M NASA Mars Deal, Calls Review ‘Punitive’ - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbjMtSG1aVEJCTUR6dTdVUUVsY0lpNVhLNTNaTngyUFJhdVZobmQ5YkFfbDR4dEx1U1d2akhKaFFnNUx0cTFtN3JhMGFkNFlNUmptNXNHcnpHZnVpRDdvUGg1c0xRTTd1S3MzeUtYeWFUWGJ3Y2pvcjkwMlNFckhTUTNYSEEtRVlzU3NaN2Y5WjRqVk1TbHNBekt6Q1dvUDFmX3d2RTg3T0dFNXljWDlWVTdmZ1ZacEQ4djNabGpBWWZvUVBlQmdGN1g1V3lUVERfT3VR?oc=5"
+        }
+      ],
+      "importance": 1
+    },
+    {
+      "headline": "Gold holds the $4,000 level, Kitco says, as StoneX flags a 17% fall from the peak",
+      "summary": "Kitco's headline says gold held $4,000 support while strong US jobs data and inflation risks threaten a recovery. A StoneX headline says a 17% plunge threatens the multi-year uptrend.",
+      "whyItMatters": "Two forecasters' headlines frame the $4,000 level as the line separating a correction from a deeper break.",
+      "category": "Commodities",
+      "sourceLinks": [
+        {
+          "title": "Gold price holds critical $4,000 support, but strong U.S. jobs data and inflation risks threaten recovery - Kitco",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMVFrY1hheExQaDduSlBRcndvS2FkcW84Y0UwRnVZUGRKSnJ5eW9keHNzemhJNEpadVQxRlJXMHNxYzhOVXVLakZNNTBBNmNsYTFadkpvN0Z4RnFwWUtYcVoxRlZjV3pNaWphd2FZRGt5eGp4Z20wc2xkeTN3dXFpa0xodkIwdGlQTHhCc05PQTBISkNjVjE1LTZSMUR0UV91SlFNR0x5STlSeEt6R2lOR0JsUXBURzk3V2c?oc=5"
+        },
+        {
+          "title": "Gold Price Forecast: XAU/USD 17% Plunge Threatens Multi-Year Uptrend - StoneX",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVc5VDAwZFdVZk0xR0l0MDcxSzl2OEtTQmcwMm5HVGptNi1RbU81RWdqclBpbHVzYi00c2J0bzE3dUUxeDNSRHlyRmRPMWdhQlFWUjNpNHhWNkdYVm83OTl6Q0tOR0QxQkVwNjY5OVZ1UzdjXzh4aGg5RFNtbHlZOGlPTzA4OVRSZ0hMWm5KemxDV296SUtZeTYwazJaUTJMUEpVSy1SN05xWnN0elM1YXBtMGhSNFYz?oc=5"
+        }
+      ],
+      "importance": 2
+    },
+    {
+      "headline": "StoneX says bitcoin's 12.5% plunge nears critical support",
+      "summary": "A StoneX headline says BTC/USD's 12.5% drop is approaching critical support. The headline gives no price levels.",
+      "whyItMatters": "The note describes bitcoin's recent fall as large enough for the analyst to flag a support test.",
+      "category": "Crypto",
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Price Forecast: BTC/USD 12.5% Plunge Nears Critical Support - StoneX",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcThiSUg4MXJzYXZoM0Q3UFoyMjVJZmgwdm1JU1A4SWQwQklvVWVMSmJycXFEdzNlemRvWmh1ajFzSDIwc0ozbHBnXzJPWEtfcGZtZEE1MVAzTEQ5Rzd3elhPcEZ2a2FYY3Z0eF85V2dsUjFRaHgwNG1OLUZNMjJieVFTVjJjaHRjbXkweDVEaXFZQjhDbHpjZmthYzloRTducy1NU1haakxyVHFzaFE3MGxjd1RPd28?oc=5"
+        }
+      ],
+      "importance": 3
+    },
+    {
+      "headline": "Alibaba ADR outperforms the market on a strong Friday, MarketWatch says; Yahoo Finance notes a 12% weekly gain",
+      "summary": "A MarketWatch headline says Alibaba's ADR outperformed on a strong trading day. A Yahoo Finance headline says it gained 12% in a week while the Nasdaq fell.",
+      "whyItMatters": "Alibaba moved against the broader Nasdaq this week, according to the headlines.",
+      "category": "Markets",
+      "sourceLinks": [
+        {
+          "title": "Alibaba Group Holding Ltd. ADR outperforms market on strong trading day - MarketWatch",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWjc3VEVZWjV3aE5sQ2xGSjh1RlFtV1l6cmdPVmFjMXlFTkdXcU9ZV2xIQ2Z3eXkzRUZ5Y2ZxNkhXWVBoUXp5M2ZBWEVtTGhSUVlLa3ZSX0RFaUhPZHB6akZqcTJrbVEtcHBxM0otUDQ4bTNxWldMTm90MmJUNVdPa2p6c3F1YzFKazFqTVMyQmVJQXJHdWdTTDNuTDFVeUgtSW9Eb3BvUUROTmMzeVJjdG1tTGhkOWl2ZS1vaGVRM0szZnd1TGZBeEtCN0hSS1d0SWN1WG04eEdlZGpoRHFRRUVn?oc=5"
+        },
+        {
+          "title": "Alibaba Just Gained 12% in a Week as the Nasdaq Fell: Take Profits, or Buy More? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWGxwSG5ub0Q3RGhpMUhzaDVDemp0Z01ZSDVRVmNMd3Q5YXAzakhrV2xoZVpNZUFXMDAzWWRfQU5hRWZKdW91WFJWTGk0dGtGQk9tYkV0SkdmOTZFS0htMkxTQlFKRXlEQks0UVFXRE16VVlFTHkzYzB3akQtQ0hpczQxSzU1VmhydF9KY3dKTnNDem01QXRz?oc=5"
+        }
+      ],
+      "importance": 4
+    },
+    {
+      "headline": "Motley Fool asks whether Google's new cryptocurrency push is a reason to buy Alphabet",
+      "summary": "A Motley Fool piece, syndicated on Yahoo Finance, examines a new Google cryptocurrency push. The headline is all we read, so the nature of the push is not described here.",
+      "whyItMatters": "It shows crypto-related activity at a watchlist company drawing commentary; the headline reports no disclosed financial effect.",
+      "category": "Company",
+      "sourceLinks": [
+        {
+          "title": "Is Google's New Cryptocurrency Push a Reason to Buy Alphabet Stock? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQVhMTUlUQjBId3RNNHJsVmtOU0t3Zy0xb0dodjVtR3FTUVFsRnFWZTI1LUhtRXVjLWJNUnpQTjl4ckhfeDBEMzhOU3ZjRHNHMHpydk80SWd1aXUwY1BnTU5nQnExdDA5SWwyajRJQmJvWW1vMmo5NXV5ZVRDNmdwLTFCYWE0Mkt5empvOW9fV2hQb2Z3U0ZQVmNYdy1ZRlVRVnVCTE1n?oc=5"
+        }
+      ],
+      "importance": 5
+    }
+  ]
+}

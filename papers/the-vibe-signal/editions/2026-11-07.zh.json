@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-07",
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T13:44:38Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "一条卡车产线有了终止日期,一个终端库有了稳定接口,而一项省钱说法在更难的测试上缩水了。",
+  "stories": [
+    {
+      "headline": "马斯克称特斯拉将在 2027 年年中前后停产 Cybertruck",
+      "summary": "马斯克在 X 上表示,特斯拉将在 2027 年年中前后逐步停止德州工厂的 Cybertruck 生产,为 Cybercab 机器人出租车腾出产能。NBC 报道称,尚不清楚生产是转移他处还是终止。",
+      "whyItMatters": "这款 2023 年推出的旗舰产品有了终点;2025 年美国销量下降 48% 至 20,237 辆,而马斯克此前预测的是年销 25 万辆。",
+      "category": "商业",
+      "sourceLinks": [
+        {
+          "title": "Tesla to wind down Cybertruck production",
+          "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817"
+        }
+      ],
+      "importance": 1
+    },
+    {
+      "headline": "Libghostty 1.0 发布,C ABI 趋于稳定;JetBrains 终端已在使用",
+      "summary": "Mitchell Hashimoto 发布了 libghostty-vt 1.0,这是一个 MIT 许可的 C 终端模拟库,遵循语义化版本并作出严格的 ABI 承诺。他列出 JetBrains IDE、KDE 以及待定的 Neovim 切换等用户。",
+      "whyItMatters": "终端引擎成为其他工具可嵌入的稳定依赖,CI 覆盖 Linux、macOS、Windows、Android 和 WebAssembly。",
+      "category": "科技",
+      "sourceLinks": [
+        {
+          "title": "Libghostty 1.0",
+          "url": "https://mitchellh.com/writing/libghostty-1-0"
+        }
+      ],
+      "importance": 2
+    },
+    {
+      "headline": "Gemini Omni 1.2 Flash 可生成 15 秒视频,720p 每秒 0.07 美元",
+      "summary": "谷歌称 Omni 1.2 Flash 可生成和编辑最长 15 秒的片段(此前为 10 秒),支持多轮编辑,价格比 1.1 低约 30%。它已在 Gemini API 和 Google Cloud 全面可用。",
+      "whyItMatters": "更长的片段和约 30% 的降价,改变了通过 API 制作短生成视频的成本。",
+      "category": "科技",
+      "sourceLinks": [
+        {
+          "title": "Introducing Gemini Omni 1.2 Flash",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+        }
+      ],
+      "importance": 3
+    },
+    {
+      "headline": "Hightouch:小模型在必要时求助 Opus,在简单测试中以低 4.4 倍的成本追平 Opus,难题上为 1.8 倍",
+      "summary": "Hightouch 在 1,000 个合成身份上测试了身份解析判断。其 Jev 模型与 Claude Opus 5.5 的混合方案在简单集上得分 98.8%(Opus 为 99.0%),在困难集上为 95.3%(Opus 为 95.1%)。",
+      "whyItMatters": "“4 倍”的标题只适用于简单集;在困难集上节省约 1.8 倍(每 1,000 次 2.94 美元对 5.39 美元),且基于厂商自己的基准。",
+      "category": "观点",
+      "sourceLinks": [
+        {
+          "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+          "url": "https://hightouch.com/blog/llm-judges-identity-resolution"
+        }
+      ],
+      "importance": 4
+    },
+    {
+      "headline": "RealPage 租金定价案以近 3.6 亿美元赔付租户收官",
+      "summary": "田纳西州联邦法院批准了房东们总额近 3.6 亿美元的和解,涉及 RealPage 软件助推租金上涨的指控。各公司不承认过错,并同意不再向其定价建议提供非公开数据。",
+      "whyItMatters": "五个州的总检察长未能阻止和解,但法官表示会考虑其关切;针对未和解被告的诉讼仍在继续。",
+      "category": "商业",
+      "sourceLinks": [
+        {
+          "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
+          "url": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/"
+        }
+      ],
+      "importance": 5
+    }
+  ]
+}

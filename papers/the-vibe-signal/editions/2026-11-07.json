@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-07",
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T13:44:38Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A truck line gets an end date, a terminal library gets a stable interface, and a cost-saving claim shrinks on the harder test.",
+  "stories": [
+    {
+      "headline": "Tesla to wind down Cybertruck production around mid-2027, Musk says",
+      "summary": "Musk said on X that Tesla will wind down Cybertruck output at its Texas factory around mid-2027 to free capacity for the Cybercab robotaxi. NBC reports it is unclear whether production moves elsewhere or ends.",
+      "whyItMatters": "A flagship product launched in 2023 now has an end date; US sales fell 48% in 2025 to 20,237, against Musk's earlier 250,000-a-year prediction.",
+      "category": "Business",
+      "sourceLinks": [
+        {
+          "title": "Tesla to wind down Cybertruck production",
+          "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817"
+        }
+      ],
+      "importance": 1
+    },
+    {
+      "headline": "Libghostty 1.0 ships with a stable C ABI; JetBrains terminals already run on it",
+      "summary": "Mitchell Hashimoto released libghostty-vt 1.0, an MIT-licensed C terminal-emulation library with semver and strict ABI promises. He lists JetBrains IDEs, KDE, and a pending Neovim switch among users.",
+      "whyItMatters": "A terminal engine is now a stable dependency other tools can embed, with CI on Linux, macOS, Windows, Android, and WebAssembly.",
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "Libghostty 1.0",
+          "url": "https://mitchellh.com/writing/libghostty-1-0"
+        }
+      ],
+      "importance": 2
+    },
+    {
+      "headline": "Gemini Omni 1.2 Flash generates 15-second videos at $0.07 per second for 720p",
+      "summary": "Google says Omni 1.2 Flash makes and edits clips up to 15 seconds, up from 10, with multi-turn edits, and costs about 30% less than 1.1. It is generally available in the Gemini API and Google Cloud.",
+      "whyItMatters": "Longer clips and a roughly 30% lower price change the cost of producing short generated video through the API.",
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "Introducing Gemini Omni 1.2 Flash",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+        }
+      ],
+      "importance": 3
+    },
+    {
+      "headline": "Hightouch: a small model that escalates to Opus matched it at 4.4x lower cost on an easy test, 1.8x on a hard one",
+      "summary": "Hightouch tested identity-resolution judging on 1,000 synthetic identities. A hybrid of its Jev model and Claude Opus 5.5 scored 98.8% against Opus's 99.0% on the easy set, and 95.3% against 95.1% on the hard set.",
+      "whyItMatters": "The '4x' headline holds for the easy set only; on the hard set the saving was about 1.8x ($2.94 vs $5.39 per 1,000), on a vendor's own benchmark.",
+      "category": "Ideas",
+      "sourceLinks": [
+        {
+          "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+          "url": "https://hightouch.com/blog/llm-judges-identity-resolution"
+        }
+      ],
+      "importance": 4
+    },
+    {
+      "headline": "RealPage rent-pricing case wraps with nearly $360M to renters",
+      "summary": "A Tennessee federal court approved settlements from landlords totaling nearly $360 million over claims that RealPage's software helped push rents up. The companies admitted no fault and agreed to stop feeding nonpublic data into its pricing recommendations.",
+      "whyItMatters": "Five state attorneys general failed to block the settlements, though the judge said he would consider their concerns; claims against non-settling defendants continue.",
+      "category": "Business",
+      "sourceLinks": [
+        {
+          "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
+          "url": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/"
+        }
+      ],
+      "importance": 5
+    }
+  ]
+}
