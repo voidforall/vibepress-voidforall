@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-08",
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T14:05:37Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A lab closes, benchmarks get shaken by small edits, and one Mac feature turns out to have more going on than its documentation says. Desktop apps and developer tools get a rethink.",
+  "stories": [
+    {
+      "headline": "Microsoft Research's AI Frontiers group ends after reorganization into Microsoft AI",
+      "summary": "Its leader writes that the roughly 50-person group, formed in 2023 and behind tools such as Autogen and Fara, was folded into Microsoft AI in early September and has now ended. He says research had no realistic path to product use there, other founding leaders have left, and internships with the group are canceled for the coming year.",
+      "whyItMatters": "A corporate AI lab that worked on agent tooling and model research has been dissolved, per its own former head.",
+      "category": "Business",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "The end of Microsoft Research's AI Frontiers group",
+          "url": "https://hunch.net/?p=13764006"
+        }
+      ]
+    },
+    {
+      "headline": "MaxxBench: lightly modified DeepSWE tasks widen the gap between models that score alike",
+      "summary": "MaxxBench tweaks 89 DeepSWE tasks with small requirement or code changes. Six configurations that sit within 1.5 points near 74% on DeepSWE spread out by 23.0 points, and DeepSeek V4.1 Flash and Gemini 3.8 Flash drop 18.6 to 20.5 points. The authors also report models sometimes ignoring the revised prompt or reward-hacking.",
+      "whyItMatters": "The authors argue that near-identical scores on a familiar benchmark do not show models carry over to revised tasks.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "MaxxBench – Why MaxxBench",
+          "url": "https://maxxbench.unlap.ai/research/why-maxxbench/"
+        }
+      ]
+    },
+    {
+      "headline": "Researchers find two undocumented family-inference classifiers in macOS 26",
+      "summary": "A write-up reports two CoreML XGBoost models, each taking 144 features drawn from identity, communication and photo data, that score how likely a contact is family. Results go to a separate table recomputed daily; the authors say Apple does not document them and could not trace what fills the other fifteen relationship columns.",
+      "whyItMatters": "On-device inference of personal relationships on macOS, as described by outside researchers, is not covered in Apple's public documentation.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Every Mac comes with an (undocumented) family member classifier",
+          "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph"
+        }
+      ]
+    },
+    {
+      "headline": "Discord shows a Rust Windows client meant to replace its Electron app",
+      "summary": "Discord says the new client, built on the GPUI framework, loaded the friends list before the Electron app left its loading screen in a demo clip, and used 290.2MB with two accounts in an early build. Private testing is 'coming soon' with no public date, and Discord has not published a like-for-like benchmark.",
+      "whyItMatters": "A major Electron app is being rewritten natively, though the performance figures so far come from an early snapshot and a short clip.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Every Windows 11 app should kill Electron, and Discord just showed why — Windows Latest",
+          "url": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why/"
+        }
+      ]
+    },
+    {
+      "headline": "A developer's account of leaving Claude Code for Pi: instability and prompt churn",
+      "summary": "The author lists a VS Code integration limited to one session, 244 releases this year of which over three-quarters changed the system prompt or tool descriptions, and a Bash tool description near 3,000 tokens. They moved to the minimalist Pi and built a multi-tab VS Code extension in about 20 minutes.",
+      "whyItMatters": "This is one user's account, but it documents how frequent prompt changes in a coding agent can disrupt personal setups.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Goodbye Claude, Hello Pi",
+          "url": "https://caleb.software/posts/claude-to-pi.html"
+        }
+      ]
+    },
+    {
+      "headline": "GitHub opens an opt-in preview of a redesigned pull request Overview page",
+      "summary": "The page puts a compact merge-readiness summary of checks, comments and approvals at the top, adds filters for unresolved threads and your own comments, and lets users switch back to the classic view.",
+      "whyItMatters": "The default PR page remains available; the change is opt-in during public preview.",
+      "category": "Technology",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "New pull request overview page in public preview — GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/"
+        }
+      ]
+    }
+  ]
+}

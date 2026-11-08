@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-08",
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T14:05:37Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "周末资讯偏少:大部分新候选为观点文章、基金持仓通知或本周已刊登内容,因此本期仅收录一条能从原文核实的披露事实。",
+  "stories": [
+    {
+      "headline": "Globalstar 请求 FCC 审慎审查 Rocket Lab 80 亿美元收购 Iridium 交易;答复截止日为 11 月 9 日",
+      "summary": "Globalstar 向 FCC 表示,Rocket Lab 通过与 MDA 的 1.43 亿美元分包合同为其供应卫星,若收购 Iridium 可能构成竞争风险,但 Globalstar 并未反对该并购。Rocket Lab 与 Iridium 回应称,SpaceX 和 Ligado 提出的担忧早于该交易,并敦促尽快批准,同时援引 FCC 近期批准亚马逊 115 亿美元收购 Globalstar 的先例。",
+      "whyItMatters": "FCC 许可转让仍是该交易尚待完成的批准之一,双方目标是 2027 年年中交割;对异议的答复截止日为 11 月 9 日。",
+      "category": "监管",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "RKLB's Iridium Deal Draws Heat As Globalstar Echoes SpaceX Concerns — Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/rklb-iridium-deal-globalstar-spacex-concerns-rocketlab-fast-fcc-approval/cNGQHAcR957"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-08",
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T14:05:37Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A thin weekend slate: most fresh candidates were opinion, fund-holding notices or items already run this week, so this edition carries only the one disclosed-facts story we could verify from its source text.",
+  "stories": [
+    {
+      "headline": "Globalstar asks FCC to scrutinize Rocket Lab's $8B Iridium deal; reply deadline is Nov. 9",
+      "summary": "Globalstar told the FCC that Rocket Lab's role as its satellite supplier, via a $143 million subcontract with MDA, could become a competitive risk if Rocket Lab owns Iridium, though it did not oppose the merger. Rocket Lab and Iridium replied that concerns raised by SpaceX and Ligado predate the deal, and urged prompt approval, citing the FCC's recent approval of Amazon's $11.5 billion Globalstar acquisition.",
+      "whyItMatters": "The FCC license transfer is a remaining approval for the deal, which the companies target to close in mid-2027; replies to oppositions are due Nov. 9.",
+      "category": "Regulatory",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "RKLB's Iridium Deal Draws Heat As Globalstar Echoes SpaceX Concerns — Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/rklb-iridium-deal-globalstar-spacex-concerns-rocketlab-fast-fcc-approval/cNGQHAcR957"
+        }
+      ]
+    }
+  ]
+}

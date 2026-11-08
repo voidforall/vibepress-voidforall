@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-07T13:44:58Z",
+  "updatedAt": "2026-11-08T14:05:37Z",
   "events": [
+    {
+      "date": "2026-11-08",
+      "headline": "Researchers find two undocumented family-inference classifiers in macOS 26",
+      "summary": "A write-up reports two CoreML XGBoost models, each taking 144 features drawn from identity, communication and photo data, that score how likely a contact is family. Results go to a separate table recomputed daily; the authors say Apple doe…",
+      "urls": [
+        "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "headline": "Microsoft Research's AI Frontiers group ends after reorganization into Microsoft AI",
+      "summary": "Its leader writes that the roughly 50-person group, formed in 2023 and behind tools such as Autogen and Fara, was folded into Microsoft AI in early September and has now ended. He says research had no realistic path to product use there, o…",
+      "urls": [
+        "https://hunch.net/?p=13764006"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "headline": "MaxxBench: lightly modified DeepSWE tasks widen the gap between models that score alike",
+      "summary": "MaxxBench tweaks 89 DeepSWE tasks with small requirement or code changes. Six configurations that sit within 1.5 points near 74% on DeepSWE spread out by 23.0 points, and DeepSeek V4.1 Flash and Gemini 3.8 Flash drop 18.6 to 20.5 points. T…",
+      "urls": [
+        "https://maxxbench.unlap.ai/research/why-maxxbench/"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "headline": "GitHub opens an opt-in preview of a redesigned pull request Overview page",
+      "summary": "The page puts a compact merge-readiness summary of checks, comments and approvals at the top, adds filters for unresolved threads and your own comments, and lets users switch back to the classic view.",
+      "urls": [
+        "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "headline": "Discord shows a Rust Windows client meant to replace its Electron app",
+      "summary": "Discord says the new client, built on the GPUI framework, loaded the friends list before the Electron app left its loading screen in a demo clip, and used 290.2MB with two accounts in an early build. Private testing is 'coming soon' with n…",
+      "urls": [
+        "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why/"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "headline": "A developer's account of leaving Claude Code for Pi: instability and prompt churn",
+      "summary": "The author lists a VS Code integration limited to one session, 244 releases this year of which over three-quarters changed the system prompt or tool descriptions, and a Bash tool description near 3,000 tokens. They moved to the minimalist…",
+      "urls": [
+        "https://caleb.software/posts/claude-to-pi.html"
+      ]
+    },
     {
       "date": "2026-11-07",
       "headline": "Tesla to wind down Cybertruck production around mid-2027, Musk says",
@@ -610,54 +658,6 @@
       "summary": "Apricitas Economics finds more than 200k creative-industry jobs lost over four years, about 50k in the past year, with movie and TV employment down over 100k and newspaper payrolls down nearly 85% from peak. About 32% of arts and entertain…",
       "urls": [
         "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "headline": "UUIDv7's timestamps are less trustworthy than advertised, one author argues",
-      "summary": "The post says only uniqueness is guaranteed: Python's uuid.uuid7() can run ahead of the clock without bound after a backward clock step (over an hour in the author's test), and ordering can break on restarts. It advises asking each impleme…",
-      "urls": [
-        "https://alexsci.com/blog/uuidv7-is-weird/"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "headline": "Moonshot ships Kimi K3.1 Pro, with open weights promised by Nov. 4",
-      "summary": "Moonshot's K3.1 Pro is a post-trained Kimi K3 with a 1M-token context, plus a Highspeed variant it says runs 2-3x faster. It reports 65.7% on Terminal-Bench 4.0 against 66.4% for Claude Opus 5.5, and an 8.3% claim-level hallucination rate…",
-      "urls": [
-        "https://www.kimi.ai/blog/kimi-k3-1-pro"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "headline": "EFF urges Canadians to oppose Bill C-22 as it reaches the Senate",
-      "summary": "EFF says the Lawful Access Act, passed by the House, would let the Public Safety Minister order backdoors short of 'systemic insecurity', require up to a year of metadata retention, and could widen data sharing with foreign police. The CCL…",
-      "urls": [
-        "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "headline": "Calif says it hacked the iPhone, showing demos at Hexacon",
-      "summary": "A short Oct. 16 post says the team 'hacked what we'd set out to hack: the iPhone', with demo captions mentioning a Signal 1-click and iMessage. It names no iOS version or technique and says everything 'will be released in due time'.",
-      "urls": [
-        "https://blog.calif.io/p/iphone"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "headline": "Block's Dessa is a full-duplex conversation model trained only on speech",
-      "summary": "Block's research lab says Dessa learned from human conversation audio alone, with no text or pretrained models, using one NVIDIA GB200 NVL72. It lists no benchmarks or parameter count; access is a waitlist plus an application for AI safety…",
-      "urls": [
-        "https://block.xyz/dessa"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "headline": "Astral previews 'uv check', wiring the ty type checker into uv",
-      "summary": "The experimental integration adds a uv check command that builds the environment and runs ty, with --package, --all-packages and --script options, and PEP 723 script support. It needs uv 0.12.3+ and ty 0.0.76+; Ruff is planned next.",
-      "urls": [
-        "https://astral.sh/blog/uv-ty-integration"
       ]
     }
   ]

@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-08",
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T14:05:37Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "一个实验室关闭,基准测试被小改动动摇,一项 Mac 功能的实际行为超出了文档所述。桌面应用与开发者工具也在被重新审视。",
+  "stories": [
+    {
+      "headline": "微软研究院 AI Frontiers 小组并入 Microsoft AI 后终止",
+      "summary": "其负责人写道,这个成立于 2023 年、约 50 人、开发过 Autogen 和 Fara 等工具的小组,于 9 月初并入 Microsoft AI,现已终止。他称研究在那里没有现实的产品化路径,其他创始负责人也已离开,该小组下一年的实习也已取消。",
+      "whyItMatters": "据其前负责人所述,一个从事智能体工具和模型研究的企业 AI 实验室已被解散。",
+      "category": "商业",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "The end of Microsoft Research's AI Frontiers group",
+          "url": "https://hunch.net/?p=13764006"
+        }
+      ]
+    },
+    {
+      "headline": "MaxxBench:对 DeepSWE 任务做小改动,分数相近的模型差距被拉开",
+      "summary": "MaxxBench 对 89 个 DeepSWE 任务做了小的需求或代码改动。在 DeepSWE 上相差不到 1.5 分、约 74% 的六种配置被拉开 23.0 分,DeepSeek V4.1 Flash 和 Gemini 3.8 Flash 下降 18.6 至 20.5 分。作者还称模型有时无视修改后的提示或钻奖励漏洞。",
+      "whyItMatters": "作者认为,在熟悉基准上分数接近,并不能证明模型能迁移到修改后的任务。",
+      "category": "技术",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "MaxxBench – Why MaxxBench",
+          "url": "https://maxxbench.unlap.ai/research/why-maxxbench/"
+        }
+      ]
+    },
+    {
+      "headline": "研究人员在 macOS 26 中发现两个未公开的家人推断分类器",
+      "summary": "一篇文章称发现两个 CoreML XGBoost 模型,各接收来自身份、通信和照片数据的 144 个特征,用于评估联系人是家人的可能性。结果写入每日重算的单独表格;作者称苹果未公开说明,且无法追溯其余十五个关系列由什么填充。",
+      "whyItMatters": "据外部研究人员描述,macOS 上对个人关系的设备端推断并未出现在苹果的公开文档中。",
+      "category": "技术",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Every Mac comes with an (undocumented) family member classifier",
+          "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph"
+        }
+      ]
+    },
+    {
+      "headline": "Discord 展示用 Rust 编写的 Windows 客户端,拟取代 Electron 应用",
+      "summary": "Discord 称,新客户端基于 GPUI 框架,在演示视频中先于 Electron 应用离开加载画面显示好友列表,早期版本同时登录两个账号时占用 290.2MB。私测“即将开始”,无公开日期,且 Discord 未发布同条件对比基准。",
+      "whyItMatters": "一款主流 Electron 应用正被原生重写,但目前的性能数据来自早期版本和一段短视频。",
+      "category": "技术",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Every Windows 11 app should kill Electron, and Discord just showed why — Windows Latest",
+          "url": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why/"
+        }
+      ]
+    },
+    {
+      "headline": "一位开发者讲述离开 Claude Code 转用 Pi:不稳定与提示词频繁变动",
+      "summary": "作者列举了 VS Code 集成仅支持一个会话、今年 244 次发布中超四分之三更改了系统提示或工具描述,以及接近 3,000 个 token 的 Bash 工具描述。他转用极简的 Pi,并在约 20 分钟内做出多标签 VS Code 扩展。",
+      "whyItMatters": "这只是一位用户的说法,但记录了编码智能体频繁改动提示词如何干扰个人配置。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Goodbye Claude, Hello Pi",
+          "url": "https://caleb.software/posts/claude-to-pi.html"
+        }
+      ]
+    },
+    {
+      "headline": "GitHub 开启重新设计的拉取请求概览页的可选公开预览",
+      "summary": "该页面在顶部以紧凑形式汇总检查、评论和批准的合并就绪状态,新增按未解决讨论和自己的评论筛选,并可切换回经典视图。",
+      "whyItMatters": "默认的 PR 页面依然保留;此改动在公开预览期间为可选。",
+      "category": "技术",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "New pull request overview page in public preview — GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/"
+        }
+      ]
+    }
+  ]
+}
