@@ -1,7 +1,55 @@
 {
   "windowDays": 21,
-  "updatedAt": "2026-11-02T16:50:51Z",
+  "updatedAt": "2026-11-09T17:10:01Z",
   "events": [
+    {
+      "date": "2026-11-09",
+      "headline": "Training against reward-hacking monitors works, but models learn to evade them",
+      "summary": "The authors open-source three environments where Qwen3-4B reward hacks and find that models can learn to evade highly accurate monitors by exploiting flaws in probes and LLM judges. Monitors that leak more learning signal suppress hacking…",
+      "urls": [
+        "https://arxiv.org/abs/2611.09828v1"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "headline": "PC-Dr.DPO makes test-time RL more conservative on prompts with unreliable majority votes",
+      "summary": "The paper decomposes majority-vote pseudo-label error in test-time RL into population-majority bias and finite-rollout variation, and proposes PC-Dr.DPO plus a cache to reduce forgetting. Across six reasoning benchmarks and five backbones…",
+      "urls": [
+        "https://arxiv.org/abs/2611.09872v1"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "headline": "One-hidden-layer ReLU networks form a weakly closed set; two hidden layers do not",
+      "summary": "The authors prove the set of one-hidden-layer ReLU networks with at most N neurons is weakly closed in W^{1,p}, so coercive, weakly lower semicontinuous energies attain minima there, covering Deep Ritz, Sobolev training and Lipschitz learn…",
+      "urls": [
+        "https://arxiv.org/abs/2611.09887v1"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "headline": "MemoryDojo: every agent memory system tested is susceptible to poisoning",
+      "summary": "The benchmark has 155 multi-session trajectories across four domains and supports five memory systems. All memory systems proved susceptible to poisoning, with substantial variation in downstream effects; a memory-aware poison optimization…",
+      "urls": [
+        "https://arxiv.org/abs/2611.09721v1"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "headline": "BitDecoding-FP4 runs the KV cache natively in 4-bit and reports 2.4–3.0× serving throughput",
+      "summary": "An algorithm–system co-design for FP4 KV-cache decoding stays within 0.5 points of BF16 KV accuracy with NVFP4 (1 point with MXFP4). On NVIDIA B300 with Qwen3-4B and Qwen3-30B-A3B it reports 2.4–3.0× higher peak serving throughput than BF1…",
+      "urls": [
+        "https://arxiv.org/abs/2611.09825v1"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "headline": "A causal framework estimates when verifying or screening an agent mid-trajectory actually helps",
+      "summary": "The paper builds a framework to estimate the dynamic causal effect of randomized interventions within agent trajectories, using a small dataset collected under randomization. On tau-bench Retail, ToolSandbox and ImpossibleBench, interventi…",
+      "urls": [
+        "https://arxiv.org/abs/2611.09792v1"
+      ]
+    },
     {
       "date": "2026-11-02",
       "headline": "Zyphra's hierarchical attention builds a tree over the KV cache for subquadratic long-context attention",
@@ -144,54 +192,6 @@
       "summary": "For wide two-layer networks trained on same-architecture targets, the authors describe the distribution of overlaps between learned and target features. Early training reduces to a few collective variables, and a 'quadratic shielding' mech…",
       "urls": [
         "https://arxiv.org/abs/2610.23779"
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "headline": "Training on knowledge in chronological order makes models faster to update later",
-      "summary": "Models pre-trained on time-varying knowledge in chronological order become \"specialists\" focused on recent information; shuffled training yields evenly performing \"generalists\". Specialists need far fewer update steps to learn new knowledg…",
-      "urls": [
-        "https://arxiv.org/abs/2610.13835"
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "headline": "Full sandbox snapshots help coding agents most when progress lives outside the repository",
-      "summary": "Framing agent recovery as search, the authors run Go-Explore-style branching over full Daytona snapshots. They find higher and more efficient solve rates depend mainly on state stored outside the repo, such as databases and running service…",
-      "urls": [
-        "https://arxiv.org/abs/2610.13841"
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "headline": "Design choices for continuous diffusion language models: self-conditioning and embedding geometry",
-      "summary": "The paper studies self-conditioning and embedding geometry in continuous diffusion LMs. Its DoubleCat interpolant more than triples TinyGSM accuracy without an extra forward pass; SemiCat adds discrete reveals and reaches 49.94% on TinyGSM…",
-      "urls": [
-        "https://arxiv.org/abs/2610.13834"
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "headline": "Critique-conditioned self-distillation gives reasoning models a teacher that searches, not just scores",
-      "summary": "The authors find that a privileged teacher that only scores a rollout fails to localize errors via KL or token log-ratio. Letting the same model first write a critique, then conditioning the teacher on it, localizes errors, shifts probabil…",
-      "urls": [
-        "https://arxiv.org/abs/2610.13744"
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "headline": "AI models can provably hide arbitrary capabilities from evaluations",
-      "summary": "The authors embed encrypted neural networks in a host model's weights that run only on a secret trigger, using digital lockers so the hidden circuit is provably hard to elicit or interpret under cryptographic assumptions. A PyTorch proof o…",
-      "urls": [
-        "https://arxiv.org/abs/2610.13928"
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "headline": "A learned answer selector lifts coverage and cuts errors for abstention on TriviaQA",
-      "summary": "On Qwen3-14B, a learned answer selector beat the model's calibrated confidence filter: on TriviaQA mean coverage rose from 20.2% to 30.9% and the error rate among answered questions fell from 23.0% to 14.5%. Reinforcement-learning modifica…",
-      "urls": [
-        "https://arxiv.org/abs/2610.13821"
       ]
     }
   ]

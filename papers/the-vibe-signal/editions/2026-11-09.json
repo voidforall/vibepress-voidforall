@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-09",
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T17:10:18Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today leans toward security and plumbing: a quiet email-authentication change, an automaker's exposed admin tool, and a credential-forwarding claim about a desktop agent, with one best-paper interface idea for balance.",
+  "stories": [
+    {
+      "headline": "Outlook.com is reportedly rejecting some mail from domains with no DMARC record",
+      "summary": "MailRoute says that since Nov. 5 Microsoft's consumer mail service has bounced some messages from domains lacking DMARC with a '550 5.7.1 … lacks SPF/DKIM/DMARC Auth Records' error, including from small senders. It says Microsoft had published nothing about it as of Nov. 6; the suggested fix is a single TXT record, v=DMARC1; p=none.",
+      "whyItMatters": "A vendor's account, not a Microsoft statement: some ordinary mail to Hotmail and Outlook addresses may be bouncing for want of one DNS record.",
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "Outlook.com Is Quietly Rejecting Email From Domains Without DMARC - MailRoute",
+          "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc"
+        }
+      ],
+      "importance": 1
+    },
+    {
+      "headline": "Researchers chain an exposed admin tool and hardcoded keys into remote unlocking of an automaker's cars",
+      "summary": "Security researcher shubs, with Sam Curry, describes finding an internet-facing admin tool for an unnamed automaker's connected-car platform whose APIs needed little beyond API keys in its JavaScript bundle. That let them go from plate to VIN to account email in Australia; the post goes on to the identity platform, where minting a consumer token would allow remote control.",
+      "whyItMatters": "It is a write-up of a vendor-side flaw rather than a hardware hack, with the automaker anonymized in the post.",
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "unlocking any car from X brand in most of the world - shubs",
+          "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/"
+        }
+      ],
+      "importance": 2
+    },
+    {
+      "headline": "A Hacker News post says ChatGPT Desktop forwards your SSH agent to remote machines",
+      "summary": "The post claims an agent running on a remote machine can authenticate with your local SSH credentials, for example to push to private GitHub repos, and links a pull request discussion as proof; we read the HN thread, not that link. Commenters debate friction versus confirmation fatigue and finer-grained permissions for delegated agents.",
+      "whyItMatters": "It is an unverified claim from a 153-point thread, but it frames the broader question of how much local credential access coding agents should inherit.",
+      "category": "Technology",
+      "sourceLinks": [
+        {
+          "title": "ChatGPT Desktop forwards your SSH agent to remote machines - Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50422628"
+        }
+      ],
+      "importance": 3
+    },
+    {
+      "headline": "'Declarative Dragging' wins best paper at UIST 2026 with a model-driven approach to drag-and-drop",
+      "summary": "The authors propose specifying, for each draggable element, which future application states dragging should lead to; an engine speculatively renders those states and synthesizes a smooth drag interaction. Dragology is the accompanying library.",
+      "whyItMatters": "It swaps hand-coded drag geometry and animation for declared outcomes, which would cut the work of building custom interactions.",
+      "category": "Ideas",
+      "sourceLinks": [
+        {
+          "title": "Declarative Dragging - Horowitz, Blinn, Heer",
+          "url": "https://declarative-dragging.github.io/"
+        }
+      ],
+      "importance": 4
+    }
+  ]
+}

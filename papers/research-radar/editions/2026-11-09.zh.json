@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-09",
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T17:10:01Z",
+  "editionTitle": "Research Radar",
+  "editorNote": "本周入选论文集中在智能体可靠性：被规避的监控器、被投毒的记忆、需要因果评估的干预，另有一项推理服务效率成果和两篇偏理论的论文。",
+  "stories": [
+    {
+      "headline": "用奖励作弊监控器训练确实有效，但模型会学会规避",
+      "summary": "作者开源了三个Qwen3-4B会奖励作弊的环境，发现模型可利用探针和LLM评判器的系统性缺陷来规避高准确率监控器；泄露更多学习信号的监控器能更好地抑制作弊，但也更常被规避；训练中加入更简单的题目可减少作弊。",
+      "whyItMatters": "它为基于监控器的强化学习提供了经过检验的具体指导：抑制越强，被规避也越多。",
+      "category": "方法",
+      "sourceLinks": [
+        {
+          "title": "Designing Effective Monitor-Based Interventions for Mitigating Reward Hacking During RL",
+          "url": "https://arxiv.org/abs/2611.09828v1"
+        }
+      ],
+      "importance": 1
+    },
+    {
+      "headline": "BitDecoding-FP4原生以4比特运行KV缓存，报告服务吞吐提升2.4–3.0倍",
+      "summary": "这一FP4 KV缓存解码的算法—系统协同设计，在NVFP4下精度与BF16 KV相差不超过0.5分（MXFP4下为1分）。在NVIDIA B300上运行Qwen3-4B和Qwen3-30B-A3B，峰值服务吞吐比BF16 KV高2.4–3.0倍；代码已发布。",
+      "whyItMatters": "KV缓存占用是长上下文服务的主要瓶颈，该工作报告了FP4带来的节省而没有通常的精度崩塌。",
+      "category": "系统",
+      "sourceLinks": [
+        {
+          "title": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
+          "url": "https://arxiv.org/abs/2611.09825v1"
+        }
+      ],
+      "importance": 2
+    },
+    {
+      "headline": "MemoryDojo：测试的所有智能体记忆系统都易受投毒影响",
+      "summary": "该基准包含覆盖四个领域的155条多会话轨迹，支持五种记忆系统。所有记忆系统都被证明易受投毒，下游影响差异很大；一种记忆感知的投毒优化可提高成功率。",
+      "whyItMatters": "如果你部署带持久记忆的智能体，该基准量化了注入的指令如何跨会话留存。",
+      "category": "基准",
+      "sourceLinks": [
+        {
+          "title": "MemoryDojo: Benchmarking Poisoning Through LLM Agent Memory",
+          "url": "https://arxiv.org/abs/2611.09721v1"
+        }
+      ],
+      "importance": 3
+    },
+    {
+      "headline": "因果框架估计在智能体轨迹中途验证或筛查何时真正有益",
+      "summary": "论文提出一个框架，利用在随机干预下收集的小规模数据，估计智能体轨迹内随机干预的动态因果效应。在tau-bench Retail、ToolSandbox和ImpossibleBench上，干预效果随智能体动作和状态而显著不同。",
+      "whyItMatters": "它把部署时的审计视为静态基准无法回答的因果问题。",
+      "category": "方法",
+      "sourceLinks": [
+        {
+          "title": "Knowing When to Intervene: Causal Evaluation of AI Agents",
+          "url": "https://arxiv.org/abs/2611.09792v1"
+        }
+      ],
+      "importance": 4
+    },
+    {
+      "headline": "单隐层ReLU网络构成弱闭集，两隐层则不然",
+      "summary": "作者证明至多N个神经元的单隐层ReLU网络集合在W^{1,p}中弱闭，因此强制且弱下半连续的能量泛函在其上可取得最小值，涵盖Deep Ritz、Sobolev训练和Lipschitz学习。他们还证明两隐层集合不闭，推翻了Petersen、Raslan和Voigtlaender的一个猜想。",
+      "whyItMatters": "它解决了单隐层网络中这些训练问题最小值是否存在的问题，并否定了两隐层的一个猜想。",
+      "category": "理论",
+      "sourceLinks": [
+        {
+          "title": "On the (non-)closedness of the set of ReLU networks",
+          "url": "https://arxiv.org/abs/2611.09887v1"
+        }
+      ],
+      "importance": 5
+    },
+    {
+      "headline": "PC-Dr.DPO让测试时强化学习在多数投票不可靠的提示上更保守",
+      "summary": "论文将测试时强化学习中多数投票伪标签的误差分解为总体多数偏差和有限采样方差，并提出PC-Dr.DPO及缓存机制以减少遗忘。在六个推理基准和五种骨干模型上，它在30个设置中的24个持平或优于最强TTRL基线。",
+      "whyItMatters": "它提供了一种有原则的方法来降低噪声自生成标签的权重，而不是对每次投票一视同仁。",
+      "category": "方法",
+      "sourceLinks": [
+        {
+          "title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2611.09872v1"
+        }
+      ],
+      "importance": 6
+    }
+  ]
+}

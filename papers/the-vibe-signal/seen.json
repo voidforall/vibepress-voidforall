@@ -1,7 +1,39 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-08T14:05:37Z",
+  "updatedAt": "2026-11-09T17:10:18Z",
   "events": [
+    {
+      "date": "2026-11-09",
+      "headline": "Researchers chain an exposed admin tool and hardcoded keys into remote unlocking of an automaker's cars",
+      "summary": "Security researcher shubs, with Sam Curry, describes finding an internet-facing admin tool for an unnamed automaker's connected-car platform whose APIs needed little beyond API keys in its JavaScript bundle. That let them go from plate to…",
+      "urls": [
+        "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "headline": "Outlook.com is reportedly rejecting some mail from domains with no DMARC record",
+      "summary": "MailRoute says that since Nov. 5 Microsoft's consumer mail service has bounced some messages from domains lacking DMARC with a '550 5.7.1 … lacks SPF/DKIM/DMARC Auth Records' error, including from small senders. It says Microsoft had publi…",
+      "urls": [
+        "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "headline": "A Hacker News post says ChatGPT Desktop forwards your SSH agent to remote machines",
+      "summary": "The post claims an agent running on a remote machine can authenticate with your local SSH credentials, for example to push to private GitHub repos, and links a pull request discussion as proof; we read the HN thread, not that link. Comment…",
+      "urls": [
+        "https://news.ycombinator.com/item?id=50422628"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "headline": "'Declarative Dragging' wins best paper at UIST 2026 with a model-driven approach to drag-and-drop",
+      "summary": "The authors propose specifying, for each draggable element, which future application states dragging should lead to; an engine speculatively renders those states and synthesizes a smooth drag interaction. Dragology is the accompanying libr…",
+      "urls": [
+        "https://declarative-dragging.github.io/"
+      ]
+    },
     {
       "date": "2026-11-08",
       "headline": "Researchers find two undocumented family-inference classifiers in macOS 26",
@@ -610,54 +642,6 @@
       "summary": "Dermatologist Magnus Lynch tested 200 biopsy-proven lesions: an Inception v3 CNN got 125 right as first choice (62%), against 84 for GPT-6 Astra and 85 for Claude Fable 5.1. At the CNN's preset threshold it discharged 18 of 30 melanomas, v…",
       "urls": [
         "https://lynchlab.net/llm-skin-cancer"
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "headline": "Five Qwen3.8-27B models match Fable 5 on hard coding problems, the authors of GVS5H say",
-      "summary": "The repo describes a training-free, ledger-based self-orchestration harness where fresh model instances coordinate through a shared filesystem. On 100 hard LiveCodeBench problems it reports an orchestrated Qwen3.8 Flash Next at 93.0% pass@…",
-      "urls": [
-        "https://github.com/slee-persis/GVS5H"
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "headline": "Dan Luu: we should be more ambitious with the software we build",
-      "summary": "Luu argues AI tools make once-infeasible projects, such as the pgrust Postgres rewrite and his own custom tooling, achievable at 'works for me' quality, and that many people still work from a pre-AI cost model. He concedes most AI-generate…",
-      "urls": [
-        "https://danluu.com/ambitious/"
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "headline": "Cerebras explains how it would serve a ~3-trillion-parameter model across 59 wafers",
-      "summary": "In an Oct. 22 post, Cerebras uses Kimi K3 (about 3T parameters, 93 layers) as its example: at 4-bit weights of about 1.5 TB, it needs 59 WSE-3T wafers (35 for linear-attention layers, 24 for dense), each with 44 GB of on-chip memory, linke…",
-      "urls": [
-        "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "headline": "Brotli bug 'Node2Shell' (CVSS 9.2) hits Node.js, Python HTTP clients and more; fixes are out",
-      "summary": "CVE-2026-111497 is an out-of-bounds write in Google's Brotli decoder, reachable by a crafted stream from an unauthenticated remote sender. Brotli 1.0.3 through 1.2.0 is affected; fixes are Brotli 1.2.1 (plus 1.0.10 and 1.1.1), Node.js 22.2…",
-      "urls": [
-        "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "headline": "Apollo's Slok: no sign of an AI payoff outside the tech sector",
-      "summary": "In an Oct. 24 note, Apollo chief economist Torsten Slok shows revenue per worker and profit margins rising for the Magnificent 7 but flat for the S&P 493, with no lift in total factor productivity. He cites Ramp data showing AI spending co…",
-      "urls": [
-        "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "headline": "America has lost 200k+ media, film and arts jobs in four years; how much is AI is unclear",
-      "summary": "Apricitas Economics finds more than 200k creative-industry jobs lost over four years, about 50k in the past year, with movie and TV employment down over 100k and newspaper payrolls down nearly 85% from peak. About 32% of arts and entertain…",
-      "urls": [
-        "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
       ]
     }
   ]

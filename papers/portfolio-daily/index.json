@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-11-09",
+      "date": "2026-11-09",
+      "headline": "SpaceX and Rocket Lab jump as NASA hands out $10 billion in Moon Base awards, Yahoo Finance reports",
+      "storyCount": 7
+    },
+    {
       "id": "2026-11-08",
       "date": "2026-11-08",
       "headline": "Globalstar asks FCC to scrutinize Rocket Lab's $8B Iridium deal; reply deadline is Nov. 9",

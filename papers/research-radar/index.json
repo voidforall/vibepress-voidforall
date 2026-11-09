@@ -7,6 +7,12 @@
   "emoji": "🔬",
   "editions": [
     {
+      "id": "2026-11-09",
+      "date": "2026-11-09",
+      "headline": "Training against reward-hacking monitors works, but models learn to evade them",
+      "storyCount": 6
+    },
+    {
       "id": "2026-11-02",
       "date": "2026-11-02",
       "headline": "Looping a trained model pays for its extra compute only at small scale, a Qwen study finds",

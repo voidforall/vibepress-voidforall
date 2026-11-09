@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-09",
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T17:10:18Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天偏重安全与底层：一次悄然的邮件认证变化、某车企暴露的管理工具、关于桌面智能体转发凭据的说法，另有一项获最佳论文的界面构想作调剂。",
+  "stories": [
+    {
+      "headline": "据报道，Outlook.com开始拒收部分未配置DMARC记录域名的邮件",
+      "summary": "MailRoute称，自11月5日起，微软的消费者邮件服务对缺少DMARC的域名（包括小型发件人）部分邮件返回“550 5.7.1……缺少SPF/DKIM/DMARC认证记录”的退信。该公司称截至11月6日微软未发布任何说明；建议的修复是添加一条TXT记录 v=DMARC1; p=none。",
+      "whyItMatters": "这是厂商的说法而非微软声明：发往Hotmail和Outlook地址的部分正常邮件可能因缺一条DNS记录而被退回。",
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "Outlook.com Is Quietly Rejecting Email From Domains Without DMARC - MailRoute",
+          "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc"
+        }
+      ],
+      "importance": 1
+    },
+    {
+      "headline": "研究人员利用暴露的管理工具和硬编码密钥，实现对某车企车辆的远程解锁",
+      "summary": "安全研究员shubs与Sam Curry描述，他们发现某未具名车企联网汽车平台的一个面向互联网的管理工具，其API除JavaScript包中的API密钥外几乎无需其他认证。借此可在澳大利亚从车牌查到VIN再到账户邮箱；文章继而深入身份平台，铸造消费者令牌即可远程控制车辆。",
+      "whyItMatters": "这是一篇关于厂商侧漏洞而非硬件攻击的技术文章，文中车企已匿名处理。",
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "unlocking any car from X brand in most of the world - shubs",
+          "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/"
+        }
+      ],
+      "importance": 2
+    },
+    {
+      "headline": "Hacker News帖子称ChatGPT桌面版会将你的SSH代理转发到远程机器",
+      "summary": "帖子称，运行在远程机器上的智能体可使用你本地的SSH凭据认证，例如推送到私有GitHub仓库，并附上一个拉取请求讨论作为证据；我们读到的是HN讨论串，而非该链接。评论者就“摩擦”与“确认疲劳”以及为受托智能体设置更细粒度权限展开讨论。",
+      "whyItMatters": "这是一条来自153分讨论串、尚未核实的说法，但它提出了编码智能体应继承多少本地凭据访问权的更大问题。",
+      "category": "技术",
+      "sourceLinks": [
+        {
+          "title": "ChatGPT Desktop forwards your SSH agent to remote machines - Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50422628"
+        }
+      ],
+      "importance": 3
+    },
+    {
+      "headline": "《Declarative Dragging》以模型驱动的拖放方式获UIST 2026最佳论文",
+      "summary": "作者提出，为每个可拖动元素声明拖动应导向的未来应用状态；引擎会推测性地渲染这些状态并合成流畅的拖放交互。配套库为Dragology。",
+      "whyItMatters": "它用声明的结果取代手写的拖放几何与动画，可减少构建自定义交互的工作量。",
+      "category": "观点",
+      "sourceLinks": [
+        {
+          "title": "Declarative Dragging - Horowitz, Blinn, Heer",
+          "url": "https://declarative-dragging.github.io/"
+        }
+      ],
+      "importance": 4
+    }
+  ]
+}
