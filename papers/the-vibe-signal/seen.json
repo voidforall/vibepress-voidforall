@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-09T17:10:18Z",
+  "updatedAt": "2026-11-10T15:26:27Z",
   "events": [
+    {
+      "date": "2026-11-10",
+      "headline": "Payments Canada launches the Real-Time Rail, a 24/7 payment system with fraud checks required from day one",
+      "summary": "Payments Canada launched the RTR on Nov. 9, letting members clear and settle payments in real time around the clock using ISO 20022 messaging. Initial participants include Wealthsimple, KOHO and Bank of America, with major Canadian institu…",
+      "urls": [
+        "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "headline": "Notion says a breach at AI vendor Fireworks may have exposed unattributed Notion AI chat transcripts",
+      "summary": "Notion says Fireworks AI told it on Nov. 6 that malicious actors may have accessed customer data, and on Nov. 8 confirmed a dataset that included Insights chat transcripts with no author or workspace labels. Notion estimates fewer than 1%…",
+      "urls": [
+        "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "headline": "DeepMind's AlphaProof Code produces machine-checked proofs about Signal's compiled cryptographic code",
+      "summary": "Google DeepMind says agents generated over six million lines of Lean for Signal's cryptographic protocol code in four weeks, flagging about 1% for human review while Lean checked the rest. In a test, it also proved that two re-introduced,…",
+      "urls": [
+        "https://deepmind.google/blog/introducing-alphaproof-code/"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "headline": "CoreWeave's 2032 bond yield tops 16% as default-protection costs rise across AI names, CNBC reports",
+      "summary": "CNBC reports CoreWeave's 9.625% 2032 bond now yields above 16%, and its five-year credit default swaps spiked above 1,289 basis points on Thursday before easing to about 1,155. Nvidia's CDS is up 76% in a month to roughly 139 bps, still lo…",
+      "urls": [
+        "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "headline": "Anthropic releases Claude Fable 5.2 at $8/$40 per million tokens; Mythos 5.2 limited to vetted organizations",
+      "summary": "Anthropic says Fable 5.2 scores 49.1% on FrontierCode 2.0 and 69.9% on FrontierSWE v2, against 45.5% and 62.3% for Opus 5.5, and generates output up to 30% faster than 5.1. Mythos 5.2, which shares the underlying model, is available only t…",
+      "urls": [
+        "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "headline": "Amazon team says a small 'Decider' model replaced Sonnet 4.6 for ticket labeling at roughly 98% lower cost",
+      "summary": "The Strands team reports its Decider model, a Gemma 4 E4B build that returns probabilities over a 20-label catalog, cut cost per ticket from about $0.0222 to about $0.0005 and call time from 4,215 ms to 897 ms. The post does not publish ac…",
+      "urls": [
+        "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/"
+      ]
+    },
     {
       "date": "2026-11-09",
       "headline": "Researchers chain an exposed admin tool and hardcoded keys into remote unlocking of an automaker's cars",
@@ -602,46 +650,6 @@
       "summary": "Open3DLab says a crawler identifying itself as '3D foundation model research' with a Roblox email address read 18,926 projects and downloaded 1,027 files (145.5 GB) between Oct. 15 and 20; 345 of 712 downloaded projects were adult and 423…",
       "urls": [
         "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "headline": "Max Woolf asks why OpenAI and Anthropic cut LLM prices by up to 80%",
-      "summary": "Woolf tallies cuts from June to September 2026, such as GPT-5.6 Luna falling from $1/$6 to $0.20/$1.20 per million tokens, and Opus 5.5 at $4/$20 versus $5/$25. He finds competitive pressure from open-weight models the most convincing expl…",
-      "urls": [
-        "https://minimaxir.com/2026/10/cheap-llms/"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "headline": "IBM's Krishna: open-weight models cost 10–25% as much and are about 90% as effective",
-      "summary": "On IBM's Q3 earnings call, CEO Arvind Krishna said open-weight models cost 10 to 25 percent of frontier models' token cost while being about 90 percent as effective, and that most enterprise tasks do not need the top model. IBM expects on-…",
-      "urls": [
-        "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "headline": "Drew Breunig: context engineering's toolbox is stable, and the work is moving into harness code",
-      "summary": "The talk argues that six tactics (augmentation, tool loadout, subagent quarantine, pruning, summarization, offloading) have moved from the prompt into the harness. For long-horizon agents it names new failures, 'fighting the weights' and '…",
-      "urls": [
-        "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "headline": "Anthropic files its S-1 and applies to list on Nasdaq under 'ANT'",
-      "summary": "The registration statement, dated October 26, 2026, says Class A shares would list on the Nasdaq Global Select Market; the price range is blank. It discloses net losses of $42.0 billion for 2025 and $80.7 billion for the six months to June…",
-      "urls": [
-        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "headline": "An older fine-tuned CNN beats two frontier LLMs at diagnosing skin lesions, in one small test",
-      "summary": "Dermatologist Magnus Lynch tested 200 biopsy-proven lesions: an Inception v3 CNN got 125 right as first choice (62%), against 84 for GPT-6 Astra and 85 for Claude Fable 5.1. At the CNN's preset threshold it discharged 18 of 30 melanomas, v…",
-      "urls": [
-        "https://lynchlab.net/llm-skin-cancer"
       ]
     }
   ]

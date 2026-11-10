@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-11-10",
+      "date": "2026-11-10",
+      "headline": "Anthropic releases Claude Fable 5.2 at $8/$40 per million tokens; Mythos 5.2 limited to vetted organizations",
+      "storyCount": 6
+    },
+    {
       "id": "2026-11-09",
       "date": "2026-11-09",
       "headline": "Outlook.com is reportedly rejecting some mail from domains with no DMARC record",

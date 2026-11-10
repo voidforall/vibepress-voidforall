@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-10",
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T15:26:27Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今日以Anthropic的新模型领衔，内容兼顾能力与成本：一则用小型分类模型替换前沿模型以节省开支的案例、一项形式化验证成果、一起波及Notion的供应商数据泄露，以及对AI基础设施债务日益紧张的信贷市场。与此同时，加拿大启用了新的支付系统。",
+  "stories": [
+    {
+      "headline": "Anthropic发布Claude Fable 5.2，每百万token输入8美元、输出40美元；Mythos 5.2仅限经审核机构使用",
+      "summary": "Anthropic称Fable 5.2在FrontierCode 2.0上得分49.1%、在FrontierSWE v2上得分69.9%，Opus 5.5分别为45.5%和62.3%，输出速度比5.1最高快30%。与之共用底层模型的Mythos 5.2仅通过该公司的网络安全与生命科学验证计划提供。",
+      "whyItMatters": "这些基准数据均为Anthropic自行公布；该公司仍建议大多数编码任务默认使用Opus 5.5，Fable面向最复杂的任务。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Claude Fable 5.2 and Mythos 5.2 (Anthropic)",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+        }
+      ]
+    },
+    {
+      "headline": "亚马逊团队称，用小型“Decider”模型取代Sonnet 4.6进行工单标注，成本约降低98%",
+      "summary": "Strands团队称，其Decider模型（基于Gemma 4 E4B，对20个标签目录输出概率）将每张工单成本从约0.0222美元降至约0.0005美元，调用耗时从4215毫秒降至897毫秒。文章未公布准确率或一致性数据，因此“效果相当”并无量化依据。",
+      "whyItMatters": "这是厂商自撰的案例，适用于高吞吐、标签目录稳定且上下文较短的封闭选择分类任务，而非需要解释的任务。",
+      "category": "商业",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Amazon saves millions replacing Sonnet 4.6 with Strands Decider",
+          "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/"
+        }
+      ]
+    },
+    {
+      "headline": "Notion称AI供应商Fireworks遭入侵，部分无署名的Notion AI聊天记录可能外泄",
+      "summary": "Notion称，Fireworks AI于11月6日告知可能有恶意方访问了客户数据，11月8日确认相关数据集包含不带作者或工作区标识的Insights聊天记录。Notion估计受影响工作区不足1%，并已于11月3日断开与Fireworks的连接。",
+      "whyItMatters": "Notion建议受影响的工作区所有者查看相关数据，并轮换曾粘贴到Notion AI中的密码或API密钥。",
+      "category": "科技",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Security incident involving a third-party AI vendor (Notion)",
+          "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor"
+        }
+      ]
+    },
+    {
+      "headline": "DeepMind的AlphaProof Code为Signal加密协议的编译代码生成了经机器验证的证明",
+      "summary": "Google DeepMind称，智能体在四周内为Signal加密协议代码生成了超过六百万行Lean代码，约1%被标记交由人工审查，其余由Lean检查。在测试中，系统还证明了重新引入的两个已修复漏洞会使代码不安全。",
+      "whyItMatters": "仍由人类专家决定证明什么并审核每项形式化规范；验证成果已开源。",
+      "category": "科技",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Introducing AlphaProof Code (Google DeepMind)",
+          "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+        }
+      ]
+    },
+    {
+      "headline": "CNBC：CoreWeave 2032年债券收益率升破16%，AI相关公司违约保护成本普遍上升",
+      "summary": "CNBC报道，CoreWeave票面利率9.625%的2032年债券收益率已超过16%，其五年期信用违约互换周四一度升至1289个基点以上，随后回落至约1155。英伟达的CDS一个月内上涨76%至约139个基点，绝对水平仍较低。",
+      "whyItMatters": "高盛统计，自10月29日以来已有五笔AI债券交易，总额670亿美元，说明尽管定价上升，融资仍在继续。",
+      "category": "商业",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "CoreWeave bond yield tops 16% as AI credit stress rises (CNBC)",
+          "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
+        }
+      ]
+    },
+    {
+      "headline": "加拿大支付协会启用实时支付系统Real-Time Rail，全年无休，上线即强制要求反欺诈服务",
+      "summary": "加拿大支付协会于11月9日启用RTR，成员可使用ISO 20022报文全天候实时清算和结算支付。首批参与者包括Wealthsimple、KOHO和美国银行，加拿大主要金融机构预计在未来数月加入。",
+      "whyItMatters": "上线时即要求使用集中式反欺诈服务，包括收款人确认和交易安全评分。",
+      "category": "商业",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Payments Canada launches Real-Time Rail",
+          "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy"
+        }
+      ]
+    }
+  ]
+}

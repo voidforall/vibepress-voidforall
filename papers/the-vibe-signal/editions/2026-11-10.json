@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-10",
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T15:26:27Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Anthropic's new models lead a day that mixes capability claims with their costs: a savings story that swaps a frontier model for a small classifier, a formal-verification result, a vendor breach that reached Notion, and a credit market growing nervous about AI infrastructure debt. Canada, meanwhile, switched on a payments rail.",
+  "stories": [
+    {
+      "headline": "Anthropic releases Claude Fable 5.2 at $8/$40 per million tokens; Mythos 5.2 limited to vetted organizations",
+      "summary": "Anthropic says Fable 5.2 scores 49.1% on FrontierCode 2.0 and 69.9% on FrontierSWE v2, against 45.5% and 62.3% for Opus 5.5, and generates output up to 30% faster than 5.1. Mythos 5.2, which shares the underlying model, is available only through the company's cyber and life-sciences verification programs.",
+      "whyItMatters": "The benchmark figures are Anthropic's own; it still recommends Opus 5.5 as the default for most coding work, positioning Fable for the most ambitious tasks.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Claude Fable 5.2 and Mythos 5.2 (Anthropic)",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+        }
+      ]
+    },
+    {
+      "headline": "Amazon team says a small 'Decider' model replaced Sonnet 4.6 for ticket labeling at roughly 98% lower cost",
+      "summary": "The Strands team reports its Decider model, a Gemma 4 E4B build that returns probabilities over a 20-label catalog, cut cost per ticket from about $0.0222 to about $0.0005 and call time from 4,215 ms to 897 ms. The post does not publish accuracy or agreement figures, so 'just as well' is not quantified.",
+      "whyItMatters": "It is a vendor-authored case forclosed-choice classification workloads: high volume, a stable label set and short context, not tasks needing explanations.",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Amazon saves millions replacing Sonnet 4.6 with Strands Decider",
+          "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/"
+        }
+      ]
+    },
+    {
+      "headline": "Notion says a breach at AI vendor Fireworks may have exposed unattributed Notion AI chat transcripts",
+      "summary": "Notion says Fireworks AI told it on Nov. 6 that malicious actors may have accessed customer data, and on Nov. 8 confirmed a dataset that included Insights chat transcripts with no author or workspace labels. Notion estimates fewer than 1% of workspaces are affected and had already disconnected from Fireworks by Nov. 3.",
+      "whyItMatters": "Notion tells affected owners to review their data and to rotate any passwords or API keys that were pasted into Notion AI.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Security incident involving a third-party AI vendor (Notion)",
+          "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor"
+        }
+      ]
+    },
+    {
+      "headline": "DeepMind's AlphaProof Code produces machine-checked proofs about Signal's compiled cryptographic code",
+      "summary": "Google DeepMind says agents generated over six million lines of Lean for Signal's cryptographic protocol code in four weeks, flagging about 1% for human review while Lean checked the rest. In a test, it also proved that two re-introduced, previously fixed bugs made the code insecure.",
+      "whyItMatters": "Human experts still choose what to prove and review each formal specification, and the verification artifacts are open-sourced.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Introducing AlphaProof Code (Google DeepMind)",
+          "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+        }
+      ]
+    },
+    {
+      "headline": "CoreWeave's 2032 bond yield tops 16% as default-protection costs rise across AI names, CNBC reports",
+      "summary": "CNBC reports CoreWeave's 9.625% 2032 bond now yields above 16%, and its five-year credit default swaps spiked above 1,289 basis points on Thursday before easing to about 1,155. Nvidia's CDS is up 76% in a month to roughly 139 bps, still low in absolute terms.",
+      "whyItMatters": "Goldman counts five AI bond deals totaling $67 billion since Oct. 29, so debt is still flowing despite the higher pricing.",
+      "category": "Business",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "CoreWeave bond yield tops 16% as AI credit stress rises (CNBC)",
+          "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
+        }
+      ]
+    },
+    {
+      "headline": "Payments Canada launches the Real-Time Rail, a 24/7 payment system with fraud checks required from day one",
+      "summary": "Payments Canada launched the RTR on Nov. 9, letting members clear and settle payments in real time around the clock using ISO 20022 messaging. Initial participants include Wealthsimple, KOHO and Bank of America, with major Canadian institutions expected to join in coming months.",
+      "whyItMatters": "Centralized fraud services, including payee confirmation and a transaction safety score, are required at launch.",
+      "category": "Business",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Payments Canada launches Real-Time Rail",
+          "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy"
+        }
+      ]
+    }
+  ]
+}
