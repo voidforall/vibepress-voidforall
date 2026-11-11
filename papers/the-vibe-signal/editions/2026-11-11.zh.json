@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-11",
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T14:55:35Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今日内容涵盖苹果应用泄露、对AI发现漏洞的批评性审计、一家初创公司关闭以及终结一个驱动的专利纠纷。部分条目仅有单一来源，已如实标注。",
+  "stories": [
+    {
+      "headline": "泄露信息显示苹果“Harbor”应用将把Mac变成私有本地AI服务器",
+      "summary": "9to5Mac报道，爆料者Aaron Perris发现苹果一款名为Harbor的应用的证据，可在苹果芯片上运行开放权重模型，并可通过Thunderbolt 5连接多台Mac以汇集内存。据称该应用在Claris品牌下处于私有预览阶段。",
+      "whyItMatters": "若属实，苹果将把无需命令行的本地模型服务产品化；目前只是泄露，并非正式发布。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "9to5Mac: Apple has new Mac app coming to make running local AI models easy",
+          "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/"
+        }
+      ]
+    },
+    {
+      "headline": "VulnCheck称Anthropic的Glasswing漏洞发现数量远超修复数量",
+      "summary": "VulnCheck统计到442个归于Anthropic的CVE（约占今年总数的0.5%），记录的发现共37,966项，但仅217项标记为已修复。在curl的案例中，已公布的34份报告中有19份并非漏洞。",
+      "whyItMatters": "该批评认为分类负担落在维护者身上；这只是一家厂商对Anthropic自身台账的分析。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "VulnCheck: Tracking Anthropic-discovered vulnerabilities",
+          "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"
+        }
+      ]
+    },
+    {
+      "headline": "Val Town将停止运营，12月10日起进入只读模式，计划2月1日开源",
+      "summary": "创始人Steve Krouse表示Val Town无法在云计算领域竞争。新用户注册已于11月10日停止，其他服务将于2027年1月10日结束，预付年费用户可获部分退款。",
+      "whyItMatters": "用户约有两个月时间迁移；公司提供了Cloudflare、Vercel、Netlify和Render的迁移指南。",
+      "category": "商业",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Val Town blog: Val Town is winding down",
+          "url": "https://blog.val.town/winding-down"
+        }
+      ]
+    },
+    {
+      "headline": "谷歌工程师称AI代理在公开激光雷达数据中标出可能未被记录的玛雅遗址",
+      "summary": "Pietro Miotti称，代理审查了约1,200平方公里的激光雷达数据，标出一处带有广场和椭圆形金字塔的山顶遗址。墨西哥国家人类学与历史研究所（INAH）称该处没有登记在册的遗址；作者强调该说法尚未证实，且自己不是考古学家。",
+      "whyItMatters": "这是自述结果，有待考古学验证。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Pietro Miotti: Maya site",
+          "url": "https://pietromiotti.com/latest/maya-site/?maya"
+        }
+      ]
+    },
+    {
+      "headline": "Synaptics的专利威胁使一名开发者搁置Linux DisplayLink驱动",
+      "summary": "LWN报道，编写了借助LLM的Rust驱动Vino的Mike Lothian收到援引125项专利的停止侵权函，随后又收到两项英国专利的权利要求对照表。他删除了代码仓库，并将驱动保留在本地。",
+      "whyItMatters": "该案显示，开放发明网络（OIN）的保护因排除编解码器而不适用，净室驱动仍面临专利风险。",
+      "category": "商业",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "LWN: Synaptics patent claims stop work on DisplayLink drivers",
+          "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/"
+        }
+      ]
+    },
+    {
+      "headline": "丰田复活Scion推出Kei卡车，但仅为2027年末的低速车队试点",
+      "summary": "The Autopian称，KEI-01是在印第安纳州生产的丰田Pixis换标车型，限速低于25英里/小时，仅可行驶在限速低于35英里/小时的道路。丰田将直接销售，首先是面向车队的试点。",
+      "whyItMatters": "更广泛的销售尚未确定，速度限制使其只适合农场、仓库和城市配送。",
+      "category": "商业",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "The Autopian: Scion is back and is going to sell a kei truck in America",
+          "url": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/"
+        }
+      ]
+    }
+  ]
+}

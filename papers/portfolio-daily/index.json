@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-11-11",
+      "date": "2026-11-11",
+      "headline": "Gold falls back as inflation concerns broaden, Yahoo Finance says; Investing.com notes miners rising on a rebound",
+      "storyCount": 4
+    },
+    {
       "id": "2026-11-10",
       "date": "2026-11-10",
       "headline": "Alibaba says Hong Kong has cleared a spin-off listing of chip unit T-Head, with no timetable set",

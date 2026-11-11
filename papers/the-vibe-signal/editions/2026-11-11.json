@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-11",
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T14:55:35Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today's edition runs from a leaked Apple app to a critical audit of AI-found vulnerabilities, a startup shutting down, and a patent fight that ended a driver. Several items are single-source claims and are labeled that way.",
+  "stories": [
+    {
+      "headline": "Apple's 'Harbor' app, found by a leaker, would turn Macs into a private local AI server",
+      "summary": "9to5Mac reports leaker Aaron Perris found evidence of Harbor, an app that runs open-weight models on Apple silicon and can link Macs over Thunderbolt 5 to pool memory. It is reportedly in private preview under the Claris brand.",
+      "whyItMatters": "If real, Apple is packaging local model serving with no command-line setup; it is a leak, not an announcement.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "9to5Mac: Apple has new Mac app coming to make running local AI models easy",
+          "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/"
+        }
+      ]
+    },
+    {
+      "headline": "VulnCheck says Anthropic's Glasswing ledger shows findings far outpacing fixes",
+      "summary": "VulnCheck counts 442 Anthropic-attributed CVEs (about 0.5% of this year's total), with 37,966 findings logged but only 217 marked fixed. In curl's case, 19 of 34 published reports were not vulnerabilities.",
+      "whyItMatters": "The critique argues triage burden is landing on maintainers; it is one vendor's analysis of Anthropic's own ledger.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "VulnCheck: Tracking Anthropic-discovered vulnerabilities",
+          "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"
+        }
+      ]
+    },
+    {
+      "headline": "Val Town is winding down, with read-only mode starting Dec. 10 and open-sourcing planned for Feb. 1",
+      "summary": "Founder Steve Krouse said Val Town couldn't compete in cloud computing. New signups ended Nov. 10, all other services end Jan. 10, 2027, and annual prepayers get a partial refund.",
+      "whyItMatters": "Users have about two months to migrate; the company points to Cloudflare, Vercel, Netlify and Render guides.",
+      "category": "Business",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Val Town blog: Val Town is winding down",
+          "url": "https://blog.val.town/winding-down"
+        }
+      ]
+    },
+    {
+      "headline": "A Google engineer says AI agents flagged a possibly unmapped Maya site in public lidar data",
+      "summary": "Pietro Miotti says agents reviewed about 1,200 km² of lidar and flagged a hilltop site with a plaza and an oval pyramid. Mexico's INAH says it has no registered site there; the author stresses the claim is unconfirmed and he is not an archaeologist.",
+      "whyItMatters": "It is a self-reported result awaiting archaeological verification.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Pietro Miotti: Maya site",
+          "url": "https://pietromiotti.com/latest/maya-site/?maya"
+        }
+      ]
+    },
+    {
+      "headline": "Synaptics' patent threats led a developer to shelve a Linux DisplayLink driver",
+      "summary": "LWN reports Mike Lothian, who wrote the LLM-assisted Rust driver Vino, received a cease-and-desist citing 125 patents and later claim charts for two UK patents. He removed his repository and will keep the driver local.",
+      "whyItMatters": "The case shows patent exposure for clean-room drivers that OIN's protections do not cover, since codecs are excluded.",
+      "category": "Business",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "LWN: Synaptics patent claims stop work on DisplayLink drivers",
+          "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/"
+        }
+      ]
+    },
+    {
+      "headline": "Toyota revives Scion with a kei truck, but it is a low-speed fleet pilot due in late 2027",
+      "summary": "The Autopian says the KEI-01 is a rebadged Toyota Pixis built in Indiana, limited to under 25 mph and roads posted under 35 mph. Toyota will sell it directly, starting with a fleet-focused pilot.",
+      "whyItMatters": "Wider availability is undetermined, and the speed limit restricts it to farm, warehouse and urban delivery work.",
+      "category": "Business",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "The Autopian: Scion is back and is going to sell a kei truck in America",
+          "url": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/"
+        }
+      ]
+    }
+  ]
+}

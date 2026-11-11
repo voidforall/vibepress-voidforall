@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-11-11",
+      "date": "2026-11-11",
+      "headline": "Apple's 'Harbor' app, found by a leaker, would turn Macs into a private local AI server",
+      "storyCount": 6
+    },
+    {
       "id": "2026-11-10",
       "date": "2026-11-10",
       "headline": "Anthropic releases Claude Fable 5.2 at $8/$40 per million tokens; Mythos 5.2 limited to vetted organizations",

@@ -8,8 +8,8 @@ _Self-publishing dailies, made with vibepress_
 
 | Paper | Covers | Cadence | Latest edition |
 | --- | --- | --- | --- |
-| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “Anthropic releases Claude Fable 5.2 at $8/$40 per million tokens; Myt…” · 2026-11-10 |
-| 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Alibaba says Hong Kong has cleared a spin-off listing of chip unit T-…” · 2026-11-10 |
+| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “Apple's 'Harbor' app, found by a leaker, would turn Macs into a priva…” · 2026-11-11 |
+| 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Gold falls back as inflation concerns broaden, Yahoo Finance says; In…” · 2026-11-11 |
 | 🔬 [Research Radar](https://voidforall.github.io/vibepress-voidforall/#/research-radar) | The week in AI research, distilled | Weekly (Mon) | “Training against reward-hacking monitors works, but models learn to e…” · 2026-11-09 |
 | 🪐 [The Cosmic Dispatch](https://voidforall.github.io/vibepress-voidforall/#/cosmic-dispatch) | Space, astronomy, and the odd asteroid | Weekly (Thu) | “NASA asks industry how to boost, service or retire Hubble” · 2026-11-05 |
 | 🌸 [The Otaku Times](https://voidforall.github.io/vibepress-voidforall/#/otaku-times) | Anime & manga, and what to watch next | Monthly | “Death Stranding Isolations drops its first teaser and staff list, bou…” · 2026-11-01 |

@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-11",
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T14:55:35Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A short edition built from headlines only: Google News links did not yield article text, so no figures beyond the headlines are reported. Gold and bitcoin moved on inflation and ETF-flow themes, while Alphabet and Duolingo drew cash-flow and litigation attention.",
+  "stories": [
+    {
+      "headline": "Gold falls back as inflation concerns broaden, Yahoo Finance says; Investing.com notes miners rising on a rebound",
+      "summary": "Yahoo Finance's Nov. 11 gold report is headlined 'Gold prices fall back as inflation concerns broaden'. Investing.com's headline says gold mining stocks rose as bullion climbed after an inflation-driven slide. Only headlines were available; no price levels were retrieved.",
+      "whyItMatters": "The two headlines describe a slide tied to inflation concerns followed by a bounce in bullion and miners.",
+      "category": "Commodities",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Gold price today, Wednesday, November 11, 2026: Gold prices fall back as inflation concerns broaden - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPa2ZWdnE1NlJaSFUzNWdvMnF5NXpwQzlKUFZ5MUczdFU1ZTNGZkRlRzNoUTFweTZ1aEVRVzR1cHEwWjJ4VS10R2dQYWJiaXk4a2F5UDZFLU1PX2JINGh0dnNBQ0Z1a1I4WXRiTTV5dFhPRWZaR1YxYWxJYzdoVTNCS0dWQ3pjZmJfMmlyX0ZFMk1rNXZEeGxRdWVXWlZmelR0RDA1WGtrbjZRU1FJMmMzaTI3cnJYaXBDVjF5cHJwNjZtTTY2dkpoLWprT2dOb1RENGhld3RBSjE4TU95YWNReGczOWZmYmxYLUc5cWlNQVVmOE9DRXJHRWJIbnpUa3Et?oc=5"
+        },
+        {
+          "title": "Gold mining stocks rise as bullion climbs after inflation-driven slide - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaEtVb3BXSS1JVDNIU181dGZXYmprZHY2MUF1VXc5Q1dJeTR2UWFnc0pqZUJDUmp0eElObFBlalRPbXp4eUtaMHNOVDVBSnZ6OVh5aWNuLThteTZ4MHBpVGxNaEViUWZRQkRZOUdESE05UWkxTDZtTzhtMURUMklhNmgwSlpHZk1kLWRGcFYzR3cwSU5KNkgyTVdqRE1QVXk4VURDSm9obWhzX242UkNobWpEMEp5M05YR0RrclI3REtxamM?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin sits out a stock rebound as ETF outflows continue, CoinDesk says",
+      "summary": "CoinDesk's Nov. 11 Crypto Markets Today headline says bitcoin did not join the stock-market rebound while ETF outflows continued. Only the headline was available; no figures were retrieved.",
+      "whyItMatters": "Per the headline, bitcoin diverged from equities, with ETF outflows cited as continuing.",
+      "category": "Crypto",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin sits out stock rebound as ETF outflows continue: Crypto Markets Today - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVE1LTjN4empxV2lyWVZDMDkxX2xMRlRlS0hvRXhYY01kVlZYaVVGT3psdE9XUTIwUXdPalhwRm5ocDNyWjd3cEhCOUtZdHlzS292U2JHZlA3a2Itd05oenNlQ1JMcEJFSzRUZHFfeERuMktnLW9EM2pFR3dEWVNrenkyZFhBZi15T1RIT3ExU1N2a2d3akpGN3dXeDlMRWNYU3ZWZ3lqNjhrczNRWWU0RQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Alphabet's TPU reveal is overshadowed by cash-flow worries, Barchart and Motley Fool say",
+      "summary": "Barchart's headline says Alphabet edged higher after revealing a pair of new TPUs, but that a bigger challenge for the stock is its cash flow. A Motley Fool piece asks whether Alphabet is still a buy after free cash flow turned negative. Only headlines were available.",
+      "whyItMatters": "Both outlets frame negative free cash flow as the main concern around Alphabet, per their headlines.",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Alphabet Edged Higher After Revealing a Pair of New TPUs for Agentic AI. A Bigger Challenge for GOOGL Stock Is Its Cash Flow. - Barchart.com",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNYVhqNnNpLVYxcDZtTHdFUnhMY211dmpic1IweVkwNUZURjJncGRnN1J5QklvUGl3Y2dZMnNmS21qNjRmaHJlTjlxdU5xb0s5NmNUcXVGc3BTTVZjZzRzOHAzNlVJNlpCSEcwSVlKM1g2QkhrVUgwMlVVNUJMbDdqMGcwa1c3eTFvcXI2OUVQR1Y4aVlpWTBDbGwySExQUmVhbEt4b1ZqdzZlTmF6dEdZY1pYR0t6RWJnUlBDaVZWMjFhX0RkZk9tNTJyYnlrZE0zemRjakJfQ1FvZHdLcTVwcXI0Q3ktdFB0M0FCLU5VOEQwSW1XNmRrZ3RCZw?oc=5"
+        },
+        {
+          "title": "Is Alphabet Still a Buy After Its Free Cash Flow Turned Negative? - The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOFMyMkpyVFp1bGhua21DaThYMV9VTTZhcnFmUHdjbDlQckJwQjFVbk5OZEMySDRJTUZHQklRVl8yTVRIdER4ZEItRm4wM1lFc0hYSVNoZGlZQ3BGaDdqM2YyUXNoSzdjYlA0SDJmZUZuUzlxajJXQ2tBT21fWjBGak8yTnNkcURqNXJFM1hSbVR3ekgzSG1VUXJzZzI2Qmp6dHNnWTN0dlpwdDg?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Law firms keep issuing Duolingo securities class-action notices",
+      "summary": "Several firms, including Kaplan Fox, Pomerantz and Bragar Eagel & Squire, published investor alerts on Nov. 10 about a securities fraud lawsuit against Duolingo (NASDAQ: DUOL), with lead-plaintiff deadlines referenced. Only headlines were available; the allegations were not retrieved.",
+      "whyItMatters": "The notices indicate a securities class action involving Duolingo is open for lead-plaintiff applications.",
+      "category": "Regulatory",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Kaplan Fox Alerts Duolingo, Inc. (NASDAQ: DUOL) Investors to an A - The National Law Review",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYy1ZWk1NWGU1akVRa3RaM3RNY0d0aGlXc25FSDJlOU4tdmFqNTZFRGkycWN4eHRlMUNCTW1mbXlpMTZtNloxUERkREl4Vk9hRnJfVzFoUnQwV1dmRDdSb0JybEozcTBlYUltdTR4c1lFVTZndHVhY3Z3TVRxMmlYaF9CWVdmR3NQb0RRamZoQV9jT1Vvb0dITkdKUmNYaGJtd0UxckczYnFjSkppYmc?oc=5"
+        },
+        {
+          "title": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in Duolingo, Inc. of Class Action Lawsuit and Upcoming Deadlines - DUOL - FinancialContent",
+          "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxORE9sZ0kteHRYRVh6N2RGbEpabnJfbkxtMVkwUWZ2QjJoMjBhUHdkNm45dGROcGotNGJVMkZBNnl6S1REaHJvVGtJbHpMWDl0NUNFeVF0LUVVWjVibm9IVHIxY0oyeFRwSUJicUpsM3pmeHNSR09MbWpMZktHVS1KOVk1cVh1eEw4UWZObUx3Q0h4eG93eDZwQXF3ME0xeWFWY2x2WXdBV0h2R01jZTMwRHA2eVlvTnFseGtPRXVzcWotTXpudWd1WHUzOUZqZ05nS0pZZXRTQi1yMnlnTmhKUnViLUNLbmprajZqNUg0NmJDMm0zaEdwa044NG10QVpCVGEtNDNRdnlpOVctY3lKZlpVSFJmeXJOc05tRHMxQVlfMVNTckFyMjlEelpSSWl1Wi1R?oc=5"
+        },
+        {
+          "title": "DUOL Investors Have Opportunity to Lead Duolingo, Inc. Securities Fraud Lawsuit - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS3RfeE0zMXlOSF9VSGFaWEZPUDRvRUFuRkw3NnJPMlMtS0NwekZfWXNoc19xN2VpRkhsNXdzblAxck1TX0VqZVNFNEtqd1J4TENEOG44NlQwMDdmV1MyRGMySDU4SEM5cnYyY0IxNzVjQUI2MWNhR0pHa2JJckxxOUZiSW5lbjBTTHdrWVlveUZYbHk4Tk1heXFTMXlVcFhFSXVFdzdIOUtlVjgwTjNRb2FxR3pkbl96dk5ReWxnNENRcVFMQ1dPVFBDczZqUQ?oc=5"
+        }
+      ]
+    }
+  ]
+}

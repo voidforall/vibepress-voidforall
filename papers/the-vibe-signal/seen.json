@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-10T15:26:27Z",
+  "updatedAt": "2026-11-11T14:55:35Z",
   "events": [
+    {
+      "date": "2026-11-11",
+      "headline": "VulnCheck says Anthropic's Glasswing ledger shows findings far outpacing fixes",
+      "summary": "VulnCheck counts 442 Anthropic-attributed CVEs (about 0.5% of this year's total), with 37,966 findings logged but only 217 marked fixed. In curl's case, 19 of 34 published reports were not vulnerabilities.",
+      "urls": [
+        "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "headline": "Val Town is winding down, with read-only mode starting Dec. 10 and open-sourcing planned for Feb. 1",
+      "summary": "Founder Steve Krouse said Val Town couldn't compete in cloud computing. New signups ended Nov. 10, all other services end Jan. 10, 2027, and annual prepayers get a partial refund.",
+      "urls": [
+        "https://blog.val.town/winding-down"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "headline": "Toyota revives Scion with a kei truck, but it is a low-speed fleet pilot due in late 2027",
+      "summary": "The Autopian says the KEI-01 is a rebadged Toyota Pixis built in Indiana, limited to under 25 mph and roads posted under 35 mph. Toyota will sell it directly, starting with a fleet-focused pilot.",
+      "urls": [
+        "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "headline": "Synaptics' patent threats led a developer to shelve a Linux DisplayLink driver",
+      "summary": "LWN reports Mike Lothian, who wrote the LLM-assisted Rust driver Vino, received a cease-and-desist citing 125 patents and later claim charts for two UK patents. He removed his repository and will keep the driver local.",
+      "urls": [
+        "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "headline": "Apple's 'Harbor' app, found by a leaker, would turn Macs into a private local AI server",
+      "summary": "9to5Mac reports leaker Aaron Perris found evidence of Harbor, an app that runs open-weight models on Apple silicon and can link Macs over Thunderbolt 5 to pool memory. It is reportedly in private preview under the Claris brand.",
+      "urls": [
+        "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "headline": "A Google engineer says AI agents flagged a possibly unmapped Maya site in public lidar data",
+      "summary": "Pietro Miotti says agents reviewed about 1,200 km² of lidar and flagged a hilltop site with a plaza and an oval pyramid. Mexico's INAH says it has no registered site there; the author stresses the claim is unconfirmed and he is not an arch…",
+      "urls": [
+        "https://pietromiotti.com/latest/maya-site/?maya"
+      ]
+    },
     {
       "date": "2026-11-10",
       "headline": "Payments Canada launches the Real-Time Rail, a 24/7 payment system with fraud checks required from day one",
@@ -601,55 +649,6 @@
       "summary": "The CFSG project says Lean's kernel checks every step of the first-generation proof, spanning about 43.1 million lines and 2.05 million declarations. It reports a problem in a published argument for the Unbalanced Group Theorem and offers…",
       "urls": [
         "https://cfsg.axiommath.ai/"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "headline": "US Energy Department designates helium a critical material, citing semiconductors and supply risk",
-      "summary": "On Oct. 23 the Energy Department added helium to its critical materials list, its 20th item and, with fluorine, one of two gases. The move opens more federal financing for producers and closer monitoring; AP links the supply pressure to Qa…",
-      "urls": [
-        "https://www.euronews.com/2026/10/23/us-designates-helium-as-critical-material-as-europe-faces-supply-squeeze",
-        "https://ktar.com/national-news/us-designates-helium-as-a-critical-material-citing-its-importance-for-semiconductors"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "headline": "Sebastian Raschka releases an 11-hour video course on building reasoning models from scratch",
-      "summary": "The eight-video course starts from a pre-trained Qwen3 0.6B and covers MATH-500 evaluation, self-consistency, self-refinement, GRPO-based RLVR training and distillation from DeepSeek R1. Early work runs on a CPU; training is far more pract…",
-      "urls": [
-        "https://magazine.sebastianraschka.com/p/building-reasoning-models"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "headline": "EPA will decommission its online web archive on Dec. 31, Mother Jones reports",
-      "summary": "The archive holds tens of thousands of public environmental documents, some 20+ years old, and a FOIA request showed it cost about $2 million a year. The EPA points to 'snapshot collections'; critics call them insufficient. The EPA did not…",
-      "urls": [
-        "https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-le"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "headline": "Does Brooks's Law survive AI agents? One blogger proposes a 2026 version",
-      "summary": "The j11g.com post argues agents remove onboarding and meeting friction, but sequential dependencies still can't be parallelised and the overhead shifts to humans defining 'done', reviewing and integrating output. It proposes: 'Adding agent…",
-      "urls": [
-        "https://j11g.com/the-mythical-man-month-in-the-age-of-ai"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "headline": "Apple's new iPad mini gets an A20 Pro chip and 8.5-inch OLED, from $699",
-      "summary": "Apple says the iPad mini runs the 2nm A20 Pro with an 8.5-inch OLED display, 5.4 mm thickness and IP67 rating. Wi-Fi models start at $699 ($849 with cellular); pre-orders open Oct. 28 and it ships Nov. 6.",
-      "urls": [
-        "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "headline": "3D-model sites say a crawler tied to Roblox pulled 145 GB, adult and non-commercial content included, ignoring robots.txt",
-      "summary": "Open3DLab says a crawler identifying itself as '3D foundation model research' with a Roblox email address read 18,926 projects and downloaded 1,027 files (145.5 GB) between Oct. 15 and 20; 345 of 712 downloaded projects were adult and 423…",
-      "urls": [
-        "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/"
       ]
     }
   ]
