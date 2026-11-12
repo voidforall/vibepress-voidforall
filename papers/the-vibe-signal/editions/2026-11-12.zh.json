@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-12",
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T16:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天，AI 芯片龙头的领导层出现空缺，与一家 AI 实验室的 IPO 时间表同日出现；航空公司拒绝 AI 订票代理，谷歌、AWS 与一个严重的 Apache 漏洞则构成工具层面的新闻。",
+  "stories": [
+    {
+      "headline": "黄仁勋辞任英伟达 CEO，首席财务官 Colette Kress 出任临时 CEO",
+      "summary": "英伟达宣布，黄仁勋辞去总裁、CEO 及董事职务，即刻生效。首席财务官 Colette Kress 兼任临时 CEO，Harvey C. Jones 出任公司首位董事会主席。公告未说明原因。",
+      "whyItMatters": "这家 AI 芯片龙头的掌舵人离任且尚无继任者；董事会将从内部和外部寻找人选。",
+      "category": "商业",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "NVIDIA Announces CEO Transition",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+        }
+      ]
+    },
+    {
+      "headline": "Anthropic 确定纳斯达克 IPO 时间表：预计 11 月 18 日定价，19 日以“ANT”代码挂牌",
+      "summary": "Anthropic 的 IPO 页面称路演已于 11 月 10 日开始，预计 11 月 18 日定价、19 日在纳斯达克交易，代码为 ANT，承销商包括高盛和摩根士丹利。页面披露第三季度营收 170 亿美元，净亏损 233 亿美元，其中含 219 亿美元非现金费用。",
+      "whyItMatters": "一家主要 AI 实验室正走向公开市场；注册声明尚未生效，时间表仍需监管批准。",
+      "category": "商业",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Anthropic IPO",
+          "url": "https://ipo.anthropic.com/us/"
+        }
+      ]
+    },
+    {
+      "headline": "联合航空禁止第三方 AI 代理代客订票",
+      "summary": "联合航空表示将限制 AI 代理订票，包括直接渠道及通过旅行社和聚合平台的间接渠道，理由包括账户凭证泄露、非预期购买或使用 MileagePlus 里程，以及可能与需当面确认行李的联邦规定冲突。",
+      "whyItMatters": "大型航空公司关上了代理订票的大门，而西南航空已向 ChatGPT 用户开放库存；据 CBS 报道，联合航空机票仍可通过 Kayak、Hopper 和 Google Flights 购买。",
+      "category": "商业",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "CBS News: United Airlines bans AI agents from booking flights",
+          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+        }
+      ]
+    },
+    {
+      "headline": "谷歌 Gemini Decisions API 对封闭选项打分，而非生成文本",
+      "summary": "这一新接口由 gemini-decision-1 驱动，接收一份多模态输入（最多 25.6 万 token），可就其回答最多 1,000 个是非、选择或评分问题，并给出 0–1 的置信度。谷歌称端到端延迟为 150–250 毫秒，输入每百万 token 0.10 美元，输出免费。",
+      "whyItMatters": "它面向路由、工具选择和策略检查等场景并给出校准概率；速度、成本和基准表现均为谷歌自述。",
+      "category": "技术",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Google: Gemini Decisions API",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+        }
+      ]
+    },
+    {
+      "headline": "AWS 发布开源的本地 AWS API 模拟器",
+      "summary": "aws/aws-emulator 仓库可作为本地服务器或嵌入式 Rust 测试依赖运行，无需 AWS 账户，每次发布都附带各服务的保真度评分，并提供面向 AI 编程代理的可安装技能。项目采用 CC0 许可，不接受 pull request。",
+      "whyItMatters": "开发者可离线针对 AWS API 做测试；它用于开发和测试，而非生产或安全测试。",
+      "category": "技术",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "aws/aws-emulator",
+          "url": "https://github.com/aws/aws-emulator"
+        }
+      ]
+    },
+    {
+      "headline": "Apache HTTP Server 严重漏洞：mod_http2 可导致远程代码执行（CVE-2026-119618）",
+      "summary": "Wiz 称 mod_http2 的 assign_headers() 存在竞态条件，可破坏堆内存并导致 Apache HTTP Server 2.4.55–2.4.70 远程代码执行；2.4.71 已修复。发布时尚无公开利用代码，也无在野利用报告。",
+      "whyItMatters": "运行 HTTP/2 的管理员应打补丁，或暂时移除 h2 和 h2c，仅使用 HTTP/1.1。",
+      "category": "技术",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Wiz: CVE-2026-119618",
+          "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability"
+        }
+      ]
+    }
+  ]
+}

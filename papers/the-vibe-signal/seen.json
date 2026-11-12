@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-11T14:55:35Z",
+  "updatedAt": "2026-11-12T15:47:16Z",
   "events": [
+    {
+      "date": "2026-11-12",
+      "headline": "United Airlines bans third-party AI agents from booking flights",
+      "summary": "United said it is restricting AI agents from making reservations, directly and via travel agencies and aggregators, citing credential exposure, unintended purchases or MileagePlus use, and possible conflicts with in-person baggage verifica…",
+      "urls": [
+        "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress steps in as interim",
+      "summary": "Nvidia announced that Huang resigned as president, CEO and board member, effective immediately. CFO Colette Kress becomes interim CEO while keeping her CFO role, and Harvey C. Jones becomes the board's first chair. The release gives no rea…",
+      "urls": [
+        "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "headline": "Google's Gemini Decisions API scores closed-set options instead of generating text",
+      "summary": "The new endpoint, powered by gemini-decision-1, takes one multimodal input (up to 256K tokens) and answers up to 1,000 yes/no, multiple-choice or rubric-score questions with 0–1 confidence values. Google reports 150–250 ms end-to-end laten…",
+      "urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "headline": "Critical Apache HTTP Server flaw: remote code execution via mod_http2 (CVE-2026-119618)",
+      "summary": "Wiz describes a race condition in mod_http2's assign_headers() that can corrupt heap memory and permit remote code execution in Apache HTTP Server 2.4.55–2.4.70; 2.4.71 fixes it. No public exploit or in-the-wild exploitation was reported a…",
+      "urls": [
+        "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "headline": "Anthropic sets its Nasdaq IPO: pricing expected Nov. 18, trading Nov. 19 as 'ANT'",
+      "summary": "Anthropic's IPO site says the roadshow began Nov. 10, pricing is expected Nov. 18 and trading Nov. 19 on Nasdaq under ANT, with Goldman Sachs and Morgan Stanley as named underwriters. It cites Q3 revenue of $17.0B and a $23.3B net loss, in…",
+      "urls": [
+        "https://ipo.anthropic.com/us/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "headline": "AWS publishes an open-source local emulator of the AWS APIs",
+      "summary": "The aws/aws-emulator repo runs as a local server or embedded Rust test dependency, needs no AWS account, ships per-service fidelity scores with each release, and offers an installable skill for AI coding agents. It is CC0-licensed and does…",
+      "urls": [
+        "https://github.com/aws/aws-emulator"
+      ]
+    },
     {
       "date": "2026-11-11",
       "headline": "VulnCheck says Anthropic's Glasswing ledger shows findings far outpacing fixes",
@@ -601,54 +649,6 @@
       "summary": "Alpine ran GitLab 19.3.4 and later 19.3.6 on stock Ruby, missing the Onigmo patch for CVE-2026-97229. An attacker crashed workers eight times on Oct. 20–21 and was partway through the exploit in four; Alpine found no evidence of success bu…",
       "urls": [
         "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html"
-      ]
-    },
-    {
-      "date": "2026-10-28",
-      "headline": "Tailscale investigates privilege-escalation flaws in Tailscale SSH; fixes are in testing",
-      "summary": "Tailscale says most findings let an already-authorized user act beyond their configured local user's permissions. It does not recommend disabling Tailscale SSH outright, suggests setting TS_SSH_DISABLE_FORWARDING=1 as a mitigation, and pub…",
-      "urls": [
-        "https://tailscale.com/ssh-investigation-update"
-      ]
-    },
-    {
-      "date": "2026-10-28",
-      "headline": "Google DeepMind unveils Genie 4, a real-time world model with native audio, in research preview",
-      "summary": "DeepMind says Genie 4 generates interactive simulations with music, ambient sound and dialogue, steerable by natural language, with Gemini models handling grounding and reasoning. It is limited to trusted testers for now, with outputs wate…",
-      "urls": [
-        "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
-      ]
-    },
-    {
-      "date": "2026-10-28",
-      "headline": "CPython's experimental JIT is to be removed after its PEP was withdrawn, LWN reports",
-      "summary": "LWN reports the JIT, added experimentally in Python 3.13, will be removed from the main branch, likely early in the 3.16 cycle. The steering council had given six months to produce an acceptable PEP; the authors withdrew PEP 836 on October…",
-      "urls": [
-        "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/"
-      ]
-    },
-    {
-      "date": "2026-10-28",
-      "headline": "Apple introduces a 14-inch MacBook Pro with the M6 chip",
-      "summary": "Apple's newsroom says the M6 model has a 12-core CPU and GPU, up to 30% faster graphics and up to 25% faster on-device AI than M5, 16GB of memory configurable to 32GB, and up to 24 hours of battery. Pre-orders began October 28 with availab…",
-      "urls": [
-        "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/"
-      ]
-    },
-    {
-      "date": "2026-10-28",
-      "headline": "Anthropic reports early results from drug-development partnerships, mostly preclinical",
-      "summary": "Anthropic describes work with six drug developers: Generate Biomedicines saw a CAR T design about 70% shorter that made roughly 10 times as many receptors in lab tests, and Enveda cut review time on 1,061 pages by 89%. Anthropic also acqui…",
-      "urls": [
-        "https://www.anthropic.com/research/early-progress-drug-development"
-      ]
-    },
-    {
-      "date": "2026-10-28",
-      "headline": "A Lean formalization of the classification of finite simple groups reaches about 43 million lines",
-      "summary": "The CFSG project says Lean's kernel checks every step of the first-generation proof, spanning about 43.1 million lines and 2.05 million declarations. It reports a problem in a published argument for the Unbalanced Group Theorem and offers…",
-      "urls": [
-        "https://cfsg.axiommath.ai/"
       ]
     }
   ]

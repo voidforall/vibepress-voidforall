@@ -7,6 +7,12 @@
   "emoji": "🪐",
   "editions": [
     {
+      "id": "2026-11-12",
+      "date": "2026-11-12",
+      "headline": "ESCAPADE's twin spacecraft complete powered Earth flybys and head for Mars",
+      "storyCount": 4
+    },
+    {
       "id": "2026-11-05",
       "date": "2026-11-05",
       "headline": "NASA asks industry how to boost, service or retire Hubble",

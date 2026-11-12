@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-12",
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T16:10:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Policy and positioning dominated: a reported U.S. chip-access rule hit Alibaba and Tencent, gold and bitcoin both fell to multi-month lows, and one analyst raised Rocket Lab while another cut it. Reported rules and analyst targets are not outcomes, and none of this is advice.",
+  "stories": [
+    {
+      "headline": "Alibaba and Tencent slide on report the U.S. will bar remote access to advanced AI chips",
+      "summary": "Per The Information as relayed by Investing.com, Commerce is preparing to finalize a rule stopping Chinese AI firms from remotely using advanced chips in overseas data centers, extending export controls to seven more countries, including Malaysia, Singapore and Thailand. Alibaba fell about 5% and Tencent about 1.5% in Hong Kong; neither company nor Commerce commented in the article.",
+      "whyItMatters": "A reported tightening would reach cloud-rented chip capacity, not just chip shipments; it is a proposal that could be announced this month, not an adopted rule.",
+      "category": "Regulatory",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Investing.com: Alibaba, Tencent shares fall on report U.S. weighs curbs on remote AI chip access",
+          "url": "https://www.investing.com/news/stock-market-news/alibaba-tencent-shares-fall-on-report-us-weighs-curbs-on-remote-ai-chip-access-5020375"
+        }
+      ]
+    },
+    {
+      "headline": "Gold slips to about $3,900 after jobless claims rise to 200,000",
+      "summary": "Spot gold traded at $3,903.98 an ounce, down 2.11%, after initial claims came in at 200,000 for the week ended Nov. 7 versus a 195,000 consensus; the prior week was revised to 191,000. Continuing claims were 1.697 million.",
+      "whyItMatters": "Kitco's data show a modest uptick in claims alongside a sharp one-day drop in gold, which sits just above the $3,900 level analysts had flagged.",
+      "category": "Commodities",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Kitco: Gold price tests $3,900/oz after U.S. weekly jobless claims rise to 200k",
+          "url": "https://www.kitco.com/news/article/2026-11-12/gold-price-tests-3900oz-after-us-weekly-jobless-claims-rise-200k"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin falls to its weakest since August as spot ETF outflows reach a fifth day",
+      "summary": "CoinDesk reports bitcoin near $73,400 in one article and about $71,300 later in its live coverage, its weakest since mid-to-late August. U.S. spot bitcoin ETFs lost $299.9 million on Wednesday, about $1.44 billion since Nov. 5, with BlackRock's IBIT at nine straight sessions of redemptions.",
+      "whyItMatters": "Persistent ETF redemptions are the disclosed demand-side pressure; CoinDesk's pages quote slightly different prices, reflecting the intraday move.",
+      "category": "Crypto",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "CoinDesk: Bitcoin slips with tech stocks as Nvidia CEO turmoil and ETF outflows weigh",
+          "url": "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five"
+        }
+      ]
+    },
+    {
+      "headline": "MSCI to remove Strategy, the largest corporate bitcoin holder, from its global indexes",
+      "summary": "CoinDesk reports Strategy will be removed from MSCI's global equity indexes after the close on Nov. 30; shares were down about 4% premarket. The article does not give MSCI's reasons and notes the removal could prompt selling by index-tracking funds.",
+      "whyItMatters": "The change follows Strategy's bitcoin holdings (reported earlier this week above 850,000 tokens) into index-fund flows; MSCI's rationale was not stated in the source.",
+      "category": "Crypto",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "CoinDesk live updates: Strategy kicked out of MSCI indexes",
+          "url": "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets"
+        }
+      ]
+    },
+    {
+      "headline": "Berenberg lifts Rocket Lab target to $85 as shares sit near $66",
+      "summary": "Berenberg raised its Rocket Lab price target to $85 from $83 and kept its Buy rating, citing launch orders at about seven times last year's pace and Neutron being sold into the 2030s at a base price 27% higher than current offerings. Piper Sandler cut its target to $58 on Neutron timing; KeyBanc kept $100.",
+      "whyItMatters": "Analysts are split on Neutron's timing even as the stock is up nearly 44% in a week; these are analyst views, not investment advice.",
+      "category": "Company",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Investing.com: Berenberg raises Rocket Lab stock price target on launch demand",
+          "url": "https://uk.investing.com/news/stock-market-news/berenberg-raises-rocket-lab-stock-price-target-on-launch-demand-93CH-4976237"
+        }
+      ]
+    }
+  ]
+}

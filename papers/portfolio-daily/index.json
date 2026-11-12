@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-11-12",
+      "date": "2026-11-12",
+      "headline": "Alibaba and Tencent slide on report the U.S. will bar remote access to advanced AI chips",
+      "storyCount": 5
+    },
+    {
       "id": "2026-11-11",
       "date": "2026-11-11",
       "headline": "Gold falls back as inflation concerns broaden, Yahoo Finance says; Investing.com notes miners rising on a rebound",

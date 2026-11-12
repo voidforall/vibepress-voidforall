@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-12",
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T15:00:00Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "A busy week for getting somewhere: two probes slingshot toward Mars, a Starship test is poised to try a double catch, and astronomers keep turning up faint, dark things at the Milky Way's edge and beyond. Several results are early, and the starless-galaxy candidate in particular awaits follow-up.",
+  "stories": [
+    {
+      "headline": "ESCAPADE's twin spacecraft complete powered Earth flybys and head for Mars",
+      "summary": "Both NASA ESCAPADE probes used Earth's gravity plus a roughly nine-minute engine burn at closest approach, planned for Nov. 7 and Nov. 9, to speed toward Mars. Each burn was planned to add more than 1,000 mph.",
+      "whyItMatters": "NASA calls it the first time the agency has used a powered Earth flyby to send a spacecraft to Mars; the pair are due to arrive in September 2027 to fly in formation there.",
+      "category": "Missions",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "NASA's Twin ESCAPADE Spacecraft to Slingshot Past Earth on Way to Mars",
+          "url": "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/"
+        }
+      ]
+    },
+    {
+      "headline": "Rubin Observatory's early data reveals a new ultra-faint Milky Way satellite and a hidden star cluster",
+      "summary": "Aquarius IV, an ultra-faint satellite galaxy, and Rubin-GC1, a star cluster behind the dusty far side of the Milky Way, both turned up in preview data taken between April 2025 and January 2026, covering about 15% of the survey footprint.",
+      "whyItMatters": "About 65 Milky Way satellites are known; the finds are a preview of what the 10-year survey, begun in June, may add.",
+      "category": "Discovery",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "University of Washington: Rubin Observatory Milky Way satellites",
+          "url": "https://www.washington.edu/news/2026/11/05/rubin-observatory-milky-way-satellites/"
+        }
+      ]
+    },
+    {
+      "headline": "A giant hydrogen cloud with no visible stars may be a rotating 'dark' galaxy",
+      "summary": "Swinburne University astronomers, comparing Arecibo and FAST radio surveys, found AGC 322753: about 2 billion solar masses of hydrogen, at least 40 times its stellar mass, with a double-peaked signal that may mean rotation.",
+      "whyItMatters": "Models say dark galaxies shouldn't rotate, but the team cautions it may hold faint stars or be tidal debris; Very Large Array follow-up is planned.",
+      "category": "Astronomy",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Scientists May Have Discovered a Massive Starless Galaxy (syndicated Wired report)",
+          "url": "https://dnyuz.com/2026/11/09/scientists-may-have-discovered-a-massive-starless-galaxy/"
+        }
+      ]
+    },
+    {
+      "headline": "SpaceX targets Nov. 13 for Starship Flight 15, aiming to catch both booster and ship",
+      "summary": "SpaceX released Flight 15 details on Nov. 7: the Super Heavy booster is to be caught minutes after liftoff and the ship about 22.5 hours later, after roughly 14 orbits, pending regulatory approval.",
+      "whyItMatters": "The flight would be the first attempt to catch both stages; as of publication it has not flown and the date is a target.",
+      "category": "Launches",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "SpaceX plans to catch both Starship stages on Flight 15",
+          "url": "https://runtimewire.com/article/spacex-starship-flight-15-catch-both-stages-november-13"
+        }
+      ]
+    }
+  ]
+}

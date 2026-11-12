@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-12",
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T16:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A leadership vacuum at the top of the AI-chip business shares the day with an AI lab's IPO timetable, while an airline locks out AI booking agents and Google, AWS and a critical Apache bug supply the tooling news.",
+  "stories": [
+    {
+      "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress steps in as interim",
+      "summary": "Nvidia announced that Huang resigned as president, CEO and board member, effective immediately. CFO Colette Kress becomes interim CEO while keeping her CFO role, and Harvey C. Jones becomes the board's first chair. The release gives no reason.",
+      "whyItMatters": "The head of the AI-chip leader is gone with no named successor; the board is searching internally and externally.",
+      "category": "Business",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "NVIDIA Announces CEO Transition",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+        }
+      ]
+    },
+    {
+      "headline": "Anthropic sets its Nasdaq IPO: pricing expected Nov. 18, trading Nov. 19 as 'ANT'",
+      "summary": "Anthropic's IPO site says the roadshow began Nov. 10, pricing is expected Nov. 18 and trading Nov. 19 on Nasdaq under ANT, with Goldman Sachs and Morgan Stanley as named underwriters. It cites Q3 revenue of $17.0B and a $23.3B net loss, including a $21.9B non-cash charge.",
+      "whyItMatters": "A major AI lab is moving to public markets; the registration statement was not yet effective, so the timetable is subject to clearance.",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Anthropic IPO",
+          "url": "https://ipo.anthropic.com/us/"
+        }
+      ]
+    },
+    {
+      "headline": "United Airlines bans third-party AI agents from booking flights",
+      "summary": "United said it is restricting AI agents from making reservations, directly and via travel agencies and aggregators, citing credential exposure, unintended purchases or MileagePlus use, and possible conflicts with in-person baggage verification rules.",
+      "whyItMatters": "One large carrier is closing the door on agent-driven booking while Southwest has opened its inventory to ChatGPT users; fares stay available via Kayak, Hopper and Google Flights, per CBS.",
+      "category": "Business",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "CBS News: United Airlines bans AI agents from booking flights",
+          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+        }
+      ]
+    },
+    {
+      "headline": "Google's Gemini Decisions API scores closed-set options instead of generating text",
+      "summary": "The new endpoint, powered by gemini-decision-1, takes one multimodal input (up to 256K tokens) and answers up to 1,000 yes/no, multiple-choice or rubric-score questions with 0–1 confidence values. Google reports 150–250 ms end-to-end latency and $0.10 per million input tokens, with no output charge.",
+      "whyItMatters": "It targets routing, tool selection and policy checks with calibrated probabilities; speed, cost and benchmark claims are Google's own.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Google: Gemini Decisions API",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+        }
+      ]
+    },
+    {
+      "headline": "AWS publishes an open-source local emulator of the AWS APIs",
+      "summary": "The aws/aws-emulator repo runs as a local server or embedded Rust test dependency, needs no AWS account, ships per-service fidelity scores with each release, and offers an installable skill for AI coding agents. It is CC0-licensed and does not accept pull requests.",
+      "whyItMatters": "Developers get an AWS-maintained way to test against AWS APIs offline; it is meant for building and testing, not production or security testing.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "aws/aws-emulator",
+          "url": "https://github.com/aws/aws-emulator"
+        }
+      ]
+    },
+    {
+      "headline": "Critical Apache HTTP Server flaw: remote code execution via mod_http2 (CVE-2026-119618)",
+      "summary": "Wiz describes a race condition in mod_http2's assign_headers() that can corrupt heap memory and permit remote code execution in Apache HTTP Server 2.4.55–2.4.70; 2.4.71 fixes it. No public exploit or in-the-wild exploitation was reported at publication.",
+      "whyItMatters": "Admins running HTTP/2 should patch, or temporarily restrict to HTTP/1.1 by removing h2 and h2c.",
+      "category": "Technology",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Wiz: CVE-2026-119618",
+          "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability"
+        }
+      ]
+    }
+  ]
+}

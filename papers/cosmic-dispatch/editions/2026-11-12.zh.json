@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-12",
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T15:00:00Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "这一周的主题是“奔赴远方”：两艘探测器借地球引力飞向火星，星舰试飞准备尝试双回收，天文学家则在银河系边缘及更远处不断发现暗弱天体。其中多项结果尚属早期，尤其是无星星系候选体仍有待后续观测。",
+  "stories": [
+    {
+      "headline": "ESCAPADE 双探测器完成地球动力飞掠，前往火星",
+      "summary": "NASA 的 ESCAPADE 两艘探测器在 11 月 7 日和 9 日借助地球引力，并在最近点点火约九分钟，加速飞向火星；每次点火计划使速度提升超过每小时 1,000 英里。",
+      "whyItMatters": "NASA 称这是该机构首次用动力地球飞掠把航天器送往火星；两艘探测器预计 2027 年 9 月抵达，并在火星编队飞行。",
+      "category": "任务",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "NASA's Twin ESCAPADE Spacecraft to Slingshot Past Earth on Way to Mars",
+          "url": "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/"
+        }
+      ]
+    },
+    {
+      "headline": "鲁宾天文台早期数据发现一个超暗弱银河系卫星星系和一个隐藏星团",
+      "summary": "宝瓶座 IV 是一个超暗弱卫星星系，Rubin-GC1 是银河系远侧尘埃后的星团；二者均来自 2025 年 4 月至 2026 年 1 月的预览数据，约覆盖巡天面积的 15%。",
+      "whyItMatters": "目前已知约 65 个银河系卫星星系；这些发现预示了 6 月启动的十年巡天可能带来的成果。",
+      "category": "发现",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "University of Washington: Rubin Observatory Milky Way satellites",
+          "url": "https://www.washington.edu/news/2026/11/05/rubin-observatory-milky-way-satellites/"
+        }
+      ]
+    },
+    {
+      "headline": "一团没有可见恒星的巨大氢云，可能是一个旋转的“暗”星系",
+      "summary": "斯威本科技大学的天文学家对比阿雷西博与 FAST 射电巡天，发现 AGC 322753：约 20 亿倍太阳质量的氢，质量至少是恒星质量的 40 倍，双峰信号可能意味着旋转。",
+      "whyItMatters": "模型认为暗星系不应旋转，但研究团队提醒它可能含有暗弱恒星，或是潮汐残骸；后续将用甚大阵观测。",
+      "category": "天文",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Scientists May Have Discovered a Massive Starless Galaxy (syndicated Wired report)",
+          "url": "https://dnyuz.com/2026/11/09/scientists-may-have-discovered-a-massive-starless-galaxy/"
+        }
+      ]
+    },
+    {
+      "headline": "SpaceX 定于 11 月 13 日进行星舰第 15 次飞行，目标是同时回收助推器和飞船",
+      "summary": "SpaceX 于 11 月 7 日公布第 15 次飞行细节：超重型助推器将在升空数分钟后被捕获，飞船约 22.5 小时后、绕轨约 14 圈后被捕获，仍待监管批准。",
+      "whyItMatters": "这将是首次尝试同时回收两级火箭；截至发稿尚未发射，日期只是目标。",
+      "category": "发射",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "SpaceX plans to catch both Starship stages on Flight 15",
+          "url": "https://runtimewire.com/article/spacex-starship-flight-15-catch-both-stages-november-13"
+        }
+      ]
+    }
+  ]
+}

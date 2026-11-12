@@ -1,7 +1,39 @@
 {
   "windowDays": 21,
-  "updatedAt": "2026-11-05T15:11:31Z",
+  "updatedAt": "2026-11-12T15:46:42Z",
   "events": [
+    {
+      "date": "2026-11-12",
+      "headline": "SpaceX targets Nov. 13 for Starship Flight 15, aiming to catch both booster and ship",
+      "summary": "SpaceX released Flight 15 details on Nov. 7: the Super Heavy booster is to be caught minutes after liftoff and the ship about 22.5 hours later, after roughly 14 orbits, pending regulatory approval.",
+      "urls": [
+        "https://runtimewire.com/article/spacex-starship-flight-15-catch-both-stages-november-13"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "headline": "Rubin Observatory's early data reveals a new ultra-faint Milky Way satellite and a hidden star cluster",
+      "summary": "Aquarius IV, an ultra-faint satellite galaxy, and Rubin-GC1, a star cluster behind the dusty far side of the Milky Way, both turned up in preview data taken between April 2025 and January 2026, covering about 15% of the survey footprint.",
+      "urls": [
+        "https://www.washington.edu/news/2026/11/05/rubin-observatory-milky-way-satellites/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "headline": "ESCAPADE's twin spacecraft complete powered Earth flybys and head for Mars",
+      "summary": "Both NASA ESCAPADE probes used Earth's gravity plus a roughly nine-minute engine burn at closest approach, planned for Nov. 7 and Nov. 9, to speed toward Mars. Each burn was planned to add more than 1,000 mph.",
+      "urls": [
+        "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "headline": "A giant hydrogen cloud with no visible stars may be a rotating 'dark' galaxy",
+      "summary": "Swinburne University astronomers, comparing Arecibo and FAST radio surveys, found AGC 322753: about 2 billion solar masses of hydrogen, at least 40 times its stellar mass, with a double-peaked signal that may mean rotation.",
+      "urls": [
+        "https://dnyuz.com/2026/11/09/scientists-may-have-discovered-a-massive-starless-galaxy/"
+      ]
+    },
     {
       "date": "2026-11-05",
       "headline": "Webb finds the most distant ring galaxy yet",
@@ -82,60 +114,6 @@
       "summary": "ESA's Euclid telescope turned up a comet in images taken Sept. 16–24; University of Helsinki PhD student Mikko Pöntinen's software flagged a streak, and it sits about 1.3 billion km away with a fuzzy cloud suggesting it is shedding dust an…",
       "urls": [
         "https://www.sci.news/astronomy/esas-euclid-space-telescope-first-comet-15139.html"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "headline": "Webb sees water clouds thicken and thin on the cold brown dwarf WISE 0855",
-      "summary": "A University of Arizona team led by Brittany Miles took a JWST spectrum of WISE 0855, a brown dwarf about 7.5 light-years away, every 15 minutes for 11 hours. They saw high-altitude clouds change in thickness and convection cycles deeper d…",
-      "urls": [
-        "https://www.iflscience.com/varying-water-clouds-detected-beyond-the-solar-system-for-the-first-time-and-theyre-not-around-a-planet-84913",
-        "https://www.universetoday.com/articles/first-detection-of-water-clouds-outside-our-solar-system"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "headline": "Webb pins down the host of the most distant fast radio burst yet, 10.6 billion light-years away",
-      "summary": "Using the James Webb Space Telescope, astronomers identified the host galaxy of FRB 20240304B, a burst first detected by South Africa's MeerKAT in March 2024. The host sits at a redshift of 2.148 (about 10.63 billion light-years by NASA's…",
-      "urls": [
-        "https://www.livescience.com/space/astronomy/james-webb-telescope-pinpoints-the-most-distant-fast-radio-burst-ever-seen-more-than-doubling-the-previous-record",
-        "https://www.sci.news/astronomy/most-distant-fast-radio-burst-15124.html"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "headline": "SPHEREx's first look at 37 nearby brown dwarfs spans 2,200 °C to below freezing",
-      "summary": "NASA's SPHEREx telescope measured the brightness of 37 nearby brown dwarfs in 102 colours, covering the full brown-dwarf temperature range from about 2,200 to minus 20 degrees Celsius. Only a few dozen brown dwarfs have been studied in det…",
-      "urls": [
-        "https://nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs",
-        "https://arxiv.org/pdf/2607.00543"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "headline": "NASA and the Energy Department sign a pact on space nuclear power and propulsion",
-      "summary": "NASA Administrator Jared Isaacman and Energy Secretary Chris Wright signed a memorandum covering nuclear fuel, testing, launch integration and a lunar surface reactor; it takes effect November 1. NASA's stated plan includes sending the nuc…",
-      "urls": [
-        "https://world-nuclear-news.org/articles/nasa-aims-for-nuclear-powered-mars-mission-in-2028",
-        "https://morungexpress.com/us-advances-nuclear-powered-moon-missions"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "headline": "Crew-12 splashes down off California after 237 days in orbit",
-      "summary": "The Dragon \"Freedom\" landed in the Pacific off Los Angeles at 11:34 a.m. EDT on October 8 with Jessica Meir, Jack Hathaway, ESA's Sophie Adenot and Roscosmos's Andrey Fedyaev. NASA says the crew travelled more than 100 million miles and co…",
-      "urls": [
-        "https://www.fox35orlando.com/news/spacexs-crew-12-astronauts-returning-earth-splashdown",
-        "https://www.neoteo.com/en/nasas-crew-12-splashed-down-after-237-days-in-orbit"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "headline": "A cargo Dragon carries the space station's final roll-out solar arrays to orbit",
-      "summary": "SpaceX's Falcon 9 launched the CRS-35 resupply mission from Cape Canaveral on October 13 with about 6,300 pounds of cargo, including the last two Roll-Out Solar Arrays and gear for more than 40 science studies. Docking was planned for abou…",
-      "urls": [
-        "https://www.space.com/space-exploration/international-space-station/spacex-crs-35-cargo-launch-international-space-station",
-        "https://spaceflightnow.com/?p=74541"
       ]
     }
   ]

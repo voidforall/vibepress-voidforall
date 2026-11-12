@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-12",
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T16:10:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "政策与仓位主导今日行情：关于美国芯片远程使用规则的报道拖累阿里巴巴和腾讯，黄金与比特币均跌至数月低位，分析师对 Rocket Lab 的看法则出现分歧。报道中的规则和分析师目标价并非既成结果，以上内容不构成投资建议。",
+  "stories": [
+    {
+      "headline": "阿里巴巴、腾讯股价下挫，报道称美国拟禁止远程使用先进 AI 芯片",
+      "summary": "据 Investing.com 转述 The Information 的报道，美国商务部正准备敲定规则，禁止中国 AI 企业远程使用海外数据中心的先进芯片，并将出口管制扩大到另外七个国家，包括马来西亚、新加坡和泰国。阿里巴巴在香港下跌约 5%，腾讯下跌约 1.5%；文中阿里、腾讯和商务部均未置评。",
+      "whyItMatters": "若报道属实，限制将覆盖租用的云端芯片算力，而不仅是芯片出口；目前只是可能于本月公布的提案，并非已生效规则。",
+      "category": "监管",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Investing.com: Alibaba, Tencent shares fall on report U.S. weighs curbs on remote AI chip access",
+          "url": "https://www.investing.com/news/stock-market-news/alibaba-tencent-shares-fall-on-report-us-weighs-curbs-on-remote-ai-chip-access-5020375"
+        }
+      ]
+    },
+    {
+      "headline": "初请失业金人数升至 20 万，黄金跌至约 3,900 美元",
+      "summary": "现货黄金报每盎司 3,903.98 美元，下跌 2.11%；截至 11 月 7 日当周初请失业金人数为 20 万，高于市场预期的 19.5 万，前一周修正为 19.1 万；续请人数为 169.7 万。",
+      "whyItMatters": "Kitco 数据显示，申请人数小幅上升的同时黄金单日大幅下跌，价格逼近分析师此前关注的 3,900 美元位置。",
+      "category": "大宗商品",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Kitco: Gold price tests $3,900/oz after U.S. weekly jobless claims rise to 200k",
+          "url": "https://www.kitco.com/news/article/2026-11-12/gold-price-tests-3900oz-after-us-weekly-jobless-claims-rise-200k"
+        }
+      ]
+    },
+    {
+      "headline": "比特币跌至 8 月以来最低，现货 ETF 连续第五日净流出",
+      "summary": "CoinDesk 一篇报道称比特币约 73,400 美元，其后实时报道称约 71,300 美元，为 8 月中下旬以来最低。美国现货比特币 ETF 周三净流出 2.999 亿美元，11 月 5 日以来累计约 14.4 亿美元，贝莱德 IBIT 已连续九个交易日出现赎回。",
+      "whyItMatters": "持续的 ETF 赎回是已披露的需求端压力；CoinDesk 不同页面的价格略有出入，反映了日内波动。",
+      "category": "加密货币",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "CoinDesk: Bitcoin slips with tech stocks as Nvidia CEO turmoil and ETF outflows weigh",
+          "url": "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five"
+        }
+      ]
+    },
+    {
+      "headline": "MSCI 将把最大企业比特币持有者 Strategy 移出全球指数",
+      "summary": "CoinDesk 报道，Strategy 将在 11 月 30 日收盘后被移出 MSCI 全球股票指数，盘前股价下跌约 4%。文章未说明 MSCI 的理由，并指出此举可能引发跟踪指数的基金抛售。",
+      "whyItMatters": "这一变动把 Strategy 的比特币持仓与指数基金资金流联系起来；来源未说明 MSCI 的理由。",
+      "category": "加密货币",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "CoinDesk live updates: Strategy kicked out of MSCI indexes",
+          "url": "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets"
+        }
+      ]
+    },
+    {
+      "headline": "Berenberg 将 Rocket Lab 目标价上调至 85 美元，股价约 66 美元",
+      "summary": "Berenberg 将 Rocket Lab 目标价由 83 美元上调至 85 美元并维持买入评级，理由是发射订单约为去年同期的七倍，且 Neutron 已售至 2030 年代，基础价格比现有产品高 27%。Piper Sandler 因 Neutron 时间表不确定将目标价下调至 58 美元；KeyBanc 维持 100 美元。",
+      "whyItMatters": "尽管股价一周上涨近 44%，分析师对 Neutron 时间表仍存分歧；以上为分析师观点，不构成投资建议。",
+      "category": "公司",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Investing.com: Berenberg raises Rocket Lab stock price target on launch demand",
+          "url": "https://uk.investing.com/news/stock-market-news/berenberg-raises-rocket-lab-stock-price-target-on-launch-demand-93CH-4976237"
+        }
+      ]
+    }
+  ]
+}
