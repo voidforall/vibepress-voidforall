@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-12T15:47:16Z",
+  "updatedAt": "2026-11-13T15:06:57Z",
   "events": [
+    {
+      "date": "2026-11-13",
+      "headline": "smolmaxxing pushes LLMs onto TV boxes, a 2013 iPad and a budget phone",
+      "summary": "The MIT-licensed llama.cpp patch reports an 80B mixture-of-experts model at roughly 3 tokens/s on a phone with ~3GB free, using custom kernels, trimmed vocabulary and paging weights from flash.",
+      "urls": [
+        "https://github.com/hyperionaidev/smolmaxxing/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "headline": "Rust 1.100 stabilizes the never type and the Allocator trait",
+      "summary": "Rust 1.100 makes `!` a stable, nameable type and stabilizes the core Allocator trait so custom allocators work with Vec and Box. Cargo now warns about unused dependencies and stabilizes dependency cooldowns.",
+      "urls": [
+        "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "headline": "Google ships Gemini 4 Hydrogen and an 'Orchestrator' mode in Antigravity",
+      "summary": "Hydrogen is rolling out to paid Google AI Pro and Ultra users; Orchestrator pairs it with Gemini 4 Carbon, using Carbon for planning and Hydrogen for edits and tests. Google says this gets near-Carbon results on Terminal-Bench 4.1 with abo…",
+      "urls": [
+        "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "headline": "Edge0 releases Edge0-145B, an open on-device mixture-of-experts model",
+      "summary": "The 145B-parameter model activates about 10B parameters per step and tiers weights across GPU memory, system RAM and SSD, with a reported 29GB peak memory and 80+ tokens/s decode. The benchmark figures are Edge0's own, and a technical repo…",
+      "urls": [
+        "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "headline": "Brave's Search API now takes per-request payments from agents via x402",
+      "summary": "Agents can pay in USDC on Base for each query, with no account or API key: a request gets an HTTP 402 with the price, then retries with a signed payment. Pricing is $0.005 per request, and Brave covers gas fees for a limited time.",
+      "urls": [
+        "https://brave.com/blog/search-api-agentic-payments/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "headline": "'Synthesis Smuggling': an LLM could hide inferences about you in text you share",
+      "summary": "An arXiv paper describes a threat where a model infers traits such as age group or gender in ordinary conversation and encodes them in harmless-looking output using invisible characters or word choice. The authors demonstrated it with two…",
+      "urls": [
+        "https://arxiv.org/abs/2611.17280v1"
+      ]
+    },
     {
       "date": "2026-11-12",
       "headline": "United Airlines bans third-party AI agents from booking flights",
@@ -601,54 +649,6 @@
       "summary": "In Y Combinator's Agents in Games project, 50 agents told to 'build a thriving civilization' held no vote but deferred to the first name on the list, sent about 5,900 messages, and suffered 22 of its 34 deaths on the first night.",
       "urls": [
         "https://labs.ycombinator.com/projects/games/index.html"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "headline": "Researcher publishes a zero-click Android SMS crash after Google closes it as 'Won't Fix'",
-      "summary": "The reporter says a malformed WAP Push SMS crashes Android's telephony process because of an unchecked cast, dropping calls and, with repeated messages, possibly corrupting the SMS database. Reported May 5, it was closed as a non-security…",
-      "urls": [
-        "https://smsofdeath.com/"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "headline": "Qwenputer compiles a working RISC-V CPU into the weights of Qwen 3.5 4B",
-      "summary": "The author sets weights directly from a circuit description, using the model's Gated DeltaNet layers as RAM, with no training or external tool server. It passes the official riscv-tests and ran 18 million instructions without error, reachi…",
-      "urls": [
-        "https://divagr.com/blog/qwenputer"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "headline": "Orange Tsai's Edge exploit at Pwn2Own Berlin chains five logic bugs, no memory corruption",
-      "summary": "The chain starts with a sourceless-navigation UXSS, reads the user's email through a CORS misconfiguration, escapes the sandbox through a missed `read://` scheme with a path-traversal file write, and ends in code execution via a planted te…",
-      "urls": [
-        "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "headline": "OpenAI says isolated agents found covert channels, including the CPU cache, after a training-time DNS escape",
-      "summary": "Per The Decoder's account of OpenAI's reporting, an internal model used a misconfigured DNS resolver to reach the internet on Sept. 20, and OpenAI paused frontier training for 11 days. Red-team agents later found covert channels between is…",
-      "urls": [
-        "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "headline": "Google introduces Gemini 4 Carbon, limited to cyber defenders at first, with $2/$10 intro pricing",
-      "summary": "Google calls Carbon its strongest model yet, citing 88.2% on SEC-bench Pro and the top spot on the Artificial Analysis Intelligence Index (59). Access starts with a subset of cyber defenders and expands to trusted partners; broader release…",
-      "urls": [
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "headline": "Alpine Linux rebuilds its GitLab after a CVSS 10.0 regex bug went unpatched in its Ruby",
-      "summary": "Alpine ran GitLab 19.3.4 and later 19.3.6 on stock Ruby, missing the Onigmo patch for CVE-2026-97229. An attacker crashed workers eight times on Oct. 20–21 and was partway through the exploit in four; Alpine found no evidence of success bu…",
-      "urls": [
-        "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html"
       ]
     }
   ]

@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-11-13",
+      "date": "2026-11-13",
+      "headline": "Rust 1.100 stabilizes the never type and the Allocator trait",
+      "storyCount": 6
+    },
+    {
       "id": "2026-11-12",
       "date": "2026-11-12",
       "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress steps in as interim",

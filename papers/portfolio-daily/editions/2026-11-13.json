@@ -1,0 +1,120 @@
+{
+  "id": "2026-11-13",
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T15:06:53Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Crypto and China tech sold off while gold held below $4,000 ahead of US inflation data; Alibaba's earnings are six days away. Most items here rest on headlines from outlets we could not open in full.",
+  "stories": [
+    {
+      "headline": "Bitcoin slips below $70,000 as higher yields weigh on crypto",
+      "summary": "Bloomberg, WSJ and Barron's headlines all have bitcoin under $70,000 on Friday; Bloomberg attributes the slide to higher yields, and Barron's says Robinhood, Coinbase and other crypto stocks followed it down.",
+      "whyItMatters": "The headlines point to a broader risk-off tone reaching crypto-linked equities as well as the token itself.",
+      "category": "Crypto",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Slips Below $70,000 as Higher Yields Weigh on Crypto - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbDBSRFdONDlCQWdnQTRaTDVQNUVyLVBaak5HWUMyazNza1NndXVxaDYxdHAwdlVhWXpZSXRjSmJmd2p3MVRJSUhCeWljTV9MSVhkb29tejk1Q2QtQzFsZXZ0QzhZZkFjOXdFTGY5SWpGUmRmWlNreG1NbUJOd3l1X3RSRUF1VFRITG5ybVBiR3FYZXFMSXdzM1NHUkYwQ3FrTkFWTy1EbzlsckxsalI4?oc=5"
+        },
+        {
+          "title": "Bitcoin Holds Below $70,000 as Risk-Off Mood Pressures Crypto - WSJ",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWkRFdXJ3VnJvNExRVTFoQVJFRG83VHNleGp6YURoaFJ4cW5UWlh0STJBZ01fb3ZJTlBNVWZtYWUyeVVtOXg1T2h0RDJ2Wk50SXFtMjFLaTBZZjRjS0FMSHpvZnByblFhZ3ppQkNrRHdENVkwalo1d2RiRkRDa2U1WHhnZ2lkZkhYcjRMaUozWG80dUIwZ2tyeGhPVDhCVXRzMkExRzZjeXIwUTlq?oc=5"
+        },
+        {
+          "title": "Bitcoin Slumps Below $70,000. Robinhood, Coinbase, and Other Crypto Stocks Follow It Down. - Barron's",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTV80VkdRSEwyNVd4aEsxc0ljT2V0ekpnR3BOZ0l2TlpRT1ZVY1dva2YweDQ1N3MzZUI4c0h3YjBDTW12X1FLVUpOdWpOSjNqR3RUSkxVTTdDUVhLWGlEeVczay1MbkhiczgxNnpVRGxCcENSNzZCSzNySEQyUlVrcWdsYXprMmVIY25qcFBjTTJ0ams?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Gold rebounds but is headed for a weekly fall ahead of US inflation data",
+      "summary": "Reuters reports gold bounced but remains on course for a weekly decline before US inflation figures; a FOREX.com note describes XAU/USD as trading below $4,000.",
+      "whyItMatters": "Gold, a watchlist holding, enters the inflation release having lost ground on the week.",
+      "category": "Commodities",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Gold rebounds but heads for weekly fall before US inflation data - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmtMVVBHZGEyX3I4eWRfOFQwaW8zUHZDNXg1N0UxbW9jX1lhdmpuRkpZZ2hDZUEyNzZCTktodzFxUEt3NWJtN0JkU2NUa1VRLUJwVGR1bjVDR0Npak1lbk9xLXhOVmI3Y1BMRGkwTXBRb3lNVE1wMFdFb1JQWXBucV9tbF8tclNrRm1FTTNhVnpjSTlfVndYbVdqaw?oc=5"
+        },
+        {
+          "title": "Gold outlook: seasonal tailwind offers hope with XAU/USD below $4,000 - FOREX.com",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSTFwazBkRldySTA0YWU1Q0tkSHlmM1BYYVNTcW5ESldJU19zSkFndGZLWW1Fc2dLb3hwWUltbGRvSWE0SjdoQlFwTGgzRlpBVXhPRmZrTnN1cXB3MWlfRzhLdEI5NmlodmtmcnBMSUN5VFZvVFJFVkhpUUNWSVJoT0VwbEJWQW5ia1ppcDZQM0ZSMDg0NEQtUDJHN0x3N21lVmJvNFZ2X012R3FBb3g3clNJWXdMWUtCMTFmajNuckg?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Alibaba hits a new annual low at $94.34 as Nvidia fallout and tighter-regulation fears hit China stocks",
+      "summary": "24/7 Wall St. reports Alibaba dropped to a new annual low of $94.34. Barron's says Nvidia fallout is hitting Alibaba and other China stocks as tighter regulation looks likely, and Simply Wall St. cites fresh US AI chip curbs affecting its cloud plans.",
+      "whyItMatters": "The shares are at their lowest level of the year, with the stated drivers being regulatory and chip-access concerns.",
+      "category": "Markets",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Alibaba Drops to a New Annual Low at $94.34 - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTnRlTXppTnc4VjdmZUpCQ2U1VHRFbHU1SW82R3h6alViZjBYbjFEQ01pVWs4TUFoTEMxWlZNSWVZeGQ3T3JiTW1jYlh1NXVRdl80QTFsQ1JiZTNRcGJLbV9pbGJ5azlWMTRXcGo5QUM5aU1QeWZvZkNOOGVjaC1fbHZtc2dQZVdmTEhwN1NnZ3Q?oc=5"
+        },
+        {
+          "title": "Nvidia Fallout Hits Alibaba and Other China Stocks as Tighter Regulation Looks Likely - Barron's",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUW9tQlZLbEV6QmZoSDU4Q3FjcmkzVHR1WWF5dzlISmE0ZVJxVWlpdi0yYmVuRTRyNF9ZbmpGSW9oN3F5Nk16WjdDRkNSNmwtOU1pWWlCZjdPeE1qaDJjbUo0N0dFYWloT1F0ellJcmVGaU5IVGZZaWI2VlhlS3RpWU15bw?oc=5"
+        },
+        {
+          "title": "Alibaba (NYSE:BABA) Faces Fresh US AI Chip Curbs That Hit Cloud Plans - Simply Wall St",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcWFyYWs4Z0g4a21EV0ZHd21WaEdEZlpJTnhKRHAzXzQzUlpXakdFcGVCT0J6Q2lSb1ltOTJWNnhrRHZrTWNnR2V6cWJSSWVxa1BwOEVRamVzeUpyWG1kTmJuTVBwd3QyVUlPUXFYdUlrQndzQ1p2bWhEU1dKdHJQQ2pDMmZKTl9WR2lWay13dnRGUjVmUF96b2RZdG9fMEJfVU9RajZqTWVkcmxHcmxUNF9jdFg1b0stdGYzemJBbUtZOWJTZG5qTzcwVmd6MGdvX2g2Z3FyY9IB1wFBVV95cUxQcWFyYWs4Z0g4a21EV0ZHd21WaEdEZlpJTnhKRHAzXzQzUlpXakdFcGVCT0J6Q2lSb1ltOTJWNnhrRHZrTWNnR2V6cWJSSWVxa1BwOEVRamVzeUpyWG1kTmJuTVBwd3QyVUlPUXFYdUlrQndzQ1p2bWhEU1dKdHJQQ2pDMmZKTl9WR2lWay13dnRGUjVmUF96b2RZdG9fMEJfVU9RajZqTWVkcmxHcmxUNF9jdFg1b0stdGYzemJBbUtZOWJTZG5qTzcwVmd6MGdvX2g2Z3FyYw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Alibaba shares may move 5.7% on its Nov. 19 earnings release, Investing.com says",
+      "summary": "Investing.com's headline says Alibaba shares may move 5.7% on the Nov. 19 earnings release.",
+      "whyItMatters": "Options-implied moves frame the size of reaction the market is pricing for the report.",
+      "category": "Earnings",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Alibaba shares may move 5.7% on Nov. 19 earnings release - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcUpNUGphaFF2clo4Q2I5dHpQOWQtTDNMYUFNUmJIUVZhaklYaTdrelF5cUd1Q09RQXFFelZiNTBEQXZhdWpMZmp3UFVHZFRVQy1RQjRNNVUwN2p6SnE1TTJ6ckowZUh0ZTJ2OXBkNmE2S3RoZThwX0RIY1ltWmRYWHFSaGVIRS1lUnRIX05adU5UYkpIaXFFc29CYXh6VTdHb2hHRnBwZWhEQjJwbjhmaG9WNDRHdw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Alphabet raises $3.8 billion in its first Hong Kong and Singapore dollar bonds",
+      "summary": "Reuters reports Alphabet raised $3.8 billion in its first bonds denominated in Hong Kong and Singapore dollars.",
+      "whyItMatters": "It extends Alphabet's run of non-US-dollar debt offerings, which previous editions noted in euro form.",
+      "category": "Company",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Alphabet raises $3.8 billion in first Hong Kong, Singapore dollar bonds - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSkZJZGdvOEZWNkZuZ3pSWXU4QUktR01VVWpXc1I3OWtjQnFYaEtRMHVjdUJCblRxdDh2Wm0tbmJQN0gtWVN6b3dnVFlMVGM1Qk8ydHgtb0tndU5xblJGOTVxRWFFYjdjdDJIQkcwckZqMnNDUkZlNE56dzVGd0dMMVFaZUMydjZPaTVkcmRGQU1sZXlscUx0UkRINlpVZk9QYXFiZElNSlc1cG5JTHYwTVplbzM5b0FLOHZLelZZWnlxcGpEdEstNi0zSFprUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab: a $150M loan commitment, with revenue up 73% and a Q4 loss outlook",
+      "summary": "TradingView's key-facts summary lists a $150 million loan commitment for Rocket Lab alongside 73% revenue growth and an outlook for a Q4 loss.",
+      "whyItMatters": "The loan commitment is a financing disclosure added to the earnings picture covered earlier this week.",
+      "category": "Company",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Key facts: Rocket Lab $150M loan commitment; revenue up 73%, Q4 loss outlook - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWXdGZXdBQVRORHhTbUw4VEtQaFpEY0x2cXlaaFFhOXA5b2twRW52bExGLWl6d25HTDR3cFEwelVINXRTTlVyTVRWQ3FhQUhSZmlWczJnOWxiOXQtOHBYYmFCVnBVbW5xczgxejZHdFBVclJWSUE3MUNTcXdlNG5YWS1BWkxaWmh0NGJtVXJOX2Y5cWUtREdWeTVSUmV0U2swdjAwcVZzakdpQl82cS1HWWNOendLN2c0RGYxSTB4OVV3R0lJOUlHbXZtczNOUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Google picks AMD EPYC for its next-generation TPUs, Barchart reports",
+      "summary": "Barchart's piece, framed as how to play AMD, says Google has picked AMD's EPYC processors for its next-generation TPUs.",
+      "whyItMatters": "It names a CPU supplier for Alphabet's in-house AI accelerators, per Barchart.",
+      "category": "Company",
+      "importance": 7,
+      "sourceLinks": [
+        {
+          "title": "How to Play AMD Stock as Google Picks EPYC for Its Next-Gen TPUs - Barchart.com",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSHhROUlmYVBZV2NyTXp4YmF3SmUwT1EybVZVcVRrYWdGZGFOaVBrSW9FVmFnY0Q2WkliT0hkV252ZmhGLTQ5aXdFTlZJS08yTEFINlBhZkJvT05pSU16T2FtdV8za2hnR2FMWDN6YzNrbFNQQlh1N3lhYXhENFE3dUZja3BLd1NCWF9DaUZhMk9RWWphMEVDQjBBSk5vbWFucDhKZGlKbnptQU9Y?oc=5"
+        }
+      ]
+    }
+  ]
+}

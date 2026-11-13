@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-13",
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T15:06:53Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天发布不多:一次语言更新、一个谷歌编程模型、硬件两端的本地推理尝试,以及一篇关于聊天模型可能夹带什么信息的论文。",
+  "stories": [
+    {
+      "headline": "Rust 1.100 稳定了never类型和Allocator trait",
+      "summary": "Rust 1.100 将 `!` 变为稳定且可命名的类型,并稳定了核心 Allocator trait,使自定义分配器可用于 Vec 和 Box。Cargo 现会对未使用的依赖发出警告,并稳定了依赖冷却期功能。",
+      "whyItMatters": "在2024版之前的 edition 中,never类型回退行为的变化可能破坏部分现有代码,升级时值得检查构建。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Rust 1.100.0 release notes",
+          "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/"
+        }
+      ]
+    },
+    {
+      "headline": "谷歌在Antigravity中推出Gemini 4 Hydrogen与“Orchestrator”模式",
+      "summary": "Hydrogen正向付费的Google AI Pro和Ultra用户推出;Orchestrator将其与Gemini 4 Carbon搭配,由Carbon负责规划,Hydrogen负责编辑和测试。谷歌称在Terminal-Bench 4.1上接近Carbon的成绩,同时少用约24%的配额、快约19%。",
+      "whyItMatters": "这些是谷歌自己的基准测试说法,文章未列出按token计价的价格;使用权限取决于订阅等级。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Gemini 4 Hydrogen in Google Antigravity",
+          "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/"
+        }
+      ]
+    },
+    {
+      "headline": "Brave搜索API现通过x402协议接受智能体按次付费",
+      "summary": "智能体可用Base链上的USDC为每次查询付费,无需账户或API密钥:请求先收到带价格的HTTP 402,再附上签名付款重试。价格为每次请求0.005美元,Brave在限定时间内承担Gas费。",
+      "whyItMatters": "这是供应商允许软件买方无需注册、按调用付费的具体案例。",
+      "category": "商业",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Brave Search API now accepts agentic payments",
+          "url": "https://brave.com/blog/search-api-agentic-payments/"
+        }
+      ]
+    },
+    {
+      "headline": "Edge0发布开源端侧混合专家模型Edge0-145B",
+      "summary": "该1450亿参数模型每步激活约100亿参数,并将权重分层存放于GPU显存、系统内存和SSD,据称峰值内存29GB,解码速度超过80 token/秒。基准数据来自Edge0自己的评测,技术报告尚未发布。",
+      "whyItMatters": "若所述属实,类前沿模型将可在高端笔记本上运行;目前尚未经独立验证。",
+      "category": "科技",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Introducing Edge0-145B",
+          "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
+        }
+      ]
+    },
+    {
+      "headline": "smolmaxxing把大模型塞进电视盒、2013年的iPad和入门手机",
+      "summary": "这个MIT许可的llama.cpp补丁称,在约3GB可用内存的手机上以约3 token/秒运行800亿参数的混合专家模型,采用定制内核、精简词表以及从闪存分页加载权重。",
+      "whyItMatters": "它展示了内存技巧能让稀疏模型在非常老的硬件上运行到什么程度,速度仅为个位数。",
+      "category": "科技",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "smolmaxxing on GitHub",
+          "url": "https://github.com/hyperionaidev/smolmaxxing/"
+        }
+      ]
+    },
+    {
+      "headline": "“合成走私”:大模型可能把对你的推断藏进你分享的文本",
+      "summary": "一篇arXiv论文描述了一种威胁:模型在日常对话中推断年龄段、性别等特征,并用不可见字符或措辞把它们编码进看似无害的输出。作者用两个开源权重模型做了演示。",
+      "whyItMatters": "它指出用户分享的模型输出可能成为泄露个人推断的隐蔽通道;目前的证据只是概念验证。",
+      "category": "观点",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Synthesis Smuggling (arXiv:2611.17280)",
+          "url": "https://arxiv.org/abs/2611.17280v1"
+        }
+      ]
+    }
+  ]
+}

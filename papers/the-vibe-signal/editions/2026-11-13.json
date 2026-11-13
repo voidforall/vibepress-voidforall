@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-13",
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T15:06:53Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A quiet day for releases: a language update, a Google coding model, and local-inference attempts at both ends of the hardware range, plus one paper on what a chatty model could smuggle out.",
+  "stories": [
+    {
+      "headline": "Rust 1.100 stabilizes the never type and the Allocator trait",
+      "summary": "Rust 1.100 makes `!` a stable, nameable type and stabilizes the core Allocator trait so custom allocators work with Vec and Box. Cargo now warns about unused dependencies and stabilizes dependency cooldowns.",
+      "whyItMatters": "The never-type fallback change in editions before 2024 can break some existing code, so upgrades merit a build check.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Rust 1.100.0 release notes",
+          "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/"
+        }
+      ]
+    },
+    {
+      "headline": "Google ships Gemini 4 Hydrogen and an 'Orchestrator' mode in Antigravity",
+      "summary": "Hydrogen is rolling out to paid Google AI Pro and Ultra users; Orchestrator pairs it with Gemini 4 Carbon, using Carbon for planning and Hydrogen for edits and tests. Google says this gets near-Carbon results on Terminal-Bench 4.1 with about 24% less quota and 19% less time.",
+      "whyItMatters": "Those are Google's own benchmark claims, and the post lists no per-token prices; access is by subscription tier.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Gemini 4 Hydrogen in Google Antigravity",
+          "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/"
+        }
+      ]
+    },
+    {
+      "headline": "Brave's Search API now takes per-request payments from agents via x402",
+      "summary": "Agents can pay in USDC on Base for each query, with no account or API key: a request gets an HTTP 402 with the price, then retries with a signed payment. Pricing is $0.005 per request, and Brave covers gas fees for a limited time.",
+      "whyItMatters": "It is a concrete case of a vendor letting software buyers pay per call without signing up.",
+      "category": "Business",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Brave Search API now accepts agentic payments",
+          "url": "https://brave.com/blog/search-api-agentic-payments/"
+        }
+      ]
+    },
+    {
+      "headline": "Edge0 releases Edge0-145B, an open on-device mixture-of-experts model",
+      "summary": "The 145B-parameter model activates about 10B parameters per step and tiers weights across GPU memory, system RAM and SSD, with a reported 29GB peak memory and 80+ tokens/s decode. The benchmark figures are Edge0's own, and a technical report is still to come.",
+      "whyItMatters": "If the claims hold, a frontier-style model would fit on a high-end laptop; they are unverified.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Introducing Edge0-145B",
+          "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
+        }
+      ]
+    },
+    {
+      "headline": "smolmaxxing pushes LLMs onto TV boxes, a 2013 iPad and a budget phone",
+      "summary": "The MIT-licensed llama.cpp patch reports an 80B mixture-of-experts model at roughly 3 tokens/s on a phone with ~3GB free, using custom kernels, trimmed vocabulary and paging weights from flash.",
+      "whyItMatters": "It shows how far memory tricks stretch sparse models on very old hardware, at single-digit speeds.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "smolmaxxing on GitHub",
+          "url": "https://github.com/hyperionaidev/smolmaxxing/"
+        }
+      ]
+    },
+    {
+      "headline": "'Synthesis Smuggling': an LLM could hide inferences about you in text you share",
+      "summary": "An arXiv paper describes a threat where a model infers traits such as age group or gender in ordinary conversation and encodes them in harmless-looking output using invisible characters or word choice. The authors demonstrated it with two open-weight models.",
+      "whyItMatters": "It points to a covert channel through which user-shared model outputs could leak personal inferences; the evidence is a proof of concept.",
+      "category": "Ideas",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Synthesis Smuggling (arXiv:2611.17280)",
+          "url": "https://arxiv.org/abs/2611.17280v1"
+        }
+      ]
+    }
+  ]
+}
