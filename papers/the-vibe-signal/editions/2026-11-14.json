@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-14",
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T13:58:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A day of plumbing: aging air-traffic routers, a library clearing out its deprecated API, a director's very large stock sales, and a reminder that a benchmark can flatter whatever is being measured.",
+  "stories": [
+    {
+      "headline": "FAA grounds all U.S. departures for about four hours; Transportation Secretary blames overloaded routers",
+      "summary": "The FAA ordered a nationwide ground stop at 3:54 p.m. ET Friday and lifted it at 8:15 p.m., after instability was detected at 3:36 p.m. Transportation Secretary Sean Duffy said routers on an outdated air traffic control system 'got overloaded with data'; officials saw no sign of a cyberattack, and the AI vendor for the FAA's SMART system said its software was not responsible.",
+      "whyItMatters": "More than 7,000 flights were canceled, per NBC News, and Duffy used the episode to press Congress for $50 billion to overhaul the system.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "NBC News: FAA orders nationwide ground stop",
+          "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247"
+        },
+        {
+          "title": "FAA advisory: National Ground Stop lifted at 0119Z",
+          "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5"
+        }
+      ]
+    },
+    {
+      "headline": "Nvidia director Mark Stevens sold about $946M of stock in Q3, without a 10b5-1 plan",
+      "summary": "Per Yahoo Finance, Stevens, described as Nvidia's second-largest shareholder, sold roughly 4.2 million shares across three sales between Aug. 31 and Sept. 18, at about $220–234 a share, and still holds about 27.5 million. The sales preceded CEO Jensen Huang's Nov. 12 resignation; Nvidia traded near $163 on Nov. 13.",
+      "whyItMatters": "The article notes the absence of a prearranged 10b5-1 plan is not by itself a red flag; the report does not allege the sales were connected to the scandal.",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Yahoo Finance: Nvidia director sold nearly $1B in stock",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html"
+        }
+      ]
+    },
+    {
+      "headline": "ggml v1.0.0 prunes deprecated API and adds YaRN and FP8 support",
+      "summary": "The 1.0.0 release removes the deprecated public API and legacy diagonal-mask ops, adds YaRN truncation controls and OCP FP8 support in CUDA, and bumps the RPC protocol to v9, which rejects incompatible peers. Most backends (CUDA, Metal, Vulkan, SYCL, OpenCL, WebGPU, Hexagon, CPU) get performance work or fixes.",
+      "whyItMatters": "Code built on removed APIs or an older RPC version will need updating before it moves to 1.0.0.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "ggml v1.0.0 release notes",
+          "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0"
+        }
+      ]
+    },
+    {
+      "headline": "600 experiments on a JEPA world model: hierarchy beats perfect physics, and the benchmark is easier than it looks",
+      "summary": "On the Push-T benchmark with the LeWM model, adding a subgoal every 25 steps lifted long-horizon success from 22% to 80%, versus 42% with the simulator's perfect physics. The author also finds 84% of goals have a near-identical state in the memory, and that changing only the random seed flipped 38 of 250 outcomes.",
+      "whyItMatters": "These are one author's results on a single benchmark with modest sample sizes, but they suggest planning structure, not predictor accuracy, is the bottleneck.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "After 600 experiments, here's what I discovered about JEPA world models",
+          "url": "https://haddyalchaer.com/jepa"
+        }
+      ]
+    }
+  ]
+}

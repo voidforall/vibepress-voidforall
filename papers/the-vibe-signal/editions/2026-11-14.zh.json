@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-14",
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T13:58:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天主题是“管道”:老化的空管路由器、清理弃用API的软件库、一位董事的大额股票出售,以及基准测试可能美化被测对象的提醒。",
+  "stories": [
+    {
+      "headline": "美国联邦航空局停飞全美离港航班约四小时;运输部长称路由器过载",
+      "summary": "联邦航空局在周五美东时间下午3:54下令全国停飞,晚8:15解除,此前在3:36检测到系统不稳定。运输部长肖恩·达菲称,老旧空管系统的路由器“数据过载”;官员称未发现网络攻击迹象,联邦航空局SMART系统的AI供应商表示其软件与此无关。",
+      "whyItMatters": "据NBC新闻报道,超过7000个航班被取消,达菲借此事件呼吁国会拨款500亿美元改造系统。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "NBC News: FAA orders nationwide ground stop",
+          "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247"
+        },
+        {
+          "title": "FAA advisory: National Ground Stop lifted at 0119Z",
+          "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5"
+        }
+      ]
+    },
+    {
+      "headline": "英伟达董事马克·史蒂文斯第三季度出售约9.46亿美元股票,未使用10b5-1计划",
+      "summary": "据雅虎财经,被描述为英伟达第二大股东的史蒂文斯在8月31日至9月18日的三次出售中卖出约420万股,价格约为每股220至234美元,目前仍持有约2750万股。这些出售早于首席执行官黄仁勋11月12日辞职;英伟达11月13日股价约163美元。",
+      "whyItMatters": "文章指出,未使用预先安排的10b5-1计划本身并不意味着有问题;报道并未指称这些出售与丑闻有关。",
+      "category": "商业",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Yahoo Finance: Nvidia director sold nearly $1B in stock",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html"
+        }
+      ]
+    },
+    {
+      "headline": "ggml v1.0.0清理已弃用API,新增YaRN与FP8支持",
+      "summary": "1.0.0版本移除了已弃用的公共API和旧的对角掩码算子,新增YaRN截断控制和CUDA中的OCP FP8支持,并将RPC协议升级到v9,会拒绝不兼容的对端。多数后端(CUDA、Metal、Vulkan、SYCL、OpenCL、WebGPU、Hexagon、CPU)都有性能优化或修复。",
+      "whyItMatters": "依赖已移除API或旧版RPC的代码,在升级到1.0.0前需要更新。",
+      "category": "科技",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "ggml v1.0.0 release notes",
+          "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0"
+        }
+      ]
+    },
+    {
+      "headline": "对JEPA世界模型的600次实验:分层规划胜过完美物理,基准比看上去更容易",
+      "summary": "在Push-T基准上使用LeWM模型,每25步加入一个子目标,使长时程成功率从22%提升到80%,而使用模拟器完美物理仅为42%。作者还发现84%的目标在记忆中有近乎相同的状态,且仅更换随机种子就使250个结果中的38个发生翻转。",
+      "whyItMatters": "这些是单一作者在单一基准上、样本量有限的结果,但表明瓶颈在于规划结构而非预测器精度。",
+      "category": "思想",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "After 600 experiments, here's what I discovered about JEPA world models",
+          "url": "https://haddyalchaer.com/jepa"
+        }
+      ]
+    }
+  ]
+}

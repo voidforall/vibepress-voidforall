@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-14",
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T13:58:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "自选股今日较为平静:唯一新鲜且可核实的消息是 Rocket Lab 的运营里程碑。其余相关报道要么重复本两周内已报道的事件,要么无法从可读来源核实。",
+  "stories": [
+    {
+      "headline": "Rocket Lab 完成第100次Electron发射,称其为达到该里程碑最快的商业火箭",
+      "summary": "Electron 第100次发射“The Mountain God Rises”于11月14日从新西兰1号发射场升空,将iQPS的YAMATSUMI-II雷达成像卫星送入575公里轨道。这是Electron为iQPS执行的第11次发射,iQPS另已预订至2030年的七次发射;Rocket Lab称接下来的100次发射已被预订。",
+      "whyItMatters": "“最快达到100次发射的商业火箭”是Rocket Lab自己的说法,未经独立核实;该页面未报告此次发射带来的股价变动。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab press release coverage (StockTitan)",
+          "url": "https://www.stocktitan.net/news/RKLB/rocket-lab-hits-100-electron-launches-fastest-commercial-rocket-to-0r5olk0ol3kf.html"
+        }
+      ]
+    }
+  ]
+}

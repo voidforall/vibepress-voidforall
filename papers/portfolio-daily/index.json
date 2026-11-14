@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-11-14",
+      "date": "2026-11-14",
+      "headline": "Rocket Lab flies its 100th Electron launch, and says it is the fastest commercial rocket to get there",
+      "storyCount": 1
+    },
+    {
       "id": "2026-11-13",
       "date": "2026-11-13",
       "headline": "Bitcoin slips below $70,000 as higher yields weigh on crypto",

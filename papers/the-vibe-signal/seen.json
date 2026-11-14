@@ -1,7 +1,40 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-13T15:06:57Z",
+  "updatedAt": "2026-11-14T13:58:00Z",
   "events": [
+    {
+      "date": "2026-11-14",
+      "headline": "ggml v1.0.0 prunes deprecated API and adds YaRN and FP8 support",
+      "summary": "The 1.0.0 release removes the deprecated public API and legacy diagonal-mask ops, adds YaRN truncation controls and OCP FP8 support in CUDA, and bumps the RPC protocol to v9, which rejects incompatible peers. Most backends (CUDA, Metal, Vu…",
+      "urls": [
+        "https://github.com/ggml-org/ggml/releases/tag/v1.0.0"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "headline": "Nvidia director Mark Stevens sold about $946M of stock in Q3, without a 10b5-1 plan",
+      "summary": "Per Yahoo Finance, Stevens, described as Nvidia's second-largest shareholder, sold roughly 4.2 million shares across three sales between Aug. 31 and Sept. 18, at about $220–234 a share, and still holds about 27.5 million. The sales precede…",
+      "urls": [
+        "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "headline": "FAA grounds all U.S. departures for about four hours; Transportation Secretary blames overloaded routers",
+      "summary": "The FAA ordered a nationwide ground stop at 3:54 p.m. ET Friday and lifted it at 8:15 p.m., after instability was detected at 3:36 p.m. Transportation Secretary Sean Duffy said routers on an outdated air traffic control system 'got overloa…",
+      "urls": [
+        "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+        "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "headline": "600 experiments on a JEPA world model: hierarchy beats perfect physics, and the benchmark is easier than it looks",
+      "summary": "On the Push-T benchmark with the LeWM model, adding a subgoal every 25 steps lifted long-horizon success from 22% to 80%, versus 42% with the simulator's perfect physics. The author also finds 84% of goals have a near-identical state in th…",
+      "urls": [
+        "https://haddyalchaer.com/jepa"
+      ]
+    },
     {
       "date": "2026-11-13",
       "headline": "smolmaxxing pushes LLMs onto TV boxes, a 2013 iPad and a budget phone",
@@ -601,54 +634,6 @@
       "summary": "A write-up says path-traversal and validation-ordering bugs in Azure Logic Apps' API Connections let an attacker reach other customers' connections, including Key Vault and SQL. Microsoft fixed the reports, though some early fixes were byp…",
       "urls": [
         "https://www.binarysecurity.no/posts/2026/10/one-root-case"
-      ]
-    },
-    {
-      "date": "2026-10-30",
-      "headline": "Pico CSS is no longer maintained, its author citing AI-generated HTML and CSS",
-      "summary": "The maintainer says v2.1.1 is the final release and the repositories are archived. Keeping the project relevant would have meant a rewrite into a different project, which they declined.",
-      "urls": [
-        "https://github.com/picocss/pico/discussions/754"
-      ]
-    },
-    {
-      "date": "2026-10-30",
-      "headline": "Mistral releases the weights of Mistral Large 4, a roughly 1-trillion-parameter multimodal model",
-      "summary": "Mistral's open-weight model is hybrid instruct/reasoning with three reasoning modes, priced at $0.70 per million input and $2.10 per million output tokens. It reports 19.7% on FrontierCode 2.0 and 41% on Terminal-Bench 4.0.",
-      "urls": [
-        "https://mistral.ai/news/mistral-large-4-oss/"
-      ]
-    },
-    {
-      "date": "2026-10-30",
-      "headline": "Martin Fowler: avoid 'LLM-Voice' and don't let an LLM write your drafts",
-      "summary": "Fowler argues the artificial prose style loses readers and that heavy editing rarely removes it. He makes exceptions for cases such as translation.",
-      "urls": [
-        "https://martinfowler.com/bliki/LLM-Voice.html"
-      ]
-    },
-    {
-      "date": "2026-10-30",
-      "headline": "House Democrats introduce a resolution opposing an AI-bubble bailout for Big Tech",
-      "summary": "Reps. Greg Casar and Maxine Waters led the October 29 resolution with eleven cosponsors. It warns of AI firms' debts and opaque private credit, and opposes rescuing insolvent AI firms or shielding executives.",
-      "urls": [
-        "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead"
-      ]
-    },
-    {
-      "date": "2026-10-30",
-      "headline": "A looped transformer 'world model' plays and generates games on a Raspberry Pi Pico 2 W",
-      "summary": "The tinyworldformer project pairs an int8 world model (26k–131k parameters) with a small actor network, running on 520 KB of SRAM. Held-out exact-frame accuracy ranges from 83.6% (Doom-lite) to 100% (Flappy Bird).",
-      "urls": [
-        "https://github.com/SheepSeb/tinyworldformer"
-      ]
-    },
-    {
-      "date": "2026-10-30",
-      "headline": "50 Minecraft agents given one goal built a bureaucracy and grew more cautious",
-      "summary": "In Y Combinator's Agents in Games project, 50 agents told to 'build a thriving civilization' held no vote but deferred to the first name on the list, sent about 5,900 messages, and suffered 22 of its 34 deaths on the first night.",
-      "urls": [
-        "https://labs.ycombinator.com/projects/games/index.html"
       ]
     }
   ]

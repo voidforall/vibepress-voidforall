@@ -8,8 +8,8 @@ _Self-publishing dailies, made with vibepress_
 
 | Paper | Covers | Cadence | Latest edition |
 | --- | --- | --- | --- |
-| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “Rust 1.100 stabilizes the never type and the Allocator trait” · 2026-11-13 |
-| 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Bitcoin slips below $70,000 as higher yields weigh on crypto” · 2026-11-13 |
+| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “FAA grounds all U.S. departures for about four hours; Transportation…” · 2026-11-14 |
+| 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Rocket Lab flies its 100th Electron launch, and says it is the fastes…” · 2026-11-14 |
 | 🔬 [Research Radar](https://voidforall.github.io/vibepress-voidforall/#/research-radar) | The week in AI research, distilled | Weekly (Mon) | “Training against reward-hacking monitors works, but models learn to e…” · 2026-11-09 |
 | 🪐 [The Cosmic Dispatch](https://voidforall.github.io/vibepress-voidforall/#/cosmic-dispatch) | Space, astronomy, and the odd asteroid | Weekly (Thu) | “ESCAPADE's twin spacecraft complete powered Earth flybys and head for…” · 2026-11-12 |
 | 🌸 [The Otaku Times](https://voidforall.github.io/vibepress-voidforall/#/otaku-times) | Anime & manga, and what to watch next | Monthly | “Death Stranding Isolations drops its first teaser and staff list, bou…” · 2026-11-01 |

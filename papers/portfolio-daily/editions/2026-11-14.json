@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-14",
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T13:58:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A quiet day for the watchlist: the one fresh, verifiable item is an operating milestone at Rocket Lab. Other watchlist stories either repeat events already reported this fortnight or could not be confirmed from a readable source.",
+  "stories": [
+    {
+      "headline": "Rocket Lab flies its 100th Electron launch, and says it is the fastest commercial rocket to get there",
+      "summary": "Electron's 100th launch, 'The Mountain God Rises', lifted off from Launch Complex 1 in New Zealand on Nov. 14 and placed iQPS's YAMATSUMI-II radar-imaging satellite in a 575 km orbit. It was the 11th Electron launch for iQPS, which has seven more booked through 2030, and Rocket Lab says the next 100 launches are already booked.",
+      "whyItMatters": "The 'fastest commercial rocket to 100 launches' claim is Rocket Lab's own and was not independently verified; the page reports no share-price move for the launch.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab press release coverage (StockTitan)",
+          "url": "https://www.stocktitan.net/news/RKLB/rocket-lab-hits-100-electron-launches-fastest-commercial-rocket-to-0r5olk0ol3kf.html"
+        }
+      ]
+    }
+  ]
+}
