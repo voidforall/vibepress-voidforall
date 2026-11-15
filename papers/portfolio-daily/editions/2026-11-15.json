@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-15",
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T14:00:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A two-story day, both about rates: a hawkish Fed repricing pushed gold to its worst week in months, while bitcoin extended a slide that has taken it to levels last seen in the summer.",
+  "stories": [
+    {
+      "headline": "Bitcoin falls about 8% after Friday's U.S. close to a three-month low just above $62,000",
+      "summary": "CoinDesk says bitcoin is down about 17% on the week and ether about 22%, with $62,500 back at the range lows from earlier this year. Analyst James Check called it the fourth capitulation event since the all-time high and a 'deep value' zone, while adding it doesn't mean the bottom is in; Bloomberg put the Sunday low at $62,022, the weakest since July 14.",
+      "whyItMatters": "BTC has now given back its late-summer rally, and the fall came as the 10-year Treasury yield rose to roughly 5.15%.",
+      "category": "Crypto",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "CoinDesk: Bitcoin price analysis, 'deep value zone'",
+          "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst"
+        },
+        {
+          "title": "CoinDesk live: bitcoin below its 200-week moving average",
+          "url": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets"
+        }
+      ]
+    },
+    {
+      "headline": "Gold ends a steep weekly loss near $3,880 as rate-hike bets and a 5.15% 10-year yield weigh",
+      "summary": "Per Reuters via CNBC, gold fell more than 4% on the week, its worst since early June, after a hot CPI print and a roughly 3% drop Thursday to a more than one-year low. Kitco had spot near $3,883 late Friday; October PPI rose 0.3% (0.4% expected), and futures priced about an 89% chance of a 25-basis-point Fed hike on Dec. 8-9.",
+      "whyItMatters": "Markets are pricing a Fed rate increase rather than a cut, which raises the opportunity cost of holding non-yielding bullion.",
+      "category": "Commodities",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "CNBC/Reuters: Gold heads for weekly decline",
+          "url": "https://www.cnbc.com/amp/2026/11/13/gold-rises-on-bargain-hunting-but-heads-for-weekly-decline.html"
+        },
+        {
+          "title": "Kitco PM Report: gold posts steep weekly loss",
+          "url": "https://www.kitco.com/news/article/2026-11-13/gold-posts-steep-weekly-loss-treasury-yields-rise-fed-tightening-bets"
+        }
+      ]
+    }
+  ]
+}

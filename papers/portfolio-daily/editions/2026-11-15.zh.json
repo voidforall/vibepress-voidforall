@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-15",
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T14:00:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今天只有两条,都与利率有关:美联储转鹰推动黄金迎来数月来最差的一周,比特币则延续下跌,回到夏季以来的低位。",
+  "stories": [
+    {
+      "headline": "周五美股收盘后比特币下跌约8%,触及三个月低点,略高于6.2万美元",
+      "summary": "CoinDesk称,比特币本周下跌约17%,以太坊下跌约22%,6.25万美元回到今年早些时候的区间低点。分析师James Check称这是自历史高点以来的第四次投降式抛售,处于“深度价值”区间,但并不意味着已见底;彭博称周日最低触及62,022美元,为7月14日以来最低。",
+      "whyItMatters": "比特币已回吐夏末的涨幅,而10年期美债收益率升至约5.15%。",
+      "category": "加密货币",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "CoinDesk: Bitcoin price analysis, 'deep value zone'",
+          "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst"
+        },
+        {
+          "title": "CoinDesk live: bitcoin below its 200-week moving average",
+          "url": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets"
+        }
+      ]
+    },
+    {
+      "headline": "金价在每周大幅下跌后收于3,880美元附近,加息押注与5.15%的10年期收益率施压",
+      "summary": "据路透社经CNBC报道,黄金本周下跌逾4%,为6月初以来最差一周,此前CPI数据偏热,周四一度下跌约3%,触及一年多来低点。Kitco称周五晚间现货约3,883美元;10月PPI环比上涨0.3%(预期0.4%),期货定价显示12月8-9日美联储加息25个基点的概率约为89%。",
+      "whyItMatters": "市场定价的是美联储加息而非降息,这提高了持有无息黄金的机会成本。",
+      "category": "大宗商品",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "CNBC/Reuters: Gold heads for weekly decline",
+          "url": "https://www.cnbc.com/amp/2026/11/13/gold-rises-on-bargain-hunting-but-heads-for-weekly-decline.html"
+        },
+        {
+          "title": "Kitco PM Report: gold posts steep weekly loss",
+          "url": "https://www.kitco.com/news/article/2026-11-13/gold-posts-steep-weekly-loss-treasury-yields-rise-fed-tightening-bets"
+        }
+      ]
+    }
+  ]
+}

@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-11-15",
+      "date": "2026-11-15",
+      "headline": "Bitcoin falls about 8% after Friday's U.S. close to a three-month low just above $62,000",
+      "storyCount": 2
+    },
+    {
       "id": "2026-11-14",
       "date": "2026-11-14",
       "headline": "Rocket Lab flies its 100th Electron launch, and says it is the fastest commercial rocket to get there",

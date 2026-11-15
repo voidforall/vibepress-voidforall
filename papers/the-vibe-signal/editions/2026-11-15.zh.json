@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-15",
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T14:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "披露时限与数据暴露是今天的主题:谷歌缩短漏洞披露期限,研究者统计了AI生成应用的数据泄露,PyPI让软件包来源证明一目了然,法院则允许DRAM价格操纵诉讼继续。",
+  "stories": [
+    {
+      "headline": "Project Zero转向“Full 90”披露政策,期限到2028年将缩短至30天",
+      "summary": "谷歌Project Zero以“Full X”取代90+30政策,即漏洞报告X天后披露:11月13日起Full 90,2027年2月2日起Full 60,2028年1月3日起Full 30。其理由是AI辅助的漏洞发现与利用,并取消了包括宽限期和严重程度考量在内的大多数特例。",
+      "whyItMatters": "厂商现在失去额外30天的补丁推广窗口,此后面临越来越短的时限。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Project Zero: disclosure policy",
+          "url": "https://projectzero.google/2026/11/disclosure-policy.html"
+        }
+      ]
+    },
+    {
+      "headline": "研究人员发现Lovable构建的应用向未登录访客返回数据库记录,包括护照信息",
+      "summary": "Crissy Field GmbH分析了159,041个Lovable项目;其中使用Supabase的34,545个里有24,664个在页面加载时返回数据库记录。暴露的数据包括某论坛逾20万条聊天消息和逾1,000条含护照信息的记录;作者提醒,30%含邮箱表的数字并非确认的泄露率,且样本不具代表性。",
+      "whyItMatters": "Lovable的条款把应用安全责任交给客户,因此AI生成的应用若无人检查,可能带着暴露的数据上线。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Crissy Field: Lovable research",
+          "url": "https://www.crissyfield.de/research/lovable-en/"
+        }
+      ]
+    },
+    {
+      "headline": "法院驳回撤诉动议,三星、SK海力士和美光的DRAM价格操纵诉讼继续",
+      "summary": "11月14日,Noël Wise法官(加州北区)认定起诉书合理指控了削减常规DRAM产量并将产能转向HBM的《谢尔曼法》协议。这些指控尚未被证实;被告须在12月7日前答辩,案件管理会议定于2027年1月12日。",
+      "whyItMatters": "此前针对同一批公司的诉讼(DRAM II)被驳回,而本案得以继续,进入对据称占DRAM收入逾91%的三家公司的取证阶段。",
+      "category": "商业",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "LitNews: DRAM conspiracy suit survives dismissal",
+          "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal"
+        }
+      ]
+    },
+    {
+      "headline": "PyPI改版的项目页面新增“安全”标签页和来源证明警告",
+      "summary": "每个版本现在显示完整或无来源证明,附带逐文件证明,以及四类警告:不完整、不一致、来源变更和来源丢失。发布文件新增搜索和筛选,并标记迟到的上传;PyPI指出,无来源证明不一定意味着发布版本是恶意的。",
+      "whyItMatters": "异常的发布模式现在直接在页面上标出,而不需要用户自行检查证明。",
+      "category": "科技",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "PyPI blog: UI updates complete",
+          "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/"
+        }
+      ]
+    }
+  ]
+}
