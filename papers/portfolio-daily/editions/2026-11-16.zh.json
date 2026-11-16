@@ -1,0 +1,116 @@
+{
+  "id": "2026-11-16",
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T16:46:08Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "阿里巴巴更便宜的AI、加密货币进一步下跌和黄金走软是周一的主要内容;其中不少条目仅依据标题,下文只转述标题所述内容。",
+  "stories": [
+    {
+      "headline": "雅虎财经称阿里巴巴新AI模型成本降低三分之二;TradingView提到AI任务成本下降62%",
+      "summary": "雅虎财经的标题称阿里巴巴的新AI模型便宜了三分之二,并探讨这对股价意味着什么;TradingView的标题称阿里巴巴将AI任务成本削减了62%。文章正文无法读取,因此数字背后的细节未能在此确认。",
+      "whyItMatters": "两家媒体都将成本降幅定在约62%至三分之二之间,对于AI云业务备受关注的公司而言,这是显著的降幅。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Yahoo Finance: Alibaba’s New AI Model Is Two-Thirds Cheaper",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLVNJVHUxYnNFYXpMMFdZY3NKRmJ6R3F2NHNpVHBieHBfMFBqZnFadlhFY2QtMEFaaGthOWpIbHhzZkZESm9td3h4MUpTeTdGTUZibG1UTDZLWWRaeEZBRFl5M0J3djhZd3BGT3dLcFpNQlJjYVk0d1p0Y3g4bHFjbHZueDZPOW4zTGNkc3pXWHBsTFRwMDRn?oc=5"
+        },
+        {
+          "title": "TradingView: Alibaba Just Cut AI Task Costs by 62%",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOY2l3bkJVeWI1akxnMHlNaFRJTGw0SEd5QnpiT055U0hEdEVsTmd6MXRpTzFZLV9tREl3ekxuem5lU0dkMnZraVdqYXJFalBVbnlWZm9IOHZIejNmTjNvNFJTSVNQTU0wTm5fZ04yOTdVU3RPb3dmSGFVLS1PS0pvQUNycVpMTEZGNHg3bWo4V0FIcFZNQ0tsMVJhVWd3S1NrTE1sTS1zT1Q2WEY0ZVZ0Q1hLalhsSklVVy1iWnlBZnU0UGF6QmlRR1hLQ3V0aVk?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin Magazine称Strategy以3340万美元增持485枚比特币,并斥资2.28亿美元回购优先股",
+      "summary": "Bitcoin Magazine的标题报道了这笔增持和优先股回购。CoinDesk的标题称,比特币本应在AI受挫时上涨却暴跌;《华尔街日报》的标题称比特币和以太坊进一步下滑。",
+      "whyItMatters": "标题显示,最大的企业比特币持有者仍在买入,但规模不大,而价格仍在下滑。",
+      "category": "加密货币",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Magazine: Strategy (MSTR) Adds 485 Bitcoin for $33.4 Million",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE55eUNXWWYwR09ua0cxaUFxZmpzT0hDd3dmUFVuX21jQ0lORXZuZUhCWEgyMUFUbjZQb1d2cThCb0c3V3l1a1EzWTNvbUlPclNLZ0tVMmxOVTZrUUhMNkdnOEZ1ajhNaGljVDFQQ2RtVTltV1N5WHhHVjB4VGU?oc=5"
+        },
+        {
+          "title": "CoinDesk: Bitcoin was supposed to gain as AI faltered, but it crashed",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSmZ3eG9qd1hTVG81bG5NUFBnQWxQc1lQOXY2bEd2bXJVX19nRGxxUU4tZGhjaUJTMm9salhvZ0h0Q3VaemZDa25fdEtqbXMtUVhfaks1b0VZZjBzWjRWelJaOXNzd0xBWUpZNEZndEhYLTZoY05lOG1uSzdpWlJjYjFMSkRuaVRXMW1CRzBIb3ZZSHF4dlZyUnkybl8xcENuOVNnbHB1VjFCM2U5aTBaNXo2amlWN1U?oc=5"
+        },
+        {
+          "title": "WSJ: Bitcoin, Ether Slump Further",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNemJKTlE0N1hQT0Z3amttWTkyZmJNMi1rQlZKSkVGeUpvWFlEUl9QY0pZVGVvWjQ2dWZOemtNdjVULUpsNjNWdlBCZHBMUndmZ0pfazNhT2hRZDBqUmkxbEc0VDk2ZVNxYzBLTUhsSEdWMG1GbEZ3a1plN2dDRkx2UnNFdXJhZ1g0blU4YkV5T29FUG80QkE0a3pjc2ZSM29adWc?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Kitco称金价因美联储加息押注升温而下滑;FXStreet称XAU/USD在3,850美元上方,偏空格局未变",
+      "summary": "Kitco的标题引用贺利氏的说法,称金价因美联储加息押注升温而下滑,尽管银价走低,银条和银币销量仍下降。FXStreet的标题称XAU/USD回升至3,850美元上方,偏空格局未变。",
+      "whyItMatters": "加息预期压制金价,金价在3,000美元高位区间交易。",
+      "category": "大宗商品",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Kitco: Gold price slides as Fed hike bets rise",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTnBWa0U3NmtKWVR6X1FDSjNiOUFHcHlIR0Q1Q2xIdWJwU253aFQ0ZzRBMjN4LTZkVlNhTDg2SDVjTWV5VXpFNzBDMXRUWjhvS3JqZXE1LUk2RmV0a0RXdnpMSVZ0cXF5emJXTXV1bE5VclR3cTZxeFRDb1c2WkJTd2xONEN4alVjS05DVllHMG1LRU13LW9nWGtMQXF0eFl0WE9YRXBESnN0MjYydVpkd2xoMlRUWWZLWFBmUk5R?oc=5"
+        },
+        {
+          "title": "FXStreet: Gold Price Forecast, XAU/USD above $3,850",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTFBIdFU4VFpER2NCbk9CczVZNXM0eGNZMElweDhvaFNseDFPNHp4NHE3bjhGZ09td1BmYUxnay1jSnRoRW50WlZQYUVldEZSLU1BWHFuaTVOOXZWVERSOHI5QmRwSUVpSEJiX2t5bXNxUXdGUjV6TDVncEZVcFB3dVRFMXEtWVR4MUpTeC1ueVRpODlxdTN4OVkwbjFkNi1MdmtMYUpSX3YtMy1IZFVVR1p5UUp5U1R5TTFCcQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Benzinga称周一Rocket Lab、Firefly和AST SpaceMobile股价下跌",
+      "summary": "Benzinga的标题称周一Rocket Lab、Firefly和AST SpaceMobile下跌,并探讨原因。文章正文无法读取,因此此处不说明原因。",
+      "whyItMatters": "自选股Rocket Lab与其他太空股一同下跌,而非单独走弱。",
+      "category": "市场",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Benzinga: Rocket Lab, Firefly, AST SpaceMobile Stocks Drop",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMlRadWpndXpTOXV5azhFaFlMcXl2UkV1cXMycTltN0pFTVBJNXVVV0NJSmhjZjBFSnZxcmM3WDg4R3hoMWNRXzVmekVuU0wtT0RWTkpYMTgyRGxMdjNlYXRXd0s1NGpqaHRPUGpTb2M2QkdxTlRJY2h3bTdwTHpPbGxnZ3lJTEZBVjBFVFpUb0NuSVRtdEZvemhmVWlrVk9EdTREZlE4OWFMZWVBWko0MTdNeHFoQi1OTW1DTS1HTTBKd3QxbDRXc3R0TUJFbFZLQzJEeWRadk1jNk5RQ0xwWA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "阿里巴巴减持小鹏股份,同时同意支持这家车企的机器人业务",
+      "summary": "Electric Vehicles的标题称,阿里巴巴在减持小鹏股份的同时,同意支持这家车企的机器人业务。标题未给出具体条款。",
+      "whyItMatters": "阿里巴巴正将其敞口从小鹏股份转向机器人业务。",
+      "category": "公司",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Electric Vehicles: Alibaba Trims XPeng Holding as It Agrees to Back Carmaker’s Robot Unit",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQY1MzZTZkOG9Cek5xSHhPOFBiYlVFYnVGalU1MHI1T2RGd1JRbzVWeUlpNFFvS1BBdnB0NDljZmpJX3o4d0hxN1JkVm5hRndPaGJWclBLeGYyd2h2aXVkZVNzb1MtTExjelRKZW5rVm9Tb3ZZR1dVZG5XSHRXLVdvSThZYkdBeGZva3lyUkVKYzdsdkd1V1I0Qkg5a1ZKMUVhX1RJNUVUelY?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "路透社:阿里巴巴详述新的AI安全措施,中国开发者加大测试披露",
+      "summary": "路透社的标题称阿里巴巴详述了新的AI安全措施,这属于中国开发者披露更多测试信息的趋势。文章正文无法读取。",
+      "whyItMatters": "包括阿里巴巴在内的中国AI开发者正公布更多模型测试信息。",
+      "category": "监管",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Reuters: Alibaba details new AI safeguards as Chinese developers step up test disclosures",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUVhrY1I2NEhJUndRTG5sMWlxRXUxTS0wOHdOLVg2bG83NS10R0RuM1h2VWpMVTFrcHd3SmlsVy1hWFhiNld3NGdzcGxLWVVwN0UtUjhjUTdwaFdzMnVoSEkwZWR0MHYxMUw1NDVxbW5GZkFNbWZuaXlGZlRHUjRaTU1JM3FiVGRONXNCaTNtb3dFa1hmZlYxbUd6ZWRBdmgxVk1od0RDT3dscl9XaDRncU84RkxmYnNlcVFF?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Investing.com印度站列出一份日期为11月16日的Duolingo Form 144通知",
+      "summary": "Investing.com印度站列出了一份11月16日的Duolingo Form 144。Form 144是拟出售限制性股票或控制人股票的通知;标题未给出卖方和规模。",
+      "whyItMatters": "这是Duolingo一项已披露的拟售股备案,此处未能确认更多细节。",
+      "category": "监管",
+      "importance": 7,
+      "sourceLinks": [
+        {
+          "title": "Investing.com India: Form 144 Duolingo For: 16 November",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQalJnOUR5MzFWWjVnQmo0TmJGc013OGdCdmZoNlhTdjBYVTBQX2V3VWFoSzRRQ0xWbjF0MTc5Q3R6amQtQjdWZGNGOG9EOVI2TnhVZTN6WkNVaG5Edk93ZDR2YmEtNEhSeUVYd21PeG1hTU1uM2RyVEVaVl82dmpEcHRzbzZyY1JjZ2xZd2dnaEhWVFNBWk1tTjhR?oc=5"
+        }
+      ]
+    }
+  ]
+}

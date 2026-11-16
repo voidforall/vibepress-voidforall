@@ -1,0 +1,116 @@
+{
+  "id": "2026-11-16",
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T16:46:08Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Alibaba's cheaper AI, a further crypto slide and a softer gold price lead a Monday in which several items rest on headlines alone; the items below are written only from what those headlines say.",
+  "stories": [
+    {
+      "headline": "Alibaba's new AI model is two-thirds cheaper, Yahoo Finance reports; TradingView cites a 62% cut in AI task costs",
+      "summary": "Yahoo Finance's headline says Alibaba's new AI model is two-thirds cheaper and asks what that means for the stock; a TradingView headline says Alibaba cut AI task costs by 62%. The articles themselves could not be read, so the details behind the figures are not confirmed here.",
+      "whyItMatters": "Two outlets put the cost reduction at roughly 62% to two-thirds, a notable cut for a company whose AI cloud business is a focus of coverage.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Yahoo Finance: Alibaba’s New AI Model Is Two-Thirds Cheaper",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLVNJVHUxYnNFYXpMMFdZY3NKRmJ6R3F2NHNpVHBieHBfMFBqZnFadlhFY2QtMEFaaGthOWpIbHhzZkZESm9td3h4MUpTeTdGTUZibG1UTDZLWWRaeEZBRFl5M0J3djhZd3BGT3dLcFpNQlJjYVk0d1p0Y3g4bHFjbHZueDZPOW4zTGNkc3pXWHBsTFRwMDRn?oc=5"
+        },
+        {
+          "title": "TradingView: Alibaba Just Cut AI Task Costs by 62%",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOY2l3bkJVeWI1akxnMHlNaFRJTGw0SEd5QnpiT055U0hEdEVsTmd6MXRpTzFZLV9tREl3ekxuem5lU0dkMnZraVdqYXJFalBVbnlWZm9IOHZIejNmTjNvNFJTSVNQTU0wTm5fZ04yOTdVU3RPb3dmSGFVLS1PS0pvQUNycVpMTEZGNHg3bWo4V0FIcFZNQ0tsMVJhVWd3S1NrTE1sTS1zT1Q2WEY0ZVZ0Q1hLalhsSklVVy1iWnlBZnU0UGF6QmlRR1hLQ3V0aVk?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Strategy adds 485 bitcoin for $33.4 million and spends $228 million buying back preferred stock, Bitcoin Magazine says",
+      "summary": "Bitcoin Magazine's headline reports the purchase and the preferred-stock buyback. CoinDesk's headline says bitcoin was supposed to gain as AI faltered but crashed, and WSJ's says bitcoin and ether slumped further.",
+      "whyItMatters": "The headlines show the biggest corporate bitcoin holder still buying, but on a small scale, while prices kept sliding.",
+      "category": "Crypto",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Magazine: Strategy (MSTR) Adds 485 Bitcoin for $33.4 Million",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE55eUNXWWYwR09ua0cxaUFxZmpzT0hDd3dmUFVuX21jQ0lORXZuZUhCWEgyMUFUbjZQb1d2cThCb0c3V3l1a1EzWTNvbUlPclNLZ0tVMmxOVTZrUUhMNkdnOEZ1ajhNaGljVDFQQ2RtVTltV1N5WHhHVjB4VGU?oc=5"
+        },
+        {
+          "title": "CoinDesk: Bitcoin was supposed to gain as AI faltered, but it crashed",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSmZ3eG9qd1hTVG81bG5NUFBnQWxQc1lQOXY2bEd2bXJVX19nRGxxUU4tZGhjaUJTMm9salhvZ0h0Q3VaemZDa25fdEtqbXMtUVhfaks1b0VZZjBzWjRWelJaOXNzd0xBWUpZNEZndEhYLTZoY05lOG1uSzdpWlJjYjFMSkRuaVRXMW1CRzBIb3ZZSHF4dlZyUnkybl8xcENuOVNnbHB1VjFCM2U5aTBaNXo2amlWN1U?oc=5"
+        },
+        {
+          "title": "WSJ: Bitcoin, Ether Slump Further",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNemJKTlE0N1hQT0Z3amttWTkyZmJNMi1rQlZKSkVGeUpvWFlEUl9QY0pZVGVvWjQ2dWZOemtNdjVULUpsNjNWdlBCZHBMUndmZ0pfazNhT2hRZDBqUmkxbEc0VDk2ZVNxYzBLTUhsSEdWMG1GbEZ3a1plN2dDRkx2UnNFdXJhZ1g0blU4YkV5T29FUG80QkE0a3pjc2ZSM29adWc?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Gold slides as Fed hike bets rise, Kitco says; FXStreet has XAU/USD above $3,850 with a bearish bias",
+      "summary": "Kitco's headline, citing Heraeus, says gold slid as bets on a Fed rate hike rose and that silver bar and coin sales dropped despite lower prices. FXStreet's headline says XAU/USD picked up above $3,850 with the bearish bias intact.",
+      "whyItMatters": "Gold is trading in the high $3,000s as rate-hike expectations weigh on it.",
+      "category": "Commodities",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Kitco: Gold price slides as Fed hike bets rise",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTnBWa0U3NmtKWVR6X1FDSjNiOUFHcHlIR0Q1Q2xIdWJwU253aFQ0ZzRBMjN4LTZkVlNhTDg2SDVjTWV5VXpFNzBDMXRUWjhvS3JqZXE1LUk2RmV0a0RXdnpMSVZ0cXF5emJXTXV1bE5VclR3cTZxeFRDb1c2WkJTd2xONEN4alVjS05DVllHMG1LRU13LW9nWGtMQXF0eFl0WE9YRXBESnN0MjYydVpkd2xoMlRUWWZLWFBmUk5R?oc=5"
+        },
+        {
+          "title": "FXStreet: Gold Price Forecast, XAU/USD above $3,850",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTFBIdFU4VFpER2NCbk9CczVZNXM0eGNZMElweDhvaFNseDFPNHp4NHE3bjhGZ09td1BmYUxnay1jSnRoRW50WlZQYUVldEZSLU1BWHFuaTVOOXZWVERSOHI5QmRwSUVpSEJiX2t5bXNxUXdGUjV6TDVncEZVcFB3dVRFMXEtWVR4MUpTeC1ueVRpODlxdTN4OVkwbjFkNi1MdmtMYUpSX3YtMy1IZFVVR1p5UUp5U1R5TTFCcQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab, Firefly and AST SpaceMobile shares drop Monday, Benzinga says",
+      "summary": "Benzinga's headline asks what is going on with space stocks Monday as Rocket Lab, Firefly and AST SpaceMobile fall. The article text was not readable, so the cause is not stated here.",
+      "whyItMatters": "Rocket Lab, a watchlist name, fell together with other space stocks rather than on its own.",
+      "category": "Markets",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Benzinga: Rocket Lab, Firefly, AST SpaceMobile Stocks Drop",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMlRadWpndXpTOXV5azhFaFlMcXl2UkV1cXMycTltN0pFTVBJNXVVV0NJSmhjZjBFSnZxcmM3WDg4R3hoMWNRXzVmekVuU0wtT0RWTkpYMTgyRGxMdjNlYXRXd0s1NGpqaHRPUGpTb2M2QkdxTlRJY2h3bTdwTHpPbGxnZ3lJTEZBVjBFVFpUb0NuSVRtdEZvemhmVWlrVk9EdTREZlE4OWFMZWVBWko0MTdNeHFoQi1OTW1DTS1HTTBKd3QxbDRXc3R0TUJFbFZLQzJEeWRadk1jNk5RQ0xwWA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Alibaba trims its XPeng holding as it agrees to back the carmaker's robot unit",
+      "summary": "An Electric Vehicles headline says Alibaba is reducing its stake in XPeng while agreeing to back the carmaker's robot unit. Terms were not available from the headline.",
+      "whyItMatters": "Alibaba is shifting its exposure from XPeng shares to the robot unit.",
+      "category": "Company",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Electric Vehicles: Alibaba Trims XPeng Holding as It Agrees to Back Carmaker’s Robot Unit",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQY1MzZTZkOG9Cek5xSHhPOFBiYlVFYnVGalU1MHI1T2RGd1JRbzVWeUlpNFFvS1BBdnB0NDljZmpJX3o4d0hxN1JkVm5hRndPaGJWclBLeGYyd2h2aXVkZVNzb1MtTExjelRKZW5rVm9Tb3ZZR1dVZG5XSHRXLVdvSThZYkdBeGZva3lyUkVKYzdsdkd1V1I0Qkg5a1ZKMUVhX1RJNUVUelY?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Alibaba details new AI safeguards as Chinese developers step up test disclosures, Reuters reports",
+      "summary": "Reuters' headline says Alibaba has detailed new AI safeguards, part of a trend of Chinese developers disclosing more about their testing. The article body was not readable.",
+      "whyItMatters": "Chinese AI developers, Alibaba included, are publishing more about how they test their models.",
+      "category": "Regulatory",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Reuters: Alibaba details new AI safeguards as Chinese developers step up test disclosures",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUVhrY1I2NEhJUndRTG5sMWlxRXUxTS0wOHdOLVg2bG83NS10R0RuM1h2VWpMVTFrcHd3SmlsVy1hWFhiNld3NGdzcGxLWVVwN0UtUjhjUTdwaFdzMnVoSEkwZWR0MHYxMUw1NDVxbW5GZkFNbWZuaXlGZlRHUjRaTU1JM3FiVGRONXNCaTNtb3dFa1hmZlYxbUd6ZWRBdmgxVk1od0RDT3dscl9XaDRncU84RkxmYnNlcVFF?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "A Form 144 notice for Duolingo is dated Nov. 16, Investing.com India lists",
+      "summary": "Investing.com India lists a Form 144 for Duolingo for Nov. 16. A Form 144 is a notice of a proposed sale of restricted or control-person shares; the seller and size were not available from the headline.",
+      "whyItMatters": "It is a disclosed filing of a proposed share sale at Duolingo, with no further detail established here.",
+      "category": "Regulatory",
+      "importance": 7,
+      "sourceLinks": [
+        {
+          "title": "Investing.com India: Form 144 Duolingo For: 16 November",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQalJnOUR5MzFWWjVnQmo0TmJGc013OGdCdmZoNlhTdjBYVTBQX2V3VWFoSzRRQ0xWbjF0MTc5Q3R6amQtQjdWZGNGOG9EOVI2TnhVZTN6WkNVaG5Edk93ZDR2YmEtNEhSeUVYd21PeG1hTU1uM2RyVEVaVl82dmpEcHRzbzZyY1JjZ2xZd2dnaEhWVFNBWk1tTjhR?oc=5"
+        }
+      ]
+    }
+  ]
+}

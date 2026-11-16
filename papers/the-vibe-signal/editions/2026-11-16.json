@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-16",
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T16:46:08Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Old links, trusted extensions and sale-price claims all turned out to be less trustworthy than they looked today, and a Lean proof is only as good as the checks around it.",
+  "stories": [
+    {
+      "headline": "Old Bitly links are being hijacked after expired endings were re-registered",
+      "summary": "Ransomnews reports that old Bitly links in tweets from Burger King, McDonald's and Donald Trump began redirecting to unrelated pages; in 97 Trump links from 2009–2013 it found 7 pointing somewhere unrelated. Bitly said bad actors could repurpose old inactive links, suspended accounts and is disabling affected links.",
+      "whyItMatters": "Short links in old posts, emails and QR codes can be redirected by someone else, and Bitly has confirmed the gap.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Ransomnews: Old Bitly links are being hijacked",
+          "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/"
+        }
+      ]
+    },
+    {
+      "headline": "A website could run code on any site through uBlock Origin's element picker; the flaw is fixed",
+      "summary": "A write-up describes a one-click universal XSS in which a malicious page drives the extension's element picker via an invisible iframe and injects a filter the extension trusts. It mainly affected the MV2 Firefox build, with a less severe variant in uBO Lite; the fix adds a secret the real picker must present.",
+      "whyItMatters": "An ad blocker's trusted-filter mechanism could be turned into script execution on arbitrary domains, until the fix.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "iter.ca: Universal XSS in uBlock Origin",
+          "url": "https://iter.ca/post/ubo-uxss/"
+        }
+      ]
+    },
+    {
+      "headline": "Groundwork says nearly 1 in 3 Amazon Black Friday and Cyber Monday 'deals' offered no savings",
+      "summary": "The advocacy group checked more than 350 products on Amazon's 2024 and 2025 deal pages against their prior-month prices: nearly 1 in 3 sold for the same or less beforehand, and nearly 1 in 10 cost more during the sale, a median 19% above the earlier low. Its pricing-data method is not described.",
+      "whyItMatters": "The report asks regulators to require the lowest price from the prior 30 days alongside sale claims.",
+      "category": "Business",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Groundwork Collaborative: Amazon decoy deals",
+          "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/"
+        }
+      ]
+    },
+    {
+      "headline": "Kevin Buzzard: 'checked in Lean' means something only after four questions are answered",
+      "summary": "The Xena Project post says to check that the Lean statement matches the informal one, that the code compiles, that the proof proves only that statement using standard axioms (via lake comparator), and that no kernel bug is exploited. It cites about 38 of roughly 290 Lean-backed papers in OpenAI's October dump not stating or proving their main theorem.",
+      "whyItMatters": "It turns 'the AI proof compiles' into a checklist, and reports that some published Lean code does not prove the headline theorem.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Xena Project: Interpreting claims that a theorem is correct because it was checked in Lean",
+          "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/"
+        }
+      ]
+    },
+    {
+      "headline": "Tor issues security release 0.4.9.17 as relays face a sustained DDoS attack",
+      "summary": "The Tor forum announcement says the release carries a series of security fixes, one especially important for relay DoS defenses related to IPv6 handling, in response to an ongoing attack flooding relays with client circuits. The page does not list each fix.",
+      "whyItMatters": "Relay operators have a patched release aimed at the circuit-flooding attack.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Tor Project forum: Security release 0.4.9.17",
+          "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454"
+        }
+      ]
+    }
+  ]
+}

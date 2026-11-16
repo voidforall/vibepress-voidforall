@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-16",
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T16:46:08Z",
+  "editionTitle": "Research Radar",
+  "editorNote": "本周入选论文多与“度量”有关:权重编辑、验证器稳定性和交易智能体控制的基准,另有一种学习式测试框架方法和两篇偏理论的论文。",
+  "stories": [
+    {
+      "headline": "WeightBench检验LLM能否直接读取、修复和编写网络权重",
+      "summary": "该基准包含五个赛道共42项权重空间编程任务,涉及2K至7B参数的网络。前沿智能体能读取小型网络并无需运行即可写出可用的控制策略,但尚不能修补语言模型、无数据压缩模型,也无法区分不可能的编辑与困难的编辑。",
+      "whyItMatters": "它为“无需梯度下降编辑权重”这一前沿模型仅部分具备的能力提供了可度量的基线。",
+      "category": "基准",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
+          "url": "https://arxiv.org/abs/2611.18553v1"
+        }
+      ]
+    },
+    {
+      "headline": "智能体轨迹被抽象化后,LLM验证器的判断失败率最高约31%",
+      "summary": "Verification Transport在四个基准、七个验证器上比较同一批冻结执行轨迹的原始、抽象和还原视图,发现在宏观抽象与委托下的传递失败率约为31%。恢复执行溯源可挽回85.5%的失败。",
+      "whyItMatters": "一旦证据跨越抽象边界,仅凭原始轨迹视图上的准确率并不能说明验证器可靠。",
+      "category": "基准",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Do Verifier Judgments Survive Abstraction? Measuring Verification Transport for LLM Agent Evaluation",
+          "url": "https://arxiv.org/abs/2611.18471v1"
+        }
+      ]
+    },
+    {
+      "headline": "ModHarness-RL把智能体测试框架学成随RL训练演化的程序",
+      "summary": "它不再使用固定的手写框架,而是学习用于上下文的压缩程序和用于引导的纠偏程序,由近期轨迹提出并经执行验证。在1.5B至8B模型上,于CodeSearch、ALFWorld和BIRD SQL的多数设置中,保留集表现优于固定框架。",
+      "whyItMatters": "它把测试框架视为应随模型训练而变化的对象,而非常量。",
+      "category": "方法",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
+          "url": "https://arxiv.org/abs/2611.18533v1"
+        }
+      ]
+    },
+    {
+      "headline": "带语言模型先验的交互式程序归纳在CodeARC上最多提升22个百分点,且所需样例更少",
+      "summary": "学习者以语言模型为先验,贪心地选择信息量最大的输入并向预言机查询。论文证明了O((1/γ)·log(1/p0(f*)))次有效查询的上界,在CodeARC上相比仅用LM的智能体最多提升22个百分点,所需样例最多少10.5个。",
+      "whyItMatters": "它为从样例学习程序同时给出了查询次数保证和实测的准确率提升。",
+      "category": "方法",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Interactive Program Induction with Language Model Priors",
+          "url": "https://arxiv.org/abs/2611.18485v1"
+        }
+      ]
+    },
+    {
+      "headline": "椭圆调度为高斯采样给出极小极大最优的得分查询次数",
+      "summary": "论文利用共形映射推导出保方差的椭圆调度,以及与Zolotarev逼近相关的采样器Zoloflow。对高斯目标,它需要Θ(log κ · log(√d/ε))次得分查询,在无关得分张成算法中达到极小极大最优,且在κ→1时退化为三角调度。",
+      "whyItMatters": "它把调度与离散化同目标分布的条件数联系起来,并给出高斯情形下的精确查询次数。",
+      "category": "理论",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond",
+          "url": "https://arxiv.org/abs/2611.18542v1"
+        }
+      ]
+    },
+    {
+      "headline": "TradeGauntlet:零警报并不足以证明交易智能体合规",
+      "summary": "在使用Claude Haiku 5.5和Sonnet 5.5的1,680次模拟会话中,所有违规警报都是自成交;关口机制消除了这些警报,其中聚合关口使Sonnet的双边成交减少约15%。搜索方法找到了能规避现有规则的拆单方案,作者称该研究不能证明法律合规或真实市场的检测准确率。",
+      "whyItMatters": "干净的警报记录可能掩盖漏洞,而控制措施会带来可度量的成交损失。",
+      "category": "应用",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "TradeGauntlet: Evaluating Compliance Controls for Autonomous Trading Agents",
+          "url": "https://arxiv.org/abs/2611.18493v1"
+        }
+      ]
+    }
+  ]
+}

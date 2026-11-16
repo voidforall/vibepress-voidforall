@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-16",
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T16:46:08Z",
+  "editionTitle": "Research Radar",
+  "editorNote": "This week's picks are mostly about measuring things: benchmarks for weight editing, verifier stability and trading-agent controls, plus a harness-learning method and two theory-leaning papers.",
+  "stories": [
+    {
+      "headline": "WeightBench tests whether LLMs can read, fix and write network weights directly",
+      "summary": "The benchmark has 42 weight-space programming tasks across five tracks, on networks from 2K to 7B parameters. Frontier agents can read small networks and write working control policies without running them, but cannot yet patch language models, compress them without data, or tell impossible edits from hard ones.",
+      "whyItMatters": "It gives a measurable baseline for a capability, editing weights without gradient descent, that frontier models only partly have.",
+      "category": "Benchmarks",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
+          "url": "https://arxiv.org/abs/2611.18553v1"
+        }
+      ]
+    },
+    {
+      "headline": "LLM verifier judgments fail up to about 31% of the time when agent traces are abstracted",
+      "summary": "Verification Transport compares native, abstracted and restored views of the same frozen executions across four benchmarks and seven verifiers, finding transport failure around 31% under macro abstraction and delegation. Restoring execution provenance recovers 85.5% of failures.",
+      "whyItMatters": "Accuracy on the native trajectory view alone does not show a verifier is reliable once evidence crosses abstraction boundaries.",
+      "category": "Benchmarks",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Do Verifier Judgments Survive Abstraction? Measuring Verification Transport for LLM Agent Evaluation",
+          "url": "https://arxiv.org/abs/2611.18471v1"
+        }
+      ]
+    },
+    {
+      "headline": "ModHarness-RL learns the agent harness as programs that evolve during RL training",
+      "summary": "Instead of a fixed hand-written harness, it learns a Compression program for context and a Steering program for guidance, proposed from recent trajectories and verified by execution. With 1.5B–8B models it improves held-out performance over a fixed harness in most settings on CodeSearch, ALFWorld and BIRD SQL.",
+      "whyItMatters": "It treats the harness as something that should change as the model trains, not a constant.",
+      "category": "Methods",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
+          "url": "https://arxiv.org/abs/2611.18533v1"
+        }
+      ]
+    },
+    {
+      "headline": "Interactive program induction with an LM prior gains up to 22 points on CodeARC with fewer examples",
+      "summary": "The learner greedily picks the most informative inputs and queries an oracle, using a language model as the prior. The paper proves a bound of O((1/γ)·log(1/p0(f*))) informative queries, and on CodeARC reports up to 22 points over an LM-only agent while seeing up to 10.5 fewer examples.",
+      "whyItMatters": "It pairs a query-count guarantee with a measured accuracy gain for learning programs from examples.",
+      "category": "Methods",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Interactive Program Induction with Language Model Priors",
+          "url": "https://arxiv.org/abs/2611.18485v1"
+        }
+      ]
+    },
+    {
+      "headline": "Elliptic schedules give minimax-optimal score queries for sampling Gaussians",
+      "summary": "Using conformal mapping, the paper derives variance-preserving elliptic schedules and Zoloflow, a sampler tied to Zolotarev approximants. For Gaussian targets it needs Θ(log κ · log(√d/ε)) score queries, minimax optimal among oblivious score-span algorithms, and it reduces to the trig schedule as κ→1.",
+      "whyItMatters": "It ties the schedule and discretization to the target's condition number, with exact query counts for Gaussians.",
+      "category": "Theory",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond",
+          "url": "https://arxiv.org/abs/2611.18542v1"
+        }
+      ]
+    },
+    {
+      "headline": "TradeGauntlet: zero alerts alone do not show a trading agent is compliant",
+      "summary": "In 1,680 simulated sessions with Claude Haiku 5.5 and Sonnet 5.5, all conduct alerts were self-matches; gates removed them, with the aggregate gate cutting Sonnet's two-sided fills about 15%. Search methods found split-order schedules that evade the implemented rules, and the authors say it does not establish legal compliance or real-market detection accuracy.",
+      "whyItMatters": "A clean alert log can hide gaps, and controls carry a measurable cost in fills.",
+      "category": "Applications",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "TradeGauntlet: Evaluating Compliance Controls for Autonomous Trading Agents",
+          "url": "https://arxiv.org/abs/2611.18493v1"
+        }
+      ]
+    }
+  ]
+}

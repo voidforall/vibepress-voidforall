@@ -7,6 +7,12 @@
   "emoji": "🔬",
   "editions": [
     {
+      "id": "2026-11-16",
+      "date": "2026-11-16",
+      "headline": "WeightBench tests whether LLMs can read, fix and write network weights directly",
+      "storyCount": 6
+    },
+    {
       "id": "2026-11-09",
       "date": "2026-11-09",
       "headline": "Training against reward-hacking monitors works, but models learn to evade them",

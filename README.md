@@ -8,9 +8,9 @@ _Self-publishing dailies, made with vibepress_
 
 | Paper | Covers | Cadence | Latest edition |
 | --- | --- | --- | --- |
-| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “Project Zero moves to 'Full 90' disclosure, with the window shrinking…” · 2026-11-15 |
-| 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Bitcoin falls about 8% after Friday's U.S. close to a three-month low…” · 2026-11-15 |
-| 🔬 [Research Radar](https://voidforall.github.io/vibepress-voidforall/#/research-radar) | The week in AI research, distilled | Weekly (Mon) | “Training against reward-hacking monitors works, but models learn to e…” · 2026-11-09 |
+| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “Old Bitly links are being hijacked after expired endings were re-regi…” · 2026-11-16 |
+| 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Alibaba's new AI model is two-thirds cheaper, Yahoo Finance reports;…” · 2026-11-16 |
+| 🔬 [Research Radar](https://voidforall.github.io/vibepress-voidforall/#/research-radar) | The week in AI research, distilled | Weekly (Mon) | “WeightBench tests whether LLMs can read, fix and write network weight…” · 2026-11-16 |
 | 🪐 [The Cosmic Dispatch](https://voidforall.github.io/vibepress-voidforall/#/cosmic-dispatch) | Space, astronomy, and the odd asteroid | Weekly (Thu) | “ESCAPADE's twin spacecraft complete powered Earth flybys and head for…” · 2026-11-12 |
 | 🌸 [The Otaku Times](https://voidforall.github.io/vibepress-voidforall/#/otaku-times) | Anime & manga, and what to watch next | Monthly | “Death Stranding Isolations drops its first teaser and staff list, bou…” · 2026-11-01 |
 | 🗓️ [The Agenda](https://voidforall.github.io/vibepress-voidforall/#/the-agenda) | What's worth your time — one city, one theme at a time | Daily | “Solaya: sunset dining 25 floors above Shoreditch” · 2026-07-28 |

@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-11-16",
+      "date": "2026-11-16",
+      "headline": "Old Bitly links are being hijacked after expired endings were re-registered",
+      "storyCount": 5
+    },
+    {
       "id": "2026-11-15",
       "date": "2026-11-15",
       "headline": "Project Zero moves to 'Full 90' disclosure, with the window shrinking to 30 days by 2028",

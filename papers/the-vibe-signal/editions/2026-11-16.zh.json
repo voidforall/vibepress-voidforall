@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-16",
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T16:46:08Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天,旧链接、受信任的扩展和促销价声明都不如看上去那样可靠;而Lean证明的可信度取决于外围的检查。",
+  "stories": [
+    {
+      "headline": "旧Bitly链接遭劫持:已过期的短链后缀被重新注册",
+      "summary": "Ransomnews报道,汉堡王、麦当劳和特朗普推文中的旧Bitly链接开始跳转到无关页面;在特朗普2009至2013年的97条链接中,有7条指向无关地址。Bitly表示不法分子可重新利用旧的闲置链接,已封停相关账号并正在停用受影响链接。",
+      "whyItMatters": "旧帖子、邮件和二维码中的短链接可能被他人改写去向,Bitly已确认存在这一漏洞。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Ransomnews: Old Bitly links are being hijacked",
+          "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/"
+        }
+      ]
+    },
+    {
+      "headline": "网站可借uBlock Origin元素选择器在任意站点执行代码,漏洞已修复",
+      "summary": "一篇技术文章描述了一个一键式通用XSS:恶意页面通过隐藏iframe驱动扩展的元素选择器,并注入扩展信任的过滤规则。主要影响Firefox的MV2版本,uBO Lite存在较轻的类似问题;修复方案是要求真正的选择器出示一个密钥。",
+      "whyItMatters": "在修复之前,广告拦截器的受信任过滤机制可被用来在任意域名上执行脚本。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "iter.ca: Universal XSS in uBlock Origin",
+          "url": "https://iter.ca/post/ubo-uxss/"
+        }
+      ]
+    },
+    {
+      "headline": "Groundwork称亚马逊黑五和网一的“特价”近三分之一并无优惠",
+      "summary": "这家倡导组织将亚马逊2024和2025年促销页面上350多件商品与前一个月的价格比对:近三分之一此前价格相同或更低,近十分之一在促销期间反而更贵,中位数比此前最低价高19%。报告未说明价格数据的收集方法。",
+      "whyItMatters": "报告呼吁监管机构要求在标注促销价时同时显示此前30天的最低价。",
+      "category": "商业",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Groundwork Collaborative: Amazon decoy deals",
+          "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/"
+        }
+      ]
+    },
+    {
+      "headline": "Kevin Buzzard:只有回答四个问题后,“已在Lean中验证”才有意义",
+      "summary": "Xena项目的文章指出需检查:Lean陈述是否与非形式陈述一致、代码能否编译、证明是否仅用标准公理证明该陈述(借助lake comparator),以及是否利用了内核漏洞。文章称OpenAI十月公布的约290篇附Lean代码的论文中,约38篇并未陈述或证明其主要定理。",
+      "whyItMatters": "它把“AI证明可编译”变成一份检查清单,并指出部分已发布的Lean代码并未证明标题中的定理。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Xena Project: Interpreting claims that a theorem is correct because it was checked in Lean",
+          "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/"
+        }
+      ]
+    },
+    {
+      "headline": "Tor发布安全版本0.4.9.17,中继正遭持续DDoS攻击",
+      "summary": "Tor论坛公告称该版本包含一系列安全修复,其中一项对与IPv6处理相关的中继DoS防御尤为重要,以应对向中继大量发送客户端电路的持续攻击。页面未逐一列出各项修复。",
+      "whyItMatters": "中继运营者现在有了针对电路洪泛攻击的修补版本。",
+      "category": "科技",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Tor Project forum: Security release 0.4.9.17",
+          "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454"
+        }
+      ]
+    }
+  ]
+}

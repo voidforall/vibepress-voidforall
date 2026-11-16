@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-11-16",
+      "date": "2026-11-16",
+      "headline": "Alibaba's new AI model is two-thirds cheaper, Yahoo Finance reports; TradingView cites a 62% cut in AI task costs",
+      "storyCount": 7
+    },
+    {
       "id": "2026-11-15",
       "date": "2026-11-15",
       "headline": "Bitcoin falls about 8% after Friday's U.S. close to a three-month low just above $62,000",
