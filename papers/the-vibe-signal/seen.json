@@ -1,7 +1,48 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-16T16:46:08Z",
+  "updatedAt": "2026-11-17T16:41:28Z",
   "events": [
+    {
+      "date": "2026-11-17",
+      "headline": "Optimizely compromise served crypto-swapping, card-skimming and iOS exploit code on 178 organisations' sites",
+      "summary": "Report URI says malicious JavaScript was written into customers' Optimizely Web project code and served from its CDN, hitting 188 snippets across 178 organisations of 1,611 checked, including Zoom, CNN, GitLab and the BBC. The code swapped…",
+      "urls": [
+        "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+        "https://amirulcyber.com/2026/11/16/optimjack-optimizely-skimmer/"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "headline": "Microsoft blames a day-long Exchange Online outage on a gateway defect from a July change",
+      "summary": "In a preliminary post-incident report covered by The Register, Microsoft says a July change to Microsoft 365 gateway servers had a defect that passed load testing, causing lock contention that exhausted CPU and memory. Service began failin…",
+      "urls": [
+        "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "headline": "Carnegie Mellon puts computer science lectures on YouTube for free",
+      "summary": "CMU's new CS Learn site offers recorded classroom lectures on YouTube (@CMULearn), with November premieres including Machine Learning Systems and AI Agents. Self-paced courseware is next and AI tutoring later.",
+      "urls": [
+        "https://www.cs.cmu.edu/learn/"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "headline": "BugMeNot has closed",
+      "summary": "The BugMeNot homepage now says the service has closed, thanking everyone who 'envisioned a better internet'. It gives no reason or date.",
+      "urls": [
+        "https://www.bugmenot.com/"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "headline": "A researcher says Windows 11 records which coding agents and developer tools you have run",
+      "summary": "A write-up reverse-engineering a Windows DLL says it matches process names such as codex.exe and claude.exe and sends a bitmap of what has run via diagnostics telemetry. The author found no prompts or source code, and verified upload only…",
+      "urls": [
+        "https://xusheng.dev/posts/windows-coding-agent-telemetry/"
+      ]
+    },
     {
       "date": "2026-11-16",
       "headline": "Tor issues security release 0.4.9.17 as relays face a sustained DDoS attack",
@@ -594,38 +635,6 @@
       "urls": [
         "https://rikiyat.github.io/blog/weight-space-programming/",
         "https://honnibal.dev/blog/astra-read-write-misleading"
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "headline": "Trigger.dev says an attacker accessed customer environment variables",
-      "summary": "In a post dated November 1, Trigger.dev says an attacker used an exploit, now blocked, to gain unauthorized access to environment variables for a subset of organizations.",
-      "urls": [
-        "https://trigger.dev/blog/security-incident-nov-2026"
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "headline": "Nibnib, an experimental image format, decodes two RGB565 pixels per byte for tiny microcontrollers",
-      "summary": "Raph Levien's repository describes a 4-bits-per-pixel format where each byte indexes a 256-entry palette of deltas, built for DVI output on an RP2350 with about 6 cycles per pixel.",
-      "urls": [
-        "https://github.com/raphlinus/nibnib"
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "headline": "Mystery of the 60-second power-grid frequency dips traced to battery storage systems",
-      "summary": "Jülich-led researchers report in Nature Energy that large batteries checking their state of charge at the start of every minute create consumption spikes behind the regular one-minute dips.",
-      "urls": [
-        "https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved"
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "headline": "Anthropic's amended S-1 shows $17B in Q3 revenue, growth slowing, and $895B in compute commitments",
-      "summary": "CNBC reports Anthropic's updated filing puts Q3 revenue near $17B and nine-month revenue at $33.24B, with a $104B nine-month net loss mostly from fair-value changes on convertible notes and derivatives.",
-      "urls": [
-        "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
       ]
     }
   ]

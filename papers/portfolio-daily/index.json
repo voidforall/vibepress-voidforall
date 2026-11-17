@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-11-17",
+      "date": "2026-11-17",
+      "headline": "Gold opens at its lowest price since Sept. 29, 2025, Yahoo Finance says; Kitco has it at $3,848 after retail sales",
+      "storyCount": 7
+    },
+    {
       "id": "2026-11-16",
       "date": "2026-11-16",
       "headline": "Alibaba's new AI model is two-thirds cheaper, Yahoo Finance reports; TradingView cites a 62% cut in AI task costs",

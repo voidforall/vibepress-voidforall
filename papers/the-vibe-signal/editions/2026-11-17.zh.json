@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-17",
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T17:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "一场供应链安全事件、一次成因可追溯到数月前的云故障，以及一项遥测发现构成了今日技术版；CMU的免费讲座是难得的好消息，而BugMeNot则无声关闭。",
+  "stories": [
+    {
+      "headline": "Optimizely遭入侵：178家机构网站被植入换币地址、盗刷卡信息和iOS漏洞利用代码",
+      "summary": "Report URI称，恶意JavaScript被写入客户的Optimizely Web项目代码并通过其CDN分发，在检查的1,611个代码片段中有188个（涉及178家机构）受影响，包括Zoom、CNN、GitLab和BBC。代码会替换加密货币地址、窃取银行卡表单信息并投放iOS漏洞利用链；作者称入侵方式未知。",
+      "whyItMatters": "一个第三方脚本平台成为向众多大品牌访客投递恶意代码的通道；11月16日深夜受感染文件已被报告清理。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Report URI: world's largest brands infected with malware via Optimizely",
+          "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/"
+        },
+        {
+          "title": "OPTIMJACK write-up",
+          "url": "https://amirulcyber.com/2026/11/16/optimjack-optimizely-skimmer/"
+        }
+      ]
+    },
+    {
+      "headline": "微软将持续一天的Exchange Online故障归咎于7月变更引入的网关缺陷",
+      "summary": "据The Register报道，微软在初步事后报告中称，7月对Microsoft 365网关服务器的变更存在缺陷且通过了负载测试，导致锁争用耗尽CPU和内存。故障始于11月12日，11月13日16:10（UTC）确认恢复正常。",
+      "whyItMatters": "微软称其负载测试侧重于核心数较少的较弱硬件，因此该缺陷仅在规模化时才暴露；最终报告预计11月20日发布。",
+      "category": "技术",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "The Register: Microsoft blames monster email outage on software defect",
+          "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026"
+        }
+      ]
+    },
+    {
+      "headline": "卡内基梅隆大学将计算机科学课程讲座免费上传至YouTube",
+      "summary": "CMU新推出的CS Learn网站在YouTube（@CMULearn）上提供课堂录像，11月首播课程包括机器学习系统和AI智能体。自学课件将随后推出，AI辅导则更晚。",
+      "whyItMatters": "一所顶尖计算机学院的完整课程讲座（包括AI智能体课程）现可免费观看。",
+      "category": "观点",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "CMU CS Learn",
+          "url": "https://www.cs.cmu.edu/learn/"
+        }
+      ]
+    },
+    {
+      "headline": "研究者称Windows 11会记录你运行过哪些编程智能体和开发工具",
+      "summary": "一篇对Windows DLL的逆向分析称，该组件会匹配codex.exe、claude.exe等进程名，并通过诊断遥测发送一份运行情况位图。作者未发现提示词或源代码，且仅在一台ARM64虚拟机上通过检查DiagTrack队列验证了上传。",
+      "whyItMatters": "作者称仅在开启“可选诊断数据”时才会发送，而其美国安装默认开启；推送范围未知。",
+      "category": "技术",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+          "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/"
+        }
+      ]
+    },
+    {
+      "headline": "BugMeNot已关闭",
+      "summary": "BugMeNot主页现称该服务已关闭，并感谢所有“设想更美好互联网”的人。页面未给出原因或日期。",
+      "whyItMatters": "这项运行多年、用于跳过网站注册的共享账号服务已消失，且未作任何解释。",
+      "category": "商业",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "BugMeNot",
+          "url": "https://www.bugmenot.com/"
+        }
+      ]
+    }
+  ]
+}

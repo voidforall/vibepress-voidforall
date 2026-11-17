@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-17",
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T17:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A supply-chain scare, a cloud outage with a months-old cause, and a telemetry find fill the tech column; CMU's free lectures are the cheerful exception, and BugMeNot closes without comment.",
+  "stories": [
+    {
+      "headline": "Optimizely compromise served crypto-swapping, card-skimming and iOS exploit code on 178 organisations' sites",
+      "summary": "Report URI says malicious JavaScript was written into customers' Optimizely Web project code and served from its CDN, hitting 188 snippets across 178 organisations of 1,611 checked, including Zoom, CNN, GitLab and the BBC. The code swapped crypto addresses, skimmed card fields and served iOS exploit chains; the author says the access method is unknown.",
+      "whyItMatters": "A single third-party script platform became the delivery path to many big brands' visitors; infected files were reported clean by late Nov. 16.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Report URI: world's largest brands infected with malware via Optimizely",
+          "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/"
+        },
+        {
+          "title": "OPTIMJACK write-up",
+          "url": "https://amirulcyber.com/2026/11/16/optimjack-optimizely-skimmer/"
+        }
+      ]
+    },
+    {
+      "headline": "Microsoft blames a day-long Exchange Online outage on a gateway defect from a July change",
+      "summary": "In a preliminary post-incident report covered by The Register, Microsoft says a July change to Microsoft 365 gateway servers had a defect that passed load testing, causing lock contention that exhausted CPU and memory. Service began failing Nov. 12 and was confirmed healthy Nov. 13 at 16:10 UTC.",
+      "whyItMatters": "Microsoft says its load tests focused on weaker hardware with fewer cores, so the bug surfaced only at scale; a final report is due Nov. 20.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "The Register: Microsoft blames monster email outage on software defect",
+          "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026"
+        }
+      ]
+    },
+    {
+      "headline": "Carnegie Mellon puts computer science lectures on YouTube for free",
+      "summary": "CMU's new CS Learn site offers recorded classroom lectures on YouTube (@CMULearn), with November premieres including Machine Learning Systems and AI Agents. Self-paced courseware is next and AI tutoring later.",
+      "whyItMatters": "Full course lectures from a top CS school, including a course on AI agents, are now free to watch.",
+      "category": "Ideas",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "CMU CS Learn",
+          "url": "https://www.cs.cmu.edu/learn/"
+        }
+      ]
+    },
+    {
+      "headline": "A researcher says Windows 11 records which coding agents and developer tools you have run",
+      "summary": "A write-up reverse-engineering a Windows DLL says it matches process names such as codex.exe and claude.exe and sends a bitmap of what has run via diagnostics telemetry. The author found no prompts or source code, and verified upload only by inspecting DiagTrack's queue on one ARM64 VM.",
+      "whyItMatters": "The author says it is sent only with optional diagnostic data on, which was the default in their US install; scope of rollout is unknown.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+          "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/"
+        }
+      ]
+    },
+    {
+      "headline": "BugMeNot has closed",
+      "summary": "The BugMeNot homepage now says the service has closed, thanking everyone who 'envisioned a better internet'. It gives no reason or date.",
+      "whyItMatters": "A long-running shared-login service for skipping site registrations is gone, with no explanation given.",
+      "category": "Business",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "BugMeNot",
+          "url": "https://www.bugmenot.com/"
+        }
+      ]
+    }
+  ]
+}
