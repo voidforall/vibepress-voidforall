@@ -1,7 +1,47 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-17T16:41:28Z",
+  "updatedAt": "2026-11-18T16:11:43Z",
   "events": [
+    {
+      "date": "2026-11-18",
+      "headline": "Quad9 will stop answering DNS queries from France on Nov. 24 after a court fine over pirate-sports blocking",
+      "summary": "The Swiss non-profit resolver says a Paris court fined it €1,000 a day for not blocking pirate streaming domains sought by beIN Sports, with about 20 similar cases pending. It says it keeps no user records and cannot reliably geo-block.",
+      "urls": [
+        "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "headline": "Microsoft's MAI Code 2 claims 96% of Claude Opus 5.5's coding performance at 5% of the cost",
+      "summary": "At Ignite, Microsoft AI introduced MAI Code 2 and the cheaper MAI Code 2 Flash, both available in GitHub Copilot. Microsoft says Code 2 averages 98% of GPT-6.1 Sol at 40% of the cost across four coding benchmarks, though the cost compariso…",
+      "urls": [
+        "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "headline": "Java4Shell: critical OpenJDK Base64 flaw allows out-of-bounds write, patched Nov. 17",
+      "summary": "Calif's write-up describes a memory-corruption bug in OpenJDK's x86-64 Base64 decoder intrinsic (AVX-512 VBMI) that writes past the output array on malformed input; it rates 9.2 (CVSS 4.0) and affects OpenJDK 17.0.6 and newer, plus builds…",
+      "urls": [
+        "https://calif.io/java4shell/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "headline": "Harvard working paper: AI coding agents raised code output but not finished work, and slowed review",
+      "summary": "Using data on 718 firms, the paper finds lines added up about 30% and pull requests up 23% after adoption, while resolved Jira issues were statistically indistinguishable from zero change. Time to merge rose about 49%, from 7.03 to roughly…",
+      "urls": [
+        "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "headline": "Energy-Based Reasoners: a 1.8M-parameter model hits 99.4% on Sudoku-Extreme with 345x fewer inference FLOPs than EqR",
+      "summary": "The project page describes small recurrent models that learn an energy function over latent states and stop when the gradient norm is small, with no external verifier. It also reports 87.4% single-sample on Maze-Hard.",
+      "urls": [
+        "https://energy-based-reasoners.github.io/"
+      ]
+    },
     {
       "date": "2026-11-17",
       "headline": "Optimizely compromise served crypto-swapping, card-skimming and iOS exploit code on 178 organisations' sites",
@@ -586,55 +626,6 @@
       "summary": "A user on Postman Desktop 12.33.4 reports that logs show agent plugins installed on Oct. 24, with changes to Codex and Claude Code settings and a startup hook telling the agent to load a Postman skill. The report does not claim data exfilt…",
       "urls": [
         "https://github.com/postmanlabs/postman-app-support/issues/14370"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "headline": "Subvocal, a YC F26 startup, shows glasses that turn silently mouthed words into text",
-      "summary": "The glasses emit low-power radio waves and decode changes in how mouthing modulates them, via cloud models with latency usually under 500 ms. The company is taking preorders for 500 units and expects to ship in Q1 2027.",
-      "urls": [
-        "https://news.ycombinator.com/item?id=50340088"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "headline": "Nvidia open-sources Auto Ontology, a context layer that lets agents query enterprise data",
-      "summary": "The Apache-2.0 library builds ontologies from metadata, reconciles metric definitions, and turns natural-language questions into SQL for Databricks, Postgres, Snowflake or DuckDB. It exposes this via MCP, CLI and API.",
-      "urls": [
-        "https://github.com/NVIDIA/auto-ontology"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "headline": "NIST publishes a plain-language cybersecurity guide for one-person businesses",
-      "summary": "White Paper 50, released Nov. 2, selects actions from CSF 2.0 such as regular backups, software updates and changing default passwords, with worksheets and three example solopreneurs. It updates NISTIR 7621.",
-      "urls": [
-        "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "headline": "ERICI launches a non-commercial effort to build an open software stack for RISC-V industrial computers",
-      "summary": "Started by Yuri Zaporozhets in Ravensburg, Germany, the initiative defines interfaces from firmware to operating systems and calls a box that boots the stack on RVA23 hardware ERICI-compatible. It says it sells nothing and charges no fees.",
-      "urls": [
-        "https://erici.eu"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "headline": "Carlini ports Stockfish to a 1996 Pentium Pro and estimates it would have beaten Kasparov",
-      "summary": "On a 200 MHz Pentium Pro with 64 MB of RAM, a tuned Stockfish 17 port scored about 3109 Elo at 10 seconds per move, which the author extrapolates to roughly 3300 at classical time controls. It beat the original 1996 Crafty 78 to 5, with 17…",
-      "urls": [
-        "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "headline": "A 'Weight-Space Programming' post says a frontier model can read and edit network weights; a rebuttal says the framing misleads",
-      "summary": "The post says GPT-6 Astra raised Qwen3.5-0.8B's MATH-500 score from 7.9% to 48.1% by editing about 0.016% of weights, mostly by stopping reasoning loops. Honnibal replies that the Qwen result uses Python and practice batches rather than ra…",
-      "urls": [
-        "https://rikiyat.github.io/blog/weight-space-programming/",
-        "https://honnibal.dev/blog/astra-read-write-misleading"
       ]
     }
   ]

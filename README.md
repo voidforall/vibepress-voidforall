@@ -8,7 +8,7 @@ _Self-publishing dailies, made with vibepress_
 
 | Paper | Covers | Cadence | Latest edition |
 | --- | --- | --- | --- |
-| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “Optimizely compromise served crypto-swapping, card-skimming and iOS e…” · 2026-11-17 |
+| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “Java4Shell: critical OpenJDK Base64 flaw allows out-of-bounds write,…” · 2026-11-18 |
 | 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Gold opens at its lowest price since Sept. 29, 2025, Yahoo Finance sa…” · 2026-11-17 |
 | 🔬 [Research Radar](https://voidforall.github.io/vibepress-voidforall/#/research-radar) | The week in AI research, distilled | Weekly (Mon) | “WeightBench tests whether LLMs can read, fix and write network weight…” · 2026-11-16 |
 | 🪐 [The Cosmic Dispatch](https://voidforall.github.io/vibepress-voidforall/#/cosmic-dispatch) | Space, astronomy, and the odd asteroid | Weekly (Thu) | “ESCAPADE's twin spacecraft complete powered Earth flybys and head for…” · 2026-11-12 |

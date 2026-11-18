@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-18",
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T17:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今日版面包括一则需立即打补丁的公告、一份附带但书的厂商基准测试、一项表明写得快不等于交付快的研究、一家宁愿退出也不受罚的DNS服务，以及一个数字亮眼但适用范围狭窄的小模型。",
+  "stories": [
+    {
+      "headline": "Java4Shell（CVE-2026-114938）：OpenJDK Base64关键漏洞可导致越界写入，已于11月17日修补",
+      "summary": "Calif的分析称，OpenJDK在x86-64 Base64解码内联实现（AVX-512 VBMI）中存在内存破坏漏洞，恶意输入会写出输出数组边界；CVSS 4.0评分9.2，影响OpenJDK 17.0.6及更新版本以及Corretto、Temurin、Oracle Java SE等发行版，ARM64不受影响。",
+      "whyItMatters": "OpenJDK与Oracle已于11月17日发布公告和补丁；在升级之前，可使用-XX:-UseBASE64Intrinsics或-XX:UseAVX=2作为临时缓解措施，针对具体产品的利用链暂未公开。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Java4Shell",
+          "url": "https://calif.io/java4shell/"
+        }
+      ]
+    },
+    {
+      "headline": "微软MAI Code 2称以5%的成本达到Claude Opus 5.5编码表现的96%",
+      "summary": "在Ignite大会上，微软AI发布MAI Code 2及更便宜的MAI Code 2 Flash，二者均已登陆GitHub Copilot。微软称在四项编码基准上，Code 2平均达到GPT-6.1 Sol的98%，成本为其40%；但成本对比基于五折促销价，且主要来自内部测试。",
+      "whyItMatters": "这些数据均由厂商自报且在最高推理强度下得出，但它为编码模型的价格比较增添了微软自家的选项。",
+      "category": "商业",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Introducing MAI Code 2 and MAI Code 2 Flash",
+          "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/"
+        }
+      ]
+    },
+    {
+      "headline": "哈佛工作论文：AI编码代理提高了代码产出，却未增加完成的工作，并拖慢了评审",
+      "summary": "论文使用718家公司的数据发现，采用后新增代码行数上升约30%，拉取请求上升23%，但已解决的Jira工单变化在统计上与零无异；合并耗时上升约49%，从7.03天增至约10.5天。",
+      "whyItMatters": "这是一篇未经同行评审的求职论文，数据合作方Jellyfish存在商业利益，因此它只是瓶颈转移的一项证据，而非定论。",
+      "category": "观点",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+          "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/"
+        }
+      ]
+    },
+    {
+      "headline": "Quad9将于11月24日起停止响应来自法国的DNS查询，起因是法院就盗版体育直播屏蔽开出罚款",
+      "summary": "这家瑞士非营利解析服务称，巴黎法院因其未屏蔽beIN Sports要求的盗版直播域名，每天罚款1,000欧元，另有约20起类似案件待决。Quad9表示不保存用户记录，也无法可靠地按地域屏蔽。",
+      "whyItMatters": "手动设置9.9.9.9的法国用户须在11月24日前更换，否则将失去其恶意软件与钓鱼过滤，除非改用其他带过滤的解析服务。",
+      "category": "商业",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Quad9 Is Leaving France",
+          "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/"
+        }
+      ]
+    },
+    {
+      "headline": "能量式推理器：180万参数模型在Sudoku-Extreme上达到99.4%，推理FLOPs比EqR少345倍",
+      "summary": "项目页面介绍了一类小型循环模型：它们学习潜在状态上的能量函数，并在梯度范数很小时停止，无需外部验证器；在Maze-Hard上单次采样准确率为87.4%。",
+      "whyItMatters": "该结果仅涵盖四类算法任务，许多基线数字取自既有论文而非重新运行，因此并不能说明通用推理的效率。（Hacker News标题写作385倍，页面实为345倍。）",
+      "category": "技术",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Energy-Based Reasoners",
+          "url": "https://energy-based-reasoners.github.io/"
+        }
+      ]
+    }
+  ]
+}

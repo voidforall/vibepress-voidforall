@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-18",
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T17:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today's edition is a patch-now bulletin, a vendor benchmark with its asterisks attached, a study suggesting faster typing is not the same as faster shipping, a DNS resolver choosing exit over a fine, and a small model with big, narrow numbers.",
+  "stories": [
+    {
+      "headline": "Java4Shell: critical OpenJDK Base64 flaw allows out-of-bounds write, patched Nov. 17",
+      "summary": "Calif's write-up describes a memory-corruption bug in OpenJDK's x86-64 Base64 decoder intrinsic (AVX-512 VBMI) that writes past the output array on malformed input; it rates 9.2 (CVSS 4.0) and affects OpenJDK 17.0.6 and newer, plus builds such as Corretto, Temurin and Oracle Java SE. ARM64 is not affected.",
+      "whyItMatters": "OpenJDK and Oracle published an advisory and patch on Nov. 17; until updated, -XX:-UseBASE64Intrinsics or -XX:UseAVX=2 are listed as interim mitigations, and product-specific exploit chains are being withheld.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Java4Shell",
+          "url": "https://calif.io/java4shell/"
+        }
+      ]
+    },
+    {
+      "headline": "Microsoft's MAI Code 2 claims 96% of Claude Opus 5.5's coding performance at 5% of the cost",
+      "summary": "At Ignite, Microsoft AI introduced MAI Code 2 and the cheaper MAI Code 2 Flash, both available in GitHub Copilot. Microsoft says Code 2 averages 98% of GPT-6.1 Sol at 40% of the cost across four coding benchmarks, though the cost comparisons rest on a 50% promotional price and mostly internal testing.",
+      "whyItMatters": "The claims are vendor-reported and at maximum reasoning effort, but they add a first-party Microsoft option to the coding-model price comparison.",
+      "category": "Business",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Introducing MAI Code 2 and MAI Code 2 Flash",
+          "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/"
+        }
+      ]
+    },
+    {
+      "headline": "Harvard working paper: AI coding agents raised code output but not finished work, and slowed review",
+      "summary": "Using data on 718 firms, the paper finds lines added up about 30% and pull requests up 23% after adoption, while resolved Jira issues were statistically indistinguishable from zero change. Time to merge rose about 49%, from 7.03 to roughly 10.5 days.",
+      "whyItMatters": "It is an unreviewed job-market paper whose data partner, Jellyfish, has a commercial interest, so it is evidence on where the bottleneck moved rather than a settled verdict.",
+      "category": "Ideas",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+          "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/"
+        }
+      ]
+    },
+    {
+      "headline": "Quad9 will stop answering DNS queries from France on Nov. 24 after a court fine over pirate-sports blocking",
+      "summary": "The Swiss non-profit resolver says a Paris court fined it €1,000 a day for not blocking pirate streaming domains sought by beIN Sports, with about 20 similar cases pending. It says it keeps no user records and cannot reliably geo-block.",
+      "whyItMatters": "French users who set 9.9.9.9 manually must change it before Nov. 24, and they lose its malware and phishing filtering unless they pick another filtered resolver.",
+      "category": "Business",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Quad9 Is Leaving France",
+          "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/"
+        }
+      ]
+    },
+    {
+      "headline": "Energy-Based Reasoners: a 1.8M-parameter model hits 99.4% on Sudoku-Extreme with 345x fewer inference FLOPs than EqR",
+      "summary": "The project page describes small recurrent models that learn an energy function over latent states and stop when the gradient norm is small, with no external verifier. It also reports 87.4% single-sample on Maze-Hard.",
+      "whyItMatters": "The result covers four algorithmic tasks, and many baseline numbers come from prior papers rather than reruns, so it does not show general-reasoning efficiency. (The Hacker News title says 385x; the page says 345x.)",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Energy-Based Reasoners",
+          "url": "https://energy-based-reasoners.github.io/"
+        }
+      ]
+    }
+  ]
+}
