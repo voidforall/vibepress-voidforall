@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-19",
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T16:20:19Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "这一周充满“第一次”:从轨道返回的星舰被接住而助推器丢失、欧几里得迄今最大的一块天区数据、一颗死亡恒星在类太阳伴星旁闪烁,以及一颗被早早捕捉到的近距离超新星。",
+  "stories": [
+    {
+      "headline": "星舰第15次飞行:飞船首次在轨道返回后被塔架接住,但助推器损失",
+      "summary": "约22小时、绕轨14圈并释放26颗星链卫星后,42号飞船于11月14日被星基地塔架机械臂接住,这是轨道级上面级的首次。超重型助推器放弃回收,被转向墨西哥湾,在入水前爆炸;SpaceX称其发动机在下降中“过早”关闭,正在调查。",
+      "whyItMatters": "这是对此前第15次飞行预告的更新:双回收中一半成功,尚未证明的是助推器回收和快速周转。",
+      "category": "发射",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "SpaceX catches Starship after orbit in historic first as booster explodes over Gulf (CBS Austin)",
+          "url": "https://cbsaustin.com/news/nation-world/spacex-catches-starship-after-orbit-in-historic-first-as-booster-explodes-over-gulf"
+        }
+      ]
+    },
+    {
+      "headline": "欧几里得首次大规模数据发布涵盖超过9亿个星系",
+      "summary": "ESA的DR1-Foundation涵盖约13个月观测和1900平方度天区,包含超过9亿个星系、约1.5万个引力透镜候选体和逾6000万个类星体候选体。这约占欧几里得全部巡天面积的14%;首次完整发布计划在2027年年中。",
+      "whyItMatters": "研究者由此获得用于绘制暗物质分布的庞大星表;不过这些数字是编目天体而非新发现,且大部分巡天仍在后面。",
+      "category": "天文",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "ESA's Euclid mission unveils treasure trove of cosmic data (Physics World)",
+          "url": "https://physicsworld.com/a/esas-euclid-mission-unveils-treasure-trove-of-cosmic-data/"
+        },
+        {
+          "title": "Euclid images 900 million galaxies (Live Science)",
+          "url": "https://www.livescience.com/space/astronomy/far-more-than-beautiful-pictures-euclid-space-telescope-images-900-million-galaxies-on-its-quest-to-make-the-largest-3d-map-of-the-universe"
+        }
+      ]
+    },
+    {
+      "headline": "在5000光年外发现带有类太阳伴星的射电脉冲白矮星",
+      "summary": "GPM J071507−114153每八分钟发出一次射电信号,与一颗绕类太阳G型恒星运行的白矮星自转相吻合。默奇森宽视场阵列发现了它,MeerKAT确定了其位置;脉冲中可见白矮星的轨道运动,表明信号源于白矮星或其近旁。",
+      "whyItMatters": "自2021年发现首个长周期射电暂现源以来仅确认了十几个,而这一个拥有类太阳伴星,有助于缩小对其能量来源的猜测。",
+      "category": "发现",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Scientists discover star system sending strange signals every eight minutes (Fox Weather)",
+          "url": "https://foxweather.com/earth-space/scientists-discover-star-system-sending-strange-signals-every-eight-minutes"
+        }
+      ]
+    },
+    {
+      "headline": "NGC 1433中一颗年轻的Ia型超新星,是2011年以来最近的之一",
+      "summary": "SN 2026ahvu于11月2日由ATLAS发现,次日经Keck II确认为Ia型,随后由DECam和南双子望远镜成像。它位于约5000万光年外的NGC 1433,被发现时仍在增亮,预计在11月18日至23日前后达到10.5至12.1星等的峰值。",
+      "whyItMatters": "在爆发早期捕捉到Ia型超新星,并且已有暗能量巡天拍摄的该星系爆发前图像,使天文学家得以罕见地观察这类测距天体的爆发过程。",
+      "category": "天文",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "NSF NOIRLab facilities capture brightening nearby supernova (Newswise)",
+          "url": "https://www.newswise.com/articles/nsf-noirlab-operated-facilities-capture-brightening-nearby-supernova"
+        }
+      ]
+    }
+  ]
+}

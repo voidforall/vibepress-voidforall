@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-19",
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T16:20:19Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "阿里巴巴财报居首:云业务增长53%,但现金消耗加快。此外,Anthropic的IPO已定价,黄金维持在一年多来的低位附近,一位高管将比特币疲软与IPO融资联系起来,多邻国的首席原告申请截止日临近。仅陈述事实,不构成投资建议。",
+  "stories": [
+    {
+      "headline": "阿里巴巴9月季度AI云收入增长53%,调整后每股收益不及预期,现金消耗扩大",
+      "summary": "营收2715.2亿元,预期2698.1亿元;AI云与计算收入增长53%至609.7亿元。非GAAP净利润增长92%至199亿元,但调整后每ADS收益8.10元,低于预期的11.16元;资本开支增长60%至504.8亿元,现金消耗344.7亿元。",
+      "whyItMatters": "据路透社,中国电商收入下降5%,国际电商下降8%,CEO警告美国新的算力出口规则将影响明年的产品;美股股价早盘上涨3.6%。",
+      "category": "财报",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "China's Alibaba beats quarterly revenue estimates (Reuters via KFGO)",
+          "url": "https://kfgo.com/2026/11/19/chinas-alibaba-beats-quarterly-revenue-estimates/"
+        }
+      ]
+    },
+    {
+      "headline": "Anthropic纳斯达克IPO定价83美元,高于上周报道的70–78美元区间",
+      "summary": "公司于11月18日以每股83.00美元定价9.8亿股,预计11月19日以ANT开始交易,11月20日交割。crypto.news援引的11月13日报道称此前区间为70至78美元,认购订单约为股份数的六倍。",
+      "whyItMatters": "这是我们11月17日所报申请文件的后续;此前报道亚马逊和谷歌合计持有约28%,其持股现在将面对公开市场定价。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Anthropic prices initial public offering",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+        },
+        {
+          "title": "Bitcoin below $70K, Xapo CEO and Anthropic IPO (crypto.news)",
+          "url": "https://crypto.news/bitcoin-below-70k-xapo-ceo-anthropic-ipo/"
+        }
+      ]
+    },
+    {
+      "headline": "黄金维持在14个月低点附近,美元、收益率和美联储加息预期构成压力",
+      "summary": "Trading Economics称11月17日现货黄金约每盎司3850美元,为2025年9月以来最低;11月19日的后续条目称其在3700美元上方企稳,不过该页面的日期和价格并不一致。原因包括美元走强、国债收益率高企、10月通胀高于预期以及美联储官员支持加息。",
+      "whyItMatters": "市场对下月加息25个基点的定价超过95%,提高了持有无收益黄金的机会成本;该页面称FOMC会议纪要是下一个催化因素。",
+      "category": "大宗商品",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Gold Hovers at Near 14-Month Low (Trading Economics)",
+          "url": "https://tradingeconomics.com/commodity/gold/news/601731"
+        }
+      ]
+    },
+    {
+      "headline": "Xapo银行CEO将比特币跌破7万美元与Anthropic IPO融资联系起来",
+      "summary": "据11月13日的报道,比特币交易于约68,750美元附近,Seamus Rocca认为下跌源于投资者出售流动资产以认购Anthropic。美国现货比特币ETF五个交易日净流出约14.4亿美元,24小时内约12.3亿美元加密仓位被清算。",
+      "whyItMatters": "IPO流动性之说只是一位高管的看法;文章同时列出通胀担忧、Strategy于11月30日被MSCI指数剔除以及科技股抛售等压力。",
+      "category": "加密货币",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin below $70K: Xapo CEO and Anthropic IPO (crypto.news)",
+          "url": "https://crypto.news/bitcoin-below-70k-xapo-ceo-anthropic-ipo/"
+        }
+      ]
+    },
+    {
+      "headline": "多邻国证券集体诉讼:首席原告申请截止日为12月7日",
+      "summary": "多邻国的10-Q文件称,10月7日在宾夕法尼亚西区提起的拟议集体诉讼涵盖2025年5月2日至2026年2月26日期间购买其A类股票的投资者。公司表示将积极抗辩,且尚未认定集体诉讼成立。",
+      "whyItMatters": "12月7日只决定谁可以领导该诉讼,并非对指控的裁定;据一家律所的通告,该诉讼指控违反《证券交易法》第10(b)和20(a)条。",
+      "category": "监管",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Duolingo, Inc. Form 10-Q (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001562088/000162828026069692/duol-20260930.htm"
+        }
+      ]
+    }
+  ]
+}

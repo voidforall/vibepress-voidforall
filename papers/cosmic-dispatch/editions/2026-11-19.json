@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-19",
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T16:20:19Z",
+  "editionTitle": "The Cosmic Dispatch",
+  "editorNote": "A week of firsts and first looks: a starship caught from orbit while its booster was lost, the largest slice of Euclid's sky so far, a dead star blinking from beside a Sun-like companion, and a supernova caught early and close.",
+  "stories": [
+    {
+      "headline": "Starship Flight 15: the ship is caught from orbit for the first time, but the booster is lost",
+      "summary": "After about 22 hours and 14 orbits, Ship 42 was caught by the Starbase tower arms on Nov. 14, a first for an orbital upper stage, after releasing 26 Starlink satellites. The Super Heavy booster aborted its catch, was diverted toward the Gulf of Mexico and exploded before reaching the water; SpaceX said its engines stopped 'too soon' during descent and is investigating.",
+      "whyItMatters": "This updates the Flight 15 preview we ran: half of the double catch worked, and the unproven part is now the booster return and a quick turnaround.",
+      "category": "Launches",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "SpaceX catches Starship after orbit in historic first as booster explodes over Gulf (CBS Austin)",
+          "url": "https://cbsaustin.com/news/nation-world/spacex-catches-starship-after-orbit-in-historic-first-as-booster-explodes-over-gulf"
+        }
+      ]
+    },
+    {
+      "headline": "Euclid's first major data release covers more than 900 million galaxies",
+      "summary": "ESA's DR1-Foundation spans about 13 months of observing and 1,900 square degrees, with more than 900 million galaxies, about 15,000 gravitational-lens candidates and over 60 million quasar candidates. It is roughly 14% of the area Euclid will survey; the first full release is planned for mid-2027.",
+      "whyItMatters": "It puts a very large catalogue into researchers' hands for mapping dark matter, while the figures are catalogued objects rather than new discoveries and most of the survey is still to come.",
+      "category": "Astronomy",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "ESA's Euclid mission unveils treasure trove of cosmic data (Physics World)",
+          "url": "https://physicsworld.com/a/esas-euclid-mission-unveils-treasure-trove-of-cosmic-data/"
+        },
+        {
+          "title": "Euclid images 900 million galaxies (Live Science)",
+          "url": "https://www.livescience.com/space/astronomy/far-more-than-beautiful-pictures-euclid-space-telescope-images-900-million-galaxies-on-its-quest-to-make-the-largest-3d-map-of-the-universe"
+        }
+      ]
+    },
+    {
+      "headline": "A radio-pulsing white dwarf with a Sun-like companion is found 5,000 light-years away",
+      "summary": "GPM J071507−114153 sends a radio signal every eight minutes, matching the spin of a white dwarf that orbits a Sun-like G-type star. The Murchison Widefield Array found it and MeerKAT pinpointed it; the white dwarf's orbital motion was seen in the pulses, pointing to the white dwarf or its immediate vicinity as the source.",
+      "whyItMatters": "Only about a dozen long-period radio transients have been identified since the first in 2021, and this one has a Sun-like partner, which helps narrow what powers them.",
+      "category": "Discovery",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Scientists discover star system sending strange signals every eight minutes (Fox Weather)",
+          "url": "https://foxweather.com/earth-space/scientists-discover-star-system-sending-strange-signals-every-eight-minutes"
+        }
+      ]
+    },
+    {
+      "headline": "A young Type Ia supernova in NGC 1433 is one of the nearest since 2011",
+      "summary": "SN 2026ahvu was detected by ATLAS on Nov. 2 and confirmed as Type Ia with Keck II the next day, then imaged by DECam and Gemini South. About 50 million light-years away in NGC 1433, it was caught still brightening and is expected to peak between magnitude 10.5 and 12.1 around Nov. 18–23.",
+      "whyItMatters": "Catching a Type Ia explosion early, with pre-explosion Dark Energy Survey images of the galaxy on file, gives astronomers a rare look at how these distance-measuring explosions unfold.",
+      "category": "Astronomy",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "NSF NOIRLab facilities capture brightening nearby supernova (Newswise)",
+          "url": "https://www.newswise.com/articles/nsf-noirlab-operated-facilities-capture-brightening-nearby-supernova"
+        }
+      ]
+    }
+  ]
+}

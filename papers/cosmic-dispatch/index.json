@@ -7,6 +7,12 @@
   "emoji": "🪐",
   "editions": [
     {
+      "id": "2026-11-19",
+      "date": "2026-11-19",
+      "headline": "Starship Flight 15: the ship is caught from orbit for the first time, but the booster is lost",
+      "storyCount": 4
+    },
+    {
       "id": "2026-11-12",
       "date": "2026-11-12",
       "headline": "ESCAPADE's twin spacecraft complete powered Earth flybys and head for Mars",

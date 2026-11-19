@@ -8,10 +8,10 @@ _Self-publishing dailies, made with vibepress_
 
 | Paper | Covers | Cadence | Latest edition |
 | --- | --- | --- | --- |
-| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “Java4Shell: critical OpenJDK Base64 flaw allows out-of-bounds write,…” · 2026-11-18 |
-| 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Gold opens at its lowest price since Sept. 29, 2025, Yahoo Finance sa…” · 2026-11-17 |
+| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “Anthropic prices its IPO at $83 a share; trading on Nasdaq as ANT beg…” · 2026-11-19 |
+| 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Alibaba's AI cloud revenue rises 53% in the September quarter, while…” · 2026-11-19 |
 | 🔬 [Research Radar](https://voidforall.github.io/vibepress-voidforall/#/research-radar) | The week in AI research, distilled | Weekly (Mon) | “WeightBench tests whether LLMs can read, fix and write network weight…” · 2026-11-16 |
-| 🪐 [The Cosmic Dispatch](https://voidforall.github.io/vibepress-voidforall/#/cosmic-dispatch) | Space, astronomy, and the odd asteroid | Weekly (Thu) | “ESCAPADE's twin spacecraft complete powered Earth flybys and head for…” · 2026-11-12 |
+| 🪐 [The Cosmic Dispatch](https://voidforall.github.io/vibepress-voidforall/#/cosmic-dispatch) | Space, astronomy, and the odd asteroid | Weekly (Thu) | “Starship Flight 15: the ship is caught from orbit for the first time,…” · 2026-11-19 |
 | 🌸 [The Otaku Times](https://voidforall.github.io/vibepress-voidforall/#/otaku-times) | Anime & manga, and what to watch next | Monthly | “Death Stranding Isolations drops its first teaser and staff list, bou…” · 2026-11-01 |
 | 🗓️ [The Agenda](https://voidforall.github.io/vibepress-voidforall/#/the-agenda) | What's worth your time — one city, one theme at a time | Daily | “Solaya: sunset dining 25 floors above Shoreditch” · 2026-07-28 |
 

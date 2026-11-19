@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-11-19",
+      "date": "2026-11-19",
+      "headline": "Anthropic prices its IPO at $83 a share; trading on Nasdaq as ANT begins today",
+      "storyCount": 6
+    },
+    {
       "id": "2026-11-18",
       "date": "2026-11-18",
       "headline": "Java4Shell: critical OpenJDK Base64 flaw allows out-of-bounds write, patched Nov. 17",

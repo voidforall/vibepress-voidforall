@@ -1,7 +1,40 @@
 {
   "windowDays": 21,
-  "updatedAt": "2026-11-12T15:46:42Z",
+  "updatedAt": "2026-11-19T16:20:19Z",
   "events": [
+    {
+      "date": "2026-11-19",
+      "headline": "Starship Flight 15: the ship is caught from orbit for the first time, but the booster is lost",
+      "summary": "After about 22 hours and 14 orbits, Ship 42 was caught by the Starbase tower arms on Nov. 14, a first for an orbital upper stage, after releasing 26 Starlink satellites. The Super Heavy booster aborted its catch, was diverted toward the Gu…",
+      "urls": [
+        "https://cbsaustin.com/news/nation-world/spacex-catches-starship-after-orbit-in-historic-first-as-booster-explodes-over-gulf"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "headline": "Euclid's first major data release covers more than 900 million galaxies",
+      "summary": "ESA's DR1-Foundation spans about 13 months of observing and 1,900 square degrees, with more than 900 million galaxies, about 15,000 gravitational-lens candidates and over 60 million quasar candidates. It is roughly 14% of the area Euclid w…",
+      "urls": [
+        "https://physicsworld.com/a/esas-euclid-mission-unveils-treasure-trove-of-cosmic-data/",
+        "https://www.livescience.com/space/astronomy/far-more-than-beautiful-pictures-euclid-space-telescope-images-900-million-galaxies-on-its-quest-to-make-the-largest-3d-map-of-the-universe"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "headline": "A young Type Ia supernova in NGC 1433 is one of the nearest since 2011",
+      "summary": "SN 2026ahvu was detected by ATLAS on Nov. 2 and confirmed as Type Ia with Keck II the next day, then imaged by DECam and Gemini South. About 50 million light-years away in NGC 1433, it was caught still brightening and is expected to peak b…",
+      "urls": [
+        "https://www.newswise.com/articles/nsf-noirlab-operated-facilities-capture-brightening-nearby-supernova"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "headline": "A radio-pulsing white dwarf with a Sun-like companion is found 5,000 light-years away",
+      "summary": "GPM J071507−114153 sends a radio signal every eight minutes, matching the spin of a white dwarf that orbits a Sun-like G-type star. The Murchison Widefield Array found it and MeerKAT pinpointed it; the white dwarf's orbital motion was seen…",
+      "urls": [
+        "https://foxweather.com/earth-space/scientists-discover-star-system-sending-strange-signals-every-eight-minutes"
+      ]
+    },
     {
       "date": "2026-11-12",
       "headline": "SpaceX targets Nov. 13 for Starship Flight 15, aiming to catch both booster and ship",
@@ -90,30 +123,6 @@
       "summary": "Swift made its final observation on Oct. 20 after atmospheric drag pulled it below 171 miles (275 km), too low to hold steady on targets. A $30 million rescue attempt by Katalyst's LINK spacecraft was called off after control problems.",
       "urls": [
         "https://www.natureworldnews.com/articles/73650/20261026/nasa-ends-swifts-mission-171-miles-gamma-ray-burst-hunter-heads-re-entry.htm"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "headline": "NASA says Artemis II's heat shield performed as expected, with 9 char-loss spots versus 103 on Artemis I",
-      "summary": "After Navy diver imagery, inspections and X-ray scans, NASA says Orion's heat shield matched pre-flight predictions at about 39 times the speed of sound and above 4,000°F outside. A shorter downrange trajectory cut cracking and char loss r…",
-      "urls": [
-        "https://nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "headline": "Falcon 9 launches Bandwagon-5: SpaceX's Starfall capsule, Varda W-7 and 30 other payloads",
-      "summary": "After a weather scrub on Oct. 19, SpaceX launched the rideshare on Oct. 20 from Cape Canaveral with 32 payloads, including Starfall, a Varda capsule carrying a cancer-drug experiment, and Portal Space Systems' 260 kg Starburst-1.",
-      "urls": [
-        "https://spaceflightnow.com/?p=74581"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "headline": "Euclid finds its first comet, C/2026 S1, while hunting for galaxies",
-      "summary": "ESA's Euclid telescope turned up a comet in images taken Sept. 16–24; University of Helsinki PhD student Mikko Pöntinen's software flagged a streak, and it sits about 1.3 billion km away with a fuzzy cloud suggesting it is shedding dust an…",
-      "urls": [
-        "https://www.sci.news/astronomy/esas-euclid-space-telescope-first-comet-15139.html"
       ]
     }
   ]

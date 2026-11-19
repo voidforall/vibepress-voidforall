@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-19",
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T16:20:19Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Alibaba's results lead: cloud up 53% but cash burning faster. Elsewhere, Anthropic's IPO priced, gold sat near its lowest in over a year, bitcoin's weakness was tied by one executive to IPO funding, and a Duolingo lead-plaintiff deadline looms. Facts only; none of this is investment advice.",
+  "stories": [
+    {
+      "headline": "Alibaba's AI cloud revenue rises 53% in the September quarter, while adjusted EPS misses and cash burn widens",
+      "summary": "Revenue was 271.52 billion yuan against 269.81 billion expected, with AI cloud and computing up 53% to 60.97 billion yuan. Non-GAAP net income rose 92% to 19.9 billion yuan, but adjusted earnings per ADS of 8.10 yuan were below the 11.16 yuan expected, capex rose 60% to 50.48 billion yuan and cash burn was 34.47 billion yuan.",
+      "whyItMatters": "China e-commerce revenue fell 5% and international fell 8%, and the CEO warned new US compute export rules will affect next year's products; US-listed shares were up 3.6% in morning trading, per Reuters.",
+      "category": "Earnings",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "China's Alibaba beats quarterly revenue estimates (Reuters via KFGO)",
+          "url": "https://kfgo.com/2026/11/19/chinas-alibaba-beats-quarterly-revenue-estimates/"
+        }
+      ]
+    },
+    {
+      "headline": "Anthropic prices its Nasdaq IPO at $83 a share, above the $70–$78 range reported last week",
+      "summary": "The company priced 980 million shares at $83.00 on Nov. 18, expects trading as ANT to begin Nov. 19 and closing on Nov. 20. A Nov. 13 report cited by crypto.news put the earlier range at $70 to $78 with about six times as many orders as shares.",
+      "whyItMatters": "This is the follow-through on the filing we covered Nov. 17; Alphabet's holdings in the company, previously reported at about 28% for Amazon and Google combined, are now exposed to a public market price.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Anthropic prices initial public offering",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+        },
+        {
+          "title": "Bitcoin below $70K, Xapo CEO and Anthropic IPO (crypto.news)",
+          "url": "https://crypto.news/bitcoin-below-70k-xapo-ceo-anthropic-ipo/"
+        }
+      ]
+    },
+    {
+      "headline": "Gold stays near a 14-month low as the dollar, yields and Fed hike bets weigh",
+      "summary": "Trading Economics put spot gold around $3,850 an ounce on Nov. 17, the lowest since September 2025, and a later item dated Nov. 19 had it steadying above $3,700, though the page's dates and prices are inconsistent. It cites a stronger dollar, high Treasury yields, hotter October inflation and Fed officials backing rate hikes.",
+      "whyItMatters": "Markets were pricing over a 95% chance of a 25-basis-point hike next month, raising the opportunity cost of holding non-yielding gold; the page flags FOMC minutes as the next catalyst.",
+      "category": "Commodities",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Gold Hovers at Near 14-Month Low (Trading Economics)",
+          "url": "https://tradingeconomics.com/commodity/gold/news/601731"
+        }
+      ]
+    },
+    {
+      "headline": "Xapo Bank's CEO ties bitcoin's slide below $70,000 to funding for Anthropic's IPO",
+      "summary": "In a Nov. 13 report, bitcoin traded near $68,750 and Seamus Rocca attributed the dip to investors selling liquid assets to fund Anthropic subscriptions. US spot bitcoin ETFs had about $1.44 billion of withdrawals over five sessions and roughly $1.23 billion of crypto positions were liquidated in 24 hours.",
+      "whyItMatters": "The IPO-liquidity link is one executive's view, and the article also lists inflation worries, Strategy's Nov. 30 MSCI index removal and tech-stock selling as pressures.",
+      "category": "Crypto",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin below $70K: Xapo CEO and Anthropic IPO (crypto.news)",
+          "url": "https://crypto.news/bitcoin-below-70k-xapo-ceo-anthropic-ipo/"
+        }
+      ]
+    },
+    {
+      "headline": "Duolingo's securities class action: lead-plaintiff motions are due Dec. 7",
+      "summary": "Duolingo's 10-Q describes a putative class action filed Oct. 7 in the Western District of Pennsylvania covering purchasers of its Class A stock between May 2, 2025 and Feb. 26, 2026. The company says it intends to defend vigorously, and no class has been certified.",
+      "whyItMatters": "The Dec. 7 date only sets who may lead the suit; it is not a finding on the claims, which allege violations of Sections 10(b) and 20(a) according to one law-firm notice.",
+      "category": "Regulatory",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Duolingo, Inc. Form 10-Q (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001562088/000162828026069692/duol-20260930.htm"
+        }
+      ]
+    }
+  ]
+}

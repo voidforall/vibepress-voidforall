@@ -1,7 +1,56 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-18T16:11:43Z",
+  "updatedAt": "2026-11-19T16:20:19Z",
   "events": [
+    {
+      "date": "2026-11-19",
+      "headline": "The European Commission runs Matrix chat for more than 40,000 staff, alongside Teams",
+      "summary": "Element says the Commission moved from a summer-2025 start through a December 2025 proof of concept to a three-month laptop rollout that ended in September 2026, on Element Server Suite Pro hosted by sovereign cloud providers with EU Login…",
+      "urls": [
+        "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "headline": "Ruby patches seven memory-safety flaws in Regexp and case conversion; PoCs exist, 4.0.10, 3.4.13 and 3.3.14 fix them",
+      "summary": "The Nov. 18 advisory lists seven bugs, several with possible remote code execution, affecting Ruby 3.3.13 and earlier, 3.4.0–3.4.12 and 4.0.0–4.0.9; Ruby 3.2 and older are end-of-life and unpatched. Veria Labs says one of them, a one-byte…",
+      "urls": [
+        "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
+        "https://verialabs.com/ruby2shell/"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "headline": "PHP 8.6 ships with partial function application, a Duration class and a polling API",
+      "summary": "The release adds `?` placeholders for partial function application, `\\Time\\Duration`, `clamp()`, an `Io\\Poll` API without stream_select's 1024-connection limit, and post-quantum key encapsulation in Sodium. Session cookies become HttpOnly…",
+      "urls": [
+        "https://www.php.net/releases/8.6/en.php"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "headline": "Google launches Gemini 4 Neon at $3/$15 per million tokens with a 1M-token context window",
+      "summary": "Google positions Neon between Gemini 4 Carbon (hardest long-horizon work) and Hydrogen (fast everyday tasks). It is rolling out in the Gemini API paid tier, Antigravity and the Gemini app for Pro and Ultra subscribers, and Google cites an…",
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "headline": "Anthropic prices its IPO at $83 a share; trading on Nasdaq as ANT begins today",
+      "summary": "Anthropic priced 980 million Class A shares at $83.00 — 956.4 million sold by the company and 23.6 million by selling stockholders — with a 30-day option for underwriters to buy up to 147 million more. Closing is expected Nov. 20.",
+      "urls": [
+        "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "headline": "A storage blog expects SSD prices to start falling in the second half of 2027, with caveats",
+      "summary": "DriveVault cites ComputerBase's tracker putting SSDs about 129% above September 2025 and TrendForce's view that NAND supply returns to balance in the second half of 2027, helped by weaker PC demand and YMTC's growth. It also notes memory c…",
+      "urls": [
+        "https://www.drivevault.io/blog/when-will-hard-drive-prices-come-down.html"
+      ]
+    },
     {
       "date": "2026-11-18",
       "headline": "Quad9 will stop answering DNS queries from France on Nov. 24 after a court fine over pirate-sports blocking",
@@ -578,54 +627,6 @@
       "summary": "The Go blog says the new JSON packages are stable, with stricter defaults (invalid UTF-8 and duplicate names are errors) and unmarshaling up to 10x faster; v1 stays supported and now runs on top of v2.",
       "urls": [
         "https://go.dev/blog/jsonv2"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "headline": "Simon Willison finds a 27B Qwen on his laptop can identify a game from raw network weights in three of four tests",
-      "summary": "Testing the 'Weight-Space Programming' claim, Willison gave four small game-playing networks to Qwen 3.8 27B, which named Breakout at 88% confidence, Pong at 75% and a Pac-Man-style game at 72%, taking 46 to 60 minutes each, and missed Fre…",
-      "urls": [
-        "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "headline": "IEEE Spectrum: the PHP2Shell bug sat unfixed since 2024 until AI-assisted auditing turned it into code execution",
-      "summary": "An out-of-memory bug reported to the PHP Foundation in 2024 was shown by Calif, in an OpenAI-sponsored audit, to allow arbitrary code execution within about two weeks. Security researcher Matt Suiche argues that decades of legacy code are…",
-      "urls": [
-        "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "headline": "C++26 fails its ISO ballot, the first Draft International Standard to be disapproved, over Contracts",
-      "summary": "Andreas Fertig, a WG21 member, writes that ISO national bodies voted 'Disapproved' on the C++26 draft on Oct. 23, short of the required two-thirds, mainly objecting that Contracts is not ready. ISO's options include a revised draft, a Tech…",
-      "urls": [
-        "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "headline": "An article says Nvidia's RTX Spark laptops run local inference 21–31% as fast on Linux as on Windows, blaming an encrypted power table",
-      "summary": "MindStudio's first-hand test reports GPT-OSS-120B at 13.9 tokens/s on native Linux versus 65.4 on Windows, with the GPU clock stuck near 780 MHz against about 2.2 GHz. The author attributes this to a Windows-only controller that receives a…",
-      "urls": [
-        "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "headline": "A Tell HN post says Gemini trains on saved chats even for paying subscribers, and some chats are kept for three years",
-      "summary": "The poster says that on personal Google AI subscriptions the only ways to avoid training are turning chat history off, which deletes chats after 72 hours, or using temporary chats. They add that Google says human-reviewed chats are kept fo…",
-      "urls": [
-        "https://news.ycombinator.com/item?id=50363461"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "headline": "A GitHub issue says Postman Desktop silently installed Codex and Claude Code plugins and approved its own hook",
-      "summary": "A user on Postman Desktop 12.33.4 reports that logs show agent plugins installed on Oct. 24, with changes to Codex and Claude Code settings and a startup hook telling the agent to load a Postman skill. The report does not claim data exfilt…",
-      "urls": [
-        "https://github.com/postmanlabs/postman-app-support/issues/14370"
       ]
     }
   ]
