@@ -1,7 +1,47 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-19T16:20:19Z",
+  "updatedAt": "2026-11-20T15:56:17Z",
   "events": [
+    {
+      "date": "2026-11-20",
+      "headline": "PostgreSQL 19 ships with REPACK, plan-advice extensions and lz4 as default TOAST compression",
+      "summary": "PostgreSQL 19.0 was released Nov. 19. REPACK replaces VACUUM FULL and CLUSTER, with a CONCURRENTLY mode that rebuilds tables without blocking reads and writes; new pg_plan_advice and pg_stash_advice extensions steer the planner; and logica…",
+      "urls": [
+        "https://www.postgresql.org/docs/release/19.0/"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "headline": "OpenSSL's CVE-2026-121481 fix is stuck on whether to assert or return an error",
+      "summary": "A pull request for a base64 length overflow in EVP_EncodeBlock() (CVE-2026-121481) is unmerged. Reviewers object to returning -1 because 0 and -1 can be valid return values, while Matt Caswell opposes OPENSSL_assert since asserts make the…",
+      "urls": [
+        "https://github.com/openssl/openssl/pull/33652"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "headline": "FFmpeg 9.1 'Gauss' is released",
+      "summary": "FFmpeg 9.1 'Gauss' was released on Nov. 20, branched from master on Oct. 24. The download page lists the bundled library versions, including libavcodec 63.24.100 and libavfilter 12.8.100, and points to a changelog and release notes for the…",
+      "urls": [
+        "https://ffmpeg.org/download.html"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "headline": "DeepMind Institute essay argues researchers should plan for superintelligence after AGI",
+      "summary": "Tim Genewein's Nov. 19 essay, based on the report From AGI to ASI, says intelligence is a continuum and names four routes to ASI: scaling, paradigm shifts, agent coordination and recursive self-improvement. It estimates effective compute g…",
+      "urls": [
+        "https://institute.deepmind.com/essays/what-comes-after-agi/"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "headline": "Architect Labs says AI designed and verified its Frostbite CPU, with caveats it lists itself",
+      "summary": "Architect Labs describes Frostbite, an interaction-net CPU whose compiler, ISA, RTL, verification and layout were iterated by AI agents, with a formal spec translated to over 800k lines of Lean. It reports a 4.59x geometric-mean performanc…",
+      "urls": [
+        "https://architectlabs.com/blog/frostbite"
+      ]
+    },
     {
       "date": "2026-11-19",
       "headline": "The European Commission runs Matrix chat for more than 40,000 staff, alongside Teams",
@@ -595,38 +635,6 @@
       "summary": "A write-up by Ozgun Kultekin says that on musl systems such as Alpine and OpenWrt, running sshd without PAM, musl's crypt() returns '*' on failure, and overlong passwords fail, so they match accounts whose password field is '*'. It lists g…",
       "urls": [
         "https://sshhole.com"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "headline": "Vendor reports residential-proxy exits on the Executive Office of the President's network",
-      "summary": "Layer3 Intel says it saw 236 proxy exits through AS2650 over 30 days, across 6 addresses. It calls this suggestive of a person's infected device, but says its data shows only the exits.",
-      "urls": [
-        "https://layer3intel.com/blog/residential-proxies-white-house-network"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "headline": "Ricursive's Ripple-65B Preview claims open-weight agentic-coding lead",
-      "summary": "The 65B dense model scores 80.52 on TerminalBench 2.1 by the company's account, and is on Hugging Face, Together AI, GMI Cloud and OpenRouter. The company says training cost about $32M; the page states no licence.",
-      "urls": [
-        "https://www.ricursive.com/ripple"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "headline": "Moonshot releases Kimi K3.1 Pro weights: 2.8T parameters, 104B active",
-      "summary": "The model card describes an open-weight, natively multimodal agentic mixture-of-experts model with a 1M-token context window, under a custom licence. Moonshot's own benchmarks include 94.2 on GPQA-Diamond.",
-      "urls": [
-        "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "headline": "Go 1.27 makes encoding/json/v2 generally available",
-      "summary": "The Go blog says the new JSON packages are stable, with stricter defaults (invalid UTF-8 and duplicate names are errors) and unmarshaling up to 10x faster; v1 stays supported and now runs on top of v2.",
-      "urls": [
-        "https://go.dev/blog/jsonv2"
       ]
     }
   ]

@@ -1,0 +1,39 @@
+{
+  "id": "2026-11-20",
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T15:56:17Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "今日两则报道,都关乎大型私募市场事件如何波及公开持仓:SpaceX 以债务融资的 AI 建设拖累 Rocket Lab,Anthropic 上市则让 Alphabet 的持股受到关注。仅陈述事实,不作建议。",
+  "stories": [
+    {
+      "headline": "Rocket Lab 连跌六个交易日、累计约 23%,SpaceX 因贷款方相关报道跌破发行价",
+      "summary": "Trefis 称,Rocket Lab(RKLB)11 月 19 日收于 50.99 美元,六连跌累计下跌 22.9%,市值蒸发约 99 亿美元。11 月 20 日,24/7 Wall St. 称 SpaceX 下跌 5% 至 131.16 美元,低于发行价,此前《金融时报》报道其债务融资的贷款方曾试图禁止将用于融资的英伟达芯片发射上太空;Rocket Lab 下跌 3% 至 49.67 美元。",
+      "whyItMatters": "Rocket Lab 的下跌与 SpaceX 融资引发的情绪冲击同步,但 Trefis 认为主要是公司自身因素,因为同期标普 500 下跌 5.8%。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "SpaceX Falls 5%, Breaks Below IPO Price as Lenders Reportedly Balk at Musk's Orbital AI Chip Plans; Rocket Lab Drops 3% - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/20/spacex-falls-5-breaks-below-ipo-price-as-lenders-reportedly-balk-at-musks-orbital-ai-chip-plans-rocket-lab-drops-3-ast-spacemobile-dips/"
+        },
+        {
+          "title": "A 6-Day Losing Streak Has Rocket Lab Stock Down 23% - Trefis",
+          "url": "https://www.trefis.com/stock/rklb/articles/627134/a-6-day-losing-streak-has-rocket-lab-stock-down-23/2026-11-20"
+        }
+      ]
+    },
+    {
+      "headline": "Anthropic 上市首日,Alphabet 收跌 3.46% 至 272.66 美元,雅虎财经报道",
+      "summary": "雅虎财经 11 月 19 日的市场综述称,Alphabet(GOOGL)收于 272.66 美元,下跌 3.46%,而 Anthropic 在纳斯达克上市为谷歌的持股给出了新的市场估值。文章称该持股接近 14%,估值约 1750 亿美元,并指出谷歌接近 15% 的持股上限。",
+      "whyItMatters": "Alphabet 对 Anthropic 的大量资产负债表敞口如今有了挂牌价格,但当天 Alphabet 股价并未随之上涨。",
+      "category": "公司",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake - Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-19-221830024.html"
+        }
+      ]
+    }
+  ]
+}

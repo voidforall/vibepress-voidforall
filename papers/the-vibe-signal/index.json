@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-11-20",
+      "date": "2026-11-20",
+      "headline": "PostgreSQL 19 ships with REPACK, plan-advice extensions and lz4 as default TOAST compression",
+      "storyCount": 5
+    },
+    {
       "id": "2026-11-19",
       "date": "2026-11-19",
       "headline": "Anthropic prices its IPO at $83 a share; trading on Nasdaq as ANT begins today",

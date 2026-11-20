@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-20",
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T15:56:17Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A tidy day: a database release, a security argument over how to fix a bug, a chip designed by agents with the footnotes included, and DeepMind asking what happens after AGI. Mostly engineering, with one essay of hope and homework.",
+  "stories": [
+    {
+      "headline": "PostgreSQL 19 ships with REPACK, plan-advice extensions and lz4 as default TOAST compression",
+      "summary": "PostgreSQL 19.0 was released Nov. 19. REPACK replaces VACUUM FULL and CLUSTER, with a CONCURRENTLY mode that rebuilds tables without blocking reads and writes; new pg_plan_advice and pg_stash_advice extensions steer the planner; and logical replication can be enabled without a restart.",
+      "whyItMatters": "Upgraders face real defaults changes: JIT is now off, RADIUS authentication is removed, and TOAST compression defaults to lz4.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "PostgreSQL 19 release notes",
+          "url": "https://www.postgresql.org/docs/release/19.0/"
+        }
+      ]
+    },
+    {
+      "headline": "Architect Labs says AI designed and verified its Frostbite CPU, with caveats it lists itself",
+      "summary": "Architect Labs describes Frostbite, an interaction-net CPU whose compiler, ISA, RTL, verification and layout were iterated by AI agents, with a formal spec translated to over 800k lines of Lean. It reports a 4.59x geometric-mean performance-per-watt gain over an unnamed in-order core (3.83x on held-out workloads), at 500 MHz in 7 nm.",
+      "whyItMatters": "The claim is self-reported: the baseline is unidentified, kernels are 64x smaller than standard SPLASH-2 sizes, and SPEC/PARSEC results are still to come.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+          "url": "https://architectlabs.com/blog/frostbite"
+        }
+      ]
+    },
+    {
+      "headline": "OpenSSL's CVE-2026-121481 fix is stuck on whether to assert or return an error",
+      "summary": "A pull request for a base64 length overflow in EVP_EncodeBlock() (CVE-2026-121481) is unmerged. Reviewers object to returning -1 because 0 and -1 can be valid return values, while Matt Caswell opposes OPENSSL_assert since asserts make the bug a denial-of-service risk. The project rates it Low as no attacker-controlled path is known; another NVD enrichment rates it critical.",
+      "whyItMatters": "The same bug carries a Low and a Critical severity depending on who scores it, and the fix design is still open.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "openssl/openssl PR #33652",
+          "url": "https://github.com/openssl/openssl/pull/33652"
+        }
+      ]
+    },
+    {
+      "headline": "FFmpeg 9.1 'Gauss' is released",
+      "summary": "FFmpeg 9.1 'Gauss' was released on Nov. 20, branched from master on Oct. 24. The download page lists the bundled library versions, including libavcodec 63.24.100 and libavfilter 12.8.100, and points to a changelog and release notes for the feature list.",
+      "whyItMatters": "A new FFmpeg release is available, with its feature list in the linked changelog rather than the download page.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "FFmpeg download page",
+          "url": "https://ffmpeg.org/download.html"
+        }
+      ]
+    },
+    {
+      "headline": "DeepMind Institute essay argues researchers should plan for superintelligence after AGI",
+      "summary": "Tim Genewein's Nov. 19 essay, based on the report From AGI to ASI, says intelligence is a continuum and names four routes to ASI: scaling, paradigm shifts, agent coordination and recursive self-improvement. It estimates effective compute growing at least 10x a year and recommends 'model, measure, forecast, and repeat'; the Institute notes its pieces do not represent Google's official view.",
+      "whyItMatters": "It is a framing document rather than a result: it argues that restricting one pathway would not stop progress, and asks for interdisciplinary forecasting.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "What Comes After AGI? - DeepMind Institute",
+          "url": "https://institute.deepmind.com/essays/what-comes-after-agi/"
+        }
+      ]
+    }
+  ]
+}

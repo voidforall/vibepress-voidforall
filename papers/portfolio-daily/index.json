@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-11-20",
+      "date": "2026-11-20",
+      "headline": "Rocket Lab has fallen six straight sessions, down about 23%, as SpaceX slips below its IPO price on a lender report",
+      "storyCount": 2
+    },
+    {
       "id": "2026-11-19",
       "date": "2026-11-19",
       "headline": "Alibaba's AI cloud revenue rises 53% in the September quarter, while adjusted EPS misses and cash burn widens",

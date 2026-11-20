@@ -1,7 +1,24 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-19T16:20:19Z",
+  "updatedAt": "2026-11-20T15:56:17Z",
   "events": [
+    {
+      "date": "2026-11-20",
+      "headline": "Rocket Lab has fallen six straight sessions, down about 23%, as SpaceX slips below its IPO price on a lender report",
+      "summary": "Trefis says Rocket Lab (RKLB) closed at $50.99 on Nov. 19, down 22.9% over a six-day losing streak that erased about $9.9 billion of market value. On Nov. 20, 24/7 Wall St. had SpaceX down 5% at $131.16, below its IPO price, after the Fina…",
+      "urls": [
+        "https://247wallst.com/investing/2026/11/20/spacex-falls-5-breaks-below-ipo-price-as-lenders-reportedly-balk-at-musks-orbital-ai-chip-plans-rocket-lab-drops-3-ast-spacemobile-dips/",
+        "https://www.trefis.com/stock/rklb/articles/627134/a-6-day-losing-streak-has-rocket-lab-stock-down-23/2026-11-20"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "headline": "Alphabet closes down 3.46% at $272.66 on Anthropic's debut day, Yahoo Finance reports",
+      "summary": "Yahoo Finance's Nov. 19 market wrap has Alphabet (GOOGL) closing at $272.66, down 3.46%, even as Anthropic's Nasdaq debut put a fresh market value on Google's stake. The article describes the holding as nearly 14% and estimates it at about…",
+      "urls": [
+        "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-19-221830024.html"
+      ]
+    },
     {
       "date": "2026-11-19",
       "headline": "Xapo Bank's CEO ties bitcoin's slide below $70,000 to funding for Anthropic's IPO",
@@ -504,61 +521,6 @@
       "urls": [
         "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR1FGQ2V6NG9WZDNGN3ZhQjM3LUlCYXYzYVlSVDJ2dGxzSmFaSENaTFo3Mmozcm1Lb2xhUldUWXJiRjVwSEVIRTBqaENOdDhpdXRhbUtJQkNWbmRaQjhySmE3dExubTJZZFNmQjBRc1FDdUF2aUlSUUJwUFFocVpGVkhWQ29sWE00bUFSM1ZIdGVpeFQycEh4WHAxdnU1MmMzVEtxcHd5QUVxUDNGTTlWTWZ4WVN2RDQ?oc=5",
         "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTUctakN6VFF2NTVrRGd6TkhUZm5ZT0xZdUhkX1NucDlyOE9rRWFjRm1PVHFqZDZhRm42YUotb0FfVnFKQ1VyRkdOT0xqT3VEXzEtbVJhRDVEOFNIN2xEeGlib1owMHFoN0NETXB4VTktdG9CSkJ3NGZwQ3BqdVRHdzhCUGlyLTV2b0hDWEc0TGgybUV6aVE?oc=5"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "headline": "Why Alphabet stock popped on Wednesday, The Motley Fool asks",
-      "summary": "The Motley Fool published an explainer on Alphabet's Wednesday gain. Separately, Bloomberg's headline says Alphabet's search dominance is at risk from its own AI success.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlJpNTBiZjlSRFh0LTc3cThFWW5GWXlQUFdTVDJQQkZWYWRwVnYxQXh4T1ZnY1FnM0JxY2Joc2ltWGJlVDJWVmRpWEVySHU5WFpLeFhiRENVVHhOUUI4SjA1SXl2dTBZRGFKVENzZldSLXc3WUR3c05aRXFWeE9URnpsTkp5d1Yy?oc=5",
-        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQy01RXgzZmM0aHcxVXMzRUpod3NjVDV0TVRwcDlFRDk5V1lCbWhvd29pelNTOHlzNDQ5aElPOUtueTBtNjdLcEpjYTNNclBvUEhtNHhuYkk0LVhxZkU2MFVGZ09sZ29QeFFDQkd5UUFKUnlLaFAyREtzdE43dkpmV0JlRE9Hdm5IZUJtSkZNN19OY2ZYOGlNY1E4SXZEMkMxVWNieTNqU3VibUNxUzF6NjVxbw?oc=5",
-        "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdVFrVVNZN3diUzBfMVBqVERid294cEQ0X3NqTkx3Q3JEM21SelYxNTdKUFpyZ3ZZbDRUNlEwSjlVaVNyNVQ1aEZzTFBiNmxOeGdqeVZfMHBSVFZlbEJRZU81NTlhaVNQcmlZai1jd2JiTElRQ0tnQTY2VVZWcURBQTczSTgxX2Mzdmx3cDI1OEVGRE5U?oc=5"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "headline": "Gold rises 2.83% on November 4, USA Today reports, as bullion rallies after US midterms",
-      "summary": "USA Today's headline puts the gain at 2.83% on November 4; Investing.com ties gains to a softer dollar and lower Treasury yields after the midterms, and investingLive says $4,200 remains a major hurdle.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbVM2eGhSMTVkTU5SVW5lWVI0WlM2WnM5WkFlVzl0N2JxUWRFSFlUS0RPUU92RllKZ0xiQjVfemh3S1AwMzdyeGM1d2J6R3FwUmhEaUswbnZXTzZneUE3cjlIMzd2dTlWNk1ObnhlRGRlbVBqclRVMlVCRGc2S21Td2U5VUhkSGhZSW5TaXVRbWtoOVIzRENZV0ZQR1RIMlRBbUlPTTRBcnQ4Wm8?oc=5",
-        "https://news.google.com/rss/articles/CBMiygFBVV95cUxPR1MxRGVnd2pXLXhLV1VsSDhRV3JNUlQycWZBa1BjOUZDRElvcUVTX1VidjFFRXBZMUdGZ2MxdGMwWTd3ZlNfeS13ZXBDTFVjU1FvQnB2QUVCeU03WU1aWnFoZHNxejRUWlhQN1FfYkFfbU1TZ0Q2VU9mOHJRVktsazNjMl9mc3JYUHpuLUJqYk9udUtzRlpPOExtZHRXQVl4Q3g4WkZFQUJnQ1F4VmgyNHJTMmJwYlFvc1p4a0tYcHhKQkItVGdiMmNn?oc=5",
-        "https://news.google.com/rss/articles/CBMivwFBVV95cUxNN1lNd2xsWDJaVnZRRWMtYlk0VWpLYmJJUG5uVzJVRlRiUWE3M2hZTUJoSXl1X2RLZUI1Y3RBLXh5VjhBenhzOXpFR05HZjYzUWZyMXBnS1FwUVZKQjI4N3E0YWZadDVFcl9Ecnc4cjZmOFhPcEZ3YUxfSU1LbVFGbG9mRHpnQWNidTBvcjRvcjdFSHZUdUhJbGRKZzJycUtvQzBUVmJBa2NxVWF3M2RONjE5Vk4tV3htd1kwZEpDSQ?oc=5"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "headline": "Duolingo stock soars 26% on user growth and monetization plans, Yahoo Finance reports",
-      "summary": "Yahoo Finance's headline reports a 26% jump on Wednesday, a day after third-quarter results; The Motley Fool also ran a piece on the surge, and Investing.com says BofA raised its price target.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSWl6NTRKZE4yMTUyb1hRQnVoYWtHbnFNQkJiMGY1LUVUYXJ0M1RvQ3Y0eFlmanFPSmFRRGdVemhDc1poZGZPektucEJ1SDFza01qVC1rdnFoSFJPRzBLZG9wRm5qd3NUSmd1VlQ4VUJPTk45b216R1dTbklzUTgtRFYwUWtPQlJlOWxVV1FlYnltS2x5VjkwQTJibDZGOTNhX283Qzhtek5hZzBFZWR0cnU2YVhsZGd4bjlrWXpxWE9jTS1uYTNJ?oc=5",
-        "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQXhwUDYxRi1BbzVrYUZNTUJvQ2Jndk5nbk5ES0daTTJaWHl2c21EZklPQ0FZVzBPN2ZXVVd3SzVKTElteWxrUDlyVWltY3JNTDZxMV9aRFMwcDRKdlcweVctUFhzbDdjTnV1NlpTRUxndkVOWG51VUdBcEs1S0FfMGR1TGZhdw?oc=5",
-        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLXJiMks3SWRyOEpGa1pQN1VJR1JBSW5LZ3JSQ0FfeHlZYTdvM1dmYW5fNzNKV21DVkJ6MjVTb216WXBOcnZzMGNpUlNUUXZ6S3pEeEJaekJ6RWJpS3EzRldCM0VKNTZubFVrT0hFay14QVptaEQ0YXZGWUxfU2VyYWJwaHZBSVhLaUxfSU9EM3lHc3dKcThiSWYtb09kZXZUV3ZiR0N0VWpCMWNQTGNqRUtYWXdyZUE5SzBoS1ppYm0?oc=5"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "headline": "Block's bitcoin gross profit falls by half and it sets aside $764 million for a proposed DOJ resolution, Yahoo Finance says",
-      "summary": "The Yahoo Finance headline reports both the halving of Block's bitcoin gross profit and a $764 million provision for a proposed Justice Department resolution.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMingFBVV95cUxNYkdKbkpucUJ3alNsSkFRaTVvZzZFTnNicmpjcHRIYlBlZHdGdjJCZHJVdENHU2dyOThaNFNrT0YxcXc1NWhTMWxWTnNqb0otTmhaZ2RLY0p1RGRoOHdjVWJlMkhUczM3VDFtZ09NQmVib3lfQkMzWWF3cjdkdU5YWXMyODNQdmc1UUFHWTQzY1dOVmlfQmpFOGs3Q1RJUQ?oc=5"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "headline": "Bitcoin trades near $79,600 as oil rebounds and the Bank of England hikes rates, Bitcoin Magazine says",
-      "summary": "Bitcoin Magazine's headline gives the price near $79,600 and links it to an oil rebound and a Bank of England rate hike.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LeXd0QXFZZDQ5T1pRbGpQS1IwbFlSckd0cEE0YlhIemRFTGxYN2ozRTI1a3dpVnBUbURDTWphNWFEN1luV25iQnpFUWZ4ak9FYzVaMTVZWGRSTG45Rmd1WnVJNmJFRV9HV3Q1Sk5La09mSXFKQk1HaWxDdw?oc=5"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "headline": "Alibaba up 6% alongside a sharp China equity rally, Kalkine reports",
-      "summary": "Kalkine's headline says Alibaba's NYSE shares rose 6% as Chinese equities rallied; Moomoo separately says Hong Kong shares were up 4%.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOU9uNjVVdGQyMXpfZzU4WGRBVWNlY3lLcmhCMURSYjY0U0FRckdzZFM1UVQ1WVpfYjVXQ21ELTJNNy1TZkdwbE9RenBVRVJoLXNLTGdySEs1dTFTekpObmhaeXNjeUpUMERnZjZZUDZOak9tY2toalhfZU95QWp4eFpNMTNKcDMxSWRsU25rQjhvUG45c3RYeU1hUEkwVkVIOXJiSWh1NlFXZGlOcVZVMEpmMHRkQQ?oc=5",
-        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRzloVjhJaEV4S0NJSTFUMjY2V0ZHczFBZXJHbnNrclhTLVdvMnZzN1ZjSUVfSlhvaW1OTmlWTm1nNU1BeHRyWDBnV2lneGRoSjFqTmtUY2x2SlZwS0g5ZmwyMHBvRG45MnZOby03dUVRQkdCVllCVVZ6ckE4c21rM2FVYw?oc=5"
       ]
     }
   ]

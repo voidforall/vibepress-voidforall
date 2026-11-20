@@ -1,0 +1,39 @@
+{
+  "id": "2026-11-20",
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T15:56:17Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "Two stories today, both about how a big private-market event is rippling through public holdings: SpaceX's debt-funded AI buildout is dragging on Rocket Lab, and Anthropic's debut has Alphabet's stake in focus. Facts only, no calls.",
+  "stories": [
+    {
+      "headline": "Rocket Lab has fallen six straight sessions, down about 23%, as SpaceX slips below its IPO price on a lender report",
+      "summary": "Trefis says Rocket Lab (RKLB) closed at $50.99 on Nov. 19, down 22.9% over a six-day losing streak that erased about $9.9 billion of market value. On Nov. 20, 24/7 Wall St. had SpaceX down 5% at $131.16, below its IPO price, after the Financial Times reported lenders on its debt package sought to bar the financed Nvidia chips from being launched into space; Rocket Lab was down 3% at $49.67.",
+      "whyItMatters": "Rocket Lab's slide is tracking a sentiment shock in SpaceX's financing, while Trefis says it is mostly company-specific, since the S&P 500 fell 5.8% over the same six sessions.",
+      "category": "Company",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "SpaceX Falls 5%, Breaks Below IPO Price as Lenders Reportedly Balk at Musk's Orbital AI Chip Plans; Rocket Lab Drops 3% - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/20/spacex-falls-5-breaks-below-ipo-price-as-lenders-reportedly-balk-at-musks-orbital-ai-chip-plans-rocket-lab-drops-3-ast-spacemobile-dips/"
+        },
+        {
+          "title": "A 6-Day Losing Streak Has Rocket Lab Stock Down 23% - Trefis",
+          "url": "https://www.trefis.com/stock/rklb/articles/627134/a-6-day-losing-streak-has-rocket-lab-stock-down-23/2026-11-20"
+        }
+      ]
+    },
+    {
+      "headline": "Alphabet closes down 3.46% at $272.66 on Anthropic's debut day, Yahoo Finance reports",
+      "summary": "Yahoo Finance's Nov. 19 market wrap has Alphabet (GOOGL) closing at $272.66, down 3.46%, even as Anthropic's Nasdaq debut put a fresh market value on Google's stake. The article describes the holding as nearly 14% and estimates it at about $175 billion, noting Google is close to its 15% ownership cap.",
+      "whyItMatters": "A listed price now exists for a large part of Alphabet's balance-sheet exposure to Anthropic, but the stock did not rise with it that day.",
+      "category": "Company",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake - Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-19-221830024.html"
+        }
+      ]
+    }
+  ]
+}

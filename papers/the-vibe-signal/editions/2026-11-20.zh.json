@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-20",
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T15:56:17Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今天比较平静:一次数据库发布、一场关于如何修复漏洞的安全争论、一款由智能体设计且脚注齐全的芯片,以及 DeepMind 对 AGI 之后会发生什么的追问。以工程为主,外加一篇既有期待又有功课的文章。",
+  "stories": [
+    {
+      "headline": "PostgreSQL 19 发布:新增 REPACK、计划建议扩展,TOAST 默认改用 lz4",
+      "summary": "PostgreSQL 19.0 于 11 月 19 日发布。REPACK 取代 VACUUM FULL 和 CLUSTER,其 CONCURRENTLY 模式可在不阻塞读写的情况下重建表;新的 pg_plan_advice 与 pg_stash_advice 扩展可引导查询规划器;逻辑复制无需重启即可启用。",
+      "whyItMatters": "升级者要面对实际的默认值变化:JIT 默认关闭,RADIUS 认证被移除,TOAST 压缩默认改为 lz4。",
+      "category": "技术",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "PostgreSQL 19 release notes",
+          "url": "https://www.postgresql.org/docs/release/19.0/"
+        }
+      ]
+    },
+    {
+      "headline": "Architect Labs 称其 Frostbite CPU 由 AI 设计并验证,并自列了若干限制",
+      "summary": "Architect Labs 介绍了 Frostbite,一款基于交互网络的 CPU,其编译器、指令集、RTL、验证和版图均由 AI 智能体迭代完成,形式化规范被翻译为超过 80 万行 Lean 代码。该公司称,相对一款未具名的顺序核心,每瓦性能几何平均提升 4.59 倍(留出工作负载为 3.83 倍),7 nm 工艺下为 500 MHz。",
+      "whyItMatters": "这些结论为自行报告:基线未公开,测试内核比标准 SPLASH-2 规模小 64 倍,SPEC/PARSEC 结果尚未发布。",
+      "category": "技术",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+          "url": "https://architectlabs.com/blog/frostbite"
+        }
+      ]
+    },
+    {
+      "headline": "OpenSSL CVE-2026-121481 的修复卡在“断言还是返回错误”上",
+      "summary": "针对 EVP_EncodeBlock() 中 base64 长度溢出(CVE-2026-121481)的拉取请求尚未合并。评审者反对返回 -1,因为 0 和 -1 可能是合法返回值;Matt Caswell 则反对 OPENSSL_assert,因为断言会使该漏洞变成拒绝服务风险。项目因未知攻击者可控路径而评为低危;另一份 NVD 补充评级则为严重。",
+      "whyItMatters": "同一漏洞因评分方不同而被评为低危或严重,且修复方案仍未定。",
+      "category": "技术",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "openssl/openssl PR #33652",
+          "url": "https://github.com/openssl/openssl/pull/33652"
+        }
+      ]
+    },
+    {
+      "headline": "FFmpeg 9.1 “Gauss”发布",
+      "summary": "FFmpeg 9.1“Gauss”于 11 月 20 日发布,10 月 24 日从主干分出分支。下载页列出了捆绑的库版本,包括 libavcodec 63.24.100 和 libavfilter 12.8.100,功能清单见链接的更新日志和发行说明。",
+      "whyItMatters": "FFmpeg 新版本已可下载,功能清单见链接的更新日志而非下载页。",
+      "category": "技术",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "FFmpeg download page",
+          "url": "https://ffmpeg.org/download.html"
+        }
+      ]
+    },
+    {
+      "headline": "DeepMind 研究院文章主张:应为 AGI 之后的超级智能做规划",
+      "summary": "Tim Genewein 于 11 月 19 日发表的文章基于报告《From AGI to ASI》,认为智能是一个连续谱,并列出通往 ASI 的四条路径:规模化、范式转变、智能体协作和递归自我改进。文章估计有效算力至少每年增长 10 倍,并建议“建模、测量、预测、重复”;研究院声明其文章不代表谷歌官方观点。",
+      "whyItMatters": "这是一份框架性文件而非研究结果:它认为限制某一条路径并不能阻止进展,并呼吁跨学科的预测工作。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "What Comes After AGI? - DeepMind Institute",
+          "url": "https://institute.deepmind.com/essays/what-comes-after-agi/"
+        }
+      ]
+    }
+  ]
+}
