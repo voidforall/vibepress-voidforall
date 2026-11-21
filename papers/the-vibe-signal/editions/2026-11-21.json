@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-21",
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T15:06:47Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A lean day: a claimed AI-generated proof of a famous conjecture that the experts are still checking, a small open model with big coding claims, a self-editing-weights paper, a regulator circling a chip giant, and one tidy database optimization. Several results are self-reported and unreplicated.",
+  "stories": [
+    {
+      "headline": "Levent Alpöge claims Anthropic models proved the Generalized Riemann Hypothesis, with 17.4 million lines of Lean",
+      "summary": "Alpöge says Anthropic models produced a proof of the Generalized Riemann Hypothesis, which implies the Riemann Hypothesis, accompanied by 17.4 million lines of Lean code. Scott Aaronson expects it to stand but is 'not 100% sure' and notes Lean has had kernel bugs.",
+      "whyItMatters": "A Lean certificate makes checking mechanical, but the proof is unreviewed by the community; Aaronson says no AI result with a Lean certificate has been retracted so far.",
+      "category": "Ideas",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Levent Alpöge, remark (PDF)",
+          "url": "https://alpo.ge/remark.pdf"
+        },
+        {
+          "title": "Scott Aaronson, The stochastic parrots have apparently proved the Riemann Hypothesis",
+          "url": "https://scottaaronson.blog/?p=10344"
+        }
+      ]
+    },
+    {
+      "headline": "Thinking Machines releases Inkling 2 Mini, a 26.4B-parameter open-weights MoE with 3.4B active",
+      "summary": "The looped-transformer model runs its middle layers three times per token and fits in about 20GB. The company reports 48.2% on DeepSWE v1.1 and 79.2% on SWE-bench Verified, and concedes it trails Qwen3.8-27B on MultiChallenge and ComplexConstraints.",
+      "whyItMatters": "Strong coding scores are claimed from a model that runs on a 32GB Mac, though all figures are the company's own.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Inkling 2 Mini - Thinking Machines",
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+        }
+      ]
+    },
+    {
+      "headline": "Paper: a 27B language model can rewrite its own weights without gradients, gaining 6.6 points on unseen problems",
+      "summary": "The authors give an open 27B model its weights and graded answers and let it edit itself; they report a 6.6-point gain on unseen problems and recovery of a damaged copy to over 80% of original accuracy. Smaller models in one family broke themselves or made no useful edit.",
+      "whyItMatters": "The results are the authors' own, unreplicated claims, and the effect appears to depend on scale.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Language Models Can Rewrite Their Own Weights (arXiv:2611.21885)",
+          "url": "https://arxiv.org/abs/2611.21885"
+        }
+      ]
+    },
+    {
+      "headline": "Reuters: SEC's Nvidia probe is examining potential accounting issues; shares closed down 14%",
+      "summary": "Two people briefed told Reuters SEC enforcement staff are scrutinizing Nvidia's accounting; Reuters could not determine when the inquiry opened or which issues are involved. The SEC declined to comment, and Reuters notes investigations are not evidence of wrongdoing.",
+      "whyItMatters": "The probe adds to Nvidia's legal exposure, which already includes a Justice Department review of its $12.9 billion Hugging Face deal.",
+      "category": "Business",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "US SEC's Nvidia probe is examining potential accounting issues - MarketScreener (Reuters)",
+          "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627"
+        }
+      ]
+    },
+    {
+      "headline": "Valkey 9.2 swaps the sorted-set skiplist for a B+ tree, cutting per-member overhead by up to 43%",
+      "summary": "In a 5-million-member test, ordered-index overhead fell from 50.3 to 28.5 bytes for sequential inserts and to 32.0 for random ones. ZADD throughput rose 105% on a pre-merge branch; OBJECT ENCODING now reports 'btree'.",
+      "whyItMatters": "Commands are unchanged, but tooling that checks for the 'skiplist' encoding string needs updating; the release is still in RC and benchmarks were not rerun after merge.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "From skiplist to B+tree - Valkey",
+          "url": "https://valkey.io/blog/from-skiplist-to-b+tree/"
+        }
+      ]
+    }
+  ]
+}

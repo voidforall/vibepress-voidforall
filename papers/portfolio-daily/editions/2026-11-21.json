@@ -1,0 +1,128 @@
+{
+  "id": "2026-11-21",
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T15:06:47Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A risk-off day across the watchlist: bitcoin at a two-year low, gold sliding again, Rocket Lab's losing streak lengthening, and the Nasdaq's 2026 gains gone. Several items rest on headlines only, since article pages could not be retrieved. Facts only, no calls.",
+  "stories": [
+    {
+      "headline": "Bitcoin falls to its lowest in two years, with CoinDesk putting it below $57,000 and $2.4 billion in crypto bets wiped out",
+      "summary": "Reuters and Bloomberg headlines say bitcoin hit a two-year low as global markets sank. CoinDesk's headline says it tanked below $57,000, wiping out $2.4 billion in crypto bets; Forbes' headline describes panic ahead of the weekend.",
+      "whyItMatters": "Bitcoin has now broken below the roughly $62,000 three-month low reported on Nov. 15, with leveraged positions liquidated in the move.",
+      "category": "Crypto",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin falls to its lowest in two years - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NUk9lTzRodUF5M1QyMkpkS3ViSDhVQ2hHZlV1ZUowRnBQeF9Za3l0WkRFb1BUNzVoS1NxcFFERDAydTVnLVpIMG9hcmRUV3hyb1F1RURKeGF3WV9iNlJScVlrYk95VmRJWWxjcE5GLUR4NUgtYWVj?oc=5"
+        },
+        {
+          "title": "Bitcoin (BTC) tanks below $57,000, wiping out $2.4 billion in crypto bets - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVXQyRVlCTU5XNjdyZDVyTnNOVTUzVGlyWHAxYk5CUm9tME1VTllrVWNaREZHVkpzRVhYX1Q0ajZMUjBiUUloMTFvNGdxRFVlNlRYVkplVEJ1em4waFRfTFVCQXRPRlBhT29NSndpNGRDcVdtbW9Cdkl2NjQxZW1NSGVRcmJhbVFMSTlveGVwOGFSdWRnUXhVUi1UVmNwTjhqTjUtUDB4Q1VIR0duRjNyLW9MN0FFQmZSbFJGeE5kVHE?oc=5"
+        },
+        {
+          "title": "Bitcoin Falls to More Than Two-Year Low as Global Markets Sink - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ3l4RFFsS191QTB1b2VicGdIRlZESmozTURmT2NKbUFiMU5qVUZIcDdFM0ctV3p6Vmgwc2JoYi16WFh2dGxkTERLTHE5aW9jcmRHaF9uVGd4QXJFcHUyVzRndVRQTmZwcFZZbV9pWlFlNGZVNVNhWWp5MmQ3ckh0ZF8wTGRxeHZ0dUs0ZDN4SktpRVBCc1JqWEZsQVVJOXgzbFdBOUx1V011TEJGNENwbDIxNA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "An intensifying AI rout wipes out the Nasdaq's 2026 gains, with CNBC calling Alphabet a tech bright spot",
+      "summary": "CNBC's headline says the AI-driven sell-off erased the Nasdaq's gains for the year, while Alphabet was an exception among large tech names.",
+      "whyItMatters": "The year-to-date gain in the tech-heavy index is gone, the backdrop for several of today's holdings moves.",
+      "category": "Markets",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Intensifying AI rout wipes out Nasdaq's 2026 gains. Alphabet is a tech bright spot - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcmEtQVFCYWx5emI3RElNeHhOU3VNbGphc0JWdnRJR200azRLcVNualJvOTZEX1BCQ2s5TXFtRHdWVDF6SFNFWXFiMEVXb1dOc0dxOUVlVjFFU1hoRjBDSjh2cUVKb0pVZzN1SEhDdmdmRlBKcnByVmI1T2NCeU41YnMzNkFRN1NISkxLWmZhOFduTmlZZ0VyXzB3Y2w2WVM2RWR4U2MtZFYwWHlrblh2YzVUeGFTRWtIbFE?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Gold falls 2.33% on Nov. 20, and BullionVault says its slump is the longest since 1970",
+      "summary": "USA Today's daily price report has gold down 2.33% on Nov. 20. BullionVault's 'Everything Crash' piece says the price decline has extended to the longest slump since 1970.",
+      "whyItMatters": "Gold's retreat from earlier in the month, when it sat near a 14-month low, deepened on the day.",
+      "category": "Commodities",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Gold Price Today: Gold Falls 2.33% on November 20, 2026 - USA Today",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSUtnZGVIdmJYekQ1VmF3aWRJREx5aGNEcVpiOEhNc3U5bFNHeUd5eGl4MV9iZXI0dEdhd0tRTV91WkpQdzA0ZVlZVDc5LXViZlZnVXFJczhnTFBmYTZ2QUxiTDhyWXpQRk1wbUZ6aUlKN0xJeDFYUERyeFJ4T3FvSzVfb2twZEg3bjRYTmtOZXV4U2xRVmNEUHc1Z0N3d21zaUx3?oc=5"
+        },
+        {
+          "title": "'Everything Crash' Sees Gold Price Extend Longest Slump Since 1970 - BullionVault",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQY0Qwdm5RRlNVeVhxUnY5aHFwQWxTT1A2MzhzanZidl9Ed29NeU1YLVpIYl9oLWhXUGxGRFFZekFucEhZVC1qVzFpM3JWYjNsck5BaEZ5MFBLdmJXSnZjN1J6LWw0S1E2QjQzYk1pbDRXelJhVnNTU3NtSVZadHN3a1Y1cGE1VzQ3RW5hRzRHaTU?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab has now fallen seven straight sessions, down 31%, and Seeking Alpha has it sliding 11% in a broad pullback",
+      "summary": "Trefis counts seven straight red days and a 31% decline for Rocket Lab (RKLB). Seeking Alpha's headline says the stock slid 11% amid a broad market pullback, and Startup Fortune reports a 10.8% fall to $45.44 as the Neutron delay met a tech rout.",
+      "whyItMatters": "The losing streak lengthened from the six sessions and roughly 23% decline reported yesterday.",
+      "category": "Company",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab Stock: 7 Straight Red Days, Down 31% - Trefis",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOU3M4Vi0yYXFza1RDT1Fnd3V5cWFpSHVvZWpUQkVHeXEtOWFNZEVXVXp6ekxMdnFMVk54Zk5TRW9PdEJfWEtiNlpRS3JzY1g5NGtxWkJvbk9kbks4Z3NoTEhvcGFQcm5wc0RxeG9xdXhDR29KdlQwakdtSFZtMGZ6WTVaRWRXTmdKOE9wMjA3cGwtR0N0UUp2OHBLd1FlVzUyQ1dBVDZWUlU?oc=5"
+        },
+        {
+          "title": "Rocket Lab slides 11% amid broad market pullback (RKLB:NASDAQ) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa3JrUmNWQkpYN2d5TlRkOU1tUVgtOS1lUGJ0X0NHWWI3c3pDYXdNNVc3T0dwTk82a2hiMmNINDA1RmxqN0FpYUNFb09kVmNsbXlYWm1SbjFVQ0lya0EzSVhBanI4dE1iLWRpWnN5MGpDUHMwSUswRWJ6ajdvU3pkSlQzendaZnphM01JX2twY2FjZ1lLN3V5SQ?oc=5"
+        },
+        {
+          "title": "Rocket Lab stock falls 10.8% to $45.44 as its Neutron delay meets a tech rout - Startup Fortune",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTXd1ZHkwWFQxcV9SRDJ0d0dNbnd0TjlNRVRPX3dPWUVMYW8zN3NvbW5CVTdRbGVpSnZXYnhpMWV2QTEzTC1vLURLWDR2ZDdUOGhiUnlNMkptWTk3alZ4aE1JS21LSXBueGx3ZE5Wbk5ELVJXeUdkY20zY2RLNFlYOF93dEtLWTh6RUltbFJHLV9xTHc2S2ZVdGFWcFNJd2FEb29J?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Broadcom falls on a report that Google is cutting AI chip shipments, Barron's says",
+      "summary": "Barron's headline says Broadcom stock fell on a report that Google is cutting AI chip shipments. The article text could not be retrieved, so details of the report are not available here.",
+      "whyItMatters": "The headline links a report about Alphabet's chip orders to a move in its supplier's shares.",
+      "category": "Company",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Broadcom Stock Falls on Report Google is Cutting AI Chip Shipments - Barron's",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Cd2w3NzJtb0xha0ZJazRHS09nRUVPanNPN192RmRWOGVxdW52QThWZzVwbG9VVmNpT1F6MkZaQVdjV09aMU9razJCVUpfckppUllpQWZCN3hIeHh6VkhhLWRWRC11QWRkSjhMaFlQQ1pyWVFCZ0VsQ2RiWmw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Alibaba's targets are cut by Citigroup, Barclays and Baird after its warning of slower cloud growth, TradingView says",
+      "summary": "TradingView's 'Key facts' headline says Alibaba warned of slower cloud growth and that Citigroup, Barclays and Baird cut price targets. A Seeking Alpha headline cites 50%-plus cloud growth and a 9.1x P/E.",
+      "whyItMatters": "Analysts adjusted forecasts after the Nov. 19 results, in which adjusted EPS missed.",
+      "category": "Earnings",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Key facts: Alibaba Warns of Slower Cloud Growth; Citigroup, Barclays and Baird Cut Targets - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOalQ4Q05WbmhTYXRTTnZ4SkhZb3NIUnBYYlU0ZTlHaVNRQnJLQlhCd1ctUnFicmpOaWJ3eW9zeEZkZWRBNWZva2lYNmNlTGpicE9SU2ota1p3b05tem02Q29KSlRaR3h4cUU0Q25SNlczVWhaU2lJZ1E1Z2ZJU2kzNGZQUk5KRHAxbXk2UC15b29JZHM0RG1DQ0tuUkNidjl3WXRzc09CV1ZmTnN0QV9yM1MxaU1md3djRFEtRWh1QlJLUlNkMFM4SWZCR2FxeXN3MjdBSmZMRGk3Rk9SMEU1QzRUUQ?oc=5"
+        },
+        {
+          "title": "Alibaba: 50%+ Cloud Growth, 9.1x P/E, Oversold (NYSE:BABA) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYnBqTDlQUV9iZGxCMkdQNGt2WDdRamRFLVk2c0M0bTFwR3lNZXVtbHVZd2tLQ2ZmSXktdXc4YkFlUTBMcGFsZGhGQjZsOXY0N3lJVGY1RnpKVHZ0STczd3pjdGRXNGtmYk9teW9uU19rWmpLYmd1RXg3WXNTNUVvUVNHQkhqcnZIT1FkMVRqOS15VE5BVnRuYWV3?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Law firms say a securities class action has been filed against Alibaba after export-control issues and a 7% stock drop",
+      "summary": "Law-firm notices carried by The Daily Tribune News and The National Law Review say a securities class action has been filed against Alibaba Group, tying it to export-control issues that led to a 7% stock drop.",
+      "whyItMatters": "These are law-firm announcements of allegations, not court findings.",
+      "category": "Regulatory",
+      "importance": 7,
+      "sourceLinks": [
+        {
+          "title": "BABA Class Action Alert: Alibaba Sued for Securities Fraud After Export Control Issues Leads to 7% Stock Drop – Investors Notified to Contact BFA Law - The Daily Tribune News",
+          "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPSTFscmpIb0hOdklUOG00bm1KNmF0elBMblFJT1dlMzR6R3NBOXVaOHYwNUozVFNpT0diRG5VYnVlbDNuYkxmZG1wd3pRU3RKLXYzMVI3RkEybkhNVXlPT2hWWmxNRnNWS0JEdVpXYWNmTGNVc0Zxa1dEUlEwemhnaHBUcnJRb0VMNFBPay1CZXl0Y1ZZQUhlc1hZaERLM1hRSkNKSWZoeUZqVWFRb0NMWVRiRHhoSWFTbmVlWjBlQ3hkcmVRR2JiNWR6bkhsazBKb3V1ZW9MdEtWVXk4UEd1VEs5T29va3haYWFMTVVaMndfeWtPbFBTMklQVHVlTmVfTjlyYXpHenZjM3NTSS1Rd1JaU01wS1FibFdWNi1oS014Z2docC1BRXpRam8yUQ?oc=5"
+        },
+        {
+          "title": "Securities Class Action Filed Against Alibaba Group Holding Limit - The National Law Review",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWDkzUlFYWmhpa2NLaDZuOVZiaGZ4NktMbE4zVHJ1VC1TVjVLaWxGNkJzV04xUUxjVzZRRFZSdnJfTGw1WFdTdkkxWUUtcW8yY05zQV9FWDZEcnhNZDRmVkhvWWV2RV9QaXJheTRDeDlMNHdVLWNZQVYzWWw1M052TnpQNlNoblhOX2tNaXRYSi1mb29JRHRkVWxheW1NWFdESGd4QlFIeGEteVJxdG5CS19n?oc=5"
+        }
+      ]
+    }
+  ]
+}

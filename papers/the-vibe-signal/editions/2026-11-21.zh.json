@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-21",
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T15:06:47Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "精简的一天:一项号称由AI生成的著名猜想证明仍在专家核查中,一个编码成绩亮眼的小型开源模型,一篇自我编辑权重的论文,监管机构盯上芯片巨头,以及一项整洁的数据库优化。多项结果为自报且未经复现。",
+  "stories": [
+    {
+      "headline": "Levent Alpöge称Anthropic模型证明了广义黎曼猜想,附1740万行Lean代码",
+      "summary": "Alpöge称Anthropic模型给出了广义黎曼猜想(蕴含黎曼猜想)的证明,并附有1740万行Lean代码。Scott Aaronson预计该证明会成立,但“并非百分之百确定”,并指出Lean曾出现内核漏洞。",
+      "whyItMatters": "Lean证书使验证机械化,但该证明尚未经社区审阅;Aaronson称迄今没有带Lean证书的AI成果被撤回。",
+      "category": "观点",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Levent Alpöge, remark (PDF)",
+          "url": "https://alpo.ge/remark.pdf"
+        },
+        {
+          "title": "Scott Aaronson, The stochastic parrots have apparently proved the Riemann Hypothesis",
+          "url": "https://scottaaronson.blog/?p=10344"
+        }
+      ]
+    },
+    {
+      "headline": "Thinking Machines发布Inkling 2 Mini:264亿参数开源权重MoE,激活34亿",
+      "summary": "该循环Transformer让中间层每个token运行三次,约占20GB内存。公司称其DeepSWE v1.1得分48.2%、SWE-bench Verified得分79.2%,并承认在MultiChallenge和ComplexConstraints上落后于Qwen3.8-27B。",
+      "whyItMatters": "据称可在32GB的Mac上运行并取得较强编码成绩,但所有数字均为公司自报。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Inkling 2 Mini - Thinking Machines",
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+        }
+      ]
+    },
+    {
+      "headline": "论文:270亿参数语言模型可无梯度改写自身权重,在未见问题上提升6.6个百分点",
+      "summary": "作者让一个开源270亿参数模型读取自身权重和评分答案并自行编辑;他们报告未见问题上提升6.6个点,受损副本恢复到原始准确率的80%以上。同系列较小模型则自我破坏或无有效编辑。",
+      "whyItMatters": "结果为作者自己的、未经复现的说法,且效果似乎取决于模型规模。",
+      "category": "科技",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Language Models Can Rewrite Their Own Weights (arXiv:2611.21885)",
+          "url": "https://arxiv.org/abs/2611.21885"
+        }
+      ]
+    },
+    {
+      "headline": "路透:美国SEC对英伟达的调查正审查潜在会计问题;股价收跌14%",
+      "summary": "两位知情人士告诉路透,SEC执法人员正在审查英伟达的会计问题;路透无法确定调查何时开始或涉及哪些问题。SEC拒绝置评,路透指出调查并不等于存在不当行为。",
+      "whyItMatters": "该调查增加了英伟达的法律风险,此前司法部已在审查其129亿美元的Hugging Face收购案。",
+      "category": "商业",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "US SEC's Nvidia probe is examining potential accounting issues - MarketScreener (Reuters)",
+          "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627"
+        }
+      ]
+    },
+    {
+      "headline": "Valkey 9.2用B+树取代有序集合跳表,每成员开销最多降低43%",
+      "summary": "在500万成员测试中,顺序插入的有序索引开销从50.3字节降至28.5字节,随机插入降至32.0字节。在合并前分支上ZADD吞吐提升105%;OBJECT ENCODING现在返回“btree”。",
+      "whyItMatters": "命令不变,但检查“skiplist”编码字符串的工具需要更新;该版本仍为RC,合并后未重跑基准测试。",
+      "category": "科技",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "From skiplist to B+tree - Valkey",
+          "url": "https://valkey.io/blog/from-skiplist-to-b+tree/"
+        }
+      ]
+    }
+  ]
+}

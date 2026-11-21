@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-11-21",
+      "date": "2026-11-21",
+      "headline": "Bitcoin falls to its lowest in two years, with CoinDesk putting it below $57,000 and $2.4 billion in crypto bets wiped out",
+      "storyCount": 7
+    },
+    {
       "id": "2026-11-20",
       "date": "2026-11-20",
       "headline": "Rocket Lab has fallen six straight sessions, down about 23%, as SpaceX slips below its IPO price on a lender report",

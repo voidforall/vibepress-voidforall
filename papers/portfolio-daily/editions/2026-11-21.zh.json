@@ -1,0 +1,128 @@
+{
+  "id": "2026-11-21",
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T15:06:47Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "自选股全线避险:比特币触及两年低点,黄金再度下滑,Rocket Lab连跌延长,纳斯达克2026年涨幅归零。部分条目仅依据标题,因文章页面无法获取。仅陈述事实,不作建议。",
+  "stories": [
+    {
+      "headline": "比特币跌至两年来最低,CoinDesk称跌破5.7万美元,24亿美元加密押注被清洗",
+      "summary": "路透和彭博的标题称比特币在全球市场下挫中触及两年低点。CoinDesk的标题称其跌破5.7万美元,24亿美元的加密押注被清洗;福布斯的标题描述了周末前的恐慌情绪。",
+      "whyItMatters": "比特币已跌破11月15日报道的约6.2万美元三个月低点,杠杆仓位在此轮下跌中被清算。",
+      "category": "加密货币",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin falls to its lowest in two years - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NUk9lTzRodUF5M1QyMkpkS3ViSDhVQ2hHZlV1ZUowRnBQeF9Za3l0WkRFb1BUNzVoS1NxcFFERDAydTVnLVpIMG9hcmRUV3hyb1F1RURKeGF3WV9iNlJScVlrYk95VmRJWWxjcE5GLUR4NUgtYWVj?oc=5"
+        },
+        {
+          "title": "Bitcoin (BTC) tanks below $57,000, wiping out $2.4 billion in crypto bets - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVXQyRVlCTU5XNjdyZDVyTnNOVTUzVGlyWHAxYk5CUm9tME1VTllrVWNaREZHVkpzRVhYX1Q0ajZMUjBiUUloMTFvNGdxRFVlNlRYVkplVEJ1em4waFRfTFVCQXRPRlBhT29NSndpNGRDcVdtbW9Cdkl2NjQxZW1NSGVRcmJhbVFMSTlveGVwOGFSdWRnUXhVUi1UVmNwTjhqTjUtUDB4Q1VIR0duRjNyLW9MN0FFQmZSbFJGeE5kVHE?oc=5"
+        },
+        {
+          "title": "Bitcoin Falls to More Than Two-Year Low as Global Markets Sink - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ3l4RFFsS191QTB1b2VicGdIRlZESmozTURmT2NKbUFiMU5qVUZIcDdFM0ctV3p6Vmgwc2JoYi16WFh2dGxkTERLTHE5aW9jcmRHaF9uVGd4QXJFcHUyVzRndVRQTmZwcFZZbV9pWlFlNGZVNVNhWWp5MmQ3ckh0ZF8wTGRxeHZ0dUs0ZDN4SktpRVBCc1JqWEZsQVVJOXgzbFdBOUx1V011TEJGNENwbDIxNA?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "AI抛售加剧,纳斯达克2026年的涨幅被抹平,CNBC称Alphabet是科技股中的亮点",
+      "summary": "CNBC的标题称,由AI引发的抛售抹去了纳斯达克今年的涨幅,而Alphabet是大型科技股中的例外。",
+      "whyItMatters": "这一科技股权重较高的指数年内涨幅已消失,这是今日多只持仓股走势的背景。",
+      "category": "市场",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Intensifying AI rout wipes out Nasdaq's 2026 gains. Alphabet is a tech bright spot - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcmEtQVFCYWx5emI3RElNeHhOU3VNbGphc0JWdnRJR200azRLcVNualJvOTZEX1BCQ2s5TXFtRHdWVDF6SFNFWXFiMEVXb1dOc0dxOUVlVjFFU1hoRjBDSjh2cUVKb0pVZzN1SEhDdmdmRlBKcnByVmI1T2NCeU41YnMzNkFRN1NISkxLWmZhOFduTmlZZ0VyXzB3Y2w2WVM2RWR4U2MtZFYwWHlrblh2YzVUeGFTRWtIbFE?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "黄金11月20日下跌2.33%,BullionVault称此轮下跌为1970年以来最长",
+      "summary": "《今日美国》的每日价格报道称黄金11月20日下跌2.33%。BullionVault的“一切崩盘”文章称金价跌势已延续为1970年以来最长的一轮。",
+      "whyItMatters": "本月早些时候黄金曾处于14个月低点附近,当天跌幅进一步扩大。",
+      "category": "大宗商品",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Gold Price Today: Gold Falls 2.33% on November 20, 2026 - USA Today",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSUtnZGVIdmJYekQ1VmF3aWRJREx5aGNEcVpiOEhNc3U5bFNHeUd5eGl4MV9iZXI0dEdhd0tRTV91WkpQdzA0ZVlZVDc5LXViZlZnVXFJczhnTFBmYTZ2QUxiTDhyWXpQRk1wbUZ6aUlKN0xJeDFYUERyeFJ4T3FvSzVfb2twZEg3bjRYTmtOZXV4U2xRVmNEUHc1Z0N3d21zaUx3?oc=5"
+        },
+        {
+          "title": "'Everything Crash' Sees Gold Price Extend Longest Slump Since 1970 - BullionVault",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQY0Qwdm5RRlNVeVhxUnY5aHFwQWxTT1A2MzhzanZidl9Ed29NeU1YLVpIYl9oLWhXUGxGRFFZekFucEhZVC1qVzFpM3JWYjNsck5BaEZ5MFBLdmJXSnZjN1J6LWw0S1E2QjQzYk1pbDRXelJhVnNTU3NtSVZadHN3a1Y1cGE1VzQ3RW5hRzRHaTU?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab连续七个交易日下跌、累计下跌31%,Seeking Alpha称其在大盘回落中下滑11%",
+      "summary": "Trefis统计Rocket Lab(RKLB)连续七个交易日收阴、累计下跌31%。Seeking Alpha的标题称该股在大盘回落中下滑11%,Startup Fortune则报道其下跌10.8%至45.44美元,Neutron推迟叠加科技股抛售。",
+      "whyItMatters": "连跌天数较昨日报道的六个交易日、约23%的跌幅进一步延长。",
+      "category": "公司",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab Stock: 7 Straight Red Days, Down 31% - Trefis",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOU3M4Vi0yYXFza1RDT1Fnd3V5cWFpSHVvZWpUQkVHeXEtOWFNZEVXVXp6ekxMdnFMVk54Zk5TRW9PdEJfWEtiNlpRS3JzY1g5NGtxWkJvbk9kbks4Z3NoTEhvcGFQcm5wc0RxeG9xdXhDR29KdlQwakdtSFZtMGZ6WTVaRWRXTmdKOE9wMjA3cGwtR0N0UUp2OHBLd1FlVzUyQ1dBVDZWUlU?oc=5"
+        },
+        {
+          "title": "Rocket Lab slides 11% amid broad market pullback (RKLB:NASDAQ) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa3JrUmNWQkpYN2d5TlRkOU1tUVgtOS1lUGJ0X0NHWWI3c3pDYXdNNVc3T0dwTk82a2hiMmNINDA1RmxqN0FpYUNFb09kVmNsbXlYWm1SbjFVQ0lya0EzSVhBanI4dE1iLWRpWnN5MGpDUHMwSUswRWJ6ajdvU3pkSlQzendaZnphM01JX2twY2FjZ1lLN3V5SQ?oc=5"
+        },
+        {
+          "title": "Rocket Lab stock falls 10.8% to $45.44 as its Neutron delay meets a tech rout - Startup Fortune",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTXd1ZHkwWFQxcV9SRDJ0d0dNbnd0TjlNRVRPX3dPWUVMYW8zN3NvbW5CVTdRbGVpSnZXYnhpMWV2QTEzTC1vLURLWDR2ZDdUOGhiUnlNMkptWTk3alZ4aE1JS21LSXBueGx3ZE5Wbk5ELVJXeUdkY20zY2RLNFlYOF93dEtLWTh6RUltbFJHLV9xTHc2S2ZVdGFWcFNJd2FEb29J?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Barron's:有报道称谷歌削减AI芯片出货,博通股价下跌",
+      "summary": "Barron's的标题称,有报道称谷歌正在削减AI芯片出货,博通股价下跌。文章正文无法获取,因此报道细节不详。",
+      "whyItMatters": "标题将一则关于Alphabet芯片订单的报道与其供应商的股价波动联系起来。",
+      "category": "公司",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Broadcom Stock Falls on Report Google is Cutting AI Chip Shipments - Barron's",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Cd2w3NzJtb0xha0ZJazRHS09nRUVPanNPN192RmRWOGVxdW52QThWZzVwbG9VVmNpT1F6MkZaQVdjV09aMU9razJCVUpfckppUllpQWZCN3hIeHh6VkhhLWRWRC11QWRkSjhMaFlQQ1pyWVFCZ0VsQ2RiWmw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "TradingView:阿里巴巴警告云业务增速放缓后,花旗、巴克莱和Baird下调目标价",
+      "summary": "TradingView的“要点”标题称阿里巴巴警告云业务增速放缓,花旗、巴克莱和Baird下调了目标价。Seeking Alpha的标题则提到云业务增长超50%和9.1倍市盈率。",
+      "whyItMatters": "分析师在11月19日业绩(调整后每股收益不及预期)后调整了预测。",
+      "category": "财报",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Key facts: Alibaba Warns of Slower Cloud Growth; Citigroup, Barclays and Baird Cut Targets - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOalQ4Q05WbmhTYXRTTnZ4SkhZb3NIUnBYYlU0ZTlHaVNRQnJLQlhCd1ctUnFicmpOaWJ3eW9zeEZkZWRBNWZva2lYNmNlTGpicE9SU2ota1p3b05tem02Q29KSlRaR3h4cUU0Q25SNlczVWhaU2lJZ1E1Z2ZJU2kzNGZQUk5KRHAxbXk2UC15b29JZHM0RG1DQ0tuUkNidjl3WXRzc09CV1ZmTnN0QV9yM1MxaU1md3djRFEtRWh1QlJLUlNkMFM4SWZCR2FxeXN3MjdBSmZMRGk3Rk9SMEU1QzRUUQ?oc=5"
+        },
+        {
+          "title": "Alibaba: 50%+ Cloud Growth, 9.1x P/E, Oversold (NYSE:BABA) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYnBqTDlQUV9iZGxCMkdQNGt2WDdRamRFLVk2c0M0bTFwR3lNZXVtbHVZd2tLQ2ZmSXktdXc4YkFlUTBMcGFsZGhGQjZsOXY0N3lJVGY1RnpKVHZ0STczd3pjdGRXNGtmYk9teW9uU19rWmpLYmd1RXg3WXNTNUVvUVNHQkhqcnZIT1FkMVRqOS15VE5BVnRuYWV3?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "律所称,阿里巴巴因出口管制问题及股价下跌7%被提起证券集体诉讼",
+      "summary": "The Daily Tribune News和The National Law Review刊发的律所通告称,针对阿里巴巴集团的证券集体诉讼已提起,并将其与导致股价下跌7%的出口管制问题联系起来。",
+      "whyItMatters": "这些是律所公告的指控,并非法院认定。",
+      "category": "监管",
+      "importance": 7,
+      "sourceLinks": [
+        {
+          "title": "BABA Class Action Alert: Alibaba Sued for Securities Fraud After Export Control Issues Leads to 7% Stock Drop – Investors Notified to Contact BFA Law - The Daily Tribune News",
+          "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPSTFscmpIb0hOdklUOG00bm1KNmF0elBMblFJT1dlMzR6R3NBOXVaOHYwNUozVFNpT0diRG5VYnVlbDNuYkxmZG1wd3pRU3RKLXYzMVI3RkEybkhNVXlPT2hWWmxNRnNWS0JEdVpXYWNmTGNVc0Zxa1dEUlEwemhnaHBUcnJRb0VMNFBPay1CZXl0Y1ZZQUhlc1hZaERLM1hRSkNKSWZoeUZqVWFRb0NMWVRiRHhoSWFTbmVlWjBlQ3hkcmVRR2JiNWR6bkhsazBKb3V1ZW9MdEtWVXk4UEd1VEs5T29va3haYWFMTVVaMndfeWtPbFBTMklQVHVlTmVfTjlyYXpHenZjM3NTSS1Rd1JaU01wS1FibFdWNi1oS014Z2docC1BRXpRam8yUQ?oc=5"
+        },
+        {
+          "title": "Securities Class Action Filed Against Alibaba Group Holding Limit - The National Law Review",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWDkzUlFYWmhpa2NLaDZuOVZiaGZ4NktMbE4zVHJ1VC1TVjVLaWxGNkJzV04xUUxjVzZRRFZSdnJfTGw1WFdTdkkxWUUtcW8yY05zQV9FWDZEcnhNZDRmVkhvWWV2RV9QaXJheTRDeDlMNHdVLWNZQVYzWWw1M052TnpQNlNoblhOX2tNaXRYSi1mb29JRHRkVWxheW1NWFdESGd4QlFIeGEteVJxdG5CS19n?oc=5"
+        }
+      ]
+    }
+  ]
+}

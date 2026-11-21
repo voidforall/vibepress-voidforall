@@ -1,7 +1,48 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-20T15:56:17Z",
+  "updatedAt": "2026-11-21T15:06:47Z",
   "events": [
+    {
+      "date": "2026-11-21",
+      "headline": "Valkey 9.2 swaps the sorted-set skiplist for a B+ tree, cutting per-member overhead by up to 43%",
+      "summary": "In a 5-million-member test, ordered-index overhead fell from 50.3 to 28.5 bytes for sequential inserts and to 32.0 for random ones. ZADD throughput rose 105% on a pre-merge branch; OBJECT ENCODING now reports 'btree'.",
+      "urls": [
+        "https://valkey.io/blog/from-skiplist-to-b+tree/"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "headline": "Thinking Machines releases Inkling 2 Mini, a 26.4B-parameter open-weights MoE with 3.4B active",
+      "summary": "The looped-transformer model runs its middle layers three times per token and fits in about 20GB. The company reports 48.2% on DeepSWE v1.1 and 79.2% on SWE-bench Verified, and concedes it trails Qwen3.8-27B on MultiChallenge and ComplexCo…",
+      "urls": [
+        "https://thinkingmachines.ai/news/inkling-2-mini/"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "headline": "Reuters: SEC's Nvidia probe is examining potential accounting issues; shares closed down 14%",
+      "summary": "Two people briefed told Reuters SEC enforcement staff are scrutinizing Nvidia's accounting; Reuters could not determine when the inquiry opened or which issues are involved. The SEC declined to comment, and Reuters notes investigations are…",
+      "urls": [
+        "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "headline": "Paper: a 27B language model can rewrite its own weights without gradients, gaining 6.6 points on unseen problems",
+      "summary": "The authors give an open 27B model its weights and graded answers and let it edit itself; they report a 6.6-point gain on unseen problems and recovery of a damaged copy to over 80% of original accuracy. Smaller models in one family broke t…",
+      "urls": [
+        "https://arxiv.org/abs/2611.21885"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "headline": "Levent Alpöge claims Anthropic models proved the Generalized Riemann Hypothesis, with 17.4 million lines of Lean",
+      "summary": "Alpöge says Anthropic models produced a proof of the Generalized Riemann Hypothesis, which implies the Riemann Hypothesis, accompanied by 17.4 million lines of Lean code. Scott Aaronson expects it to stand but is 'not 100% sure' and notes…",
+      "urls": [
+        "https://alpo.ge/remark.pdf",
+        "https://scottaaronson.blog/?p=10344"
+      ]
+    },
     {
       "date": "2026-11-20",
       "headline": "PostgreSQL 19 ships with REPACK, plan-advice extensions and lz4 as default TOAST compression",
@@ -587,54 +628,6 @@
       "summary": "Google says Omni 1.2 Flash makes and edits clips up to 15 seconds, up from 10, with multi-turn edits, and costs about 30% less than 1.1. It is generally available in the Gemini API and Google Cloud.",
       "urls": [
         "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "headline": "Thinking Machines' Inkling 2 Small is a 594B-parameter MoE with 17B active; Apache 2.0 weights promised 'next week'",
-      "summary": "Thinking Machines says Inkling 2 Small, announced Nov. 5, takes image input, was trained natively in NVFP4, and is available on its Tinker service with closed weights for now. Its benchmark figures are company-reported, and it says the Apa…",
-      "urls": [
-        "https://thinkingmachines.ai/news/inkling-2-small/"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "headline": "Mark Cuban says Facebook knowingly runs AI deepfake scam ads; he cites Reuters-reported documents projecting $16B from scam ads",
-      "summary": "Moneywise reports Cuban's August Pivot remarks about deepfake ads using his likeness, and recaps Reuters' 2025 report on Meta documents that projected about 10% of 2024 revenue, roughly $16 billion, from scam and prohibited-product ads. Me…",
-      "urls": [
-        "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "headline": "Linum releases Pyramid-JiT, a 2B-parameter text-to-image model trained for about $21,000, with Apache 2.0 weights",
-      "summary": "Linum says the pixel-space diffusion transformer used 8,415 H100-hours at $2.50 per hour, about $21,038. It says the model converges in 11 times fewer samples than its earlier v2, cannot render text, and is weak on full-body figures and mu…",
-      "urls": [
-        "https://www.linum.ai/field-notes/pjit-21k"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "headline": "Dutch bank ASN's Wero payments reportedly fail on GrapheneOS, with users pointing to Play Integrity checks",
-      "summary": "A community compatibility report says that since app version 1.36.3, ASN runs Google Play Integrity checks when activating iDEAL | Wero and rejects devices that fail the stricter profile. ASN's replies say alternative systems bypass OS sec…",
-      "urls": [
-        "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "headline": "A GitHub issue says Claude Code put users' email addresses in the User-Agent header; Anthropic points to a default-on privacy mod",
-      "summary": "The reporter says Claude Code (v2.1.318, macOS) sent the account email to third-party sites in web requests and that scam email followed. A maintainer says v2.1.317 and later include a default-on mod that blocks it; commenters ask why it w…",
-      "urls": [
-        "https://github.com/anthropics/claude-code/issues/107757"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "headline": "'*sshole': on musl-based Linux, a 257-to-1024-character password can log in to accounts that should never accept one, a write-up says",
-      "summary": "A write-up by Ozgun Kultekin says that on musl systems such as Alpine and OpenWrt, running sshd without PAM, musl's crypt() returns '*' on failure, and overlong passwords fail, so they match accounts whose password field is '*'. It lists g…",
-      "urls": [
-        "https://sshhole.com"
       ]
     }
   ]
