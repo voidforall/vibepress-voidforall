@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-22",
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T15:03:20Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A security-flavored day: a mathematical proof gaining institutional backing, two trust failures in the plumbing that AI and web apps run on, and two self-reported or modeled results worth reading with their caveats attached.",
+  "stories": [
+    {
+      "headline": "Lean and Mathlib communities certify the claimed Riemann Hypothesis proof: about 17 million lines, statement matched to Mathlib",
+      "summary": "The Lean FRO and Mathlib Initiative say they have 'full confidence' in Levent Alpöge's Lean library, released Nov. 20. Two comparison tools confirmed the proved theorem matches Mathlib's RiemannHypothesis, and dozens of people reported it compiles.",
+      "whyItMatters": "This is the update to yesterday's claim: the statement check and independent kernel and third-party checker runs are now reported, though the page itself notes no outside peer review.",
+      "category": "Ideas",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Lean verification of the Riemann Hypothesis",
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+        }
+      ]
+    },
+    {
+      "headline": "OpenRouter off-boards three inference providers and pulls 125 endpoints from zero-data-retention status",
+      "summary": "After Dragos researchers reported compromised data or unmet data policies at some inference providers, OpenRouter says its own systems were not breached. It notified affected customers and requires assurances before restoring ZDR eligibility.",
+      "whyItMatters": "Zero-data-retention labels on routed model endpoints were not holding at some providers, and 125 endpoints no longer qualify.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Data Processing Incidents on Inference Providers (OpenRouter)",
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+        }
+      ]
+    },
+    {
+      "headline": "Ghostscript flaw 'Upload2Shell' (CVE-2026-125396) lets a crafted document escape the -dSAFER sandbox",
+      "summary": "A use-after-free in Ghostscript's Type 1 font loader lets a crafted file run commands in apps that render uploads, with confirmed cases including Debian 13 CUPS, Roundcube, MediaWiki and WordPress Core. Ghostscript 10.08.0 fixed it on Sept. 8; Google mitigated its pipeline Nov. 10.",
+      "whyItMatters": "Any service that thumbnails or previews uploaded documents via an unpatched Ghostscript is exposed; fixed packages have shipped for Debian, Ubuntu and WordPress.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Upload2Shell (CVE-2026-125396)",
+          "url": "https://pwn.ai/upload2shell"
+        }
+      ]
+    },
+    {
+      "headline": "A watchdog report estimates 87% of Anthropic's 2028 contracted power will come from gas and 11% from coal",
+      "summary": "The Better Data Center Project estimates 17–38 million tonnes of CO2e a year in 2028 on about 9.6 GW of site-linked capacity, with Anthropic buying 1.7 GW of gas generators for $3.4 billion. The figures rest on stated assumptions, such as PUE and utilization.",
+      "whyItMatters": "It is a modeled estimate, not a disclosure, but it puts a number on the fossil footprint behind frontier-model compute.",
+      "category": "Business",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "How AI is powered: a breakdown of BYOP and grid power",
+          "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/"
+        }
+      ]
+    },
+    {
+      "headline": "Authors say a general-purpose LLM can read, patch and write executables from raw hex dumps",
+      "summary": "Using GPT-6.1 Sol with no tools, the authors report correct descriptions of four programs, working patches and three from-scratch ELF64 binaries, and a malware sample's server address matching a public sandbox report. Results are small-scale, single-run and self-reported; the largest binary tested was 67 KB.",
+      "whyItMatters": "If it holds up, byte-level analysis no longer needs a disassembler step, though context length caps it at small programs for now.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "LLMs can read and write executables byte by byte from a hex dump",
+          "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/"
+        }
+      ]
+    }
+  ]
+}

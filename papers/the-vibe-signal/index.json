@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-11-22",
+      "date": "2026-11-22",
+      "headline": "Lean and Mathlib communities certify the claimed Riemann Hypothesis proof: about 17 million lines, statement matched to Mathlib",
+      "storyCount": 5
+    },
+    {
       "id": "2026-11-21",
       "date": "2026-11-21",
       "headline": "Levent Alpöge claims Anthropic models proved the Generalized Riemann Hypothesis, with 17.4 million lines of Lean",

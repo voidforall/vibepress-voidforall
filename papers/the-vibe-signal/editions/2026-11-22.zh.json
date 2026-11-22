@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-22",
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T15:03:20Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "安全色彩浓厚的一天:一项数学证明获得机构背书,AI与网络应用所依赖的底层出现两起信任问题,另有两项自报或模型估算的结果,需连同其前提一并阅读。",
+  "stories": [
+    {
+      "headline": "Lean 与 Mathlib 社区确认所称黎曼猜想证明:约1700万行代码,命题与 Mathlib 一致",
+      "summary": "Lean FRO 与 Mathlib Initiative 表示对 Levent Alpöge 于11月20日发布的 Lean 库“完全有信心”。两个比对工具确认所证定理与 Mathlib 的 RiemannHypothesis 一致,数十人报告其可顺利编译。",
+      "whyItMatters": "这是对昨日说法的后续:命题核对以及内核和第三方检查器的独立验证已有报告,但该页面本身指出尚无外部同行评审。",
+      "category": "思想",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Lean verification of the Riemann Hypothesis",
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+        }
+      ]
+    },
+    {
+      "headline": "OpenRouter下架三家推理服务商,并取消125个端点的零数据留存资格",
+      "summary": "Dragos研究人员报告部分推理服务商数据被泄露或未遵守数据政策后,OpenRouter称其自身系统未遭入侵。该公司已通知受影响客户,并要求提供保证后才会恢复ZDR资格。",
+      "whyItMatters": "部分服务商的零数据留存标识并未兑现,125个端点已不再符合资格。",
+      "category": "技术",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Data Processing Incidents on Inference Providers (OpenRouter)",
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+        }
+      ]
+    },
+    {
+      "headline": "Ghostscript漏洞“Upload2Shell”(CVE-2026-125396)可让特制文档逃出-dSAFER沙箱",
+      "summary": "Ghostscript 的 Type 1 字体加载器存在释放后使用漏洞,特制文件可在渲染上传文件的应用中执行命令,已确认的案例包括 Debian 13 CUPS、Roundcube、MediaWiki 和 WordPress Core。Ghostscript 10.08.0 已于9月8日修复;Google 于11月10日缓解了其处理流程。",
+      "whyItMatters": "任何通过未打补丁的 Ghostscript 生成缩略图或预览上传文档的服务都存在风险;Debian、Ubuntu 和 WordPress 已发布修复。",
+      "category": "技术",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Upload2Shell (CVE-2026-125396)",
+          "url": "https://pwn.ai/upload2shell"
+        }
+      ]
+    },
+    {
+      "headline": "一份监督机构报告估计,Anthropic 2028年合约电力中87%来自天然气、11%来自煤炭",
+      "summary": "Better Data Center Project 估计,按约9.6吉瓦与具体站点挂钩的容量计算,2028年每年排放1700万至3800万吨二氧化碳当量,其中Anthropic以34亿美元购买1.7吉瓦燃气发电机。这些数字依赖PUE和利用率等所述假设。",
+      "whyItMatters": "这是模型估算而非披露数据,但它为前沿模型算力背后的化石能源足迹给出了量化数字。",
+      "category": "商业",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "How AI is powered: a breakdown of BYOP and grid power",
+          "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/"
+        }
+      ]
+    },
+    {
+      "headline": "作者称通用大模型可直接从原始十六进制转储中读取、修补并编写可执行文件",
+      "summary": "作者使用不带工具的 GPT-6.1 Sol,报告称其正确描述了四个程序、完成了可用补丁并从零写出三个 ELF64 程序,恶意样本的服务器地址也与公开沙箱报告一致。结果规模小、仅单次运行且为自报;所测最大二进制文件为67 KB。",
+      "whyItMatters": "若结论成立,字节级分析将不再需要反汇编步骤,不过目前上下文长度将其限制在小型程序。",
+      "category": "思想",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "LLMs can read and write executables byte by byte from a hex dump",
+          "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/"
+        }
+      ]
+    }
+  ]
+}

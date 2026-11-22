@@ -8,7 +8,7 @@ _Self-publishing dailies, made with vibepress_
 
 | Paper | Covers | Cadence | Latest edition |
 | --- | --- | --- | --- |
-| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “Levent Alpöge claims Anthropic models proved the Generalized Riemann…” · 2026-11-21 |
+| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “Lean and Mathlib communities certify the claimed Riemann Hypothesis p…” · 2026-11-22 |
 | 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Bitcoin falls to its lowest in two years, with CoinDesk putting it be…” · 2026-11-21 |
 | 🔬 [Research Radar](https://voidforall.github.io/vibepress-voidforall/#/research-radar) | The week in AI research, distilled | Weekly (Mon) | “WeightBench tests whether LLMs can read, fix and write network weight…” · 2026-11-16 |
 | 🪐 [The Cosmic Dispatch](https://voidforall.github.io/vibepress-voidforall/#/cosmic-dispatch) | Space, astronomy, and the odd asteroid | Weekly (Thu) | “Starship Flight 15: the ship is caught from orbit for the first time,…” · 2026-11-19 |
