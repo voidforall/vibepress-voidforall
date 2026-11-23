@@ -1,7 +1,55 @@
 {
   "windowDays": 21,
-  "updatedAt": "2026-11-16T16:46:08Z",
+  "updatedAt": "2026-11-23T18:59:30Z",
   "events": [
+    {
+      "date": "2026-11-23",
+      "headline": "Tasklets offers small synthetic tasks for comparing sequence-mixing layers on recall, manipulation and state tracking",
+      "summary": "The authors argue differing task choices make cross-study comparisons hard, so they group tasks by capability and provide a shared setup. They compare many layer types with small models and release code.",
+      "urls": [
+        "https://arxiv.org/abs/2611.27607"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "Sparse-autoencoder audit of unlearning in a diffusion language model finds the tracked dynamics don't reliably improve the trade-off",
+      "summary": "On LLaDA-8B-Instruct with WMDP as the forget domain, top-k SAEs and denoising-state replay show substantial shifts in forget-associated features across denoising stages.",
+      "urls": [
+        "https://arxiv.org/abs/2611.27652"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "Model Carving learns a Transformer's weights and topology together with sublayer gates, beating dense models trained with up to 1.7× more compute",
+      "summary": "Learnable scalar gates on each sublayer let the loss switch off components, leaving a smaller network. Across standard Transformers (140M–2.7B) and looped ones (140M–1.3B), carved models reach lower validation loss than dense baselines.",
+      "urls": [
+        "https://arxiv.org/abs/2611.27962"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "DICE shares pre-sampled verification randomness between drafting and verification in speculative decoding",
+      "summary": "It uses the known draws with an existing drafter's predictions to focus compute on continuations likely to be used, and applies the idea to asynchronous draft prefetching. It needs no extra drafter training or change to the target's sampli…",
+      "urls": [
+        "https://arxiv.org/abs/2611.27891"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "Computation that only appears when layers act together strengthens during pretraining, a decomposition finds",
+      "summary": "An exact inclusion-exclusion decomposition isolates the 'connected component' across layers. Tracking public Pythia, OLMo and Amber checkpoints, the authors find write-relative connected coordination strengthens in pretraining.",
+      "urls": [
+        "https://arxiv.org/abs/2611.27911"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "A deterministic learner attains optimal agnostic PAC sample complexity for partial concept classes",
+      "summary": "For finite VC dimension d, it needs O((d + log(1/δ))/ε²) examples and outputs a total classifier within ε of the best in the class, with probability at least 1 − δ.",
+      "urls": [
+        "https://arxiv.org/abs/2611.27946"
+      ]
+    },
     {
       "date": "2026-11-16",
       "headline": "WeightBench tests whether LLMs can read, fix and write network weights directly",
@@ -144,54 +192,6 @@
       "summary": "Shuffling reasoning steps without changing their content gives a causal-reliance reward; with Gemma-3-4B on Reasoning Gym it reaches 46.8% on five unseen datasets versus 43.8% for the best baseline, and 34.0% hint acknowledgment versus 20.…",
       "urls": [
         "https://arxiv.org/abs/2610.42054v1"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "headline": "TopKLoRA's sparse adapters make backdoor circuits small enough to find and ablate",
-      "summary": "TopKLoRA activates only the k largest adapter latents per token and is trained on downstream loss alone. On a sleeper-agent backdoor in gemma-2-2b, Qwen2.5-1.5B and Qwen2.5-7B, the authors find necessary-and-sufficient circuits up to an or…",
-      "urls": [
-        "https://arxiv.org/abs/2610.32866v1"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "headline": "On-policy self-training improves LLMs using only coarse topic descriptions",
-      "summary": "The paper recasts on-policy self-distillation as self-training: guided only by high-level topic descriptions, the model generates its own queries and privileged reasoning traces and trains on them. The authors report gains across multiple…",
-      "urls": [
-        "https://arxiv.org/abs/2610.32770v1"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "headline": "NgramRL speeds up RL rollouts with per-prompt n-gram speculative decoding",
-      "summary": "Rollout generation can take over 70% of RL post-training time. NgramRL builds a drafter from recent rollouts for the same prompt, with no auxiliary model, and reports 3.60 to 7.77 tokens committed per target-model forward in the warm-cache…",
-      "urls": [
-        "https://arxiv.org/abs/2610.32881v1"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "headline": "LLM vulnerability auditors defer more to false assurances than to false alarms",
-      "summary": "Across 916 function pairs from PrimeVul, eleven model configurations and 16,572 audits, true static-analysis evidence improved accuracy by only about 0.02, while fabricated assurances that a check exists cut detection of real vulnerabiliti…",
-      "urls": [
-        "https://arxiv.org/abs/2610.32876v1"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "headline": "First fully polynomial-time algorithm for learning positive sums of ReLUs under Gaussian inputs",
-      "summary": "For PAC learning of positive linear combinations of k arbitrary ReLUs on R^d under Gaussian inputs and L2 loss, the authors give an algorithm using poly(d, k, 1/ε) samples and time, which they describe as the first fully polynomial one. Ea…",
-      "urls": [
-        "https://arxiv.org/abs/2610.32940v1"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "headline": "Aligning where BF16 rounding happens keeps LLM reinforcement learning from collapsing",
-      "summary": "Ke, Cai and Wang keep selected intermediate values in FP32 on the training side so rounding to BF16 happens at the same points as in inference, in RoPE, SwiGLU and residual RMSNorm. On four Qwen-family models, aligning all three regions pr…",
-      "urls": [
-        "https://arxiv.org/abs/2610.32951v1"
       ]
     }
   ]

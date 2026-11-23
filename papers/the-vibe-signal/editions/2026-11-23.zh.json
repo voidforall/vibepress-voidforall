@@ -1,0 +1,91 @@
+{
+  "id": "2026-11-23",
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T18:59:30Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "相对平静的周一:英伟达最高职位再度易手,OpenAI提出衡量AI的新标尺,另有三个小型项目各自事先说明了局限。",
+  "stories": [
+    {
+      "headline": "英伟达董事会恢复黄仁勋的首席执行官职务,即刻生效",
+      "summary": "英伟达宣布董事会已恢复黄仁勋的总裁兼首席执行官职务,他同时重新进入董事会。其辞职消息曾于11月12日报道。",
+      "whyItMatters": "在他辞职十一天后,英伟达的最高职位重新由创始人担任。",
+      "category": "商业",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Jensen Huang Reinstated as Nvidia CEO (NVIDIA Newsroom)",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huan"
+        },
+        {
+          "title": "Nvidia Reinstates Jensen Huang as CEO (CNBC)",
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
+        }
+      ]
+    },
+    {
+      "headline": "OpenAI首席科学家提议以困惑度作为衡量AI进展的共同标尺",
+      "summary": "文章认为现代AI能力在很大程度上源于训练预测式“压缩器”,因此留出数据上的困惑度是有用的进展指标,并提议围绕它建立共同的限制与透明度标准。文章也承认其缺陷,包括难以比较不同实验室,且不计入思维链等技术带来的提升。",
+      "whyItMatters": "这只是一项提议而非标准:需要各实验室采纳,作者也列出了它自身的不足。",
+      "category": "思想",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Perplexity and Intelligence (OpenAI)",
+          "url": "https://openai.com/index/perplexity-and-intelligence/"
+        }
+      ]
+    },
+    {
+      "headline": "从零构建的浏览器引擎Ladybird进入alpha阶段,支持macOS和Linux",
+      "summary": "项目方表示部分网站无法使用、浏览器可能崩溃,且目前不作任何安全承诺。它采用滚动更新通道,支持WebDriver和Firefox DevTools协议。",
+      "whyItMatters": "任何人现在都可以下载一个独立的浏览器引擎,项目方也事先说明了其局限。",
+      "category": "技术",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Ladybird is now in alpha",
+          "url": "https://ladybird.org/posts/alpha/"
+        }
+      ]
+    },
+    {
+      "headline": "xnulinux将苹果XNU内核作为模块加载进Linux,使macOS与Linux进程共用CPU",
+      "summary": "README称,在Apple Silicon的Linux虚拟机中,托管的macOS 27.2.1可进入桌面并通过30分钟压力测试;在裸机NVIDIA DGX Spark上也能进入桌面,但仅用CPU渲染。它仍依赖打过补丁的AMFI和放宽的SIP。",
+      "whyItMatters": "这是附带已声明权宜措施的可运行演示,而非成熟的兼容层。",
+      "category": "技术",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "xnulinux (GitHub)",
+          "url": "https://github.com/AFK-surf/xnulinux"
+        }
+      ]
+    },
+    {
+      "headline": "Elixir HLS 0.1.0可将Elixir函数转换为FPGA电路",
+      "summary": "用defhls标注的函数会被编译为SystemVerilog,并与Elixir原版比对验证。首个版本支持带状态的整数函数、表、存储器、固定循环和流连接实例,首个目标为Sipeed Tang Primer 25K,尚不支持除法、浮点和递归。",
+      "whyItMatters": "这是功能范围较窄的早期版本,但每个电路都会与其软件版本比对。",
+      "category": "技术",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Elixir HLS (GitHub)",
+          "url": "https://github.com/elixir-hls/elixir-hls"
+        }
+      ]
+    },
+    {
+      "headline": "博主记录Nespresso“Olympus项目”缩减Vertuo胶囊咖啡粉量",
+      "summary": "第一波涉及2026年第一至第三季度的6个SKU,第二波涉及另外8个,时间未公布。作者称截至11月12日,除OL Lungos和Alto XL等大杯咖啡外,几乎整个系列都已减量;Nespresso称口味、杯量和咖啡因含量不变。",
+      "whyItMatters": "这是单个作者的追踪记录,口味不变的说法来自公司自身。",
+      "category": "商业",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Nespresso's project to reduce grams of coffee per capsule",
+          "url": "https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus/"
+        }
+      ]
+    }
+  ]
+}

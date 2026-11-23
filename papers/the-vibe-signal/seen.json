@@ -1,7 +1,56 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-22T15:03:20Z",
+  "updatedAt": "2026-11-23T18:59:31Z",
   "events": [
+    {
+      "date": "2026-11-23",
+      "headline": "xnulinux loads Apple's XNU kernel as a module into Linux so macOS and Linux processes share the CPUs",
+      "summary": "The README reports hosted macOS 27.2.1 reaching the desktop in an Apple Silicon Linux VM and passing a 30-minute stress run, and reaching the desktop on a bare-metal NVIDIA DGX Spark with CPU-only rendering. It still relies on a patched AM…",
+      "urls": [
+        "https://github.com/AFK-surf/xnulinux"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "OpenAI's chief scientist proposes perplexity as a shared yardstick for AI progress",
+      "summary": "The post argues that modern AI capabilities largely emerge from training a predictive compressor, so held-out perplexity is a useful progress measure, and proposes common limits and transparency standards tied to it. It concedes drawbacks,…",
+      "urls": [
+        "https://openai.com/index/perplexity-and-intelligence/"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "Nvidia's board reinstates Jensen Huang as CEO, effective immediately",
+      "summary": "Nvidia announced that its board has reinstated Jensen Huang as President and CEO, and he returns to the board as well. His resignation was reported here on Nov. 12.",
+      "urls": [
+        "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huan",
+        "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "Ladybird, the from-scratch browser engine, enters alpha for macOS and Linux",
+      "summary": "The project says some sites won't work and the browser may crash, and it makes no security promises yet. It uses a rolling update channel and supports WebDriver and the Firefox DevTools protocol.",
+      "urls": [
+        "https://ladybird.org/posts/alpha/"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "Elixir HLS 0.1.0 turns functions written in Elixir into FPGA circuits",
+      "summary": "Functions marked with defhls are compiled to SystemVerilog and checked against the Elixir original. This first release supports integer functions with state, tables, memories, fixed loops and stream-connected instances, targets the Sipeed…",
+      "urls": [
+        "https://github.com/elixir-hls/elixir-hls"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "A blogger documents Nespresso's 'Project Olympus' cutting coffee per Vertuo capsule",
+      "summary": "Wave 1 covered 6 SKUs between Q1 and Q3 2026 and Wave 2 covers 8 more, timing unannounced. As of Nov. 12 the author reports nearly the whole range reduced except OL Lungos and large coffees such as Alto XL; Nespresso says taste, cup volume…",
+      "urls": [
+        "https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus/"
+      ]
+    },
     {
       "date": "2026-11-22",
       "headline": "OpenRouter off-boards three inference providers and pulls 125 endpoints from zero-data-retention status",
@@ -580,54 +629,6 @@
       "summary": "The authors propose specifying, for each draggable element, which future application states dragging should lead to; an engine speculatively renders those states and synthesizes a smooth drag interaction. Dragology is the accompanying libr…",
       "urls": [
         "https://declarative-dragging.github.io/"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "headline": "Researchers find two undocumented family-inference classifiers in macOS 26",
-      "summary": "A write-up reports two CoreML XGBoost models, each taking 144 features drawn from identity, communication and photo data, that score how likely a contact is family. Results go to a separate table recomputed daily; the authors say Apple doe…",
-      "urls": [
-        "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "headline": "Microsoft Research's AI Frontiers group ends after reorganization into Microsoft AI",
-      "summary": "Its leader writes that the roughly 50-person group, formed in 2023 and behind tools such as Autogen and Fara, was folded into Microsoft AI in early September and has now ended. He says research had no realistic path to product use there, o…",
-      "urls": [
-        "https://hunch.net/?p=13764006"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "headline": "MaxxBench: lightly modified DeepSWE tasks widen the gap between models that score alike",
-      "summary": "MaxxBench tweaks 89 DeepSWE tasks with small requirement or code changes. Six configurations that sit within 1.5 points near 74% on DeepSWE spread out by 23.0 points, and DeepSeek V4.1 Flash and Gemini 3.8 Flash drop 18.6 to 20.5 points. T…",
-      "urls": [
-        "https://maxxbench.unlap.ai/research/why-maxxbench/"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "headline": "GitHub opens an opt-in preview of a redesigned pull request Overview page",
-      "summary": "The page puts a compact merge-readiness summary of checks, comments and approvals at the top, adds filters for unresolved threads and your own comments, and lets users switch back to the classic view.",
-      "urls": [
-        "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "headline": "Discord shows a Rust Windows client meant to replace its Electron app",
-      "summary": "Discord says the new client, built on the GPUI framework, loaded the friends list before the Electron app left its loading screen in a demo clip, and used 290.2MB with two accounts in an early build. Private testing is 'coming soon' with n…",
-      "urls": [
-        "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why/"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "headline": "A developer's account of leaving Claude Code for Pi: instability and prompt churn",
-      "summary": "The author lists a VS Code integration limited to one session, 244 releases this year of which over three-quarters changed the system prompt or tool descriptions, and a Bash tool description near 3,000 tokens. They moved to the minimalist…",
-      "urls": [
-        "https://caleb.software/posts/claude-to-pi.html"
       ]
     }
   ]

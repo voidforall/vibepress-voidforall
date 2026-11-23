@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-23",
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T18:59:30Z",
+  "editionTitle": "Research Radar",
+  "editorNote": "This week's papers share a theme of looking inside the machinery: gates that carve a network, layers whose joint computation grows in pretraining, and audits that find unlearning harder to read than hoped. All claims come from abstracts.",
+  "stories": [
+    {
+      "headline": "Model Carving learns a Transformer's weights and topology together with sublayer gates, beating dense models trained with up to 1.7× more compute",
+      "summary": "Learnable scalar gates on each sublayer let the loss switch off components, leaving a smaller network. Across standard Transformers (140M–2.7B) and looped ones (140M–1.3B), carved models reach lower validation loss than dense baselines.",
+      "whyItMatters": "The authors also report up to 34% fewer FLOPs per token and up to 1.6× faster decoding versus size-matched pruned or distilled models, without quality loss.",
+      "category": "Methods",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
+          "url": "https://arxiv.org/abs/2611.27962"
+        }
+      ]
+    },
+    {
+      "headline": "DICE shares pre-sampled verification randomness between drafting and verification in speculative decoding",
+      "summary": "It uses the known draws with an existing drafter's predictions to focus compute on continuations likely to be used, and applies the idea to asynchronous draft prefetching. It needs no extra drafter training or change to the target's sampling distribution.",
+      "whyItMatters": "The authors report top-tier throughput with gains of up to 24.6pp over strong baselines.",
+      "category": "Systems",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Speculative Decoding Is Less Speculative Than You Think",
+          "url": "https://arxiv.org/abs/2611.27891"
+        }
+      ]
+    },
+    {
+      "headline": "Computation that only appears when layers act together strengthens during pretraining, a decomposition finds",
+      "summary": "An exact inclusion-exclusion decomposition isolates the 'connected component' across layers. Tracking public Pythia, OLMo and Amber checkpoints, the authors find write-relative connected coordination strengthens in pretraining.",
+      "whyItMatters": "Deleting these components hurts perplexity more than a norm-matched random direction, in all 35 measured model-order cells.",
+      "category": "Theory",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Functional Depth Is Learned: Isolating the Computation That Layers Produce Only Together",
+          "url": "https://arxiv.org/abs/2611.27911"
+        }
+      ]
+    },
+    {
+      "headline": "A deterministic learner attains optimal agnostic PAC sample complexity for partial concept classes",
+      "summary": "For finite VC dimension d, it needs O((d + log(1/δ))/ε²) examples and outputs a total classifier within ε of the best in the class, with probability at least 1 − δ.",
+      "whyItMatters": "The author says this matches the lower bound of Alon et al. (FOCS 2021), so it is optimal.",
+      "category": "Theory",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "The Optimal Sample Complexity of Agnostic PAC Learning for Partial Concept Classes",
+          "url": "https://arxiv.org/abs/2611.27946"
+        }
+      ]
+    },
+    {
+      "headline": "Tasklets offers small synthetic tasks for comparing sequence-mixing layers on recall, manipulation and state tracking",
+      "summary": "The authors argue differing task choices make cross-study comparisons hard, so they group tasks by capability and provide a shared setup. They compare many layer types with small models and release code.",
+      "whyItMatters": "The abstract reports no specific numerical results; the contribution is a reproducible, low-cost testbed.",
+      "category": "Benchmarks",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Tasklets: A Unit-Test Benchmark for Language Model Architectures",
+          "url": "https://arxiv.org/abs/2611.27607"
+        }
+      ]
+    },
+    {
+      "headline": "Sparse-autoencoder audit of unlearning in a diffusion language model finds the tracked dynamics don't reliably improve the trade-off",
+      "summary": "On LLaDA-8B-Instruct with WMDP as the forget domain, top-k SAEs and denoising-state replay show substantial shifts in forget-associated features across denoising stages.",
+      "whyItMatters": "Still, the authors report that tracking them did not reliably improve the forget-retain trade-off at the operating points tested.",
+      "category": "Methods",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Auditing Post-Training Unlearning in Diffusion Language Models using Sparse Autoencoders",
+          "url": "https://arxiv.org/abs/2611.27652"
+        }
+      ]
+    }
+  ]
+}

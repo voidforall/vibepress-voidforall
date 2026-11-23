@@ -1,0 +1,98 @@
+{
+  "id": "2026-11-23",
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T18:59:30Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "自上周下跌后,自选列表周一整体反弹:Rocket Lab、黄金、比特币、阿里巴巴和Alphabet在标题中均上涨。Google News页面无法打开,因此这些条目仅依据标题。",
+  "stories": [
+    {
+      "headline": "Rocket Lab在创纪录最差一周后反弹11%,首席财务官称Electron有提价空间;AST SpaceMobile上涨14%",
+      "summary": "周一的报道标题称,Rocket Lab股价在其有史以来最差一周后上涨约11%,首席财务官认为Electron需求“非常强劲”,并有提高Electron价格的空间。",
+      "whyItMatters": "这是连日大跌后的反弹;标题之外的细节未经独立核实。",
+      "category": "公司",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Rocket Lab Rallies 11% After Its Worst Week Ever as CFO Eyes Higher Electron Prices; AST SpaceMobile Jumps 14%, SpaceX Surges 9% - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSUUxOVJIRzM1dnYtSm5zc2F4eFhpdUhCVFRaaURsbEdtVUhyQ0YwMkxGMEIwTkNMN0p5Vl82LXp2ZEhyWjhueFlzZHg3ZlBDWW1kMEtrYWhhYVFsNW5uSVFIMmp6VEJjeDcxQkRrd0s2Y0JiWTFnSEtaeGZ3aXZaTUx0ajFzeVA0Smo4NkFWVThTLUZfZUtV?oc=5"
+        },
+        {
+          "title": "RKLB Stock Soars Pre-Market: Rocket Lab CFO Sees ‘Very Strong’ Electron Demand Ahead - Rocket Lab (NASDAQ - Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMjVxT0dZMDFJNGxaclJjX0pIMVNKOG1jR3B5UDlIZzllZnhZLUd0cmFjSzJMVU5VRFlsbnpQWlJqM0NaeHRjRWNCRzhYaG9xVGN2X2EtT1F0S0xDbDh3Vm4yc1Nxc2N3N1JzOTEtX1JpUUpJWFNIMXNPNGxCV2NUV2xnUE5GVjRmT2d2M3BXSl83bEhCMGxoOFdFZ1EyMTFBUWdWMVdESEtiQkhPdnBmWHYwWjl0Y0s2NEZNaHJ3?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "黄金11月23日反弹2.43%,在一周大跌后收复3600美元",
+      "summary": "《今日美国》称黄金11月23日上涨2.43%;Kitco称在AI抛售重塑美联储前景之际金价升至3600美元上方;Mining.com称在一周大幅下跌后抄底资金入场。",
+      "whyItMatters": "此前StoneX指出黄金经历了3月以来最差的一周;本条报道的是价格波动,而非预测。",
+      "category": "大宗商品",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Gold Price Today: Gold Rises 2.43% on November 23, 2026 - USA Today",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQmsxSVE4YjNIOTdVYk5xOEVnb2VLQVBRQVprQ2ZLdl9Kenk2V0JjLWhlZ3pOcW1Ua3lxUy1RODlQMkhEZTFmSTRKelQ3TklqSTZYamhUekNGWmJCRndGMjc0bnFTZ0pxMjdnQ1U0V2RoNFRrNkpwY2dCY25MeWdwMktOZjNMZ3dwNlgyT3d2d3FwU2FpUVBvMm9fUWdva2lRcHFz?oc=5"
+        },
+        {
+          "title": "Gold price rallies above $3,600 as AI selloff reshapes Fed outlook - Kitco AM Report - Kitco",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPenF6LTV0TWdncXg5WDBQNS1Dc2lSVEUwNmpsRzR0UGg4a0VOM21NN2hTNnN1Mk1fZDhmcWs1WU41UW9qcUFieEJnemYyRTdhZy1hakhLbHRXemltSTFVTnBFaEhLdDR5LTYyeElnTjBKdEVNeUFXRnFEQlh5bWllNU1vOEw3eHlaRXZBZzV1WlNXUWd6R3BHdmlTajdyZUJueU5vNTlCUmhvclZtLVRlamJyel9USGM?oc=5"
+        },
+        {
+          "title": "Gold price rises as bargain hunters step in after steep weekly drop - Mining.com",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS3dFaXI2cXRwSWZwSHdFd3YyS211UW96RzE5LUF2enZRODktbjZpRTJlUC13MlBFNFhfNm5jV2NtdGZyYmZFcTVDM2JqenZJOVpjMVlzV2pRamowc0VfWW83bnFhX3BHck5SWXlPMlJLNlBXQ29zZzZjZHpwbnp4bm1WQzlXODFkblA4NHRKbG5HSEw3clZfMWdhRQ?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "比特币反弹至63000美元上方、加密概念股走高,彭博指出ETF资金外流加剧",
+      "summary": "《巴伦周刊》称比特币升破63000美元,Strategy和加密概念股上涨;CoinDesk称比特币落后于英伟达带动的AI反弹;彭博的标题称比特币ETF资金外流加速,削弱了一项重要支撑。",
+      "whyItMatters": "相对近期两年低点,这次反弹幅度有限,标题中的ETF外流是与之相反的资金流向。",
+      "category": "加密货币",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Strategy and Crypto Stocks Rally as Bitcoin Rebounds Past $63,000. Is the Jump Temporary? - Barron's",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdWVqNlRmN1FUTzZRWUo3ak12dkRfQzJMeWpiY2tyTXhUajJ6dmtkdHJmc2UtR2pOMC1lc2V1N0R4OVpGWE94cFBVbFE5Z0NlOXBWOENpNHpFWWw1RVJhU0xVd01QQTVkbjdfLXR2aVozcDA3eU42RTlXLV80U3pfZ3VkdnVPa09IdENrM2o5V3NKUQ?oc=5"
+        },
+        {
+          "title": "Nvidia (NVDA) comeback sparks AI trade rebound, but bitcoin (BTC) price struggles to keep up - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNXzBzenEzLTFvSE9LVGZHckdMVDZ0am54clI3R3V2dFlSNVVnOFIwbnJ0WFd3NkJvOGxmR1FNRkVlNTRVZ05pMDIydXhPX1AyNjFnTWZIVk9OUEoxNlpxV0dueGFpUnM5VTM2ZVFLT1JNRE1mZkpZd3hBbC1TY1lwcnd5LW5EYV9hZlFsZW50bFVVYlVpNEJ2Yy1VM1QwWHZQeVRwTHJlX2J4QzBrQTlCb1Rn?oc=5"
+        },
+        {
+          "title": "Bitcoin ETF Exodus Gathers Pace, Removing Key Source of Support - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbFRHSHp2V2lIcEtIMlBTNVVIM0JyVzNCZmMyV21NdzNVZlBOU3lRRm10TXVEeHZJZ1VzZHdPYlRQTWhwUkZBRTFObmlURmlFT2lFREJxXzVkZE1SWjZjMmpmWUtyRXdqOWs2ZWRBeUJJdkRKcU1UQnQwd3RxY1RKSXd2TDdvN0lJdzB5LUlndFVOSzNlRzgtTDN2cm1ObE96eU5GMXJrOXA0dGhheEI0VVdUZw?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Investing.com发问:阿里巴巴ADR周一为何大涨",
+      "summary": "该标题报道阿里巴巴美股上市股票11月23日大涨;除标题外,原因未经核实。",
+      "whyItMatters": "此前几天阿里巴巴曾遭遇目标价下调和集体诉讼。",
+      "category": "公司",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Why is Alibaba ADR stock surging today? - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeDZMeHpPY0ExdHM1ZjZDOFpmajItazdvZ3VnZnZXMnBDbHdqbGdYNEdweWp2Zlg4bGoxZkhNS3dScXhvYUUxNGZYS2doZnN1S2l6U2VDUnp5YXFoZGZlelY0aEs4VW5iakNHUFRCUy10SW9xNG83ZDdic0w5c3dQQXg4c1g0MThIZDlLZTVnVkRQdVBfcUxENDhWTng4Mk9wRFE?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "TradingView与Investing.com:Alphabet股价周一走高",
+      "summary": "两家媒体的标题均称Alphabet股价11月23日上涨;标题之外的驱动因素未经核实。",
+      "whyItMatters": "此前Alphabet在Anthropic上市首日(11月19日)收跌3.46%。",
+      "category": "市场",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Why Alphabet stock is trading up today - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcFptQ3RmT1VCa1htc21fY09VX3pyeU9YT0NXeU1UX3JxUFlTMFc1TG1nd3RCVlhPRUdMeTNGNUJTaDVCb2VSb3haQ2lycUFtdUllVmtUVW5rUXhBRmdNMnAzWU9vU2dTYVZZRFdiU0NBYnc3X0J4MlhYTkNIWEw2S0JIWHJKMFk0R0E3WENJWDZhU2lqS0dPX3RsUGh6RDM0?oc=5"
+        },
+        {
+          "title": "Why is Alphabet stock surging today? - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUnFHZklYODFDandiVE9naDVEMjYtc0FDanZOWFNCVmd5WkxwUWdxMnZfRzdISXJ5MlBoWmIzNzJFSkpjZ0FWR0NVT1czaWR5bHhOU3dLamNxX0pmNTlhdExDV1RNWlplQVZiRVREUmVaV0RXWUQ3Wk5yenJSOXFrSU5NMVY4N3VmcTdkZnJhRzdNd1pyaTdyUF8tTUd4QQ?oc=5"
+        }
+      ]
+    }
+  ]
+}

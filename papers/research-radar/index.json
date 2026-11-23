@@ -7,6 +7,12 @@
   "emoji": "🔬",
   "editions": [
     {
+      "id": "2026-11-23",
+      "date": "2026-11-23",
+      "headline": "Model Carving learns a Transformer's weights and topology together with sublayer gates, beating dense models trained with up to 1.7× more compute",
+      "storyCount": 6
+    },
+    {
       "id": "2026-11-16",
       "date": "2026-11-16",
       "headline": "WeightBench tests whether LLMs can read, fix and write network weights directly",

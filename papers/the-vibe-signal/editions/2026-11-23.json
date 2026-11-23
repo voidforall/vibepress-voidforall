@@ -1,0 +1,91 @@
+{
+  "id": "2026-11-23",
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T18:59:30Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "A quiet-ish Monday: Nvidia's top job changes hands again, OpenAI floats a measuring stick for AI, and three small-footprint projects each state their own limits up front.",
+  "stories": [
+    {
+      "headline": "Nvidia's board reinstates Jensen Huang as CEO, effective immediately",
+      "summary": "Nvidia announced that its board has reinstated Jensen Huang as President and CEO, and he returns to the board as well. His resignation was reported here on Nov. 12.",
+      "whyItMatters": "Nvidia is back to its founder at the top, eleven days after he stepped down.",
+      "category": "Business",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Jensen Huang Reinstated as Nvidia CEO (NVIDIA Newsroom)",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huan"
+        },
+        {
+          "title": "Nvidia Reinstates Jensen Huang as CEO (CNBC)",
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
+        }
+      ]
+    },
+    {
+      "headline": "OpenAI's chief scientist proposes perplexity as a shared yardstick for AI progress",
+      "summary": "The post argues that modern AI capabilities largely emerge from training a predictive compressor, so held-out perplexity is a useful progress measure, and proposes common limits and transparency standards tied to it. It concedes drawbacks, including difficulty comparing labs and no credit for gains from techniques like chain-of-thought.",
+      "whyItMatters": "It is a proposal, not a standard: labs would have to adopt it, and the author lists its own weaknesses.",
+      "category": "Ideas",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Perplexity and Intelligence (OpenAI)",
+          "url": "https://openai.com/index/perplexity-and-intelligence/"
+        }
+      ]
+    },
+    {
+      "headline": "Ladybird, the from-scratch browser engine, enters alpha for macOS and Linux",
+      "summary": "The project says some sites won't work and the browser may crash, and it makes no security promises yet. It uses a rolling update channel and supports WebDriver and the Firefox DevTools protocol.",
+      "whyItMatters": "An independent browser engine is now downloadable by anyone, with its own caveats stated up front.",
+      "category": "Technology",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Ladybird is now in alpha",
+          "url": "https://ladybird.org/posts/alpha/"
+        }
+      ]
+    },
+    {
+      "headline": "xnulinux loads Apple's XNU kernel as a module into Linux so macOS and Linux processes share the CPUs",
+      "summary": "The README reports hosted macOS 27.2.1 reaching the desktop in an Apple Silicon Linux VM and passing a 30-minute stress run, and reaching the desktop on a bare-metal NVIDIA DGX Spark with CPU-only rendering. It still relies on a patched AMFI and relaxed SIP.",
+      "whyItMatters": "It is a working demo with stated stopgaps, not a finished compatibility layer.",
+      "category": "Technology",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "xnulinux (GitHub)",
+          "url": "https://github.com/AFK-surf/xnulinux"
+        }
+      ]
+    },
+    {
+      "headline": "Elixir HLS 0.1.0 turns functions written in Elixir into FPGA circuits",
+      "summary": "Functions marked with defhls are compiled to SystemVerilog and checked against the Elixir original. This first release supports integer functions with state, tables, memories, fixed loops and stream-connected instances, targets the Sipeed Tang Primer 25K, and lacks division, floats and recursion.",
+      "whyItMatters": "It is an early release with a narrow feature set, but each circuit is checked against its software twin.",
+      "category": "Technology",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Elixir HLS (GitHub)",
+          "url": "https://github.com/elixir-hls/elixir-hls"
+        }
+      ]
+    },
+    {
+      "headline": "A blogger documents Nespresso's 'Project Olympus' cutting coffee per Vertuo capsule",
+      "summary": "Wave 1 covered 6 SKUs between Q1 and Q3 2026 and Wave 2 covers 8 more, timing unannounced. As of Nov. 12 the author reports nearly the whole range reduced except OL Lungos and large coffees such as Alto XL; Nespresso says taste, cup volume and caffeine are unchanged.",
+      "whyItMatters": "This is one author's tracking, and the company's claim of unchanged taste is its own.",
+      "category": "Business",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Nespresso's project to reduce grams of coffee per capsule",
+          "url": "https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus/"
+        }
+      ]
+    }
+  ]
+}

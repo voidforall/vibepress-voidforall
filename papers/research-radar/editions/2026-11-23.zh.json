@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-23",
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T18:59:30Z",
+  "editionTitle": "Research Radar",
+  "editorNote": "本周的论文有一个共同点:审视模型内部——用门控裁剪网络、层间联合计算在预训练中增强,以及发现遗忘比预期更难解读的审计。所有结论均来自摘要。",
+  "stories": [
+    {
+      "headline": "Model Carving用子层门控同时学习Transformer的权重与拓扑,优于多用至1.7倍算力训练的稠密模型",
+      "summary": "每个子层上的可学习标量门控让损失函数可以关闭部分组件,从而留下更小的网络。在标准Transformer(1.4亿至27亿参数)和循环Transformer(1.4亿至13亿参数)上,裁剪后的模型验证损失低于稠密基线。",
+      "whyItMatters": "作者还报告,与同规模的剪枝或蒸馏模型相比,每token FLOPs最多减少34%,解码最多快1.6倍,且质量不降。",
+      "category": "方法",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
+          "url": "https://arxiv.org/abs/2611.27962"
+        }
+      ]
+    },
+    {
+      "headline": "DICE在推测解码中让起草与验证共享预先采样的随机性",
+      "summary": "它利用已知的随机抽样结果和现有起草模型的预测,把计算集中在更可能被采用的后续上,并将该思路用于异步草稿预取。无需额外训练起草模型,也不改变目标模型的采样分布。",
+      "whyItMatters": "作者报告其吞吐量处于第一梯队,相比强基线最多提升24.6个百分点。",
+      "category": "系统",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Speculative Decoding Is Less Speculative Than You Think",
+          "url": "https://arxiv.org/abs/2611.27891"
+        }
+      ]
+    },
+    {
+      "headline": "分解方法发现:仅在多层协同时才出现的计算在预训练中不断增强",
+      "summary": "一种精确的容斥分解可分离出跨层的“连通分量”。通过追踪公开的Pythia、OLMo和Amber检查点,作者发现相对写入的连通协同在预训练期间增强。",
+      "whyItMatters": "删除这些分量对困惑度的损害大于范数匹配的随机方向,在全部35个测量的模型-阶数单元中均如此。",
+      "category": "理论",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Functional Depth Is Learned: Isolating the Computation That Layers Produce Only Together",
+          "url": "https://arxiv.org/abs/2611.27911"
+        }
+      ]
+    },
+    {
+      "headline": "确定性学习器达到部分概念类不可知PAC学习的最优样本复杂度",
+      "summary": "对于有限VC维d,它需要O((d + log(1/δ))/ε²)个样本,并输出一个全函数分类器,以至少1 − δ的概率使误差不超过类内最优误差加ε。",
+      "whyItMatters": "作者称这与Alon等人(FOCS 2021)的下界一致,因此是最优的。",
+      "category": "理论",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "The Optimal Sample Complexity of Agnostic PAC Learning for Partial Concept Classes",
+          "url": "https://arxiv.org/abs/2611.27946"
+        }
+      ]
+    },
+    {
+      "headline": "Tasklets提供小型合成任务,用于比较序列混合层的记忆、序列操作和状态追踪能力",
+      "summary": "作者认为任务选择各异使跨研究比较困难,因此按能力对任务分组并提供统一的评估设置。他们用小模型比较了多种层类型,并发布了代码。",
+      "whyItMatters": "摘要未报告具体数值结果;其贡献是一个可复现、低成本的测试平台。",
+      "category": "基准",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Tasklets: A Unit-Test Benchmark for Language Model Architectures",
+          "url": "https://arxiv.org/abs/2611.27607"
+        }
+      ]
+    },
+    {
+      "headline": "对扩散语言模型遗忘的稀疏自编码器审计发现:所追踪的动态并不能稳定改善权衡",
+      "summary": "在以WMDP为遗忘领域的LLaDA-8B-Instruct上,top-k稀疏自编码器和去噪状态重放显示,与遗忘相关的特征在各去噪阶段发生了显著变化。",
+      "whyItMatters": "但作者报告,在所评估的工作点上,追踪这些动态并未稳定改善遗忘与保留的权衡。",
+      "category": "方法",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Auditing Post-Training Unlearning in Diffusion Language Models using Sparse Autoencoders",
+          "url": "https://arxiv.org/abs/2611.27652"
+        }
+      ]
+    }
+  ]
+}

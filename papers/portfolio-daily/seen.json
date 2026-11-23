@@ -1,7 +1,53 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-21T15:06:47Z",
+  "updatedAt": "2026-11-23T18:59:30Z",
   "events": [
+    {
+      "date": "2026-11-23",
+      "headline": "Rocket Lab rallies 11% after its worst week ever as its CFO points to higher Electron prices; AST SpaceMobile jumps 14%",
+      "summary": "Headlines from Monday say Rocket Lab shares rose about 11% after the stock's worst week on record, and that the CFO sees 'very strong' Electron demand ahead and room for higher Electron prices.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSUUxOVJIRzM1dnYtSm5zc2F4eFhpdUhCVFRaaURsbEdtVUhyQ0YwMkxGMEIwTkNMN0p5Vl82LXp2ZEhyWjhueFlzZHg3ZlBDWW1kMEtrYWhhYVFsNW5uSVFIMmp6VEJjeDcxQkRrd0s2Y0JiWTFnSEtaeGZ3aXZaTUx0ajFzeVA0Smo4NkFWVThTLUZfZUtV?oc=5",
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMjVxT0dZMDFJNGxaclJjX0pIMVNKOG1jR3B5UDlIZzllZnhZLUd0cmFjSzJMVU5VRFlsbnpQWlJqM0NaeHRjRWNCRzhYaG9xVGN2X2EtT1F0S0xDbDh3Vm4yc1Nxc2N3N1JzOTEtX1JpUUpJWFNIMXNPNGxCV2NUV2xnUE5GVjRmT2d2M3BXSl83bEhCMGxoOFdFZ1EyMTFBUWdWMVdESEtiQkhPdnBmWHYwWjl0Y0s2NEZNaHJ3?oc=5"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "Investing.com asks why Alibaba's ADR is surging on Monday",
+      "summary": "The headline reports a surge in Alibaba's U.S.-listed shares on Nov. 23; the cause was not verified beyond the headline.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeDZMeHpPY0ExdHM1ZjZDOFpmajItazdvZ3VnZnZXMnBDbHdqbGdYNEdweWp2Zlg4bGoxZkhNS3dScXhvYUUxNGZYS2doZnN1S2l6U2VDUnp5YXFoZGZlelY0aEs4VW5iakNHUFRCUy10SW9xNG83ZDdic0w5c3dQQXg4c1g0MThIZDlLZTVnVkRQdVBfcUxENDhWTng4Mk9wRFE?oc=5"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "Gold bounces on Nov. 23, rising 2.43% and reclaiming $3,600 after a steep weekly drop",
+      "summary": "USA Today lists gold up 2.43% on Nov. 23, Kitco has it above $3,600 as the AI selloff reshapes the Fed outlook, and Mining.com says bargain hunters stepped in after the steep weekly decline.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQmsxSVE4YjNIOTdVYk5xOEVnb2VLQVBRQVprQ2ZLdl9Kenk2V0JjLWhlZ3pOcW1Ua3lxUy1RODlQMkhEZTFmSTRKelQ3TklqSTZYamhUekNGWmJCRndGMjc0bnFTZ0pxMjdnQ1U0V2RoNFRrNkpwY2dCY25MeWdwMktOZjNMZ3dwNlgyT3d2d3FwU2FpUVBvMm9fUWdva2lRcHFz?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxPenF6LTV0TWdncXg5WDBQNS1Dc2lSVEUwNmpsRzR0UGg4a0VOM21NN2hTNnN1Mk1fZDhmcWs1WU41UW9qcUFieEJnemYyRTdhZy1hakhLbHRXemltSTFVTnBFaEhLdDR5LTYyeElnTjBKdEVNeUFXRnFEQlh5bWllNU1vOEw3eHlaRXZBZzV1WlNXUWd6R3BHdmlTajdyZUJueU5vNTlCUmhvclZtLVRlamJyel9USGM?oc=5",
+        "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS3dFaXI2cXRwSWZwSHdFd3YyS211UW96RzE5LUF2enZRODktbjZpRTJlUC13MlBFNFhfNm5jV2NtdGZyYmZFcTVDM2JqenZJOVpjMVlzV2pRamowc0VfWW83bnFhX3BHck5SWXlPMlJLNlBXQ29zZzZjZHpwbnp4bm1WQzlXODFkblA4NHRKbG5HSEw3clZfMWdhRQ?oc=5"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "Bitcoin rebounds past $63,000 and crypto stocks rally, while Bloomberg flags a gathering ETF exodus",
+      "summary": "Barron's reports Strategy and crypto stocks rallying as bitcoin climbs past $63,000; CoinDesk says bitcoin is lagging a Nvidia-led AI rebound; Bloomberg's headline describes accelerating bitcoin ETF outflows removing a key source of suppor…",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdWVqNlRmN1FUTzZRWUo3ak12dkRfQzJMeWpiY2tyTXhUajJ6dmtkdHJmc2UtR2pOMC1lc2V1N0R4OVpGWE94cFBVbFE5Z0NlOXBWOENpNHpFWWw1RVJhU0xVd01QQTVkbjdfLXR2aVozcDA3eU42RTlXLV80U3pfZ3VkdnVPa09IdENrM2o5V3NKUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxNXzBzenEzLTFvSE9LVGZHckdMVDZ0am54clI3R3V2dFlSNVVnOFIwbnJ0WFd3NkJvOGxmR1FNRkVlNTRVZ05pMDIydXhPX1AyNjFnTWZIVk9OUEoxNlpxV0dueGFpUnM5VTM2ZVFLT1JNRE1mZkpZd3hBbC1TY1lwcnd5LW5EYV9hZlFsZW50bFVVYlVpNEJ2Yy1VM1QwWHZQeVRwTHJlX2J4QzBrQTlCb1Rn?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbFRHSHp2V2lIcEtIMlBTNVVIM0JyVzNCZmMyV21NdzNVZlBOU3lRRm10TXVEeHZJZ1VzZHdPYlRQTWhwUkZBRTFObmlURmlFT2lFREJxXzVkZE1SWjZjMmpmWUtyRXdqOWs2ZWRBeUJJdkRKcU1UQnQwd3RxY1RKSXd2TDdvN0lJdzB5LUlndFVOSzNlRzgtTDN2cm1ObE96eU5GMXJrOXA0dGhheEI0VVdUZw?oc=5"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "headline": "Alphabet stock trades higher on Monday, TradingView and Investing.com report",
+      "summary": "Both outlets carry headlines saying Alphabet shares were trading up on Nov. 23; the drivers were not verified beyond the headlines.",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcFptQ3RmT1VCa1htc21fY09VX3pyeU9YT0NXeU1UX3JxUFlTMFc1TG1nd3RCVlhPRUdMeTNGNUJTaDVCb2VSb3haQ2lycUFtdUllVmtUVW5rUXhBRmdNMnAzWU9vU2dTYVZZRFdiU0NBYnc3X0J4MlhYTkNIWEw2S0JIWHJKMFk0R0E3WENJWDZhU2lqS0dPX3RsUGh6RDM0?oc=5",
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxPUnFHZklYODFDandiVE9naDVEMjYtc0FDanZOWFNCVmd5WkxwUWdxMnZfRzdISXJ5MlBoWmIzNzJFSkpjZ0FWR0NVT1czaWR5bHhOU3dLamNxX0pmNTlhdExDV1RNWlplQVZiRVREUmVaV0RXWUQ3Wk5yenJSOXFrSU5NMVY4N3VmcTdkZnJhRzdNd1pyaTdyUF8tTUd4QQ?oc=5"
+      ]
+    },
     {
       "date": "2026-11-21",
       "headline": "Rocket Lab has now fallen seven straight sessions, down 31%, and Seeking Alpha has it sliding 11% in a broad pullback",
@@ -479,57 +525,6 @@
       "urls": [
         "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcXRiRmVwdjJDMVV1MFdIVFd1NXJKbGEtRU9qR2JWMFpDdlFmN0IwWUFpUHpsbWxOU1liRG9ud3hWcVhHaF9GNzNyaGs0YlJhUXBsbUFLT2JXbTJRODVpaGJGM3RrQXpaaUloUll0N3NnMjNocS00RjNKbks4OXo1S2tMN3F0SFN4dDE2UmhWV2tETkMwT3dkV3RCUzFnMDRycUFMSGFRSjFpSEplQkxV?oc=5",
         "https://news.google.com/rss/articles/CBMiywFBVV95cUxONElCUGQzLVZ6RTJhbjdUbUZlM0VoVXBmcndWUS1XRlY3SUFRT0xMTHpTMUZmTEl0REpWUHhOUmo5eks0WkRlOU5KVXN3WHFPWF9OVGNGYVBLek1rMW1LaEVLU3RUUm5xSkpfbXFZSlE1bkRSaGtGWHp4cnNLVnk4b3cyWi16YXVCUFprQ1dKaWJlaF9iQjVSYzZLUnMyQnk4LUNDT1dDTm5MQ214d0ozaF9OaVFuWE1xRzN1YWgtNkNFRVVVR1R6d1pOVQ?oc=5"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "headline": "Globalstar asks FCC to scrutinize Rocket Lab's $8B Iridium deal; reply deadline is Nov. 9",
-      "summary": "Globalstar told the FCC that Rocket Lab's role as its satellite supplier, via a $143 million subcontract with MDA, could become a competitive risk if Rocket Lab owns Iridium, though it did not oppose the merger. Rocket Lab and Iridium repl…",
-      "urls": [
-        "https://stocktwits.com/news-articles/markets/equity/rklb-iridium-deal-globalstar-spacex-concerns-rocketlab-fast-fcc-approval/cNGQHAcR957"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "headline": "StoneX says bitcoin's 12.5% plunge nears critical support",
-      "summary": "A StoneX headline says BTC/USD's 12.5% drop is approaching critical support. The headline gives no price levels.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcThiSUg4MXJzYXZoM0Q3UFoyMjVJZmgwdm1JU1A4SWQwQklvVWVMSmJycXFEdzNlemRvWmh1ajFzSDIwc0ozbHBnXzJPWEtfcGZtZEE1MVAzTEQ5Rzd3elhPcEZ2a2FYY3Z0eF85V2dsUjFRaHgwNG1OLUZNMjJieVFTVjJjaHRjbXkweDVEaXFZQjhDbHpjZmthYzloRTducy1NU1haakxyVHFzaFE3MGxjd1RPd28?oc=5"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "headline": "Rocket Lab climbs 13% in a rebound, Seeking Alpha reports; Stocktwits says it is protesting Blue Origin's $700M NASA Mars award",
-      "summary": "A Seeking Alpha headline says Rocket Lab rose 13%, rebounding from recent losses. A Stocktwits headline says the company protested Blue Origin's $700 million NASA Mars deal and called the review 'punitive'. The headlines give no further de…",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbzYyUmJ2bHVVRkFLempxM0h3MHBvYmdvaFVCQi1yRVlxNElEZnhnNVFxLWN2QVVsTER1dzNxSndidzRJOU9uVjdob2l6MlVTZXl0Y1lpQ0toRFl2LXJSX3o5YnNpd2tSWHRGVERuZ240X1E1V2s5ckRFS3N1UEU5Yk5MMTZpYTJ2WEhTY2s3WWdqUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbjMtSG1aVEJCTUR6dTdVUUVsY0lpNVhLNTNaTngyUFJhdVZobmQ5YkFfbDR4dEx1U1d2akhKaFFnNUx0cTFtN3JhMGFkNFlNUmptNXNHcnpHZnVpRDdvUGg1c0xRTTd1S3MzeUtYeWFUWGJ3Y2pvcjkwMlNFckhTUTNYSEEtRVlzU3NaN2Y5WjRqVk1TbHNBekt6Q1dvUDFmX3d2RTg3T0dFNXljWDlWVTdmZ1ZacEQ4djNabGpBWWZvUVBlQmdGN1g1V3lUVERfT3VR?oc=5"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "headline": "Motley Fool asks whether Google's new cryptocurrency push is a reason to buy Alphabet",
-      "summary": "A Motley Fool piece, syndicated on Yahoo Finance, examines a new Google cryptocurrency push. The headline is all we read, so the nature of the push is not described here.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQVhMTUlUQjBId3RNNHJsVmtOU0t3Zy0xb0dodjVtR3FTUVFsRnFWZTI1LUhtRXVjLWJNUnpQTjl4ckhfeDBEMzhOU3ZjRHNHMHpydk80SWd1aXUwY1BnTU5nQnExdDA5SWwyajRJQmJvWW1vMmo5NXV5ZVRDNmdwLTFCYWE0Mkt5empvOW9fV2hQb2Z3U0ZQVmNYdy1ZRlVRVnVCTE1n?oc=5"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "headline": "Gold holds the $4,000 level, Kitco says, as StoneX flags a 17% fall from the peak",
-      "summary": "Kitco's headline says gold held $4,000 support while strong US jobs data and inflation risks threaten a recovery. A StoneX headline says a 17% plunge threatens the multi-year uptrend.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMVFrY1hheExQaDduSlBRcndvS2FkcW84Y0UwRnVZUGRKSnJ5eW9keHNzemhJNEpadVQxRlJXMHNxYzhOVXVLakZNNTBBNmNsYTFadkpvN0Z4RnFwWUtYcVoxRlZjV3pNaWphd2FZRGt5eGp4Z20wc2xkeTN3dXFpa0xodkIwdGlQTHhCc05PQTBISkNjVjE1LTZSMUR0UV91SlFNR0x5STlSeEt6R2lOR0JsUXBURzk3V2c?oc=5",
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVc5VDAwZFdVZk0xR0l0MDcxSzl2OEtTQmcwMm5HVGptNi1RbU81RWdqclBpbHVzYi00c2J0bzE3dUUxeDNSRHlyRmRPMWdhQlFWUjNpNHhWNkdYVm83OTl6Q0tOR0QxQkVwNjY5OVZ1UzdjXzh4aGg5RFNtbHlZOGlPTzA4OVRSZ0hMWm5KemxDV296SUtZeTYwazJaUTJMUEpVSy1SN05xWnN0elM1YXBtMGhSNFYz?oc=5"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "headline": "Alibaba ADR outperforms the market on a strong Friday, MarketWatch says; Yahoo Finance notes a 12% weekly gain",
-      "summary": "A MarketWatch headline says Alibaba's ADR outperformed on a strong trading day. A Yahoo Finance headline says it gained 12% in a week while the Nasdaq fell.",
-      "urls": [
-        "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWjc3VEVZWjV3aE5sQ2xGSjh1RlFtV1l6cmdPVmFjMXlFTkdXcU9ZV2xIQ2Z3eXkzRUZ5Y2ZxNkhXWVBoUXp5M2ZBWEVtTGhSUVlLa3ZSX0RFaUhPZHB6akZqcTJrbVEtcHBxM0otUDQ4bTNxWldMTm90MmJUNVdPa2p6c3F1YzFKazFqTVMyQmVJQXJHdWdTTDNuTDFVeUgtSW9Eb3BvUUROTmMzeVJjdG1tTGhkOWl2ZS1vaGVRM0szZnd1TGZBeEtCN0hSS1d0SWN1WG04eEdlZGpoRHFRRUVn?oc=5",
-        "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWGxwSG5ub0Q3RGhpMUhzaDVDemp0Z01ZSDVRVmNMd3Q5YXAzakhrV2xoZVpNZUFXMDAzWWRfQU5hRWZKdW91WFJWTGk0dGtGQk9tYkV0SkdmOTZFS0htMkxTQlFKRXlEQks0UVFXRE16VVlFTHkzYzB3akQtQ0hpczQxSzU1VmhydF9KY3dKTnNDem01QXRz?oc=5"
       ]
     }
   ]
