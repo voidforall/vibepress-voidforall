@@ -5,6 +5,12 @@
   "template": "standard",
   "editions": [
     {
+      "id": "2026-11-24",
+      "date": "2026-11-24",
+      "headline": "Gold falls 1.80% on Nov. 24, USA Today reports; Kitco has it testing support near $3,600",
+      "storyCount": 5
+    },
+    {
       "id": "2026-11-23",
       "date": "2026-11-23",
       "headline": "Rocket Lab rallies 11% after its worst week ever as its CFO points to higher Electron prices; AST SpaceMobile jumps 14%",

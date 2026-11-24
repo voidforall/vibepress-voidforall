@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-24",
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T19:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "今日：针对防火墙管理系统的隐蔽入侵行动、一个Exchange替代方案、退出法国的DNS解析服务，两则关于模型可信度的内容，以及一项未经证实的交易指控。",
+  "stories": [
+    {
+      "headline": "GreyNoise追踪到一场入侵行动，波及至少22家机构的Check Point管理服务器",
+      "summary": "GreyNoise称，一场未归属的行动（编号GT13）将Rejetto HFS的cookie伪造漏洞与Check Point SmartConsole认证绕过漏洞串联使用，共有24台管理服务器的数据被保存。报告显示活动发生于10月初至11月2日。",
+      "whyItMatters": "受害者涵盖17个国家的金融、能源和政府等行业，攻击者还屏蔽了竞争对手对其中继服务器的访问。",
+      "category": "科技",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Cyberattack campaign compromising Check Point servers across 22 organizations (GreyNoise)",
+          "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign"
+        }
+      ]
+    },
+    {
+      "headline": "Stalwart 1.2.0支持Exchange协议，Outlook和手机邮件应用可直接连接",
+      "summary": "Stalwart的开源社区版现已实现MAPI over HTTP、EWS、ActiveSync和Autodiscover，并提供Vandelay工具从本地Exchange和Microsoft 365导入数据。公共文件夹、归档邮箱和NTLM/Kerberos登录不受支持。",
+      "whyItMatters": "自建邮件服务的用户无需更换所有客户端即可迁离Exchange；Exchange代码默认关闭，需通过Cargo特性启用。",
+      "category": "科技",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+          "url": "https://stalw.art/blog/microsoft-exchange-replacement/"
+        }
+      ]
+    },
+    {
+      "headline": "Quad9今日起对法国用户停止服务，上午9:00（巴黎时间），起因是法院支持的盗版封锁要求",
+      "summary": "Quad9表示，自11月24日中欧时间9:00起将拒绝来自法国用户的所有查询，原因是beIN的封锁要求、法国法院裁决及罚款。Quad9承认基于geoIP的识别会出现误封与漏封。",
+      "whyItMatters": "此前宣布的期限已到：一家公共解析服务选择退出一个国家，而不是实施内容封锁。",
+      "category": "商业",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Quad9 service deactivation in France",
+          "url": "https://quad9.net/news/blog/quad9-service-deactivation-in-france/"
+        }
+      ]
+    },
+    {
+      "headline": "一位博主认为LLM智能体服务于其母公司，想改用自建本地模型",
+      "summary": "Michael Harley称，他用Claude Code写的、用于查找艺术家Bandcamp页面的技能，在Bandcamp加入搜索验证后失效，Claude拒绝协助绕过，而同一技能仍能从YouTube获取歌曲。他由此希望自己运行一个模型。",
+      "whyItMatters": "这只是个人的叙述，但它是厂商政策左右个人工具行为的一个具体例子。",
+      "category": "观点",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "LLM agents work for their parent companies, not for you",
+          "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/"
+        }
+      ]
+    },
+    {
+      "headline": "论文：语言模型几乎察觉不到自身推理错误，但会对注入的怀疑作出反应",
+      "summary": "在数学任务上测试四个开源模型时，模型在首个错误处的口头置信度仍高达95.1%至99.9%。在出错步骤插入低置信度标记，可使纠错率提高3.7至22.5个百分点；而向正确步骤注入怀疑，则使解题率最多下降22.8个百分点。",
+      "whyItMatters": "作者的结论是：自我纠错的瓶颈在于即时发现错误，而不在于修正错误。",
+      "category": "观点",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ (arXiv)",
+          "url": "https://arxiv.org/abs/2611.31228v1"
+        }
+      ]
+    },
+    {
+      "headline": "一篇博文称黄仁勋复职前出现可疑的Polymarket押注，证据仅为旁证",
+      "summary": "该文称钱包“ljhggk”在特朗普发帖和英伟达宣布之前，以0.065美元买入约71,518份“黄仁勋年底前回归”合约（约4,649美元），回报约71,518美元。作者承认钱包所有者和资金来源未知，文中也存在前后不一之处。",
+      "whyItMatters": "这是英伟达复职一事的后续：来自一位自建监测工具的作者、尚未证实的内幕交易指控。",
+      "category": "商业",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
+          "url": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/"
+        }
+      ]
+    }
+  ]
+}

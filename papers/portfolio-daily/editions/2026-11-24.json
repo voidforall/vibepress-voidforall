@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-24",
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T19:00:00Z",
+  "editionTitle": "Portfolio Daily",
+  "editorNote": "A risk-off Tuesday: gold and bitcoin both slid, and space stocks gave back Monday's rally. Source text for several items was limited to headlines, which the summaries reflect.",
+  "stories": [
+    {
+      "headline": "Gold falls 1.80% on Nov. 24, USA Today reports; Kitco has it testing support near $3,600",
+      "summary": "USA Today's daily gold tracker has gold down 1.80% on Nov. 24, while Kitco's headline has the price testing support near $3,600 as U.S. consumer confidence rose sharply in November.",
+      "whyItMatters": "Gold, a watchlist holding, kept sliding a day after Monday's bounce.",
+      "category": "Commodities",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Gold Price Today: Gold Falls 1.80% on November 24, 2026 - USA Today",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdGV2LUZjZ21fUTFpcmtid3FCeXkxS3V5WXNZZ3lBdE1ZZ1hlaXhsdVJMVWZhdVhYeEdTVDFaOVJ2R3RPVG9Lb0tHWGIwWFhvcVo2U2FvX3l2NFdIVEdnMjJkWG9EX0pGa25LR0l2cWlYZ3hqVFJpQ1F6MU11bTAweGtZU1pXaUVWeGlXUHMyWjF1b1VGazAwZ2M3OEp5NVZHbUww?oc=5"
+        },
+        {
+          "title": "Gold price testing support near $3,600 as US Consumer Confidence sees sharp rise in November - Kitco",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONW1hcGJjNFlvQ1ppXzM3S0l5YUpzbkZhXzg1c2FPMEhLNVZ0dklmVW1TUHY3dmtxN21ZZVNvQVNHRzh0RXBtN2lmeGZ1OHVEVW5vNFdlYTdSZFFxY0tJU05vQkh1dVRXUk1lYl9NZko0eTd1cGdjRmR1WU5lUGtaTDNXYUxKZTNfcUpsc1c1MG9IRmVWUWFrTVVDV0s5OVJiNHRXRUIwb3ZMeVZzQ0N6a09TZF90MDhOOEoyeUpB?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Bitcoin drops below $60,000 and gives back its Nvidia-rally gains, Forbes says",
+      "summary": "Forbes reports bitcoin fell below $60,000, erasing gains from the Nvidia rally; Bloomberg's headline says it failed to hold the bump, and Yahoo Finance notes it nears $60K despite another Strategy purchase.",
+      "whyItMatters": "Bitcoin, a watchlist holding, is back near the two-year-low zone it hit last week.",
+      "category": "Crypto",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Bitcoin Price Drops Below $60,000 As Crypto Market Erases Gains From Nvidia Rally - Forbes",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQclJfX1V6cWRLc1lEUnlzSXZYaUp6Wk54Tlp3MXhVQzRMVlllT1B5dExIclAwSkktQ05zS0Ixd0ZKSnhPbUd0REtPLTFfb3YyVUV5QmRBZmgzZ2R2UTI2aXlaMk82TWU0RHZ3ZlVnZ2RySGFEMVM0em04TWFxaExETFhqSF84VF92YlJYUER6QTlyUFRwRE9yd2RtRUd6UEJFeVNTZkpyRDZUeXM2NG0tUG9EdUNNYy1RRUFJVXNlV0w?oc=5"
+        },
+        {
+          "title": "Bitcoin Fails to Hold Nvidia Bump With Crypto Headwinds in Focus - Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOEJWNUpxV1pydU9OT3Z4VnpWc2Q3dThJb1pwZXg5RjlBeGZBRE9SaDdqYmlMS3ZIWlBBNFdDckp0bTZRT1FDajNVV0dGZ1pRLTdFdi1mbjJxUG9PVGlWUXJxOEpqWWpaMkhadUJTVFVLRDBBOGFwWHJCQmYxaGtfSDJqUlpjWFRQN1dUakdjNEhaM2g3amVXZ05kVU9IbmMzNVJsNVNEb2M2Ul9Cd3ZybHRJbTdzZw?oc=5"
+        },
+        {
+          "title": "Bitcoin Price Nears $60K Despite Saylor's BTC Buy - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNR3RFT2VoT2dBZF9QR1JlWnM4YmRmYkNERXNVaGVHZE94am0tX1M0MTBsS3drZXVQeXAxbUVyVnJNX0ZtRngxWVkzQXFnNjhVMXZpR1Aya0lzMmNhUDkxNFdNcXh1UTZOX0VKeDRXTGZwbmRQcndQTnVaMDVWQUExVnBIcms3QUIzS0t2QXZXYnlZWldLTWxOMnRJX00?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Rocket Lab falls 9% as space stocks retrace Monday's rally, 24/7 Wall St. reports",
+      "summary": "24/7 Wall St. has AST SpaceMobile down 11%, Rocket Lab down 9% and SpaceX down 6% amid reported Tesla merger talks; Benzinga separately headlines a 6% Rocket Lab drop.",
+      "whyItMatters": "Rocket Lab gave back much of Monday's 11% rebound.",
+      "category": "Company",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "AST SpaceMobile Sinks 11%, Rocket Lab Falls 9% as Space Stocks Retrace Monday's Rally - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPUlhlSnFLV1JGQW1qbDBSbkZLd013WkRqRXhIYS1Wb2RSanBTbjBORWtheHVmaTRDX0lZWUtlMGpUNGJYQzhpdzZGYnhFWXFDNURzRWlTc2plcC04OHZPVXhCUlVzY1kwR0pKNmMyeWtZakFKdUJDTmlpTTEtcmlISlJlb19HYmRKYmtaWW9GZWFKVHBjMGpNaXJXRm1KQlJlTlFpTGlHb1ZoWmk3djBqZEpfRjBrMzU0WDdORTFCWXNUWm5naVdyOWlfN1RfRzlXVmppQ3AtRVd2MzQxUWVZU3RiT3pyUDRYcXRYS0dSNUItbHpQLUhiWVoxVHZWLXJxU0lzU2wzTFc?oc=5"
+        },
+        {
+          "title": "Rocket Lab Stock Drops 6%: What's Happening? - Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRDZFR2FsSUt4ZzRmYnY5bEQ0YW1EdzJpX1NTcFpYU1ZubURmQzZucDZ4NmNaaXlvTkhnZWpVWTY5TTFsWnBGeXZSbXl2YUQtdTM3OFRTZk1qeEkydnprTzRBM0lvV1lqdzBRa2RPRGpRVWVGSGVTSWh2cTdvdDdEbWpXVEJvX2hpLUZBUGxzd1Y1MjVtdVQ3ZVpCM2tTMjZNQy1V?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "Alphabet adds wallet data to its AI search, Yahoo Finance reports",
+      "summary": "Yahoo Finance's headline says Alphabet (GOOGL) is expanding AI search with wallet data; FXLeaders separately has the stock testing support as analysts reduce exposure and spending fears mount.",
+      "whyItMatters": "The story is a product expansion; the source text was not available beyond its headline.",
+      "category": "Company",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "Alphabet (GOOGL) Expands AI Search With Wallet Data - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSThiNzctTzdySGZNYlM1bWNra1lQbXNMclhNZm5kR3NtaFdsOXNiOTBPN2F3LVhWb08wdXZPVkxEU015Mkk3M2FTQkg3c3ZrS2dXN1E0NlVWcjJBdjlkUEJhSHd1MzFrTUY2M0wxVDFJLXpzbHpOcUxKbkJ3UmtrUDQzdy1obi1CSHBuMzNSYWVnX2xzMGIwWUJHWFA?oc=5"
+        },
+        {
+          "title": "Alphabet Stock GOOG Tests Support as Analysts Reduce Exposure and Google Spending Fears Mount - FXLeaders",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcVdPNFlqSXlBaEdsSGRIZ2VZOTA0blRuYW9sbHJ5cll4WEVXUDJNSVpsZHI3Qy1hSnJybjNKUWM3RDl1TEpjY3A4X2dRTjY5eDlEUFZXbGNVNWNJVkxqZmdPM0dtNGtoWUt2YWYyS2VmY0ZjY09rdXgtaUl3TGpBQ1BRZ29GSmZWZU84TDN5cFdLcTlZNFdEQmNleURiOHIyYmxoQVotamdGRmVBaUVFYzNuV1RYNVl2cTM4WWs3VlR5TUlRNnFZWnNDdG4xRl84Nmc?oc=5"
+        }
+      ]
+    },
+    {
+      "headline": "DA Davidson reiterates its Buy rating on Duolingo, citing a Pokemon Go lift, Investing.com reports",
+      "summary": "Investing.com's headline says DA Davidson reiterated its Buy rating on Duolingo (DUOL) on a Pokemon Go lift.",
+      "whyItMatters": "An analyst rating reiteration is a disclosed view, not a change in Duolingo's reported results.",
+      "category": "Company",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "DA Davidson reiterates Duolingo stock buy rating on Pokemon Go lift - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQR1pBOENzd2R1eVNOSmxycmlEZTMtQzQ3cUExMTBWbmZPZGNtOWdTeFhnVm5XZVdxdG50VzJSOXpyZ2VIZ1RTeHFQTFZ1VUl1RmlITjRxSG8tU2VsZkdFcEpzWkJhbVNyMDhLTDVJSzRLaFFSQ3duYlJ5b0RFOENHTU4tVFZDeGNONlZ1VHBoR016ZUs1eXN4eldtZ1dITEFtWUJMV0hSaU9rTnVySC1TUmdYZjNEQ3Z6d3N5RnBNMmtDQ0J6Q2c?oc=5"
+        }
+      ]
+    }
+  ]
+}

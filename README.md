@@ -8,8 +8,8 @@ _Self-publishing dailies, made with vibepress_
 
 | Paper | Covers | Cadence | Latest edition |
 | --- | --- | --- | --- |
-| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “Nvidia's board reinstates Jensen Huang as CEO, effective immediately” · 2026-11-23 |
-| 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Rocket Lab rallies 11% after its worst week ever as its CFO points to…” · 2026-11-23 |
+| 📡 [The Vibe Signal](https://voidforall.github.io/vibepress-voidforall/#/the-vibe-signal) | AI & tech, distilled daily | Daily | “GreyNoise tracks an intrusion campaign that reached Check Point manag…” · 2026-11-24 |
+| 📈 [Portfolio Daily](https://voidforall.github.io/vibepress-voidforall/#/portfolio-daily) | Your holdings, yesterday's news | Daily | “Gold falls 1.80% on Nov. 24, USA Today reports; Kitco has it testing…” · 2026-11-24 |
 | 🔬 [Research Radar](https://voidforall.github.io/vibepress-voidforall/#/research-radar) | The week in AI research, distilled | Weekly (Mon) | “Model Carving learns a Transformer's weights and topology together wi…” · 2026-11-23 |
 | 🪐 [The Cosmic Dispatch](https://voidforall.github.io/vibepress-voidforall/#/cosmic-dispatch) | Space, astronomy, and the odd asteroid | Weekly (Thu) | “Starship Flight 15: the ship is caught from orbit for the first time,…” · 2026-11-19 |
 | 🌸 [The Otaku Times](https://voidforall.github.io/vibepress-voidforall/#/otaku-times) | Anime & manga, and what to watch next | Monthly | “Death Stranding Isolations drops its first teaser and staff list, bou…” · 2026-11-01 |

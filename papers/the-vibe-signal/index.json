@@ -5,6 +5,12 @@
   "template": "classic",
   "editions": [
     {
+      "id": "2026-11-24",
+      "date": "2026-11-24",
+      "headline": "GreyNoise tracks an intrusion campaign that reached Check Point management servers at 22 or more organizations",
+      "storyCount": 6
+    },
+    {
       "id": "2026-11-23",
       "date": "2026-11-23",
       "headline": "Nvidia's board reinstates Jensen Huang as CEO, effective immediately",

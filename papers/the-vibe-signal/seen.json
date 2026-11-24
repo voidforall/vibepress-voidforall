@@ -1,7 +1,55 @@
 {
   "windowDays": 14,
-  "updatedAt": "2026-11-23T18:59:31Z",
+  "updatedAt": "2026-11-24T18:38:56Z",
   "events": [
+    {
+      "date": "2026-11-24",
+      "headline": "Stalwart 1.2.0 speaks Exchange's protocols, so Outlook and phone mail apps can point at it",
+      "summary": "Stalwart's open-source Community edition now implements MAPI over HTTP, EWS, ActiveSync and Autodiscover, and a Vandelay tool imports from on-premises Exchange and Microsoft 365. Public folders, archive mailboxes and NTLM/Kerberos sign-in…",
+      "urls": [
+        "https://stalw.art/blog/microsoft-exchange-replacement/"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "headline": "Quad9 goes dark for French users today, 09:00 Paris time, after court-backed piracy-blocking demands",
+      "summary": "Quad9 said it would refuse all queries from French users from Nov. 24 at 09:00 CET, citing beIN's blocking demands, French court rulings and fines. It admits geoIP identification will over- and under-block.",
+      "urls": [
+        "https://quad9.net/news/blog/quad9-service-deactivation-in-france/"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "headline": "Paper: language models barely notice their own reasoning errors, but respond to injected doubt",
+      "summary": "Across four open-weight 7B–14B-class models on math tasks, verbalized confidence at a model's first error stayed at 95.1–99.9%. Inserting a low-confidence tag at the error step improved correction by 3.7 to 22.5 points, while injecting dou…",
+      "urls": [
+        "https://arxiv.org/abs/2611.31228v1"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "headline": "GreyNoise tracks an intrusion campaign that reached Check Point management servers at 22 or more organizations",
+      "summary": "GreyNoise says an unattributed campaign, tracked as GT13, chained a Rejetto HFS cookie-forgery flaw with a Check Point SmartConsole authentication bypass, with data saved from 24 management servers. Its report puts activity between early O…",
+      "urls": [
+        "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "headline": "A blogger argues LLM agents serve their parent companies, and wants a homelab model instead",
+      "summary": "Michael Harley says his Claude Code skill for finding an artist's Bandcamp page broke after Bandcamp added a search challenge, and that Claude declined to help get around it while the same skill could still fetch the song from YouTube. He…",
+      "urls": [
+        "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "headline": "A blog post alleges a suspicious Polymarket bet before Jensen Huang's reinstatement; the evidence is circumstantial",
+      "summary": "The post says wallet 'ljhggk' bought about 71,518 shares at $0.065 (about $4,649) on a Huang-returns-by-year-end contract before Trump's Truth Social post and Nvidia's announcement, for a roughly $71,518 payout. The author concedes the wal…",
+      "urls": [
+        "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/"
+      ]
+    },
     {
       "date": "2026-11-23",
       "headline": "xnulinux loads Apple's XNU kernel as a module into Linux so macOS and Linux processes share the CPUs",
@@ -597,38 +645,6 @@
       "summary": "The Strands team reports its Decider model, a Gemma 4 E4B build that returns probabilities over a 20-label catalog, cut cost per ticket from about $0.0222 to about $0.0005 and call time from 4,215 ms to 897 ms. The post does not publish ac…",
       "urls": [
         "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/"
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "headline": "Researchers chain an exposed admin tool and hardcoded keys into remote unlocking of an automaker's cars",
-      "summary": "Security researcher shubs, with Sam Curry, describes finding an internet-facing admin tool for an unnamed automaker's connected-car platform whose APIs needed little beyond API keys in its JavaScript bundle. That let them go from plate to…",
-      "urls": [
-        "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/"
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "headline": "Outlook.com is reportedly rejecting some mail from domains with no DMARC record",
-      "summary": "MailRoute says that since Nov. 5 Microsoft's consumer mail service has bounced some messages from domains lacking DMARC with a '550 5.7.1 … lacks SPF/DKIM/DMARC Auth Records' error, including from small senders. It says Microsoft had publi…",
-      "urls": [
-        "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc"
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "headline": "A Hacker News post says ChatGPT Desktop forwards your SSH agent to remote machines",
-      "summary": "The post claims an agent running on a remote machine can authenticate with your local SSH credentials, for example to push to private GitHub repos, and links a pull request discussion as proof; we read the HN thread, not that link. Comment…",
-      "urls": [
-        "https://news.ycombinator.com/item?id=50422628"
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "headline": "'Declarative Dragging' wins best paper at UIST 2026 with a model-driven approach to drag-and-drop",
-      "summary": "The authors propose specifying, for each draggable element, which future application states dragging should lead to; an engine speculatively renders those states and synthesizes a smooth drag interaction. Dragology is the accompanying libr…",
-      "urls": [
-        "https://declarative-dragging.github.io/"
       ]
     }
   ]

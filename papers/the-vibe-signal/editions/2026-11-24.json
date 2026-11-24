@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-24",
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T19:00:00Z",
+  "editionTitle": "The Vibe Signal",
+  "editorNote": "Today: a quiet intrusion campaign against firewall management, an Exchange alternative, a DNS resolver leaving France, and two items on how far to trust models, plus an unverified trading claim.",
+  "stories": [
+    {
+      "headline": "GreyNoise tracks an intrusion campaign that reached Check Point management servers at 22 or more organizations",
+      "summary": "GreyNoise says an unattributed campaign, tracked as GT13, chained a Rejetto HFS cookie-forgery flaw with a Check Point SmartConsole authentication bypass, with data saved from 24 management servers. Its report puts activity between early October and Nov. 2.",
+      "whyItMatters": "Victims span financial services, energy and government across 17 countries, and the attacker blocked rivals from its relay.",
+      "category": "Technology",
+      "importance": 1,
+      "sourceLinks": [
+        {
+          "title": "Cyberattack campaign compromising Check Point servers across 22 organizations (GreyNoise)",
+          "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign"
+        }
+      ]
+    },
+    {
+      "headline": "Stalwart 1.2.0 speaks Exchange's protocols, so Outlook and phone mail apps can point at it",
+      "summary": "Stalwart's open-source Community edition now implements MAPI over HTTP, EWS, ActiveSync and Autodiscover, and a Vandelay tool imports from on-premises Exchange and Microsoft 365. Public folders, archive mailboxes and NTLM/Kerberos sign-in are not supported.",
+      "whyItMatters": "Self-hosters get a documented route off Exchange without changing every client, with the Exchange code off by default behind a Cargo feature.",
+      "category": "Technology",
+      "importance": 2,
+      "sourceLinks": [
+        {
+          "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+          "url": "https://stalw.art/blog/microsoft-exchange-replacement/"
+        }
+      ]
+    },
+    {
+      "headline": "Quad9 goes dark for French users today, 09:00 Paris time, after court-backed piracy-blocking demands",
+      "summary": "Quad9 said it would refuse all queries from French users from Nov. 24 at 09:00 CET, citing beIN's blocking demands, French court rulings and fines. It admits geoIP identification will over- and under-block.",
+      "whyItMatters": "A previously announced deadline has arrived: a public resolver is leaving a country rather than apply content blocking.",
+      "category": "Business",
+      "importance": 3,
+      "sourceLinks": [
+        {
+          "title": "Quad9 service deactivation in France",
+          "url": "https://quad9.net/news/blog/quad9-service-deactivation-in-france/"
+        }
+      ]
+    },
+    {
+      "headline": "A blogger argues LLM agents serve their parent companies, and wants a homelab model instead",
+      "summary": "Michael Harley says his Claude Code skill for finding an artist's Bandcamp page broke after Bandcamp added a search challenge, and that Claude declined to help get around it while the same skill could still fetch the song from YouTube. He concludes he wants a model he runs himself.",
+      "whyItMatters": "This is one user's account, but it is a concrete case of vendor policy shaping what a personal tool will do.",
+      "category": "Ideas",
+      "importance": 4,
+      "sourceLinks": [
+        {
+          "title": "LLM agents work for their parent companies, not for you",
+          "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/"
+        }
+      ]
+    },
+    {
+      "headline": "Paper: language models barely notice their own reasoning errors, but respond to injected doubt",
+      "summary": "Across four open-weight 7B–14B-class models on math tasks, verbalized confidence at a model's first error stayed at 95.1–99.9%. Inserting a low-confidence tag at the error step improved correction by 3.7 to 22.5 points, while injecting doubt into correct steps cut solve rates by up to 22.8 points.",
+      "whyItMatters": "The author's conclusion is that self-correction is limited by detecting errors in the moment, not by fixing them.",
+      "category": "Ideas",
+      "importance": 5,
+      "sourceLinks": [
+        {
+          "title": "Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ (arXiv)",
+          "url": "https://arxiv.org/abs/2611.31228v1"
+        }
+      ]
+    },
+    {
+      "headline": "A blog post alleges a suspicious Polymarket bet before Jensen Huang's reinstatement; the evidence is circumstantial",
+      "summary": "The post says wallet 'ljhggk' bought about 71,518 shares at $0.065 (about $4,649) on a Huang-returns-by-year-end contract before Trump's Truth Social post and Nvidia's announcement, for a roughly $71,518 payout. The author concedes the wallet owner and funding source are unknown, and the post has internal inconsistencies.",
+      "whyItMatters": "A follow-up to Nvidia's reinstatement: an unverified insider-trading claim from an author who built a monitoring tool.",
+      "category": "Business",
+      "importance": 6,
+      "sourceLinks": [
+        {
+          "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
+          "url": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/"
+        }
+      ]
+    }
+  ]
+}
